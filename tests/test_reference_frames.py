@@ -55,6 +55,31 @@ class FilterTests(unittest.TestCase):
         self.assertIn("y=ih/2", graph)
 
 
+class YtDlpCommandTests(unittest.TestCase):
+    def test_list_and_fetch_use_cli_or_module_fallback(self):
+        for executable, expected_prefix in (("/usr/bin/yt-dlp", ["/usr/bin/yt-dlp"]),
+                                             (None, [reference_frames.sys.executable, "-m", "yt_dlp"])):
+            with self.subTest(executable=executable), tempfile.TemporaryDirectory() as scratch:
+                with patch.object(reference_frames.shutil, "which", return_value=executable), \
+                     patch.object(reference_frames.subprocess, "call", return_value=0) as call:
+                    self.assertEqual(reference_frames.list_clips("channel", 12), 0)
+                list_command = call.call_args.args[0]
+                self.assertEqual(list_command[:len(expected_prefix)], expected_prefix)
+                self.assertIn("--flat-playlist", list_command)
+                self.assertEqual(list_command[-1], "https://www.twitch.tv/channel/clips?filter=clips&range=all")
+
+                clip_path = Path(scratch) / "download.mp4"
+                clip_path.touch()
+                with patch.object(reference_frames.shutil, "which", return_value=executable), \
+                     patch.object(reference_frames.subprocess, "call", return_value=0) as call, \
+                     patch.object(reference_frames, "info", return_value=(60, 4.0, 1280, 720)):
+                    self.assertEqual(reference_frames.fetch("clip-slug", scratch), 0)
+                fetch_command = call.call_args.args[0]
+                self.assertEqual(fetch_command[:len(expected_prefix)], expected_prefix)
+                self.assertEqual(fetch_command[len(expected_prefix):len(expected_prefix) + 3], ["-q", "--no-warnings", "-f"])
+                self.assertEqual(fetch_command[-1], "https://clips.twitch.tv/clip-slug")
+
+
 class MeasureTests(unittest.TestCase):
     def test_frame_records_keep_source_indexes_and_half_open_native_pts(self):
         payload = {"frames": [{"best_effort_timestamp_time": t} for t in

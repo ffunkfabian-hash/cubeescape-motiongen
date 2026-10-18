@@ -30,6 +30,7 @@ import argparse
 import json
 import math
 import os
+import shutil
 import subprocess
 import sys
 import tempfile
@@ -158,10 +159,16 @@ def sheet(path: str, prefix: str, start: float, end: float, fps: float, cols: in
     return outputs
 
 
+def yt_dlp_command() -> list[str]:
+    """Return a command prefix for yt-dlp, using the installed module as a fallback."""
+    executable = shutil.which("yt-dlp")
+    return [executable] if executable else [sys.executable, "-m", "yt_dlp"]
+
+
 def list_clips(channel: str, top: int) -> int:
     url = f"https://www.twitch.tv/{channel}/clips?filter=clips&range=all"
-    command = ["yt-dlp", "--flat-playlist", "--print", "%(id)s|%(url)s|%(title)s|%(duration)s|%(view_count)s",
-               "--playlist-end", str(top), url]
+    command = yt_dlp_command() + ["--flat-playlist", "--print", "%(id)s|%(url)s|%(title)s|%(duration)s|%(view_count)s",
+                                  "--playlist-end", str(top), url]
     return subprocess.call(command)
 
 
@@ -169,7 +176,7 @@ def fetch(clip: str, out_dir: str) -> int:
     url = clip if clip.startswith("http") else TWITCH_CLIP_PREFIX + clip
     Path(out_dir).mkdir(parents=True, exist_ok=True)
     template = os.path.join(out_dir, "%(uploader)s_%(id)s.%(ext)s")
-    code = subprocess.call(["yt-dlp", "-q", "--no-warnings", "-f", "best[height<=1080]", "-o", template, url])
+    code = subprocess.call(yt_dlp_command() + ["-q", "--no-warnings", "-f", "best[height<=1080]", "-o", template, url])
     if code != 0:
         return code
     newest = max(Path(out_dir).glob("*.mp4"), key=lambda p: p.stat().st_mtime)

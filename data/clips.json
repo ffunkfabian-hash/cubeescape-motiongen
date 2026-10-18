@@ -232,5 +232,53 @@
     "clip": "https://twitch.tv/falloutplays/clip/BusyUninterestedMarrowNononoCat-UZHNrFARTaH-7Hcr",
     "source": "`twitch.tv/falloutplays/clip/BusyUninterestedMarrowNononoCat-UZHNrFARTaH-7Hcr` („Arby AE Testing“, Spieler MattyIceGaming39, 08.11.2022), 60 Bilder/s",
     "timestamps": "Hüfte: Körper ≈ 50–100 % Breite × 15–100 % Höhe (sehr groß, Trommel rechts), Mündung ≈ 60 / 30 · Mündungsfeuer **3,717** (Zähler 2 → 1), Geschoss sichtbar 3,733–3,783, Einschlag 3,850 · Kick klein (≈ 1–2 % Höhe), Waffe ruhig ab 3,80 · **Nachladen 11,53 → 13,40 (1,87 s):** Waffe kippt 11,53–11,67 nach rechts-unten quer (Lauf waagerecht), bleibt quer bis 12,75, neue Granate von rechts 12,77–13,02 (grünes Leuchten), Kippen zurück und Hüfte 13,05–13,40 (blaues Leuchten am Lauf)"
+  },
+  {
+    "measurement": "Automatikgewehr: vollständiges PvE-Nachladen mit HUD-Marker",
+    "clip": "https://twitch.tv/datto/clip/AbstruseUninterestedWolfNotLikeThis",
+    "source": "Twitch, Datto, 07.12.2018; Scourge of the Past, 1600 × 900, 60 Bilder/s; Modell und Perks nicht belegt",
+    "timestamps": "Hochdrehen 11,533 s · Magazin unten heraus ca.11,85–12,20 · neues Magazin von unten ca.12,65–12,90 · HUD 28→40 bei 13,033 · Rückdrehen ab 13,383 · Hüftpassage 13,583 · ADS 13,733"
+  },
+  {
+    "measurement": "Automatikgewehr: PvE-ADS ein/aus vor dem Nachladen",
+    "clip": "https://twitch.tv/datto/clip/AbstruseUninterestedWolfNotLikeThis",
+    "source": "Twitch, Datto, 07.12.2018; Scourge of the Past, 1600 × 900,60 Bilder/s",
+    "timestamps": "ADS-Bewegung 8,900 · Visier mittig 9,000 · ADS aus 11,283 · Hüfte 11,400 · Reload 11,533"
+  },
+  {
+    "measurement": "Scharfschütze → Automatikgewehr: PvE-Wechsel direkt ins ADS",
+    "clip": "https://twitch.tv/datto/clip/FrigidSarcasticChinchillaBlargNaut",
+    "source": "Twitch, Datto,15.09.2018; Riven-PvE,1600 × 900,60 Bilder/s; Well of Radiance im HUD sichtbar",
+    "timestamps": "Scope-Verkleinerung 16,084 · Scharfschütze ganz weg 16,417 · Gewehr erscheint 16,751 · Visier mittig 16,917 · Schuss 16,951"
+  },
+  {
+    "measurement": "Maschinenpistole: PvE-Hüfthaltung, Mündung, Holo-Gehäuse und Arme",
+    "clip": "https://twitch.tv/saltagreppo/clip/GlutenFreeDaintyYamBudStar-I3SODhDZUsjXeXm1",
+    "source": "Twitch, Saltagreppo (Broadcaster), 26.08.2022; Clip „Elysium kill Warpriest“",
+    "timestamps": "0,200 s Originalbild mit Kreuz; native 0,250–0,334 s; 60 fps, Lage ± 3 %"
+  },
+  {
+    "measurement": "Maschinenpistole → lineares Fusionsgewehr: Wegstecken, Pause und Ziehen im PvE",
+    "clip": "https://twitch.tv/saltagreppo/clip/GlutenFreeDaintyYamBudStar-I3SODhDZUsjXeXm1",
+    "source": "Twitch, Saltagreppo (Broadcaster), 26.08.2022; Clip „Elysium kill Warpriest“",
+    "timestamps": "MP letzte sichtbare Teile 1,084 s → vollständig weg 1,101 s; lineare Fusion erscheint 1,500 s → Hüftposition 1,784 s; native 60 fps,± 1 Bild"
+  },
+  {
+    "measurement": "Gewehr im PvE: ADS ein/aus, hohe offene Glasoptik und Reticle",
+    "clip": "https://twitch.tv/mactics/clip/SmoggyFurryVanillaChefFrank-H1m5Sr7-t2LvphQk",
+    "source": "Mactics, 11.10.2024, Twitch-Clip „8 Million Servitors in a Trenchcoat | Vesper's Host Dungeon“",
+    "timestamps": "ADS erste Bewegung 2,833 s → Endlage 2,900 s; ADS aus erste Bewegung 3,933 s → Hüfthaltung 4,017 s; Reticle/Glasoptik 3,500–3,517 s"
+  },
+  {
+    "measurement": "Raketenwerfer im PvE: Ziehen direkt in ADS, rechteckige Bild-in-Linse-Optik und ADS aus in Wechsel",
+    "clip": "https://twitch.tv/saltagreppo/clip/NiceAuspiciousScorpionDatSheffy-ALH4TQ8yBKxiEOH5",
+    "source": "Saltagreppo, 06.03.2022, Twitch-Clip „World's First Vow of The Disciple“",
+    "timestamps": "Optik seitlich frei sichtbar 1,500 s → deutlicher Zug zur Mitte 1,550 s → ruhige ADS-Endgröße 1,767 s; Detail 1,834 s; Verlassen der ADS-Lage 2,017 s → Optik unten rechts 2,233 s → Waffe ganz weg 2,334 s; zweiter Zyklus 12,600–13,334 s"
+  },
+  {
+    "measurement": "Raketenwerfer im PvE: ADS-Schuss, Optik kommt zur Kamera und steigt; Rückstellung durch Wechsel begrenzt",
+    "clip": "https://twitch.tv/saltagreppo/clip/NiceAuspiciousScorpionDatSheffy-ALH4TQ8yBKxiEOH5",
+    "source": "Saltagreppo, 06.03.2022, Twitch-Clip „World's First Vow of The Disciple“",
+    "timestamps": "Ruhe 1,834–1,867 s → erster Blitz/Zähler 1→0 bei 1,884 s → große nahe Optik 1,950 s, bleibt groß bis 2,000 s → ADS aus/Wechsel ab 2,017 s; zweiter Schuss 12,950 s"
   }
 ]
