@@ -430,5 +430,233 @@
     "clip": "https://twitch.tv/iniquity/clip/HorribleSmokySwanRalpherZ",
     "source": "`twitch.tv/iniquity/clip/HorribleSmokySwanRalpherZ` („CLIPPED“, Spieler 1000gecs_, 02.11.2020, Titanfall 2, 1600 × 900)",
     "timestamps": "Hüfte tief rechts bis 23,983 · steigt zur Mitte 24,000–24,083 · **Mündungsfeuer ab 24,100**, Visier auf dem Kreuz 24,117 · Feuer bis ≈ 24,50 (Blitz in jedem 2.–3. Bild, Waffe zittert ≤ 2 %) · Senken 24,533–24,650 · Hüfte rechts unten 24,667"
+  },
+  {
+    "measurement": "Portalkanone: Hüftlage, Zielpunkt und Arme",
+    "clip": "https://twitch.tv/msushi/clip/GiftedDifficultFennel4Head-7C5qK7ibLUM_b9VE",
+    "source": "msushi (Broadcaster), 31.08.2026, 1920 × 1080, 60 fps; Portal-2-Laserkammer, weißes Gerät; Build/Mod-Version unbekannt",
+    "timestamps": "0,000 s"
+  },
+  {
+    "measurement": "Portalkanone: Bewegung beim Gehen und Umsehen",
+    "clip": "https://twitch.tv/msushi/clip/GiftedDifficultFennel4Head-7C5qK7ibLUM_b9VE",
+    "source": "msushi (Broadcaster), 31.08.2026, 1920 × 1080, 60 fps; Portal-2-Laserkammer, weißes Gerät; Build/Mod-Version unbekannt",
+    "timestamps": "0,000–1,000 s; Einzelbilder 0,000 · 0,200 · 0,400 · 0,600 · 0,800 · 1,000 s"
+  },
+  {
+    "measurement": "Portalkanone: orangefarbener Schuss, Blitz und Gerätebewegung",
+    "clip": "https://twitch.tv/msushi/clip/GiftedDifficultFennel4Head-7C5qK7ibLUM_b9VE",
+    "source": "msushi (Broadcaster), 31.08.2026, 1920 × 1080, 60 fps; Portal-2-Laserkammer, weißes Gerät; Build/Mod-Version unbekannt",
+    "timestamps": "vorher 4,933 · Blitz 4,950 · Blitz weg 4,967 · Klaue wieder auf Ausgangshöhe ≈ 5,083 · orange Anzeige sichtbar 5,183–5,583 s"
+  },
+  {
+    "measurement": "Portalkanone: blaue Schüsse und Leuchten im Speedrun Mod",
+    "clip": "https://twitch.tv/msushi/clip/AmazingBenevolentClintmullinsTriHard-PzkpXiRNLMwRyEps",
+    "source": "msushi (Broadcaster), 03.03.2024, 1920 × 1080, 60 fps; Portal 2 Speedrun Mod laut HUD; violette Gerätetextur; Build/Mod-Version unbekannt",
+    "timestamps": "rohrnahes Schussleuchten 3,250–3,267 und 3,517–3,533 · dort nicht mehr sichtbar 3,283 bzw. 3,550 · blauer Portaleffekt 3,700–3,983 s"
+  },
+  {
+    "measurement": "Portalkanone: Beginn des sichtbaren Objekt-Haltens",
+    "clip": "https://twitch.tv/msushi/clip/AmazingBenevolentClintmullinsTriHard-PzkpXiRNLMwRyEps",
+    "source": "msushi (Broadcaster), 03.03.2024, 1920 × 1080, 60 fps; Portal 2 Speedrun Mod laut HUD; violette Gerätetextur; Build/Mod-Version unbekannt",
+    "timestamps": "keine Haltebögen 0,700 · erster weißer Haltebogen 0,717 · Objekt vor der Kamera 0,750–1,200 s; erneut Haltebögen ab 3,817 s"
+  },
+  {
+    "measurement": "Portalkanone: Schwebeort und Kameradrehung mit Reflexionswürfel",
+    "clip": "https://twitch.tv/msushi/clip/AmazingBenevolentClintmullinsTriHard-PzkpXiRNLMwRyEps",
+    "source": "msushi (Broadcaster), 03.03.2024, 1920 × 1080, 60 fps; Portal 2 Speedrun Mod laut HUD; violette Gerätetextur; Build/Mod-Version unbekannt",
+    "timestamps": "1,200 · 1,500 · 1,800 s; Vergleich 7,600 · 8,000 · 8,600 s"
+  },
+  {
+    "measurement": "Gravity Gun orange: Hüftlage und Arme",
+    "clip": "https://twitch.tv/chili_n_such/clip/AbnegateDrabCourgetteNinjaGrumpy",
+    "source": "chili_n_such, 05.01.2017",
+    "timestamps": "23,550 s"
+  },
+  {
+    "measurement": "Gravity Gun orange: Anziehen einer Kiste",
+    "clip": "https://twitch.tv/chili_n_such/clip/AbnegateDrabCourgetteNinjaGrumpy",
+    "source": "chili_n_such, 05.01.2017",
+    "timestamps": "23,699 s → 23,716 s → 23,883 s"
+  },
+  {
+    "measurement": "Gravity Gun orange: Kiste folgt Kameradrehung",
+    "clip": "https://twitch.tv/chili_n_such/clip/AbnegateDrabCourgetteNinjaGrumpy",
+    "source": "chili_n_such, 05.01.2017",
+    "timestamps": "23,883 s → 24,100 s → 24,399 s"
+  },
+  {
+    "measurement": "Gravity Gun orange: Senken bei weiter sichtbarer Kiste",
+    "clip": "https://twitch.tv/chili_n_such/clip/AbnegateDrabCourgetteNinjaGrumpy",
+    "source": "chili_n_such, 05.01.2017",
+    "timestamps": "24,616 s → 24,799 s"
+  },
+  {
+    "measurement": "Gravity Gun orange: Haltung beim Umsehen (HL1-Movement-Variante)",
+    "clip": "https://twitch.tv/waezone/clip/RenownedFaintRaisinJKanStyle",
+    "source": "waezone, 14.08.2018",
+    "timestamps": "2,000 s · 4,201 s · 4,501 s"
+  },
+  {
+    "measurement": "Gravity Gun blau: Annäherung der Energiekugel",
+    "clip": "https://twitch.tv/sourceruns/clip/DarkFuriousSharkJonCarnage",
+    "source": "SourceRuns, 21.09.2019",
+    "timestamps": "9,450 s → 9,550 s → 9,900 s"
+  },
+  {
+    "measurement": "Gravity Gun blau: Haltepunkt bei Kameradrehung",
+    "clip": "https://twitch.tv/sourceruns/clip/DarkFuriousSharkJonCarnage",
+    "source": "SourceRuns, 21.09.2019",
+    "timestamps": "9,900 s → 11,000 s"
+  },
+  {
+    "measurement": "Gravity Gun blau: Abgabeimpuls und überlagerte Rückkehr",
+    "clip": "https://twitch.tv/sourceruns/clip/DarkFuriousSharkJonCarnage",
+    "source": "SourceRuns, 21.09.2019",
+    "timestamps": "12,100 s → 12,116 s → 12,150 s"
+  },
+  {
+    "measurement": "Armkanone: Hüftlage und Umsehen (Originalfamilie)",
+    "clip": "https://twitch.tv/bashprime/clip/ObedientImpartialDiscDuDudu",
+    "source": "`https://twitch.tv/bashprime/clip/ObedientImpartialDiscDuDudu` (BashPrime, 26.10.2018, Originalfamilie)",
+    "timestamps": "Lage 2,950 s; Umsehen 0,000–1,000 s"
+  },
+  {
+    "measurement": "Combat Visor → Scan Visor (Originalfamilie)",
+    "clip": "https://twitch.tv/bashprime/clip/ObedientImpartialDiscDuDudu",
+    "source": "`https://twitch.tv/bashprime/clip/ObedientImpartialDiscDuDudu` (BashPrime, 26.10.2018, Originalfamilie)",
+    "timestamps": "Senken ab 1,100 s → Kanone weg 1,251 s → erste Scanrahmenlinien 1,317 s"
+  },
+  {
+    "measurement": "Scan Visor → Combat Visor (Originalfamilie)",
+    "clip": "https://twitch.tv/bashprime/clip/ObedientImpartialDiscDuDudu",
+    "source": "`https://twitch.tv/bashprime/clip/ObedientImpartialDiscDuDudu` (BashPrime, 26.10.2018, Originalfamilie)",
+    "timestamps": "Scanrahmen blendet aus ab 2,417 s → Kanone erscheint 2,567 s → untere rechte Haltung 2,834 s"
+  },
+  {
+    "measurement": "Armkanone: sichtbares Laden bis volle Ladehülle (Originalgrafik, Randomizer)",
+    "clip": "https://twitch.tv/bashprime/clip/AcceptableConsiderateCurryMrDestructoid-0qnhH00QAshA7yZr",
+    "source": "`https://twitch.tv/bashprime/clip/AcceptableConsiderateCurryMrDestructoid-0qnhH00QAshA7yZr` (BashPrime, 30.08.2023, Originalgrafik, Randomizer)",
+    "timestamps": "erstes Aufleuchten 18,600 s → volle äußere Ladehülle 19,217 s → gehalten bis 20,267 s → Entladen 20,284 s"
+  },
+  {
+    "measurement": "Armkanone: linke Hand in der Ladehaltung (Originalgrafik, Randomizer)",
+    "clip": "https://twitch.tv/bashprime/clip/AcceptableConsiderateCurryMrDestructoid-0qnhH00QAshA7yZr",
+    "source": "`https://twitch.tv/bashprime/clip/AcceptableConsiderateCurryMrDestructoid-0qnhH00QAshA7yZr` (BashPrime, 30.08.2023, Originalgrafik, Randomizer)",
+    "timestamps": "Hand erscheint 19,367 s → Haltepose 19,567 s; Rückzug 20,150–20,284 s"
+  },
+  {
+    "measurement": "Ice Beam: Hüftlage (Remastered)",
+    "clip": "https://twitch.tv/vinesauce/clip/AverageConsideratePorpoiseMingLee-fPTgfwUkaSKAHo1E",
+    "source": "`https://twitch.tv/vinesauce/clip/AverageConsideratePorpoiseMingLee-fPTgfwUkaSKAHo1E` (Vinesauce, 23.02.2023, Remastered)",
+    "timestamps": "3,800 s"
+  },
+  {
+    "measurement": "Lock-on: Aufbau der Zielmarkierungen (Remastered)",
+    "clip": "https://twitch.tv/vinesauce/clip/ClumsyAnnoyingAntMikeHogu-9HFuYjU70tIotSP6",
+    "source": "`https://twitch.tv/vinesauce/clip/ClumsyAnnoyingAntMikeHogu-9HFuYjU70tIotSP6` (Vinesauce, 22.02.2023, Remastered)",
+    "timestamps": "rote Zielmarkierungen ab 13,551 s → große cyanfarbene Klammern ab 13,617 s; Aufbau beobachtet bis 13,834 s"
+  },
+  {
+    "measurement": "Power Beam → Wave Beam: sichtbare Umformung (Remastered)",
+    "clip": "https://twitch.tv/vinesauce/clip/WittyCalmPancakeAllenHuhu-ZPrcvCj4z5ODMMNE",
+    "source": "`https://twitch.tv/vinesauce/clip/WittyCalmPancakeAllenHuhu-ZPrcvCj4z5ODMMNE` (Vinesauce, 17.02.2023, Remastered)",
+    "timestamps": "Ringwelle ab 9,234 s → Rohrkörper orange umzeichnet 9,417 s → Wave-Beam-HUD 9,834 s → violetter Schuss 9,917 s"
+  },
+  {
+    "measurement": "Armkanone beim Unterwasser-Plattformwechsel (Remastered)",
+    "clip": "https://twitch.tv/vinesauce/clip/ClumsyAnnoyingAntMikeHogu-9HFuYjU70tIotSP6",
+    "source": "`https://twitch.tv/vinesauce/clip/ClumsyAnnoyingAntMikeHogu-9HFuYjU70tIotSP6` (Vinesauce, 22.02.2023, Remastered)",
+    "timestamps": "3,000–3,634 s"
+  },
+  {
+    "measurement": "Taschenlampe, Lethal Company: grüne Hüftlage",
+    "clip": "https://twitch.tv/insym/clip/EnergeticSavoryOryxWholeWheat-hVhg_o09o-KzcHm7",
+    "source": "Insym, 29.12.2023",
+    "timestamps": "13,000 s (Quellbild 780)"
+  },
+  {
+    "measurement": "Taschenlampe, Lethal Company: Umsehen und Tragen",
+    "clip": "https://twitch.tv/insym/clip/EnergeticSavoryOryxWholeWheat-hVhg_o09o-KzcHm7",
+    "source": "Insym, 29.12.2023",
+    "timestamps": "12,0–16,9 s; 17,0–24,9 s"
+  },
+  {
+    "measurement": "Taschenlampe, Lethal Company: Pro-flashlight und Lichtfleck",
+    "clip": "https://twitch.tv/insym/clip/EndearingSassySkirretKeyboardCat-nqGlqXSCXaWHwxH_",
+    "source": "Insym, 30.12.2023",
+    "timestamps": "3,000 s (Quellbild 180)"
+  },
+  {
+    "measurement": "Taschenlampe, Lethal Company: Gegenstandswechsel zur Lampe",
+    "clip": "https://twitch.tv/insym/clip/EndearingSassySkirretKeyboardCat-nqGlqXSCXaWHwxH_",
+    "source": "Insym, 30.12.2023",
+    "timestamps": "HUD-Wechsel 2,117 s → gelber Körper 2,150 s → sichtbarer Strahl 2,167 s; 2,150–2,883 s nativ geprüft"
+  },
+  {
+    "measurement": "Taschenlampe, Phasmophobia: Kegel ohne sichtbaren Lampenkörper",
+    "clip": "https://twitch.tv/insym/clip/PoorDarlingShallotPeteZaroll",
+    "source": "Insym, 10.02.2021",
+    "timestamps": "27,500 s (Quellbild 1650)"
+  },
+  {
+    "measurement": "Dynamo-Lampe, Amnesia The Bunker: linke Haltung",
+    "clip": "https://twitch.tv/elajjaz/clip/InexpensiveEnjoyableBaboonDoritosChip-N09SXrIZaUgwIYdQ",
+    "source": "Elajjaz, 27.05.2024",
+    "timestamps": "0,500 s (Quellbild 30); 0,0–1,5 s bei 10 Bilder/s geprüft"
+  },
+  {
+    "measurement": "Dynamo-Lampe, Amnesia The Bunker: Ladezüge und Handweg",
+    "clip": "https://twitch.tv/elajjaz/clip/EvilRelentlessPancakeAllenHuhu-nZPqulxvTw67EWXg",
+    "source": "Elajjaz, 06.06.2023",
+    "timestamps": "19,850–21,833 s nativ; vergleichbare Rückzugphasen 20,283 s → 21,333 s; Revolver wieder sichtbar bei 21,700 s"
+  },
+  {
+    "measurement": "Gravity Gun orange: Hüftlage im Brückenraum",
+    "clip": "https://twitch.tv/shevronin/clip/ArbitraryColdbloodedChimpanzeeArgieB8-K6F9pMo2kubAGGzf",
+    "source": "Half-Life 2, Gravity Gun orange; SHEVRONIN, 13.07.2026",
+    "timestamps": "1,800 s"
+  },
+  {
+    "measurement": "Gravity Gun orange: eigenständige Klauenverstellung",
+    "clip": "https://twitch.tv/shevronin/clip/ArbitraryColdbloodedChimpanzeeArgieB8-K6F9pMo2kubAGGzf",
+    "source": "Half-Life 2, Gravity Gun orange; SHEVRONIN, 13.07.2026",
+    "timestamps": "1,300 s → 1,800 s → 2,300 s"
+  },
+  {
+    "measurement": "Gravity Gun orange: Stoß gegen Kiste und Körperrückkehr",
+    "clip": "https://twitch.tv/shevronin/clip/ArbitraryColdbloodedChimpanzeeArgieB8-K6F9pMo2kubAGGzf",
+    "source": "Half-Life 2, Gravity Gun orange; SHEVRONIN, 13.07.2026",
+    "timestamps": "14,467 s → 14,483 s → 14,650 s → 14,800 s"
+  },
+  {
+    "measurement": "Taschenlampe, Alan Wake II: sichtbarer Abbau einer Dunkelheitsblockade",
+    "clip": "https://twitch.tv/natspresso/clip/OnerousJollySashimiDatSheffy-wZHV-DALVYq0e-ME",
+    "source": "Natspresso, 03.12.2024",
+    "timestamps": "3,400 s → 4,000 s → 5,500 s → 5,733 s → 5,767 s"
+  },
+  {
+    "measurement": "Portalkanone: horizontaler Werkzeug-Bob auf dem Laufsteg",
+    "clip": "https://twitch.tv/hachubby/clip/HyperModernLeopardOpieOP-m1Nv5lVQt-l9roRF",
+    "source": "hachubby (Broadcaster), 03.01.2023, 1920 × 1080, 60 fps; Portal 2, weißes Gerät mit Kartoffelaufsatz; Build/Mod-Version unbekannt",
+    "timestamps": "Rechtsphasen 32,350 · 33,217 · 34,117 s; Linksphasen 32,800 · 33,700 s"
+  },
+  {
+    "measurement": "Portalkanone: Geräteversatz bei überlagertem Blickwechsel und Abwärtsbewegung",
+    "clip": "https://twitch.tv/hachubby/clip/HyperModernLeopardOpieOP-m1Nv5lVQt-l9roRF",
+    "source": "hachubby (Broadcaster), 03.01.2023, 1920 × 1080, 60 fps; Portal 2, weißes Gerät mit Kartoffelaufsatz; Build/Mod-Version unbekannt",
+    "timestamps": "30,800 · 31,000 · 31,100 · 31,300 s"
+  },
+  {
+    "measurement": "Portalkanone: Schwebeort eines Standardwürfels am weißen Modell",
+    "clip": "https://twitch.tv/krzyhau/clip/MistyDignifiedTurtleKappaRoss",
+    "source": "krzyhau (Broadcaster), 27.08.2020, 1280 × 720, 60 fps; Portal 2, weißes Gerät; HUD „Portal2 - 100p NoSLA“; Build/Mod-Version unbekannt",
+    "timestamps": "6,401 s; Vergleich 10,801 s"
+  },
+  {
+    "measurement": "Portalkanone: Würfel absetzen und Halteleuchten auslaufen lassen",
+    "clip": "https://twitch.tv/krzyhau/clip/MistyDignifiedTurtleKappaRoss",
+    "source": "krzyhau (Broadcaster), 27.08.2020, 1280 × 720, 60 fps; Portal 2, weißes Gerät; HUD „Portal2 - 100p NoSLA“; Build/Mod-Version unbekannt",
+    "timestamps": "Würfel auf Taster / gelbe Anzeige 11,251 · deutlicher Haltebogen 11,434 · kein Haltebogen sichtbar 11,601 · Wegdrehen 11,701 s"
   }
 ]

@@ -3,6 +3,8 @@ import importlib.util
 import contextlib
 import io
 import json
+import shutil
+import subprocess
 import tempfile
 import unittest
 from pathlib import Path
@@ -53,6 +55,73 @@ class FilterTests(unittest.TestCase):
         self.assertLess(graph.index("drawbox"), graph.index("scale="), "drawn on the full picture, scaled afterwards")
         self.assertIn("x=iw/2", graph)
         self.assertIn("y=ih/2", graph)
+
+
+class SheetTests(unittest.TestCase):
+    def test_native_sheet_selects_exact_source_frames_for_an_off_grid_interval(self):
+        records = [(31, 1.001), (32, 1.034367), (33, 1.067733)]
+        with tempfile.TemporaryDirectory() as scratch, \
+             patch.object(reference_frames, "info", return_value=(30000 / 1001, 3.0, 640, 480)), \
+             patch.object(reference_frames, "frame_records", return_value=records) as probe, \
+             patch.object(reference_frames.subprocess, "check_call") as ffmpeg:
+            outputs = reference_frames.sheet("clip.mp4", str(Path(scratch) / "native"), 1.0, 1.1, None, 6, 5, 200)
+
+        self.assertEqual(probe.call_args.args, ("clip.mp4", 1.0, 1.1))
+        self.assertEqual(len(outputs), 1)
+        command = ffmpeg.call_args.args[0]
+        self.assertIn("-copyts", command)
+        self.assertEqual(command[command.index("-map") + 1], "0:v:0")
+        self.assertNotIn("-ss", command)
+        graph = command[command.index("-vf") + 1]
+        self.assertTrue(graph.startswith("select='eq(n\\,31)+eq(n\\,32)+eq(n\\,33)',"))
+        self.assertNotIn("fps=", graph)
+        self.assertTrue(outputs[0].endswith("native_00.jpg"))
+
+    def test_numeric_sheet_keeps_fps_sampling_path(self):
+        with tempfile.TemporaryDirectory() as scratch, \
+             patch.object(reference_frames, "info", return_value=(30000 / 1001, 3.0, 640, 480)), \
+             patch.object(reference_frames.subprocess, "check_call") as ffmpeg:
+            reference_frames.sheet("clip.mp4", str(Path(scratch) / "search"), 1.0, 1.5, 10, 2, 2, 200)
+
+        command = ffmpeg.call_args.args[0]
+        self.assertIn("-ss", command)
+        self.assertIn("fps=10,", command[command.index("-vf") + 1])
+
+    @unittest.skipUnless(shutil.which("ffmpeg") and shutil.which("ffprobe"), "ffmpeg and ffprobe are required")
+    def test_native_cli_sheet_pixels_match_source_frames_across_a_timestamp_gap(self):
+        colors = [(240, 20, 20), (20, 240, 20), (20, 20, 240), (230, 230, 20), (230, 20, 230), (20, 230, 230)]
+        frame = 64 * 64
+        raw = b"".join(bytes(color) * frame for color in colors)
+        with tempfile.TemporaryDirectory() as scratch:
+            clip = Path(scratch) / "colors.mkv"
+            prefix = Path(scratch) / "native"
+            # A PTS gap would make fps resampling duplicate a color and lose native frame identity.
+            subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pixel_format", "rgb24",
+                            "-video_size", "64x64", "-framerate", "30000/1001", "-i", "pipe:0",
+                            "-vf", "setpts=if(gte(N\\,3)\\,PTS+2\\,PTS)", "-fps_mode", "vfr",
+                            "-c:v", "ffv1", "-pix_fmt", "rgb24", str(clip)], input=raw, check=True)
+
+            records = reference_frames.frame_records(str(clip), .05, .215)
+            self.assertEqual([index for index, _ in records], [2, 3, 4])
+            with contextlib.redirect_stdout(io.StringIO()):
+                self.assertEqual(reference_frames.main(["sheet", str(clip), ".05", ".215", "--fps", "native",
+                                                        "--out", str(prefix), "--cols", "3", "--rows", "1", "--tile", "64"]), 0)
+
+            contact_sheet = Path(f"{prefix}_00.jpg")
+            dimensions = subprocess.check_output(["ffprobe", "-v", "error", "-select_streams", "v:0",
+                                                  "-show_entries", "stream=width,height", "-of", "csv=s=x:p=0",
+                                                  str(contact_sheet)], text=True).strip()
+            width, height = map(int, dimensions.split("x"))
+            pixels = subprocess.check_output(["ffmpeg", "-v", "error", "-i", str(contact_sheet), "-f", "rawvideo",
+                                              "-pix_fmt", "rgb24", "pipe:1"])
+            self.assertEqual(len(pixels), width * height * 3)
+            for tile_index, source_index in enumerate((2, 3, 4)):
+                x, y = 34 + tile_index * 66, 48
+                offset = (y * width + x) * 3
+                actual = tuple(pixels[offset:offset + 3])
+                expected = colors[source_index]
+                self.assertLess(max(abs(actual[channel] - expected[channel]) for channel in range(3)), 35,
+                                f"tile {tile_index} should contain source frame {source_index}: {actual} vs {expected}")
 
 
 class YtDlpCommandTests(unittest.TestCase):
