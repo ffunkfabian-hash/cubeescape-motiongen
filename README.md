@@ -7,6 +7,7 @@ Toolgen und das Design-Repo lesen hier; entschieden und umgesetzt wird dort.
 | Pfad | Inhalt |
 |---|---|
 | `docs/destiny2.md` | Messungen (Tabelle mit Clip und Zeitstempeln) und Steckbriefe je Waffentyp |
+| `docs/apex.md`, `docs/titanfall2.md` | Bewegungs-Vorbilder: Sprint, Rutschen, Sprung/Landung, Wandlauf, tiefe Hüfte (je ein Steckbrief) |
 | `data/clips.json` | Clip-Verzeichnis: Messung, Clip-URL, Quelle, Zeitstempel |
 | `tools/reference_frames.py` | Werkzeug: Clips finden/laden, Kontaktbögen (2/s, 10/s, native Rate), Mittenkreuz |
 | `tests/` | Werkzeugtests (`./check`) |
