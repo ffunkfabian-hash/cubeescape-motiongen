@@ -1,9 +1,14 @@
 {
   "name": "cubeescape-reference",
-  "version": "0.2.0",
-  "version_name": "Frame Ledger",
+  "version": "0.3.0",
+  "version_name": "Fieldwork",
   "check": {
-    "quick": ["python3 -m unittest discover -s tests", "python3 tools/check_links.py"]
+    "quick": [
+      "python3 -m unittest discover -s tests",
+      "python3 tools/check_links.py"
+    ]
   },
-  "limits": {"no_media": true}
+  "limits": {
+    "no_media": true
+  }
 }
