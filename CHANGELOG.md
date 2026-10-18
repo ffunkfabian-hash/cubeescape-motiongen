@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.5.2 – 2026-10-18
+
+- MP-Nachtrag (Mac, YouTube, 60/s, Normaltempo): **ADS aus → ruhige Hüfte** isoliert am Exotic Huckleberry (Hüfte 0,067 s, ruhig 0,167 s) und an Ikelos mit HUD (Ehroar, 0,10 / ≈ 0,18 s, Kamera führt nach) – passt zum PvP-Fall aus 0.5.1 (≈ 0,17 s bis Hüfthaltung).
+- **HUD „Zähler voll“** 0,73 s nach Beginn des Nachladens aus dem ADS (Ehroar); Huckleberry-Nachladen mit Magazin-Auswurf (MagOut 0,10, MagIn 0,97, Hüfte 2,12 s); Hüftmündung der Showcases ≈ 56–58 / 62–68 % (Raster).
+- Offen: erster Folgeschuss nach dem Nachladen (an die Katalog-Sitzung 0.7.0 übergeben).
+- [Versionsbericht](docs/versions/0.md#052--2026-10-18).
+
 ## 0.5.1 – 2026-10-18
 
 - MP **ADS aus → Hüfthaltung** isoliert belegt (PvP-Clip, nativ 60/s): erste Bewegung bis Hüfthaltung ≈ 10 Bilder (0,17 s), Zeitnullpunkt die erste sichtbare Bewegung; Einzelfall, ± 2 Bilder. Zeile in `docs/destiny2.md` › 2, `clips.json` +1.
