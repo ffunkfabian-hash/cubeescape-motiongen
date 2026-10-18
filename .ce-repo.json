@@ -1,0 +1,9 @@
+{
+  "name": "cubeescape-reference",
+  "version": "0.1.0",
+  "version_name": "Baseline",
+  "check": {
+    "quick": ["python3 -m unittest discover -s tests", "python3 tools/check_links.py"]
+  },
+  "limits": {"no_media": true}
+}

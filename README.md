@@ -1,0 +1,16 @@
+# cubeescape-reference
+
+Referenzmessungen für das Ego-Spielgefühl von **Cube Escape**: wie Vorbilder (zuerst Destiny 2) Waffen und Werkzeuge halten, zielen,
+wechseln, nachladen und bewegen – gemessen an 60-fps-Aufnahmen, als Zahlen mit Zeitstempeln und Steckbriefen je Typ. Cube Escape,
+Toolgen und das Design-Repo lesen hier; entschieden und umgesetzt wird dort.
+
+| Pfad | Inhalt |
+|---|---|
+| `docs/destiny2.md` | Messungen (Tabelle mit Clip und Zeitstempeln) und Steckbriefe je Waffentyp |
+| `data/clips.json` | Clip-Verzeichnis: Messung, Clip-URL, Quelle, Zeitstempel |
+| `tools/reference_frames.py` | Werkzeug: Clips finden/laden, Kontaktbögen (2/s, 10/s, native Rate), Mittenkreuz |
+| `tests/` | Werkzeugtests (`./check`) |
+| `docs/versions/0.md` | Versionsberichte |
+
+Prüfen: `./check`. Messen: `python3 tools/reference_frames.py --help` (Ablauf in `docs/destiny2.md` › 2 › Methode).
+Clips und Kontaktbögen bleiben außerhalb des Repos (Urheberrecht, Größe); hier liegen nur Zahlen, Beschreibungen und Verweise.
