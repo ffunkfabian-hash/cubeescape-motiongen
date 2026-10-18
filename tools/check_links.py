@@ -10,6 +10,27 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def validate_manifest(manifest: object) -> tuple[list[str], set[str]]:
+    errors = []
+    clips = set()
+    if not isinstance(manifest, list):
+        return ["data/clips.json: Wurzel muss eine Liste sein"], clips
+    required = ("measurement", "clip", "source", "timestamps")
+    for index, entry in enumerate(manifest):
+        if not isinstance(entry, dict):
+            errors.append(f"data/clips.json[{index}]: Eintrag muss ein Objekt sein")
+            continue
+        valid = True
+        for field in required:
+            value = entry.get(field)
+            if not isinstance(value, str) or not value.strip():
+                errors.append(f"data/clips.json[{index}].{field}: muss ein nichtleerer String sein")
+                valid = False
+        if valid:
+            clips.add(entry["clip"])
+    return errors, clips
+
+
 def main() -> int:
     errors = []
     for page in ROOT.rglob("*.md"):
@@ -19,7 +40,13 @@ def main() -> int:
                 continue
             if not (page.parent / target).exists():
                 errors.append(f"{page.relative_to(ROOT)}: Verweis fehlt: {target}")
-    clips = {entry["clip"] for entry in json.loads((ROOT / "data/clips.json").read_text(encoding="utf-8"))}
+    try:
+        manifest = json.loads((ROOT / "data/clips.json").read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        errors.append(f"data/clips.json: ungültige JSON-Datei: {exc}")
+        manifest = []
+    manifest_errors, clips = validate_manifest(manifest)
+    errors.extend(manifest_errors)
     for page in (ROOT / "docs").glob("*.md"):
         for line in page.read_text(encoding="utf-8").splitlines():
             if not line.startswith("| **"):
