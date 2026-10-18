@@ -3,9 +3,11 @@ import importlib.util
 import contextlib
 import io
 import json
+import os
 import shutil
 import subprocess
 import tempfile
+import time
 import unittest
 from pathlib import Path
 from unittest.mock import patch
@@ -170,6 +172,28 @@ class YtDlpCommandTests(unittest.TestCase):
                 self.assertEqual(fetch_command[-1], "https://clips.twitch.tv/clip-slug")
                 self.assertEqual(fetch_command[fetch_command.index("-f") + 1], reference_frames.FETCH_FORMAT)
 
+    def test_fetch_finds_webm_downloads_and_ignores_older_files(self):
+        with tempfile.TemporaryDirectory() as scratch:
+            old_clip = Path(scratch) / "old.mp4"
+            old_clip.touch()
+            os.utime(old_clip, (time.time() - 3600, time.time() - 3600))
+
+            def download(command):
+                (Path(scratch) / "Channel_id.webm").touch()
+                return 0
+
+            with patch.object(reference_frames.subprocess, "call", side_effect=download), \
+                 patch.object(reference_frames, "info", return_value=(60, 4.0, 1920, 1080)) as probe, \
+                 contextlib.redirect_stdout(io.StringIO()):
+                self.assertEqual(reference_frames.fetch("https://www.youtube.com/watch?v=x", scratch), 0)
+            self.assertTrue(probe.call_args.args[0].endswith("Channel_id.webm"))
+
+            webm = Path(scratch) / "Channel_id.webm"
+            os.utime(webm, (time.time() - 3600, time.time() - 3600))
+            with patch.object(reference_frames.subprocess, "call", return_value=0):
+                with self.assertRaisesRegex(ValueError, "keine neue Videodatei"):
+                    reference_frames.fetch("https://www.youtube.com/watch?v=y", scratch)
+
     def test_fetch_format_prefers_60_fps_video_and_falls_back_for_progressive_clips(self):
         choices = reference_frames.FETCH_FORMAT.split("/")
         self.assertTrue(choices[0].startswith("bv*[height<=1080][fps>=59]"), "YouTube: 60-fps video stream first")
@@ -283,6 +307,20 @@ class FallbackTests(unittest.TestCase):
         self.assertEqual(reference_frames.clock(0.0), "0:00:00.000")
         self.assertEqual(reference_frames.clock(10.783333), "0:00:10.783")
         self.assertEqual(reference_frames.clock(3725.5), "1:02:05.500")
+        self.assertEqual(reference_frames.clock(59.9996), "0:01:00.000", "rounding carries into the minute")
+        self.assertEqual(reference_frames.clock(3599.9996), "1:00:00.000", "and into the hour")
+
+    def test_showinfo_times_use_integer_pts_and_the_time_base(self):
+        log = ("[Parsed_showinfo_1 @ 0x1] config in time_base: 1/15360, frame_rate: 60/1\n"
+               "[Parsed_showinfo_1 @ 0x1] config out time_base: 0/0, frame_rate: 0/0\n"
+               "[Parsed_showinfo_1 @ 0x1] n:   0 pts: 153600512 pts_time:10000 duration: 256\n"
+               "[Parsed_showinfo_1 @ 0x1] n:   1 pts: 153600768 pts_time:10000 duration: 256\n")
+        times = reference_frames.showinfo_times(log)
+        self.assertEqual(len(times), 2)
+        self.assertAlmostEqual(times[0], 153600512 / 15360, places=9)
+        self.assertAlmostEqual(times[1] - times[0], 1 / 60, places=9, msg="neighbouring 60-Hz pictures stay apart")
+        fallback = "n:   0 pts_time:1.66667e-05\nn:   1 pts_time:0.0166833\n"
+        self.assertEqual(reference_frames.showinfo_times(fallback), [1.66667e-05, 0.0166833])
 
     def test_drawtext_detection_reads_the_filter_list(self):
         reference_frames.drawtext_available.cache_clear()

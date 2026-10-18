@@ -37,6 +37,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import time
 from pathlib import Path
 
 FONT_CANDIDATES = ("/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf",       # Linux / cloud
@@ -46,6 +47,7 @@ TWITCH_CLIP_PREFIX = "https://clips.twitch.tv/"
 # Twitch clips are single progressive streams; YouTube offers 60-fps video only as separate video streams (no combined
 # stream above 360p), so `best[height<=1080]` fails there. Prefer 60-fps H.264 video, then any video up to 1080p, then
 # whatever is best; audio is not needed for measuring.
+VIDEO_PATTERNS = ("*.mp4", "*.webm", "*.mkv")
 FETCH_FORMAT = ("bv*[height<=1080][fps>=59][vcodec^=avc1]/bv*[height<=1080][fps>=59]/bv*[height<=1080]/best[height<=1080]/best")
 REPO_ROOT = Path(__file__).resolve().parents[1]
 
@@ -173,10 +175,23 @@ def filter_graph(fps: float | None, tile_width: int, cols: int, rows: int, cross
 
 
 def clock(seconds: float) -> str:
-    """The clip time as h:mm:ss.fff, the format of ffmpeg's %{pts:hms} label."""
-    hours, rest = divmod(seconds, 3600)
-    minutes, secs = divmod(rest, 60)
-    return f"{int(hours)}:{int(minutes):02d}:{secs:06.3f}"
+    """The clip time as h:mm:ss.fff, the format of ffmpeg's %{pts:hms} label (rounded to whole milliseconds first, so
+    59.9996 s becomes 0:01:00.000, not 0:00:60.000)."""
+    millis = int(round(seconds * 1000))
+    hours, rest = divmod(millis, 3_600_000)
+    minutes, rest = divmod(rest, 60_000)
+    secs, millis = divmod(rest, 1000)
+    return f"{hours}:{minutes:02d}:{secs:02d}.{millis:03d}"
+
+
+def showinfo_times(log: str) -> list[float]:
+    """Picture times from ffmpeg's showinfo log: the integer pts times the input time base, exact for long clips (pts_time is
+    printed with a few significant digits only and may use an exponent); pts_time is the fallback without a time base."""
+    base = re.search(r"config in time_base:\s*(\d+)/(\d+)", log)
+    if base and int(base.group(2)):
+        num, den = int(base.group(1)), int(base.group(2))
+        return [int(value) * num / den for value in re.findall(r"\bn:\s*\d+\s+pts:\s*(-?\d+)", log)]
+    return [float(value) for value in re.findall(r"pts_time:\s*(-?[0-9.]+(?:[eE][-+]?\d+)?)", log)]
 
 
 def imagemagick() -> list[str]:
@@ -202,7 +217,7 @@ def render_sheet(input_args: list[str], fps: float | None, select: str, tile_wid
         result = subprocess.run(["ffmpeg", "-y", "-hide_banner", "-loglevel", "info", *input_args, "-vf", graph,
                                  "-frames:v", str(cols * rows), "-fps_mode", "passthrough", os.path.join(scratch, "p%04d.png")],
                                 capture_output=True, text=True, check=True)
-        times = [float(value) for value in re.findall(r"pts_time:\s*([0-9.]+)", result.stderr)]
+        times = showinfo_times(result.stderr)
         pictures = sorted(Path(scratch).glob("p*.png"))
         if not pictures or len(pictures) != len(times):
             raise ValueError(f"Kontaktbogen: {len(pictures)} Bilder, aber {len(times)} Zeitstempel.")
@@ -259,10 +274,16 @@ def fetch(clip: str, out_dir: str) -> int:
     url = clip if clip.startswith("http") else TWITCH_CLIP_PREFIX + clip
     Path(out_dir).mkdir(parents=True, exist_ok=True)
     template = os.path.join(out_dir, "%(uploader)s_%(id)s.%(ext)s")
+    started = time.time()
     code = subprocess.call(yt_dlp_command() + ["-q", "--no-warnings", "-f", FETCH_FORMAT, "-o", template, url])
     if code != 0:
         return code
-    newest = max(Path(out_dir).glob("*.mp4"), key=lambda p: p.stat().st_mtime)
+    # The format chain may pick an MP4, WebM or MKV stream; only files written by this download count.
+    downloads = [path for pattern in VIDEO_PATTERNS for path in Path(out_dir).glob(pattern)
+                 if path.stat().st_mtime >= started - 2]
+    if not downloads:
+        raise ValueError(f"yt-dlp meldete Erfolg, aber in {out_dir} liegt keine neue Videodatei ({', '.join(VIDEO_PATTERNS)}).")
+    newest = max(downloads, key=lambda p: p.stat().st_mtime)
     fps, duration, width, height = info(str(newest))
     print(f"{newest} {width}x{height} {fps:g}/s {duration:.1f} s")
     return 0
