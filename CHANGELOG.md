@@ -1,6 +1,13 @@
 # Changelog
 
-## 0.3.0 „Fieldwork“ – unveröffentlicht
+## 0.4.0 „Crosscheck“ – 2026-10-18
+
+- Werkzeug-Vorbilder (Codex, PR #2): `docs/portal2.md`, `docs/halflife2.md`, `docs/metroidprime.md`, `docs/taschenlampe.md` mit Messungen, Quellen und Steckbriefen; `measure` bindet Kontaktbögen an Quellbild und Zeitstempel.
+- Gesamtauswertung (Codex, PR #3): `docs/auswertung.md` – 18 gemeinsame Vorgänge über sieben Vorbilder, Spannen und Muster mit Gegenbeispielen, acht eigene Widersprüche (W1–W8), zwölf Fragen an Cube Escape, 44 Quellenanker; dazu `docs/pdf/Referenzanalyse.pdf` (22 Seiten, Lesefassung).
+- Korrekturen der Auswertung (Sightline): Apex-Mündungsrichtung und -kadenz, Titanfall-ADS-Zeit und gestrichene Kadenz (W1, W3 behoben); Fieldwork 0.3.0 mit diesem Stand veröffentlicht.
+- [Versionsbericht](docs/versions/0.md#040-crosscheck--2026-10-18).
+
+## 0.3.0 „Fieldwork“ – 2026-10-18
 
 - Destiny 2, PvE-Kanäle (mactics, datto, saltagreppo; 54 Clips gesichtet, 5 vermessen, 9 neue Messzeilen): Scharfschützengewehr (Ziehen, Zielfernrohr ein/aus mit
   Reihenfolge Modell/Linse, Sprint-Haltung, Rutschen), Gewehr (tiefe Sprint-Haltung, Austritt), Granatwerfer (Kipplauf-Nachladen), Bogen (Hüfte von rechts, Spannen ohne ADS, Lösen), Sidearm (Hüfte, Nachladen) und Raketen-Sidearm (ADS, Rückstoß).
@@ -13,7 +20,7 @@
   nachspannen), Scout-Zielfernrohr aus (0,17 s, Linse zuerst), Strand-Nahkampf mit Rückkehr (1,5 s); Nachlade-Übersicht je Klasse mit Muster.
 - Neue Vorbilder `docs/apex.md` (R-99: Hüfte fast auf der Achse, Sprint hoch-mittig, ADS ↔ Sprint 0,45 s, Landung mit Dip, Rutschen gekippt im Bild) und
   `docs/titanfall2.md` (tiefe kleine Hüfte, Waffe im Flug ausgeblendet, Wandlauf mit 10–15° Kamerarolle, Scope ≤ 0,1 s) – 30 Clips gesichtet, 4 vermessen.
-- Zweite Runde Apex/Titanfall (34 Clips): Apex-Wechsel 0,40 s ohne leere Sicht, Sentinel-Scope ≤ 0,1 s, Rutschkamera rollt nicht; Titanfall ADS ein 0,10 s / aus 0,12 s bei 60/s, Dauerfeuer ≈ 1200/min.
+- Zweite Runde Apex/Titanfall (34 Clips): Apex-Wechsel 0,40 s ohne leere Sicht, Sentinel-Scope ≤ 0,1 s, Rutschkamera rollt nicht; Titanfall ADS ein 0,12 s / aus 0,12 s bei 60/s (Kadenz nicht bestimmbar, Korrektur in 0.4.0).
 - [Versionsbericht](docs/versions/0.md#030-fieldwork--unveröffentlicht).
 
 ## 0.2.0 „Frame Ledger“ – 2026-10-18
