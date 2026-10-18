@@ -168,6 +168,15 @@ class YtDlpCommandTests(unittest.TestCase):
                 self.assertEqual(fetch_command[:len(expected_prefix)], expected_prefix)
                 self.assertEqual(fetch_command[len(expected_prefix):len(expected_prefix) + 3], ["-q", "--no-warnings", "-f"])
                 self.assertEqual(fetch_command[-1], "https://clips.twitch.tv/clip-slug")
+                self.assertEqual(fetch_command[fetch_command.index("-f") + 1], reference_frames.FETCH_FORMAT)
+
+    def test_fetch_format_prefers_60_fps_video_and_falls_back_for_progressive_clips(self):
+        choices = reference_frames.FETCH_FORMAT.split("/")
+        self.assertTrue(choices[0].startswith("bv*[height<=1080][fps>=59]"), "YouTube: 60-fps video stream first")
+        self.assertIn("vcodec^=avc1", choices[0], "H.264 first, readable by every ffmpeg")
+        self.assertIn("best[height<=1080]", choices, "Twitch clips keep their progressive stream")
+        self.assertEqual(choices[-1], "best", "never fail for lack of a matching format")
+        self.assertTrue(all("height<=1080" in choice for choice in choices[:-1]))
 
 
 class MeasureTests(unittest.TestCase):

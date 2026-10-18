@@ -6,7 +6,7 @@ draw …) are read off 60-fps Twitch clips: contact sheets with a burned-in time
 whole way, so a session can repeat or extend the measurement without rediscovering it:
 
     python3 tools/reference_frames.py list <channel> [--top 100]           # the channel's most viewed clips: id|url|title|s|views
-    python3 tools/reference_frames.py fetch <clip url|slug> [--out DIR]    # download (yt-dlp, best stream up to 1080p), print fps
+    python3 tools/reference_frames.py fetch <clip url|slug> [--out DIR]    # download (yt-dlp, 60-fps video up to 1080p), print fps
     python3 tools/reference_frames.py overview <clip.mp4> [--out PREFIX]   # 2 pictures/s, 6 × 5 per sheet = 15 s - find the moments
     python3 tools/reference_frames.py sheet <clip.mp4> START END [--fps 10|native] [--out PREFIX] [--cols 6 --rows 5 --tile 480]
                                                                            # 10/s to narrow down, 60/s (native) to measure;
@@ -43,6 +43,10 @@ FONT_CANDIDATES = ("/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf",  
                    "/System/Library/Fonts/Supplemental/Courier New Bold.ttf",       # macOS
                    "/System/Library/Fonts/Menlo.ttc")
 TWITCH_CLIP_PREFIX = "https://clips.twitch.tv/"
+# Twitch clips are single progressive streams; YouTube offers 60-fps video only as separate video streams (no combined
+# stream above 360p), so `best[height<=1080]` fails there. Prefer 60-fps H.264 video, then any video up to 1080p, then
+# whatever is best; audio is not needed for measuring.
+FETCH_FORMAT = ("bv*[height<=1080][fps>=59][vcodec^=avc1]/bv*[height<=1080][fps>=59]/bv*[height<=1080]/best[height<=1080]/best")
 REPO_ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -255,7 +259,7 @@ def fetch(clip: str, out_dir: str) -> int:
     url = clip if clip.startswith("http") else TWITCH_CLIP_PREFIX + clip
     Path(out_dir).mkdir(parents=True, exist_ok=True)
     template = os.path.join(out_dir, "%(uploader)s_%(id)s.%(ext)s")
-    code = subprocess.call(yt_dlp_command() + ["-q", "--no-warnings", "-f", "best[height<=1080]", "-o", template, url])
+    code = subprocess.call(yt_dlp_command() + ["-q", "--no-warnings", "-f", FETCH_FORMAT, "-o", template, url])
     if code != 0:
         return code
     newest = max(Path(out_dir).glob("*.mp4"), key=lambda p: p.stat().st_mtime)
