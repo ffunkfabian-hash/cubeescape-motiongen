@@ -2,8 +2,8 @@
 
 ## 0.3.0 „Fieldwork“ – unveröffentlicht
 
-- Destiny 2, PvE-Kanäle (mactics, datto, saltagreppo; 21 Clips gesichtet, 3 vermessen, 7 neue Messzeilen): Scout-Gewehr (Ziehen, Zielfernrohr ein/aus mit
-  Reihenfolge Modell/Linse, Sprint-Haltung, Rutschen), Bogen (Hüfte von rechts, Spannen ohne ADS, Lösen), Sidearm (Hüfte, Nachladen) und Raketen-Sidearm (ADS, Rückstoß).
+- Destiny 2, PvE-Kanäle (mactics, datto, saltagreppo; 54 Clips gesichtet, 5 vermessen, 9 neue Messzeilen): Scharfschützengewehr (Ziehen, Zielfernrohr ein/aus mit
+  Reihenfolge Modell/Linse, Sprint-Haltung, Rutschen), Gewehr (tiefe Sprint-Haltung, Austritt), Granatwerfer (Kipplauf-Nachladen), Bogen (Hüfte von rechts, Spannen ohne ADS, Lösen), Sidearm (Hüfte, Nachladen) und Raketen-Sidearm (ADS, Rückstoß).
 - Steckbriefe Sidearm, Langes Gewehr und Bogen ergänzt; Bewegung: Rutschen und Zielfernrohr-Reihenfolge; zwei Maschinenpistolen-Clips für den Codex-Teil vorgemerkt.
 - [Versionsbericht](docs/versions/0.md#030-fieldwork--unveröffentlicht).
 

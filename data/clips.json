@@ -180,25 +180,25 @@
     "timestamps": "Hüfte bis 4,60 · Waffe senkt sich nach unten rechts 4,65–4,80 (aus dem Bild) · linke Hand mit Granate von unten links 4,85 · Wurf 4,90–5,05 · Hand bleibt offen bis 5,45 · Hand weg 5,50 · **Waffe zurück von unten rechts 5,70 · Hüfte 5,80**"
   },
   {
-    "measurement": "Scout-Gewehr: Wechsel vom Bogen, Ziehen, Hüfte",
+    "measurement": "Scharfschützengewehr (PvE): Wechsel vom Bogen, Ziehen, Hüfte",
     "clip": "https://twitch.tv/mactics/clip/PiercingPrettyToadUWot-WtVakRF0mcdrlZt2",
     "source": "`twitch.tv/mactics/clip/PiercingPrettyToadUWot-WtVakRF0mcdrlZt2` („CHESTS“, Spieler stonewallxx, 13.07.2024, PvE), 60 Bilder/s",
     "timestamps": "Bogen zuletzt ≈ 1,9 (4 Bilder/s) · leere Hände 2,000–2,383 · Gewehr erscheint 2,400 unten rechts (Okular ≈ 75 / 95) · steigt steil geneigt (Mündung ≈ 45° nach links oben) bis 2,583 · bleibt geneigt bis 2,850 · senkt sich 2,867–2,983 · **Hüfte ab 3,000**"
   },
   {
-    "measurement": "Scout-Gewehr: ADS ein (Zielfernrohr)",
+    "measurement": "Scharfschützengewehr (PvE): ADS ein (Zielfernrohr)",
     "clip": "https://twitch.tv/mactics/clip/PiercingPrettyToadUWot-WtVakRF0mcdrlZt2",
     "source": "derselbe Clip",
     "timestamps": "Hüfte bis 3,117 · erste Bewegung 3,133 · Okular auf dem Kreuz 3,300 · Linsenbild öffnet 3,317 (Kreis ≈ 15 % Höhe) → 3,400 voll · ruhig ab 3,400"
   },
   {
-    "measurement": "Scout-Gewehr: ADS aus (zweimal)",
+    "measurement": "Scharfschützengewehr (PvE): ADS aus (zweimal)",
     "clip": "https://twitch.tv/mactics/clip/PiercingPrettyToadUWot-WtVakRF0mcdrlZt2",
     "source": "derselbe Clip, 4,53–4,80 und 28,28–28,52",
     "timestamps": "Linse voll bis 4,533 · Kreis schrumpft 4,550 (80 %) → 4,633 (15 %) · Linse weg 4,650 (Okular auf dem Kreuz) · Modell wandert nach unten rechts 4,667–4,750 · ruhig ≈ 4,800 · zweiter Fall: Kreis 28,300 → 28,367, Linse weg 28,383, Hüfte 28,483, ruhig ≈ 28,52"
   },
   {
-    "measurement": "Scout-Gewehr: Sprint ein → Rutschen → zurück",
+    "measurement": "Scharfschützengewehr (PvE): Sprint ein → Rutschen → zurück",
     "clip": "https://twitch.tv/mactics/clip/PiercingPrettyToadUWot-WtVakRF0mcdrlZt2",
     "source": "derselbe Clip, 20,80–22,80",
     "timestamps": "Hüfte bis 20,900 · Sprint: Waffe hebt und dreht sich 20,917–21,133 (Okular 60 / 70 → 55 / 55, Mündung ≈ 30° nach links oben, Körper mittiger) · **Rutschen:** Waffe fällt 21,150–21,300 nach unten rechts **ganz aus dem Bild**, bleibt weg bis 22,000 · kommt 22,017 unten rechts (Okular 75 / 90) · steigt bis 22,483 (Okular 66 / 72, Lauf noch ≈ 25° nach links unten geneigt) · waagerechte Hüfte ≈ 22,7 · ADS ein 22,9"
@@ -220,5 +220,17 @@
     "clip": "https://twitch.tv/saltagreppo/clip/ObservantCredulousLegPRChase-KLJwTiBgr6kTzz3H",
     "source": "`twitch.tv/saltagreppo/clip/ObservantCredulousLegPRChase-KLJwTiBgr6kTzz3H` („kerrev the erased mechanic“, Spieler alievgaem, 08.02.2025, PvE), 60 Bilder/s",
     "timestamps": "Waffe erscheint ≈ 4,50 (4 Bilder/s) · tief rechts bis 4,717 · ADS-Bewegung 4,733–5,217 (Holo-Ring erreicht das Kreuz 5,183) · **ADS ruhig 5,233** · Schuss: Mündungsfeuer **8,317**, Spitze 8,417–8,433 (Ring ≈ 10–12 % Höhe über dem Kreuz, Blitz in V-Form), Blitz weg ≈ 8,52 · Ring zurück auf dem Kreuz **8,767** · Kamera (Hintergrund) zurück ≈ 8,9"
+  },
+  {
+    "measurement": "Gewehr (HUD-Symbol Gewehr, 16 Schuss; Typ unsicher): Sprint-Haltung tief, Austritt, Hüfte",
+    "clip": "https://twitch.tv/datto/clip/ComfortablePunchyZucchiniYouDontSay-e19uOu2GsJfdISAc",
+    "source": "`twitch.tv/datto/clip/ComfortablePunchyZucchiniYouDontSay-e19uOu2GsJfdISAc` („Datto's First Moment!“, Spieler All_The_Players, 03.01.2023, PvE Spire of the Watcher), 60 Bilder/s",
+    "timestamps": "Sprint 15,0–21,68 (6,7 s Korridorlauf): Waffe **tief**, Körper mittig-links unter dem Bildrand (≈ 25–50 % Breite), Lauf nach vorn-unten, Stützhand ≈ 45 / 85 sichtbar, Wippen klein · Austritt: Waffe taucht 21,700–21,767 ganz ab (4 Bilder) · kommt 21,783 unten rechts · steigt und dreht bis 22,017 (Mündung ≈ 45° nach oben, Körper ≈ 55–75 / 45–100) · senkt sich langsam 22,0–22,9 · **Hüfte 22,95** (Körper 55–75 % × 50–100 %, Lauf nach links oben zur Mitte) · ADS-Bewegung ab 23,1 (0,2 s)"
+  },
+  {
+    "measurement": "Granatwerfer (2 Schuss): Hüftschuss, Nachladen (Kipplauf)",
+    "clip": "https://twitch.tv/falloutplays/clip/BusyUninterestedMarrowNononoCat-UZHNrFARTaH-7Hcr",
+    "source": "`twitch.tv/falloutplays/clip/BusyUninterestedMarrowNononoCat-UZHNrFARTaH-7Hcr` („Arby AE Testing“, Spieler MattyIceGaming39, 08.11.2022), 60 Bilder/s",
+    "timestamps": "Hüfte: Körper ≈ 50–100 % Breite × 15–100 % Höhe (sehr groß, Trommel rechts), Mündung ≈ 60 / 30 · Mündungsfeuer **3,717** (Zähler 2 → 1), Geschoss sichtbar 3,733–3,783, Einschlag 3,850 · Kick klein (≈ 1–2 % Höhe), Waffe ruhig ab 3,80 · **Nachladen 11,53 → 13,40 (1,87 s):** Waffe kippt 11,53–11,67 nach rechts-unten quer (Lauf waagerecht), bleibt quer bis 12,75, neue Granate von rechts 12,77–13,02 (grünes Leuchten), Kippen zurück und Hüfte 13,05–13,40 (blaues Leuchten am Lauf)"
   }
 ]
