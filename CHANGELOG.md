@@ -4,6 +4,7 @@
 
 - MP-Nachtrag (Mac, YouTube, 60/s, Normaltempo): **ADS aus → ruhige Hüfte** isoliert am Exotic Huckleberry (Hüfte 0,067 s, ruhig 0,167 s) und an Ikelos mit HUD (Ehroar, 0,10 / ≈ 0,18 s, Kamera führt nach) – passt zum PvP-Fall aus 0.5.1 (≈ 0,17 s bis Hüfthaltung).
 - **HUD „Zähler voll“** 0,73 s nach Beginn des Nachladens aus dem ADS (Ehroar); Huckleberry-Nachladen mit Magazin-Auswurf (MagOut 0,10, MagIn 0,97, Hüfte 2,12 s); Hüftmündung der Showcases ≈ 56–58 / 62–68 % (Raster).
+- Werkzeug: `fetch` lädt von YouTube (60-fps-Video bis 1080p, Twitch unverändert); Kontaktbögen ohne `drawtext` über ImageMagick, Schrift wird gesucht – `./check` jetzt auch auf dem Mac grün.
 - Offen: erster Folgeschuss nach dem Nachladen (an die Katalog-Sitzung 0.7.0 übergeben).
 - [Versionsbericht](docs/versions/0.md#052--2026-10-18).
 
