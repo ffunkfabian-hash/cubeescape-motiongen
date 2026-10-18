@@ -22,12 +22,15 @@ native rate and ±0.05 s on a 10/s sheet. Write the result into the table of ›
 timestamps and what was seen; the numbers of one clip are an example of one weapon with unknown stats, never a type's mean.
 
 Cloud sessions: YouTube is blocked (bot check); Twitch clips load. Nothing here touches the repository - clips and sheets belong in
-the session's scratch folder (--out). Needs yt-dlp and ffmpeg/ffprobe on PATH.
+the session's scratch folder (--out). Needs yt-dlp and ffmpeg/ffprobe on PATH. Without the drawtext filter (ffmpeg built without
+freetype, e.g. Homebrew's default formula) the sheets are labelled with ImageMagick (`magick` or `montage`) instead.
 """
 from __future__ import annotations
 
 import argparse
+import functools
 import json
+import re
 import math
 import os
 import shutil
@@ -36,7 +39,9 @@ import sys
 import tempfile
 from pathlib import Path
 
-FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf"
+FONT_CANDIDATES = ("/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf",       # Linux / cloud
+                   "/System/Library/Fonts/Supplemental/Courier New Bold.ttf",       # macOS
+                   "/System/Library/Fonts/Menlo.ttc")
 TWITCH_CLIP_PREFIX = "https://clips.twitch.tv/"
 REPO_ROOT = Path(__file__).resolve().parents[1]
 
@@ -104,9 +109,8 @@ def measure(clip: str, start: float, end: float, fps: str, cross: bool, output: 
         page = index // (cols * rows)
         page_records = records[index:index + cols * rows]
         selection = "+".join(f"eq(n\\,{frame_index})" for frame_index, _ in page_records)
-        graph = f"select='{selection}'," + filter_graph(None, tile, cols, rows, cross)
-        subprocess.check_call(["ffmpeg", "-y", "-loglevel", "error", "-copyts", "-i", clip, "-map", "0:v:0", "-vf", graph,
-                               "-frames:v", "1", "-q:v", "4", str(sheet_paths[page])])
+        render_sheet(["-copyts", "-i", clip, "-map", "0:v:0"], None, f"select='{selection}',", tile, cols, rows, cross,
+                     str(sheet_paths[page]))
         outputs.append(str(sheet_paths[page]))
     suggestion = {"measurement": measurement, "clip": clip_url, "source": source,
                   "timestamps": ", ".join(f"{t:.6f} s" for t in times)}
@@ -136,13 +140,78 @@ def windows(start: float, end: float, fps: float, per_sheet: int) -> list[tuple[
     return spans
 
 
-def filter_graph(fps: float | None, tile_width: int, cols: int, rows: int, cross: bool) -> str:
-    """Build a sheet filter; fps=None keeps selected source frames without resampling."""
-    label = "text='%{pts\\:hms}':x=6:y=6:fontsize=20:fontcolor=yellow:box=1:boxcolor=black@0.6"
+def font_file() -> str | None:
+    """The first monospace font that exists on this machine, or None (drawtext then falls back to fontconfig)."""
+    return next((path for path in FONT_CANDIDATES if Path(path).is_file()), None)
+
+
+@functools.lru_cache(maxsize=1)
+def drawtext_available() -> bool:
+    """True when the ffmpeg on PATH has the drawtext filter (it needs freetype, which some builds leave out)."""
+    try:
+        filters = subprocess.run(["ffmpeg", "-hide_banner", "-filters"], capture_output=True, text=True, check=False).stdout
+    except OSError:
+        return False
+    return re.search(r"\sdrawtext\s", filters) is not None
+
+
+def filter_graph(fps: float | None, tile_width: int, cols: int, rows: int, cross: bool, labelled: bool = True) -> str:
+    """Build a sheet filter; fps=None keeps selected source frames without resampling. labelled=False leaves out the burned-in
+    time and the tiling (the ImageMagick fallback labels and tiles the pictures itself)."""
     centre = ("drawbox=x=iw/2-1:y=0:w=2:h=ih:color=cyan@0.5:t=fill,drawbox=x=0:y=ih/2-1:w=iw:h=2:color=cyan@0.5:t=fill,"
               "drawbox=x=iw/2-ih/40:y=ih/2-ih/40:w=ih/20:h=ih/20:color=cyan@0.8:t=2," if cross else "")
     sampling = f"fps={fps}," if fps is not None else ""
-    return f"{sampling}{centre}scale={tile_width}:-2,drawtext=fontfile={FONT}:{label},tile={cols}x{rows}:padding=2:color=black"
+    if not labelled:
+        return f"{sampling}{centre}scale={tile_width}:-2"
+    font = font_file()
+    label = (f"fontfile='{font}':" if font else "") + "text='%{pts\\:hms}':x=6:y=6:fontsize=20:fontcolor=yellow:box=1:boxcolor=black@0.6"
+    return f"{sampling}{centre}scale={tile_width}:-2,drawtext={label},tile={cols}x{rows}:padding=2:color=black"
+
+
+def clock(seconds: float) -> str:
+    """The clip time as h:mm:ss.fff, the format of ffmpeg's %{pts:hms} label."""
+    hours, rest = divmod(seconds, 3600)
+    minutes, secs = divmod(rest, 60)
+    return f"{int(hours)}:{int(minutes):02d}:{secs:06.3f}"
+
+
+def imagemagick() -> list[str]:
+    """Command prefixes for annotating and tiling with ImageMagick 7 (`magick`) or 6 (`convert`/`montage`)."""
+    if shutil.which("magick"):
+        return ["magick"], ["magick", "montage"]
+    if shutil.which("convert") and shutil.which("montage"):
+        return ["convert"], ["montage"]
+    raise OSError("ffmpeg ohne drawtext-Filter und kein ImageMagick gefunden – Kontaktbögen brauchen eins von beiden.")
+
+
+def render_sheet(input_args: list[str], fps: float | None, select: str, tile_width: int, cols: int, rows: int, cross: bool,
+                 output: str) -> None:
+    """Write one contact sheet. With drawtext, ffmpeg labels and tiles; without it, ffmpeg writes the pictures (showinfo gives each
+    picture's source time) and ImageMagick burns in the same h:mm:ss.fff label and tiles them with the same 2-px gaps."""
+    if drawtext_available():
+        graph = select + filter_graph(fps, tile_width, cols, rows, cross)
+        subprocess.check_call(["ffmpeg", "-y", "-loglevel", "error", *input_args, "-vf", graph, "-frames:v", "1", "-q:v", "4", output])
+        return
+    convert, montage = imagemagick()
+    with tempfile.TemporaryDirectory(prefix="sheet_") as scratch:
+        graph = select + filter_graph(fps, tile_width, cols, rows, cross, labelled=False) + ",showinfo"
+        result = subprocess.run(["ffmpeg", "-y", "-hide_banner", "-loglevel", "info", *input_args, "-vf", graph,
+                                 "-frames:v", str(cols * rows), "-fps_mode", "passthrough", os.path.join(scratch, "p%04d.png")],
+                                capture_output=True, text=True, check=True)
+        times = [float(value) for value in re.findall(r"pts_time:\s*([0-9.]+)", result.stderr)]
+        pictures = sorted(Path(scratch).glob("p*.png"))
+        if not pictures or len(pictures) != len(times):
+            raise ValueError(f"Kontaktbogen: {len(pictures)} Bilder, aber {len(times)} Zeitstempel.")
+        font = font_file()
+        labelled = []
+        for picture, seconds in zip(pictures, times):
+            target = picture.with_name(picture.stem + "_l.png")
+            subprocess.check_call([*convert, str(picture), *(["-font", font] if font else []), "-fill", "yellow",
+                                   "-undercolor", "#00000099", "-pointsize", "20", "-gravity", "northwest",
+                                   "-annotate", "+6+6", clock(seconds), str(target)])
+            labelled.append(str(target))
+        subprocess.check_call([*montage, *labelled, "-tile", f"{cols}x{rows}", "-geometry", "+1+1", "-background", "black",
+                               "-quality", "90", output])
 
 
 def sheet(path: str, prefix: str, start: float, end: float, fps: float | None, cols: int, rows: int, tile_width: int,
@@ -157,16 +226,14 @@ def sheet(path: str, prefix: str, start: float, end: float, fps: float | None, c
         for index in range(0, len(records), cols * rows):
             page_records = records[index:index + cols * rows]
             selection = "+".join(f"eq(n\\,{frame_index})" for frame_index, _ in page_records)
-            graph = f"select='{selection}'," + filter_graph(None, tile_width, cols, rows, cross)
             output = f"{prefix}_{index // (cols * rows):02d}.jpg"
-            subprocess.check_call(["ffmpeg", "-y", "-loglevel", "error", "-copyts", "-i", path, "-map", "0:v:0",
-                                   "-vf", graph, "-frames:v", "1", "-q:v", "4", output])
+            render_sheet(["-copyts", "-i", path, "-map", "0:v:0"], None, f"select='{selection}',", tile_width, cols, rows, cross,
+                         output)
             outputs.append(output)
         return outputs
     for index, (t0, t1) in enumerate(windows(start, min(end, duration), fps, cols * rows)):
         output = f"{prefix}_{index:02d}.jpg"
-        subprocess.check_call(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{t0:.3f}", "-to", f"{t1:.3f}", "-copyts", "-i", path,
-                               "-vf", filter_graph(fps, tile_width, cols, rows, cross), "-frames:v", "1", "-q:v", "4", output])
+        render_sheet(["-ss", f"{t0:.3f}", "-to", f"{t1:.3f}", "-copyts", "-i", path], fps, "", tile_width, cols, rows, cross, output)
         outputs.append(output)
     return outputs
 

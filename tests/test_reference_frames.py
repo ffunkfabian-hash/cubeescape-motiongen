@@ -14,6 +14,14 @@ ROOT = Path(__file__).resolve().parents[1]
 SPEC = importlib.util.spec_from_file_location("reference_frames", ROOT / "tools/reference_frames.py")
 reference_frames = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(reference_frames)
+REAL_DRAWTEXT = reference_frames.drawtext_available
+
+
+def pin_drawtext(test: unittest.TestCase, available: bool = True) -> None:
+    """Fix the drawtext decision for a test, independent of how the local ffmpeg was built."""
+    patcher = patch.object(reference_frames, "drawtext_available", return_value=available)
+    patcher.start()
+    test.addCleanup(patcher.stop)
 
 
 class WindowTests(unittest.TestCase):
@@ -58,6 +66,9 @@ class FilterTests(unittest.TestCase):
 
 
 class SheetTests(unittest.TestCase):
+    def setUp(self):
+        pin_drawtext(self)
+
     def test_native_sheet_selects_exact_source_frames_for_an_off_grid_interval(self):
         records = [(31, 1.001), (32, 1.034367), (33, 1.067733)]
         with tempfile.TemporaryDirectory() as scratch, \
@@ -89,6 +100,16 @@ class SheetTests(unittest.TestCase):
 
     @unittest.skipUnless(shutil.which("ffmpeg") and shutil.which("ffprobe"), "ffmpeg and ffprobe are required")
     def test_native_cli_sheet_pixels_match_source_frames_across_a_timestamp_gap(self):
+        REAL_DRAWTEXT.cache_clear()
+        paths = [REAL_DRAWTEXT()]
+        if shutil.which("magick") or (shutil.which("convert") and shutil.which("montage")):
+            paths.append(False)
+        for drawtext in dict.fromkeys(paths):
+            with self.subTest(drawtext=drawtext), \
+                 patch.object(reference_frames, "drawtext_available", return_value=drawtext):
+                self.check_native_cli_sheet_pixels()
+
+    def check_native_cli_sheet_pixels(self):
         colors = [(240, 20, 20), (20, 240, 20), (20, 20, 240), (230, 230, 20), (230, 20, 230), (20, 230, 230)]
         frame = 64 * 64
         raw = b"".join(bytes(color) * frame for color in colors)
@@ -150,6 +171,9 @@ class YtDlpCommandTests(unittest.TestCase):
 
 
 class MeasureTests(unittest.TestCase):
+    def setUp(self):
+        pin_drawtext(self)
+
     def test_frame_records_keep_source_indexes_and_half_open_native_pts(self):
         payload = {"frames": [{"best_effort_timestamp_time": t} for t in
                               ("0.967633", "1.001000", None, "1.034367", "1.067733", "1.101100")]}
@@ -225,6 +249,48 @@ class MeasureTests(unittest.TestCase):
             self.assertIn("eq(n\\,2)+eq(n\\,3)", graphs[0])
             self.assertIn("eq(n\\,4)", graphs[1])
             self.assertNotEqual(graphs[0], graphs[1])
+
+
+class FallbackTests(unittest.TestCase):
+    def test_unlabelled_graph_keeps_sampling_cross_and_scale_only(self):
+        graph = reference_frames.filter_graph(10, 400, 6, 5, cross=True, labelled=False)
+        self.assertTrue(graph.startswith("fps=10,"))
+        self.assertTrue(graph.endswith("scale=400:-2"))
+        self.assertEqual(graph.count("drawbox"), 3)
+        self.assertNotIn("drawtext", graph)
+        self.assertNotIn("tile=", graph)
+
+    def test_label_uses_an_existing_font_or_leaves_the_choice_to_ffmpeg(self):
+        with patch.object(reference_frames, "FONT_CANDIDATES", ("/missing/a.ttf", "/missing/b.ttf")):
+            self.assertIsNone(reference_frames.font_file())
+            self.assertNotIn("fontfile", reference_frames.filter_graph(60, 480, 6, 5, cross=False))
+        with tempfile.NamedTemporaryFile(suffix=" Bold.ttf") as font, \
+             patch.object(reference_frames, "FONT_CANDIDATES", ("/missing/a.ttf", font.name)):
+            self.assertEqual(reference_frames.font_file(), font.name)
+            self.assertIn(f"fontfile='{font.name}':", reference_frames.filter_graph(60, 480, 6, 5, cross=False),
+                          "quoted, so a path with spaces stays one option")
+
+    def test_clock_matches_the_ffmpeg_pts_label(self):
+        self.assertEqual(reference_frames.clock(0.0), "0:00:00.000")
+        self.assertEqual(reference_frames.clock(10.783333), "0:00:10.783")
+        self.assertEqual(reference_frames.clock(3725.5), "1:02:05.500")
+
+    def test_drawtext_detection_reads_the_filter_list(self):
+        reference_frames.drawtext_available.cache_clear()
+        self.addCleanup(reference_frames.drawtext_available.cache_clear)
+        listing = subprocess.CompletedProcess([], 0, stdout=" ... drawbox  V->V  Draw a colored box.\n T.C drawtext  V->V  Draw text.\n")
+        with patch.object(reference_frames.subprocess, "run", return_value=listing):
+            self.assertTrue(reference_frames.drawtext_available())
+        reference_frames.drawtext_available.cache_clear()
+        listing = subprocess.CompletedProcess([], 0, stdout=" ... drawbox  V->V  Draw a colored box.\n")
+        with patch.object(reference_frames.subprocess, "run", return_value=listing):
+            self.assertFalse(reference_frames.drawtext_available())
+
+    def test_fallback_without_imagemagick_names_both_missing_tools(self):
+        with patch.object(reference_frames, "drawtext_available", return_value=False), \
+             patch.object(reference_frames.shutil, "which", return_value=None):
+            with self.assertRaisesRegex(OSError, "drawtext"):
+                reference_frames.render_sheet(["-i", "clip.mp4"], 10, "", 200, 2, 2, False, "out.jpg")
 
 
 if __name__ == "__main__":
