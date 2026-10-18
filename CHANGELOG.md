@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.0 „Looking Glass“ – unveröffentlicht
+
+- Neues Doc `docs/cube-escape.md`: Cube Escape 0.94 „Plumbline“ mit denselben Messgrößen vermessen wie Destiny 2, Apex und Titanfall – zwölf Ego-Geräte (neun Waffen,
+  Portalwerfer, Magnetgreifer, Taschenlampe), eigene Aufnahmen 1920 × 1080 bei 60/s aus der Testkopie, Lage pixelgenau aus den projizierten Ankern, Profilwerte daneben.
+- 20 Messzeilen, 12 Zeilen Messwerte je Gerät, 12 Steckbriefe, 38 Vergleichszeilen (nur Zahlen, Schlüsse in Cube Escape › 18).
+- [Versionsbericht](docs/versions/0.md#040-looking-glass--unveröffentlicht).
+
 ## 0.3.0 „Fieldwork“ – unveröffentlicht
 
 - Destiny 2, PvE-Kanäle (mactics, datto, saltagreppo; 54 Clips gesichtet, 5 vermessen, 9 neue Messzeilen): Scharfschützengewehr (Ziehen, Zielfernrohr ein/aus mit

@@ -1,0 +1,177 @@
+# Cube Escape – Selbstvermessung mit den Messgrößen der Vorbilder
+
+Cube Escape 0.94 „Plumbline“, gemessen wie [Destiny 2](destiny2.md), [Apex Legends](apex.md) und [Titanfall 2](titanfall2.md): Lage im Bild in Prozent
+(Breite / Höhe, Ursprung oben links, Bildmitte 50 / 50 = Zielpunkt), Zeiten in Bildern bei 60/s, dazu die Profilwerte, die das Spiel dabei benutzt hat.
+**Hier stehen nur Zahlen und Beobachtungen**; was Cube Escape daraus macht (Startwerte, Entscheidungen), steht in Cube Escape `Docs/FIRST_PERSON_EQUIPMENT.md` › 18.
+Einstufung: alles **[M]** (gemessen am eigenen Bild), Profilwerte **[P]** (aus `Resources/Toolgen/viewmodel_profiles.json`, wie das Spiel sie geladen hat).
+
+## 1. Quellen
+
+- **Spielstand:** Cube Escape 0.94.0 „Plumbline“ (Branch `claude/cube-escape-0-94-plumbline`, Basis `main` 60ecf780 = 0.93 „Twinhand“); Profile und Modelle
+  unverändert gegenüber 0.93. Einstellungen auf Standard gesetzt (die Testkopie hatte ein Blickfeld von 100° gespeichert): Blickfeld **70° senkrecht**
+  (= 102,5° waagerecht bei 16 : 9), Sprint-Blickfeld +4°, Waffenwippen 100 %, Rückstoß-Kamera 100 %, Ziel-Rückstoß an, Zielzoom 100 %, Empfindlichkeit 1;
+  Viewmodel-Kamera fest 46,7° senkrecht.
+- **Aufnahme:** Testkopie (`verify.sh`, nie der Checkout), Unity im Batch-Modus mit virtueller Zeit (1 Bild = 1/60 s Spielzeit), Test
+  `CubeEscape.Tests.ReferenceMeasureTests` (`MeasureTheWeapons`, `MeasureTheTools`, `[Explicit]`), 18.10.2026, 589 s Rechenzeit für zwölf Geräte.
+  Spielkamera 1920 × 1080 mit HUD, jedes Bild per Pipe in ffmpeg (H.264, crf 16, 60/s). Messfeld: ebener Boden 40 × 110 m auf y = 50 mit Pfosten alle 5 m
+  als Bezug, gerichtetes Licht; Blick geradeaus nach +z.
+- **Pfade (Mac, außerhalb aller Repos):** `~/Library/Caches/CubeEscape/videos/0.94/` – je Gerät `<gerät>.mp4` (ohne Kreuz), `<gerät>.csv` (eine Zeile je
+  Bild), `<gerät>_profile.txt` (Profilwerte), dazu `measure.json` (Auswertung) und `boegen/` (177 Kontaktbögen mit Mittenkreuz: `<gerät>_suche_10s_NN.png`
+  über den ganzen Ablauf, `<gerät>_messung_60s_<vorgang>.png` je Vorgang, `alle_zielen_ruhig.png`).
+- **Auswertung:** Cube Escape `Tools/reference_measure.py <ordner> [--sheets <ordner>]` (mit Tests); Mittenkreuz wie `tools/reference_frames.py --cross`
+  (Linien und Quadrat 5 % Bildhöhe), die Beschriftung macht ImageMagick, weil das ffmpeg auf dem Mac kein `drawtext` hat.
+
+**Methode (Unterschiede zu den Clips der Vorbilder):**
+1. **Lage:** Mündung, Visierpunkt (`Socket_Sight`), Griffhand, Stützhand und Okular werden je Bild durch die Viewmodel-Kamera projiziert (so, wie sie gezeichnet
+   werden) – ±0,1 % statt ±3 %. **Box und Bildanteil** aus einem zweiten Render nur des Viewmodels vor Magenta (480 × 270, ±0,2 %); die Box reicht bei allen
+   Geräten bis an den rechten und unteren Bildrand (Unterarm), „Breite“ ist deshalb der sichtbare Teil.
+2. **Zeiten:** ±1 Bild (16,7 ms). „Zielen ein“ = Taste gedrückt → Visierpunkt bleibt 4 Bilder ≤ 0,3 % an seiner Zielstelle; „aus“ = Taste los → Mündung bleibt
+   4 Bilder ≤ 1 % an ihrer Hüftstelle (der Leerlauf-Servo bewegt sie ±0,5 %); „Ziehen“ = erstes Bild des neuen Modells → Linie Griffhand–Mündung ≤ 1,5° an ihrem
+   Hüftwinkel. Daneben steht, wo es einen gibt, der Rig-Wert (Gewicht ≥ 0,99) und der Profilwert.
+3. **Gleicher Ablauf je Gerät** (Startzeiten in 1.1; Werkzeuge benutzen statt zu schießen: einmal, die Taschenlampe an und aus): Wechsel vom vorigen Gerät · Hüfte ruhig 1 s · drei Schüsse aus der Hüfte · Gehen 3 s (5 m/s) · Anlauf, Sprint
+   2 s (8 m/s), Sprint aus im Gehen · Zielen (Werkzeuge: Präzision) ein, 1 s halten, drei Schüsse, aus · Nachladen · Sprung auf der Stelle und Landung · Umsehen
+   90° nach rechts in 0,3 s, halten, zurück. Geschossen wird so schnell, wie die Waffe es zulässt (jedes zweite Bild ein neuer Druck), das Fusionsgewehr mit
+   gehaltener Taste. Das Umsehen erreichte 85° statt 90° (gleiche Mausschritte je Bild); die Spalte `cam_yaw` der CSV ist die gemachte Drehung.
+4. **Zwei Fallen** (festgehalten, damit niemand sie wiederholt): ein `camera.Render()` im LateUpdate zeigte Renderer des GPU Resident Drawer ein Bild zu spät
+   (Landung: Zeile und Bild wichen um 1 Bild ab) – der Test zeichnet das Viewmodel deshalb ohne ihn; und die Einstellungen der Testkopie können von früheren
+   Tests verstellt sein.
+5. **Was hier messbar ist, bei den Vorbildern nicht:** Welt-Blickfeld in Grad, Tempo in m/s, Kamera in cm und Grad, Ereignisse (Schuss, MagOut, MagIn) auf das Bild
+   genau. Eigene Aufnahmen stehen nicht in `data/clips.json` (keine öffentlichen Clips); sie sind mit dem Test jederzeit neu zu erzeugen.
+6. **Nicht vorhanden im Spiel:** Nahkampf, Rutschen, Granate, Wandlauf, Greifhaken. Betrachten (Inspect) gibt es (zufällig im Leerlauf), es ist hier nicht aufgenommen.
+
+### 1.1 Startzeiten der Abschnitte (s, je Datei)
+
+| Datei | Bilder | `wechsel` | `huefte` | `hueftfeuer` | `gehen` | `sprint` | `sprint_aus` | `zielen_ein` | `zielen_feuer` | `zielen_aus` | `nachladen` | `sprung` | `landung` | `umsehen` | `umsehen_zurueck` |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| `pistol.mp4` | 1350 | 0,00 | 1,68 | 2,68 | 4,83 | 9,47 | 11,47 | 13,32 | 14,50 | 16,13 | 16,88 | 19,27 | 19,65 | 20,47 | 21,38 |
+| `assault_rifle.mp4` | 1331 | 0,00 | 1,53 | 2,53 | 4,32 | 8,95 | 10,95 | 12,80 | 13,98 | 15,22 | 15,97 | 18,95 | 19,33 | 20,15 | 21,07 |
+| `pulse_rifle.mp4` | 1380 | 0,00 | 1,58 | 2,58 | 4,73 | 9,37 | 11,37 | 13,22 | 14,40 | 16,03 | 16,78 | 19,77 | 20,15 | 20,97 | 21,88 |
+| `shotgun.mp4` | 1548 | 0,00 | 1,63 | 2,63 | 5,98 | 10,62 | 12,62 | 14,47 | 15,68 | 18,52 | 19,27 | 22,57 | 22,95 | 23,77 | 24,68 |
+| `sniper_rifle.mp4` | 1631 | 0,00 | 1,72 | 2,72 | 6,67 | 11,30 | 13,30 | 15,15 | 16,40 | 19,83 | 20,65 | 23,95 | 24,33 | 25,15 | 26,07 |
+| `smg.mp4` | 1290 | 0,00 | 1,58 | 2,58 | 4,13 | 8,77 | 10,77 | 12,62 | 13,80 | 14,87 | 15,62 | 18,27 | 18,65 | 19,47 | 20,38 |
+| `fusion_rifle.mp4` | 1902 | 0,00 | 1,57 | 2,57 | 8,95 | 13,58 | 15,58 | 17,43 | 18,72 | 24,58 | 25,33 | 28,47 | 28,85 | 29,67 | 30,58 |
+| `scout_rifle.mp4` | 1435 | 0,00 | 1,58 | 2,58 | 5,17 | 9,80 | 11,80 | 13,65 | 14,92 | 16,95 | 17,70 | 20,68 | 21,07 | 21,88 | 22,80 |
+| `rocket_launcher.mp4` | 1800 | 0,00 | 1,83 | 2,83 | 7,78 | 12,42 | 14,42 | 16,27 | 17,57 | 22,00 | 22,87 | 26,77 | 27,15 | 27,97 | 28,88 |
+| `portal_emitter.mp4` | 1173 | 0,00 | 1,63 | 2,63 | 4,50 | 9,13 | 11,13 | 12,98 | 14,22 | 15,57 | – | 16,32 | 16,70 | 17,52 | 18,43 |
+| `magnet.mp4` | 1173 | 0,00 | 1,63 | 2,63 | 4,50 | 9,13 | 11,13 | 12,98 | 14,22 | 15,57 | – | 16,32 | 16,70 | 17,52 | 18,43 |
+| `flashlight.mp4` | 1231 | 0,00 | 1,53 | 2,53 | 4,93 | 9,57 | 11,57 | 13,42 | 14,65 | 16,53 | – | 17,28 | 17,67 | 18,48 | 19,40 |
+
+## 2. Messungen – [M]
+
+| Vorgang | Clip (Datei, Zeitstempel) | Messung | Rig / Profil [P] |
+|---|---|---|---|
+| **Hüftlage – Mündung** | alle zwölf, Abschnitt `huefte` (1,53–1,83 s, Mittel der letzten 30 Bilder) | Mündung bei **allen Geräten rechts unter der Mitte**: 9,8–17,6 % rechts, 6,0–12,5 % tiefer (Pistole 59,8 / 61,1, Gewehre 62–63 / 59–62, Raketenwerfer 67,6 / 56,0, Werkzeuge 61–63 / 60–62); der Lauf zeigt von unten rechts zur Mitte, erreicht sie aber nicht | `hip.converge_m` 20 m: die Laufachse ist auf einen Punkt 20 m voraus gedreht |
+| **Hüftlage – Körper und Bildanteil** | dieselben Bilder | Box 52–60 % bis 100 % Breite × 36–57 % bis 100 % Höhe; sichtbare Breite 40–48 % (Pistole 42 %, Raketenwerfer 40 % breit und 64 % hoch); **Bildanteil 9,2 % (Pistole) bis 17,1 % (Raketenwerfer)**, Gewehre 11–16 %, Werkzeuge 11–13 % | Viewmodel-Blickfeld 46,7° fest |
+| **Zielen ein (ADS)** | neun Waffen, Abschnitt `zielen_ein` (12,62–17,43 s) | **10–20 Bilder (0,17–0,33 s)**: Schrot 10, Pistole und MP 11, Sturm- und Impulsgewehr 13, Raketenwerfer und Fusion 19, Scharfschütze und Spurgewehr 20; Bewegung ohne Umweg (Box links nie über die Zielhaltung hinaus); Visierpunkt danach **genau auf 50,0 / 50,0** | Rig ≥ 0,99 nach 10–20 Bildern; `ads.in_s` 0,14–0,30 s (8–18 Bilder) – Bild 2–5 Bilder länger (Federende) |
+| **Zielen aus** | neun Waffen, Abschnitt `zielen_aus` (14,87–24,58 s) | **9–10 Bilder** (Pistole, Gewehre, MP, Schrot, Fusion), Scharfschütze 16 (11 Bilder fast still, dann 5), Raketenwerfer 28 (22 Bilder fast still, dann 6); **Weg: die Waffe schwenkt zuerst nach links über die Zielhaltung hinaus**, Box-Kante 4 % (Pistole) bis 34 % (Schrot, Scharfschütze bis an den linken Bildrand) weiter links, dann nach rechts unten in die Hüfte | Rig ≤ 0,01 nach 8–17 Bildern; `ads.out_s` 0,12–0,25 s (7–15 Bilder) |
+| **Visier, Nähe und Zoom** | `alle_zielen_ruhig.png` (je Datei 2 Bilder vor `zielen_feuer`) | Kimme/Korn bzw. Reflex-/Holo-Gehäuse klein auf dem Kreuz (≈ 3–5 % Höhe), Waffenkörper mittig darunter 31–43 % breit, Mündung 5,8–10,8 % unter dem Kreuz; Scharfschütze und Spurgewehr: **Linse mit Bild** (Radius 4,1 % bzw. 3,2 % Höhe, also 6–8 % Durchmesser) auf dem Kreuz, sichtbar ab Bild 1 des Zielens. Welt-Zoom ×1,23 (Pistole, Schrot, Scharfschütze, Spurgewehr) bis ×1,67 (Impuls); **Blickfeld und Modell laufen gleichzeitig** (Blickfeld ab Bild 1, fertig mit dem Modell in Bild 11–24) | `ads.fov_scale` 0,65–0,85 = Bildwert; Linse `scope_fov_scale` 0,25 / 0,5; Visierfehler 0,0 px |
+| **Fusionsgewehr: Laden im ADS** | `fusion_rifle.mp4` 18,73–19,53 s (Laden 1124–1172), Hüfte 2,58–3,38 s | in der Hüfte bleibt die Haltung beim Laden (Mündung 63 / 61); **im ADS zieht der Lade-Clip die Waffe in 6 Bildern aus der Visierlinie** (Visierpunkt 50 / 50 → 78 / 73, Box 55–100 × 70–100), hält sie dort 0,8 s und **springt beim Schuss in 1 Bild zurück** auf 50 / 49 | Rig meldet die ganze Zeit ADS 1,0; `charge_s` 0,8 |
+| **Rückstoß aus der Hüfte** | Abschnitt `hueftfeuer` (2,53–2,83 s + Kadenz), `boegen/<gerät>_messung_60s_schuss_huefte.png` | **Spitze im Schussbild selbst** (Bild 0–1; schwere Waffen 3), Modell 1,6 % (MP) bis 6,5 % (Schrot, Fusion), danach ein zweiter Buckel aus dem Feuer-Clip (Pumpe, Verschluss) bis 4–8 %; zurück nach 14 (MP) bis 53 Bildern (Raketenwerfer), Gewehre 17, Pistole 20, Schrot 34, Scharfschütze 40 | `kick_return_s` 0,08–0,25 + `settle` 0,25–0,5 s – Bild ≈ Summe beider |
+| **Kamera-Kick** | dieselben Schüsse | Kamera nickt **im Schussbild** 0,26° (MP) bis 1,78° (Raketenwerfer) = 0,3–2,2 % Bildhöhe, zurück in 3–10 Bildern (Scharfschütze, Raketenwerfer > 12); im ADS 0,18–1,43° | `camera_pitch_deg` 0,25–1,5 – Bild 5–30 % größer (Pistole 0,69 / 0,6, Schrot 1,39 / 1,2, Scharfschütze 1,32 / 1,0, Raketenwerfer 1,78 / 1,5) |
+| **Rückstoß im ADS** | Abschnitt `zielen_feuer`, `…_schuss_zielen.png` | Visierpunkt 0,6 % (Impuls) bis 3,2 % (Schrot) im Schussbild, zurück nach 7–8 Bildern (Impuls, Spurgewehr, MP) bis 35 (Schrot); **Scharfschütze 10,1 %** (Okular springt zur Kamera und nach oben, zurück 41 Bilder mit Verschluss-Clip) | `ads.recoil` 0,7 |
+| **Kadenz** | Abstand der Schuss-Ereignisse in `hueftfeuer` | Sturmgewehr 24 Bilder (0,40 s), MP 18 (0,30 s), Pistole und Impuls 36 (0,60 s), Spurgewehr 48–50 (0,80 s), Schrot 72 (1,20 s), Scharfschütze 90 (1,50 s), Raketenwerfer 120 (2,00 s), Fusion 139 (2,32 s = Abklingen 1,5 + Laden 0,8); jede Waffe will je Schuss einen neuen Druck, keine feuert beim Halten weiter | `cooldown` = Bildwert ±1 Bild |
+| **Gehen – Wippen** | Abschnitt `gehen` (4,13–8,95 s, ab Bild 30) | **Kamera** senkrecht 4,4 cm Hub mit **3,8 Hz** (ein Hub je Schritt); **Waffe im Bild** senkrecht 1,2–1,9 % (Raketenwerfer 3,2 %), seitlich 1,0–2,3 % mit dem Gangzyklus 1,9 Hz, ohne klare senkrechte Frequenz (Trägheit und Servo überlagern) | `bob.frequency_hz` 1,9 = Gangzyklus (zwei Schritte) bei 5 m/s, `bob.amplitude_m` 0,009–0,014 |
+| **Sprint – Haltung und Übergänge** | Abschnitte `sprint` (letzte 40 Bilder) und `sprint_aus`, `…_sprint_ein.png` | **Haltung kaum anders als die Hüfte:** Mündung der Gewehre 4–6 % tiefer und 1–3 % weiter links, Pistole 5 % höher, Raketenwerfer 12 % weiter links, Werkzeuge ≤ 2 %; Box nahezu gleich; ein 11–17 Bilder, aus 9–12 Bilder (Rig); Welt-Blickfeld 70° → 74° | `sprint.in_s / out_s` 0,18–0,28 / 0,15–0,2 s = Rig; `sprint.offset_m` (−0,01, −0,06, 0), `rotation` (4, −10, 20)° |
+| **Sprint – Wippen** | Abschnitt `sprint` | Kamera 6,1 cm Hub mit 6,1 Hz; Waffe senkrecht 1,5–3,6 %, seitlich 1,6–2,5 % mit 3,0 Hz (Gangzyklus bei 8 m/s) | Gangzyklus 1,9 Hz × 1,6 (Obergrenze) = 3,04 Hz |
+| **Umsehen 85° in 0,3 s (Sway)** | Abschnitte `umsehen` / `umsehen_halten`, `…_umsehen.png` | Waffe bleibt **4,2–5,6 % Breite** gegen die Drehung zurück, Spitze am Ende der Drehung (Bild 18), zurück nach 6–19 Bildern (0,10–0,32 s; Scharfschütze und Raketenwerfer 19), **kein Überschwingen** | `sway.max_m` 0,025–0,05, `smooth_s` 0,08–0,16, `damping` 0 (Schrot, Raketenwerfer 0,1) |
+| **Absprung und Luft** | Abschnitt `sprung` (16,32–28,47 s), `…_sprung.png` | Absprung-Absenkung 2,2–3,0 % in 4–7 Bildern, dann steigt die Waffe in der Luft bis 1,6–2,3 % **über** die Ruhelage (Box-Oberkante 2–4 % höher); 22 Bilder Flug | `air.jump_dip_m` 0,01, `air.offset_m` (0, −0,01, 0) |
+| **Landung** | Abschnitt `landung`, `…_landung.png` | **Einbruch 13–15 % Bildhöhe in einem Bild** (Landebild), zurück nach 8–12 Bildern (Portalwerfer 31), kein Überschwingen; Kamera sinkt 5,8 cm und kommt in ≈ 30 Bildern zurück | `land.dip_per_speed` 0,006 m je m/s, `land.max_m` 0,06 – ohne Einblenden |
+| **Wechsel und Ziehen** | Abschnitt `wechsel` (0,00 s), `…_wechsel.png` | **Kein Bild ohne Gerät:** das alte Modell senkt und neigt sich (Wegstecken 14–29 Bilder, je nach altem Gerät), dann **harter Schnitt** auf das neue Modell, das fast in der Hüftlage erscheint (Mündung ≤ 2 % daneben, Lauf 7–12° tiefer geneigt) und sich in **12–22 Bildern** (0,20–0,37 s) aufrichtet; Wechsel gesamt 28–41 Bilder (0,47–0,68 s) | `holster.duration_s` 0,25–0,5 = Bildwert ±1; `draw.duration_s` 0,35–0,7 s (Bild etwa die Hälfte: Ende nach 1,5°-Regel); `draw.tip_deg` 20–25 |
+| **Nachladen** | Abschnitt `nachladen` (15,62–25,33 s), `…_nachladen.png` (20/s) | Modell neigt sich nach rechts und weicht ≤ 10 % aus der Hüftlage (Raketenwerfer 20 %), **bleibt im Bild**; MagOut nach 31–69, MagIn nach 69–139, bereit nach 106 (Pistole, 1,77 s) bis 196 Bildern (Raketenwerfer, 3,27 s), Gewehre 141–142 (2,35–2,37 s), Schrot und Scharfschütze 161–162 (2,7 s), MP 121 (2,02 s), Fusion 151 (2,52 s) | Reload-Clip 1,75–3,25 s mit Ereignissen MagOut/MagIn/Ready = Bildwert ±1 |
+| **Werkzeuge: Präzision** | `portal_emitter.mp4`, `magnet.mp4`, `flashlight.mp4`, Abschnitt `zielen_ein` | das Werkzeug bleibt rechts unten (Mündung verschiebt sich ≤ 6 %), nur die Welt zoomt ×1,07–1,14 in 6–19 Bildern; Benutzen ohne sichtbaren Kick (≤ 0,9 %), keine Kamera | `precision.fov_scale` 0,9–0,95 |
+| **Nahkampf, Rutschen, Granate, Wandlauf** | – | nicht vorhanden | – |
+
+### 2.1 Messwerte je Gerät
+
+Spalten: Mündung (% B / % H) und Abstand zur Mitte · Box und Bildanteil · Zielen ein · aus in Bildern und Schwenk nach links beim Aus (% B) · Welt-Zoom und
+Visier · Kick aus der Hüfte (Spitze % H, zurück nach Bildern) und im ADS · Kamera-Kick aus der Hüfte (Grad, % H, zurück nach Bildern) · Abstand der Schüsse ·
+Sprint (Mündung gegenüber dem Gehen, Rig ein / aus) · Sway · Landung (Einbruch, zurück) · Wechsel (Wegstecken **des vorigen Geräts**, Ziehen, Neigung beim
+Erscheinen) · Nachladen (Bilder ab Tastendruck).
+
+| Gerät (Datei) | Mündung · → Mitte | Box B × H · Anteil | Zielen ein · aus [B.] · Schwenk links | Zoom · Visier | Kick Hüfte (zurück) · ADS | Kamera Hüfte | Abstand Schüsse | Sprint Δ Mündung · Rig ein/aus [B.] | Sway · zurück [B.] | Landung · zurück [B.] | Wegstecken · Ziehen [B.] (Drehung) | Nachladen MagOut · MagIn · bereit [B.] |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Pistole (`pistol.mp4`) | 59,8 / 61,1 · 9,8 / 11,1 | 52–94 × 56–100 · 9,2 % | ADS 11 · 9 · 4 % | ×1,23 · Visier auf 50 / 50 | 4,4 % (20) · 1,8 % | 0,69° = 0,9 % H (6) | 36 B. = 0,60 s | −0,6 / −5,4 · 11 / 9 | −5,6 % · 7 | 14,3 % · 12 | 29 · 12 (7°) | 31 · 69 · 106 |
+| Sturmgewehr (`assault_rifle.mp4`) | 62,6 / 58,9 · 12,6 / 8,9 | 55–100 × 52–100 · 14,2 % | ADS 13 · 10 · 11 % | ×1,54 · Visier auf 50 / 50 | 4,9 % (17) · 0,8 % | 0,39° = 0,5 % H (4) | 24 B. = 0,40 s | −0,8 / 5,5 · 12 / 11 | −5,1 % · 12 | 13,2 % · 8 | 14 · 14 (10°) | 44 · 94 · 142 |
+| Impulsgewehr (`pulse_rifle.mp4`) | 63,1 / 60,0 · 13,1 / 10,0 | 55–100 × 53–100 · 14,7 % | ADS 13 · 10 · 15 % | ×1,67 · Visier auf 50 / 50 | 2,4 % (17) · 0,6 % | 0,39° = 0,5 % H (4) | 36 B. = 0,60 s | −1,3 / 5,1 · 12 / 11 | −5,2 % · 12 | 13,4 % · 8 | 17 · 14 (10°) | 49 · 97 · 141 |
+| Schrotflinte (`shotgun.mp4`) | 63,4 / 60,9 · 13,4 / 10,9 | 56–100 × 57–100 · 11,6 % | ADS 10 · 10 · 34 % | ×1,23 · Visier auf 50 / 50 | 6,5 % (34) · 3,2 % | 1,39° = 1,7 % H (10) | 72 B. = 1,20 s | −2,1 / 5,7 · 12 / 11 | −5,1 % · 11 | 13,3 % · 8 | 17 · 15 (10°) | 46 · 114 · 162 |
+| Scharfschützengewehr (`sniper_rifle.mp4`) | 62,3 / 61,6 · 12,3 / 11,6 | 57–100 × 54–100 · 12,5 % | ADS 20 · 16 · 32 % | ×1,23 · Linse r 4,1 % H | 6,2 % (40) · 10,1 % | 1,32° = 1,6 % H (> 12) | 90 B. = 1,50 s | −2,6 / 6,5 · 14 / 11 | −4,2 % · 19 | 13,5 % · 8 | 19 · 17 (10°) | 56 · 114 · 161 |
+| Maschinenpistole (`smg.mp4`) | 62,4 / 59,0 · 12,4 / 9,0 | 54–100 × 50–100 · 15,8 % | ADS 11 · 10 · 10 % | ×1,32 · Visier auf 50 / 50 | 1,6 % (14) · 1,0 % | 0,26° = 0,3 % H (3) | 18 B. = 0,30 s | 0,3 / 4,3 · 12 / 11 | −5,2 % · 8 | 13,6 % · 8 | 20 · 13 (12°) | 34 · 79 · 121 |
+| Fusionsgewehr (`fusion_rifle.mp4`) | 62,8 / 60,4 · 12,8 / 10,4 | 58–100 × 57–100 · 11,6 % | ADS 19 · 10 · 21 % | ×1,42 · Visier auf 50 / 50 | 6,5 % (17) · 1,7 % | 0,86° = 1,1 % H (8) | 139 B. = 2,32 s | −2,1 / 5,6 · 12 / 11 | −5,1 % · 14 | 13,2 % · 8 | 16 · 14 (10°) | 51 · 106 · 151 |
+| Spurgewehr (`scout_rifle.mp4`) | 62,4 / 60,7 · 12,4 / 10,7 | 57–100 × 57–100 · 11,3 % | ADS 20 · 10 · 20 % | ×1,23 · Linse r 3,2 % H | 4,4 % (17) · 2,0 % | 0,39° = 0,5 % H (4) | 50 B. = 0,83 s | −1,5 / 4,6 · 12 / 11 | −5,1 % · 12 | 13,2 % · 8 | 17 · 14 (11°) | 46 · 97 · 142 |
+| Raketenwerfer (`rocket_launcher.mp4`) | 67,6 / 56,0 · 17,6 / 6,0 | 60–100 × 36–100 · 17,1 % | ADS 19 · 28 · 23 % | ×1,32 · Visier auf 50 / 50 | 6,3 % (53) · 2,4 % | 1,78° = 2,2 % H (> 12) | 120 B. = 2,00 s | −11,7 / 2,9 · 17 / 12 | −4,4 % · 19 | 13,3 % · 8 | 17 · 22 (8°) | 69 · 139 · 196 |
+| Portalwerfer (`portal_emitter.mp4`) | 61,6 / 60,3 · 11,6 / 10,3 | 56–100 × 46–100 · 11,2 % | Präzision 18 · 4 · 0 % | ×1,14 · Mündung 63,4 / 59,5 | – | – | – | 0,5 / −1,0 · 12 / 9 | −4,7 % · 11 | 14,7 % · 31 | 14 · 18 (9°) | nicht vorhanden |
+| Magnetgreifer (`magnet.mp4`) | 63,4 / 62,0 · 13,4 / 12,0 | 57–100 × 46–100 · 11,0 % | Präzision 19 · 3 · 0 % | ×1,07 · Mündung 64,4 / 61,4 | – | – | – | 0,5 / −1,8 · 12 / 9 | −4,7 % · 10 | 14,8 % · 12 | 17 · 17 (10°) | nicht vorhanden |
+| Taschenlampe (`flashlight.mp4`) | 61,6 / 62,5 · 11,6 / 12,5 | 57–100 × 47–100 · 12,6 % | Präzision 6 · 4 · 0 % | ×1,11 · Mündung 61,4 / 57,1 | – | – | – | −1,0 / −2,2 · 12 / 9 | −5,1 % · 6 | 14,4 % · 8 | 17 · 13 (9°) | nicht vorhanden |
+
+Wegstecken je Gerät (aus der Zeile des nächsten Geräts): Pistole 14, Sturmgewehr 17, Impuls 17, Schrot 19, Scharfschütze 20, MP 16, Fusion 17, Spurgewehr 17,
+Raketenwerfer 29, Portalwerfer 17, Magnetgreifer 17 Bilder; Taschenlampe nicht gemessen (letztes Gerät).
+
+## 3. Steckbriefe je Gerät – [M]
+
+**Gemeinsamkeiten aller zwölf Geräte (Unterschied zu den Vorbildern):**
+- **Eine Hüftlage für alle:** Mündung rechts unter der Mitte (10–18 % / 6–13 %), Griffhand ≈ 77 / 87, Stützhand ≈ 68–71 / 63–70, Unterarm von rechts unten;
+  nur Pistole (kleiner, Becher-Griff unten) und Raketenwerfer (höher, weiter rechts) weichen ab.
+- **Zielen bringt den Visierpunkt genau auf die Mitte** (0,0 px), ADS ein 10–20 Bilder ohne Umweg, ADS aus 9–28 Bilder mit Schwenk nach links.
+- **Sprint ändert die Haltung kaum** (≤ 6 %), das Wippen ist klein (Waffe ≤ 3,6 %), die Kamera wippt mit jedem Schritt.
+- **Landung als Ein-Bild-Einbruch** (13–15 %), Luftlage kaum anders als die Hüfte.
+- **Wechsel ohne leeres Bild**, harter Schnitt zwischen den Modellen.
+
+| Typ | Hüfthaltung: Lage, Größe, Lauf | Zielen in der Hüfte (Mündung → Mitte) | Sprint / Tragen | ADS: Zeit, Visier, Nähe, Zoom | Feuern / Rückstoß | Aktionen (Ziehen, Nachladen) | Arme | Besonderheiten | Cube Escape (Felder) |
+|---|---|---|---|---|---|---|---|---|---|
+| **Pistole** (`pistol`, Klasse sidearm) | beidhändig im Becher-Griff, **mittig-rechts**: Box 52–94 × 56–100, Anteil 9,2 %, Visier 68 / 56, Lauf leicht nach links oben | Mündung 59,8 / 61,1 → 10 % rechts, 11 % unter der Mitte | 5 % höher, Box schmaler (48–80 %), ein 11 / aus 9 Bilder | ein 11 Bilder, aus 9 (Schwenk 4 %); Kimme/Korn klein auf dem Kreuz, Körper 28–70 % breit; Zoom ×1,23 | Kick 4,4 % im Schussbild, zurück 20 Bilder; Kamera 0,69°; ADS 1,8 %, zurück 19; Abstand 0,60 s | Ziehen 12 Bilder (7° Neigung), Wegstecken 14; Nachladen bereit 1,77 s (MagOut 0,52, MagIn 1,15), Weg ≤ 9 % | Griffhand 67 / 93, Stützhand 64 / 100 (unter dem Griff) | kleinstes Gerät im Bild | `hip.*`, `ads.in_s` 0,14, `draw.duration_s` 0,35 |
+| **Sturmgewehr** (`assault_rifle`, rifle) | **unten rechts**: Box 55–100 × 52–100, Anteil 14,2 %, Reflex-Gehäuse 77 / 52, Lauf nach links oben | Mündung 62,6 / 58,9 → 13 % / 9 % | Mündung 5,5 % tiefer, ein 12 / aus 11 | ein 13, aus 10 (Schwenk 11 %); Reflex-Gehäuse auf dem Kreuz, Körper 35–70 % breit; Zoom ×1,54 | Kick 4,9 %, zurück 17; Kamera 0,39° (0,5 %); ADS 0,8 % + Clip 1,7 %; Abstand 0,40 s | Ziehen 14 (10°), Wegstecken 17; Nachladen bereit 2,37 s (MagOut 0,73, MagIn 1,57), Weg ≤ 10 %, Waffe kippt nach rechts | Griffhand 77 / 87, Stützhand 68 / 63 am Vorderschaft; ADS beide auf der senkrechten Mitte (50 / 86, 50 / 62) | – | `ads.fov_scale` 0,7 |
+| **Impulsgewehr** (`pulse_rifle`, rifle) | wie Sturmgewehr: Box 55–100 × 53–100, Anteil 14,7 %, Holo 78 / 53 | 63,1 / 60,0 → 13 % / 10 % | 5 % tiefer, 12 / 11 | ein 13, aus 10 (Schwenk 15 %); Holo-Gehäuse auf dem Kreuz; Zoom ×1,67 (stärkster Welt-Zoom) | ein Schuss je Druck (keine Salve), Kick 2,4 % + Clip-Buckel 3,0 % nach 11 Bildern, zurück 17; ADS 0,6 %, zurück 7; Abstand 0,60 s | Ziehen 14 (10°), Wegstecken 17; Nachladen bereit 2,35 s | wie Sturmgewehr | Impuls ohne Salve | `ads.fov_scale` 0,65 |
+| **Schrotflinte** (`shotgun`, shotgun) | unten rechts: Box 56–100 × 57–100, Anteil 11,6 %, Lauf nach links oben | 63,4 / 60,9 → 13 % / 11 % | 6 % tiefer, 12 / 11 | ein 10, aus 10 (**Schwenk 34 % bis an den linken Rand**); Kimme/Korn auf dem Kreuz; Zoom ×1,23 | Kick 6,5 % nach 3 Bildern, Pump-Clip hält ≈ 3–4 % bis Bild 30, zurück 34; Kamera 1,39° (1,7 %); ADS 3,2 % + Pumpe 4,3 % nach 21, zurück 35; Abstand 1,20 s | Ziehen 15 (10°), Wegstecken 19; Nachladen bereit 2,70 s (MagOut 0,77, MagIn 1,90) | Griffhand 77 / 87, Stützhand 68 / 70 | – | `recoil.camera_pitch_deg` 1,2 |
+| **Scharfschützengewehr** (`sniper_rifle`, sniper) | unten rechts: Box 57–100 × 54–100, Anteil 12,5 %, Zielfernrohr 82 / 64 | 62,3 / 61,6 → 12 % / 12 %, Lauf zur Mitte | 6,5 % tiefer, 14 / 11 | ein 20, aus 16 (11 Bilder fast still, dann 5; **Schwenk 32 % bis an den linken Rand**); **Linse mit Bild**, Radius 4,1 % Höhe, ab Bild 1 sichtbar, Welt-Zoom ×1,23, Linsen-Zoom stärker (`scope_fov_scale` 0,25) | Hüfte 6,2 % nach 3 Bildern, zurück 40; Kamera 1,32° (1,6 %); **ADS: Okular springt 10,1 % zur Kamera und nach oben**, zurück 41 (Verschluss-Clip); Abstand 1,50 s | Ziehen 17 (10°), Wegstecken 20; Nachladen bereit 2,68 s | Griffhand 77 / 88, Stützhand 71 / 70 | Bild in der Linse statt Vollbild-Overlay | `ads.sight` scope, `eye_radius_m` 0,011 |
+| **Maschinenpistole** (`smg`, submachine_gun) | unten rechts, größter Anteil der Gewehrklasse: Box 54–100 × 50–100, 15,8 %, Reflex 77 / 47 | 62,4 / 59,0 → 12 % / 9 % | 4 % tiefer, 12 / 11 | ein 11, aus 10 (Schwenk 10 %); Reflex auf dem Kreuz; Zoom ×1,32 | Kick 1,6 %, zurück 14; Kamera 0,26° (0,3 %); ADS 1,0 %, zurück 8; Abstand 0,30 s (200/min) | Ziehen 13 (12°), Wegstecken 16; Nachladen bereit 2,02 s | Griffhand 77 / 87, Stützhand 67 / 63 | – | `cooldown` 0,3 |
+| **Fusionsgewehr** (`fusion_rifle`, rifle) | unten rechts: Box 58–100 × 57–100, Anteil 11,6 %, Energie-Visier 72 / 59 | 62,8 / 60,4 → 13 % / 10 % | 6 % tiefer, 12 / 11 | ein 19, aus 10 (Schwenk 21 %); Zoom ×1,42; **Laden im ADS zieht die Waffe aus der Visierlinie** (6 Bilder → 78 / 73, 0,8 s, Rücksprung in 1 Bild beim Schuss) | Laden 48 Bilder, dann Kick 6,5 %, zurück 17; Kamera 0,86°; ADS 1,7 %; Abstand 2,32 s | Ziehen 14 (10°), Wegstecken 17; Nachladen bereit 2,52 s | wie Gewehre | Lade-Clip übersteuert das ADS | `charge_s` 0,8, `charge.*` |
+| **Spurgewehr** (`scout_rifle`, rifle) | unten rechts: Box 57–100 × 57–100, Anteil 11,3 %, Zielfernrohr 79 / 65 | 62,4 / 60,7 → 12 % / 11 % | 4,6 % tiefer, 12 / 11 | ein 20, aus 10 (Schwenk 20 %); **Linse mit Bild**, Radius 3,2 % Höhe, Welt-Zoom ×1,23 (Linse `scope_fov_scale` 0,5) | Kick 4,4 % im Schussbild, zurück 17; Kamera 0,39°; ADS 2,0 %, zurück 7; Abstand 0,80 s | Ziehen 14 (11°), Wegstecken 17; Nachladen bereit 2,37 s | wie Gewehre | – | `ads.sight` scope |
+| **Raketenwerfer** (`rocket_launcher`, heavy) | **größtes Gerät**: Box 60–100 × 36–100, Anteil 17,1 %, Rohr hoch rechts, Visier 82 / 39 | 67,6 / 56,0 → 18 % / 6 % (am weitesten rechts, am höchsten) | **12 % weiter links**, 3 % tiefer, Anteil 19,9 %; ein 17 / aus 12 | ein 19, aus 28 (22 Bilder fast still, dann 6; Schwenk 23 %); Kimme über dem Rohr, Rohr mittig darunter (37–68 % breit); Zoom ×1,32 | Kick 6,3 % nach 3 Bildern, 8 % nach 5, zurück 53; Kamera 1,78° (2,2 %), > 12 Bilder; ADS 2,4 % + 3,2 %, Kamera 1,43°; Abstand 2,00 s | Ziehen 22 (8°), Wegstecken 29; Nachladen bereit 3,27 s (MagOut 1,15, MagIn 2,32), Weg ≤ 20 % | Griffhand 86 / 82, Stützhand 74 / 70 | stärkster Kamera-Kick | `recoil.camera_pitch_deg` 1,5 |
+| **Portalwerfer** (`portal_emitter`, tool_portal) | unten rechts: Box 56–100 × 46–100, Anteil 11,2 % | 61,6 / 60,3 → 12 % / 10 % | ≤ 1 % anders, 12 / 9 | **Präzision**: Werkzeug bleibt rechts unten (Mündung 63 / 60), Welt-Zoom ×1,14 in 18 Bildern, aus 4 | Portalschuss ohne sichtbaren Kick (≤ 0,9 %), keine Kamera | Ziehen 18 (9°), Wegstecken 17; kein Nachladen | Griffhand 79 / 83, Stützhand 70 / 68 | Silhouette in der Ego-Ansicht fast wie der Magnetgreifer | `precision.fov_scale` 0,9 |
+| **Magnetgreifer** (`magnet`, tool_gripper) | Box 57–100 × 46–100, Anteil 11,0 % | 63,4 / 62,0 → 13 % / 12 % | ≤ 2 %, 12 / 9 | Präzision ×1,07 in 19 Bildern, aus 3 | Greifen ohne Kick | Ziehen 17 (10°), Wegstecken 17 | Griffhand 78 / 82, Stützhand 70 / 69 | – | `precision.fov_scale` 0,95 |
+| **Taschenlampe** (`flashlight`, tool_flashlight) | Box 57–100 × 47–100, Anteil 12,6 % | 61,6 / 62,5 → 12 % / 13 % | ≤ 2 %, 12 / 9 | Präzision ×1,11 in 6 Bildern, aus 4; Lampe hebt sich 5 % | Schalten ohne Kick | Ziehen 13 (9°), Wegstecken nicht gemessen | Griffhand 77 / 85, Stützhand 70 / 68 | – | `precision.fov_scale` 0,92 |
+
+## 4. Vergleich mit den Vorbildern – nur Zahlen
+
+Differenz = Cube Escape minus Vorbild (Prozentpunkte bzw. Bilder bei 60/s). Quellen: D = [destiny2.md](destiny2.md) › 2 / 3, A = [apex.md](apex.md), T = [titanfall2.md](titanfall2.md).
+
+| Messgröße | Cube Escape | Destiny 2 | Apex Legends | Titanfall 2 | Differenz | Quelle |
+|---|---|---|---|---|---|---|
+| Hüfte: Mündung → Mitte, Gewehr | +12,6 / +8,9 (Sturmgewehr) | −10 / −10 (Automatikgewehr, links oben) | +5 / −2 (R-99) | −5 / +18 (Gewehr) | D +22,6 / +18,9 · A +7,6 / +10,9 · T +17,6 / −9,1 | D › 3 Automatikgewehr, A › 3, T › 3 |
+| Hüfte: Mündung → Mitte, Pistole | +9,8 / +11,1 | −2 / −4 (Handfeuerwaffe), +13 / +16 (Sidearm PvE) | – | – | HFW +11,8 / +15,1 · Sidearm −3,2 / −4,9 | D › 3 |
+| Hüfte: Mündung → Mitte, Schrot | +13,4 / +10,9 | −10 / +2 | – | – | +23,4 / +8,9 | D › 3 |
+| Hüfte: Mündung → Mitte, MP | +12,4 / +9,0 | +7 / +11 | +5 / −2 | – | D +5,4 / −2,0 · A +7,4 / +11,0 | D › 3, A › 3 |
+| Hüfte: Mündung → Mitte, Raketenwerfer | +17,6 / +6,0 | +10 / −10 | – | – | +7,6 / +16,0 | D › 3 |
+| Hüfte: Scharfschütze | Lauf zur Mitte, Mündung +12 / +12 | Lauf nach oben rechts bzw. Mündung −31 / +17 (PvE) | – | – | Richtung anders | D › 3 |
+| Hüfte: sichtbare Breite | Gewehre 42–46 %, Pistole 42 %, Raketenwerfer 40 % (Anteil 9–17 %) | Automatik 35 %, Raketenwerfer 45 %, Handfeuerwaffe 12 %, Sidearm 15 % | R-99 45 % | Gewehr 25 % | AR +10, Pistole +27 bis +30, Rakete −5 · A ±0 · T +20 | D › 3, A › 3, T › 3 |
+| ADS ein, Gewehr | 13 B. (0,22 s) | 4–6 B. (PvP), 6 B. (PvE Datto) | Sprint → ADS 26 B. | 6 B. (60/s), 11 B. aus der Luft | D +7 bis +9 · T +7 | D › 3, A › 2, T › 2 |
+| ADS ein, Scharfschütze | 20 B. | 16 B. (0,27 s: Modell 10, Linse 6) | Sentinel ≤ 6 B. | Kraber ≤ 6 B. | D +4 · A/T ≥ +14 | D › 3, A › 2, T › 2 |
+| ADS ein, MP | 11 B. | 19 B. (0,32 s, PvP) | – | – | −8 | D › 3 |
+| ADS aus | 9–10 B. (Gewehre), 16 (Scharfschütze), 28 (Raketenwerfer) | 4–5 B.; Scharfschütze 13–15 B. | ≤ 6 B. (Sentinel) | 7 B. | D +5, Scharfschütze +1 bis +3 · T +3 | D › 3, A › 2, T › 2 |
+| ADS aus: Weg | erst 4–34 % nach links über die Zielhaltung, dann rechts unten | direkt nach rechts unten | ADS → Sprint: 0,13 s rechts unten, dann hoch | Senken nach rechts unten | Richtung anders | D › 3, A › 2 |
+| Zoom-Reihenfolge | Blickfeld und Modell gleichzeitig; Linse ab Bild 1 | Modell zuerst (0,17 s), dann Linse (0,10 s); aus: Linse zuerst | Scope ≤ 0,1 s | Scope ≤ 0,1 s | Reihenfolge anders | D › 3 Bewegung |
+| Linse / Visier im ADS | Linse Radius 3,2–4,1 % H (Ø 6–8 %); Reflex/Holo ≈ 3–5 % H | Sniper Vollbild-Overlay; lin. Fusion Ring 20 → 55 % H; Holo ≈ 10–16 % H | Sentinel-Linse ≈ 70 % H | Kraber-Linse ≈ 50 % H, Holo ≈ 25 % H | Linse D −12 bis −49 · A −62 · T −42 | D › 3, A › 2, T › 2 |
+| Mündung im ADS unter dem Kreuz | 5,8–10,8 % (Sturmgewehr 8,6) | 0,5–3 % | – | – | +3 bis +10 | D › 3 Gemeinsamkeiten |
+| Rückstoß: Zeitpunkt der Spitze | im Schussbild (0–1 B.; schwere 3 B.) | 1 B. nach dem Mündungsfeuer | – | – | −1 B. | D › 3 Gemeinsamkeiten |
+| Rückstoß Hüfte, Gewehr | 4,9 %, zurück 17 B. | 1–2 % je Schuss, 3–4 B. zurück | – | – | +3 % · +13 B. | D › 3 Automatikgewehr |
+| Rückstoß Hüfte, Pistole | 4,4 %, zurück 20 B. (0,33 s) | Handfeuerwaffe: Lauf 40° nach links oben, 0,30–0,33 s mit Überschwingen | – | – | Zeit +0 bis +2 B.; kein Überschwingen | D › 3 Handfeuerwaffe |
+| Rückstoß ADS | 0,6–3,2 % (Scharfschütze 10,1 %), zurück 7–35 B. | Automatik 1 %, 2–3 B.; Handfeuerwaffe 6 %, 7–8 B.; Schrot 3 %, 6 B. | ≤ 1 % | ≤ 1–2 % | AR −0,2 % / +13 B. · Schrot +0,2 % / +29 B. | D › 3, A › 2, T › 2 |
+| Kamera-Kick | 0,3–2,2 % H (0,26–1,78°), zurück 3–10 B. | 0,5–2 % (Handfeuerwaffe 2 %, 8 B.) | nicht erkennbar | ruhig | im Bereich | D › 3 |
+| Kadenz | Sturmgewehr 0,40 s, MP 0,30 s, Pistole 0,60 s, Impuls 0,60 s (1 Schuss) | Automatik 0,07–0,08 s, MP ≈ 0,083 s (720/min), Handfeuerwaffe 0,17–0,20 s, Impuls 3 in 0,15 s | R-99 0,05–0,07 s | Gewehr 0,10 s, MP 0,05 s | AR ×5–6 länger, MP ×3,6 | D › 3, A › 2, T › 2 |
+| Sprint-Haltung (Weg aus der Hüfte) | Mündung ≤ 6 % (Raketenwerfer 12 % nach links) | Pistole: Mündung 48 / 46 → 80 / 15 (32 % rechts, 31 % hoch, Lauf 60–70°); MP 15 % nach links, 8 % tiefer, gerollt | Box 55–100 × 45–100 → 30–60 × 25–100 (≈ 25 % links, 20 % hoch), Lauf 60° | keine eigene Sprint-Haltung | D −26 bis −32 Punkte (Pistole), −9 (MP) · A −19 bis −25 | D › 3, A › 2 / 3, T › 3 |
+| Sprint ein / aus | 11–17 / 9–12 B. (Rig) | Pistole 9–10 / 6 B.; MP 11 / 14 B. | ADS ↔ Sprint 26–27 B. | – | D +2 bis +7 / +3 bis +6 | D › 3, A › 2 |
+| Schritt- und Gangfrequenz (Gehen) | Kamera 3,8 Hz (Schritte), Gangzyklus 1,9 Hz; Waffe ohne klare senkrechte Frequenz | 2,5 Hz senkrecht (Periode 0,40 s), seitlich halbe Frequenz | – | – | +1,3 Hz senkrecht | D › 3 Bewegung |
+| Wippen Gehen (Waffe) | senkrecht 1,2–1,9 %, seitlich 1,0–2,3 % | ≈ 3 % senkrecht, ≈ 5 % seitlich, Lauf rollt ±5° | – | Wandlauf ≤ 2 % | −1 bis −2 % / −3 bis −4 % | D › 3 Bewegung, T › 2 |
+| Wippen Sprint (Waffe) | 1,5–3,6 % senkrecht, seitlich 1,6–2,5 % mit 3,0 Hz; Kamera 6,1 Hz | 2,5–3 Hz (Periode 0,33–0,40 s), Hub 8–10 %, Rollen ±10° | – | – | −5 bis −8 % Hub | D › 3 Bewegung; Hub: Cube Escape `Docs/FIRST_PERSON_EQUIPMENT.md` › 1.2a/1.2b-Kurzfassung |
+| Sway bei schneller Drehung | 4,2–5,6 % Breite (85° in 0,3 s), zurück 0,10–0,32 s, kein Überschwingen | ≈ 10 % Breite (Scharfschütze), zurück ≈ 0,3 s, kein Überschwingen | – | – | ≈ −5 % · Rückkehr gleich | D › 3 Bewegung |
+| Absprung / Luft | Absenkung 2,2–3,0 % in 4–7 B., in der Luft 1,6–2,3 % über Ruhe | Automatik 15–20 % in 0,15 s, Scharfschütze 45 % in 0,35 s, nach rechts unten | 15 % in 5 B., Flug tief rechts | Waffe im Flug aus dem Bild | D −12 bis −42 % · A −12 % | D › 3, A › 2, T › 2 |
+| Landung | Einbruch 13–15 % in 1 B., zurück 8–12 B. | kein Dip, Rückkehr 5–6 B. | Dip 6 B. + Rückfederung 4 B. | kein Dip, Rückkehr 0,3 s | D +13 bis +15 % · A Dip 1 statt 6 B. | D › 3, A › 2, T › 2 |
+| Wechsel: leere Sicht | keine (harter Schnitt) | 0,13–0,40 s (8–24 B.) | keine | – | D −8 bis −24 B. | D › 3 Bewegung (Wechsel-Übersicht), A › 2 |
+| Wechsel: Ziehen | 12–22 B., Lauf 7–12° tiefer, erscheint in der Hüftlage | 0,13–0,23 s von unten rechts + 3–5 B. Nachfedern | 15 B. Heranziehen | – | D ±0 bis +5 B., anderer Weg | D › 3, A › 2 |
+| Wechsel gesamt | 28–41 B. (0,47–0,68 s) | 0,30–0,65 s (0,25–0,40 s ohne Waffe + 0,10–0,25 s Ziehen; Scharfschütze → Handfeuerwaffe 0,50 s) | 0,40 s | – | D −11 bis +23 B. · A +4 bis +17 B. | D › 3 Bewegung, A › 2 |
+| Nachladen bis bereit | Pistole 1,77 s, Gewehre 2,35–2,37 s, Schrot 2,70 s, Raketenwerfer 3,27 s | Handfeuerwaffe 1,0 s (Hüfte) / 0,67 s (ADS), Automatik 1,50 s bis HUD / 2,05 s bis Hüfte, Sidearm 1,1–1,2 s, Granatwerfer 1,87 s | Beginn 0,15 s (Rest verdeckt) | – | Pistole +0,77 s · AR +0,32 bis +0,87 s | D › 3 Bewegung (Nachlade-Übersicht) |
+| Nachladen: Weg | bleibt im Bild, ≤ 10 % (Raketenwerfer 20 %) | verlässt die Mitte in 0,10–0,15 s, oft aus dem Bild | 0,15 s nach rechts unten quer | – | kleinerer Weg | D › 3, A › 2 |
+| Laden (Fusion) im ADS | Waffe verlässt die Visierlinie für 0,8 s | lineare Fusion lädt im Ring (Reticle füllt sich) | – | – | anderes Verhalten | D › 3 Lineares Fusionsgewehr |
+| Nahkampf | nicht vorhanden | Waffe weg 0,25 s, Treffer 0,58 s | – | – | – | D › 3 Bewegung |
+| Rutschen, Wandlauf, Granate | nicht vorhanden | Rutschen: Waffe 10 % bzw. aus dem Bild | Rutschen 25 % tiefer, 45° gekippt | Wandlauf mit 10–15° Kamerarolle | – | D, A, T › 2 |
+| Welt-Blickfeld | 70° senkrecht (102,5° waagerecht), Sprint 74°, ADS 45,5–59,5° | nicht messbar (Streamer-Einstellung) | nicht messbar | nicht messbar | – | Methode der Vorbilder |
