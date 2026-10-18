@@ -280,5 +280,29 @@
     "clip": "https://twitch.tv/saltagreppo/clip/NiceAuspiciousScorpionDatSheffy-ALH4TQ8yBKxiEOH5",
     "source": "Saltagreppo, 06.03.2022, Twitch-Clip „World's First Vow of The Disciple“",
     "timestamps": "Ruhe 1,834–1,867 s → erster Blitz/Zähler 1→0 bei 1,884 s → große nahe Optik 1,950 s, bleibt groß bis 2,000 s → ADS aus/Wechsel ab 2,017 s; zweiter Schuss 12,950 s"
+  },
+  {
+    "measurement": "Maschinenpistole (PvP): Hüfte, Sprint-Haltung, ADS ein",
+    "clip": "https://twitch.tv/saltagreppo/clip/LuckySecretiveNightingaleHoneyBadger-cohqOo9fcQIxC9tr",
+    "source": "`twitch.tv/saltagreppo/clip/LuckySecretiveNightingaleHoneyBadger-cohqOo9fcQIxC9tr` („Comp Ready Game btw“, Spieler VandalizedTV, 23.08.2022, **PvP** Endless Vale), 60 Bilder/s",
+    "timestamps": "Hüfte (23,85): Körper ≈ 40–72 % Breite × 65–100 % Höhe, Holo-Ring ≈ 52 / 72, Griff ≈ 68 / 95, Mündung ≈ 43 / 80 (Lauf zur Mitte) · **Sprint ein** 24,017–24,200: Waffe sinkt und rollt nach links (Ring 52 / 72 → 37 / 80, Körper 28–100 % × 75–100 %, Lauf fast waagerecht) · zurück 24,467–24,700 · **ADS ein aus der Hüfte:** erste Bewegung 14,767 · Ring auf dem Kreuz 15,067 · ruhig 15,083 · **ADS ein aus dem Sprint:** 29,267 → 29,583"
+  },
+  {
+    "measurement": "Maschinenpistole (PvP): Dauerfeuer im ADS",
+    "clip": "https://twitch.tv/saltagreppo/clip/LuckySecretiveNightingaleHoneyBadger-cohqOo9fcQIxC9tr",
+    "source": "derselbe Clip, 18,05–18,90",
+    "timestamps": "Zähler 27 → 26 (18,083) → 25 (18,167) → 24 (18,267) → 23 (18,333) → 22 (18,433) → 21 (18,517) → 20 (18,600) → 19 (18,683) → 18 (18,750) → 17 (18,867); Treffer-Explosion 18,850"
+  },
+  {
+    "measurement": "Schrotflinte (Duality, Exotic): Nachladen aus dem ADS, Schuss danach",
+    "clip": "https://twitch.tv/ninjy/clip/RenownedSplendidBeeAMPTropPunch-SGF12N5UDoITtZdC",
+    "source": "`twitch.tv/ninjy/clip/RenownedSplendidBeeAMPTropPunch-SGF12N5UDoITtZdC` („Morgeth Duality Reload“, Spieler mij2, 19.04.2021, PvE Last Wish, 1600 × 900), 60 Bilder/s",
+    "timestamps": "ADS (Visier 50 / 52, Körper 40–60 % × 50–100 %) bis 18,550 · linke Hand greift 18,567 · Waffe kippt nach rechts unten 18,583–18,700 · goldene Patronen/Trommel sichtbar 18,700–18,883, Einsetzen 18,833–18,883 · quer gehalten, Trommel dreht 18,900–19,100 · Waffe senkt sich rechts 19,117–19,233 · unten rechts, Hände arbeiten 19,250–19,633 · Rückkehr 19,650–19,783 · **Schuss 19,817** aus dem ADS"
+  },
+  {
+    "measurement": "Nahkampf (Titan, geladener Schlag) aus der Hüfte",
+    "clip": "https://twitch.tv/mactics/clip/ProudGloriousHedgehogOMGScoots-SCYv3gcdFIaQ9GYR",
+    "source": "`twitch.tv/mactics/clip/ProudGloriousHedgehogOMGScoots-SCYv3gcdFIaQ9GYR` („Lets see what happens (4 feat)“, Spieler mister_wrecked, 16.09.2025, PvE-Bosskampf), 60 Bilder/s",
+    "timestamps": "blaue Waffe (MP-Form) in der Hüfte bis 4,283 · Waffe kippt und sinkt nach rechts unten 4,300–4,550 (Mündung hebt sich) · **Waffe weg 4,567** · leeres Bild 4,567–4,783 (13 Bilder) · Arm/Faust von rechts unten 4,800 · **Treffer in der Mitte 4,883** (Funken) · Arm zurück 4,933–4,950 · weg 4,967 · keine Waffe bis 5,783 (dann Super)"
   }
 ]
