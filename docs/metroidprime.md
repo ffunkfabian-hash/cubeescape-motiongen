@@ -28,7 +28,7 @@ Die zugehörigen Quellen- und Zeitstempel-Einträge gehören in [data/clips.json
 Ablauf entsprechend [Destiny 2, Abschnitt 2](destiny2.md#2-messungen-an-60-fps-aufnahmen-ab-16-oktober-2026--m):
 `tools/reference_frames.py list`, `fetch`, vollständige `overview` mit 2 Bildern/s, Suche mit `sheet --fps 10`,
 danach native Originalbilder über `measure --fps native --cross`; Einzelbilder mit 10-%-Raster für Lageangaben.
-**Alle 16 tatsächlich gesichteten Clips haben eine native Streamrate von 60 Bildern/s.** Die Messmarker haben ±1 Bild
+**Die 16 Clips der Erstrunde und 24 neuen Clips des Nachtrags haben jeweils eine native Streamrate von 60 Bildern/s.** Die Messmarker haben ±1 Bild
 (16,7 ms), Lageangaben ±3 Prozentpunkte. Angaben wie „Haltung erreicht“ beschreiben den sichtbaren Zustand, keine Spielbereitschaft.
 
 Bei BashPrime belegt das Spiel nur einen Teil des Streambildes. Deshalb beziehen sich Lage und Mittenkreuz auf die ausgeschnittene
@@ -46,7 +46,7 @@ und Landungsrückkehr sowie einen räumlichen Lock-on-Fadenkreuzsprung** fehlt i
 Das ist eine Lücke dieser Aufnahmen, kein Nachweis fehlender Spielmechaniken. 2-fps-Screening kann kurze Vorgänge übersehen.
 
 Clips, Crops, Raster und native Kontaktbögen liegen ausschließlich außerhalb des Repos im Sitzungs-Scratch
-`/tmp/ce-tool-references/metroidprime/`; die Pfadzuordnung steht dort in `evidence.json`, Bildlisten in den `*-pts.csv`, die Zuordnung zu Original-PTS
+`/tmp/ce-tool-references/metroidprime/` sowie für den Nachtrag `/tmp/ce-tool-references-round2/metroidprime/`; die Pfadzuordnung steht dort in `evidence.json`, Bildlisten in den `*-pts.csv`, die Zuordnung zu Original-PTS
 in `frame-map.json`. Medien werden nicht ins Repository übernommen.
 
 | Vorgang | Clip (Twitch, Kanal, Datum) | Zeitstempel im Clip | Messung |
@@ -90,9 +90,64 @@ gewählt; eine Kategorienzuweisung allein wird nicht als Bildbeleg übernommen.
 | Vinesauce, 02.05.2023 | [Laugh of Relief (Insanity)](https://twitch.tv/vinesauce/clip/DistinctHungryBobaPhilosoraptor-wCADouMiT2f31uXY) | 60 Bilder/s | Anderes Spiel (Pizza-Tower-artige 2D-Plattformeransicht), trotz Remastered-Kategorie; kein Metroid-Ego-Spiel. |
 | Vinesauce, 17.02.2023 | [hoot wireman](https://twitch.tv/vinesauce/clip/WittyCalmPancakeAllenHuhu-ZPrcvCj4z5ODMMNE) | 60 Bilder/s | Remastered-Ego, Power-/Wave-Beamwechsel, Umsehen, Raumwechsel zur violetten Tür und violetter Schuss; Beamwechsel nativ vermessen. |
 
+### Gezielter Nachtrag: Lock-on und Bewegung – 18.10.2026
+
+**24 zusätzliche Clips aus sechs weiteren Kanälen vollständig mit 2 Bildern/s gesichtet**, ohne die 16 Sichtungen oben erneut mitzuzählen:
+Maximilian_DOOD 12, Limealicious 8, Day9tv, DanRyckert, DumbDog und JoshJepson je 1. Damit insgesamt **40 Sichtungen**.
+Die Kategorie „Metroid Prime Remastered“ lieferte die Kandidaten; detaillierte Kanone, Remastered-HUD und Spielumgebung wurden am Bild
+mitgeprüft. Zwei neue Clips zeigen trotz dieser Kategorie andere Spiele. Bei den Metroid-Aufnahmen sind keine Speedrun-/Randomizer-Overlays
+sichtbar; das beweist keine unveränderten Einstellungen. **0 neue belastbare Zielmessungen / 0 neue Messclips**; die bisherigen neun
+Messungen aus fünf Clips bleiben der Zahlenbestand. Drei neue Clips wurden für die Ausschlussprüfung zusätzlich nativ gesichtet.
+
+Die engere Prüfung begrenzt die offenen Felder:
+
+- **Räumlicher Lock-on-Fadenkreuzsprung:** In „sing for the laugh and sing for the tears“ nähert sich das Ziel bereits vor dem Aufbau
+  der roten/cyanfarbenen Markierungen der Mitte. Bei Day9tv bleibt der rechts versetzte cyanfarbene Kreis als Weltmarker neben dem mittigen
+  Drei-Strich-Zielzeichen stehen. Er wird nicht als bewegtes Fadenkreuz gewertet. Beide Abläufe wurden nativ mit Mittenkreuz geprüft;
+  ein vom Umsehen getrennter räumlicher Sprung bleibt offen.
+- **Sprung und Landung:** „Cursed Laimu“ zeigt einen vertikalen Bildweg mit Kanonendip. Auch die native Folge trennt Blickneigung,
+  Fortbewegung und Bodenkontakt nicht sicher genug. Der Lavaablauf in „intrusive thoughts“ enthält zusätzlich Rollen und Schaden.
+  Deshalb keine Absprung-/Aufsetzzeit, Flugzeit oder Landungsrückkehr. Die bereits belegte untere rechte Haltung beim Plattformwechsel
+  bleibt gültig; ein isolierter Sprungablauf bleibt offen.
+- **Gehen, Sprint und Bob:** Der Frigattenkorridor enthält kurze Vorwärtsphasen, Anhalten und Blickneigen; andere Passagen enthalten
+  Kampf, Steigungen oder schnelle Richtungswechsel. Keine ausreichend lange, gleichmäßige Folge für Geh-/Sprint-Bob-Hz oder eine
+  gesonderte Sprinthaltung. Leuchtpulsieren der Kanonenstreifen ist keine gemessene Waffen- oder Schrittperiode.
+
+Die 2-fps-Übersicht kann kurze Ereignisse verpassen; die negativen Ergebnisse gelten für diese Auswahl und die enger geprüften Ausschnitte.
+Der Nachtrag ergänzt den Steckbrief deshalb um **Screeninggrenzen**, nicht um ungesicherte Zahlen. Originalbilder, Kontaktbögen und
+Sichtungslog stehen im zweiten Scratch in `evidence.json`, `sightings.json` und den `*-pts.csv`; `findings.json` ist entsprechend leer.
+
+| Kanal / Datum | Clip / Titel | Rate | Tatsächlich gesichtet / Ergebnis |
+|---|---|---|---|
+| Maximilian_DOOD, 10.02.2023 | [PROFESSOR! LAVA! HOOOOOOT!!!](https://twitch.tv/maximilian_dood/clip/TrustworthyApatheticDotterelItsBoshyTime-NhLn374GH7LuJdj7) | 60 Bilder/s | Morph Ball im Lavaraum, anschließend Tod/Ergebnisbild; keine Ego-Zielmessung. |
+| Maximilian_DOOD, 10.02.2023 | [Curiosity kills the cat 2.](https://twitch.tv/maximilian_dood/clip/FamousKawaiiSquirrelBatChest-6IMmeKiXfG1XUd_8) | 60 Bilder/s | Ego im Höhlenraum, dann Morph Ball in schädlicher Flüssigkeit und Rückkehr zur Egoansicht; Umsehen/Gehen überlagert. |
+| Maximilian_DOOD, 10.02.2023 | [I never played Metroid Prime... !merch (2-9)](https://twitch.tv/maximilian_dood/clip/CleanWimpyOpossumCoolStoryBro-HBJ3pENLVGBKW5Q3) | 60 Bilder/s | Zelda-Einspieler mit Zora-Ortseinblendung und Drittpersonfigur trotz Remastered-Kategorie; kein Metroid-Ego-Spiel. |
+| Maximilian_DOOD, 10.02.2023 | [Somehow he lived???](https://twitch.tv/maximilian_dood/clip/FastRacyBeaverDatSheffy-zD5z0eZUC2J6xozD) | 60 Bilder/s | Ego im brennenden Fluchtkorridor; starke Blickrollen, Feuer und Höhenwechsel. Keine isolierte Sprung-/Landungsrückkehr. |
+| Maximilian_DOOD, 17.02.2023 | [METEROID Prime Remastered & Wild Hearts !merch (2-16)](https://twitch.tv/maximilian_dood/clip/NastyTawdryDelicataKlappa-krkPQzayxWN42Ien) | 60 Bilder/s | Remastered-Ego: Ice-/Wave-Beam, Scan- und Thermal-Visorwechsel, Kampf; keine gezielt gesuchte saubere Bewegungsperiode. |
+| Maximilian_DOOD, 10.02.2023 | [I never played Metroid Prime... !merch (2-9)](https://twitch.tv/maximilian_dood/clip/FrigidNaiveSpaghettiDxCat-pB9nCOBKUoerjrT-) | 60 Bilder/s | Ego im Frigattenkorridor, danach brennender Raum mit Lock-on-Tutorial. 0–8 s und 22–29,9 s mit 10 Bildern/s geprüft: kurze Vorwärtsphasen, Anhalten und Blickneigen; kein ausreichend langer gleichmäßiger Gehzyklus. |
+| Maximilian_DOOD, 10.02.2023 | [sing for the laugh and sing for the tears](https://twitch.tv/maximilian_dood/clip/FreezingRepleteUdonOMGScoots-xPBk655xkhTgpar4) | 60 Bilder/s | Zuerst Morph Ball, dann Ego in Ruinen und Kampf. Lock-on 23,2–23,9 s nativ geprüft: Ziel nähert sich bereits vor dem Markeraufbau der Mitte; kein isolierter räumlicher Fadenkreuzsprung. |
+| Maximilian_DOOD, 10.02.2023 | [I never played Metroid Prime... !merch (2-9)](https://twitch.tv/maximilian_dood/clip/FlirtyFantasticBoarSuperVinlin-yGptwsp4C4YmyNSR) | 60 Bilder/s | Weltraum-/Frigatten-Zwischensequenz; keine Ego-Werkzeugansicht. |
+| Maximilian_DOOD, 17.02.2023 | [METEROID Prime Remastered & Wild Hearts !merch (2-16)](https://twitch.tv/maximilian_dood/clip/PrettiestEndearingGarageUncleNox-GsApK6sS3OehloBQ) | 60 Bilder/s | Kurze Ego-Kampfphase, danach überwiegend Karte; keine Zielmessung. |
+| Maximilian_DOOD, 11.02.2023 | [taking this missile with me!](https://twitch.tv/maximilian_dood/clip/ShortCovertClipsmomCharlietheUnicorn-x4HlFe1pWC4ozbJM) | 60 Bilder/s | Remastered-Ego mit geöffneter Raketenmündung, Schüssen, linker Hand und Umsehen im Außenraum; kein sauber isolierter Gang/Sprung. |
+| Maximilian_DOOD, 17.02.2023 | [GULP!](https://twitch.tv/maximilian_dood/clip/RacyGracefulWerewolfNononoCat-_q-3gKaemd5ki3DM) | 60 Bilder/s | Überwiegend Morph Ball und Stone-Toad-Ablauf, späte Ego-Schüsse und Türdurchgang; keine isolierte Zielaktion. |
+| Maximilian_DOOD, 10.02.2023 | [intrusive thoughts](https://twitch.tv/maximilian_dood/clip/InexpensiveTastyHumanOneHand-_Usdj-A5ulkmyhNW) | 60 Bilder/s | Ego vor Lava, dann Plattform-/Lavawechsel und Schadenseffekt. 12–22 s mit 10 Bildern/s geprüft: Blick nach unten, Rollen, Höhenweg und Schaden überlagern die Kanonenbewegung. |
+| Limealicious, 13.02.2023 | [how do you say "Forty" in American?](https://twitch.tv/limealicious/clip/PeppyWonderfulPeppermintPoooound-Y7L_B3zHgJK-hL7u) | 60 Bilder/s | Ego mit Wave Beam vor Schnee-/Wasserbecken, mehrfaches Umsehen, später Morph Ball; keine gleichmäßige Gehstrecke. |
+| Limealicious, 10.02.2023 | [Missing things is okay! :)](https://twitch.tv/limealicious/clip/PoisedStrongSlothMrDestructoid--U6jT6ehSmJ2ScXm) | 60 Bilder/s | Ego im Außenraum zur Tür, dann überwiegend Scan-Visor am Gegner; keine Zielmessung. |
+| Limealicious, 11.02.2023 | [Cursed Laimu](https://twitch.tv/limealicious/clip/CredulousBlushingStrawberrySquadGoals-0k1UDgtiWVvmFar4) | 60 Bilder/s | Ego über vereistem Wasser zur Gegenwand; 0–5,1 s mit 10 Bildern/s und 3,1–4,9 s nativ geprüft. Vertikaler Bildweg und Kanonendip sichtbar; Blickneigung, tatsächlicher Absprung und Bodenkontakt nicht hinreichend getrennt. |
+| Limealicious, 13.02.2023 | [“Caress me bird daddy” - Limes 2023](https://twitch.tv/limealicious/clip/BombasticGracefulWrenPartyTime-5hXDOeYzAleUcfl4) | 60 Bilder/s | Chozo-Zwischensequenz; keine Ego-Werkzeugansicht. |
+| Limealicious, 11.02.2023 | [puppy gets too excited](https://twitch.tv/limealicious/clip/AverageCuteGnatSwiftRage-HtB6gmS6ca5b-icd) | 60 Bilder/s | Karte mit eingeblendeter Kanone im Hintergrund; kein Bewegungsablauf. |
+| Limealicious, 18.02.2023 | [Half-pipe stuggle](https://twitch.tv/limealicious/clip/PatientMildArugulaSmoocherZ-kVCPKtFnq-hNGWYP) | 60 Bilder/s | Morph Ball an Halfpipe, keine Ego-Werkzeugansicht. |
+| Limealicious, 12.02.2023 | [How a Chozo caresses](https://twitch.tv/limealicious/clip/CuriousYawningTurtleBigBrother-rhkJxt9QZ8B-auke) | 60 Bilder/s | Chozo-Zwischensequenz, kurze Egoannäherung, Morph Ball und Scan-Visor; keine isolierte Sprung-/Landungsmessung. |
+| Limealicious, 10.02.2023 | [Laimu panics from timer noises](https://twitch.tv/limealicious/clip/DirtyDullSowNotLikeThis-y3b_4ofwCWv_XC97) | 60 Bilder/s | Morph Ball und Bomben-/Türablauf; keine Ego-Werkzeugansicht. |
+| DanRyckert, 29.03.2025 | [Better not end right when I get over there!](https://twitch.tv/danryckert/clip/TamePiliableSwallowPermaSmug-xGEgF-kqeX2JdYa0) | 60 Bilder/s | Morph Ball an Schalter; danach Ego in schädlicher Flüssigkeit bis Tod/Ergebnisbild. Schaden und Höhenbewegung überlagert. |
+| DumbDog, 15.02.2023 | [Kill streak part 1](https://twitch.tv/dumbdog/clip/BovineProudLadiesM4xHeh-TCyLiqJjet2ySV71) | 60 Bilder/s | Fremdes Dungeon-Spiel mit mittelalterlicher Egoansicht und anderem HUD trotz Remastered-Kategorie; keine Metroid-Messung. |
+| JoshJepson, 25.06.2024 | [wilhelm scream](https://twitch.tv/joshjepson/clip/SaltyBigSkunkDBstyle-Tqwxf9rOY8KtHYMu) | 60 Bilder/s | Sehr kurzer Morph-Ball-/Kartenabschnitt und späte Egoansicht im Streamlayout; keine isolierte Zielaktion. |
+| Day9tv, 16.02.2023 | [Day9 highlights a common issue with modern games](https://twitch.tv/day9tv/clip/TameDepressedAsparagusTebowing-1qdVsebi8JQe492q) | 60 Bilder/s | Remastered-Ego im Außenraum und Höhlenkampf. Plattformweg 9–13 s sowie Lock-on 41,8–43,6 s mit 10 Bildern/s geprüft; 43,05–43,55 s zusätzlich nativ. Der rechts versetzte cyanfarbene Weltmarker bleibt neben dem mittigen Zielzeichen stehen und ist kein springendes Fadenkreuz. |
+
 ## 3. Steckbrief – Form, Bewegung und Aktionen
 
 Die Zeilen bleiben nach Edition/Aufnahmezustand getrennt; „Hüfte“ bezeichnet die normale Egoansicht ohne Scan-Visor.
+Auch der Nachtrag mit 24 neuen Sichtungen schließt räumlichen Lock-on-Sprung, isolierte Sprung-/Landungsrückkehr und Geh-/Sprint-Bob-Hz nicht.
 Nicht gemessene Felder bleiben offen. Das sichtbare Rohr ist Teil des rechten Arms, kein freier Gegenstand mit sichtbarer Griffhand.
 
 | Typ | Hüfthaltung: Lage, Größe, Lauf | Zielen in der Hüfte (Mündung → Mitte) | Sprint / Tragen | ADS: Zeit, Visier, Nähe, Zoom | Feuern / Rückstoß | Aktionen (Ziehen, Nachladen, Pump, Laden) | Arme | Besonderheiten | Cube Escape (Felder, Toolgen) |

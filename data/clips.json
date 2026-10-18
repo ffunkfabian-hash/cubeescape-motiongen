@@ -460,5 +460,53 @@
     "clip": "https://twitch.tv/elajjaz/clip/EvilRelentlessPancakeAllenHuhu-nZPqulxvTw67EWXg",
     "source": "Elajjaz, 06.06.2023",
     "timestamps": "19,850–21,833 s nativ; vergleichbare Rückzugphasen 20,283 s → 21,333 s; Revolver wieder sichtbar bei 21,700 s"
+  },
+  {
+    "measurement": "Gravity Gun orange: Hüftlage im Brückenraum",
+    "clip": "https://twitch.tv/shevronin/clip/ArbitraryColdbloodedChimpanzeeArgieB8-K6F9pMo2kubAGGzf",
+    "source": "Half-Life 2, Gravity Gun orange; SHEVRONIN, 13.07.2026",
+    "timestamps": "1,800 s"
+  },
+  {
+    "measurement": "Gravity Gun orange: eigenständige Klauenverstellung",
+    "clip": "https://twitch.tv/shevronin/clip/ArbitraryColdbloodedChimpanzeeArgieB8-K6F9pMo2kubAGGzf",
+    "source": "Half-Life 2, Gravity Gun orange; SHEVRONIN, 13.07.2026",
+    "timestamps": "1,300 s → 1,800 s → 2,300 s"
+  },
+  {
+    "measurement": "Gravity Gun orange: Stoß gegen Kiste und Körperrückkehr",
+    "clip": "https://twitch.tv/shevronin/clip/ArbitraryColdbloodedChimpanzeeArgieB8-K6F9pMo2kubAGGzf",
+    "source": "Half-Life 2, Gravity Gun orange; SHEVRONIN, 13.07.2026",
+    "timestamps": "14,467 s → 14,483 s → 14,650 s → 14,800 s"
+  },
+  {
+    "measurement": "Taschenlampe, Alan Wake II: sichtbarer Abbau einer Dunkelheitsblockade",
+    "clip": "https://twitch.tv/natspresso/clip/OnerousJollySashimiDatSheffy-wZHV-DALVYq0e-ME",
+    "source": "Natspresso, 03.12.2024",
+    "timestamps": "3,400 s → 4,000 s → 5,500 s → 5,733 s → 5,767 s"
+  },
+  {
+    "measurement": "Portalkanone: horizontaler Werkzeug-Bob auf dem Laufsteg",
+    "clip": "https://twitch.tv/hachubby/clip/HyperModernLeopardOpieOP-m1Nv5lVQt-l9roRF",
+    "source": "hachubby (Broadcaster), 03.01.2023, 1920 × 1080, 60 fps; Portal 2, weißes Gerät mit Kartoffelaufsatz; Build/Mod-Version unbekannt",
+    "timestamps": "Rechtsphasen 32,350 · 33,217 · 34,117 s; Linksphasen 32,800 · 33,700 s"
+  },
+  {
+    "measurement": "Portalkanone: Geräteversatz bei überlagertem Blickwechsel und Abwärtsbewegung",
+    "clip": "https://twitch.tv/hachubby/clip/HyperModernLeopardOpieOP-m1Nv5lVQt-l9roRF",
+    "source": "hachubby (Broadcaster), 03.01.2023, 1920 × 1080, 60 fps; Portal 2, weißes Gerät mit Kartoffelaufsatz; Build/Mod-Version unbekannt",
+    "timestamps": "30,800 · 31,000 · 31,100 · 31,300 s"
+  },
+  {
+    "measurement": "Portalkanone: Schwebeort eines Standardwürfels am weißen Modell",
+    "clip": "https://twitch.tv/krzyhau/clip/MistyDignifiedTurtleKappaRoss",
+    "source": "krzyhau (Broadcaster), 27.08.2020, 1280 × 720, 60 fps; Portal 2, weißes Gerät; HUD „Portal2 - 100p NoSLA“; Build/Mod-Version unbekannt",
+    "timestamps": "6,401 s; Vergleich 10,801 s"
+  },
+  {
+    "measurement": "Portalkanone: Würfel absetzen und Halteleuchten auslaufen lassen",
+    "clip": "https://twitch.tv/krzyhau/clip/MistyDignifiedTurtleKappaRoss",
+    "source": "krzyhau (Broadcaster), 27.08.2020, 1280 × 720, 60 fps; Portal 2, weißes Gerät; HUD „Portal2 - 100p NoSLA“; Build/Mod-Version unbekannt",
+    "timestamps": "Würfel auf Taster / gelbe Anzeige 11,251 · deutlicher Haltebogen 11,434 · kein Haltebogen sichtbar 11,601 · Wegdrehen 11,701 s"
   }
 ]
