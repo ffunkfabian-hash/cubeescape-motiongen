@@ -334,5 +334,65 @@
     "clip": "https://twitch.tv/datto/clip/AbstemiousHappyPigeonSoBayed-vU3DvmDHGBaYPpSX",
     "source": "`twitch.tv/datto/clip/AbstemiousHappyPigeonSoBayed-vU3DvmDHGBaYPpSX` („Day 1 loadout“, Spieler Mythbustman, 02.03.2023, PvE Lightfall), 60 Bilder/s, 1,25-fach-Zähler im HUD",
     "timestamps": "Zielfernrohr (Okularrahmen 33–67 % Breite × 15–80 % Höhe, Linse 20 % Höhe, Fadenkreuz Kreis und Striche) · Schuss 25,467 (Blende), Linse zurück 25,55 · **ADS aus:** Okular sinkt 25,783 · Linse weg 25,817 · Waffe nach unten rechts 25,83–25,93 · **Hüfte 25,950** (Körper 50–100 % × 40–100 %, Zielfernrohr ≈ 68 / 40, Lauf nach links oben zur Mitte) · ruhig 26,05 · **Strand-Nahkampf (42,7–45,3, 10 Bilder/s):** Waffe weg 42,7–42,8 · grüne Klauenhand von rechts 42,9 · Schlag nach links 43,1–43,5 · zweite Hand, Griff zur Mitte 43,6–44,1 · Waffe zurück von unten rechts 44,2 · Hüfte 44,5 · Hand bleibt leuchtend bis 45,3"
+  },
+  {
+    "measurement": "Hüfte, ADS-Lage, Fadenkreuz (R-99)",
+    "clip": "https://twitch.tv/mande/clip/OutstandingFurryPizzaPogChamp-sy03jw0dgAmSdvsS",
+    "source": "`twitch.tv/mande/clip/OutstandingFurryPizzaPogChamp-sy03jw0dgAmSdvsS` („WICKED“, Spieler Casanovaa, 09.10.2023, Apex Legends Ranked, R-99), 60 Bilder/s, Einzelbilder 2,0 und 3,5 s",
+    "timestamps": "Hüfte (3,5): Körper ≈ 55–100 % Breite × 45–100 % Höhe, Visierkorn ≈ 58 / 47, Mündung ≈ 55 / 48 – **knapp rechts unter der Mitte**, Griffhand ≈ 70 / 90 · ADS (2,0): Waffe mittig unten, Körper 40–60 % × 55–100 %, Korn auf dem Kreuz, linke Hand links am Vorderschaft sichtbar"
+  },
+  {
+    "measurement": "ADS ein aus dem Sprint, Dauerfeuer im ADS (R-99)",
+    "clip": "https://twitch.tv/mande/clip/OutstandingFurryPizzaPogChamp-sy03jw0dgAmSdvsS",
+    "source": "derselbe Clip, 7,40–8,20",
+    "timestamps": "Sprint-Haltung bis 7,517 · Waffe sinkt und dreht 7,533–7,700 · steigt zur Mitte 7,717–7,933 · **Korn auf dem Kreuz 7,950** · Mündungsfeuer 7,967 · Zähler 21 (7,933) → 20 (8,000) → 19 (8,033) → 18 (8,083) → 17 (8,150) → 16 (8,200)"
+  },
+  {
+    "measurement": "ADS aus → Sprint-Haltung (R-99)",
+    "clip": "https://twitch.tv/mande/clip/OutstandingFurryPizzaPogChamp-sy03jw0dgAmSdvsS",
+    "source": "derselbe Clip, 4,90–5,70",
+    "timestamps": "ADS ruhig bis 5,000 · Waffe sinkt nach rechts unten 5,017–5,133 (Korn 50 / 50 → 60 / 75) · **tiefster Punkt 5,150** (Körper unten rechts, Lauf nach links oben) · steigt und dreht in die Sprinthaltung 5,167–5,450 · **Sprint ruhig 5,45–5,70**: Waffe groß, mittig-links, Lauf ≈ 60° nach links oben, Magazin zur Kamera, Körper 30–60 % Breite × 25–100 % Höhe"
+  },
+  {
+    "measurement": "Sprung und Landung aus dem Sprint (R-99)",
+    "clip": "https://twitch.tv/mande/clip/OutstandingFurryPizzaPogChamp-sy03jw0dgAmSdvsS",
+    "source": "derselbe Clip, 2,90–3,90",
+    "timestamps": "Hüfte 2,90–3,02 · Absprung: Waffe sinkt nach rechts unten und kippt 3,033–3,117 (Korn 58 / 47 → 70 / 65, Lauf ≈ 30° nach links oben) · Flug 3,12–3,45: Waffe bleibt tief rechts, schwankt ≈ 3 % · **Landung 3,45–3,55**: Waffe sinkt weitere 5 % und federt 3,567–3,633 zurück · Hüfte 3,65 · Übergang in Sprint 3,70–3,90 (Waffe dreht hoch-links)"
+  },
+  {
+    "measurement": "Rutschen nach Hüftfeuer (R-99)",
+    "clip": "https://twitch.tv/mande/clip/OutstandingFurryPizzaPogChamp-sy03jw0dgAmSdvsS",
+    "source": "derselbe Clip, 10,80–11,60",
+    "timestamps": "Hüftfeuer bis 10,983 (Mündungsfeuer 10,917–10,983) · Hüfte 11,00–11,05 · **Rutschen:** Waffe sinkt und kippt nach rechts 11,067–11,183 (Korn → 65 / 75, Lauf ≈ 45° nach links oben) · bleibt tief gekippt 11,20–11,33 · hebt sich 11,35–11,45 · Waffe quer hoch-rechts 11,47–11,58 (Sprung aus dem Rutschen)"
+  },
+  {
+    "measurement": "Hüfte, ADS-Lage, Fadenkreuz (Gewehr, 16 Schuss)",
+    "clip": "https://twitch.tv/iniquity/clip/AmazingYawningFishKappa",
+    "source": "`twitch.tv/iniquity/clip/AmazingYawningFishKappa` („Trying a new route…“, Iniquity, 25.01.2018, Titanfall 2 Attrition, Gewehr mit 16 Schuss), 60 Bilder/s, Einzelbilder 0,5 und 8,7 s",
+    "timestamps": "Hüfte (0,5): Waffe **klein, tief rechts**: Körper 35–60 % Breite × 65–100 % Höhe, Mündung ≈ 45 / 68 – 5 % links, 18 % unter der Mitte, Lauf nach oben links zur Mitte, nur die rechte Hand sichtbar · ADS (8,7): Körper 55–100 % × 45–100 %, Kimme/Korn auf dem Kreuz, Munitionsanzeige am Gehäuse lesbar, Waffe näher an der Kamera als in der Hüfte"
+  },
+  {
+    "measurement": "ADS ein nach der Landung (Gewehr)",
+    "clip": "https://twitch.tv/iniquity/clip/AmazingYawningFishKappa",
+    "source": "derselbe Clip, 8,00–8,90",
+    "timestamps": "Luft/Landung: Waffe tief rechts gekippt 8,000–8,267 · hebt sich 8,283–8,450 · **Korn auf dem Kreuz 8,467**, Munitionsanzeige lesbar · ruhig 8,50 · Schüsse ab 8,517 (Zähler 16 → 12 bis 8,900)"
+  },
+  {
+    "measurement": "Sprung, Greifhaken-Flug, Landung (Gewehr)",
+    "clip": "https://twitch.tv/iniquity/clip/AmazingYawningFishKappa",
+    "source": "derselbe Clip, 2,20–5,30 (10 Bilder/s)",
+    "timestamps": "Hüfte bis 2,6 · Absprung 2,7: Waffe fällt nach unten rechts **aus dem Bild**, Kamera kippt nach oben · 2,8–4,0 kein Waffenmodell (Blick in den Himmel, Greifhaken/Doppelsprung) · 4,1 Waffe kommt tief rechts zurück, geneigt · 4,4 Hüfte · 4,6–5,3 Hüfte mit Wippen beim Laufen"
+  },
+  {
+    "measurement": "Wandlauf mit Kamerarolle (Gewehr)",
+    "clip": "https://twitch.tv/iniquity/clip/PiliableRamshacklePonySaltBae",
+    "source": "`twitch.tv/iniquity/clip/PiliableRamshacklePonySaltBae` („I'm not even mad…“, Iniquity, 12.02.2017, Titanfall 2), 60 Bilder/s, 19,3–21,9",
+    "timestamps": "Hüfte 19,3–19,8 · Absprung zur Wand 19,9 · **Wandlauf 20,0–21,0**: Horizont ≈ 10–15° nach rechts geneigt (Wand links), Waffe tief rechts, rollt mit, Körper 50–85 % × 65–100 %, Mündung ≈ 58 / 70 · Abstoß 21,1 · Flug 21,2–21,6 (Waffe sinkt weiter, Kamera richtet sich auf) · Landung ≈ 21,7, Waffe zurück 21,8"
+  },
+  {
+    "measurement": "Scharfschütze (Kraber): Scope ein/aus im Sprung, Greifhaken",
+    "clip": "https://twitch.tv/frothyomen/clip/AdventurousGiantOysterBudStar",
+    "source": "`twitch.tv/frothyomen/clip/AdventurousGiantOysterBudStar` („holy balls“, Spieler greaterthanBD, 02.03.2019, Titanfall 2, Kraber), 60 Bilder/s, 7,0–10,5 (10 Bilder/s)",
+    "timestamps": "Scope (runde Linse ≈ 50 % Höhe, Rand schwarz) 7,1–7,3 · Scope aus, Hüfte tief rechts 7,4–8,0 · Greifhaken-Flug 8,1–9,2: Waffe tief rechts, Kamera rollt bis ≈ 20° · **Scope ein in der Luft 9,3–9,4** (Linse öffnet in ≤ 2 Bildern bei 10/s) · Schuss 9,4 · Scope aus 9,5 · Hüfte 9,6–10,5 mit Wandlauf-Rolle"
   }
 ]
