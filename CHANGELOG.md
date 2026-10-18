@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.6.0 „Chargeline“ – 2026-10-18
+
+- Destiny 2, Mac/YouTube, nativ 60/s, je Klasse zwei Legendary-Waffen aus Ultraclocked-Showcases: **kurzes Fusionsgewehr** (Ladehaltung, Laden bis Strahl = Charge-Time-Wert 0,517/0,867 s, Salve 0,25 s mit Modellrückstoß, ADS ein/aus, Nachladen 1,73–2,9 s), **klassische Schrotflinte** (Pumpen, Einzelhülsen 0,62–0,87 s je Hülse, Repetieren am Ende, voll 5,8–5,9 s), **Scharfschützengewehr** (Nachladen 2,05–2,80 s, Zielfernrohr-Phasen an zwei Optikformen).
+- W5 (Scope) und W6 (Sniper-Sprung, Schrot-Reload) geklärt; Methode 10: Normaltempo ohne „0.5x“-Marke über Wiederholungen belegen. `docs/destiny2.md` › 2 neun Messzeilen, sieben Sichtungen, › 3 drei Steckbriefe; `clips.json` +9.
+- Offen: HUD-Marker und Folgeschuss nach dem Nachladen (Showcases ohne HUD), Inspect; Lückenliste für 0.7.0 im [Versionsbericht](docs/versions/0.md#060-chargeline--2026-10-18).
+
 ## 0.5.2 – 2026-10-18
 
 - MP-Nachtrag (Mac, YouTube, 60/s, Normaltempo): **ADS aus → ruhige Hüfte** isoliert am Exotic Huckleberry (Hüfte 0,067 s, ruhig 0,167 s) und an Ikelos mit HUD (Ehroar, 0,10 / ≈ 0,18 s, Kamera führt nach) – passt zum PvP-Fall aus 0.5.1 (≈ 0,17 s bis Hüfthaltung).

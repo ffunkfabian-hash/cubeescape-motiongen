@@ -706,5 +706,59 @@
     "clip": "https://www.youtube.com/watch?v=egN1EzesP3Y",
     "source": "Ultraclocked (YouTube), 13.02.2021, 60 fps, Normaltempo 10,6–13,9 s, kein HUD",
     "timestamps": "erste Bewegung 10,833 · Magazin ausgeworfen 10,93–11,00 · neues Magazin im Bild 11,600 · MagIn ≈ 11,80 · Hand weg 12,17 · Hüfte ≈ 12,95 · beruhigt ≈ 13,53 s"
+  },
+  {
+    "measurement": "Kurzes Fusionsgewehr (Cartesian Coordinate): Ladehaltung, Laden bis Strahl 0,517 s, Salve 0,25 s aus der Hüfte",
+    "clip": "https://www.youtube.com/watch?v=73lGCT7yOtk",
+    "source": "Ultraclocked (YouTube), 25.01.2020, „All EDZ Legendary Weapons … Häkke Weapons“, 1920 × 1080, 60 fps, Normaltempo über Wiederholung belegt, Mittenkreuz; Menü Charge Time 500, Magazin 7",
+    "timestamps": "Ladebeginn 149,450 · erster Strahl 149,967 · Strahlen bis 150,217 · ruhig ≈ 150,33; Wiederholung 160,483–160,717 s"
+  },
+  {
+    "measurement": "Kurzes Fusionsgewehr (Cartesian Coordinate): ADS ein 0,10–0,12 s, ADS aus 0,08–0,10 s, Laden und Salve im ADS",
+    "clip": "https://www.youtube.com/watch?v=73lGCT7yOtk",
+    "source": "Ultraclocked (YouTube), 25.01.2020, Häkke-Video, 60 fps, Mittenkreuz",
+    "timestamps": "ADS ein 153,867 → 153,950 → ruhig 153,983 · Laden 154,350 → Strahl 154,867 · ADS aus 159,350 → Hüfte 159,433 s"
+  },
+  {
+    "measurement": "Kurzes Fusionsgewehr (Cartesian Coordinate): vollständiges Nachladen (Batterie) 1,73 s, Anzeige bei 0,98 s",
+    "clip": "https://www.youtube.com/watch?v=73lGCT7yOtk",
+    "source": "Ultraclocked (YouTube), 25.01.2020, Häkke-Video, 60 fps, Normaltempo; Zeitlupe 169,6–173,0 s nur Reihenfolge",
+    "timestamps": "erste Bewegung 161,317 · Batterie heraus 161,45–161,60 · neue 162,25–162,45 · Anzeige 162,300 · Schlag 162,60–162,80 · Hüfte ≈ 163,05 s"
+  },
+  {
+    "measurement": "Kurzes Fusionsgewehr (Shock and Awe): Laden bis Strahl 0,867 s (Charge Time 860), Nachladen ≈ 2,8–2,9 s – zweiter Beleg",
+    "clip": "https://www.youtube.com/watch?v=42zdQOVBAD0",
+    "source": "Ultraclocked (YouTube), 30.01.2020, „All Nessus Legendary Weapons … Omolon Weapons“, 1920 × 1080, 60 fps; Menü Charge Time 860, Magazin 5",
+    "timestamps": "Ladebeginn 377,850 · Strahl 378,717 · Nachladen ≈ 358,85 → ≈ 361,65 und ≈ 381,2 → ≈ 384,1 s (10/s)"
+  },
+  {
+    "measurement": "Schrotflinte (Hawthorne's Field-Forged Shotgun): Pumpen (Hülse 0,63 s nach dem Schuss), klassisches Nachladen 7 Hülsen, 5,9 s",
+    "clip": "https://www.youtube.com/watch?v=73lGCT7yOtk",
+    "source": "Ultraclocked (YouTube), 25.01.2020, Häkke-Video, 60 fps, Normaltempo über Hülsentakt belegt (0,5×-Wiederholung 339–350 s), Mittenkreuz; Menü 80 RPM, Magazin 7",
+    "timestamps": "Schuss 307,383 · Hülse 308,017 · Nachladen 322,283 · Hülsen 322,867 · 323,517 · 324,133 · 324,750 · 325,383 · 326,000 · 326,617 · Repetieren 327,45–327,60 · ruhig ≈ 328,17 s"
+  },
+  {
+    "measurement": "Schrotflinte (Baligant): klassisches Nachladen 5 Hülsen, 0,85–0,87 s je Hülse, 5,77 s – zweiter Beleg",
+    "clip": "https://www.youtube.com/watch?v=afs_dhFDhQU",
+    "source": "Ultraclocked (YouTube), 09.02.2020, „All Io Legendary Weapons … VEIST Weapons“, 1920 × 1080, 60 fps, Normaltempo über Hülsentakt belegt; Menü 55 RPM, Magazin 5",
+    "timestamps": "erste Bewegung 15,550 · Hülsen 16,117 · 16,983 · 17,833 · 18,700 · 19,567 · Repetieren 20,4–20,8 · ruhig ≈ 21,32 s"
+  },
+  {
+    "measurement": "Scharfschützengewehr (Far Future): Hüfte, Hüftschuss, vollständiges Nachladen 2,05 s aus Hüfte und Zielfernrohr",
+    "clip": "https://www.youtube.com/watch?v=RXgRxHESqHQ",
+    "source": "Ultraclocked (YouTube), 18.02.2021, „Far Future (Legendary Sniper Rifle) - Animations & Sounds“, 1920 × 1080, 60 fps, Normaltempo (0.5x nur 19–30 s), Mittenkreuz; Menü 90 RPM, Magazin 4",
+    "timestamps": "Schuss 15,183 · Nachladen 15,867 → Hüfte 17,917 · aus dem Zielfernrohr 44,000 → Hüfte 46,050 s"
+  },
+  {
+    "measurement": "Scharfschützengewehr (Far Future): Zielfernrohr ein 0,15–0,17 s / aus 0,17 s mit Linsenbild-Phase vor dem Overlay",
+    "clip": "https://www.youtube.com/watch?v=RXgRxHESqHQ",
+    "source": "Ultraclocked (YouTube), 18.02.2021, Far Future, 60 fps, Normaltempo, Mittenkreuz",
+    "timestamps": "ein 32,583 → Linsenbild 32,683–32,733 → Overlay 32,750; ein 47,050 → Overlay 47,200; aus 50,317 → Modell 50,450 → ruhig 50,483 s"
+  },
+  {
+    "measurement": "Scharfschützengewehr (A Single Clap): Sechseck-Optik ein 0,30 s / aus 0,27 s ohne Schnitt, Nachladen 2,80 s – zweiter Beleg",
+    "clip": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+    "source": "Ultraclocked (YouTube), 14.02.2020, „All Titan Legendary Weapons … SUROS Weapons“, 1920 × 1080, 60 fps; Menü 90 RPM, Magazin 5",
+    "timestamps": "ein 43,600 → Reticle 43,733 → ruhig 43,900 · aus 39,167 → Modell 39,433 · Nachladen 17,783 → ruhig ≈ 20,58 s"
   }
 ]
