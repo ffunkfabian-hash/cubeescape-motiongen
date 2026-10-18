@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.8.0 „Crosswind“ – 2026-10-18
+
+- Codex' Destiny-Bewegungsprüfung (16 Befunde) am Bild abgenommen und in `docs/destiny2.md` › 2/3 eingearbeitet: alte Werte ersetzt oder eingeschränkt, keine Zusatzzeilen daneben.
+- Zurückgezogen: Geh-/Bob-Beleg (Destiny 1), durchgehende Scharfschützen-Leere, Automatik-„Landung“ (Waffenwechsel 87 → 1 Patrone), MP-Sprint-Ein/Aus (Wippen), Schrotflinten-Folgeschuss/Pump, Aztecross-Reload-Ende, 1,2-s-Gewehrbereitschaft, Hüft-Zuordnung des CammyCakes-Schusses (ADS).
+- Neu: Wechselmarker (Scharfschütze → Handfeuerwaffe, Handfeuerwaffe → Schrotflinte, Granatwerfer → Bogen), Bogen-ADS-Verlassen mit Vollzug, Spann-Reset, MP-Absenkung nach ADS aus; MP-Hüfthalt aus 0.5.1 endet bei ≈ 16,70; Methode 10 (Quellenprüfung). `clips.json` 114 → 118.
+- [Versionsbericht](docs/versions/0.md#080-crosswind--2026-10-18).
+
 ## 0.5.1 – 2026-10-18
 
 - MP **ADS aus → Hüfthaltung** isoliert belegt (PvP-Clip, nativ 60/s): erste Bewegung bis Hüfthaltung ≈ 10 Bilder (0,17 s), Zeitnullpunkt die erste sichtbare Bewegung; Einzelfall, ± 2 Bilder. Zeile in `docs/destiny2.md` › 2, `clips.json` +1.

@@ -1,7 +1,7 @@
 {
   "name": "cubeescape-reference",
-  "version": "0.5.1",
-  "version_name": "Magwell",
+  "version": "0.8.0",
+  "version_name": "Crosswind",
   "check": {
     "quick": [
       "python3 -m unittest discover -s tests",

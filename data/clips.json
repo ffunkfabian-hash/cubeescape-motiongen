@@ -6,10 +6,10 @@
     "timestamps": "erste Bewegung 3,000 s → Scope-Ansicht 3,183 s → Fadenkreuz ruhig 3,250 s"
   },
   {
-    "measurement": "Rückstoß Handfeuerwaffe (Hüftfeuer)",
+    "measurement": "Handfeuerwaffe: Einzelschuss im ADS – Modell, Visierlage und Weltanker getrennt",
     "clip": "https://clips.twitch.tv/ColdOddFoxYouWHY-HzsUKlmoHtscNm4Z",
-    "source": "`clips.twitch.tv/ColdOddFoxYouWHY-HzsUKlmoHtscNm4Z` (CammyCakes, 06.01.2022)",
-    "timestamps": "Mündungsfeuer 1,517 · Maximum 1,533 · zurück 1,717"
+    "source": "`clips.twitch.tv/ColdOddFoxYouWHY-HzsUKlmoHtscNm4Z` (Kanal CammyCakes, 06.01.2022; Clip-Ersteller therandomizer619), 60 Bilder/s nativ",
+    "timestamps": "Pose vor dem Schuss 1,450 · Blitzbeginn 1,517 · erste klare gehobene Mündung 1,550 · Modell noch hoch 1,717 · nahe der Ausgangslage 1,850; Vergleich Hüfte im selben Clip 2,500 und 8,8"
   },
   {
     "measurement": "Hüftfeuer-Serie, Handfeuerwaffe",
@@ -48,10 +48,10 @@
     "timestamps": "Schüsse 1,967 · 2,05 · 2,117 · 2,183 · 2,25 · 2,317 (Zähler 84 → 78)"
   },
   {
-    "measurement": "Schrotflinte: Ziehen + Schuss, Pump",
+    "measurement": "Handfeuerwaffe → Schrotflinte: leere Sicht und Ziehen; Folgeschuss und Pump nicht bestätigt",
     "clip": "https://twitch.tv/wallah/clip/HardDependableCougarWow-PTToIOlOaR7zmM4Y",
-    "source": "`twitch.tv/wallah/clip/HardDependableCougarWow-PTToIOlOaR7zmM4Y` (wallah, 07.02.2024)",
-    "timestamps": "erscheint 6,467 · **Schuss 6,483** · Hüfthaltung 6,55 · Pump 6,55–6,70 · Senken 6,70–6,78; zweiter Zyklus: erscheint 7,417 · Haltung 7,55 · Schuss ≈ 7,567 · Pump 7,60–7,90"
+    "source": "`twitch.tv/wallah/clip/HardDependableCougarWow-PTToIOlOaR7zmM4Y` (Kanal wallah, 07.02.2024), 60 Bilder/s nativ",
+    "timestamps": "letzte Handfeuerwaffenteile 6,183 · erstes waffenfreies Bild 6,199 · erster Kristallteil der Schrotflinte 6,449 · Körper deutlich 6,483 · gehaltene Form ≈ 6,533 · Absenkung derselben Waffe 7,333 · erneutes Anheben 7,416; Zähler 2 im ganzen Abschnitt 6,416–7,950"
   },
   {
     "measurement": "Schrotflinte: ADS ein, Schuss im ADS, ADS aus → Wechsel",
@@ -84,16 +84,10 @@
     "timestamps": "ADS beginnt 8,217 · Rohr vor dem Auge 8,300 · Zoom-Bild klein 8,300 → voll 8,467 · Laden sichtbar 8,50–8,68 · Schuss 8,683; zweiter: 9,633 → 9,733 → Zoom voll 9,800 · Schuss 9,967 · Ring versetzt bis 10,05"
   },
   {
-    "measurement": "Handfeuerwaffe, neu mit Mittenkreuz: Hüftschuss",
-    "clip": "https://twitch.tv/ColdOddFoxYouWHY-HzsUKlmoHtscNm4Z",
-    "source": "`twitch.tv/ColdOddFoxYouWHY-HzsUKlmoHtscNm4Z` (CammyCakes, 06.01.2022)",
-    "timestamps": "Ruhe 1,45–1,50 · Schuss 1,517 · Spitze 1,533 · versetzt bis 1,65 · zurück 1,75–1,80 · ruhig 1,85"
-  },
-  {
-    "measurement": "Handfeuerwaffe: Sprint ein",
-    "clip": "https://twitch.tv/InexpensiveTenaciousHawkStrawBeary-mddhkbeLsh2ABDA0",
-    "source": "`twitch.tv/InexpensiveTenaciousHawkStrawBeary-mddhkbeLsh2ABDA0` (PandaPaxxy, 11.08.2023)",
-    "timestamps": "Hüfte bis 4,467 · Sprinthaltung 4,633"
+    "measurement": "Handfeuerwaffe: Übergang in die hohe Trageform (Sprint aus dem Ablauf, keine Eingabeanzeige)",
+    "clip": "https://clips.twitch.tv/InexpensiveTenaciousHawkStrawBeary-mddhkbeLsh2ABDA0",
+    "source": "`clips.twitch.tv/InexpensiveTenaciousHawkStrawBeary-mddhkbeLsh2ABDA0` (Kanal PandaPaxxy, 11.08.2023), 60 Bilder/s nativ",
+    "timestamps": "Hüftanker 4,450 · erste deutliche Hochbewegung 4,484 · hohe Trageform früh 4,600 · spät 4,634"
   },
   {
     "measurement": "Handfeuerwaffe: Wechsel direkt ins ADS (Lage)",
@@ -108,22 +102,16 @@
     "timestamps": "Hochreißen 18,35 · Trommel offen 18,45–18,70 · Schließen 18,75–18,90 · Zähler 18,95 · Hüfte 19,05–19,30"
   },
   {
-    "measurement": "Scharfschützengewehr: Hüfthaltung (zwei Modelle)",
-    "clip": "https://twitch.tv/wallah/clip/LittleThoughtfulCurryJonCarnage",
-    "source": "PandaPaxxy (oben), 3,5–4,3 s; `twitch.tv/wallah/clip/LittleThoughtfulCurryJonCarnage` (wallah, 24.01.2017), 0–11 s",
+    "measurement": "Scharfschützengewehr: Hüfthaltung",
+    "clip": "https://clips.twitch.tv/InexpensiveTenaciousHawkStrawBeary-mddhkbeLsh2ABDA0",
+    "source": "`clips.twitch.tv/InexpensiveTenaciousHawkStrawBeary-mddhkbeLsh2ABDA0` (Kanal PandaPaxxy, 11.08.2023), 3,5–4,3 s",
     "timestamps": "–"
   },
   {
-    "measurement": "Gehen/Laufen mit Scharfschützengewehr in der Hüfte (Bob, Sway)",
-    "clip": "https://twitch.tv/wallah/clip/LittleThoughtfulCurryJonCarnage",
-    "source": "`twitch.tv/wallah/clip/LittleThoughtfulCurryJonCarnage` (wallah, 24.01.2017), 0–1 s und 8–9 s, 30 Bilder/s",
-    "timestamps": "Zielfernrohr tief 0,27–0,40 · hoch 0,50–0,60 · tief 0,70–0,80 · hoch 0,90"
-  },
-  {
-    "measurement": "Sprung und Landung mit Automatikgewehr",
+    "measurement": "Luft-/Bewegungsfolge mit Waffenwechsel: Automatik (Zähler 87) sinkt weg, neue Waffe (1 Patrone) erscheint – keine isolierte Landung",
     "clip": "https://twitch.tv/wallah/clip/PleasantSolidDadCharlieBitMe-2CgF_Jr9ub80dcjx",
-    "source": "`twitch.tv/wallah/clip/PleasantSolidDadCharlieBitMe-2CgF_Jr9ub80dcjx` (wallah, 02.03.2025), 0–1 s, 30 Bilder/s",
-    "timestamps": "Hüfte 0,0–0,30 · Absinken 0,33–0,50 · Luft 0,57–0,87 (Waffe fast aus dem Bild, unten rechts) · Rückkehr 0,90–0,97"
+    "source": "`twitch.tv/wallah/clip/PleasantSolidDadCharlieBitMe-2CgF_Jr9ub80dcjx` (Kanal wallah, 02.03.2025), 60 Bilder/s nativ",
+    "timestamps": "Automatik in der Hüfte 0,0–0,30 · sinkt 0,33–0,50 nach unten rechts aus dem Bild · neue Waffe noch außerhalb 0,850 · erste Teile 0,867 · rechts, hüftähnlich 0,950 · weiter angehoben 1,050 · Blitz und neuer Zähler 1 → 0 bei 1,134"
   },
   {
     "measurement": "Fusionsgewehr (kurz): Salve und Hüfthaltung",
@@ -198,10 +186,10 @@
     "timestamps": "Linse voll bis 4,533 · Kreis schrumpft 4,550 (80 %) → 4,633 (15 %) · Linse weg 4,650 (Okular auf dem Kreuz) · Modell wandert nach unten rechts 4,667–4,750 · ruhig ≈ 4,800 · zweiter Fall: Kreis 28,300 → 28,367, Linse weg 28,383, Hüfte 28,483, ruhig ≈ 28,52"
   },
   {
-    "measurement": "Scharfschützengewehr (PvE): Sprint ein → Rutschen → zurück",
+    "measurement": "Scharfschützengewehr (PvE): Sprint ein, mehrere Absenkungen, Rückkehr (keine durchgehende Leerphase)",
     "clip": "https://twitch.tv/mactics/clip/PiercingPrettyToadUWot-WtVakRF0mcdrlZt2",
-    "source": "derselbe Clip, 20,80–22,80",
-    "timestamps": "Hüfte bis 20,900 · Sprint: Waffe hebt und dreht sich 20,917–21,133 (Okular 60 / 70 → 55 / 55, Mündung ≈ 30° nach links oben, Körper mittiger) · **Rutschen:** Waffe fällt 21,150–21,300 nach unten rechts **ganz aus dem Bild**, bleibt weg bis 22,000 · kommt 22,017 unten rechts (Okular 75 / 90) · steigt bis 22,483 (Okular 66 / 72, Lauf noch ≈ 25° nach links unten geneigt) · waagerechte Hüfte ≈ 22,7 · ADS ein 22,9"
+    "source": "derselbe Clip, 20,80–22,90",
+    "timestamps": "Hüfte bis 20,900 · Sprint: Waffe hebt und dreht sich 20,917–21,133 (Okular 60 / 70 → 55 / 55, Mündung nach links oben gekippt, Körper mittiger) · Absenkung nach unten rechts 21,150–21,300 · waffenfrei 21,300 → erste Rückkehr 21,333 · Optik sichtbar 21,400 und 21,500 · zweite tiefe/waffenfreie Phase ab ≈ 21,550 · Rückkehr ≈ 21,867–21,900 · Waffe klar zurück 22,000 (Okular 75 / 90) · steigt bis 22,483 (Okular 66 / 72) · waagerechte Hüfte ≈ 22,7 · ADS ein 22,9"
   },
   {
     "measurement": "Bogen: Hüfte, Sprint, Spannen ohne ADS, Lösen",
@@ -222,10 +210,10 @@
     "timestamps": "Waffe erscheint ≈ 4,50 (4 Bilder/s) · tief rechts bis 4,717 · ADS-Bewegung 4,733–5,217 (Holo-Ring erreicht das Kreuz 5,183) · **ADS ruhig 5,233** · Schuss: Mündungsfeuer **8,317**, Spitze 8,417–8,433 (Ring ≈ 10–12 % Höhe über dem Kreuz, Blitz in V-Form), Blitz weg ≈ 8,52 · Ring zurück auf dem Kreuz **8,767** · Kamera (Hintergrund) zurück ≈ 8,9"
   },
   {
-    "measurement": "Gewehr (HUD-Symbol Gewehr, 16 Schuss; Typ unsicher): Sprint-Haltung tief, Austritt, Hüfte",
+    "measurement": "Gewehr (HUD-Symbol Gewehr, 16 Schuss; Untertyp offen): Sprint-Haltung tief, Rückkehr aus der tiefen Trageform",
     "clip": "https://twitch.tv/datto/clip/ComfortablePunchyZucchiniYouDontSay-e19uOu2GsJfdISAc",
-    "source": "`twitch.tv/datto/clip/ComfortablePunchyZucchiniYouDontSay-e19uOu2GsJfdISAc` („Datto's First Moment!“, Spieler All_The_Players, 03.01.2023, PvE Spire of the Watcher), 60 Bilder/s",
-    "timestamps": "Sprint 15,0–21,68 (6,7 s Korridorlauf): Waffe **tief**, Körper mittig-links unter dem Bildrand (≈ 25–50 % Breite), Lauf nach vorn-unten, Stützhand ≈ 45 / 85 sichtbar, Wippen klein · Austritt: Waffe taucht 21,700–21,767 ganz ab (4 Bilder) · kommt 21,783 unten rechts · steigt und dreht bis 22,017 (Mündung ≈ 45° nach oben, Körper ≈ 55–75 / 45–100) · senkt sich langsam 22,0–22,9 · **Hüfte 22,95** (Körper 55–75 % × 50–100 %, Lauf nach links oben zur Mitte) · ADS-Bewegung ab 23,1 (0,2 s)"
+    "source": "`twitch.tv/datto/clip/ComfortablePunchyZucchiniYouDontSay-e19uOu2GsJfdISAc` („Datto's First Moment!“, Kanal Datto, Clip-Ersteller All_The_Players, 03.01.2023, PvE Spire of the Watcher), 60 Bilder/s",
+    "timestamps": "Sprint 15,0–21,68 (6,7 s Korridorlauf): Waffe **tief**, Körper mittig-links unter dem Bildrand (≈ 25–50 % Breite), Lauf nach vorn-unten, Stützhand ≈ 45 / 85 sichtbar, Wippen klein · Waffe taucht 21,700–21,767 ab (Modellreste am unteren Rand) · **Rückkehr beginnt 21,783** unten rechts · **hüftähnliche Lage 22,016** (Mündung steil nach oben, Körper ≈ 55–75 / 45–100) · danach Pose-/Blickänderungen 22,0–22,9 · Hüfte 22,95 (Körper 55–75 % × 50–100 %, Lauf nach links oben zur Mitte) · ADS-Bewegung ab 23,1"
   },
   {
     "measurement": "Granatwerfer (2 Schuss): Hüftschuss, Nachladen (Kipplauf)",
@@ -282,10 +270,10 @@
     "timestamps": "Ruhe 1,834–1,867 s → erster Blitz/Zähler 1→0 bei 1,884 s → große nahe Optik 1,950 s, bleibt groß bis 2,000 s → ADS aus/Wechsel ab 2,017 s; zweiter Schuss 12,950 s"
   },
   {
-    "measurement": "Maschinenpistole (PvP): Hüfte, Sprint-Haltung, ADS ein",
+    "measurement": "Maschinenpistole (PvP): tiefe Trageform, Wippen statt isoliertem Sprint ein/aus, ADS ein",
     "clip": "https://twitch.tv/saltagreppo/clip/LuckySecretiveNightingaleHoneyBadger-cohqOo9fcQIxC9tr",
-    "source": "`twitch.tv/saltagreppo/clip/LuckySecretiveNightingaleHoneyBadger-cohqOo9fcQIxC9tr` („Comp Ready Game btw“, Spieler VandalizedTV, 23.08.2022, **PvP** Endless Vale), 60 Bilder/s",
-    "timestamps": "Hüfte (23,85): Körper ≈ 40–72 % Breite × 65–100 % Höhe, Holo-Ring ≈ 52 / 72, Griff ≈ 68 / 95, Mündung ≈ 43 / 80 (Lauf zur Mitte) · **Sprint ein** 24,017–24,200: Waffe sinkt und rollt nach links (Ring 52 / 72 → 37 / 80, Körper 28–100 % × 75–100 %, Lauf fast waagerecht) · zurück 24,467–24,700 · **ADS ein aus der Hüfte:** erste Bewegung 14,767 · Ring auf dem Kreuz 15,067 · ruhig 15,083 · **ADS ein aus dem Sprint:** 29,267 → 29,583"
+    "source": "`twitch.tv/saltagreppo/clip/LuckySecretiveNightingaleHoneyBadger-cohqOo9fcQIxC9tr` („Comp Ready Game btw“, Kanal Saltagreppo, Clip-Ersteller VandalizedTV, 23.08.2022, **PvP** Endless Vale), 60 Bilder/s",
+    "timestamps": "tiefe Trageform (23,850, kein Hüft-Fadenkreuz sichtbar): Körper ≈ 40–72 % Breite × 65–100 % Höhe, Holo-Ring ≈ 52 / 72, Griff ≈ 68 / 95, Mündung ≈ 43 / 80 · tiefe Phase, Gehäuse am unteren Rand 24,200 · höhere Tragephase 24,700 (Holo ≈ 39 / 72) · erneut tief ≈ 25,75–25,95 · Wiedererscheinen 26,051 · **ADS ein aus der Hüfte:** erste Bewegung 14,767 · Ring auf dem Kreuz 15,067 · ruhig 15,083 · **Zug zur Visierachse aus rechter Übergangslage:** 29,267 · später Einwärtszug 29,434 · Visier nahe Bildmitte 29,584"
   },
   {
     "measurement": "Maschinenpistole (PvP): Dauerfeuer im ADS",
@@ -324,10 +312,10 @@
     "timestamps": "Hüftschüsse 40,450 und 40,567 (Mündungsfeuer links, Waffe ≈ 55–70 / 0–60: hoch rechts, Lauf nach links) · Waffe steigt und dreht 40,583–40,717 (Mündung nach oben, Trommel sichtbar) · **Trommel offen, Hand lädt 40,73–41,35** (Waffe steht senkrecht mittig-rechts ≈ 60 / 30–100, Körper 20 % breit) · schließt und kippt zurück 41,37–41,55 · **Hüfte 41,567** (Waffe ≈ 55–75 / 25–90) · ADS beginnt 41,90"
   },
   {
-    "measurement": "Handfeuerwaffe (PvE): ADS-Schüsse mit Rückstoß, Nachladen aus dem ADS, Rückkehr",
+    "measurement": "Handfeuerwaffe (PvE): ADS-Schüsse mit Rückstoß, Nachladen aus dem ADS (Ende nicht bestätigt)",
     "clip": "https://twitch.tv/aztecross/clip/AliveSavagePotatoNerfRedBlaster-_OHOSereLj9R_SBb",
-    "source": "`twitch.tv/aztecross/clip/AliveSavagePotatoNerfRedBlaster-_OHOSereLj9R_SBb` („lesComplaining“, Spieler helvetika808, 08.01.2022, PvE), 60 Bilder/s",
-    "timestamps": "ADS ruhig (Kimme/Korn auf der Mitte, Körper 42–62 % × 55–100 %) · Mündungsfeuer **0,433**, Waffe 0,450 ≈ 6 % hoch und 8° nach rechts gekippt, zurück auf dem Kreuz 0,567 (8 Bilder) · Schuss 2: 0,633, Spitze 0,650, zurück 0,767 · Schuss 3: 0,800, zurück 0,917 · Kadenz 0,17–0,20 s (≈ 300–350/min) · Schuss 4: 1,083 · **Nachladen:** Waffe kippt nach rechts unten 6,467–6,567 (aus dem ADS, Trommel nach rechts) · unten rechts, Hand lädt 6,57–6,98 · hebt sich 7,00–7,13 · **Hüfte 7,133** · unten weg (Wechsel) 7,20"
+    "source": "`twitch.tv/aztecross/clip/AliveSavagePotatoNerfRedBlaster-_OHOSereLj9R_SBb` („lesComplaining“, Kanal Aztecross, Clip-Ersteller helvetika808, 08.01.2022, PvE), 60 Bilder/s",
+    "timestamps": "ADS ruhig (Kimme/Korn auf der Mitte, Körper 42–62 % × 55–100 %) · Mündungsfeuer **0,433**, Waffe 0,450 ≈ 6 % hoch und 8° nach rechts gekippt, zurück auf dem Kreuz 0,567 (8 Bilder) · Schuss 2: 0,633, Spitze 0,650, zurück 0,767 · Schuss 3: 0,800, zurück 0,917 · Kadenz 0,17–0,20 s (≈ 300–350/min) · Schuss 4: 1,083 · **Nachladen:** Waffe kippt nach rechts unten 6,467–6,567 (aus dem ADS, Trommel nach rechts) · unten rechts, Hand lädt 6,57–6,98 · hebt sich 7,00–7,13 · bei 7,133 Trommel noch offen rechts oben, Zähler 0 · weitere Handarbeit/Effekte, geprüft bis 7,734"
   },
   {
     "measurement": "Scout-Gewehr (Dead Man's Tale, Exotic): Zielfernrohr aus, Hüfte, Rückstoß, Strand-Nahkampf",
@@ -680,7 +668,43 @@
   {
     "measurement": "Maschinenpistole (PvP): ADS aus → Hüfthaltung, isoliert, ein Fall (≈ 10 Bilder / 0,17 s)",
     "clip": "https://clips.twitch.tv/LuckySecretiveNightingaleHoneyBadger-cohqOo9fcQIxC9tr",
-    "source": "Saltagreppo-Kanal, Clip von VandalizedTV, 23.08.2022, 60 fps, Mittenkreuz, nativ",
-    "timestamps": "ADS ruhig bis 16,267 · erste Bewegung 16,283 · Hüfthaltung ≈ 16,45 · steht bis ≥ 16,767 · ADS ein 17,200 s"
+    "source": "Kanal Saltagreppo, Clip-Ersteller VandalizedTV, 23.08.2022, 60 fps, Mittenkreuz, nativ",
+    "timestamps": "ADS ruhig bis 16,267 · erste Bewegung 16,283 · Hüfthaltung ≈ 16,45 · steht bis ≈ 16,70 (Ende weich bis 16,734) · ADS ein 17,200 s"
+  },
+  {
+    "measurement": "Schuss im Scope → Scope aus → Waffenwechsel (Scharfschütze → Handfeuerwaffe)",
+    "clip": "https://clips.twitch.tv/InexpensiveTenaciousHawkStrawBeary-mddhkbeLsh2ABDA0",
+    "source": "`clips.twitch.tv/InexpensiveTenaciousHawkStrawBeary-mddhkbeLsh2ABDA0` (Kanal PandaPaxxy, 11.08.2023; Clip-Ersteller PandaPaxxy), 60 Bilder/s nativ",
+    "timestamps": "Mündungsfeuer 3,767 · Overlay aus 3,800 · letzte alte Waffe 3,834 · erstes waffenfreies Bild 3,850 · Handfeuerwaffe erscheint 4,117 (unten rechts) · hüftähnliche Lage 4,183–4,250"
+  },
+  {
+    "measurement": "Handfeuerwaffe: hohe Trageform → erster beobachteter Schuss",
+    "clip": "https://clips.twitch.tv/ColdOddFoxYouWHY-HzsUKlmoHtscNm4Z",
+    "source": "`clips.twitch.tv/ColdOddFoxYouWHY-HzsUKlmoHtscNm4Z` (Kanal CammyCakes, 06.01.2022; Clip-Ersteller therandomizer619), 60 Bilder/s nativ",
+    "timestamps": "hohe Trageform zuletzt 8,683 · erstes sichtbares Senken 8,700 · erster Blitz 8,800 · Zähler 10 → 9 bei 8,817"
+  },
+  {
+    "measurement": "Maschinenpistole (PvP): nach kurzem Hüfthalt weitere Absenkung in die tiefe Trageform (Anschluss an ADS aus)",
+    "clip": "https://clips.twitch.tv/LuckySecretiveNightingaleHoneyBadger-cohqOo9fcQIxC9tr",
+    "source": "`clips.twitch.tv/LuckySecretiveNightingaleHoneyBadger-cohqOo9fcQIxC9tr` (Kanal Saltagreppo, Clip-Ersteller VandalizedTV, 23.08.2022, PvP), 60 Bilder/s nativ",
+    "timestamps": "Hüftlage ≈ 16,451 (Zeile davor) · Hüfthalt bis ≈ 16,700 · früher Weiterroll-Marker, weich 16,734 · deutlich 16,750 · tiefe Trageform 16,851"
+  },
+  {
+    "measurement": "Bogen: ADS verlassen bei weiter sichtbarem Vollzug (Demonstration)",
+    "clip": "https://www.youtube.com/watch?v=UKhS4fj4GZI",
+    "source": "YouTube, Kanal Hynra, 16.05.2022, https://www.youtube.com/watch?v=UKhS4fj4GZI; Precision Frame im Menü, Modell nicht belegt; 60 Bilder/s, Medienzeit",
+    "timestamps": "ADS noch ausgerichtet 9,267 · erste deutliche Rotation aus dem ADS 9,283 · Bogen seitlich, weiter gezogen 9,367 · Vollzug seitlich weiter sichtbar 9,633"
+  },
+  {
+    "measurement": "Bogen: sichtbarer Spann-Reset ohne beobachteten Schuss (Demonstration)",
+    "clip": "https://www.youtube.com/watch?v=UKhS4fj4GZI",
+    "source": "YouTube, Kanal Hynra, 16.05.2022, https://www.youtube.com/watch?v=UKhS4fj4GZI; 60 Bilder/s, Medienzeit",
+    "timestamps": "Vollzug zuletzt 27,667 · deutlicher Reset-/Rollbeginn 27,683 · seitliche entspannte Form 27,833 · Zähler weiter 1 bei 28,000; Vergleich: früherer Reset 14,933 (weich) → 15,067"
+  },
+  {
+    "measurement": "Kipplauf-Granatwerfer → Bogen (PvE): Wechsel nach beobachtetem Schuss, kein Reload-Abbruch",
+    "clip": "https://twitch.tv/mactics/clip/SecretiveMoldyMinkPicoMause-AMSPfXbUoV58RT56",
+    "source": "`twitch.tv/mactics/clip/SecretiveMoldyMinkPicoMause-AMSPfXbUoV58RT56` (Kanal Mactics, Clip-Ersteller Mactics, 13.03.2024, PvE Nightfall), 60 Bilder/s; Webcam verdeckt unten rechts",
+    "timestamps": "Zähler bereits 1 vor der Modellrückkehr 34,000 · Granatwerfer hüftähnlich 34,783 · Blitz und Zähler 1 → 0 bei 34,900 · letzte alte Teile ≈ 35,567–35,617 (weich) · sicher waffenfrei 35,633–35,733 · erste Bogenteile ≈ 35,750 · Bogen sicher 35,783 · seitliche Trageform 35,867"
   }
 ]
