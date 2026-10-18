@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.5.1 – 2026-10-18
+
+- MP **ADS aus → Hüfthaltung** isoliert belegt (PvP-Clip, nativ 60/s): erste Bewegung bis Hüfthaltung ≈ 10 Bilder (0,17 s), Zeitnullpunkt die erste sichtbare Bewegung; Einzelfall, ± 2 Bilder. Zeile in `docs/destiny2.md` › 2, `clips.json` +1.
+- [Versionsbericht](docs/versions/0.md#051--2026-10-18).
+
 ## 0.5.0 „Magwell“ – 2026-10-18
 
 - Destiny-2-MP vermessen (Mac, YouTube, 60/s, Normaltempo): **vollständiges Nachladen** an zwei Legendary-MPs (Ultraclocked: Ikelos_SMG, Extraordinary Rendition) mit getrennten Markern – erste Bewegung, MagOut 0,32–0,35 s, MagIn 1,03–1,07 s, Ladehebel, Hüfte 2,55 s, ruhig 2,82–2,87 s; Zähler nicht messbar (kein HUD).
