@@ -5,12 +5,16 @@ The reference for the first-person feel is Destiny 2; its timings (ADS blend, sp
 draw …) are read off 60-fps Twitch clips: contact sheets with a burned-in timestamp, sighted picture by picture. This tool is the
 whole way, so a session can repeat or extend the measurement without rediscovering it:
 
-    python3 Tools/reference_frames.py list <channel> [--top 100]           # the channel's most viewed clips: id|url|title|s|views
-    python3 Tools/reference_frames.py fetch <clip url|slug> [--out DIR]    # download (yt-dlp, best stream up to 1080p), print fps
-    python3 Tools/reference_frames.py overview <clip.mp4> [--out PREFIX]   # 2 pictures/s, 6 × 5 per sheet = 15 s - find the moments
-    python3 Tools/reference_frames.py sheet <clip.mp4> START END [--fps 10|60] [--out PREFIX] [--cols 6 --rows 5 --tile 480]
+    python3 tools/reference_frames.py list <channel> [--top 100]           # the channel's most viewed clips: id|url|title|s|views
+    python3 tools/reference_frames.py fetch <clip url|slug> [--out DIR]    # download (yt-dlp, best stream up to 1080p), print fps
+    python3 tools/reference_frames.py overview <clip.mp4> [--out PREFIX]   # 2 pictures/s, 6 × 5 per sheet = 15 s - find the moments
+    python3 tools/reference_frames.py sheet <clip.mp4> START END [--fps 10|60] [--out PREFIX] [--cols 6 --rows 5 --tile 480]
                                                                            # 10/s to narrow down, 60/s (native) to measure;
                                                                            # --cross marks the screen centre (where the game aims)
+
+    python3 tools/reference_frames.py measure <clip.mp4> START END --fps native --cross
+        [--measurement TEXT --clip-url URL --source 'channel, date'] [--out /tmp/times.txt]
+        [--sheet-out /tmp/sheet]   # native frame list, text file, sheets and a clips.json draft; outputs outside this repo
 
 Reading a measurement: the label on each tile is the clip time in h:mm:ss.fff; at the clip's native rate one tile is one picture, so
 a span in pictures is the difference of the labels divided by the frame time (16.7 ms at 60/s). Accuracy is ±1 picture at the
@@ -28,10 +32,12 @@ import math
 import os
 import subprocess
 import sys
+import tempfile
 from pathlib import Path
 
 FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf"
 TWITCH_CLIP_PREFIX = "https://clips.twitch.tv/"
+REPO_ROOT = Path(__file__).resolve().parents[1]
 
 
 def info(path: str) -> tuple[float, float, int, int]:
@@ -45,6 +51,72 @@ def info(path: str) -> tuple[float, float, int, int]:
         out = subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "json", path])
         duration = float(json.loads(out)["format"].get("duration") or 0)
     return float(num) / float(den), duration, int(stream["width"]), int(stream["height"])
+
+
+def frame_records(path: str, start: float, end: float) -> list[tuple[int, float]]:
+    """Return source frame indexes and presentation times in [start, end)."""
+    out = subprocess.check_output(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_frames",
+                                   "-show_entries", "frame=best_effort_timestamp_time", "-of", "json", path])
+    result = []
+    for index, frame in enumerate(json.loads(out).get("frames", [])):
+        value = frame.get("best_effort_timestamp_time")
+        if value not in (None, "") and start <= float(value) < end:
+            result.append((index, float(value)))
+    return result
+
+
+def scratch_path(path: str) -> Path:
+    """Resolve an output path and refuse the repository, including symlink aliases."""
+    target = Path(path).expanduser().resolve()
+    if target == REPO_ROOT or REPO_ROOT in target.parents:
+        raise ValueError(f"Ausgabepfad liegt im Repository: {target}")
+    return target
+
+
+def measure(clip: str, start: float, end: float, fps: str, cross: bool, output: str | None,
+            measurement: str, clip_url: str, source: str, sheet_out: str | None = None,
+            cols: int = 6, rows: int = 5, tile: int = 480) -> int:
+    if not math.isfinite(start) or not math.isfinite(end) or start < 0 or end <= start:
+        raise ValueError("Ungültiges Intervall: T0 muss >= 0 und T1 größer als T0 sein.")
+    text_target = scratch_path(output or str(Path(tempfile.gettempdir()) / f"{Path(clip).stem}_measurements.txt"))
+    prefix = scratch_path(sheet_out or str(Path(tempfile.gettempdir()) / f"{Path(clip).stem}_measure"))
+    _, duration, _, _ = info(clip)
+    if end > duration:
+        raise ValueError(f"Intervall endet bei {end:g} s, Clipdauer ist {duration:g} s.")
+    if fps != "native":
+        raise ValueError("measure unterstützt derzeit nur --fps native.")
+    if cols <= 0 or rows <= 0 or tile <= 0:
+        raise ValueError("cols, rows und tile müssen positive Ganzzahlen sein.")
+    records = frame_records(clip, start, end)
+    times = [timestamp for _, timestamp in records]
+    if not records:
+        raise ValueError("Im angegebenen Intervall wurden keine Bildzeiten gefunden.")
+    sheet_paths = [scratch_path(f"{prefix}_{index:02d}.jpg") for index in range(math.ceil(len(records) / (cols * rows)))]
+    print("Bildzeiten (Bildnummer, Sekunde):")
+    for index, timestamp in enumerate(times, 1):
+        print(f"{index}, {timestamp:.6f}")
+    # Select the original decoded frames by source index; this preserves one tile per
+    # listed native PTS, including fractional rates and intervals off the nominal frame grid.
+    prefix.parent.mkdir(parents=True, exist_ok=True)
+    outputs = []
+    for index in range(0, len(times), cols * rows):
+        page = index // (cols * rows)
+        page_records = records[index:index + cols * rows]
+        selection = "+".join(f"eq(n\\,{frame_index})" for frame_index, _ in page_records)
+        graph = f"select='{selection}'," + filter_graph(None, tile, cols, rows, cross)
+        subprocess.check_call(["ffmpeg", "-y", "-loglevel", "error", "-copyts", "-i", clip, "-map", "0:v:0", "-vf", graph,
+                               "-frames:v", "1", "-q:v", "4", str(sheet_paths[page])])
+        outputs.append(str(sheet_paths[page]))
+    suggestion = {"measurement": measurement, "clip": clip_url, "source": source,
+                  "timestamps": ", ".join(f"{t:.6f} s" for t in times)}
+    print("Entwurf für data/clips.json (keine Metadaten ergänzt):")
+    print(json.dumps(suggestion, ensure_ascii=False, indent=2))
+    text_target.parent.mkdir(parents=True, exist_ok=True)
+    text_target.write_text("Bildnummer, Sekunde\n" + "".join(f"{i}, {t:.6f}\n" for i, t in enumerate(times, 1)), encoding="utf-8")
+    print(f"Zeitstempeldatei: {text_target}")
+    for output_sheet in outputs:
+        print(f"Kontaktbogen: {output_sheet}")
+    return 0
 
 
 def windows(start: float, end: float, fps: float, per_sheet: int) -> list[tuple[float, float]]:
@@ -63,12 +135,13 @@ def windows(start: float, end: float, fps: float, per_sheet: int) -> list[tuple[
     return spans
 
 
-def filter_graph(fps: float, tile_width: int, cols: int, rows: int, cross: bool) -> str:
-    """The ffmpeg video filter of one sheet: sample at `fps`, optionally the centre cross, scale, time label, tile."""
+def filter_graph(fps: float | None, tile_width: int, cols: int, rows: int, cross: bool) -> str:
+    """Build a sheet filter; fps=None keeps selected source frames without resampling."""
     label = "text='%{pts\\:hms}':x=6:y=6:fontsize=20:fontcolor=yellow:box=1:boxcolor=black@0.6"
     centre = ("drawbox=x=iw/2-1:y=0:w=2:h=ih:color=cyan@0.5:t=fill,drawbox=x=0:y=ih/2-1:w=iw:h=2:color=cyan@0.5:t=fill,"
               "drawbox=x=iw/2-ih/40:y=ih/2-ih/40:w=ih/20:h=ih/20:color=cyan@0.8:t=2," if cross else "")
-    return f"fps={fps},{centre}scale={tile_width}:-2,drawtext=fontfile={FONT}:{label},tile={cols}x{rows}:padding=2:color=black"
+    sampling = f"fps={fps}," if fps is not None else ""
+    return f"{sampling}{centre}scale={tile_width}:-2,drawtext=fontfile={FONT}:{label},tile={cols}x{rows}:padding=2:color=black"
 
 
 def sheet(path: str, prefix: str, start: float, end: float, fps: float, cols: int, rows: int, tile_width: int,
@@ -127,12 +200,29 @@ def main(argv: list[str]) -> int:
     window.add_argument("--rows", type=int, default=5)
     window.add_argument("--tile", type=int, default=480)
     window.add_argument("--cross", action="store_true", help="draw the screen centre (aim point) into every picture")
+    measurer = commands.add_parser("measure", help="list frame times and propose a clips.json row")
+    measurer.add_argument("clip")
+    measurer.add_argument("start", type=float)
+    measurer.add_argument("end", type=float)
+    measurer.add_argument("--fps", choices=("native",), default="native", help="native source rate (default)")
+    measurer.add_argument("--cross", action="store_true", help="mark the screen centre on each contact sheet frame")
+    measurer.add_argument("--out", help="text output path (must be outside the repository)")
+    measurer.add_argument("--measurement", default="", help="measurement description for the proposed row")
+    measurer.add_argument("--clip-url", default="", help="clip URL for the proposed row")
+    measurer.add_argument("--source", default="", help="source/channel/date for the proposed row")
+    measurer.add_argument("--sheet-out", help="contact sheet prefix (default: system scratch)")
+    measurer.add_argument("--cols", type=int, default=6)
+    measurer.add_argument("--rows", type=int, default=5)
+    measurer.add_argument("--tile", type=int, default=480)
     args = parser.parse_args(argv)
 
     if args.command == "list":
         return list_clips(args.channel, args.top)
     if args.command == "fetch":
         return fetch(args.clip, args.out)
+    if args.command == "measure":
+        return measure(args.clip, args.start, args.end, args.fps, args.cross, args.out,
+                       args.measurement, args.clip_url, args.source, args.sheet_out, args.cols, args.rows, args.tile)
     stem = Path(args.clip).with_suffix("")
     if args.command == "overview":
         _, duration, _, _ = info(args.clip)
@@ -148,4 +238,8 @@ def main(argv: list[str]) -> int:
 
 
 if __name__ == "__main__":
-    sys.exit(main(sys.argv[1:]))
+    try:
+        sys.exit(main(sys.argv[1:]))
+    except (ValueError, subprocess.CalledProcessError, OSError) as error:
+        print(f"FEHLER: {error}", file=sys.stderr)
+        sys.exit(2)

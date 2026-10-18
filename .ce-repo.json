@@ -1,7 +1,7 @@
 {
   "name": "cubeescape-reference",
-  "version": "0.1.0",
-  "version_name": "Baseline",
+  "version": "0.2.0",
+  "version_name": "Frame Ledger",
   "check": {
     "quick": ["python3 -m unittest discover -s tests", "python3 tools/check_links.py"]
   },
