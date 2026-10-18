@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.2 – 2026-10-18
+
+- Bildraten geklärt (Codex): Toolgen-Clips 24/s, Reel-Ausgabe 30/s, Simulation 60 Schritte/s; Methode 8 und Auswertung angepasst.
+- Sichtung für Codex' Messplan: sieben weitere Clips (138 gesamt) auf MP-Nachladen und ADS aus durchsucht – kein Beleg; Sichtungstabelle in `docs/destiny2.md` ergänzt, Lücke bleibt offen.
+- [Versionsbericht](docs/versions/0.md#042--2026-10-18).
+
 ## 0.4.1 – 2026-10-18
 
 - Befund Bildrate (Codex): Cube-Escape-Reels speichern 30 Bilder/s bei 60 Simulationsschritten/s; ±1 Bild bei 60/s braucht vollständige Einzelbilder. Eingetragen in `docs/destiny2.md` › 2 › Methode 8 und `docs/auswertung.md` › 3.
