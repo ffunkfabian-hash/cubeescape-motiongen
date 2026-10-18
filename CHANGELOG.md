@@ -4,8 +4,21 @@
 
 - Codex' Destiny-Bewegungsprüfung (16 Befunde) am Bild abgenommen und in `docs/destiny2.md` › 2/3 eingearbeitet: alte Werte ersetzt oder eingeschränkt, keine Zusatzzeilen daneben.
 - Zurückgezogen: Geh-/Bob-Beleg (Destiny 1), durchgehende Scharfschützen-Leere, Automatik-„Landung“ (Waffenwechsel 87 → 1 Patrone), MP-Sprint-Ein/Aus (Wippen), Schrotflinten-Folgeschuss/Pump, Aztecross-Reload-Ende, 1,2-s-Gewehrbereitschaft, Hüft-Zuordnung des CammyCakes-Schusses (ADS).
-- Neu: Wechselmarker (Scharfschütze → Handfeuerwaffe, Handfeuerwaffe → Schrotflinte, Granatwerfer → Bogen), Bogen-ADS-Verlassen mit Vollzug, Spann-Reset, MP-Absenkung nach ADS aus; MP-Hüfthalt aus 0.5.1 endet bei ≈ 16,70; Methode 10 (Quellenprüfung). `clips.json` 114 → 118.
+- Neu: Wechselmarker (Scharfschütze → Handfeuerwaffe, Handfeuerwaffe → Schrotflinte, Granatwerfer → Bogen), Bogen-ADS-Verlassen mit Vollzug, Spann-Reset, MP-Absenkung nach ADS aus; MP-Hüfthalt aus 0.5.1 endet bei ≈ 16,70. Methode 11 (Quellenprüfung). `clips.json` 127 → 131.
 - [Versionsbericht](docs/versions/0.md#080-crosswind--2026-10-18).
+## 0.6.0 „Chargeline“ – 2026-10-18
+
+- Destiny 2, Mac/YouTube, nativ 60/s, je Klasse zwei Legendary-Waffen aus Ultraclocked-Showcases: **kurzes Fusionsgewehr** (Ladehaltung, Laden bis Strahl = Charge-Time-Wert 0,517/0,867 s, Salve 0,25 s mit Modellrückstoß, ADS ein/aus, Nachladen 1,73–2,9 s), **klassische Schrotflinte** (Pumpen, Einzelhülsen 0,62–0,87 s je Hülse, Repetieren am Ende, voll 5,8–5,9 s), **Scharfschützengewehr** (Nachladen 2,05–2,80 s, Zielfernrohr-Phasen an zwei Optikformen).
+- W5 (Scope) und W6 (Sniper-Sprung, Schrot-Reload) geklärt; Methode 10: Normaltempo ohne „0.5x“-Marke über Wiederholungen belegen. `docs/destiny2.md` › 2 neun Messzeilen, sieben Sichtungen, › 3 drei Steckbriefe; `clips.json` +9.
+- Offen: HUD-Marker und Folgeschuss nach dem Nachladen (Showcases ohne HUD), Inspect; Lückenliste für 0.7.0 im [Versionsbericht](docs/versions/0.md#060-chargeline--2026-10-18).
+
+## 0.5.2 – 2026-10-18
+
+- MP-Nachtrag (Mac, YouTube, 60/s, Normaltempo): **ADS aus → ruhige Hüfte** isoliert am Exotic Huckleberry (Hüfte 0,067 s, ruhig 0,167 s) und an Ikelos mit HUD (Ehroar, 0,10 / ≈ 0,18 s, Kamera führt nach) – passt zum PvP-Fall aus 0.5.1 (≈ 0,17 s bis Hüfthaltung).
+- **HUD „Zähler voll“** 0,73 s nach Beginn des Nachladens aus dem ADS (Ehroar); Huckleberry-Nachladen mit Magazin-Auswurf (MagOut 0,10, MagIn 0,97, Hüfte 2,12 s); Hüftmündung der Showcases ≈ 56–58 / 62–68 % (Raster).
+- Werkzeug: `fetch` lädt von YouTube (60-fps-Video bis 1080p, Twitch unverändert); Kontaktbögen ohne `drawtext` über ImageMagick, Schrift wird gesucht – `./check` jetzt auch auf dem Mac grün.
+- Offen: erster Folgeschuss nach dem Nachladen (an die Katalog-Sitzung 0.7.0 übergeben).
+- [Versionsbericht](docs/versions/0.md#052--2026-10-18).
 
 ## 0.5.1 – 2026-10-18
 
