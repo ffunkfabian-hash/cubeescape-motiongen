@@ -394,5 +394,41 @@
     "clip": "https://twitch.tv/frothyomen/clip/AdventurousGiantOysterBudStar",
     "source": "`twitch.tv/frothyomen/clip/AdventurousGiantOysterBudStar` („holy balls“, Spieler greaterthanBD, 02.03.2019, Titanfall 2, Kraber), 60 Bilder/s, 7,0–10,5 (10 Bilder/s)",
     "timestamps": "Scope (runde Linse ≈ 50 % Höhe, Rand schwarz) 7,1–7,3 · Scope aus, Hüfte tief rechts 7,4–8,0 · Greifhaken-Flug 8,1–9,2: Waffe tief rechts, Kamera rollt bis ≈ 20° · **Scope ein in der Luft 9,3–9,4** (Linse öffnet in ≤ 2 Bildern bei 10/s) · Schuss 9,4 · Scope aus 9,5 · Hüfte 9,6–10,5 mit Wandlauf-Rolle"
+  },
+  {
+    "measurement": "Waffenwechsel (Gewehr → Pistole), 60 Bilder/s",
+    "clip": "https://twitch.tv/mande/clip/PolishedObeseFriseeShadyLulu-U_jcBYD3duNsa1Oi",
+    "source": "`twitch.tv/mande/clip/PolishedObeseFriseeShadyLulu-U_jcBYD3duNsa1Oi` („Trainwreckstv offers…“, Spieler Feeflv, 07.01.2022, Apex)",
+    "timestamps": "alte Waffe in der Hüfte bis 4,717 · fällt nach unten rechts 4,733–4,850 (7 Bilder) · 4,867 Hand kurz leer, neue Waffe schon von unten rechts kommend · steigt 4,883–5,100 · Hüfte ≈ 5,15"
+  },
+  {
+    "measurement": "Nachladen (Gewehr): Beginn, dann von Loot-Animation überlagert",
+    "clip": "https://twitch.tv/mande/clip/PolishedObeseFriseeShadyLulu-U_jcBYD3duNsa1Oi",
+    "source": "derselbe Clip, 11,40–13,20",
+    "timestamps": "ADS-nahe Haltung bis 11,517 · Waffe kippt nach rechts 11,533 · fällt nach unten rechts 11,667–11,783 (quer, Magazin sichtbar) · Hand am Magazin 11,80–12,28 · ab 12,30 Aufheben eines Aufsatzes (Hand greift, Waffe weg) – Ende des Nachladens nicht sichtbar"
+  },
+  {
+    "measurement": "Rutschen am Hang mit eingesteckter Waffe",
+    "clip": "https://twitch.tv/mande/clip/PlacidAbstemiousPotatoThunBeast-EOFhZ2_45oiT9sXt",
+    "source": "`twitch.tv/mande/clip/PlacidAbstemiousPotatoThunBeast-EOFhZ2_45oiT9sXt` („OW arc?“, Spieler NoobKento, 27.02.2024, Apex), 4 und 10 Bilder/s",
+    "timestamps": "8,0–23,0 durchgehendes Rutschen bergab (15 s) · keine Hände, keine Waffe im Bild (Waffe eingesteckt) · Kamera bleibt waagerecht, kein Rollen · Fadenkreuz-Punkt auf der Mitte · 24,5 Waffe gezogen (erscheint von unten rechts)"
+  },
+  {
+    "measurement": "Scharfschütze (Sentinel): Zielfernrohr ein/aus, 10 Bilder/s",
+    "clip": "https://twitch.tv/mande/clip/PoliteReliableStarMau5-v_qYO_tKg08oUz1k",
+    "source": "`twitch.tv/mande/clip/PoliteReliableStarMau5-v_qYO_tKg08oUz1k` („ready?“, Spieler NoobKento, 07.05.2024, Apex), 10 Bilder/s",
+    "timestamps": "Hüfte (Waffe groß unten rechts, Lauf nach links oben) bis 23,9 · **Zielfernrohr 24,0** (runde Linse ≈ 70 % Höhe, schwarzer Rand, Strichkreuz) · gehalten bis 25,5 · Schuss und Linse weg 25,6 · Hüfte 25,6–26,5"
+  },
+  {
+    "measurement": "ADS ein/aus (Gewehr mit Holo-Visier), 10 Bilder/s",
+    "clip": "https://twitch.tv/iniquity/clip/ThirstyLittleCamelKAPOW",
+    "source": "`twitch.tv/iniquity/clip/ThirstyLittleCamelKAPOW` („He will not“, Spieler superproxy00e, 19.10.2020, Titanfall 2)",
+    "timestamps": "Hüfte 13,2–13,3 · Anheben 13,4–13,5 · **ADS 13,6–14,4** (großes rundes Holo-Visier ≈ 25 % Höhe auf dem Kreuz, Gehäuse 40–70 % Breite) · Senken 14,5–14,6 · Hüfte 14,7"
+  },
+  {
+    "measurement": "Hüfte → ADS → Dauerfeuer → zurück (MP/Gewehr), 60 Bilder/s",
+    "clip": "https://twitch.tv/iniquity/clip/HorribleSmokySwanRalpherZ",
+    "source": "`twitch.tv/iniquity/clip/HorribleSmokySwanRalpherZ` („CLIPPED“, Spieler 1000gecs_, 02.11.2020, Titanfall 2, 1600 × 900)",
+    "timestamps": "Hüfte tief rechts bis 23,983 · steigt zur Mitte 24,000–24,083 · **Mündungsfeuer ab 24,100**, Visier auf dem Kreuz 24,117 · Feuer bis ≈ 24,50 (Blitz in jedem 2.–3. Bild, Waffe zittert ≤ 2 %) · Senken 24,533–24,650 · Hüfte rechts unten 24,667"
   }
 ]
