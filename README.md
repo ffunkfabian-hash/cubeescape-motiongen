@@ -8,6 +8,7 @@ Toolgen und das Design-Repo lesen hier; entschieden und umgesetzt wird dort.
 |---|---|
 | `docs/destiny2.md` | Messungen (Tabelle mit Clip und Zeitstempeln) und Steckbriefe je Waffentyp |
 | `docs/apex.md`, `docs/titanfall2.md` | Bewegungs-Vorbilder: Sprint, Rutschen, Sprung/Landung, Wandlauf, tiefe Hüfte (je ein Steckbrief) |
+| [docs/auswertung.md](docs/auswertung.md) | Gesamtauswertung: Vergleich der Vorgänge, belegte Muster, Widersprüche und offene Fragen |
 | `data/clips.json` | Clip-Verzeichnis: Messung, Clip-URL, Quelle, Zeitstempel |
 | `tools/reference_frames.py` | Werkzeug: Clips finden/laden, Kontaktbögen (2/s, 10/s, native Rate), Mittenkreuz |
 | `tests/` | Werkzeugtests (`./check`) |
