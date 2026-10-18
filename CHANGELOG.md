@@ -4,8 +4,15 @@
 
 - Codex' Destiny-Bewegungsprüfung (16 Befunde) am Bild abgenommen und in `docs/destiny2.md` › 2/3 eingearbeitet: alte Werte ersetzt oder eingeschränkt, keine Zusatzzeilen daneben.
 - Zurückgezogen: Geh-/Bob-Beleg (Destiny 1), durchgehende Scharfschützen-Leere, Automatik-„Landung“ (Waffenwechsel 87 → 1 Patrone), MP-Sprint-Ein/Aus (Wippen), Schrotflinten-Folgeschuss/Pump, Aztecross-Reload-Ende, 1,2-s-Gewehrbereitschaft, Hüft-Zuordnung des CammyCakes-Schusses (ADS).
-- Neu: Wechselmarker (Scharfschütze → Handfeuerwaffe, Handfeuerwaffe → Schrotflinte, Granatwerfer → Bogen), Bogen-ADS-Verlassen mit Vollzug, Spann-Reset, MP-Absenkung nach ADS aus; MP-Hüfthalt aus 0.5.1 endet bei ≈ 16,70. Methode 11 (Quellenprüfung). `clips.json` 127 → 131.
+- Neu: Wechselmarker (Scharfschütze → Handfeuerwaffe, Handfeuerwaffe → Schrotflinte, Granatwerfer → Bogen), Bogen-ADS-Verlassen mit Vollzug, Spann-Reset, MP-Absenkung nach ADS aus; MP-Hüfthalt aus 0.5.1 endet bei ≈ 16,70. Methode 12 (Quellenprüfung). `clips.json` 145 → 149 (6 neu, 2 entfernt).
 - [Versionsbericht](docs/versions/0.md#080-crosswind--2026-10-18).
+## 0.7.0 „Armory“ – 2026-10-18
+
+- **Waffentyp-Katalog** nach dem offiziellen Bungie-Manifest (Version 244213.26.06.29, abgerufen 18.10.2026): 17 Untertypen je Munitionsart mit Rahmen; neu gegenüber der Ausgangsliste u. a. Hitzewaffen (Entlüften statt Nachladen), Mikro-Raketen-Rahmen, Spread Shot, Slug-Schrot, schwere Bogen/Scharfschützen/Schrot/Fusion/Spur, Primär-Granatwerfer. Bestandsmatrix je Typ in `docs/destiny2.md` › 4.
+- Destiny 2, Mac/YouTube, nativ 60/s: **Automatik- und Impulsgewehr** weitgehend (Kadenz, Salvenabstände, Modellrückstoß, ADS mit Zoomverlauf, leeres Nachladen), dazu legendäres Scout-Gewehr, Sidearm-Salve, Bogen, Spezial-Granatwerfer (2×), Maschinengewehr, lineare Fusion mit offener Kimme, Spurgewehr- und Raketenwerfer-Nachladen (Exotic), Hitzewaffe, MP-Folgeschuss nach dem Nachladen (HUD voll → erster Schuss 0,72 s, ein Fall); **Schwert wechselt in die Schulteransicht, Glefe bleibt Ego**.
+- Methode 11 (Modellrückstoß per Bildausschnitt-Verfolgung, Zoom als Bildmaßstab); Übergänge, Fortbewegung und Kamera-Kick misst eine eigene Codex-Sitzung (Matrix-Spalte „bei Codex“); Klärungsvorschlag zu W7 (Impuls-Nachladen) und W3 (Showcase-Kadenzen) an Codex übergeben (Auswertung schreibt Codex). › 2 +18 Messzeilen, +14 Sichtungen, › 3 +13 Steckbriefe; `clips.json` +18.
+- Offen: Einzelschuss eines Automatikgewehrs, Inspect, legendärer schwerer Granatwerfer und Raketenwerfer-Nachladen, Slug-Schrot, Spread Shot, schwere Sonderformen; [Versionsbericht](docs/versions/0.md#070-armory--2026-10-18).
+
 ## 0.6.0 „Chargeline“ – 2026-10-18
 
 - Destiny 2, Mac/YouTube, nativ 60/s, je Klasse zwei Legendary-Waffen aus Ultraclocked-Showcases: **kurzes Fusionsgewehr** (Ladehaltung, Laden bis Strahl = Charge-Time-Wert 0,517/0,867 s, Salve 0,25 s mit Modellrückstoß, ADS ein/aus, Nachladen 1,73–2,9 s), **klassische Schrotflinte** (Pumpen, Einzelhülsen 0,62–0,87 s je Hülse, Repetieren am Ende, voll 5,8–5,9 s), **Scharfschützengewehr** (Nachladen 2,05–2,80 s, Zielfernrohr-Phasen an zwei Optikformen).
