@@ -760,5 +760,113 @@
     "clip": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
     "source": "Ultraclocked (YouTube), 14.02.2020, „All Titan Legendary Weapons … SUROS Weapons“, 1920 × 1080, 60 fps; Menü 90 RPM, Magazin 5",
     "timestamps": "ein 43,600 → Reticle 43,733 → ruhig 43,900 · aus 39,167 → Modell 39,433 · Nachladen 17,783 → ruhig ≈ 20,58 s"
+  },
+  {
+    "measurement": "Automatikgewehr (Chroma Rush): Kadenz 720/min, Hüfte, Modellrückstoß bei Stoß und Dauerfeuer",
+    "clip": "https://www.youtube.com/watch?v=QxSa4m3wIEA",
+    "source": "Ultraclocked (YouTube), 15.05.2021, „Chroma Rush (Legendary Auto Rifle) - Animations & Sounds“, 1920 × 1080, 60 fps; Menü 720 RPM, Magazin 57",
+    "timestamps": "Schüsse 3,700 · 3,783 · 3,867 · 3,950; Dauerfeuer 5,667–6,583 s"
+  },
+  {
+    "measurement": "Automatikgewehr (Chroma Rush): ADS ein 0,30 s mit Zoomverlauf bis 1,84×, Modell im ADS-Feuer, ADS aus 0,083 s",
+    "clip": "https://www.youtube.com/watch?v=QxSa4m3wIEA",
+    "source": "Ultraclocked (YouTube), 15.05.2021, „Chroma Rush (Legendary Auto Rifle) - Animations & Sounds“, 1920 × 1080, 60 fps; Menü 720 RPM, Magazin 57",
+    "timestamps": "ADS 22,400 → 22,583 → 22,717; ADS aus 31,417 → 31,500 s"
+  },
+  {
+    "measurement": "Automatikgewehr (Chroma Rush): Nachladen leer (heraus 0,25 · ein 0,93 · ruhig 1,85 s), aus dem ADS 1,73 s",
+    "clip": "https://www.youtube.com/watch?v=QxSa4m3wIEA",
+    "source": "Ultraclocked (YouTube), 15.05.2021, „Chroma Rush (Legendary Auto Rifle) - Animations & Sounds“, 1920 × 1080, 60 fps; Menü 720 RPM, Magazin 57",
+    "timestamps": "Nachladen 12,817 → 14,667; aus ADS 31,517 → 33,25 s"
+  },
+  {
+    "measurement": "Impulsgewehr (Gridskipper): Salve 0,067 s, Salvenabstand ≥ 0,383 s, Modellrückstoß und Rückkehr je Salve und über Salvenfolgen",
+    "clip": "https://www.youtube.com/watch?v=DFn14wAPluA",
+    "source": "Ultraclocked (YouTube), 13.05.2021, „Gridskipper (Legendary Pulse Rifle) - Animations & Sounds“, 1920 × 1080, 60 fps; Menü 540 RPM, Magazin 36",
+    "timestamps": "Salve 4,300 · 4,367 · 4,433; Folgen 9,550 → 9,983, 11,433 → 11,833 → 12,217, 13,650 → 14,033 → 14,433 s"
+  },
+  {
+    "measurement": "Impulsgewehr (Gridskipper): ADS ein 0,30 s bis 2,1×, ADS-Salve, Nachladen leer 1,65 s",
+    "clip": "https://www.youtube.com/watch?v=DFn14wAPluA",
+    "source": "Ultraclocked (YouTube), 13.05.2021, „Gridskipper (Legendary Pulse Rifle) - Animations & Sounds“, 1920 × 1080, 60 fps; Menü 540 RPM, Magazin 36",
+    "timestamps": "ADS 26,467 → 26,767; ADS-Salve 27,117; Nachladen 15,300 → 16,95 s"
+  },
+  {
+    "measurement": "Scout-Gewehr (Tone Patrol): Einzelschuss (Modell), ADS ein ≈ 0,37 s, Nachladen 1,7–1,85 s",
+    "clip": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+    "source": "Ultraclocked (YouTube), 14.02.2020, „All Titan Legendary Weapons … SUROS Weapons“, 1920 × 1080, 60 fps; Menü 180 RPM, Magazin 15",
+    "timestamps": "Schuss 381,183; ADS 388,083 → 388,45; Nachladen 393,467 → 395,13–395,33 s"
+  },
+  {
+    "measurement": "Sidearm mit 2er-Salve (Brass Attacks): Salve 0,10 s, ADS ein 0,20 s bis 1,43×, Nachladen ≈ 1,75 s",
+    "clip": "https://www.youtube.com/watch?v=F6-wH23URIw",
+    "source": "Ultraclocked (YouTube), 10.03.2021, „Brass Attacks (Legendary Sidearm) - Animations & Sounds“, 1920 × 1080, 60 fps; Menü 325 RPM, Magazin 24",
+    "timestamps": "Salve 4,300 · 4,400; ADS 23,683 → 23,883; Nachladen 13,20 → 14,95 s"
+  },
+  {
+    "measurement": "Bogen (Imperial Needle): Zyklus Lösen → Lösen 1,45 s, Anlegen → voll 0,60 s (Draw Time 612), ADS 0,25 s",
+    "clip": "https://www.youtube.com/watch?v=dKNTDzi__Qo",
+    "source": "Ultraclocked (YouTube), 19.02.2021, „Imperial Needle (Legendary Bow) - Animations & Sounds“, 1920 × 1080, 60 fps; Menü Draw Time 612",
+    "timestamps": "Lösen 44,250 → 45,700; ADS 47,600 → 47,85 s"
+  },
+  {
+    "measurement": "Granatwerfer Spezial (Ignition Code): Hüftschuss (Modell), Nachladen Kipplauf 2,52 s, ADS 0,32 s bis 1,44×",
+    "clip": "https://www.youtube.com/watch?v=PDKTHjCFhWg",
+    "source": "Ultraclocked (YouTube), 15.05.2021, „Ignition Code (Legendary Grenade Launcher) - Animations & Sounds“, 1920 × 1080, 60 fps; Menü 90 RPM, Magazin 1",
+    "timestamps": "Schuss 3,517; Nachladen 4,533 → 7,05; ADS 8,217 → 8,533; ADS-Schuss 11,383 s"
+  },
+  {
+    "measurement": "Granatwerfer Spezial (Flash and Thunder): Nachladen ≈ 2,5 s – zweiter Beleg",
+    "clip": "https://www.youtube.com/watch?v=73lGCT7yOtk",
+    "source": "Ultraclocked (YouTube), 25.01.2020, „All EDZ Legendary Weapons … Häkke Weapons“, 1920 × 1080, 60 fps; Menü 90 RPM, Magazin 1",
+    "timestamps": "Schuss 270,233; Nachladen 271,13 → 273,67 s"
+  },
+  {
+    "measurement": "Maschinengewehr (Shattered Cipher): 900/min, Modell im Dauerfeuer, Nachladen 4,87 s, ADS 0,37 s bis 1,84×",
+    "clip": "https://www.youtube.com/watch?v=DEM-8xg66R8",
+    "source": "Ultraclocked (YouTube), 14.05.2021, „Shattered Cipher (Legendary Machine Gun) - Animations & Sounds“, 1920 × 1080, 60 fps; Menü 900 RPM, Magazin 75",
+    "timestamps": "Schüsse 3,683 · 3,750 · 3,817; Dauerfeuer 7,133–7,883; Nachladen 11,80 → 16,67; ADS 29,75 → 30,117 s"
+  },
+  {
+    "measurement": "Lineares Fusionsgewehr (Threaded Needle): sichtbares Laden 0,33 s, Schuss (Modell), Nachladen 3,3 s, ADS 0,30–0,32 s mit offener Kimme",
+    "clip": "https://www.youtube.com/watch?v=uoTaCBMXcFk",
+    "source": "Ultraclocked (YouTube), 20.02.2021, „Threaded Needle (Legendary Linear Fusion Rifle) - Weapon Animations & Sounds“, 1920 × 1080, 60 fps; Menü Charge Time 563, Magazin 5",
+    "timestamps": "Laden 5,067 → Schuss 5,400; Nachladen 16,033 → 19,35; ADS 30,617 → 30,917 s"
+  },
+  {
+    "measurement": "Spurgewehr (Prometheus Lens, Exotic): Hüfte, Nachladen 2,55 s",
+    "clip": "https://www.youtube.com/watch?v=XnWXuoZxnVA",
+    "source": "Ultraclocked (YouTube), 30.01.2021, „Prometheus Lens (Exotic Trace Rifle) - Animations, Sounds & Effects w/ Slow-Motion“, 1920 × 1080, 60 fps",
+    "timestamps": "Nachladen 17,40 → 19,95 s"
+  },
+  {
+    "measurement": "Raketenwerfer (Eyes of Tomorrow, Exotic): Nachladen ≈ 2,8 s",
+    "clip": "https://www.youtube.com/watch?v=3gX1miw4ykY",
+    "source": "Ultraclocked (YouTube), 06.08.2022, „Eyes of Tomorrow - Audiovisual Showcase (Raid Exotic Rocket Launcher)“, 1920 × 1080, 60 fps; Menü 20 RPM, Magazin 1",
+    "timestamps": "Salve 11,03; Nachladen 13,10 → 15,9 s"
+  },
+  {
+    "measurement": "Hitzewaffe (All or Nothing, Impuls, Dynamic Heat): Entlüften statt Nachladen ≈ 2,0 s",
+    "clip": "https://www.youtube.com/watch?v=4PIMxLpBPPI",
+    "source": "Ultraclocked (YouTube), 19.12.2025, „All 'Renegades' Weapons - Visuals & Sounds“, 1920 × 1080, 60 fps",
+    "timestamps": "Entlüften 15,9 → 18,0 s"
+  },
+  {
+    "measurement": "Schwert (Broken Promise): Ansichtswechsel in die Schulteransicht (0,15 s Ego ohne Waffe, Rückzug 0,33 s), keine Ego-Haltung",
+    "clip": "https://www.youtube.com/watch?v=afs_dhFDhQU",
+    "source": "Ultraclocked (YouTube), 09.02.2020, „All Io Legendary Weapons … VEIST Weapons“, 1920 × 1080, 60 fps",
+    "timestamps": "Schnitt 289,450 · Figur 289,600 · Rückzug bis 289,933 s; Dritte Person bis 316 s"
+  },
+  {
+    "measurement": "Glefe (Vexcalibur, Exotic): bleibt Ego, drei Nahkampfschläge 2,3 s, Schild",
+    "clip": "https://www.youtube.com/watch?v=BqVfcsg3nYU",
+    "source": "Ultraclocked (YouTube), 26.11.2024, „Galatine Protocol - Weapon Ornament for Vexcalibur (Exotic Glaive)“, 60 fps, geteiltes Bild",
+    "timestamps": "Schläge 9,30 → 11,60; Schild 12,15–15,0 s"
+  },
+  {
+    "measurement": "Maschinenpistole (IKELOS_SMG, PvE, HUD): HUD voll → erstes beobachtetes Mündungsfeuer 0,72 s nach dem Nachladen; zweiter Fall ohne Folgeschuss",
+    "clip": "https://www.youtube.com/watch?v=PB1oiHuEV5s",
+    "source": "Ekuegan (YouTube), 15.07.2020, Ikelos-PvE-Review, 1280 × 720, 60 fps; HUD, Magazin 29, Threat Detector x2",
+    "timestamps": "Zähler 0 521,300 · HUD 29 521,750 · Schuss 522,467; Zähler 0 356,333 · HUD 29 357,083–357,100 s"
   }
 ]
