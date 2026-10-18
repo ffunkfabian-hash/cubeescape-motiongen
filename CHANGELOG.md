@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.4.1 – 2026-10-18
+
+- Befund Bildrate (Codex): Cube-Escape-Reels speichern 30 Bilder/s bei 60 Simulationsschritten/s; ±1 Bild bei 60/s braucht vollständige Einzelbilder. Eingetragen in `docs/destiny2.md` › 2 › Methode 8 und `docs/auswertung.md` › 3.
+- [Versionsbericht](docs/versions/0.md#041--2026-10-18).
+
 ## 0.4.0 „Crosscheck“ – 2026-10-18
 
 - Werkzeug-Vorbilder (Codex, PR #2): `docs/portal2.md`, `docs/halflife2.md`, `docs/metroidprime.md`, `docs/taschenlampe.md` mit Messungen, Quellen und Steckbriefen; `measure` bindet Kontaktbögen an Quellbild und Zeitstempel.

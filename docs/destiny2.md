@@ -43,6 +43,7 @@ auch über Piped/Invidious und den eingebauten Chromium); Twitch-Clips (1080p60)
    Schussbereitschaft nach Animation und alleiniger Kamera-Rückstoß sind ohne getrennte Belege nicht bestimmbar. Überlagern ADS aus/Wechsel
    eine Rückkehr, wird keine isolierte Rückstellzeit angegeben; ein größeres Glasfenster nach dem Schuss ist kein neuer ADS-Zoomwert.
 7. Clips und Bögen bleiben außerhalb des Repos (Scratch des Agenten, Mac: `~/Library/Caches/CubeEscape/reference/`); nur Zahlen und Beschreibungen kommen ins Doc.
+8. **Gegenseite Cube Escape – Bildrate der Vergleichsbögen (Befund Codex, 18.10.2026):** die Standard-Reels des Spiels speichern 30 Bilder/s, obwohl die Simulation mit 60 Schritten/s läuft. Für ±1 Bild bei 60/s (16,7 ms) braucht ein Vergleich daher vollständige Einzelbilder jedes Simulationsschritts (virtuelle Zeit, ein Bild je Schritt); aus einem 30/s-Reel sind nur ±2 Schritte (33 ms) ablesbar. Referenzmessungen hier bleiben bei 60/s und `--fps native`; ein Spielvergleich nennt immer Bildrate und Schrittweite beider Seiten. Das CE-Doc nennt für Toolgen-Clips 24/s (`FIRST_PERSON_EQUIPMENT.md › 9`, Clip-Regeln) – Abweichung von 30/s ungeklärt, Abnahme beim Mac (Unity/Toolgen); hier ist nichts am Spielprofil geändert.
 
 | Vorgang | Clip (Twitch, Kanal, Datum) | Zeitstempel im Clip | Messung |
 |---|---|---|---|
