@@ -8,7 +8,7 @@ whole way, so a session can repeat or extend the measurement without rediscoveri
     python3 tools/reference_frames.py list <channel> [--top 100]           # the channel's most viewed clips: id|url|title|s|views
     python3 tools/reference_frames.py fetch <clip url|slug> [--out DIR]    # download (yt-dlp, best stream up to 1080p), print fps
     python3 tools/reference_frames.py overview <clip.mp4> [--out PREFIX]   # 2 pictures/s, 6 × 5 per sheet = 15 s - find the moments
-    python3 tools/reference_frames.py sheet <clip.mp4> START END [--fps 10|60] [--out PREFIX] [--cols 6 --rows 5 --tile 480]
+    python3 tools/reference_frames.py sheet <clip.mp4> START END [--fps 10|native] [--out PREFIX] [--cols 6 --rows 5 --tile 480]
                                                                            # 10/s to narrow down, 60/s (native) to measure;
                                                                            # --cross marks the screen centre (where the game aims)
 
@@ -145,12 +145,24 @@ def filter_graph(fps: float | None, tile_width: int, cols: int, rows: int, cross
     return f"{sampling}{centre}scale={tile_width}:-2,drawtext=fontfile={FONT}:{label},tile={cols}x{rows}:padding=2:color=black"
 
 
-def sheet(path: str, prefix: str, start: float, end: float, fps: float, cols: int, rows: int, tile_width: int,
+def sheet(path: str, prefix: str, start: float, end: float, fps: float | None, cols: int, rows: int, tile_width: int,
           cross: bool = False) -> list[str]:
     """Contact sheets covering [start, end) at `fps`, cols × rows tiles each, the clip time burned into every tile; `cross` draws
-    the screen centre (the aim point of the game) into every picture, so the offset of muzzle, sight and tracer can be read off."""
+    the screen centre (the aim point of the game) into every picture, so the offset of muzzle, sight and tracer can be read off.
+    fps=None preserves source frame indexes and PTS without resampling."""
     _, duration, _, _ = info(path)
     outputs = []
+    if fps is None:
+        records = frame_records(path, start, min(end, duration))
+        for index in range(0, len(records), cols * rows):
+            page_records = records[index:index + cols * rows]
+            selection = "+".join(f"eq(n\\,{frame_index})" for frame_index, _ in page_records)
+            graph = f"select='{selection}'," + filter_graph(None, tile_width, cols, rows, cross)
+            output = f"{prefix}_{index // (cols * rows):02d}.jpg"
+            subprocess.check_call(["ffmpeg", "-y", "-loglevel", "error", "-copyts", "-i", path, "-map", "0:v:0",
+                                   "-vf", graph, "-frames:v", "1", "-q:v", "4", output])
+            outputs.append(output)
+        return outputs
     for index, (t0, t1) in enumerate(windows(start, min(end, duration), fps, cols * rows)):
         output = f"{prefix}_{index:02d}.jpg"
         subprocess.check_call(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{t0:.3f}", "-to", f"{t1:.3f}", "-copyts", "-i", path,
@@ -235,8 +247,7 @@ def main(argv: list[str]) -> int:
         _, duration, _, _ = info(args.clip)
         outputs = sheet(args.clip, args.out or f"{stem}_overview", 0.0, duration, 2, 6, 5, 400)
     else:
-        source_fps = info(args.clip)[0]
-        fps = source_fps if args.fps == "native" else float(args.fps)
+        fps = None if args.fps == "native" else float(args.fps)
         outputs = sheet(args.clip, args.out or f"{stem}_{args.start:.1f}", args.start, args.end, fps, args.cols, args.rows, args.tile,
                         args.cross)
     for output in outputs:
