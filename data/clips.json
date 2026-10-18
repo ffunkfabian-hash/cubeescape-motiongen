@@ -862,5 +862,11 @@
     "clip": "https://www.youtube.com/watch?v=BqVfcsg3nYU",
     "source": "Ultraclocked (YouTube), 26.11.2024, „Galatine Protocol - Weapon Ornament for Vexcalibur (Exotic Glaive)“, 60 fps, geteiltes Bild",
     "timestamps": "Schläge 9,30 → 11,60; Schild 12,15–15,0 s"
+  },
+  {
+    "measurement": "Maschinenpistole (IKELOS_SMG, PvE, HUD): HUD voll → erstes beobachtetes Mündungsfeuer 0,72 s nach dem Nachladen; zweiter Fall ohne Folgeschuss",
+    "clip": "https://www.youtube.com/watch?v=PB1oiHuEV5s",
+    "source": "Ekuegan (YouTube), 15.07.2020, Ikelos-PvE-Review, 1280 × 720, 60 fps; HUD, Magazin 29, Threat Detector x2",
+    "timestamps": "Zähler 0 521,300 · HUD 29 521,750 · Schuss 522,467; Zähler 0 356,333 · HUD 29 357,083–357,100 s"
   }
 ]
