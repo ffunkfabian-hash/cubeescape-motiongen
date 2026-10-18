@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.5.0 „Magwell“ – 2026-10-18
+
+- Destiny-2-MP vermessen (Mac, YouTube, 60/s, Normaltempo): **vollständiges Nachladen** an zwei Legendary-MPs (Ultraclocked: Ikelos_SMG, Extraordinary Rendition) mit getrennten Markern – erste Bewegung, MagOut 0,32–0,35 s, MagIn 1,03–1,07 s, Ladehebel, Hüfte 2,55 s, ruhig 2,82–2,87 s; Zähler nicht messbar (kein HUD).
+- **ADS aus bis ruhige Hüfte bleibt offen:** alle vier ADS-Ausstiege der Showcases gehen in 3–5 Bildern direkt ins Nachladen (nicht isoliert); Aztecross-Review verworfen.
+- Methode 9: YouTube-Weg auf dem Mac, Ultraclocked-Showcases (kein HUD, Zeitlupe gekennzeichnet), ffmpeg ohne `drawtext`.
+- [Versionsbericht](docs/versions/0.md#050-magwell--2026-10-18).
+
 ## 0.4.2 – 2026-10-18
 
 - Bildraten geklärt (Codex): Toolgen-Clips 24/s, Reel-Ausgabe 30/s, Simulation 60 Schritte/s; Methode 8 und Auswertung angepasst.
