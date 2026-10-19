@@ -30,6 +30,18 @@
     "timestamps": "Scharfschütze aus dem Bild ≈ 7,20 · Handfeuerwaffe erscheint 7,500 (unten links der Mitte) · ADS-Haltung erreicht 7,567"
   },
   {
+    "measurement": "Sprung mit Scharfschützengewehr: Scope sinkt, steigt kurz, wird weggesteckt – Waffenwechsel, kein isolierter Luftwert (Lesung „45 % in 0,35 s“ zurückgezogen 19.10.2026)",
+    "clip": "https://clips.twitch.tv/AmericanDepressedEggplantPrimeMe-B5nOQUY7MpR2Sknj",
+    "source": "`clips.twitch.tv/AmericanDepressedEggplantPrimeMe-B5nOQUY7MpR2Sknj` (ZkMushroom, 11.04.2021; derselbe Clip wie „Wechsel direkt ins ADS“)",
+    "timestamps": "Scope tief ≈ 6,901 · wieder deutlich höher 7,001–7,051 · sinkt erneut, weg bis ≈ 7,184 · danach die andere Waffe (Zähler 4 → 8); 60/s, ±1 Bild"
+  },
+  {
+    "measurement": "Sprint-Haltung Scharfschütze / Handfeuerwaffe: Handfeuerwaffe hoch rechts mit steilem Lauf; Scharfschütze in der Hüfte füllt mit dem Objektiv ≈ 20 % des Bildes",
+    "clip": "https://clips.twitch.tv/AmericanDepressedEggplantPrimeMe-B5nOQUY7MpR2Sknj",
+    "source": "`clips.twitch.tv/AmericanDepressedEggplantPrimeMe-B5nOQUY7MpR2Sknj` (ZkMushroom, 11.04.2021; derselbe Clip wie „Wechsel direkt ins ADS“)",
+    "timestamps": "3,6–4,3 s und 4,8–5,3 s (10 Bilder/s, nur Lage, keine Zeiten)"
+  },
+  {
     "measurement": "Nachladen Handfeuerwaffe",
     "clip": "https://clips.twitch.tv/BlatantAnnoyingTitanRickroll-I3ivL7DMJbXqvgxV",
     "source": "`clips.twitch.tv/BlatantAnnoyingTitanRickroll-I3ivL7DMJbXqvgxV` (ZkMushroom, 17.09.2021)",
@@ -702,7 +714,7 @@
     "timestamps": "Hüfte ruhig 149,30 · Ladebeginn (erster Funkenbogen) 149,450 · zweiter Funkenbogen 149,683 · Mündung leuchtet 149,867–149,950 · erster Strahl 149,967 · Spitze 150,083–150,167 · Strahlen bis 150,217 · ruhig ≈ 150,33; Wiederholung 160,483–160,717 s (14 Intervalle, 15 Bilder einschließlich beider Endpunkte)"
   },
   {
-    "measurement": "Kurzes Fusionsgewehr (Cartesian Coordinate): ADS ein 0,10–0,12 s, ADS aus 0,08–0,10 s, Laden und Salve im ADS",
+    "measurement": "Kurzes Fusionsgewehr (Cartesian Coordinate): ADS ein 0,083 s bis Achse / 0,117 s bis ruhig, ADS aus 0,083 s bis Hüfte / 0,117 s bis ruhig, Laden und Salve im ADS",
     "clip": "https://www.youtube.com/watch?v=73lGCT7yOtk",
     "source": "Ultraclocked (YouTube), 25.01.2020, Häkke-Video, 60 fps, Mittenkreuz",
     "timestamps": "Hüfte bis 153,850 · ADS ein 153,867 → 153,950 → ruhig 153,983 · Laden 154,350 → Strahl 154,867 · Strahlen bis ≈ 155,10 · ruhig ≈ 155,35 · ADS bis 159,333 · ADS aus 159,350 → Hüfte 159,433 · ruhig ≈ 159,467 s"
