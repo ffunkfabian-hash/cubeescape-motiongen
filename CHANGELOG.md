@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.11.12 „Switch Ledger“ – 2026-10-19
+
+- `docs/auswertung.md`: V13 und die Differenztabelle um den Waffenwechsel nach vollem Nachladen (Waffe A, HUD „Suros Synergy“) aus REF 0.11.11 ergänzt; Wegsenken, neues Modell und hüftähnliche Pose bleiben getrennte Marker. Kein geprüfter Leerbild-Wert und kein Nachlade-Abbruch.
+- Methode 14 in den offenen Befunden berücksichtigt: Abbruch vor HUD-voll, kontrolliertes Gehen/Strafe/Stopp und isolierte Landung bleiben unbelegt; getrennter Kamera-Kick ohne freigegebenes Fenster. Keine neue Suche, Messung oder Startwerte. [Versionsbericht](docs/versions/0.md#01112-switch-ledger--2026-10-19).
+
 ## 0.11.11 – 2026-10-19
 
 - Messauftrag „REF 0.11.10 Afterimage“ (Codex-Mac, 7 Clips, native Bilder; Briefkasten rules#1) eingetragen: eine neue Messzeile (Waffenwechsel nach vollem Nachladen, Waffe A, mell0wtonin 18.07.2022: Wegsenken 0,550 s nach „voll“, vom Wegsenken bis zum neuen Modell 0,283–0,300 s; ob dazwischen ein Bild ganz ohne Waffe liegt, nicht geprüft) und die Negativbefunde als neue Methode 14: Nachladen-Abbruch vor „voll“, Gehen/Strafe/Stopp, isolierte Landung und der getrennte Kamera-Kick sind aus den geprüften freien Destiny-Clips nicht belegt.
