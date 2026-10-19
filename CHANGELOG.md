@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.11.6 – 2026-10-19
+
+- Korrektur aus der Differenztabelle 0.11.5 (Codex-Cloud, Briefkasten rules#1), an der Quellzeile nachgeprüft: In `docs/cube-escape.md` › 4 war der Destiny-Wert „−2 / −4“ für die Handfeuerwaffen-Hüfte der ADS-Schuss (48/46, CW10); die Hüfte liegt im selben Clip grob bei 60/49, also ≈ +10 / −1. Die Differenz zur Pistole ist damit −0,2 / +12,1 statt +11,8 / +15,1 Prozentpunkte.
+- [Versionsbericht](docs/versions/0.md#0116--2026-10-19).
+
 ## 0.11.5 „Delta Ledger“ – 2026-10-19
 
 - `docs/auswertung.md` ergänzt eine nach Themen gruppierte Differenztabelle Destiny 2 ↔ Cube Escape mit Quellen, absoluten/relativen Abständen, Belegstärke, gemeinsamem Zeitnullpunkt und Vorbehalten; nicht tragfähige Vergleiche sind separat ausgewiesen.
