@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.11.15 „Delta Ledger“ – 2026-10-19
+
+- `docs/auswertung.md`: Ham-Wechsel mit gemessener Leerphase getrennt von Waffe A ergänzt; Bagels als Kamera-/Modell-Teilbeleg ohne Rückkehr eingeordnet; Methode 15 und Status der zwölf Fragen verlinkt. Keine neuen Messungen oder Startwerte.
+
 ## 0.11.14 „Cold Case“ – 2026-10-19
 
 - Ergebnisse des Messauftrags „REF 0.11.13 Dragnet“ (Codex-Mac, Briefkasten rules#1) eingetragen: zwei Messzeilen in `docs/destiny2.md` § 2 und `data/clips.json` – Teilbeleg Kamera-/Modell-Kick (Bagels 22.08.2019: Blitz → Maximum 8 Bilder = 0,133 s, Weltanker +10,56 % Bildhöhe, ohne Rückkehrzeit, kein unbeeinflusstes Profil) und Waffenwechsel mit Eingabe-Overlay (Ham 02.12.2025: Overlay → neues Modell 0,300 s, hüftähnlich 0,433–0,450 s, Bild ohne Waffe 0,150 s).
