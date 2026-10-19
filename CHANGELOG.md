@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.11.2 – 2026-10-19
+
+- Bildprüfung der YouTube-Zeilen 0.5–0.10 am Mac (Codex-Mac, native Bilder, Briefkasten rules#1) übernommen: **B01** die Ehroar-Nachladezeile ist eine andere Waffe, nicht Ikelos (HUD „34“ ist kein Perk/Mod); **B02** Vexcalibur ist ein Nachladevorgang von 2,283 s, keine drei Nahkampfschläge; **B03** Flash and Thunder: Schuss 270,117, Tempo belegt (1×, Wiederholung 0,5×).
+- Präzisierungen: Chroma 18/19 Bilder, Cartesian ADS ein/aus 5/7 Bilder, Ikelos-Tempo-Quotient 1,984. Die Befunde stammen aus Codex' Bildprüfung und sind aus der Cloud nicht erneut prüfbar (YouTube gesperrt).
+- [Versionsbericht](docs/versions/0.md#0112--2026-10-19).
+
 ## 0.11.1 – 2026-10-19
 
 - Korrekturen aus Codex' Gegenprüfung der Referenzen 0.5–0.10 (Briefkasten rules#1), alle neun „falsch“-Befunde am Text nachgeprüft und bestätigt (F01–F09): MP-Folgeschuss ist seit 0.7.0 belegt, Bogen-Zyklus und Draw Time getrennt, Bogen-ADS nicht pauschal „fehlt“, Waffe-gegen-Kamera nur als „Modellverschiebung gesichtet, Kameraanteil nicht isoliert“, Flash and Thunder und Vexcalibur als Medienzeit, Reload-Balken beim Scharfschützen-Paar nicht tragend, Impuls-Salve als Schussabstand 0,067 s (erster → dritter 0,133 s), Rückstoß-Spitze −1…0 B. (schwere +2).
