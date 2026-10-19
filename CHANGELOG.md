@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.11.8 – 2026-10-19
+
+- `docs/auswertung.md` an REF 0.11.7 / Frame Audit angepasst: Automatikgewehr PvP und Chroma Rush getrennt, zurückgezogene Luft-Absenkung aus der Rangfolge entfernt, MP-Übergangsnullpunkte und ADS-aus-Endmarker getrennt, Impuls-Salvenabstand als beobachteten Bereich mit korrekter Differenz ausgewiesen und Sprint-Bob nicht gerankt.
+- Keine neuen Messungen, keine Startwerte und keine Änderungen an Sightline-Quelltabellen. [Versionsbericht](docs/versions/0.md#0118-table-repair--2026-10-19).
+
 ## 0.11.7 – 2026-10-19
 
 - Quellkorrekturen aus der Bildprüfung „Frame Audit“ (Codex-Mac, 12 Clips, native Bilder; Briefkasten rules#1); F01 zusätzlich von Sightline am Twitch-Clip (GernaderJake 0,750 s) nachgeprüft: Gewehr-Hüftmündung des PvP-Beispiels liegt bei ≈ 65 / 57 (rechts unterhalb der Mitte), die Angabe „40 / 40“ ist zurückgezogen (`destiny2.md`, `cube-escape.md` › 4: Differenz zum Sturmgewehr jetzt gegen Chroma Rush +7 / +9 und Jake ≈ +15 / +7).
