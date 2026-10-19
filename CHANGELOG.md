@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.10.1 – 2026-10-19
+
+- Korrekturen aus „Confluence“ (Hinweise „Für Sightline“), an den Messzeilen nachgeprüft: Scharfschütze A Single Clap 2,80 s **bis ruhig** (nicht bis Hüfte), Far Future 2,05 s Hüfte / 2,18 s ruhig; in `docs/cube-escape.md` › 4 der Destiny-Kamera-Kick als nicht isoliert belegt und der Pistolen-Hüftrückstoß ohne Beleg (der Wert war ein ADS-Schuss).
+- [Versionsbericht](docs/versions/0.md#0101--2026-10-19).
+
 ## 0.10.0 „Confluence“ – 2026-10-19
 
 - `docs/auswertung.md` auf die Referenzstände 0.5.0–0.9.0 fortgeschrieben: MP-Nachladen/ADS-aus, Impuls- und Automatik-Showcases, kurze Fusion, Schrot-Einzelhülsen, Sniper-Reload/Scope sowie Wechselmarker mit getrennten Endpunkten.
