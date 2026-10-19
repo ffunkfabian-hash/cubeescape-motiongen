@@ -1,7 +1,7 @@
 {
   "name": "cubeescape-reference",
-  "version": "0.11.19",
-  "version_name": "Afterline",
+  "version": "0.11.20",
+  "version_name": "Trajectory",
   "check": {
     "quick": [
       "python3 -m unittest discover -s tests",

@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.11.20 „Trajectory“ – 2026-10-19
+
+- Ergebnisse des Messauftrags „REF 0.11.17 Ballista“ (Codex-Mac, Briefkasten rules#1) eingetragen: neun Messzeilen in `docs/destiny2.md` § 2 und `data/clips.json` (Imperial Needle, Ignition Code, Eyes of Tomorrow, Cartesian Coordinate, Shock and Awe, Prometheus Lens, Chroma Rush, Baligant, Blue Shift; Anker `z-ballista-…`). Befund: **in keinem Beispiel eine aufgelöste reine Flugzeit**; sichtbare Geschosse mit Spur nur bei Ignition Code (6 Bilder) und Eyes of Tomorrow (Flugköpfe, Suchbahnen); Mündungsblitz-, Kern- und Strahldauer in Bildern, Prometheus Lens 113 Bilder (1,883 s).
+- Neue Methode 16: Negativregister Projektile (Pfeilfall, Granaten-Abprall und -Zünder, kurze Raketenflugzeit, Einzelbolzen/Streuung, Pelletmuster, HUD-X bleiben offen). Zwei neue Anker (`s-schrotflinte`, `ce-huefte-muendung-schrot`) für die Schrot-Verweise der Auswertung. Keine Vergleichswerte für Cube Escape abgeleitet. [Versionsbericht](docs/versions/0.md#01120-trajectory--2026-10-19).
+
 ## 0.11.19 „Afterline“ – 2026-10-19
 
 - `docs/auswertung.md` an REF 0.11.18 angepasst: Schrot-Mündungsversatz nur für Hawthorne’s Field-Forged Shotgun (+8 / +16 Prozentpunkte) mit CE verglichen; unbenannte PvP-Sichtung −10 / +2 bleibt ungesichert und ohne Differenz. Sprint-Bob-Frequenz als zurückgezogen/nicht bestätigt gekennzeichnet; kein isolierter Destiny-Luftwert.
