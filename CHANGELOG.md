@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.11.0 „Twin Reel“ – 2026-10-19
+
+- `docs/cube-escape.md` › 2.2 neu: MP-Übergänge aus Cube Escape 0.95 „Tracefall“ (Codex-Mac, 14 Fälle × 3, alle Bilder erhalten, 60/s) – ADS ein/aus, Sprint → ADS, Nachladen mit Spielereignissen und Bildmarkern, **ab erster sichtbarer Bewegung** wie die Vorbilder.
+- Vergleich (› 4): MP-Zeilen ADS ein/aus, neue Zeile Sprint → ADS (CE 0,60 s gegen Destiny 0,32 s, Vorbehalt Endpunkt), Nachlade-Marker mit Ereignis- und Bildwerten getrennt; beide CE-Aufnahmen (Plumbline, Tracefall) stimmen auf 1–2 Bilder überein.
+- [Versionsbericht](docs/versions/0.md#0110-twin-reel--2026-10-19).
+
 ## 0.10.1 – 2026-10-19
 
 - Korrekturen aus „Confluence“ (Hinweise „Für Sightline“), an den Messzeilen nachgeprüft: Scharfschütze A Single Clap 2,80 s **bis ruhig** (nicht bis Hüfte), Far Future 2,05 s Hüfte / 2,18 s ruhig; in `docs/cube-escape.md` › 4 der Destiny-Kamera-Kick als nicht isoliert belegt und der Pistolen-Hüftrückstoß ohne Beleg (der Wert war ein ADS-Schuss).
