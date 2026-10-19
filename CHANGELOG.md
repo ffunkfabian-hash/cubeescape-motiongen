@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.11.3 – 2026-10-19
+
+- Rest der Codex-Gegenprüfung (Briefkasten rules#1, Befunde „ungenau“), jeder Punkt an der Quellzeile nachgeprüft; keine Messzahl geändert. **U01** `data/clips.json`: 33 Einträge der Referenzen 0.5–0.10 um die in der Messzeile belegten Ruhe-/Hüft-/Teilmarker ergänzt (z. B. Far Future ruhig ≈ 18,05, Hüftschuss ruhig ≈ 15,83). **U02** Entlüften ≈ 2,0 s mit Differenzunsicherheit (15,9 → 18,0 = 2,1 s rechnerisch, ± 0,1). **U05** Fusion-Wiederholung 160,483 → 160,717 = 14 Intervalle, 15 Bilder einschließlich Endpunkten.
+- **U07** Tempo-/Menüfreigaben: Methode 10 nennt, welche YouTube-Zeilen am Bild geprüft sind (0.11.2); für alle anderen gilt „nicht unabhängig belegt“. Zwei veraltete Flash-and-Thunder-Stellen (› 4) an 0.11.2 angeglichen.
+- **U08** `docs/cube-escape.md` › 4: Differenz-Spannen aus den Messzeilen nachgerechnet (Breite, ADS aus, Linse, Rückstoß Hüfte/ADS, Wippen, Absprung, Ziehen, Nachladen mit benannten Endmarkern); der unbelegte AR-Wert „+13 B.“ beim ADS-Rückstoß und „D ±0 bis +5 B.“ beim Ziehen entfallen. Magnetgreifer: „Greifen ohne Kick“ ist ein Klick ins Leere.
+- [Versionsbericht](docs/versions/0.md#0113--2026-10-19).
+
 ## 0.11.2 – 2026-10-19
 
 - Bildprüfung der YouTube-Zeilen 0.5–0.10 am Mac (Codex-Mac, native Bilder, Briefkasten rules#1) übernommen: **B01** die Ehroar-Nachladezeile ist eine andere Waffe, nicht Ikelos (HUD „34“ ist kein Perk/Mod); **B02** Vexcalibur ist ein Nachladevorgang von 2,283 s, keine drei Nahkampfschläge; **B03** Flash and Thunder: Schuss 270,117, Tempo belegt (1×, Wiederholung 0,5×).
