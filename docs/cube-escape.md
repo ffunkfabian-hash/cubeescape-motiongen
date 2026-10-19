@@ -158,7 +158,7 @@ Differenz = Cube Escape minus Vorbild (Prozentpunkte bzw. Bilder bei 60/s). **St
 |---|---|---|---|---|---|---|
 | Hüfte: Mündung → Mitte, Gewehr <a id="ce-huefte-muendung-gewehr"></a> | +12,6 / +8,9 (Sturmgewehr) | Chroma Rush (Showcase) +7 / +9; GernaderJake (PvP) ≈ +15 / +7 (± 5, Bildprüfung 19.10.2026; das frühere −10 / −10 ist zurückgezogen) | +5 / −2 (R-99) | −5 / +18 (Gewehr) | D +5,6 / −0,1 (Chroma Rush) bzw. ≈ −2 / +2 (Jake) · A +7,6 / +10,9 · T +17,6 / −9,1 | D › 3 Automatikgewehr, A › 3, T › 3 |
 | Hüfte: Mündung → Mitte, Pistole | +9,8 / +11,1 | ≈ +10 / −1 (Handfeuerwaffe, Hüfte grob bei 60/49 gesichtet; das frühere −2 / −4 war der ADS-Schuss 48/46, CW10), +13 / +16 (Sidearm PvE) | – | – | HFW −0,2 / +12,1 (grobe Sichtung) · Sidearm −3,2 / −4,9 | D › 3 |
-| Hüfte: Mündung → Mitte, Schrot | +13,4 / +10,9 | −10 / +2 | – | – | +23,4 / +8,9 | D › 3 |
+| Hüfte: Mündung → Mitte, Schrot | +13,4 / +10,9 | Hawthorne's Field-Forged (Showcase, Mündung 58 / 66) +8 / +16; die PvP-Sichtung −10 / +2 (wallah-Clips, Waffe nicht benannt) ist **ungesichert** und keiner Waffe zugeordnet (Astra-Prüfung 19.10.2026) | – | – | D +5,4 / −5,1 (Hawthorne); zur PvP-Sichtung keine Differenz | D › 3 Schrotflinte |
 | Hüfte: Mündung → Mitte, MP | +12,4 / +9,0 | +7 / +11 (Warpriest PvE); Showcases (0.5.0, feste Kamera) +6 bis +8 / +12 bis +18 | +5 / −2 | – | D +5,4 / −2,0 bzw. +4,4 bis +6,4 / −3,0 bis −9,0 · A +7,4 / +11,0 | D › 3, A › 3 |
 | Hüfte: Mündung → Mitte, Raketenwerfer | +17,6 / +6,0 | +10 / −10 | – | – | +7,6 / +16,0 | D › 3 |
 | Hüfte: Scharfschütze | Lauf zur Mitte, Mündung +12 / +12 | Lauf nach oben rechts bzw. Mündung −31 / +17 (PvE); Far Future (0.6.0) +6 / +14 | – | – | Richtung anders; zu Far Future +6 / −2 | D › 3 |

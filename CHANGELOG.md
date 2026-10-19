@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.11.18 „Plumb Line“ – 2026-10-19
+
+- Quellenbefunde der Astra-Prüfung (Delta Ledger, Briefkasten rules#1) behoben – nur Zusammenfassungen und Labels, keine Messwerte: `destiny2.md` § 3 nennt Sprint-Frequenz und Luftwert jetzt als zurückgezogen (S1), das CE-Feld des Automatikgewehrs „rechts unterhalb der Mitte“ statt „10 % links oben“ (S1), das CE-Feld des Scharfschützen ohne „nicht konvergierend“ (S5), das Cartesian-ADS-Label nach den Zeitmarken 0,083 / 0,117 s (S4, auch `clips.json`).
+- Zeilen „Sprung mit Scharfschützengewehr“ und „Sprint-Haltung“ nennen ihren Clip explizit (ZkMushroom 11.04.2021) statt „derselbe Clip“ und haben `clips.json`-Einträge (S3); neue Anker `z-sprung-scharfschuetze`, `z-sprint-haltung-scharfschuetze`, `z-cartesian-ads`. `cube-escape.md` § 4: Schrot-Zeile mit Hawthorne-Showcase (+8 / +16) und der PvP-Sichtung −10 / +2 als ungesichert (S2-Anteil; `auswertung.md` zieht Delta Ledger nach). [Versionsbericht](docs/versions/0.md#01118-plumb-line--2026-10-19).
+
 ## 0.11.16 „Anchorage“ – 2026-10-19
 
 - Zeilenanker (`destiny2.md#L123`) in `docs/auswertung.md` durch benannte Anker ersetzt (`<a id="z-…"></a>` am Ende des ersten Feldes der Zeile, Methoden 14/15, Steckbriefe, vier Zeilen in `cube-escape.md`): die alten Nummern waren nach den Einschüben von 0.11.11–0.11.14 großteils verrutscht (z. B. „Chroma“ → Schrotflinte, „Flash and Thunder“ → Gridskipper).
