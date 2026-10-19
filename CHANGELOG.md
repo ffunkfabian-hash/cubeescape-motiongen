@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.10.0 „Confluence“ – 2026-10-19
+
+- `docs/auswertung.md` auf die Referenzstände 0.5.0–0.9.0 fortgeschrieben: MP-Nachladen/ADS-aus, Impuls- und Automatik-Showcases, kurze Fusion, Schrot-Einzelhülsen, Sniper-Reload/Scope sowie Wechselmarker mit getrennten Endpunkten.
+- Zurückgezogene Destiny-Belege sind als „kein Beleg“ gekennzeichnet; W1–W8 und die offenen Cube-Escape-Fragen sind mit aktuellem Status, vorhandenen Zahlen und Quellenlinks versehen. Zeitnullpunkt CE ab Tastendruck und Vorbilder ab erster Bewegung bleiben getrennt.
+- Keine neuen Messungen; [Versionsbericht](docs/versions/0.md#0100-confluence--2026-10-19).
+
 ## 0.9.0 „Looking Glass“ – 2026-10-19
 
 - Neues Doc `docs/cube-escape.md`: Cube Escape 0.94 „Plumbline“ mit denselben Messgrößen vermessen wie Destiny 2, Apex und Titanfall – zwölf Ego-Geräte (neun Waffen,
