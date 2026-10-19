@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.11.1 – 2026-10-19
+
+- Korrekturen aus Codex' Gegenprüfung der Referenzen 0.5–0.10 (Briefkasten rules#1), alle neun „falsch“-Befunde am Text nachgeprüft und bestätigt (F01–F09): MP-Folgeschuss ist seit 0.7.0 belegt, Bogen-Zyklus und Draw Time getrennt, Bogen-ADS nicht pauschal „fehlt“, Waffe-gegen-Kamera nur als „Modellverschiebung gesichtet, Kameraanteil nicht isoliert“, Flash and Thunder und Vexcalibur als Medienzeit, Reload-Balken beim Scharfschützen-Paar nicht tragend, Impuls-Salve als Schussabstand 0,067 s (erster → dritter 0,133 s), Rückstoß-Spitze −1…0 B. (schwere +2).
+- Offen aus der Prüfung: die „ungenau“-Punkte U01–U08 (Markerlisten, Differenz-Spannen) und die Bildprüfung der YouTube-Zeilen am Mac.
+- [Versionsbericht](docs/versions/0.md#0111--2026-10-19).
+
 ## 0.11.0 „Twin Reel“ – 2026-10-19
 
 - `docs/cube-escape.md` › 2.2 neu: MP-Übergänge aus Cube Escape 0.95 „Tracefall“ (Codex-Mac, 14 Fälle × 3, alle Bilder erhalten, 60/s) – ADS ein/aus, Sprint → ADS, Nachladen mit Spielereignissen und Bildmarkern, **ab erster sichtbarer Bewegung** wie die Vorbilder.
