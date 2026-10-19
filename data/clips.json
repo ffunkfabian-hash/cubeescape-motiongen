@@ -651,13 +651,13 @@
     "measurement": "Maschinenpistole (IKELOS_SMG_V1.0.2): vollständiges Nachladen aus der Hüfte mit MagOut, MagIn, Ladehebel und Rückkehr",
     "clip": "https://www.youtube.com/watch?v=fkF9GjCDG0E",
     "source": "Ultraclocked (YouTube), 07.04.2021, 1920 × 1080, 60 fps, Normaltempo 10,6–13,6 s (alle Bilder verschieden); kein HUD; Menü: 750/min, Magazin 29, Handling ≈ 73, Reload ≈ 32 (Schätzung)",
-    "timestamps": "erste Bewegung 10,783 · MagOut ≈ 11,10 · neues Magazin im Bild 11,483 · MagIn (Hand löst) 11,817 · Ladehebel 11,93–12,30 · Hüfte 13,333 · ruhig 13,650 s"
+    "timestamps": "Feuerserie bis ≈ 10,77 · erste Bewegung 10,783 · MagOut ≈ 11,10 · neues Magazin im Bild 11,483 · Einsetzen 11,55–11,80 · MagIn (Hand löst) 11,817 · Ladehebel 11,93–12,30 · Hüfte 13,333 · ruhig 13,650 s"
   },
   {
     "measurement": "Maschinenpistole (Extraordinary Rendition): vollständiges Nachladen aus der Hüfte – zweiter Beleg",
     "clip": "https://www.youtube.com/watch?v=Y5OLr0nbgSg",
     "source": "Ultraclocked (YouTube), 15.02.2021, 1920 × 1080, 60 fps, Normaltempo bis ≈ 13,1 s (alle Bilder verschieden); kein HUD; Menü: 750/min, Magazin 26, Handling ≈ 68, Reload ≈ 33 (Schätzung), Meisterwerk Reload",
-    "timestamps": "letzter Schuss 10,183 · erste Bewegung 10,317 · MagOut 10,667 · MagIn 11,383 · Ladehebel 11,43–11,85 · Hüfte 12,867 · ruhig 13,133 s"
+    "timestamps": "letzter Schuss 10,183 · erste Bewegung 10,317 · MagOut 10,667 · neues Magazin im Bild 11,233 · Einsetzen 11,27–11,37 · MagIn 11,383 · Ladehebel 11,43–11,85 · Hüfte 12,867 · ruhig 13,133 s"
   },
   {
     "measurement": "Maschinenpistole: ADS aus geht direkt ins Nachladen (nicht isoliert), vier Fälle; Nachladen aus dem ADS bis Hüfte",
@@ -669,85 +669,85 @@
     "measurement": "Maschinenpistole (PvP): ADS aus → Hüfthaltung, isoliert, ein Fall (≈ 10 Bilder / 0,17 s)",
     "clip": "https://clips.twitch.tv/LuckySecretiveNightingaleHoneyBadger-cohqOo9fcQIxC9tr",
     "source": "Kanal Saltagreppo, Clip-Ersteller VandalizedTV, 23.08.2022, 60 fps, Mittenkreuz, nativ",
-    "timestamps": "ADS ruhig bis 16,267 · erste Bewegung 16,283 · Hüfthaltung ≈ 16,45 · steht bis ≈ 16,70 (Ende weich bis 16,734) · ADS ein 17,200 s"
+    "timestamps": "ADS ruhig bis 16,267 · erste Bewegung 16,283 · Hüfthaltung ≈ 16,45 · steht bis ≈ 16,70 (Ende weich bis 16,734) · erneutes Heben ab 17,1 · ADS ein 17,200 s"
   },
   {
     "measurement": "Maschinenpistole (The Huckleberry, Exotic): ADS aus bis ruhige Hüfte, isoliert; Hüftlage am Raster",
     "clip": "https://www.youtube.com/watch?v=egN1EzesP3Y",
     "source": "Ultraclocked (YouTube), 13.02.2021, 1280 × 720, 60 fps, Normaltempo, kein HUD, feste Kamera; Menü 750/min, Magazin 30, Handling ≈ 88, Reload ≈ 5 (Schätzung)",
-    "timestamps": "ADS ruhig bis 31,583 · erste Bewegung 31,600 · Hüfte 31,667 · ruhig 31,767 · Hüftlage 31,85 s"
+    "timestamps": "ADS ruhig bis 31,583 · erste Bewegung 31,600 · Hüfte 31,667 · Ausfedern 31,683–31,750 · ruhig 31,767 · Hüftlage 31,85 · Hüfte gehalten bis ≈ 32,85 s"
   },
   {
     "measurement": "Maschinenpistole (IKELOS_SMG_V1.0.1): ADS aus bis Hüfte mit nachgeführter Kamera (PvE, HUD)",
     "clip": "https://www.youtube.com/watch?v=6BIDq-OatMI",
     "source": "Ehroar (YouTube), 19.06.2018, 1280 × 720, 59,94 fps, Normaltempo, PvE-Strike mit HUD; Menü 750/min, Magazin 29, Handling ≈ 75",
-    "timestamps": "ADS ruhig bis 36,603 · erste Bewegung 36,620 · Hüfte 36,720 · ausgefedert ≈ 36,80 s"
+    "timestamps": "ADS ruhig bis 36,603 · erste Bewegung 36,620 · Waffe nach rechts unten 36,637–36,703 · Hüfte 36,720 · ausgefedert ≈ 36,80 · erneut ADS ab ≈ 37,15 s"
   },
   {
     "measurement": "MP-artige Waffe (nicht als Ikelos belegt): Nachladen aus dem ADS mit HUD-Marker „Zähler voll“ (0,734 s)",
     "clip": "https://www.youtube.com/watch?v=6BIDq-OatMI",
     "source": "Ehroar (YouTube), 19.06.2018, 59,94 fps, Normaltempo, HUD; Schnitt vor der Rückkehr; andere Waffe als Ikelos 36,6 s (Waffenwechsel 39,17–39,62 s), Codex-Bildprüfung 19.10.2026",
-    "timestamps": "erste Bewegung 45,512 · linke Hand zurück 46,233–46,267 · HUD 1 → 34 bei 46,246 · Schnitt 46,75 s"
+    "timestamps": "ADS bis 45,495 · erste Bewegung 45,512 · Waffe steil 45,62–46,23 · linke Hand zurück 46,233–46,267 · HUD 1 → 34 bei 46,246 · Schnitt 46,75 s"
   },
   {
     "measurement": "Maschinenpistole (The Huckleberry, Exotic): vollständiges Nachladen aus der Hüfte mit Magazin-Auswurf",
     "clip": "https://www.youtube.com/watch?v=egN1EzesP3Y",
     "source": "Ultraclocked (YouTube), 13.02.2021, 60 fps, Normaltempo 10,6–13,9 s, kein HUD",
-    "timestamps": "erste Bewegung 10,833 · Magazin ausgeworfen 10,93–11,00 · neues Magazin im Bild 11,600 · MagIn ≈ 11,80 · Hand weg 12,17 · Hüfte ≈ 12,95 · beruhigt ≈ 13,53 s"
+    "timestamps": "Feuer bis ≈ 10,80 · erste Bewegung 10,833 · Magazin ausgeworfen 10,93–11,00 · neues Magazin im Bild 11,600 · Einsetzen 11,67–11,77 · MagIn ≈ 11,80 · Hand weg 12,17 · Rückkehr 12,2–12,95 · Hüfte ≈ 12,95 · beruhigt ≈ 13,53 s"
   },
   {
     "measurement": "Kurzes Fusionsgewehr (Cartesian Coordinate): Ladehaltung, Laden bis Strahl 0,517 s, Salve 0,25 s aus der Hüfte",
     "clip": "https://www.youtube.com/watch?v=73lGCT7yOtk",
     "source": "Ultraclocked (YouTube), 25.01.2020, „All EDZ Legendary Weapons … Häkke Weapons“, 1920 × 1080, 60 fps, Normaltempo über Wiederholung belegt, Mittenkreuz; Menü Charge Time 500, Magazin 7",
-    "timestamps": "Ladebeginn 149,450 · erster Strahl 149,967 · Strahlen bis 150,217 · ruhig ≈ 150,33; Wiederholung 160,483–160,717 s"
+    "timestamps": "Hüfte ruhig 149,30 · Ladebeginn (erster Funkenbogen) 149,450 · zweiter Funkenbogen 149,683 · Mündung leuchtet 149,867–149,950 · erster Strahl 149,967 · Spitze 150,083–150,167 · Strahlen bis 150,217 · ruhig ≈ 150,33; Wiederholung 160,483–160,717 s (14 Intervalle, 15 Bilder einschließlich beider Endpunkte)"
   },
   {
     "measurement": "Kurzes Fusionsgewehr (Cartesian Coordinate): ADS ein 0,10–0,12 s, ADS aus 0,08–0,10 s, Laden und Salve im ADS",
     "clip": "https://www.youtube.com/watch?v=73lGCT7yOtk",
     "source": "Ultraclocked (YouTube), 25.01.2020, Häkke-Video, 60 fps, Mittenkreuz",
-    "timestamps": "ADS ein 153,867 → 153,950 → ruhig 153,983 · Laden 154,350 → Strahl 154,867 · ADS aus 159,350 → Hüfte 159,433 s"
+    "timestamps": "Hüfte bis 153,850 · ADS ein 153,867 → 153,950 → ruhig 153,983 · Laden 154,350 → Strahl 154,867 · Strahlen bis ≈ 155,10 · ruhig ≈ 155,35 · ADS bis 159,333 · ADS aus 159,350 → Hüfte 159,433 · ruhig ≈ 159,467 s"
   },
   {
     "measurement": "Kurzes Fusionsgewehr (Cartesian Coordinate): vollständiges Nachladen (Batterie) 1,73 s, Anzeige bei 0,98 s",
     "clip": "https://www.youtube.com/watch?v=73lGCT7yOtk",
     "source": "Ultraclocked (YouTube), 25.01.2020, Häkke-Video, 60 fps, Normaltempo; Zeitlupe 169,6–173,0 s nur Reihenfolge",
-    "timestamps": "erste Bewegung 161,317 · Batterie heraus 161,45–161,60 · neue 162,25–162,45 · Anzeige 162,300 · Schlag 162,60–162,80 · Hüfte ≈ 163,05 s"
+    "timestamps": "erste Bewegung 161,317 · Batterie heraus 161,45–161,60 · Batteriefach zur Kamera 161,7–162,15 · neue 162,25–162,45 · Anzeige 162,300 · Hand löst 162,50 · Schlag 162,60–162,80 · Rückkehr 162,83–163,03 · Hüfte ≈ 163,05 s"
   },
   {
     "measurement": "Kurzes Fusionsgewehr (Shock and Awe): Laden bis Strahl 0,867 s (Charge Time 860), Nachladen ≈ 2,8–2,9 s – zweiter Beleg",
     "clip": "https://www.youtube.com/watch?v=42zdQOVBAD0",
     "source": "Ultraclocked (YouTube), 30.01.2020, „All Nessus Legendary Weapons … Omolon Weapons“, 1920 × 1080, 60 fps; Menü Charge Time 860, Magazin 5",
-    "timestamps": "Ladebeginn 377,850 · Strahl 378,717 · Nachladen ≈ 358,85 → ≈ 361,65 und ≈ 381,2 → ≈ 384,1 s (10/s)"
+    "timestamps": "Ladebeginn 377,850 · Bögen wachsen bis ≈ 378,35 · Strahl 378,717; weitere Fälle 345,367 → 346,000 und ≈ 363,2 → 364,217 (Beginn unscharf) · Nachladen ≈ 358,85 → ≈ 361,65 und ≈ 381,2 → ≈ 384,1 s (10/s)"
   },
   {
     "measurement": "Schrotflinte (Hawthorne's Field-Forged Shotgun): Pumpen (Hülse 0,63 s nach dem Schuss), klassisches Nachladen 7 Hülsen, 5,9 s",
     "clip": "https://www.youtube.com/watch?v=73lGCT7yOtk",
     "source": "Ultraclocked (YouTube), 25.01.2020, Häkke-Video, 60 fps, Normaltempo über Hülsentakt belegt (0,5×-Wiederholung 339–350 s), Mittenkreuz; Menü 80 RPM, Magazin 7",
-    "timestamps": "Schuss 307,383 · Hülse 308,017 · Nachladen 322,283 · Hülsen 322,867 · 323,517 · 324,133 · 324,750 · 325,383 · 326,000 · 326,617 · Repetieren 327,45–327,60 · ruhig ≈ 328,17 s"
+    "timestamps": "Schuss 307,383 · Kick bis 307,47 · Vorderschaft zurück 307,80–307,95 · Hülse 308,017 · ruhig ≈ 308,58 (zweiter Fall 352,483 → Hülse 353,117) · Nachladen 322,283 · Hülsen 322,867 · 323,517 · 324,133 · 324,750 · 325,383 · 326,000 · 326,617 · Repetieren 327,45–327,60 · Rückkehr 327,6–328,05 · ruhig ≈ 328,17 s"
   },
   {
     "measurement": "Schrotflinte (Baligant): klassisches Nachladen 5 Hülsen, 0,85–0,87 s je Hülse, 5,77 s – zweiter Beleg",
     "clip": "https://www.youtube.com/watch?v=afs_dhFDhQU",
     "source": "Ultraclocked (YouTube), 09.02.2020, „All Io Legendary Weapons … VEIST Weapons“, 1920 × 1080, 60 fps, Normaltempo über Hülsentakt belegt; Menü 55 RPM, Magazin 5",
-    "timestamps": "erste Bewegung 15,550 · Hülsen 16,117 · 16,983 · 17,833 · 18,700 · 19,567 · Repetieren 20,4–20,8 · ruhig ≈ 21,32 s"
+    "timestamps": "erste Bewegung 15,550 · Rollen 15,6–15,9 · Hülsen 16,117 · 16,983 · 17,833 · 18,700 · 19,567 · Repetieren 20,4–20,8 · Rückkehr 20,8–21,3 · ruhig ≈ 21,32 s"
   },
   {
     "measurement": "Scharfschützengewehr (Far Future): Hüfte, Hüftschuss, vollständiges Nachladen 2,05 s aus Hüfte und Zielfernrohr",
     "clip": "https://www.youtube.com/watch?v=RXgRxHESqHQ",
     "source": "Ultraclocked (YouTube), 18.02.2021, „Far Future (Legendary Sniper Rifle) - Animations & Sounds“, 1920 × 1080, 60 fps, Normaltempo (0.5x nur 19–30 s), Mittenkreuz; Menü 90 RPM, Magazin 4",
-    "timestamps": "Schuss 15,183 · Nachladen 15,867 → Hüfte 17,917 · aus dem Zielfernrohr 44,000 → Hüfte 46,050 s"
+    "timestamps": "Schuss 15,183 · ruhig ≈ 15,83 · Nachladen 15,867 · Magazin heraus ≈ 15,94–16,09 · neues ein ≈ 16,49–16,69 · Verschluss bis ≈ 17,58 · Hüfte 17,917 · ruhig ≈ 18,05 · aus dem Zielfernrohr 44,000 · Modell verlässt die Achse 44,100 · Magazin 44,13–44,87 · Verschluss ≈ 45,10–45,70 · Hüfte 46,050 s"
   },
   {
     "measurement": "Scharfschützengewehr (Far Future): Zielfernrohr ein 0,15–0,17 s / aus 0,17 s mit Linsenbild-Phase vor dem Overlay",
     "clip": "https://www.youtube.com/watch?v=RXgRxHESqHQ",
     "source": "Ultraclocked (YouTube), 18.02.2021, Far Future, 60 fps, Normaltempo, Mittenkreuz",
-    "timestamps": "ein 32,583 → Linsenbild 32,683–32,733 → Overlay 32,750; ein 47,050 → Overlay 47,200; aus 50,317 → Modell 50,450 → ruhig 50,483 s"
+    "timestamps": "Hüfte ruhig bis 32,567 · ein 32,583 → Linsenbild 32,683–32,733 → Overlay 32,750 → ruhig 32,767; ein 47,050 → Linsenbild 47,133–47,183 → Overlay 47,200; aus: Overlay bis 50,300 · schrumpft 50,317 · Ring mit Linsenbild 50,333–50,400 · Modell zur Hüfte 50,450–50,483 · ruhig bis 50,583 s"
   },
   {
     "measurement": "Scharfschützengewehr (A Single Clap): Sechseck-Optik ein 0,30 s / aus 0,27 s ohne Schnitt, Nachladen 2,80 s – zweiter Beleg",
     "clip": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
     "source": "Ultraclocked (YouTube), 14.02.2020, „All Titan Legendary Weapons … SUROS Weapons“, 1920 × 1080, 60 fps; Menü 90 RPM, Magazin 5",
-    "timestamps": "ein 43,600 → Reticle 43,733 → ruhig 43,900 · aus 39,167 → Modell 39,433 · Nachladen 17,783 → ruhig ≈ 20,58 s"
+    "timestamps": "ein 43,600 → Gehäuse auf der Achse 43,700 → Reticle 43,733 (wächst bis 43,883) → ruhig 43,900 (zweiter Fall 27,933 → 28,233) · aus: Reticle schrumpft 39,167–39,333 · Gehäuse weg 39,350 · Modell 39,433 · Nachladen 17,783 → ruhig ≈ 20,58 (Magazin ≈ 17,9–18,9, Rollen ≈ 18,9–19,2, Verschluss 19,2–20,0); aus dem Zielfernrohr 39,167 → ruhig ≈ 42,23 s"
   },
   {
     "measurement": "Schuss im Scope → Scope aus → Waffenwechsel (Scharfschütze → Handfeuerwaffe)",
@@ -795,102 +795,102 @@
     "measurement": "Automatikgewehr (Chroma Rush): ADS ein 0,30 s mit Zoomverlauf bis 1,84×, Modell im ADS-Feuer, ADS aus 0,083 s",
     "clip": "https://www.youtube.com/watch?v=QxSa4m3wIEA",
     "source": "Ultraclocked (YouTube), 15.05.2021, „Chroma Rush (Legendary Auto Rifle) - Animations & Sounds“, 1920 × 1080, 60 fps; Menü 720 RPM, Magazin 57",
-    "timestamps": "ADS 22,400 → 22,583 → 22,717; ADS aus 31,417 → 31,500 s"
+    "timestamps": "ADS 22,400 → 22,583 → 22,717; ADS-Stöße 23,15 · 24,75 · 26,60 · 29,03; ADS aus 31,417 → 31,500 s"
   },
   {
     "measurement": "Automatikgewehr (Chroma Rush): Nachladen leer (heraus 0,25 · ein 0,93 · ruhig 1,85 s), aus dem ADS 1,73 s",
     "clip": "https://www.youtube.com/watch?v=QxSa4m3wIEA",
     "source": "Ultraclocked (YouTube), 15.05.2021, „Chroma Rush (Legendary Auto Rifle) - Animations & Sounds“, 1920 × 1080, 60 fps; Menü 720 RPM, Magazin 57",
-    "timestamps": "Nachladen 12,817 → 14,667; aus ADS 31,517 → 33,25 s"
+    "timestamps": "Hüfte: Beginn 12,817 · Magazin heraus 13,050–13,067 · Magazin ein 13,733–13,767 · Ladegriff 13,80–13,90 · Hüfte ≈ 14,40 · ruhig 14,667; aus ADS 31,517 → 33,25 s"
   },
   {
     "measurement": "Impulsgewehr (Gridskipper): Dreiersalve: Schussabstand 0,067 s (erster → dritter 0,133 s), Salvenabstand ≥ 0,383 s, Modellrückstoß und Rückkehr je Salve und über Salvenfolgen",
     "clip": "https://www.youtube.com/watch?v=DFn14wAPluA",
     "source": "Ultraclocked (YouTube), 13.05.2021, „Gridskipper (Legendary Pulse Rifle) - Animations & Sounds“, 1920 × 1080, 60 fps; Menü 540 RPM, Magazin 36",
-    "timestamps": "Salve 4,300 · 4,367 · 4,433; Folgen 9,550 → 9,983, 11,433 → 11,833 → 12,217, 13,650 → 14,033 → 14,433 s"
+    "timestamps": "Salve 4,300 · 4,367 · 4,433; Folgen 9,550 → 9,983, 11,433 → 11,833 → 12,217, 13,650 → 14,033 → 14,433; Zeitlupe 18,333 · 18,467 · 18,600 s"
   },
   {
     "measurement": "Impulsgewehr (Gridskipper): ADS ein 0,30 s bis 2,1×, ADS-Salve, Nachladen leer 1,65 s",
     "clip": "https://www.youtube.com/watch?v=DFn14wAPluA",
     "source": "Ultraclocked (YouTube), 13.05.2021, „Gridskipper (Legendary Pulse Rifle) - Animations & Sounds“, 1920 × 1080, 60 fps; Menü 540 RPM, Magazin 36",
-    "timestamps": "ADS 26,467 → 26,767; ADS-Salve 27,117; Nachladen 15,300 → 16,95 s"
+    "timestamps": "ADS 26,467 → Achse 26,650 → ruhig 26,767; ADS-Salve 27,117–27,25; Nachladen 15,300 · heraus 15,733–15,750 · ein ≈ 16,45 · Hüfte 16,900 · ruhig ≈ 16,95 s"
   },
   {
     "measurement": "Scout-Gewehr (Tone Patrol): Einzelschuss (Modell), ADS ein ≈ 0,37 s, Nachladen 1,7–1,85 s",
     "clip": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
     "source": "Ultraclocked (YouTube), 14.02.2020, „All Titan Legendary Weapons … SUROS Weapons“, 1920 × 1080, 60 fps; Menü 180 RPM, Magazin 15",
-    "timestamps": "Schuss 381,183; ADS 388,083 → 388,45; Nachladen 393,467 → 395,13–395,33 s"
+    "timestamps": "Hüftschüsse 381,183 · 383,183 · 383,650 · 385,433 · 385,783 · 386,100; ADS 388,083 → 388,45; Nachladen 393,467 → 395,13–395,33; Zeitlupe ohne Marke ab ≈ 396 (Schüsse 396,33 · 397,00 · 397,67) s"
   },
   {
     "measurement": "Sidearm mit 2er-Salve (Brass Attacks): Salve 0,10 s, ADS ein 0,20 s bis 1,43×, Nachladen ≈ 1,75 s",
     "clip": "https://www.youtube.com/watch?v=F6-wH23URIw",
     "source": "Ultraclocked (YouTube), 10.03.2021, „Brass Attacks (Legendary Sidearm) - Animations & Sounds“, 1920 × 1080, 60 fps; Menü 325 RPM, Magazin 24",
-    "timestamps": "Salve 4,300 · 4,400; ADS 23,683 → 23,883; Nachladen 13,20 → 14,95 s"
+    "timestamps": "Salven 4,300 · 4,400; 6,000 · 6,100; 7,633 · 7,733; Salvenfolge 10,750 → 11,133 → 11,517 → 11,933; ADS 23,683 → 23,883; Nachladen 13,20 → 14,95 s"
   },
   {
     "measurement": "Bogen (Imperial Needle): Zyklus Lösen → Lösen 1,45 s, Anlegen → voll 0,60 s (Draw Time 612), ADS 0,25 s",
     "clip": "https://www.youtube.com/watch?v=dKNTDzi__Qo",
     "source": "Ultraclocked (YouTube), 19.02.2021, „Imperial Needle (Legendary Bow) - Animations & Sounds“, 1920 × 1080, 60 fps; Menü Draw Time 612",
-    "timestamps": "Lösen 44,250 → 45,700; ADS 47,600 → 47,85 s"
+    "timestamps": "Lösen 44,250 · angelegt ≈ 44,75–44,85 · voll gespannt ≈ 45,40 · Lösen 45,700; ADS 47,600 → 47,85, aus 48,85 → 49,10 s"
   },
   {
     "measurement": "Granatwerfer Spezial (Ignition Code): Hüftschuss (Modell), Nachladen Kipplauf 2,52 s, ADS 0,32 s bis 1,44×",
     "clip": "https://www.youtube.com/watch?v=PDKTHjCFhWg",
     "source": "Ultraclocked (YouTube), 15.05.2021, „Ignition Code (Legendary Grenade Launcher) - Animations & Sounds“, 1920 × 1080, 60 fps; Menü 90 RPM, Magazin 1",
-    "timestamps": "Schuss 3,517; Nachladen 4,533 → 7,05; ADS 8,217 → 8,533; ADS-Schuss 11,383 s"
+    "timestamps": "Hüftschuss 3,517; Nachladen 4,533 · Granate ein ≈ 5,20–5,25 · Schließen ≈ 5,70 · Hüfte 6,95 · ruhig 7,05; ADS 8,217 → 8,533; ADS-Schuss 11,383 s"
   },
   {
     "measurement": "Granatwerfer Spezial (Flash and Thunder): Nachladen ≈ 2,5 s – zweiter Beleg",
     "clip": "https://www.youtube.com/watch?v=73lGCT7yOtk",
     "source": "Ultraclocked (YouTube), 25.01.2020, „All EDZ Legendary Weapons … Häkke Weapons“, 1920 × 1080, 60 fps; Menü 90 RPM, Magazin 1",
-    "timestamps": "Schuss 270,117; Nachladen 271,13 → 273,67 s (Tempo 1× belegt)"
+    "timestamps": "Schuss 270,117; Detonation 270,90; Nachladen 271,13 · Hüfte 272,9 · ruhig 273,67 (Tempo 1× belegt) s"
   },
   {
     "measurement": "Maschinengewehr (Shattered Cipher): 900/min, Modell im Dauerfeuer, Nachladen 4,87 s, ADS 0,37 s bis 1,84×",
     "clip": "https://www.youtube.com/watch?v=DEM-8xg66R8",
     "source": "Ultraclocked (YouTube), 14.05.2021, „Shattered Cipher (Legendary Machine Gun) - Animations & Sounds“, 1920 × 1080, 60 fps; Menü 900 RPM, Magazin 75",
-    "timestamps": "Schüsse 3,683 · 3,750 · 3,817; Dauerfeuer 7,133–7,883; Nachladen 11,80 → 16,67; ADS 29,75 → 30,117 s"
+    "timestamps": "Schüsse 3,683 · 3,750 · 3,817; Dauerfeuer 7,133–7,883; Nachladen 11,80 → Hüfte 16,20 → ruhig 16,67; ADS 29,75 → 30,117 s"
   },
   {
     "measurement": "Lineares Fusionsgewehr (Threaded Needle): sichtbares Laden 0,33 s, Schuss (Modell), Nachladen 3,3 s, ADS 0,30–0,32 s mit offener Kimme",
     "clip": "https://www.youtube.com/watch?v=uoTaCBMXcFk",
     "source": "Ultraclocked (YouTube), 20.02.2021, „Threaded Needle (Legendary Linear Fusion Rifle) - Weapon Animations & Sounds“, 1920 × 1080, 60 fps; Menü Charge Time 563, Magazin 5",
-    "timestamps": "Laden 5,067 → Schuss 5,400; Nachladen 16,033 → 19,35; ADS 30,617 → 30,917 s"
+    "timestamps": "Laden 5,067 → Schuss 5,400; Nachladen 16,033 · Magazin ein ≈ 17,60 · Hüfte 19,3 · ruhig 19,35; Zeitlupe „0.5x“ 23,0–29,1; ADS 30,617 → 30,917, aus 31,833 → 32,15 s"
   },
   {
     "measurement": "Spurgewehr (Prometheus Lens, Exotic): Hüfte, Nachladen 2,55 s",
     "clip": "https://www.youtube.com/watch?v=XnWXuoZxnVA",
     "source": "Ultraclocked (YouTube), 30.01.2021, „Prometheus Lens (Exotic Trace Rifle) - Animations, Sounds & Effects w/ Slow-Motion“, 1920 × 1080, 60 fps",
-    "timestamps": "Nachladen 17,40 → 19,95 s"
+    "timestamps": "Strahl 15,5–17,25; Nachladen 17,40 → Hüfte ≈ 19,0 → ruhig 19,95 s"
   },
   {
     "measurement": "Raketenwerfer (Eyes of Tomorrow, Exotic): Nachladen ≈ 2,8 s",
     "clip": "https://www.youtube.com/watch?v=3gX1miw4ykY",
     "source": "Ultraclocked (YouTube), 06.08.2022, „Eyes of Tomorrow - Audiovisual Showcase (Raid Exotic Rocket Launcher)“, 1920 × 1080, 60 fps; Menü 20 RPM, Magazin 1",
-    "timestamps": "Salve 11,03; Nachladen 13,10 → 15,9 s"
+    "timestamps": "Salve 11,03–11,9; Nachladen 13,10 → Hüfte 15,5–15,7 → ruhig ≈ 15,9 s"
   },
   {
     "measurement": "Hitzewaffe (All or Nothing, Impuls, Dynamic Heat): Entlüften statt Nachladen ≈ 2,0 s",
     "clip": "https://www.youtube.com/watch?v=4PIMxLpBPPI",
     "source": "Ultraclocked (YouTube), 19.12.2025, „All 'Renegades' Weapons - Visuals & Sounds“, 1920 × 1080, 60 fps",
-    "timestamps": "Entlüften 15,9 → 18,0 s"
+    "timestamps": "Entlüften 15,9 → senkrecht 16,0–16,4 → Hand offen 16,3–17,7 → Hüfte 18,0 s"
   },
   {
     "measurement": "Schwert (Broken Promise): Ansichtswechsel in die Schulteransicht (0,15 s Ego ohne Waffe, Rückzug 0,33 s), keine Ego-Haltung",
     "clip": "https://www.youtube.com/watch?v=afs_dhFDhQU",
     "source": "Ultraclocked (YouTube), 09.02.2020, „All Io Legendary Weapons … VEIST Weapons“, 1920 × 1080, 60 fps",
-    "timestamps": "Schnitt 289,450 · Figur 289,600 · Rückzug bis 289,933 s; Dritte Person bis 316 s"
+    "timestamps": "Schnitt 289,450 · Ego-Sicht ohne Waffe bis 289,583 · Figur 289,600 · Rückzug bis 289,933; Dritte Person bis 316 s"
   },
   {
     "measurement": "Glefe (Vexcalibur, Exotic): bleibt Ego, Nachladen 2,283 s (kein Nahkampf), Schild",
     "clip": "https://www.youtube.com/watch?v=BqVfcsg3nYU",
     "source": "Ultraclocked (YouTube), 26.11.2024, „Galatine Protocol - Weapon Ornament for Vexcalibur (Exotic Glaive)“, 60 fps, geteiltes Bild",
-    "timestamps": "Nachladen 9,30 → 11,583 (Standardmodell 16,067 → 18,333, Ornament 18,850 → 21,133 s); Schild 12,15–15,0 s"
+    "timestamps": "Nachladen 9,30 → 11,583 (Teilmarker 9,983 / 10,700; fester Griff am herausgezogenen Stab 9,650; Standardmodell 16,067 → 18,333, Ornament 18,850 → 21,133 s); Schild 12,15 → 12,5–15,0 s"
   },
   {
     "measurement": "Maschinenpistole (IKELOS_SMG, PvE, HUD): HUD voll → erstes beobachtetes Mündungsfeuer 0,72 s nach dem Nachladen; zweiter Fall ohne Folgeschuss",
     "clip": "https://www.youtube.com/watch?v=PB1oiHuEV5s",
     "source": "Ekuegan (YouTube), 15.07.2020, Ikelos-PvE-Review, 1280 × 720, 60 fps; HUD, Magazin 29, Threat Detector x2",
-    "timestamps": "Zähler 0 521,300 · HUD 29 521,750 · Schuss 522,467; Zähler 0 356,333 · HUD 29 357,083–357,100 s"
+    "timestamps": "Zähler 0 521,300 · HUD 29 521,750 · Waffe zurück in der Hüfte ≈ 522,05–522,10 · Schuss 522,467 (Zähler 29 → 28 bei 522,483); Zähler 0 356,333 · HUD 29 357,083–357,100 · kein Schuss bis zum Schnitt 358,0 s"
   }
 ]
