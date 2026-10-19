@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.9.0 „Looking Glass“ – 2026-10-19
+
+- Neues Doc `docs/cube-escape.md`: Cube Escape 0.94 „Plumbline“ mit denselben Messgrößen vermessen wie Destiny 2, Apex und Titanfall – zwölf Ego-Geräte (neun Waffen,
+  Portalwerfer, Magnetgreifer, Taschenlampe), eigene Aufnahmen 1920 × 1080 bei 60/s aus der Testkopie, Lage pixelgenau aus den projizierten Ankern, Profilwerte daneben.
+- 20 Messzeilen, 12 Zeilen Messwerte je Gerät, 12 Steckbriefe, Vergleich mit den Vorbildern (nur Zahlen, Schlüsse in Cube Escape › 18); Vergleich auf den Referenzstand 0.8.0 nachgezogen.
+- Begonnen als 0.4.0 auf alter Basis (Selbstvermessung, Mac); Integration und Nummer 0.9.0 durch `Sightline · Cloud`.
+- [Versionsbericht](docs/versions/0.md#090-looking-glass--2026-10-19).
+
 ## 0.8.0 „Crosswind“ – 2026-10-18
 
 - Codex' Destiny-Bewegungsprüfung (16 Befunde) am Bild abgenommen und in `docs/destiny2.md` › 2/3 eingearbeitet: alte Werte ersetzt oder eingeschränkt, keine Zusatzzeilen daneben.
