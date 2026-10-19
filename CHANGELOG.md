@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.11.19 „Afterline“ – 2026-10-19
+
+- `docs/auswertung.md` an REF 0.11.18 angepasst: Schrot-Mündungsversatz nur für Hawthorne’s Field-Forged Shotgun (+8 / +16 Prozentpunkte) mit CE verglichen; unbenannte PvP-Sichtung −10 / +2 bleibt ungesichert und ohne Differenz. Sprint-Bob-Frequenz als zurückgezogen/nicht bestätigt gekennzeichnet; kein isolierter Destiny-Luftwert.
+- Cartesian-ADS ein und aus jeweils mit 0,083 s bis Achse/Hüfte und 0,117 s bis Ruhe sowie benanntem Quellanker angegeben. Keine neue Messung, kein CE-Startwert. Für die Hawthorne-Steckbrief- und CE-Schrot-Zeile fehlen eigene Quellanker; Abschnittsverweise bleiben gültig und der Quellenbesitzer erhält den Hinweis. [Versionsbericht](docs/versions/0.md#01119-afterline--2026-10-19).
+
 ## 0.11.18 „Plumb Line“ – 2026-10-19
 
 - Quellenbefunde der Astra-Prüfung (Delta Ledger, Briefkasten rules#1) behoben – nur Zusammenfassungen und Labels, keine Messwerte: `destiny2.md` § 3 nennt Sprint-Frequenz und Luftwert jetzt als zurückgezogen (S1), das CE-Feld des Automatikgewehrs „rechts unterhalb der Mitte“ statt „10 % links oben“ (S1), das CE-Feld des Scharfschützen ohne „nicht konvergierend“ (S5), das Cartesian-ADS-Label nach den Zeitmarken 0,083 / 0,117 s (S4, auch `clips.json`).
