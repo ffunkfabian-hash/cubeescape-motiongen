@@ -3,7 +3,7 @@
 ## 0.11.7 – 2026-10-19
 
 - Quellkorrekturen aus der Bildprüfung „Frame Audit“ (Codex-Mac, 12 Clips, native Bilder; Briefkasten rules#1); F01 zusätzlich von Sightline am Twitch-Clip (GernaderJake 0,750 s) nachgeprüft: Gewehr-Hüftmündung des PvP-Beispiels liegt bei ≈ 65 / 57 (rechts unterhalb der Mitte), die Angabe „40 / 40“ ist zurückgezogen (`destiny2.md`, `cube-escape.md` › 4: Differenz zum Sturmgewehr jetzt gegen Chroma Rush +7 / +9 und Jake ≈ +15 / +7).
-- Zurückgezogen: die Luft-Absenkung „45 % in 0,35 s“ (kein isolierter Luftwert); Sprint-Bob-Frequenz 2,5–3 Hz nicht bestätigt (Hub 8–10 % plausibel). Präzisiert: MP-Fall 19 Bilder ab gewähltem Zwischenmarker (9 Bilder sicherer Einwärtszug), „ruhig 10–11 Bilder“ in 10 (ruhige Pose) und ≈ 11 (weiches Ausfedern unter Feuer) getrennt, Cartesian-Zeitlupe bei ≈ 164,5–165,0 s. Neu Methode 13: Destiny-Waffen sind nicht gleich.
+- Zurückgezogen: die Luft-Absenkung „45 % in 0,35 s“ (kein isolierter Luftwert); Sprint-Bob-Frequenz 2,5–3 Hz nicht bestätigt (Hub 8–10 % plausibel). Präzisiert: MP-Fall 19 Bilder ab gewähltem Zwischenmarker (9 Bilder sicherer Einwärtszug), „ruhig 10–11 Bilder“ in 10 (ruhige Pose) und ≈ 11 (weiches Ausfedern unter Feuer) getrennt, Cartesian-Zeitlupe bei ≈ 164,5–165,0 s. Neu Methode 13: Destiny-Waffen sind nicht gleich. Namenskorrektur: das Schwert im Io-Showcase heißt „Unspoken Promise“, nicht „Broken Promise“ (Hinweis Codex-Mac, „Arsenal Atlas“).
 - Die zugehörigen Korrekturen der Differenztabelle (F01–F07) in `docs/auswertung.md` folgen durch die Auswertungssitzung. [Versionsbericht](docs/versions/0.md#0117--2026-10-19).
 
 ## 0.11.6 – 2026-10-19
