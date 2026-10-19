@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.8.0 „Crosswind“ – 2026-10-18
+
+- Codex' Destiny-Bewegungsprüfung (16 Befunde) am Bild abgenommen und in `docs/destiny2.md` › 2/3 eingearbeitet: alte Werte ersetzt oder eingeschränkt, keine Zusatzzeilen daneben.
+- Zurückgezogen: Geh-/Bob-Beleg (Destiny 1), durchgehende Scharfschützen-Leere, Automatik-„Landung“ (Waffenwechsel 87 → 1 Patrone), MP-Sprint-Ein/Aus (Wippen), Schrotflinten-Folgeschuss/Pump, Aztecross-Reload-Ende, 1,2-s-Gewehrbereitschaft, Hüft-Zuordnung des CammyCakes-Schusses (ADS).
+- Neu: Wechselmarker (Scharfschütze → Handfeuerwaffe, Handfeuerwaffe → Schrotflinte, Granatwerfer → Bogen), Bogen-ADS-Verlassen mit Vollzug, Spann-Reset, MP-Absenkung nach ADS aus; MP-Hüfthalt aus 0.5.1 endet bei ≈ 16,70. Methode 12 (Quellenprüfung). `clips.json` 145 → 149 (6 neu, 2 entfernt).
+- [Versionsbericht](docs/versions/0.md#080-crosswind--2026-10-18).
 ## 0.7.0 „Armory“ – 2026-10-18
 
 - **Waffentyp-Katalog** nach dem offiziellen Bungie-Manifest (Version 244213.26.06.29, abgerufen 18.10.2026): 17 Untertypen je Munitionsart mit Rahmen; neu gegenüber der Ausgangsliste u. a. Hitzewaffen (Entlüften statt Nachladen), Mikro-Raketen-Rahmen, Spread Shot, Slug-Schrot, schwere Bogen/Scharfschützen/Schrot/Fusion/Spur, Primär-Granatwerfer. Bestandsmatrix je Typ in `docs/destiny2.md` › 4.
