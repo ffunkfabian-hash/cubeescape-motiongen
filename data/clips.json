@@ -898,5 +898,17 @@
     "clip": "https://www.youtube.com/watch?v=vaUe2AY2-EE",
     "source": "mell0wtonin (YouTube), 18.07.2022, „Reload Animation Cancelling“, 1080p, 60/s nativ, Normaltempo (Spieluhr 1:59 → 2:03 in vier Mediensekunden); REF 0.11.10 „Afterimage“ (Codex-Mac, 19.10.2026)",
     "timestamps": "HUD 12 → 15 1,217 · Hüftpassage 1,733–1,750 · Wegsenken 1,767 (33 Bilder = 0,550 s nach „voll“) · neues Modell 2,050–2,067 (17–18 Bilder = 0,283–0,300 s nach Wegsenken) · hüftähnlich 2,133–2,167 (22–24 Bilder) · Waffe A wieder sichtbar 3,883 · Zähler 15 → 14 4,167; ±1 Bild"
+  },
+  {
+    "measurement": "Kamera-/Modell-Kick, Gewehr „Rose“ laut Beschreibung (Teilbeleg): fester Weltanker getrennt vom Modell, nur die Hälfte „FOV 105“",
+    "clip": "https://www.youtube.com/watch?v=HDj7mJuMxO8",
+    "source": "Bagels (YouTube), 22.08.2019, „Destiny 2 - FoV Controller Recoil Comparison“, Clip 0:00,717–0:01,118 (linke Hälfte), 59,94/s nativ, rechte Hälfte zeitversetzt; REF 0.11.13 „Dragnet“ (Codex-Mac, 19.10.2026)",
+    "timestamps": "Blitz 0,717383 · Maximum 0,850850 (8 Bilder = 0,133 s; Ornament +114 px = 10,56 % Bildhöhe, zweiter Fleck +112 px) · 1,101100 noch +54 px · nächster Blitz 1,117783; ±1 Bild, Lage ±3 Prozentpunkte; Gegeninput unbekannt, Modell kickt mit, keine Rückkehrzeit"
+  },
+  {
+    "measurement": "Waffenwechsel mit Eingabe-Overlay: A (6 Schuss, Rechteckvisier) → B (41 Schuss, kleines offenes Visier)",
+    "clip": "https://www.youtube.com/watch?v=hxoFaXHsOn4&t=160",
+    "source": "Ham (YouTube), 02.12.2025, „The Last Destiny 2 Movement Guide You Will Ever Need!“, Quelle ca. 2:40–2:41, 60/s nativ, Normaltempo über HUD-Countdown (7 → 3 in vier Mediensekunden); REF 0.11.13 „Dragnet“ (Codex-Mac, 19.10.2026)",
+    "timestamps": "Ausschnitt ab Offset 94 s: Overlay „2“ 66,350 · Wegsenken 66,383–66,400 · frei 66,500 · Waffe B 66,650 (0,300 s nach Overlay) · hüftähnlich 66,783–66,800 (0,433–0,450 s); Bild ohne Waffe 0,150 s; Overlay kein Hardwarezeitstempel; ±1 Bild"
   }
 ]

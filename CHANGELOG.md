@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.11.14 „Cold Case“ – 2026-10-19
+
+- Ergebnisse des Messauftrags „REF 0.11.13 Dragnet“ (Codex-Mac, Briefkasten rules#1) eingetragen: zwei Messzeilen in `docs/destiny2.md` § 2 und `data/clips.json` – Teilbeleg Kamera-/Modell-Kick (Bagels 22.08.2019: Blitz → Maximum 8 Bilder = 0,133 s, Weltanker +10,56 % Bildhöhe, ohne Rückkehrzeit, kein unbeeinflusstes Profil) und Waffenwechsel mit Eingabe-Overlay (Ham 02.12.2025: Overlay → neues Modell 0,300 s, hüftähnlich 0,433–0,450 s, Bild ohne Waffe 0,150 s).
+- Neue Methode 15: Negativregister mit 57 Einträgen (30 am Bild gesichtet, 19 nur Metadaten, 7 ausgeschlossen) – Nachladen-Abbruch, Gehen/Stopp und isolierte Landung bleiben aus freien Destiny-Clips unbelegt; dazu der Bungie-Hinweis auf MG-Reload-Checkpoints (03.07.2025, ohne Clipzeit). `docs/cube-escape.md` § 4: Ham-Wert in der Zeile „Wechsel: leere Sicht“. Keine Zahl für Cube Escape abgeleitet. [Versionsbericht](docs/versions/0.md#01114-cold-case--2026-10-19).
+
 ## 0.11.12 „Switch Ledger“ – 2026-10-19
 
 - `docs/auswertung.md`: V13 und die Differenztabelle um den Waffenwechsel nach vollem Nachladen (Waffe A, HUD „Suros Synergy“) aus REF 0.11.11 ergänzt; Wegsenken, neues Modell und hüftähnliche Pose bleiben getrennte Marker. Kein geprüfter Leerbild-Wert und kein Nachlade-Abbruch.
