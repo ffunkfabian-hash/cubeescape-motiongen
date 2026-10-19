@@ -892,5 +892,11 @@
     "clip": "https://www.youtube.com/watch?v=PB1oiHuEV5s",
     "source": "Ekuegan (YouTube), 15.07.2020, Ikelos-PvE-Review, 1280 × 720, 60 fps; HUD, Magazin 29, Threat Detector x2",
     "timestamps": "Zähler 0 521,300 · HUD 29 521,750 · Waffe zurück in der Hüfte ≈ 522,05–522,10 · Schuss 522,467 (Zähler 29 → 28 bei 522,483); Zähler 0 356,333 · HUD 29 357,083–357,100 · kein Schuss bis zum Schnitt 358,0 s"
+  },
+  {
+    "measurement": "Waffenwechsel nach vollem Nachladen: Waffe A (HUD „Suros Synergy“, 15er-Magazin) → Gewehr mit rundem Visier (kein Reload-Abbruch)",
+    "clip": "https://www.youtube.com/watch?v=vaUe2AY2-EE",
+    "source": "mell0wtonin (YouTube), 18.07.2022, „Reload Animation Cancelling“, 1080p, 60/s nativ, Normaltempo (Spieluhr 1:59 → 2:03 in vier Mediensekunden); REF 0.11.10 „Afterimage“ (Codex-Mac, 19.10.2026)",
+    "timestamps": "HUD 12 → 15 1,217 · Hüftpassage 1,733–1,750 · Wegsenken 1,767 (33 Bilder = 0,550 s nach „voll“) · neues Modell 2,050–2,067 (17–18 Bilder = 0,283–0,300 s nach Wegsenken) · hüftähnlich 2,133–2,167 (22–24 Bilder) · Waffe A wieder sichtbar 3,883 · Zähler 15 → 14 4,167; ±1 Bild"
   }
 ]
