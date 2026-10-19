@@ -156,7 +156,7 @@ Differenz = Cube Escape minus Vorbild (Prozentpunkte bzw. Bilder bei 60/s). **St
 | Messgröße | Cube Escape | Destiny 2 | Apex Legends | Titanfall 2 | Differenz | Quelle |
 |---|---|---|---|---|---|---|
 | Hüfte: Mündung → Mitte, Gewehr | +12,6 / +8,9 (Sturmgewehr) | −10 / −10 (Automatikgewehr, links oben) | +5 / −2 (R-99) | −5 / +18 (Gewehr) | D +22,6 / +18,9 · A +7,6 / +10,9 · T +17,6 / −9,1 | D › 3 Automatikgewehr, A › 3, T › 3 |
-| Hüfte: Mündung → Mitte, Pistole | +9,8 / +11,1 | −2 / −4 (Handfeuerwaffe), +13 / +16 (Sidearm PvE) | – | – | HFW +11,8 / +15,1 · Sidearm −3,2 / −4,9 | D › 3 |
+| Hüfte: Mündung → Mitte, Pistole | +9,8 / +11,1 | ≈ +10 / −1 (Handfeuerwaffe, Hüfte grob bei 60/49 gesichtet; das frühere −2 / −4 war der ADS-Schuss 48/46, CW10), +13 / +16 (Sidearm PvE) | – | – | HFW −0,2 / +12,1 (grobe Sichtung) · Sidearm −3,2 / −4,9 | D › 3 |
 | Hüfte: Mündung → Mitte, Schrot | +13,4 / +10,9 | −10 / +2 | – | – | +23,4 / +8,9 | D › 3 |
 | Hüfte: Mündung → Mitte, MP | +12,4 / +9,0 | +7 / +11 (Warpriest PvE); Showcases (0.5.0, feste Kamera) +6 bis +8 / +12 bis +18 | +5 / −2 | – | D +5,4 / −2,0 bzw. +4,4 bis +6,4 / −3,0 bis −9,0 · A +7,4 / +11,0 | D › 3, A › 3 |
 | Hüfte: Mündung → Mitte, Raketenwerfer | +17,6 / +6,0 | +10 / −10 | – | – | +7,6 / +16,0 | D › 3 |
