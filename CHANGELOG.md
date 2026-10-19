@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.11.9 – 2026-10-19
+
+- Hinweis der Auswertungssitzung zu REF 0.11.8, an der Messzeile bestätigt: Der Impuls-Salvenabstand (Gridskipper) steht in `destiny2.md` (Steckbrief, Bestandsmatrix) und `cube-escape.md` › 4 nicht mehr als „≥ 0,383 s“, sondern als beobachtet 0,383–0,433 s (kleinster gesehener Wert 0,383 s, kein Grenzwert), wie die Messzeile. Sidearm (Brass Attacks, „min. 0,383 s“) unverändert.
+- [Versionsbericht](docs/versions/0.md#0119--2026-10-19).
+
 ## 0.11.8 – 2026-10-19
 
 - `docs/auswertung.md` an REF 0.11.7 / Frame Audit angepasst: Automatikgewehr PvP und Chroma Rush getrennt, zurückgezogene Luft-Absenkung aus der Rangfolge entfernt, MP-Übergangsnullpunkte und ADS-aus-Endmarker getrennt, Impuls-Salvenabstand als beobachteten Bereich mit korrekter Differenz ausgewiesen und Sprint-Bob nicht gerankt.
