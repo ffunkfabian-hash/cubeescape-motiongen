@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.11.4 „Afterglow“ – 2026-10-19
+
+- `docs/auswertung.md` auf Referenz 0.11.3 (main `cc39153`) nachgezogen: CE-Tracefall-MP-Marker und Zeitnullpunkte ergänzt; die Befunde F01–F09, B01–B03 und U01–U08 eingearbeitet, darunter Ehroar-Waffenzuordnung, Vexcalibur-Reload, Flash-and-Thunder-Tempo, Chroma-/Cartesian-Bildmarker und Ikelos-Quotient.
+- W1–W8 und die Fragen an Cube Escape aktualisiert; Zeitwerte ab Tastendruck und ab erster sichtbarer Bewegung getrennt. Keine neuen Messungen; keine anderen Referenz- oder Spieldateien geändert.
+- [Versionsbericht](docs/versions/0.md#0114-afterglow--2026-10-19).
+
 ## 0.11.3 – 2026-10-19
 
 - Rest der Codex-Gegenprüfung (Briefkasten rules#1, Befunde „ungenau“), jeder Punkt an der Quellzeile nachgeprüft; keine Messzahl geändert. **U01** `data/clips.json`: 33 Einträge der Referenzen 0.5–0.10 um die in der Messzeile belegten Ruhe-/Hüft-/Teilmarker ergänzt (z. B. Far Future ruhig ≈ 18,05, Hüftschuss ruhig ≈ 15,83). **U02** Entlüften ≈ 2,0 s mit Differenzunsicherheit (15,9 → 18,0 = 2,1 s rechnerisch, ± 0,1). **U05** Fusion-Wiederholung 160,483 → 160,717 = 14 Intervalle, 15 Bilder einschließlich Endpunkten.
