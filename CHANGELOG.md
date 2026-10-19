@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.11.5 „Delta Ledger“ – 2026-10-19
+
+- `docs/auswertung.md` ergänzt eine nach Themen gruppierte Differenztabelle Destiny 2 ↔ Cube Escape mit Quellen, absoluten/relativen Abständen, Belegstärke, gemeinsamem Zeitnullpunkt und Vorbehalten; nicht tragfähige Vergleiche sind separat ausgewiesen.
+- Eine Rangfolge stellt große, besser belegte Abstände voran. Keine Empfehlung und keine Startwerte in den Referenzunterlagen; keine Clips geladen oder neu vermessen.
+- [Versionsbericht](docs/versions/0.md#0115-delta-ledger--2026-10-19).
+
 ## 0.11.4 „Afterglow“ – 2026-10-19
 
 - `docs/auswertung.md` auf Referenz 0.11.3 (main `cc39153`) nachgezogen: CE-Tracefall-MP-Marker und Zeitnullpunkte ergänzt; die Befunde F01–F09, B01–B03 und U01–U08 eingearbeitet, darunter Ehroar-Waffenzuordnung, Vexcalibur-Reload, Flash-and-Thunder-Tempo, Chroma-/Cartesian-Bildmarker und Ikelos-Quotient.
