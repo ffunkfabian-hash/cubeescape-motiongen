@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.11.11 – 2026-10-19
+
+- Messauftrag „REF 0.11.10 Afterimage“ (Codex-Mac, 7 Clips, native Bilder; Briefkasten rules#1) eingetragen: eine neue Messzeile (Waffenwechsel nach vollem Nachladen, Waffe A, mell0wtonin 18.07.2022: Wegsenken 0,550 s nach „voll“, vom Wegsenken bis zum neuen Modell 0,283–0,300 s; ob dazwischen ein Bild ganz ohne Waffe liegt, nicht geprüft) und die Negativbefunde als neue Methode 14: Nachladen-Abbruch vor „voll“, Gehen/Strafe/Stopp, isolierte Landung und der getrennte Kamera-Kick sind aus den geprüften freien Destiny-Clips nicht belegt.
+- Keine Zahl für Cube Escape abgeleitet; die Differenztabelle in `docs/auswertung.md` zieht die Auswertungssitzung nach. [Versionsbericht](docs/versions/0.md#01111--2026-10-19).
+
 ## 0.11.9 – 2026-10-19
 
 - Hinweis der Auswertungssitzung zu REF 0.11.8, an der Messzeile bestätigt: Der Impuls-Salvenabstand (Gridskipper) steht in `destiny2.md` (Steckbrief, Bestandsmatrix) und `cube-escape.md` › 4 nicht mehr als „≥ 0,383 s“, sondern als beobachtet 0,383–0,433 s (kleinster gesehener Wert 0,383 s, kein Grenzwert), wie die Messzeile. Sidearm (Brass Attacks, „min. 0,383 s“) unverändert.
