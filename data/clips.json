@@ -680,13 +680,13 @@
   {
     "measurement": "Maschinenpistole (IKELOS_SMG_V1.0.1): ADS aus bis Hüfte mit nachgeführter Kamera (PvE, HUD)",
     "clip": "https://www.youtube.com/watch?v=6BIDq-OatMI",
-    "source": "Ehroar (YouTube), 19.06.2018, 1280 × 720, 59,94 fps, Normaltempo, PvE-Strike mit HUD; Menü 750/min, Magazin 29 (HUD 34), Handling ≈ 75",
+    "source": "Ehroar (YouTube), 19.06.2018, 1280 × 720, 59,94 fps, Normaltempo, PvE-Strike mit HUD; Menü 750/min, Magazin 29, Handling ≈ 75",
     "timestamps": "ADS ruhig bis 36,603 · erste Bewegung 36,620 · Hüfte 36,720 · ausgefedert ≈ 36,80 s"
   },
   {
-    "measurement": "Maschinenpistole (IKELOS_SMG_V1.0.1): Nachladen aus dem ADS mit HUD-Marker „Zähler voll“",
+    "measurement": "MP-artige Waffe (nicht als Ikelos belegt): Nachladen aus dem ADS mit HUD-Marker „Zähler voll“ (0,734 s)",
     "clip": "https://www.youtube.com/watch?v=6BIDq-OatMI",
-    "source": "Ehroar (YouTube), 19.06.2018, 59,94 fps, Normaltempo, HUD; Schnitt vor der Rückkehr",
+    "source": "Ehroar (YouTube), 19.06.2018, 59,94 fps, Normaltempo, HUD; Schnitt vor der Rückkehr; andere Waffe als Ikelos 36,6 s (Waffenwechsel 39,17–39,62 s), Codex-Bildprüfung 19.10.2026",
     "timestamps": "erste Bewegung 45,512 · linke Hand zurück 46,233–46,267 · HUD 1 → 34 bei 46,246 · Schnitt 46,75 s"
   },
   {
@@ -843,7 +843,7 @@
     "measurement": "Granatwerfer Spezial (Flash and Thunder): Nachladen ≈ 2,5 s – zweiter Beleg",
     "clip": "https://www.youtube.com/watch?v=73lGCT7yOtk",
     "source": "Ultraclocked (YouTube), 25.01.2020, „All EDZ Legendary Weapons … Häkke Weapons“, 1920 × 1080, 60 fps; Menü 90 RPM, Magazin 1",
-    "timestamps": "Schuss 270,233; Nachladen 271,13 → 273,67 s"
+    "timestamps": "Schuss 270,117; Nachladen 271,13 → 273,67 s (Tempo 1× belegt)"
   },
   {
     "measurement": "Maschinengewehr (Shattered Cipher): 900/min, Modell im Dauerfeuer, Nachladen 4,87 s, ADS 0,37 s bis 1,84×",
@@ -882,10 +882,10 @@
     "timestamps": "Schnitt 289,450 · Figur 289,600 · Rückzug bis 289,933 s; Dritte Person bis 316 s"
   },
   {
-    "measurement": "Glefe (Vexcalibur, Exotic): bleibt Ego, drei Nahkampfschläge 2,3 s, Schild",
+    "measurement": "Glefe (Vexcalibur, Exotic): bleibt Ego, Nachladen 2,283 s (kein Nahkampf), Schild",
     "clip": "https://www.youtube.com/watch?v=BqVfcsg3nYU",
     "source": "Ultraclocked (YouTube), 26.11.2024, „Galatine Protocol - Weapon Ornament for Vexcalibur (Exotic Glaive)“, 60 fps, geteiltes Bild",
-    "timestamps": "Schläge 9,30 → 11,60; Schild 12,15–15,0 s"
+    "timestamps": "Nachladen 9,30 → 11,583 (Standardmodell 16,067 → 18,333, Ornament 18,850 → 21,133 s); Schild 12,15–15,0 s"
   },
   {
     "measurement": "Maschinenpistole (IKELOS_SMG, PvE, HUD): HUD voll → erstes beobachtetes Mündungsfeuer 0,72 s nach dem Nachladen; zweiter Fall ohne Folgeschuss",
