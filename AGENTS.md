@@ -17,6 +17,8 @@ keine privaten Daten, keine Bild- oder Videodateien aus fremden Aufnahmen (nur V
 - Eine Messung = eine Zeile in der Messtabelle des Spiels (`docs/<spiel>.md` › 2) **und** ein Eintrag in `data/clips.json`
   (Messung, Clip-URL, Quelle mit Kanal/Datum, Zeitstempel). Zahlen eines Clips sind Beispiele einer Waffe, keine Archetyp-Mittelwerte;
   Perks/Stats sind unbekannt – auffällig kurze Zeiten so einordnen.
+- Verweise auf Messzeilen, Methoden und Steckbriefe nur über benannte Anker (`<a id="z-…"></a>` am Ende des ersten Feldes der Zeile), nie über Zeilennummern (`#L123`):
+  Einschübe verschieben sie, ohne dass ein Test es merkt. `./check` (`tools/check_links.py`) lehnt `#L…` ab und prüft, dass jeder `#anker` im Zielsatz existiert.
 - Genauigkeit: ±1 Bild bei nativer Rate (60/s = 16,7 ms), ±0,05 s bei 10/s; Lage im Bild in Prozent (Breite / Höhe, Ursprung oben links,
   Mitte = Zielpunkt), ±3 %. Immer mit `--cross` messen, wenn es um Zielpunkt, Mündung oder Visier geht.
 - Steckbriefe (› 3) halten die **Form** fest (wo etwas liegt, was sich wie bewegt); Spalten: Hüfthaltung, Zielen, Sprint/Tragen, ADS, Feuern/

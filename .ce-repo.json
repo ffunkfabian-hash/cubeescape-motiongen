@@ -1,7 +1,7 @@
 {
   "name": "cubeescape-reference",
-  "version": "0.11.15",
-  "version_name": "Delta Ledger",
+  "version": "0.11.16",
+  "version_name": "Anchorage",
   "check": {
     "quick": [
       "python3 -m unittest discover -s tests",

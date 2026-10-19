@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.11.16 „Anchorage“ – 2026-10-19
+
+- Zeilenanker (`destiny2.md#L123`) in `docs/auswertung.md` durch benannte Anker ersetzt (`<a id="z-…"></a>` am Ende des ersten Feldes der Zeile, Methoden 14/15, Steckbriefe, vier Zeilen in `cube-escape.md`): die alten Nummern waren nach den Einschüben von 0.11.11–0.11.14 großteils verrutscht (z. B. „Chroma“ → Schrotflinte, „Flash and Thunder“ → Gridskipper).
+- `tools/check_links.py` prüft jetzt jeden Anker (benannte `id`, Überschrift-Slug, auch Verweise innerhalb einer Datei) und lehnt Zeilenanker ab; fünf Tests. Dabei zwei tote Überschriftanker gefunden und behoben (`cube-escape.md` 2.2 → `ce-mp-uebergaenge`, CHANGELOG-Verweis auf 0.3.0). Keine Messwerte geändert. [Versionsbericht](docs/versions/0.md#01116-anchorage--2026-10-19).
+
 ## 0.11.15 „Delta Ledger“ – 2026-10-19
 
 - `docs/auswertung.md`: Ham-Wechsel mit gemessener Leerphase getrennt von Waffe A ergänzt; Bagels als Kamera-/Modell-Teilbeleg ohne Rückkehr eingeordnet; Methode 15 und Status der zwölf Fragen verlinkt. Keine neuen Messungen oder Startwerte.
@@ -167,7 +172,7 @@
 - Neue Vorbilder `docs/apex.md` (R-99: Hüfte fast auf der Achse, Sprint hoch-mittig, ADS ↔ Sprint 0,45 s, Landung mit Dip, Rutschen gekippt im Bild) und
   `docs/titanfall2.md` (tiefe kleine Hüfte, Waffe im Flug ausgeblendet, Wandlauf mit 10–15° Kamerarolle, Scope ≤ 0,1 s) – 30 Clips gesichtet, 4 vermessen.
 - Zweite Runde Apex/Titanfall (34 Clips): Apex-Wechsel 0,40 s ohne leere Sicht, Sentinel-Scope ≤ 0,1 s, Rutschkamera rollt nicht; Titanfall ADS ein 0,12 s / aus 0,12 s bei 60/s (Kadenz nicht bestimmbar, Korrektur in 0.4.0).
-- [Versionsbericht](docs/versions/0.md#030-fieldwork--unveröffentlicht).
+- [Versionsbericht](docs/versions/0.md#030-fieldwork--2026-10-18).
 
 ## 0.2.0 „Frame Ledger“ – 2026-10-18
 
