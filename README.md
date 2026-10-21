@@ -1,5 +1,7 @@
 # cubeescape-reference
 
+Zentraler Repo-Einstieg: [Nexogen](https://github.com/ffunkfabian-hash/cubeescape-nexogen) – Repo-Links, Zuständigkeiten, Abhängigkeiten und Live-Status über die Status-CLI im Nexogen-Repo. Globale Regeln dort, Fachwissen und Prüfbelege hier.
+
 Referenzmessungen für das Ego-Spielgefühl von **Cube Escape**: wie Vorbilder (zuerst Destiny 2) Waffen und Werkzeuge halten, zielen,
 wechseln, nachladen und bewegen – gemessen an 60-fps-Aufnahmen, als Zahlen mit Zeitstempeln und Steckbriefen je Typ. Cube Escape,
 Toolgen und das Design-Repo lesen hier; entschieden und umgesetzt wird dort.

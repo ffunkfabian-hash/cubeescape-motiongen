@@ -4,11 +4,48 @@
   "version_name": "Trajectory",
   "check": {
     "quick": [
-      "python3 -m unittest discover -s tests",
-      "python3 tools/check_links.py"
+      [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests"
+      ],
+      [
+        "python3",
+        "tools/check_links.py"
+      ]
+    ],
+    "nightly": [
+      [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests"
+      ],
+      [
+        "python3",
+        "tools/check_links.py"
+      ]
     ]
   },
   "limits": {
     "no_media": true
+  },
+  "tools_dir": "tools/ce_tools",
+  "docs": {
+    "agent_sections": [
+      "Projekt",
+      "Messregeln",
+      "Befehle",
+      "Definition of Done"
+    ]
+  },
+  "coordination": {
+    "repo": "ffunkfabian-hash/cubeescape-nexogen",
+    "registry": "https://github.com/ffunkfabian-hash/cubeescape-nexogen/blob/main/repos.json"
   }
 }

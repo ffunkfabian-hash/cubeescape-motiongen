@@ -1,5 +1,9 @@
 # cubeescape-reference – Regeln für KI-Agenten
 
+Zentraler Repo-Einstieg: [Nexogen](https://github.com/ffunkfabian-hash/cubeescape-nexogen) – Repo-Links, Zuständigkeiten, Abhängigkeiten und Live-Status über die Status-CLI im Nexogen-Repo. Globale Regeln dort, Fachwissen und Prüfbelege hier.
+
+**Werkzeuge:** `./ce check` · `./ce search query "Begriff"` · `./ce session topics` · `./ce codex quota|judge` · `./ce evidence clip|sheet|still|diff` · `./ce lock unity|blender|gpu -- <Befehl>` · `./ce report --since 7d`.
+
 Gilt für alle Agenten (Claude Code, Codex, …). Globale Regeln: Repo `ffunkfabian-hash/cubeescape-rules` (`CLAUDE.md` dort).
 
 ## Projekt
@@ -35,3 +39,5 @@ keine privaten Daten, keine Bild- oder Videodateien aus fremden Aufnahmen (nur V
 
 Messzeile + `clips.json`-Eintrag + Steckbrief aktualisiert; `./check` grün; Abschlussbericht auf Deutsch mit Clip-Zahl, Neuem, Offenem;
 Hinweis an das abnehmende Repo (Cube Escape/Toolgen) per Briefkasten oder Übergabe, nie dort selbst schreiben.
+
+Werkzeug-Erfahrungen: [docs/LESSONS.md](docs/LESSONS.md); die verlinkte Systemdokumentation bleibt die Langform.

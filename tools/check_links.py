@@ -52,6 +52,7 @@ def anchors_of(text: str) -> set[str]:
 def check_anchors(root: Path) -> list[str]:
     """Links into this repository's pages must name an existing anchor and never a line number (#L123), which drifts with
     every inserted row."""
+    root = root.resolve()  # macOS /var is a symlink to /private/var
     pages = {page: page.read_text(encoding="utf-8") for page in root.rglob("*.md")}
     offered: dict[Path, set[str]] = {}
     errors = []
