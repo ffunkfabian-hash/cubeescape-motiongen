@@ -1,5 +1,11 @@
 # Changelog
 
+## tools-0.12.0 „Gatehouse“ – 2026-10-22
+
+- Gemeinsame Werkzeuge über `ce_sync.py` aus der freigegebenen Quelle Agent Tools 0.12 synchronisiert, einschließlich der Korrektur für ältere Toolgen-Prüfschnittstellen aus 0.11.1.
+- Hook-Beschreibung ergänzt: gemeinsame Client-Vorabprüfung und unabhängiges Git-Netz werden über Nexogen installiert; Einbau und Grenzen bleiben zentral dokumentiert.
+- Eigenständiger Werkzeugpaket-Stand; Abnahme durch Quellfreigabe [Tools #10](https://github.com/ffunkfabian-hash/ce-agent-tools/pull/10), Hash-Abgleich, Repo-Quick und Doku-Prüfung.
+
 ## 0.12.0 „Relaywake“ – 2026-10-22
 
 - Eingebettete gemeinsame Werkzeuge von der geprüften Quelle Agent Tools 0.11 „Wayfinder“ synchronisiert: FTS-Korrektur, öffentliche Such-Aliase, risikobasierter Richter und budgetierter API-Einstieg.
