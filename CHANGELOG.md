@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.12.0 „Relaywake“ – 2026-10-22
+
+- Eingebettete gemeinsame Werkzeuge von der geprüften Quelle Agent Tools 0.11 „Wayfinder“ synchronisiert: FTS-Korrektur, öffentliche Such-Aliase, risikobasierter Richter und budgetierter API-Einstieg.
+- Nur Werkzeug-Rollout auf Basis 0.11.20; fachliche Daten, Generator-Ausgabe und Verträge unverändert. Hash-Abgleich und repo-eigener Quick sind die Abnahme.
+- [Versionsbericht](docs/versions/0.12.md).
+
 ## 0.11.20 „Trajectory“ – 2026-10-19
 
 - Ergebnisse des Messauftrags „REF 0.11.17 Ballista“ (Codex-Mac, Briefkasten rules#1) eingetragen: neun Messzeilen in `docs/destiny2.md` § 2 und `data/clips.json` (Imperial Needle, Ignition Code, Eyes of Tomorrow, Cartesian Coordinate, Shock and Awe, Prometheus Lens, Chroma Rush, Baligant, Blue Shift; Anker `z-ballista-…`). Befund: **in keinem Beispiel eine aufgelöste reine Flugzeit**; sichtbare Geschosse mit Spur nur bei Ignition Code (6 Bilder) und Eyes of Tomorrow (Flugköpfe, Suchbahnen); Mündungsblitz-, Kern- und Strahldauer in Bildern, Prometheus Lens 113 Bilder (1,883 s).
