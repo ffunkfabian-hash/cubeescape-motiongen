@@ -41,3 +41,7 @@ Messzeile + `clips.json`-Eintrag + Steckbrief aktualisiert; `./check` grün; Abs
 Hinweis an das abnehmende Repo (Cube Escape/Toolgen) per Briefkasten oder Übergabe, nie dort selbst schreiben.
 
 Werkzeug-Erfahrungen: [docs/LESSONS.md](docs/LESSONS.md); die verlinkte Systemdokumentation bleibt die Langform.
+
+## Plugins und Hooks
+
+Der gemeinsame Wächter (Agent Tools 0.12) wird über Nexogen für Codex nach `/hooks`-Vertrauen und für Antigravity auf den gemessenen Oberflächen installiert; das reversible Git-Netz ergänzt ihn für alle Clients. Die begrenzte Commit-Vorabprüfung, Einbau und Grenzen stehen zentral in [Werkzeuge und Durchsetzung](https://github.com/ffunkfabian-hash/cubeescape-nexogen/blob/main/templates/regeln-details.md#werkzeuge-und-durchsetzung).
