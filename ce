@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # GENERATED from ce-agent-tools 0.20.0 - do not edit
-# ce-sha256: 7f9b057cc17d49ac282d3cbfbe3e0dbedd052eae2044cd0a6f9af6361605b3a5
+# ce-sha256: d29b0772b5ab1de4e73bb739947797ea59d09658cdb786fea5b65974b55ff1a2
 """ce - loader of the shared tools for a repo without an embedded copy (ce-agent-tools 0.20 "Lodestar").
 
 A repo names the tools it was checked with in .ce-repo.json:
@@ -362,6 +362,7 @@ def pin(root: Path, config: dict, commit: str, env) -> int:
     config.pop("tools_dir", None)
     (root / CONFIG_NAME).write_text(json.dumps(config, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     sys.path.insert(0, str(tools))  # ce_sync of the pinned commit writes its own loader as ./ce
+    sys.pycache_prefix = run_env(env, "cache")["PYTHONPYCACHEPREFIX"]  # as for the tools: no bytecode in the cache (root)
     import ce_sync
     ce_sync.sync(root, config, tools)
     print(f"tools_version: {version} ({commit[:12]}), ./ce = Lader dieses Stands")
