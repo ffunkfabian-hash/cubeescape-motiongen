@@ -2,6 +2,8 @@
 # gilt nur für private Repos) - globale Regel "GitHub Actions sparsam" (cubeescape-rules 1.15). Führt genau die Befehle aus
 # `.ce-repo.json` › check.quick aus, die eine Sitzung mit ./check lokal laufen lässt; Blender-, Bild- und Mac-Stufen bleiben
 # beim Nachtlauf auf dem Mac. Push nur auf main, andere Branches über ihren Pull Request, Doku löst nichts aus.
+# Werkzeuge ohne eingebettete Kopie (Motiongen 0.13): der Schritt ce-tools holt ce-agent-tools am Commit aus
+# `.ce-repo.json` › tools_version und setzt CE_TOOLS; `uses:` nennt denselben Commit.
 name: check
 
 on:
@@ -31,5 +33,7 @@ jobs:
         run: |
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
           pip install numpy
+      - name: Werkzeuge aus ce-agent-tools (tools_version)
+        uses: ffunkfabian-hash/ce-agent-tools/.github/actions/ce-tools@7753058caf37f448a55e42ba3de177a9ecdaef70
       - name: check.quick aus .ce-repo.json
         run: ./ce check

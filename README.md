@@ -15,6 +15,7 @@ Toolgen und das Design-Repo lesen hier; entschieden und umgesetzt wird dort.
 | `data/clips.json` | Clip-Verzeichnis: Messung, Clip-URL, Quelle, Zeitstempel |
 | `tools/reference_frames.py` | Werkzeug: Clips finden/laden, Kontaktbögen (2/s, 10/s, native Rate), Mittenkreuz |
 | `tests/` | Werkzeugtests (`./check`) |
+| `ce` | Einstieg in die gemeinsamen Werkzeuge (Lader aus ce-agent-tools, Stand in `.ce-repo.json` › `tools_version`; keine eingebettete Kopie) |
 | `docs/versions/0.md` | Versionsberichte |
 
 Prüfen: `./check`. Messen: `python3 tools/reference_frames.py --help` (Ablauf in `docs/destiny2.md` › 2 › Methode).

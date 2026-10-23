@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.13.0 „Lightfoot“ – 2026-10-23
+
+- Eingebettete Werkzeugkopie `tools/ce_tools` (34 Dateien) entfernt (Entscheidung des Nutzers 23.10.2026, Nexogen › Werkzeugstopp und Sync nach Bedarf). `./ce` ist jetzt der Lader aus Agent Tools 0.20 „Lodestar“ und führt genau den Stand aus `.ce-repo.json` › `tools_version` aus (installiertes Plugin mit diesem Commit, Cache `~/.cache/ce-agent-tools`, sonst Download aus dem öffentlichen ce-agent-tools).
+- `.mcp.json` startet `ce-search` über `python3 ce search serve`; der PR-Check holt die Werkzeuge mit dem Schritt `ce-tools` am selben Commit. Kein `tidy`-Eintrag: Motiongen schreibt Clips und Bögen nur in Scratch-Ordner. Fachdaten unverändert. [Bericht](docs/versions/0.md#0130-lightfoot--2026-10-23).
+
 ## tools-0.16 „Tidemark“ – 2026-10-22
 
 - Gemeinsame Werkzeuge über `ce_sync.py` aus Agent Tools 0.16 (ce-agent-tools#15): `./ce plugins check|fix` hält die Claude-Code-Installationen von ce-shared auf einer Version (je Worktree ein Eintrag, Update erreicht sie nicht sicher); der SessionStart-Hook des Plugins warnt bei älterem ce-shared.
