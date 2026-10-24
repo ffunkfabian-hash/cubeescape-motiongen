@@ -1072,5 +1072,107 @@
     "clip": "https://www.youtube.com/watch?v=MM9db665Urg",
     "source": "Tigerfield (YouTube), 60 fps; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
     "timestamps": "je Spiel ein Zielbild, ±1 s; Zuordnung Art A–E"
+  },
+  {
+    "measurement": "Visier Destiny 2: Tex Mechanica Long Arm (Korn mit Schutzflügeln), Nachprüfung Antigravity",
+    "clip": "https://www.youtube.com/watch?v=6TV5PKyv-Kk",
+    "source": "Ultraclocked (YouTube), 18.12.2022, 1080p60; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "25 s (Zielbild); MG-Holo 46 s"
+  },
+  {
+    "measurement": "Absehen Destiny 2: VEIST-Keile, Dauerfeuer-Ring (Valakadyn)",
+    "clip": "https://www.youtube.com/watch?v=afs_dhFDhQU",
+    "source": "Ultraclocked (YouTube), 09.02.2020, 1080p60; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "Death Adder 151 s · Rattler 276 s · Valakadyn 347,5–348,9 s"
+  },
+  {
+    "measurement": "Visier Marathon: Wärmebild-Zielfernrohr (Vollbild, violett)",
+    "clip": "https://www.youtube.com/watch?v=FEW1ZkadfM8",
+    "source": "Aculite (YouTube), 01.03.2026, 1080p60 (vor Release); REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "21 s · 156 s"
+  },
+  {
+    "measurement": "Visiere Titanfall 2: HCOG, CAR (kein Weltzoom), Longbow/Kraber-Overlay",
+    "clip": "https://www.youtube.com/watch?v=4sDwTD9U8bw",
+    "source": "Weapons From Games (YouTube), 1080p60; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "CAR 94,3 → 96,0 s · HCOG 184,5 → 188 s · Longbow 548,80–548,85 s · Kraber 590,23–590,27 s"
+  },
+  {
+    "measurement": "Visiere Rainbow Six Siege: Reflex/Holo und Ring-Zielfernrohre (Rang #16 … #1)",
+    "clip": "https://www.youtube.com/watch?v=Wib_5yd2mWk",
+    "source": "BeastModPlayer (YouTube), 15.04.2024, 1080p60, geschnitten (Zeiten ±6 s); REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "#7 ≈ 7:40 · #4 ≈ 10:00 · #3 ≈ 10:36 · #1 ≈ 11:50"
+  },
+  {
+    "measurement": "Visier CS:GO-AUG (Szene von 2018 im CS2-Video): Öffnung, Gehäuse, Glas gegen Hüfte",
+    "clip": "https://www.youtube.com/watch?v=fIscQmMHys4",
+    "source": "NartOutHere (YouTube), 02.05.2025, 1080p60; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "0:15–0:25 (CS:GO-Szene) · SG 553 Hüfte 5:03"
+  },
+  {
+    "measurement": "Zielfernrohr Overwatch 2: Widowmaker-Overlay, Waffe weg in 1 Bild",
+    "clip": "https://www.youtube.com/watch?v=Qh7gYQpSq0Y",
+    "source": "iFaiiLed (YouTube), 07.11.2022, 59,94 fps (gemessen bei 10/s); REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "22,7 → 22,8 s · 43,2 → 43,3 s"
+  },
+  {
+    "measurement": "Visier Overwatch 2: Ashe-Hörnerkorn, Weltzoom 1,6",
+    "clip": "https://www.youtube.com/watch?v=NH0Qs8EXWOY",
+    "source": "lonesomary (YouTube), 08.06.2025, 60 fps, Abschnitt 10–310 s (Dateizeiten); REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "37,2 → 37,3 s"
+  },
+  {
+    "measurement": "Visiere The Finals: Holo-Fenster, Magnifex (Weltzoom 1,3), PIKE-556-Zielfernrohr",
+    "clip": "https://www.youtube.com/watch?v=ILLTAgWBT4w",
+    "source": "HazedNConfused (YouTube), 17.09.2025, 1080p60; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "21 · 63 s (PIKE) · 94 · 170 · 200 s · Magnifex 290,98 → 291,45 s"
+  },
+  {
+    "measurement": "Visiere Helldivers 2: Sightliner, Nova, AMR-20; Kamerasprung und schwarze Linse",
+    "clip": "https://www.youtube.com/watch?v=VawsGNra7tg",
+    "source": "Jumpycode (YouTube), 20.10.2026, 1080p60; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "Übergang 113,750 → 113,767 s, Linse schwarz bis 113,883 s · 25 · 128 · 262 s"
+  },
+  {
+    "measurement": "Visiere Tarkov: ACOG, PSO-1, EOTech; Außenzoom gegen Linsenbild",
+    "clip": "https://www.youtube.com/watch?v=aGkRvi6V0O8",
+    "source": "Syrekx (YouTube), 30.09.2023, 1080p60; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "ACOG 1:50–1:56 · EOTech 4:34–4:42 · PSO-1 8:13–8:20"
+  },
+  {
+    "measurement": "Visiere Insurgency Sandstorm: Linsenbild, Holo, Messing-Zielfernrohr",
+    "clip": "https://www.youtube.com/watch?v=61ikyEt9CM8",
+    "source": "Sick Snipes (YouTube), 28.09.2021, 1080p60; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "Holo 1:34–1:48 · Kasten 2:25–2:46"
+  },
+  {
+    "measurement": "Visiere Borderlands 3: Vladof 3,3×/5,0× (Weltzoom = Teilname), ADS-Zeiten",
+    "clip": "https://www.youtube.com/watch?v=Nwp4VJWUujY",
+    "source": "Agent Lomax (YouTube), 02.10.2019, 60 fps; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "3,3× 334,05 → 334,35 s · 5,0× 336,60 → 336,95 s"
+  },
+  {
+    "measurement": "Visier Borderlands 3: Hyperion 4,4× (Weltzoom 4,47), Schnitt auf Vollbild",
+    "clip": "https://www.youtube.com/watch?v=3T2UZUYPzEc",
+    "source": "Agent Lomax (YouTube), 15.03.2020, 60 fps; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "384,03 → Schnitt 384,28 → ruhig 384,68 s"
+  },
+  {
+    "measurement": "Visiere Cyberpunk 2077: Reflexe und Prospecta",
+    "clip": "https://www.youtube.com/watch?v=crGei3_OARY",
+    "source": "Akooma (YouTube), 16.12.2020, 60 fps; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "3,3 · 10 · 23 · 33 · 47 · 70 · 126–133 s"
+  },
+  {
+    "measurement": "Zoom-Overlay Warframe: Vulkar (Weltzoom 2,8), Snipetron, Rubico",
+    "clip": "https://www.youtube.com/watch?v=te0K_V1U2ok",
+    "source": "MCGamerCZ (YouTube), 28.12.2015, variable Bildrate; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "Hüfte 47 s · Vulkar 168 s · Snipetron 49–58 s · Rubico 274 s"
+  },
+  {
+    "measurement": "Zielfernrohr Arc Raiders: Osprey-Kreislinse",
+    "clip": "https://www.youtube.com/watch?v=MlK0E83JfEE",
+    "source": "TayXDc (YouTube), 03.11.2025, 60 fps; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "332 s · 376 s"
   }
 ]

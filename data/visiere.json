@@ -3,7 +3,7 @@
  "name": "Eyebox",
  "date": "2026-10-24",
  "doc": "docs/visiere.md",
- "units": "Prozent der Bildbreite (aperture/housing), Ursprung oben links; frame_ratio = Rahmen je Seite / Öffnung; world_zoom_image_scale = Bildmaßstab Hüfte → Zielen außen (nicht Winkelzoom)",
+ "units": "Prozent der Bildbreite (aperture/housing), Ursprung oben links; frame_ratio = Rahmen je Seite / Öffnung; world_zoom_image_scale = Bildmaßstab Hüfte → Zielen außerhalb der Linse (nicht Winkelzoom); lens_zoom_vs_hip = Bildmaßstab im Glas gegen das Hüftbild; ads_in_s nur aus 60/s",
  "status": {
   "M": "gemessen",
   "S": "Sekundärquelle",
@@ -267,6 +267,7 @@
    "housing_w_pct": 26.9,
    "frame_ratio": 0.15,
    "world_zoom_image_scale": 2.0,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": 0.22,
    "status": "M",
    "source": {
@@ -287,6 +288,7 @@
    "housing_w_pct": 23.0,
    "frame_ratio": 0.08,
    "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": null,
    "status": "M",
    "source": {
@@ -307,6 +309,7 @@
    "housing_w_pct": null,
    "frame_ratio": null,
    "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": null,
    "status": "M",
    "source": {
@@ -327,6 +330,7 @@
    "housing_w_pct": null,
    "frame_ratio": 0.06,
    "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": null,
    "status": "M",
    "source": {
@@ -347,6 +351,7 @@
    "housing_w_pct": null,
    "frame_ratio": null,
    "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": null,
    "status": "M",
    "source": {
@@ -367,6 +372,7 @@
    "housing_w_pct": 12.0,
    "frame_ratio": null,
    "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": null,
    "status": "C",
    "source": {
@@ -387,6 +393,7 @@
    "housing_w_pct": 31.6,
    "frame_ratio": 0.15,
    "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": null,
    "status": "M",
    "source": {
@@ -407,6 +414,7 @@
    "housing_w_pct": 33.5,
    "frame_ratio": 0.18,
    "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": null,
    "status": "M",
    "source": {
@@ -427,6 +435,7 @@
    "housing_w_pct": 23.4,
    "frame_ratio": null,
    "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": null,
    "status": "M",
    "source": {
@@ -447,6 +456,7 @@
    "housing_w_pct": 25.0,
    "frame_ratio": 0.07,
    "world_zoom_image_scale": 1.0,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": null,
    "status": "M",
    "source": {
@@ -467,6 +477,7 @@
    "housing_w_pct": 34.5,
    "frame_ratio": 0.18,
    "world_zoom_image_scale": 1.0,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": 0.25,
    "status": "M",
    "source": {
@@ -487,6 +498,7 @@
    "housing_w_pct": 13.8,
    "frame_ratio": 0.26,
    "world_zoom_image_scale": 1.0,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": null,
    "status": "M",
    "source": {
@@ -507,6 +519,7 @@
    "housing_w_pct": 24.0,
    "frame_ratio": null,
    "world_zoom_image_scale": 1.0,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": 0.18,
    "status": "M",
    "source": {
@@ -527,6 +540,7 @@
    "housing_w_pct": null,
    "frame_ratio": null,
    "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": null,
    "status": "M",
    "source": {
@@ -547,6 +561,7 @@
    "housing_w_pct": null,
    "frame_ratio": 0.07,
    "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": null,
    "status": "M",
    "source": {
@@ -567,6 +582,7 @@
    "housing_w_pct": null,
    "frame_ratio": 0.05,
    "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": null,
    "status": "M",
    "source": {
@@ -587,6 +603,7 @@
    "housing_w_pct": 37.0,
    "frame_ratio": 0.21,
    "world_zoom_image_scale": 2.5,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": 0.2,
    "status": "M",
    "source": {
@@ -607,6 +624,7 @@
    "housing_w_pct": 11.0,
    "frame_ratio": 0.1,
    "world_zoom_image_scale": 1.68,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": 0.133,
    "status": "M",
    "source": {
@@ -627,6 +645,7 @@
    "housing_w_pct": 38.0,
    "frame_ratio": 0.33,
    "world_zoom_image_scale": 3.86,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": null,
    "status": "M",
    "source": {
@@ -647,6 +666,7 @@
    "housing_w_pct": null,
    "frame_ratio": null,
    "world_zoom_image_scale": 8.8,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": 0.35,
    "status": "M",
    "source": {
@@ -667,6 +687,7 @@
    "housing_w_pct": 39.0,
    "frame_ratio": 0.35,
    "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": null,
    "status": "M",
    "source": {
@@ -687,6 +708,7 @@
    "housing_w_pct": 60.0,
    "frame_ratio": 0.5,
    "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": null,
    "status": "M",
    "source": {
@@ -707,6 +729,7 @@
    "housing_w_pct": null,
    "frame_ratio": null,
    "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": null,
    "status": "M",
    "source": {
@@ -727,7 +750,8 @@
    "housing_w_pct": 30.0,
    "frame_ratio": 0.18,
    "world_zoom_image_scale": 2.9,
-   "ads_in_s": 0.17,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": null,
    "status": "M",
    "source": {
     "channel": "Hoodiewaffles",
@@ -736,7 +760,7 @@
     "t_s": "15.2",
     "fps": 30
    },
-   "note": "30/s"
+   "note": "30/s – keine Zeit"
   },
   {
    "game": "Halo Infinite",
@@ -747,6 +771,7 @@
    "housing_w_pct": null,
    "frame_ratio": null,
    "world_zoom_image_scale": 4.15,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": null,
    "status": "M",
    "source": {
@@ -767,6 +792,7 @@
    "housing_w_pct": null,
    "frame_ratio": null,
    "world_zoom_image_scale": 2.33,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": null,
    "status": "M",
    "source": {
@@ -787,6 +813,7 @@
    "housing_w_pct": 28.0,
    "frame_ratio": 0.24,
    "world_zoom_image_scale": 1.0,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": 0.2,
    "status": "M",
    "source": {
@@ -807,6 +834,7 @@
    "housing_w_pct": null,
    "frame_ratio": null,
    "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": null,
    "status": "M",
    "source": {
@@ -827,6 +855,7 @@
    "housing_w_pct": null,
    "frame_ratio": null,
    "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": null,
    "status": "M",
    "source": {
@@ -847,6 +876,7 @@
    "housing_w_pct": null,
    "frame_ratio": null,
    "world_zoom_image_scale": 3.34,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": null,
    "status": "M",
    "source": {
@@ -867,6 +897,7 @@
    "housing_w_pct": 22.0,
    "frame_ratio": null,
    "world_zoom_image_scale": 1.44,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": null,
    "status": "M",
    "source": {
@@ -887,6 +918,7 @@
    "housing_w_pct": 20.0,
    "frame_ratio": 0.41,
    "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": null,
    "status": "M",
    "source": {
@@ -907,6 +939,7 @@
    "housing_w_pct": 33.0,
    "frame_ratio": 0.29,
    "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": null,
    "status": "M",
    "source": {
@@ -919,14 +952,15 @@
    "note": "Glas vergrößert [O]"
   },
   {
-   "game": "Counter-Strike 2",
-   "optic": "AUG",
+   "game": "Counter-Strike: Global Offensive",
+   "optic": "AUG (Szene von 2018 im CS2-Video)",
    "class": "rifle",
    "see_through": "D",
    "aperture_w_pct": 30.0,
    "housing_w_pct": 67.0,
    "frame_ratio": null,
-   "world_zoom_image_scale": 2.65,
+   "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": 2.65,
    "ads_in_s": null,
    "status": "M",
    "source": {
@@ -936,7 +970,7 @@
     "t_s": "20",
     "fps": 60
    },
-   "note": "Szene aus CS:GO 2018"
+   "note": "Glas gegen Hüfte 2,6–2,7; Außenmaßstab nicht gemessen"
   },
   {
    "game": "Overwatch 2",
@@ -946,17 +980,18 @@
    "aperture_w_pct": 50.0,
    "housing_w_pct": null,
    "frame_ratio": null,
-   "world_zoom_image_scale": 6.0,
+   "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": null,
    "status": "M",
    "source": {
     "channel": "iFaiiLed",
     "youtube_id": "Qh7gYQpSq0Y",
     "upload_date": "2022-11-07",
-    "t_s": null,
+    "t_s": "22.8",
     "fps": 60
    },
-   "note": "Overlay 0,4–0,5 s eingeblendet"
+   "note": "Weltzoom ≈ 6 [O] (Kamera nickte); Waffe weg in 1 Bild, Overlay 0,4–0,5 s (10/s)"
   },
   {
    "game": "The Finals",
@@ -967,6 +1002,7 @@
    "housing_w_pct": 21.0,
    "frame_ratio": 0.17,
    "world_zoom_image_scale": 1.3,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": null,
    "status": "M",
    "source": {
@@ -987,6 +1023,7 @@
    "housing_w_pct": 56.0,
    "frame_ratio": 0.15,
    "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": null,
    "status": "M",
    "source": {
@@ -1007,6 +1044,7 @@
    "housing_w_pct": 27.0,
    "frame_ratio": 0.15,
    "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": null,
    "status": "M",
    "source": {
@@ -1020,23 +1058,45 @@
   },
   {
    "game": "Escape from Tarkov",
-   "optic": "ACOG",
+   "optic": "ACOG TA01NSN",
    "class": "rifle",
    "see_through": "D",
    "aperture_w_pct": 28.0,
    "housing_w_pct": 51.0,
    "frame_ratio": null,
-   "world_zoom_image_scale": 2.4,
+   "world_zoom_image_scale": 2.43,
+   "lens_zoom_vs_hip": 8.0,
    "ads_in_s": null,
    "status": "M",
    "source": {
     "channel": "Syrekx",
     "youtube_id": "aGkRvi6V0O8",
     "upload_date": "2023-09-30",
-    "t_s": null,
+    "t_s": "110",
     "fps": 60
    },
-   "note": "Glas zusätzlich ×3,3 gegen außen"
+   "note": "Glas gegen außen ×3,3"
+  },
+  {
+   "game": "Escape from Tarkov",
+   "optic": "PSO-1",
+   "class": "rifle",
+   "see_through": "D",
+   "aperture_w_pct": 28.0,
+   "housing_w_pct": 38.0,
+   "frame_ratio": null,
+   "world_zoom_image_scale": 2.43,
+   "lens_zoom_vs_hip": 8.8,
+   "ads_in_s": null,
+   "status": "M",
+   "source": {
+    "channel": "Syrekx",
+    "youtube_id": "aGkRvi6V0O8",
+    "upload_date": "2023-09-30",
+    "t_s": "493",
+    "fps": 60
+   },
+   "note": "Glas gegen außen ×3,6"
   },
   {
    "game": "Escape from Tarkov",
@@ -1047,13 +1107,14 @@
    "housing_w_pct": 20.0,
    "frame_ratio": null,
    "world_zoom_image_scale": 1.3,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": null,
    "status": "M",
    "source": {
     "channel": "Syrekx",
     "youtube_id": "aGkRvi6V0O8",
     "upload_date": "2023-09-30",
-    "t_s": null,
+    "t_s": "274",
     "fps": 60
    },
    "note": null
@@ -1067,6 +1128,7 @@
    "housing_w_pct": null,
    "frame_ratio": null,
    "world_zoom_image_scale": 4.99,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": 0.35,
    "status": "M",
    "source": {
@@ -1087,6 +1149,7 @@
    "housing_w_pct": null,
    "frame_ratio": null,
    "world_zoom_image_scale": 4.47,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": 0.65,
    "status": "M",
    "source": {
@@ -1107,6 +1170,7 @@
    "housing_w_pct": 53.0,
    "frame_ratio": null,
    "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": null,
    "status": "M",
    "source": {
@@ -1127,6 +1191,7 @@
    "housing_w_pct": null,
    "frame_ratio": null,
    "world_zoom_image_scale": 2.8,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": null,
    "status": "M",
    "source": {
@@ -1147,6 +1212,7 @@
    "housing_w_pct": null,
    "frame_ratio": null,
    "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
    "ads_in_s": null,
    "status": "M",
    "source": {
@@ -1161,6 +1227,9 @@
  ],
  "sniper_catalog_100_games": {
   "source": "MM9db665Urg",
+  "games": 100,
+  "assignments": 101,
+  "note": "Rising Storm 2: Vietnam zeigt zwei Zielfernrohre",
   "A": 53,
   "B": 6,
   "C": 36,
@@ -1301,7 +1370,7 @@
   "Form nach Visiertyp, Farbe nach Hersteller; Prisma-/Flachkasten nur als Variante",
   "Rahmen ≤ 0,15 × Öffnung (Ring/ZF), ≤ 0,10 × Öffnung oder glaslos (Reflex/Holo); Haube oben offen oder sehr dünn",
   "Öffnung im Zielen: Reflex 12–20 % B, Zielfernrohr 20–26 % B (außen ≤ 30 %); Bezugs-FOV festschreiben",
-  "Linse zeigt dasselbe Weltbild (eine Kamera), Welt außen scharf; ads_hide für Rohr/Okular behalten",
+  "Linse zeigt dasselbe Weltbild (eine Kamera; gemessen bei Apex/BF2042, bei Destiny offen), Welt außen scharf; ads_hide für Rohr/Okular behalten",
   "Sockel als verjüngtes Trapez mit Fasen, Anzeigen unter der Visierlinie im Sockel",
   "Weltzoom als Bildmaßstab angeben; Werte je Klasse liegen im beobachteten Bereich",
   "Absehen fein, im Zielen kein Aufgehen, Ring beim Schuss, Farbe einstellbar",

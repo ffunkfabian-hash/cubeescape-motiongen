@@ -49,12 +49,12 @@ Spielerstimmen ohne prüfbare Adresse.
 |---|---|---|---|---|---|
 | **A – 2D-Vollbild** <a id="v-art-a"></a> | gezeichnetes Bild (Kreis, Rechteck, Fenster), außen schwarz oder Vignette | ausgeblendet | schwarz | harter Schnitt nach kurzer Hebebewegung | Scharfschützen in Destiny 2, Halo, BF4 ab 6×, CS2, Valorant, Titanfall 2, Marathon, Overwatch 2, Borderlands 3 (Vladof/Hyperion/Jakobs/Maliwan), Arc Raiders |
 | **B – HUD-Überlagerung** <a id="v-art-b"></a> | holografischer Rahmen mit Anzeigen über der Welt | ausgeblendet | sichtbar, abgedunkelt | Schnitt in 1 Bild | Halo 3 (Karabiner 2,33×, Schnitt 190,858 → 190,874), Halo Infinite Smart-Link, Warframe |
-| **C – 3D-Visier, eine Kamera** <a id="v-art-c"></a> | Visiermodell vor dem Auge, Glas zeigt dasselbe Weltbild | sichtbar (Gehäuse, Sockel, teils Hände) | scharf oder tiefenunscharf | Modell wandert zur Achse, Zoom läuft mit | Destiny 1/2 (Holo, Ring, Scout), Apex (3× Ranger: Glas 2,43× = außen 2,51×), BF2042 (mittleres ZF: Glas 3,83× = außen 3,86×), BF4 bis 4×, Valorant, Marathon, Siege |
+| **C – 3D-Visier, eine Kamera** <a id="v-art-c"></a> | Visiermodell vor dem Auge, Glas zeigt dasselbe Weltbild | sichtbar (Gehäuse, Sockel, teils Hände) | scharf oder tiefenunscharf | Modell wandert zur Achse, Zoom läuft mit | gemessen: Apex (3× Ranger: Glas 2,43× = außen 2,51×), BF2042 (mittleres ZF: Glas 3,83× = außen 3,86×); gesichtet: BF4 bis 4×, Valorant, Marathon, Siege, Destiny 1/2 (Holo, Ring, Scout – Glas gegen außen in Destiny **nicht belegt**, siehe [12](#12-offen-und-nicht-messbar)) |
 | **D – 3D-Visier mit Linsenbild (PiP)** <a id="v-art-d"></a> | Glas zeigt ein eigenes, stärker vergrößertes Bild | sichtbar | außen weniger vergrößert | Modell wandert, Linse ggf. kurz dunkel | Tarkov (außen 2,4×, Glas zusätzlich 2,3–3,7×), Insurgency Sandstorm (schaltbar), Helldivers 2, The Finals, Cyberpunk (große Optiken), Wärmebild-Optiken in MW2019 und BF6 |
 | **E – kein Zielen** <a id="v-art-e"></a> | Hüftbild bleibt, nur Fadenkreuz | Hüftlage | unverändert | – | CS2 (außer Zielfernrohren), Valorant-Pistolen/Schrot (nur Alternativfeuer), Overwatch Cassidy, Halo 3/Reach bei Nahkampfwaffen |
 
-**Scharfschützen in 100 Spielen** (Katalogvideo Tigerfield `MM9db665Urg`, 60/s, ±4 Punkte) <a id="v-katalog-100"></a>: A 53, C 36,
-B 6, D 5, sonstige 1. A dominiert bis 2013 (80 % bis 2005, 60 % 2010–13), C steigt ab 2014 auf 55 %; D erst ab 2016 (Tarkov, Day of
+**Scharfschützen in 100 Spielen** (Katalogvideo Tigerfield `MM9db665Urg`, 60/s, ±4 Punkte; 101 Zuordnungen, weil *Rising Storm 2:
+Vietnam* zwei Zielfernrohre zeigt) <a id="v-katalog-100"></a>: A 53, C 36, B 6, D 5, sonstige 1. A dominiert bis 2013 (80 % bis 2005, 60 % 2010–13), C steigt ab 2014 auf 55 %; D erst ab 2016 (Tarkov, Day of
 Infamy, Sandstorm, Ring of Elysium; Ausnahme Contract Wars 2010). Call of Duty wechselt mit *Ghosts* (2013) von A auf C, Battlefield
 bleibt überwiegend A (auch BF5), Counter-Strike, GTA und STALKER durchgehend A, Crysis und Killing Floor durchgehend C. Typ-A-Scheibe meist
 80–100 % H (Median ≈ 90 %), Typ-C-Öffnung 40–85 % H.
@@ -120,7 +120,7 @@ die Öffnung; Weltzoom = Bildmaßstab Hüfte → Zielen außen. Zeiten: Bewegung
 | BF4 · Coyote / HD-33 / PKA-S | C | 21 / 20 / 24,5 | 22 / 33 / 34 | 0,05 / 0,3 / 0,2 | – | – | ebd., 32 / 62 / 72 s [M] |
 | BF4 · M145 3,4× | C (Tunnel) | 30 (52 % H) | 60 | 0,5 | – | – | ebd., 107 s [M] |
 | BF4 · Scharfschütze 6–40× | A | Kreis ≈ 45 % B / 80 % H | – | – | 6–40× [S] | – | ebd., 221 s [M] |
-| CoD MW2019 · Cronen 2x2 Elite | C | 22 | 30 | 0,18 | 2,9 außen | ≈ 0,17 s (30/s, 5 Bilder) | Hoodiewaffles, `qI_IWMuH_Zs`, 18.08.2020, 15,0–15,2 s [M] |
+| CoD MW2019 · Cronen 2x2 Elite | C | 22 | 30 | 0,18 | 2,9 außen | – (30/s) | Hoodiewaffles, `qI_IWMuH_Zs`, 18.08.2020, 15,0–15,2 s [M] |
 | CoD MW2019 · Reflex / Brownlee / PU Scope | C | 10 / 33 / 47 | ≈ 15 / 40 / 56 | ≈ 0,25 / 0,1 / 0,1 | – | – | ebd., 82 / 112 / 240 s [M] |
 | **Halo Infinite · Commando 3,0×** <a id="v-halo"></a> | B | Rahmen 25–72 % B | – | – | **4,15** | Schnitt 134,500 → 134,517 | Abyssopelagic, `ZfNuA5r-470`, 30.07.2021, 134,5 s [M] |
 | Halo 3 · Karabiner | B | Wabenrahmen 32–68 % B | – | – | 2,33 | Schnitt in 1 Bild | Weapons From Games, `X_ADv1HMwkg`, 14.07.2020, 190,86 s [M] |
@@ -130,12 +130,12 @@ die Öffnung; Weltzoom = Bildmaßstab Hüfte → Zielen außen. Zeiten: Bewegung
 | Valorant · Stinger / Phantom (Kimme) | C | Kimme ≈ 10 | Waffe 22 | – | 1,25–1,27 / 1,43–1,44 | – | ebd., 233 / 367 s [M] |
 | Siege · Reflex/Holo (#3, #4, #7) | C | 11–16 | 20–28 | 0,25–0,4 | – | – | BeastModPlayer, `Wib_5yd2mWk`, 15.04.2024 [M] |
 | Siege · Ring-ZF (#1, #10) | C | 21–27 | 33–41 | 0,25–0,3 | Glas vergrößert [O] | – | ebd. [M] |
-| CS2 · AUG | D | 28–31 | 61–74 | ≈ 0,6 | Glas 2,6–2,7 | – | NartOutHere, `fIscQmMHys4`, 02.05.2025 [M] |
-| Overwatch 2 · Widowmaker / Ashe | A / C | Ring ≈ 50 % B / Hörner-Korn 41–59 % | – | – | ≈ 6 / 1,6 | Waffe weg in 1 Bild, Overlay 0,4–0,5 s | iFaiiLed `Qh7gYQpSq0Y`; lonesomary `NH0Qs8EXWOY` [M] |
+| CS:GO · AUG (Szene von 2018 im CS2-Video) | D | 28–31 | 61–74 | ≈ 0,6 | außen nicht gemessen; Glas 2,6–2,7 gegen Hüfte | – | NartOutHere, `fIscQmMHys4`, 02.05.2025, 0:15–0:25 [M] |
+| Overwatch 2 · Widowmaker / Ashe | A / C | Ring ≈ 50 % B / Hörner-Korn 41–59 % | – | – | ≈ 6 [O] / 1,6 | Waffe weg in 1 Bild, Overlay 0,4–0,5 s (10/s) | iFaiiLed `Qh7gYQpSq0Y`, 07.11.2022, 22,7–23,3 s; lonesomary `NH0Qs8EXWOY`, 08.06.2025, 37,2 s [M] |
 | The Finals · Holo / Magnifex | D | 15,6–18 | 21–25 | ≈ 0,1–0,2 | 1,3 außen | ≤ 1 Bild | HazedNConfused, `ILLTAgWBT4w`, 17.09.2025, 291 s [M] |
 | The Finals · PIKE-556-ZF | D | 29–33 | 56 | 0,15 | – | aus ≤ 0,25 s | ebd., 63 s [M] |
 | Helldivers 2 · Sightliner / AMR-20 | D | 18–21 / 20 | 22–31 / 38–42 | ≈ 0,15 | – | Schnitt, Linse 5 Bilder schwarz | Jumpycode, `VawsGNra7tg`, 20.10.2026, 113,75 s [M] |
-| Tarkov · ACOG / PSO-1 / EOTech | D / D / C | 28 / 28 / 12 | 51 / – / 20 | – | außen 2,4 (Holo 1,3); Glas +3,3 / +3,6 | – | Syrekx, `aGkRvi6V0O8`, 30.09.2023 [M] |
+| Tarkov · ACOG / PSO-1 / EOTech | D / D / C | 28 / 28 / 12 | 51 / 38 / 20 | – | außen 2,43 / 2,43 / 1,3; Glas gegen Hüfte 8,0 / 8,8 / – | – | Syrekx, `aGkRvi6V0O8`, 30.09.2023, 1:50 / 8:13 / 4:34 [M] |
 | Borderlands 3 · Vladof 3,3× / 5,0× | A | Kreuz 23–76 % B / Kreis 93 % B | – | – | 3,32 / 4,99 (= Teilname) | 0,30 / 0,35 s | Agent Lomax, `Nwp4VJWUujY`, 02.10.2019, 334 / 337 s [M] |
 | Borderlands 3 · Hyperion 4,4× | A | Fünfeck-Rahmen | – | – | 4,47 | 0,65 s inkl. Beruhigung | Agent Lomax, `3T2UZUYPzEc`, 15.03.2020, 384 s [M] |
 | Cyberpunk · Prospecta / Reflexe | D / C | 41 / 4–10 | 53 / 6–14 | – | Glas > außen [O] | – | Akooma, `crGei3_OARY`, 16.12.2020 [M] |
@@ -269,7 +269,8 @@ Quellenliste mit Adressen: `data/visiere.json` › `community_sources`.
 2. **Das Waffenmodell zoomt nicht mit.** Das Fenster bleibt beim Wechsel der Vergrößerung gleich groß (Apex 1–2×), nur die Welt
    zoomt; das Visier steht im Zielen fest auf dem Zielpunkt.
 3. **Zielfernrohre stilisierter Spiele sind Vollbilder (A) mit eigener Kontur je Waffe** (Destiny Kreis, Marathon Rechtecke,
-   Borderlands Herstellerform, Warframe Ornament); mittlere Optiken bleiben 3D mit **einer** Kamera (Destiny, Apex, BF2042).
+   Borderlands Herstellerform, Warframe Ornament); mittlere Optiken bleiben 3D mit **einer** Kamera (gemessen Apex, BF2042; Destiny
+   gesichtet, Glas gegen außen offen).
    Ein echtes Linsenbild (D) nutzen fast nur Realismus-Titel; es kostet Bildrate.
 4. **Weltzoom Hüfte → Zielen (Bildmaßstab):** Rotpunkt/Kimme 1,3–1,7 (BF2042 1,68, Valorant 1,27–1,44, The Finals 1,3), Destiny
    Automatik 1,84, Impuls 2,1, Scout 2,0; mittlere ZF 2,5–4 (Apex 2,5, BF2042 3,86, Halo 4,15); Scharfschützen 5–10+.
@@ -290,7 +291,7 @@ klobig“ und mag den Destiny-Stil, ohne ihn zu kopieren.
 | Visiertyp je Klasse | Destiny: Form nach Visiertyp, Farbe nach Hersteller ([3](#3-visiertyp-je-waffenklasse)) | Automatik/MP: offenes Holo-Rundrechteck oder Ring; Impuls/Scout: Ring-Zielfernrohr kurz; Handfeuerwaffe/Sidearm/Schrot: Kimme + leuchtende Klammern statt Optik; Scharfschütze: Vollbild (Art A) mit eigener Kontur; Fusion: Ring/Doppelring; Werfer: runde Linse mit Chevron. Der Prisma-/Flachkasten (`box_scope_v21`) nur als Variante, nicht als Standard am Scout |
 | Rahmen und Öffnung | Destiny Ring 0,15, Reflex 0,08, Hersteller 1 : 8 bis 1 : 12; klobig = große, hohe Gehäuse | Ring/ZF: Rahmen ≤ 0,15 × Öffnung, Außen/Innen ≤ 1,3; Reflex/Holo: Rahmen ≤ 0,10 × Öffnung oder glaslos (nur Leuchtlinie); Haube oben offen oder sehr dünn (Häkke-Lücke, VEIST-Zinken) |
 | Bildanteil im Zielen | offene Visiere 12–20 % B (Destiny), 15–25 % (Marathon, Apex); Destiny-Scout-Öffnung 21 %, außen 27 % | Reflex-Ziel von 18–26 % auf **12–20 % B** senken; Zielfernrohr von 26–34 % auf **20–26 % B** (außen ≤ 30 %); Bezugs-FOV im Standard festschreiben, weil der Anteil mit dem FOV wächst ([Titanfall 1](#v-tf1-fov)) |
-| Durchblick | Destiny/Apex/BF2042: 3D-Visier, **eine** Kamera, Welt außen scharf; Linsenbild nur bei Realismus, kostet Bildrate | `lens_picture` als **gleiches** Weltbild (eine Kamera, Weltzoom) statt eigener Render-Textur; Außenwelt scharf, höchstens leichte Vignette; `ads_hide` für Rohr/Okular beibehalten (sichtbar bleiben Objektivring, Sockel, Waffenoberkante) |
+| Durchblick | Apex/BF2042 gemessen: 3D-Visier mit **einer** Kamera; Destiny: 3D-Visier, Welt außen scharf, Glas gegen außen offen; Linsenbild sonst nur bei Realismus, kostet Bildrate | `lens_picture` als **gleiches** Weltbild (eine Kamera, Weltzoom) statt eigener Render-Textur; Außenwelt scharf, höchstens leichte Vignette; `ads_hide` für Rohr/Okular beibehalten (sichtbar bleiben Objektivring, Sockel, Waffenoberkante) |
 | Sockel und Höhe | Destiny-Rohr direkt auf der Gehäuseoberkante, Sockel trapezförmig verjüngt, Waffe taucht im Zielen ab (Oberkante 62–70 % H) | Sockel als verjüngtes Trapez mit Fasen statt Block; Visier so tief wie die 66-mm-Visierlinie es erlaubt, eher über eine flachere Waffenoberkante als über einen hohen Sockel; Anzeigen (Munition, Batterie) in die Sockel-Vorderseite **unter** die Visierlinie |
 | Weltzoom | Bildmaßstab: Automatik 1,84, Impuls 2,1, Scout 2,0, Rotpunkt 1,3–1,7, Scharfschütze 5–10 | Vorhandene Werte (Automatik ×1,9, Impuls ×2,0, Scout ×2,4) liegen im Bereich; im Standard angeben, ob Bildmaßstab oder Winkelzoom gemeint ist |
 | Absehen | Destiny: roter Punkt 0,7–1,5 % H ohne Glow, Glasgrafik 2–3 px, Schuss = Ring, Treffer = X, kein Aufblühen im Zielen | Standard-Linienstärke `fine`; im Zielen kein Aufgehen (`spread` beim Zielen nahe 0), stattdessen kurzer Ring beim Schuss; Punkt getrennt vom Glas am Zielpunkt; Farbe einstellbar (Spielerwunsch) |
