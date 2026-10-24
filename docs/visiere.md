@@ -264,9 +264,10 @@ Quellenliste mit Adressen: `data/visiere.json` › `community_sources`.
 
 ## 10. Muster und Unterschiede
 
-1. **Stilisierte Spiele (Destiny, Marathon, Apex, Titanfall, The Finals, Halo) halten offene Visiere schlank:** Rahmen ≤ 0,15 der
-   Öffnung, Öffnung 12–25 % B, Welt außen scharf. Militär-Realismus (BF4, Siege, Tarkov, Sandstorm) hat dickere Rahmen und größere
-   Gehäuse.
+1. **Stilisierte Spiele halten offene Visiere meist schlank:** Destiny 0,06–0,15 (Ringe, Kasten-Reflex), Apex 0,05–0,07, Marathon
+   Volt Thrower 0,07, The Finals 0,1–0,2; Ausnahmen mit dickerem Ring sind Titanfall-2-HCOG 0,24, Marathon Stryder 0,26 und Ares bis 0,2.
+   Öffnung 12–25 % B, Welt außen scharf. Militär-Realismus (BF4-Holo 0,35, Siege 0,25–0,4, Tarkov, Sandstorm) hat dickere Rahmen und
+   größere Gehäuse.
 2. **Das Waffenmodell zoomt nicht mit.** Das Fenster bleibt beim Wechsel der Vergrößerung gleich groß (Apex 1–2×), nur die Welt
    zoomt; das Visier steht im Zielen fest auf dem Zielpunkt.
 3. **Zielfernrohre stilisierter Spiele sind Vollbilder (A) mit eigener Kontur je Waffe** (Destiny Kreis, Marathon Rechtecke,
