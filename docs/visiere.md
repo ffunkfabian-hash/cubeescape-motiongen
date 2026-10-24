@@ -133,7 +133,7 @@ die Öffnung; Weltzoom = Bildmaßstab Hüfte → Zielen außen. Zeiten: Bewegung
 | Siege · Ring-ZF (#1, #10) | C | 21–27 | 33–41 | 0,25–0,3 | Glas vergrößert [O] | – | ebd. [M] |
 | CS:GO · AUG (Szene von 2018 im CS2-Video) | D | 28–31 | 61–74 | ≈ 0,6 | außen nicht gemessen; Glas 2,6–2,7 gegen Hüfte | – | NartOutHere, `fIscQmMHys4`, 02.05.2025, 0:15–0:25 [M] |
 | Overwatch 2 · Widowmaker / Ashe | A / C | Ring ≈ 50 % B / Hörner-Korn 41–59 % | – | – | ≈ 6 [O] / 1,6 | Waffe weg innerhalb ≤ 0,1 s (nur 10/s abgetastet), Overlay 0,4–0,5 s | iFaiiLed `Qh7gYQpSq0Y`, 07.11.2022, 22,7–23,3 s; lonesomary `NH0Qs8EXWOY`, 08.06.2025, 37,2 s [M] |
-| The Finals · Holo / Magnifex | D | 15,6–18 | 21–25 | ≈ 0,1–0,2 | 1,3 außen | ≤ 1 Bild | HazedNConfused, `ILLTAgWBT4w`, 17.09.2025, 291 s [M] |
+| The Finals · Holo / Magnifex | D | 15,6–18 | 21–25 | ≈ 0,1–0,2 | 1,3 außen (Bildpaar 290,98 / 291,45 s) | Gesamtdauer nicht belegt; Wechsel Hüftbild → Zielbild zwischen 291,017 und 291,033 s (Schnitt im Video möglich) | HazedNConfused, `ILLTAgWBT4w`, 17.09.2025, 291 s [M] |
 | The Finals · PIKE-556-ZF | D | 29–33 | 56 | 0,15 | – | aus ≤ 0,25 s | ebd., 63 s [M] |
 | Helldivers 2 · Sightliner / AMR-20 | D | 18–21 / 20 | 22–31 / 38–42 | ≈ 0,15 | – | Schnitt, Linse 5 Bilder schwarz | Jumpycode, `VawsGNra7tg`, 20.10.2026, 113,75 s [M] |
 | Tarkov · ACOG / PSO-1 / EOTech | D / D / C | 28 / 28 / 12 | 51 / 38 / 20 | – | außen 2,43 / 2,43 / 1,3; Glas gegen Hüfte 8,0 / 8,8 / – | – | Syrekx, `aGkRvi6V0O8`, 30.09.2023, 1:50 / 8:13 / 4:34 [M] |
