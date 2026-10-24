@@ -1,6 +1,6 @@
 {
   "name": "cubeescape-reference",
-  "version": "0.13.0",
+  "version": "0.13.1",
   "version_name": "Lightfoot",
   "check": {
     "quick": [
@@ -36,8 +36,8 @@
     "no_media": true
   },
   "tools_version": {
-    "version": "0.20.0",
-    "commit": "c7d03f40a869a7290067eaa8e61eb74c2860e888"
+    "version": "0.22.0",
+    "commit": "9f1ed12072c8807d3cd0b26370e792bd4249f762"
   },
   "docs": {
     "agent_sections": [
