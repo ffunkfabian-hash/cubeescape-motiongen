@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.14.0 „Eyebox“ – 2026-10-24
+
+- Neue Referenzanalyse [Visiere in Videospielen](docs/visiere.md) mit maschinenlesbarer Fassung `data/visiere.json`: fünf Darstellungsarten (Vollbild, HUD, 3D mit einer Kamera, 3D mit Linsenbild, kein Zielen), Visiertyp je Klasse, Zahlen im Zielen (Öffnung, Gehäuse, Rahmen/Öffnung, Weltzoom als Bildmaßstab, ADS-Zeit) für 26 Spiele, Scharfschützen-Katalog über 100 Spiele, Sitz-Faustregeln, Absehen, Glas, Spielerstimmen und Empfehlungen für BASIC (cubeescape-ballon). 16 Kernmessungen in `data/clips.json`.
+- Befund: „klobig“ entsteht durch große, hohe Gehäuse und Block-Sockel, nicht durch die Rahmenstärke (Destiny-Ring 0,15 × Öffnung); Weltzoom ist als Bildmaßstab zu messen, nicht als Winkelzoom; Titanfall skaliert das Visier mit dem FOV. Werkzeugbefund: `sheet` beschriftet Kacheln bei niedriger Bildrate zu früh (eigener Patch folgt). [Bericht](docs/versions/0.md#0140-eyebox--2026-10-24).
+
 ## 0.13.1 – 2026-10-24
 
 - Werkzeug-Pin auf ce-agent-tools 0.22.0 „Tollgate“ (`9f1ed12`, vorher 0.20.0 `c7d03f4`): `./ce session say/mail` mit Courier-Verbesserungen (Modellzeile, Kopie an Sightline bei PR/Merge, `ce-freigabe`-Erkennung, `--follow`), Merge-Sperre im Plugin; `.ce-repo.json`, `./ce`, PR-Check-Schritt. Kein Verhalten des Generators geändert.

@@ -409,6 +409,8 @@ aber keine isolierte Hüfte→ADS-Kennlinie liefert. Keine zusätzlichen Schlüs
 
 ### Fadenkreuz-Katalog – Stand nach dem PvE-Nachtrag
 
+**Ergänzung 0.14 (24.10.2026):** Visier-Formen, Absehen im Zielen (50 Waffen), Glas und Hersteller-Sprache sind in [visiere.md](visiere.md#7-absehen) zusammengeführt; die Tabelle unten bleibt der Stand vom 18.10.2026.
+
 **Grenze:** Aufblühen des HUD-Kreises und Rückkehr sind andere Messgrößen als Waffen-Kick oder Vergrößerung eines Optikgehäuses.
 Für keine neue PvE-Sequenz liegt hier ein isolierter nativer Bloom-/Rückkehrverlauf pro Schuss vor; **Befund 18.10.2026 (Sightline):** aus Stream-Clips nicht messbar (Zuschauer-Ansichten ohne Fadenkreuz, Visier im ADS, Kompression) – die Spalte wird erst mit eigenem Mitschnitt gefüllt (Methode 6).
 „Bestand“ verweist auf die bisherigen Beispiele in 2/3 und ist keine neue PvE-Messung. Nicht angegebene Größen, Zoomfaktoren und Farbwechsel
