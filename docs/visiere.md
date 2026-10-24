@@ -5,8 +5,8 @@ Waffen. Hier stehen Beobachtungen und Messwerte. Der Abschnitt [Empfehlungen fü
 ist ein **Vorschlag**; entschieden wird in BASIC. Maschinenlesbare Fassung: [`data/visiere.json`](../data/visiere.json).
 
 **Status:** **[M]** gemessen am Einzelbild (Raster 10 %, Mittenkreuz) oder per Bildvergleich; **[S]** Sekundärquelle (Wiki, Patchnotes,
-Einblendung im Spiel); **[C]** Community oder Zuarbeit einer anderen Sitzung (Antigravity), nur stichprobenweise nachgeprüft; **[O]**
-Sichtung ohne belastbare Zahl. Lage und Größe in Prozent der Bildbreite **B** bzw. Bildhöhe **H**, Ursprung oben links, Mitte 50/50 =
+Einblendung im Spiel); **[B]** Entwickler (Patchnotes, Studio, Community-Manager); **[C]** Community oder Zuarbeit einer anderen Sitzung (Antigravity), nur
+stichprobenweise nachgeprüft; **[O]** Sichtung ohne belastbare Zahl. Mischangaben wie [C/S] nennen alle zutreffenden Stufen. Lage und Größe in Prozent der Bildbreite **B** bzw. Bildhöhe **H**, Ursprung oben links, Mitte 50/50 =
 Zielpunkt, ±3 Prozentpunkte. Zeiten nur aus 60/s-Aufnahmen, ±1 Bild (16,7 ms). **Jede Zahl ist das Beispiel einer Optik mit
 unbekanntem FOV des Aufnehmenden**, kein Klassenmittel.
 

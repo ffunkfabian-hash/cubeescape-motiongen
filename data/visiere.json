@@ -6,10 +6,12 @@
  "units": "Prozent der Bildbreite (aperture/housing), Ursprung oben links; frame_ratio = Rahmen je Seite / Öffnung; world_zoom_image_scale = Bildmaßstab Hüfte → Zielen außerhalb der Linse (nicht Winkelzoom); lens_zoom_vs_hip = Bildmaßstab im Glas gegen das Hüftbild; ads_in_s nur aus 60/s",
  "status": {
   "M": "gemessen",
-  "S": "Sekundärquelle",
+  "S": "Sekundärquelle (Artikel, Wiki, Einblendung)",
+  "B": "Entwickler (Patchnotes, Studio, Community-Manager)",
   "C": "Community oder Zuarbeit anderer Sitzung",
   "O": "Sichtung ohne Zahl"
  },
+ "status_format": "optics[].status: ein Code; community_sources[].status: Liste der zutreffenden Codes, z. B. [\"B\", \"S\"] = Entwickleraussage über eine Sekundärquelle; status_note erläutert",
  "see_through": {
   "A": "2D-Vollbild, außen schwarz, Waffe weg",
   "B": "HUD-Überlagerung, Waffe weg, Welt abgedunkelt",
@@ -1383,357 +1385,472 @@
    "title": "EA Forum „Please give us option to turn off ADS blur“ (BF2042-Thread; nur Suchauszug)",
    "url": "https://answers.ea.com/t5/General-Discussion/Please-give-us-option-to-turn-off-ADS-blur/td-p/11008137",
    "date": "ca. 2021/22 (Thread ~4 J. alt)",
-   "status": "C"
+   "status": [
+    "C"
+   ]
   },
   {
    "id": "Q2",
    "title": "Steam BF6 „Blurry mess, Even on overkill settings.“ (9 Kommentare)",
    "url": "https://steamcommunity.com/app/2807960/discussions/0/811335793676341672/",
    "date": "17.–23.10.2025",
-   "status": "C"
+   "status": [
+    "C"
+   ]
   },
   {
    "id": "Q3",
    "title": "Steam BF6 „These red dots and scopes are breaking immersion“ (2 Kommentare)",
    "url": "https://steamcommunity.com/app/2807960/discussions/0/599667545349443149/",
    "date": "27.10.2025",
-   "status": "C"
+   "status": [
+    "C"
+   ]
   },
   {
    "id": "Q4",
    "title": "EA Forum BF6 „Accessibility Issue for Colorblind Players: Red Dot Sight Color“ u. a. (nur Suchauszug)",
    "url": "https://forums.ea.com/discussions/battlefield-6-general-discussion-en/accessibility-issue-for-colorblind-players-red-dot-sight-color/12765818",
    "date": "ca. Herbst 2025",
-   "status": "C"
+   "status": [
+    "C"
+   ]
   },
   {
    "id": "Q5",
    "title": "EA Forum BF6 „Why are the BF6 sniper scoped-in visuals so low resolution?“ (nur Suchauszug)",
    "url": "https://forums.ea.com/discussions/battlefield-6-general-discussion-en/why-are-the-bf6-sniper-scoped-in-visuals-so-low-resolution/12801066",
    "date": "ca. 2025/26",
-   "status": "C"
+   "status": [
+    "C"
+   ]
   },
   {
    "id": "Q6",
    "title": "Steam BF2042 „sniper glint scope“",
    "url": "https://steamcommunity.com/app/1517290/discussions/0/6393480947862232491/",
    "date": "16.–19.10.2023",
-   "status": "C"
+   "status": [
+    "C"
+   ]
   },
   {
    "id": "Q7",
    "title": "EA Community Update Tidal Strike (BF6): Reticles, Optics, Sights",
    "url": "https://www.ea.com/games/battlefield/battlefield-6/news/battlefield-6-community-update-tidal-strike",
    "date": "02.09.2026",
-   "status": "B"
+   "status": [
+    "B"
+   ]
   },
   {
    "id": "Q8",
    "title": "EA BF6 Game Update 1.4.3.0 (Patchnotes)",
    "url": "https://www.ea.com/games/battlefield/redsec/news/battlefield-6-game-update-1-4-3-0",
    "date": "14./15.09.2026",
-   "status": "B"
+   "status": [
+    "B"
+   ]
   },
   {
    "id": "Q9",
    "title": "GameGPU „Battlefield 6 … rework weapon sights“",
    "url": "https://en.gamegpu.com/news/igry/battlefield-6-izmenit-balans-tsuru-reef-i-pererabotaet-oruzhejnye-pritsely",
    "date": "03.09.2026",
-   "status": "S"
+   "status": [
+    "S"
+   ]
   },
   {
    "id": "Q10",
    "title": "GamerBlurb „Battlefield 6 Scope Glint Guide“ (Dev-Aussage nur hier, Primärquelle nicht gefunden)",
    "url": "https://gamerblurb.com/articles/battlefield-6-scope-glint-guide-what-scopes-have-glint",
    "date": "8. Aug (Jahr nicht angegeben, vermutlich 2025)",
-   "status": "S"
+   "status": [
+    "S"
+   ]
   },
   {
    "id": "Q11",
    "title": "Gamepressure BF4 Optics – Short Range (Guide)",
    "url": "https://www.gamepressure.com/battlefield4/optics-short-range/z05a7c",
    "date": "ca. 2013/14",
-   "status": "S"
+   "status": [
+    "S"
+   ]
   },
   {
    "id": "Q12",
    "title": "Battlelog BF4 Forum „Ranking the optics“ (nur Suchauszug; Seite lud nicht)",
    "url": "https://battlelog.battlefield.com/bf4/forum/threadview/2979150494029554549/",
    "date": "ca. 2013/14",
-   "status": "C"
+   "status": [
+    "C"
+   ]
   },
   {
    "id": "Q13",
    "title": "Steam Apex „HOLO/HCOG ?“ (12 Kommentare)",
    "url": "https://steamcommunity.com/app/1172470/discussions/0/2998799976089011738/",
    "date": "23.12.2020",
-   "status": "C"
+   "status": [
+    "C"
+   ]
   },
   {
    "id": "Q14",
    "title": "EA Forum Apex „The sights in this game need some work“ (nur Suchauszug)",
    "url": "https://forums.ea.com/discussions/apex-legends-feedback-en/the-sights-in-this-game-need-some-work/8552646",
    "date": "ca. 2019",
-   "status": "C"
+   "status": [
+    "C"
+   ]
   },
   {
    "id": "Q15",
    "title": "Gamepur „Best scopes in Apex Legends“",
    "url": "https://www.gamepur.com/guides/best-scopes-in-apex-legends",
    "date": "ca. 2021",
-   "status": "S"
+   "status": [
+    "S"
+   ]
   },
   {
    "id": "Q16",
    "title": "caniplaythat.com: Apex Colorblind-Support/Reticle-Farbpresets (zitiert Respawn-Designer Justin Masse)",
    "url": "https://caniplaythat.com/2021/07/21/apex-legends-colorblind-support-and-reticle-color-presets-are-in-the-works/",
    "date": "21.07.2021 (Aussage 20.07.2021)",
-   "status": "B (über S)"
+   "status": [
+    "B",
+    "S"
+   ],
+   "status_note": "über S"
   },
   {
    "id": "Q17",
    "title": "GameFAQs Titanfall 1 „HCOG is so unbearable“ (nur Suchauszug)",
    "url": "https://gamefaqs.gamespot.com/boards/635381-titanfall/69046147",
    "date": "unbekannt",
-   "status": "C"
+   "status": [
+    "C"
+   ]
   },
   {
    "id": "Q18",
    "title": "Titanfall-Wiki „Weapon Attachments (Titanfall)“",
    "url": "https://titanfall.fandom.com/wiki/Weapon_Attachments_(Titanfall)",
    "date": "laufend",
-   "status": "S"
+   "status": [
+    "S"
+   ]
   },
   {
    "id": "Q19",
    "title": "Sportskeeda „MW2 players on Reddit … humongous scope glints“ (nur Suchauszug)",
    "url": "https://www.sportskeeda.com/esports/modern-warfare-2-players-reddit-frustrated-humongous-scope-glints-sniper-rifles",
    "date": "ca. 2022/23",
-   "status": "S (Reddit-Zitate)"
+   "status": [
+    "S"
+   ],
+   "status_note": "Reddit-Zitate"
   },
   {
    "id": "Q20",
    "title": "Charlie INTEL „Warzone devs confirm plans to fix … no-glint Sniper Rifles“ / Dexerto Patchnotes 19.04.2021 (nur Suchauszug)",
    "url": "https://www.dexerto.com/call-of-duty/warzone-update-april-19-sykov-nerf-sniper-glint-fix-more-1556833/",
    "date": "04/2021",
-   "status": "S/B"
+   "status": [
+    "B",
+    "S"
+   ]
   },
   {
    "id": "Q21",
    "title": "ONE Esports „best optics for better aim in MW2“",
    "url": "https://www.oneesports.gg/call-of-duty/best-optics-dot-modern-warfare-2/",
    "date": "27.07.2023",
-   "status": "S"
+   "status": [
+    "S"
+   ]
   },
   {
    "id": "Q22",
    "title": "Sportskeeda MW2 Optik-Empfehlung Cronen Mini Pro vs. Corio RE-X Pro (nur Suchauszug)",
    "url": "https://sportskeeda.com/esports/how-unlock-overpowered-blue-dot-optic-modern-warfare-2",
    "date": "ca. 2022/23",
-   "status": "S"
+   "status": [
+    "S"
+   ]
   },
   {
    "id": "Q23",
    "title": "Dexerto „Warzone 2 expert reveals powerful attachment nobody uses“ (SZ Recharge-DX)",
    "url": "https://www.dexerto.com/call-of-duty/warzone-2-expert-reveals-powerful-attachment-nobody-uses-but-should-2132971/",
    "date": "03.05.2023",
-   "status": "S"
+   "status": [
+    "S"
+   ]
   },
   {
    "id": "Q24",
    "title": "Charlie INTEL „JAK Glassless Optic“ (Reddit-Zitate)",
    "url": "https://www.charlieintel.com/call-of-duty/warzone-players-flock-to-new-mw3-optic-thanks-to-major-recoil-buffs-307985/",
    "date": "29.02.2024",
-   "status": "S"
+   "status": [
+    "S"
+   ]
   },
   {
    "id": "Q25",
    "title": "Mein-MMO „CoD MW3: A new sight … recoil appears lower“",
    "url": "https://mein-mmo.de/en/cod-mw3-a-new-sight-is-immediately-used-in-the-strongest-meta-builds-because-your-recoil-appears-lower-due-to-it,1097259/",
    "date": "29.02.2024",
-   "status": "S"
+   "status": [
+    "S"
+   ]
   },
   {
    "id": "Q26",
    "title": "COD Fandom „JAK Glassless Optic“ (Spielbeschreibung, Stats)",
    "url": "https://callofduty.fandom.com/wiki/JAK_Glassless_Optic",
    "date": "ab 28.02.2024",
-   "status": "S"
+   "status": [
+    "S"
+   ]
   },
   {
    "id": "Q27",
    "title": "GameRant „10 Best Black Ops 6 Sight Reticles, Ranked“",
    "url": "https://gamerant.com/best-call-of-duty-black-ops-6-sight-reticles/",
    "date": "07.01.2025",
-   "status": "S"
+   "status": [
+    "S"
+   ]
   },
   {
    "id": "Q28",
    "title": "Call of Duty Patchnotes BO6/Warzone, Weapon Motion (10.12.2024), Wiedergabe durch Dexerto",
    "url": "https://www.dexerto.com/call-of-duty/black-ops-6-dec-10-patch-notes-weapon-motion-changes-drastic-headshot-buffs-more-3003851/",
    "date": "10.12.2024",
-   "status": "B (über S)"
+   "status": [
+    "B",
+    "S"
+   ],
+   "status_note": "über S"
   },
   {
    "id": "Q29",
    "title": "Suchergebnis zu CoD-Grafikoptionen (World/Weapon Depth of Field, Motion Blur; Guides zu MW4)",
    "url": "https://allthings.how/modern-warfare-4-how-to-change-fov-and-turn-off-motion-blur/",
    "date": "2026",
-   "status": "S"
+   "status": [
+    "S"
+   ]
   },
   {
    "id": "Q30",
    "title": "Guides zu ADS-FOV „Affected/Independent“ (Dexerto, Sportskeeda, gist.ly; keine IW-Primärquelle)",
    "url": "https://www.dexerto.com/wikis/modern-warfare-4/best-fov-settings/",
    "date": "2026",
-   "status": "S"
+   "status": [
+    "S"
+   ]
   },
   {
    "id": "Q31",
    "title": "Bungie.net „Add Accessibility Options To Change Weapon Reticle Size & Color …“ (68 Antworten, CM-Antwort)",
    "url": "https://www.bungie.net/en-US/Forums/Post/251109254",
    "date": "25.–27.02.2019",
-   "status": "C + B (CM)"
+   "status": [
+    "B",
+    "C"
+   ],
+   "status_note": "CM"
   },
   {
    "id": "Q32",
    "title": "Bungie.net „1000 yard stare, reticle color“ (ca. 20 Antworten)",
    "url": "https://www.bungie.net/en/Forums/Post/260253808?page=0",
    "date": "23.–26.12.2021",
-   "status": "C"
+   "status": [
+    "C"
+   ]
   },
   {
    "id": "Q33",
    "title": "Bungie.net „Request for sights/scopes perk column …“ (1 Antwort)",
    "url": "https://www.bungie.net/en/Forums/Post/264416418?sort=0&page=0&path=1",
    "date": "zuletzt bearb. 19.12.2024",
-   "status": "C"
+   "status": [
+    "C"
+   ]
   },
   {
    "id": "Q34",
    "title": "Bungie.net „Bring back sight perks“, „Choosable scopes for scouts“ (nur Suchauszug)",
    "url": "https://www.bungie.net/en/Forums/Post/260991915",
    "date": "ca. 2022",
-   "status": "C"
+   "status": [
+    "C"
+   ]
   },
   {
    "id": "Q35",
    "title": "Steam Destiny 2 „Aim/ADS FOV“ (10 Kommentare)",
    "url": "https://steamcommunity.com/app/1085660/discussions/0/3732953986138293938/",
    "date": "05.–06.01.2023",
-   "status": "C"
+   "status": [
+    "C"
+   ]
   },
   {
    "id": "Q36",
    "title": "Bungie „Season 21 Weapon Changes Preview“ (Reticle-Umbau; Suchauszug aus Rechercheantwort, Seite lud nicht)",
    "url": "https://www.bungie.net/7/en/News/article/season_21_weapon_preview",
    "date": "2023 (Season of the Deep)",
-   "status": "B"
+   "status": [
+    "B"
+   ]
   },
   {
    "id": "Q37",
    "title": "Bungie „Dev Insights: Season 22 Weapons Preview“ (Zoom-Stat; nur Suchauszug)",
    "url": "https://www.bungie.net/7/en/News/article/season-22-weapons-preview",
    "date": "2023",
-   "status": "B"
+   "status": [
+    "B"
+   ]
   },
   {
    "id": "Q38",
    "title": "Bungie Update 9.7.0.2 (Fix Sights Bad-Juju-Ornament; Armor-Ornamente verdecken Sicht; nur Suchauszug, Seite lud nicht)",
    "url": "https://www.bungie.net/7/en/News/Article/destiny_update_9_7_0_2",
    "date": "2026",
-   "status": "B"
+   "status": [
+    "B"
+   ]
   },
   {
    "id": "Q39",
    "title": "GameSpot „Destiny 2 Gets More Accessibility Improvements In Season Of The Deep“ (nur Suchauszug)",
    "url": "https://www.gamespot.com/articles/destiny-2-gets-more-accessibility-improvements-in-season-of-the-deep/1100-6513418/",
    "date": "2023",
-   "status": "S"
+   "status": [
+    "S"
+   ]
   },
   {
    "id": "Q40",
    "title": "NeoGAF „Obnoxious iron sights aka ADS in games“ (Destiny 1; nur Suchauszug)",
    "url": "https://www.neogaf.com/threads/obnoxious-iron-sights-aka-ads-in-games.1052205/",
    "date": "ca. 2015",
-   "status": "C"
+   "status": [
+    "C"
+   ]
   },
   {
    "id": "Q41",
    "title": "Steam Insurgency: Sandstorm „Do you use picture-in-picture or normal scopes?“ (12 Kommentare)",
    "url": "https://steamcommunity.com/app/581320/discussions/0/3199240042209104208/",
    "date": "22.–24.11.2021",
-   "status": "C"
+   "status": [
+    "C"
+   ]
   },
   {
    "id": "Q42",
    "title": "Steam Insurgency: Sandstorm „Blurry Scope?“",
    "url": "https://steamcommunity.com/app/581320/discussions/0/2148721148466956629/",
    "date": "28.03.2020",
-   "status": "C"
+   "status": [
+    "C"
+   ]
   },
   {
    "id": "Q43",
    "title": "Steam Insurgency: Sandstorm „Scopes above 1x zoom massive issue.“ (10 Beiträge)",
    "url": "https://steamcommunity.com/app/581320/discussions/0/3220528325741354066/",
    "date": "02.10.2018",
-   "status": "C"
+   "status": [
+    "C"
+   ]
   },
   {
    "id": "Q44",
    "title": "Steam Squad „Picture in picture scope“ (inkl. Entwickler Gatzby)",
    "url": "https://steamcommunity.com/app/393380/discussions/0/1646544348827204120/",
    "date": "unbekannt (Zeitstempel nicht angezeigt)",
-   "status": "C + B (Entwickler)"
+   "status": [
+    "B",
+    "C"
+   ],
+   "status_note": "Entwickler"
   },
   {
    "id": "Q45",
    "title": "Tarkov Community „Suggestion: Improve Scope Performance … Alternatives to Picture-in-Picture“ (nur Suchauszug)",
    "url": "https://tarkov.community/posts/10696/suggestion-improve-scope-performance-and-explore-alternatives-to-picture-in-picture",
    "date": "unbekannt",
-   "status": "C"
+   "status": [
+    "C"
+   ]
   },
   {
    "id": "Q46",
    "title": "rifleconfigurator.com „Bodycam Game Guns“ (PiP vs Vollbild-Zoom, nur Suchauszug)",
    "url": "https://www.rifleconfigurator.com/articles/bodycam-game-guns",
    "date": "unbekannt",
-   "status": "S"
+   "status": [
+    "S"
+   ]
   },
   {
    "id": "Q47",
    "title": "Dexerto Valorant 12.07 Patchnotes (Scope-Reticle-Konsistenz)",
    "url": "https://www.dexerto.com/valorant/valorant-12-07-patch-notes-fix-scopes-aiming-issue-and-brings-discord-integration-3351639/",
    "date": "unbekannt (Patch 12.07)",
-   "status": "B (über S)"
+   "status": [
+    "B",
+    "S"
+   ],
+   "status_note": "über S"
   },
   {
    "id": "Q48",
    "title": "Halo Waypoint „Season 1 Outcomes Report“ (Zoom-Sensitivität)",
    "url": "https://www.halowaypoint.com/news/season-1-outcomes-report",
    "date": "2022",
-   "status": "B"
+   "status": [
+    "B"
+   ]
   },
   {
    "id": "Q49",
    "title": "Steam Halo Infinite (Crosshair/FOV, Feb 2022, nur Suchauszug) und Sportskeeda „Halo Infinite fans want … reticle … customization“",
    "url": "https://sportskeeda.com/esports/halo-infinite-fans-want-343-industries-bring-reticle-full-hud-customization-options-future-updates",
    "date": "2021/22",
-   "status": "C/S"
+   "status": [
+    "C",
+    "S"
+   ]
   },
   {
    "id": "Q50",
    "title": "Steam MCC „Aiming down sights“ (10 Beiträge)",
    "url": "https://steamcommunity.com/app/976730/discussions/0/1657817111858496642/",
    "date": "24.11.2019",
-   "status": "C"
+   "status": [
+    "C"
+   ]
   },
   {
    "id": "Q51",
    "title": "Mouse-Sensitivity.com BF2042 (ADS-FOV/Zoomfaktoren; nur Suchauszug)",
    "url": "https://www.mouse-sensitivity.com/forums/topic/7848-battlefield-2042/page/8/",
    "date": "ca. 2021–2023",
-   "status": "C"
+   "status": [
+    "C"
+   ]
   }
  ],
  "not_taken": "Antigravity-Angaben zu Ready or Not, Delta Force, Payday 3, Crysis, Hunt, CoD 4 (Video-IDs gehören zu anderen Titeln/Kanälen); Spielerstimmen ohne prüfbare Adresse"
