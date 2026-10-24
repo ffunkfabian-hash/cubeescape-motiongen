@@ -991,7 +991,7 @@
     "t_s": "22.8",
     "fps": 60
    },
-   "note": "Weltzoom ≈ 6 [O] (Kamera nickte); Waffe weg in 1 Bild, Overlay 0,4–0,5 s (10/s)"
+   "note": "Weltzoom ≈ 6 [O] (Kamera nickte); Waffe weg innerhalb ≤ 0,1 s (nur 10/s abgetastet), Overlay 0,4–0,5 s"
   },
   {
    "game": "The Finals",

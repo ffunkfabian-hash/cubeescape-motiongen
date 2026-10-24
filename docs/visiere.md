@@ -12,7 +12,8 @@ unbekanntem FOV des Aufnehmenden**, kein Klassenmittel.
 
 ## 1. Quellen und Methode
 
-**Umfang:** 26 Spiele mit eigener Bildsichtung (Destiny 1/2, Marathon, Halo 3/Reach/5/Infinite, Battlefield 1/4/V/2042/6, CoD MW2019/BO6,
+**Umfang:** 31 Spiele am Bild gesichtet (davon Halo Reach/5, Battlefield 1/V, Far Cry 6 und Metro Exodus nur durch Antigravity [C],
+Quellen per yt-dlp geprüft): (Destiny 1/2, Marathon, Halo 3/Reach/5/Infinite, Battlefield 1/4/V/2042/6, CoD MW2019/BO6,
 Apex, Titanfall 1/2, Valorant, CS2, Rainbow Six Siege, Overwatch 2, Borderlands 3, Cyberpunk 2077, Helldivers 2, The Finals, Warframe,
 Arc Raiders, Tarkov, Insurgency Sandstorm, Far Cry 6, Metro Exodus), dazu ein Katalog der Scharfschützen-Darstellung in **100 Spielen**
 und Spielerstimmen aus 51 Quellen. Gesichtet wurden rund 80 YouTube-Videos; die 34 Videos mit Zahlen in dieser Doku stehen mit
@@ -131,7 +132,7 @@ die Öffnung; Weltzoom = Bildmaßstab Hüfte → Zielen außen. Zeiten: Bewegung
 | Siege · Reflex/Holo (#3, #4, #7) | C | 11–16 | 20–28 | 0,25–0,4 | – | – | BeastModPlayer, `Wib_5yd2mWk`, 15.04.2024 [M] |
 | Siege · Ring-ZF (#1, #10) | C | 21–27 | 33–41 | 0,25–0,3 | Glas vergrößert [O] | – | ebd. [M] |
 | CS:GO · AUG (Szene von 2018 im CS2-Video) | D | 28–31 | 61–74 | ≈ 0,6 | außen nicht gemessen; Glas 2,6–2,7 gegen Hüfte | – | NartOutHere, `fIscQmMHys4`, 02.05.2025, 0:15–0:25 [M] |
-| Overwatch 2 · Widowmaker / Ashe | A / C | Ring ≈ 50 % B / Hörner-Korn 41–59 % | – | – | ≈ 6 [O] / 1,6 | Waffe weg in 1 Bild, Overlay 0,4–0,5 s (10/s) | iFaiiLed `Qh7gYQpSq0Y`, 07.11.2022, 22,7–23,3 s; lonesomary `NH0Qs8EXWOY`, 08.06.2025, 37,2 s [M] |
+| Overwatch 2 · Widowmaker / Ashe | A / C | Ring ≈ 50 % B / Hörner-Korn 41–59 % | – | – | ≈ 6 [O] / 1,6 | Waffe weg innerhalb ≤ 0,1 s (nur 10/s abgetastet), Overlay 0,4–0,5 s | iFaiiLed `Qh7gYQpSq0Y`, 07.11.2022, 22,7–23,3 s; lonesomary `NH0Qs8EXWOY`, 08.06.2025, 37,2 s [M] |
 | The Finals · Holo / Magnifex | D | 15,6–18 | 21–25 | ≈ 0,1–0,2 | 1,3 außen | ≤ 1 Bild | HazedNConfused, `ILLTAgWBT4w`, 17.09.2025, 291 s [M] |
 | The Finals · PIKE-556-ZF | D | 29–33 | 56 | 0,15 | – | aus ≤ 0,25 s | ebd., 63 s [M] |
 | Helldivers 2 · Sightliner / AMR-20 | D | 18–21 / 20 | 22–31 / 38–42 | ≈ 0,15 | – | Schnitt, Linse 5 Bilder schwarz | Jumpycode, `VawsGNra7tg`, 20.10.2026, 113,75 s [M] |
