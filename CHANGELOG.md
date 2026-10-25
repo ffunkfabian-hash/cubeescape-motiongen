@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.21.0 „Playbook“ – 2026-10-25
+
+- Neuer [Analyse-Standard](docs/standard.md), verbindlich für alle Analysen und Zuarbeiten (Claude, Codex, Antigravity, Unteragenten): Themen getrennt, Messregeln (Bildmaßstab statt Winkelzoom, Körperhöhen, FOV-Bezug, Kachelfehler), Quellenpflicht per yt-dlp und Statusstufen [M]/[S]/[B]/[C]/[O], Bewertung „gut / nicht so gut / für wen“ mit Spielerstimmen, Gegenstimmen und Entwickler-Referenzen (Mindestmaß 5 + 2 Quellen), Unteragenten je Thema bei großen Analysen, Prüfung jeder Zuarbeit, Aufbau A–F der Ergebnisdateien, Einpflegen und Aufräumen.
+- Vorlage für Aufträge `docs/vorlagen/auftrag-analyse.md`; Verweis in `AGENTS.md` › Messregeln, README, eine Lehre. Keine Messwerte geändert. [Bericht](docs/versions/0.md#0210-playbook--2026-10-25).
+
 ## 0.20.0 „Lookover“ – 2026-10-25
 
 - Neue Referenzanalyse [Inspektionsanimationen](docs/inspektion.md) mit maschinenlesbarer Fassung `data/inspektion.json`: 41 Waffen aus 9 Spielen bzw. Fassungen (Destiny 2 zuerst, Apex, Halo Infinite, CoD MW2019 und BO6, Battlefield 6, Valorant, CS2, Borderlands 3) aus 16 Videos, gemessen von Codex-Mac am 24.10.2026: Darstellungsart (Menü, Idle-Geste, Ego-Inspect, freie Drehung), Ablauf und gezeigte Seiten, Hüllrechteck-Fläche, zwölf native Medienfenster mit Phasen. Vier Destiny-Messzeilen in `docs/destiny2.md` › 2 (Anker `z-insp-…`), Methode und Steckbrief-Hinweis, 23 Einträge in `data/clips.json`.

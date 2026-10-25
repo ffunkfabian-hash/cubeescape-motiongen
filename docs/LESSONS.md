@@ -18,3 +18,4 @@
 - Blitzgröße nur mit Definition nennen: getrennte Flammenteile (Glaskegel, Seitenzungen) ergeben verschiedene Hüllrechtecke – Gridskipper 13–16 % H gegen 38 % H mit Kegel ([muendung](muendung.md#1-methode-und-genauigkeit)).
 - Entwickler-Portfolios belegen Form, keinen Retailstand, und können andere Feuermodi zeigen (New Malpais: Granatschuss); Quelle und Modus getrennt nennen ([muendung](muendung.md#2-quellen)).
 - Inspect- und Animationsdauern aus Showcases sind Quellmedienzeit; die Marker-Definition mitnennen – „erste Bewegung → Hüftlage“ und „Ruhe → Ruhe“ unterscheiden sich um 0,2–0,4 s ([inspektion](inspektion.md#1-methode-und-genauigkeit)).
+- Regeln einmal festschreiben statt je Prompt kopieren: der [Analyse-Standard](standard.md) gilt für jede Zuarbeit, Aufträge entstehen aus der [Vorlage](vorlagen/auftrag-analyse.md) ([0.21](versions/0.md#0210-playbook--2026-10-25)).

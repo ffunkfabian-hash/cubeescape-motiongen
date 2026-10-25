@@ -10,6 +10,7 @@ Toolgen und das Design-Repo lesen hier; entschieden und umgesetzt wird dort.
 |---|---|
 | `docs/destiny2.md` | Messungen (Tabelle mit Clip und Zeitstempeln) und Steckbriefe je Waffentyp |
 | `docs/apex.md`, `docs/titanfall2.md` | Bewegungs-Vorbilder: Sprint, Rutschen, Sprung/Landung, Wandlauf, tiefe Hüfte (je ein Steckbrief) |
+| [docs/standard.md](docs/standard.md) | **Analyse-Standard:** verbindliche Regeln für Analysen und Zuarbeiten (Themen getrennt, Messen, Quellen, Bewertung, Unteragenten, Ergebnisaufbau); Vorlage für Aufträge in `docs/vorlagen/` |
 | [docs/visiere.md](docs/visiere.md) | Visiere in Videospielen: Darstellungsarten, Zahlen im Zielen, Form, Sitz, Absehen, Glas, Spielerstimmen, Empfehlungen für BASIC (`data/visiere.json`) |
 | [docs/proportionen.md](docs/proportionen.md) | Waffenproportionen und Silhouetten: Verhältnisse je Klasse (Destiny 2 und fünf Vergleichsspiele), was schlank macht, BASIC-Abweichungen (`data/proportionen.json`) |
 | [docs/rueckstoss.md](docs/rueckstoss.md) | Rückstoßmuster in Videospielen: Nettobahnen, Takt, Rücklauf, Systemfassungen, Musterkatalog je Klasse, Gestaltungsregeln für BASIC (`data/rueckstoss.json`) |
