@@ -4,7 +4,7 @@ Referenzanalyse REF 0.17 „Steadyhand“ (25.10.2026) für die Waffenreihe **BA
 Gemessen hat eine Codex-Mac-Sitzung (`gpt-6.1-sol` high, 24.10.2026) an 60/s-Aufnahmen. Diese Version hat die Ergebnisse
 eingepflegt, die Quellen per yt-dlp geprüft und fünf Werte selbst nachgemessen ([8](#8-nachmessung-und-zählung)). Hier stehen nur
 Beobachtungen und Messwerte. Schlüsse und Startwerte entstehen in BASIC bzw. Cube Escape. Getrennte Themen mit eigenen Versionen und Docs:
-[Visiere](visiere.md) (0.14); Rückstoßmuster und weitere Themen folgen in eigenen Versionen. Maschinenlesbare Fassung:
+[Visiere](visiere.md) (0.14), [Waffenproportionen](proportionen.md) (0.15), [Rückstoßmuster](rueckstoss.md) (0.16) – Serienbahnen und Musterkataloge stehen dort, hier nur die Bewegung im Zielen. Maschinenlesbare Fassung:
 [`data/zielbewegung.json`](../data/zielbewegung.json).
 
 Die **Destiny-2-Messzeilen** stehen nach Repo-Regel in der Messtabelle [destiny2.md › 2](destiny2.md#2-messungen-an-60-fps-aufnahmen-ab-16-oktober-2026--m)
