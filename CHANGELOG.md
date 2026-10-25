@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.26.0 „Swapline“ – 2026-10-25
+
+- Neue Referenzanalyse [Ziehen, Wegstecken und Waffenwechsel](docs/wechsel.md) mit `data/wechsel.json`: 29 Beispiele aus Destiny 2 (14), Marathon (4), Apex (3, Erstaufheben), Valorant (3), Halo (2, nur Form) und Titanfall 2 (3, nur Form) aus 14 Videos (Codex-Mac, Ego-Bewegung Thema 2) – Wegstecken, leere Sicht, Ziehen bis zur ersten hüftähnlichen Passage und Ruhe in Bildern. Fünf Messzeilen in `docs/destiny2.md` › 2 (Anker `z-sw-…`), Methode 24, 14 Einträge in `data/clips.json`, Notizen in apex.md, titanfall2.md und auswertung.md.
+- Befund (Beobachtung, Schlüsse in BASIC/Cube Escape): Destiny-Wechsel zeigen Wegstecken 5–16 Bilder (vier Fälle) und leere Sicht 4–18 Bilder (0,07–0,30 s); Ziehen nach Menüschnitt (7–24 Bilder) ist kein Wechsel; die erste hüftähnliche Passage ist kein Endpunkt (in drei gemessenen Fällen Überschwingen 8–10 pp); Apex-Erstaufheben ≠ Slotwechsel.
+- Abnahme: 14/14 Videos per yt-dlp, 57 Zahlen von Prüfern und 4 vom Koordinator am Bild nachgemessen; übernommen 24, **korrigiert 5** (Raketenwerfer-Marker f73/f86 → f77/f88–89 widerlegt, Leerphase und Hüftmarker als Bereiche, Halo-Zeiten gestrichen), kopierte Bewertungsfelder verworfen; **Bestandskorrektur:** „Waffe ganz weg“ 2,334 s → 2,284 s. [Bericht](docs/versions/0.md#0260-swapline--2026-10-25).
+
 ## 0.25.0 „Reload“ – 2026-10-25
 
 - Neue Referenzanalyse [Nachladen](docs/nachladen.md) mit `data/nachladen.json`: 23 Beispiele aus Destiny 2 (13), Marathon (3), Apex (3) und Titanfall 2 (4) aus 13 Videos (Codex-Mac, Ego-Bewegung Thema 3) – Marker von Beginn bis Hüfte und Ruhe, Munitionsanzeige (HUD) gegen sichtbare Rückkehr, Leer-/Taktisch-Paare. Vier Messzeilen in `docs/destiny2.md` › 2 (Anker `z-rl-…`), Methode 23, 13 Einträge in `data/clips.json`, Notizen in apex.md, titanfall2.md und auswertung.md (V12).

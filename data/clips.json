@@ -273,7 +273,7 @@
     "measurement": "Raketenwerfer im PvE: Ziehen direkt in ADS, rechteckige Bild-in-Linse-Optik und ADS aus in Wechsel",
     "clip": "https://twitch.tv/saltagreppo/clip/NiceAuspiciousScorpionDatSheffy-ALH4TQ8yBKxiEOH5",
     "source": "Saltagreppo, 06.03.2022, Twitch-Clip „World's First Vow of The Disciple“",
-    "timestamps": "Optik seitlich frei sichtbar 1,500 s → deutlicher Zug zur Mitte 1,550 s → ruhige ADS-Endgröße 1,767 s; Detail 1,834 s; Verlassen der ADS-Lage 2,017 s → Optik unten rechts 2,233 s → Waffe ganz weg 2,334 s; zweiter Zyklus 12,600–13,334 s"
+    "timestamps": "Optik seitlich frei sichtbar 1,500 s → deutlicher Zug zur Mitte 1,550 s → ruhige ADS-Endgröße 1,767 s; Detail 1,834 s; Verlassen der ADS-Lage 2,017 s → Optik unten rechts 2,233 s → Waffe ganz weg 2,284 s (0.26-Korrektur, früher 2,334 s); zweiter Zyklus 12,600–13,334 s"
   },
   {
     "measurement": "Raketenwerfer im PvE: ADS-Schuss, Optik kommt zur Kamera und steigt; Rückstellung durch Wechsel begrenzt",
@@ -2326,5 +2326,89 @@
     "clip": "https://www.youtube.com/watch?v=ZpuJ2yw_U3c",
     "source": "Hynra Can Fly (YouTube), 29.06.2022, 60 fps; Codex-Mac 25.10.2026, REF 0.25 „Reload“ (Mac, 25.10.2026), docs/nachladen.md",
     "timestamps": "Blau/violettes Scharfschützengewehr mit kleiner Rundoptik (Name unbestätigt) 14,133–15,667 s"
+  },
+  {
+    "measurement": "Ziehen/Wegstecken/Waffenwechsel Destiny 2: Patron of Lost Causes → Schrotflinte (Modellname offen)",
+    "clip": "https://www.youtube.com/watch?v=1ERmScNiOk4",
+    "source": "DFP (YouTube), 09.02.2023, 60 fps; Codex-Mac 25.10.2026, REF 0.26 „Swapline“ (Mac, 25.10.2026), docs/wechsel.md",
+    "timestamps": "D01 457,033–457,700 s"
+  },
+  {
+    "measurement": "Ziehen/Wegstecken/Waffenwechsel Destiny 2: Scharfschützengewehr (violett/blau, Name offen) → Bogen (Name offen) (2 Abläufe), Bogen (Name offen) → Scharfschützengewehr (violett/blau, Name offen)",
+    "clip": "https://www.youtube.com/watch?v=ZpuJ2yw_U3c",
+    "source": "Hynra Can Fly (YouTube), 29.06.2022, 60 fps; Codex-Mac 25.10.2026, REF 0.26 „Swapline“ (Mac, 25.10.2026), docs/wechsel.md",
+    "timestamps": "D02 9,633–9,967 s; D03 13,783–13,967 s; D04 20,933–21,350 s"
+  },
+  {
+    "measurement": "Ziehen/Wegstecken/Waffenwechsel Destiny 2: Bad News, Minimum Distance, Scathelocke",
+    "clip": "https://www.youtube.com/watch?v=73lGCT7yOtk",
+    "source": "Ultraclocked (YouTube), 25.01.2020, 60 fps; Codex-Mac 25.10.2026, REF 0.26 „Swapline“ (Mac, 25.10.2026), docs/wechsel.md",
+    "timestamps": "D05 5,117–5,717 s; D06 413,133–413,617 s; D07 503,600–504,117 s"
+  },
+  {
+    "measurement": "Ziehen/Wegstecken/Waffenwechsel Destiny 2: Gewehr mit Honed-Edge-Anzeige → Raketenwerfer mit Häkke-Glas (Modellname offen), Raketenwerfer mit Häkke-Glas → Gewehr mit Honed-Edge-Anzeige",
+    "clip": "https://twitch.tv/saltagreppo/clip/NiceAuspiciousScorpionDatSheffy-ALH4TQ8yBKxiEOH5",
+    "source": "Saltagreppo (Twitch), 06.03.2022, ≈ 59,98/1 (Twitch-Clip) fps; Codex-Mac 25.10.2026, REF 0.26 „Swapline“ (Mac, 25.10.2026), docs/wechsel.md",
+    "timestamps": "H01 1,284–1,767 s; H02 2,017–3,101 s"
+  },
+  {
+    "measurement": "Ziehen/Wegstecken/Waffenwechsel Destiny 2: Shattered Cipher",
+    "clip": "https://www.youtube.com/watch?v=DEM-8xg66R8",
+    "source": "Ultraclocked (YouTube), 14.05.2021, 60 fps; Codex-Mac 25.10.2026, REF 0.26 „Swapline“ (Mac, 25.10.2026), docs/wechsel.md",
+    "timestamps": "H03 2,283–3,200 s"
+  },
+  {
+    "measurement": "Ziehen/Wegstecken/Waffenwechsel Destiny 2: Threaded Needle",
+    "clip": "https://www.youtube.com/watch?v=uoTaCBMXcFk",
+    "source": "Ultraclocked (YouTube), 20.02.2021, 60 fps; Codex-Mac 25.10.2026, REF 0.26 „Swapline“ (Mac, 25.10.2026), docs/wechsel.md",
+    "timestamps": "H04 3,017–3,800 s"
+  },
+  {
+    "measurement": "Ziehen/Wegstecken/Waffenwechsel Destiny 2: The Prospector",
+    "clip": "https://www.youtube.com/watch?v=L3UXaiGBtVc",
+    "source": "Ultraclocked (YouTube), 12.03.2021, 60 fps; Codex-Mac 25.10.2026, REF 0.26 „Swapline“ (Mac, 25.10.2026), docs/wechsel.md",
+    "timestamps": "H05 3,133–3,950 s"
+  },
+  {
+    "measurement": "Ziehen/Wegstecken/Waffenwechsel Destiny 2: Negative Space",
+    "clip": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+    "source": "Ultraclocked (YouTube), 14.02.2020, 60 fps; Codex-Mac 25.10.2026, REF 0.26 „Swapline“ (Mac, 25.10.2026), docs/wechsel.md",
+    "timestamps": "H06 259,417–259,850 s"
+  },
+  {
+    "measurement": "Ziehen/Wegstecken/Waffenwechsel Destiny 2: Waffe A (15er-Magazin, Suros-Synergy-HUD) → Gewehr mit runder Optik",
+    "clip": "https://www.youtube.com/watch?v=vaUe2AY2-EE",
+    "source": "mell0wtonin (YouTube), 18.07.2022, 60 fps; Codex-Mac 25.10.2026, REF 0.26 „Swapline“ (Mac, 25.10.2026), docs/wechsel.md",
+    "timestamps": "D08 1,700–2,200 s"
+  },
+  {
+    "measurement": "Ziehen/Wegstecken/Waffenwechsel Marathon (2026): Gewehr A, schwarzer Körper mit gelbem Oberteil (Modell unbestätigt), Gewehr A → Gewehr B mit großer Thermaloptik (25 Schuss, Modelle unbestätigt), Gewehr B mit Thermaloptik → Gewehr A (Modelle unbestätigt), Gewehr A → Gewehr B mit Thermaloptik (Modelle unbestätigt)",
+    "clip": "https://www.youtube.com/watch?v=FEW1ZkadfM8",
+    "source": "Aculite (YouTube), 01.03.2026, 60 fps; Codex-Mac 25.10.2026, REF 0.26 „Swapline“ (Mac, 25.10.2026), docs/wechsel.md",
+    "timestamps": "CV01 110,450–111,500 s; CV02 135,083–136,183 s; CV03 163,383–164,283 s; CV04 164,600–166,400 s"
+  },
+  {
+    "measurement": "Ziehen/Wegstecken/Waffenwechsel Apex Legends: RE-45 → P2020 (Erstaufheben), P2020 → R-301 (Erstaufheben), R-301 → R-99 (Erstaufheben)",
+    "clip": "https://www.youtube.com/watch?v=R-BGChzYGpo",
+    "source": "Cacek47 (YouTube), 06.02.2019, 60 fps; Codex-Mac 25.10.2026, REF 0.26 „Swapline“ (Mac, 25.10.2026), docs/wechsel.md",
+    "timestamps": "CV05 20,267–21,583 s; CV06 37,850–39,183 s; CV07 55,450–57,250 s"
+  },
+  {
+    "measurement": "Ziehen/Wegstecken/Waffenwechsel Valorant: Sheriff, Operator, Odin",
+    "clip": "https://www.youtube.com/watch?v=etvP32vASoY",
+    "source": "THE DARK 007 (YouTube), 15.05.2022, 60 fps; Codex-Mac 25.10.2026, REF 0.26 „Swapline“ (Mac, 25.10.2026), docs/wechsel.md",
+    "timestamps": "CV13 5,350–6,900 s; CV14 21,200–22,800 s; CV15 25,300–27,167 s"
+  },
+  {
+    "measurement": "Ziehen/Wegstecken/Waffenwechsel Halo Infinite (Technical Preview, Juli 2021): MA40, BR75",
+    "clip": "https://www.youtube.com/watch?v=ZfNuA5r-470",
+    "source": "Abyssopelagic (YouTube), 30.07.2021, 60 fps; Codex-Mac 25.10.2026, REF 0.26 „Swapline“ (Mac, 25.10.2026), docs/wechsel.md",
+    "timestamps": "CV08 2,700–5,000 s; CV09 43,383–44,800 s"
+  },
+  {
+    "measurement": "Ziehen/Wegstecken/Waffenwechsel Titanfall 2: G2 → Archer, Archer → G2, G2 → Archer → G2, verkürzte Folge",
+    "clip": "https://www.youtube.com/watch?v=GSzouZZwDgg",
+    "source": "nonname123 (YouTube), 14.06.2021, 60 fps; Codex-Mac 25.10.2026, REF 0.26 „Swapline“ (Mac, 25.10.2026), docs/wechsel.md",
+    "timestamps": "CV10 144,350–145,950 s; CV11 145,900–147,000 s; CV12 150,450–151,900 s"
   }
 ]
