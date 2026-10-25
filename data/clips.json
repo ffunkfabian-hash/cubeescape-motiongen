@@ -2022,6 +2022,24 @@
     "timestamps": "M26 Matter 0:35,300"
   },
   {
+    "measurement": "Sprint-Wippen Automatikgewehr (PvE, Last Wish): vertikal 0,317 s (3,16 Hz) über 4 Zyklen, seitlich 0,62–0,63 s, Hub ≈ 10–11 % H / 13 % B am Visier, Rollen ≈ 7°, kein Kamerawippen nachweisbar",
+    "clip": "https://twitch.tv/datto/clip/BlueThoughtfulPeachTinyFace",
+    "source": "Twitch, Kanal Datto, Clip-Ersteller Griffin_WB, 15.09.2018, „YOU GET DATA!“, 1600×900, 60 fps; Claude-Mac 25.10.2026, REF 0.23 „Stride“, docs/destiny2.md#z-st-automatik-lastwish",
+    "timestamps": "Hoch 8,808 · 9,117 · 9,433 · 9,750 · 10,075; Tief 8,950 · 9,283 · 9,600 · 9,900; links ≈ 8,75 · 9,367 · 10,000; rechts 9,133 · 9,767"
+  },
+  {
+    "measurement": "Sprint-Wippen Handfeuerwaffe (PvE, Viertelbild „Base“): vertikal 0,317 s (3,16 Hz) über 9 Zyklen, seitlich 0,633 s, Hub ≈ 13 % H / 4 % B am Griff, kein Kamerawippen nachweisbar",
+    "clip": "https://www.youtube.com/watch?v=IncvPoV9-lI",
+    "source": "YouTube, Crystic, 24.08.2022, „Speed Booster Comparison with other Sprint Speed Boosts“, 1280×720 (Viertel 640×360), 60 fps; Claude-Mac 25.10.2026, REF 0.23 „Stride“, docs/destiny2.md#z-st-handfeuerwaffe-crystic",
+    "timestamps": "Hoch 11,167 · 11,483 · 11,800 · 12,100 · 12,433 · 12,750 und 13,367 · 13,700 · 14,000 · 14,333 · 14,633; Tief 11,317 · 11,617 · 11,950 · 12,250 · 12,583 · 12,883; links 11,150 · 11,783 · 12,417"
+  },
+  {
+    "measurement": "Sprint-Bob Handfeuerwaffe, Nachmessung an der 60/s-Datei: Perioden 0,283–0,317 s, nur zwei Zyklen vor dem Rutschen (Teilbeleg), Schwerpunkt-Hub ≈ 6–10 % H",
+    "clip": "https://clips.twitch.tv/InexpensiveTenaciousHawkStrawBeary-mddhkbeLsh2ABDA0",
+    "source": "Twitch, Kanal PandaPaxxy, 11.08.2023, 1920×1080, 60 fps; Claude-Mac 25.10.2026, REF 0.23 „Stride“, docs/destiny2.md#z-sprint-bob-handfeuerwaffe",
+    "timestamps": "Hoch 4,767 · 5,067; Tief 4,600 · 4,917 · 5,200; Rutschen ab ≈ 5,27"
+  },
+  {
     "measurement": "Automatikgewehr (Chroma Rush): ADS ein, Bahn des Holo-Punkts und Weltzoom",
     "clip": "https://www.youtube.com/watch?v=QxSa4m3wIEA",
     "source": "YouTube, Ultraclocked, 15.05.2021, https://www.youtube.com/watch?v=QxSa4m3wIEA; 1920 × 1080, 60/s nativ; REF 0.24 „Glidepath“ (Mac, 25.10.2026), docs/destiny2.md › 2",
