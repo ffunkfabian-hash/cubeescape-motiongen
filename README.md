@@ -21,6 +21,7 @@ Toolgen und das Design-Repo lesen hier; entschieden und umgesetzt wird dort.
 | [docs/huefte.md](docs/huefte.md) | Hüftlage: Mündung, Visier, Griff, Körper und Neigung der Waffe im Ruhebild – 28 Destiny-2-Waffen aus 16 Klassen, Vergleich mit Destiny 1, Marathon, Titanfall 2, Apex, Halo, CoD, Battlefield 6, Valorant, The Finals (`data/huefte.json`) |
 | [docs/nachladen.md](docs/nachladen.md) | Nachladen: Phasen, Munitionsübernahme (HUD) und Rückkehr in Hüfte und Ruhe – Destiny 2 (Einzelhülsen, Batterie, Magazin, Trommel), Vergleich mit Marathon, Apex, Titanfall 2 (`data/nachladen.json`) |
 | [docs/wechsel.md](docs/wechsel.md) | Ziehen, Wegstecken und Waffenwechsel: Wegstecken, leere Sicht, Ziehen und Ruhe in Bildern – Destiny 2, Vergleich mit Marathon, Apex (Erstaufheben), Valorant, Halo, Titanfall 2 (`data/wechsel.json`) |
+| [docs/waffenwerte.md](docs/waffenwerte.md) | Waffenwerte: Waffenkarte und Stat-Zahlen, Trefferschwellen und ideale TTK mit benanntem Szenario – Destiny 2 (113 Manifest-Gruppen, Modell 2025), Vergleich mit Halo Infinite, Apex Legends, Valorant, Warzone (`data/waffenwerte.json`) |
 | [docs/auswertung.md](docs/auswertung.md) | Gesamtauswertung: Vergleich der Vorgänge, belegte Muster, Widersprüche und offene Fragen |
 | `docs/cube-escape.md` | Cube Escape selbst, mit denselben Messgrößen vermessen (eigene 60-fps-Aufnahmen aus der Testkopie): Messungen, Steckbriefe je Gerät, Vergleich mit den Vorbildern |
 | `data/clips.json` | Clip-Verzeichnis: Messung, Clip-URL, Quelle, Zeitstempel |
