@@ -14,7 +14,8 @@
   "O": "Sichtung ohne belastbare Zahl"
  },
  "fields": {
-  "path_pct": "je Schuss [dx, dy] unmittelbar vor dem Schuss (D2) bzw. am HUD-Zählerwechsel (BF6, Halo, Titanfall); [null, null] = verworfen",
+  "path_pct": "je Schuss [dx, dy]; Bezugspunkt und Abtastzeitpunkt stehen je Datensatz in path_basis; [null, null] = verworfene Probe",
+  "path_basis": "Bezug (Nullpunkt) und Abtastzeitpunkt des Pfads dieses Datensatzes",
   "net_range_pct": "Spanne der Weltanker-Nettobahn über das Messfenster, wenn keine schussweise Zuordnung vorliegt",
   "recovery_frames": "Bilder (60/s) vom letzten Schuss bis zum Eintritt in das ±3-pp-Band um den Ausgangspunkt für mindestens 12 Bilder; Netto der Quelle",
   "recoil_stat": "nur ein im Clip belegter aktiver Destiny-Wert; Datenbank-Basiswerte stehen in destiny_base_stats",
@@ -410,6 +411,7 @@
    "timestamp": "5,55–7,20 s; Feuer 5,667–6,583",
    "notes": "12er-Hüftstoß. Vorlage starrer rechter Mauerrand; zweiter Anker nur im ersten Teil gültig. Aufwärtspeak lokal 12,8 pp H, Rest bei 7,2 s unter 1 pp. FOV/Input unbekannt. JSON-Pfad: negative lokale Weltankerverschiebung im Bild unmittelbar vor jedem markierten Schuss, auf erste Probe genullt; keine Projektion in Grad. Die Nachkommastelle ist Rechenrohwert; Lagegenauigkeit ±3 pp. Markerliste in shot_markers.json. Rückführung bezeichnet Eintritt ins ±3 pp-Band für mindestens 12 Quellframes, nicht exakte Null; recovery_rest_pct enthält die letzte beobachtete lokale Ankerlage, nicht einen behaupteten exakten Nullpunkt.",
    "source_id": "QxSa4m3wIEA",
+   "path_basis": "Nullpunkt: erste Probe; Probe im Bild unmittelbar vor jedem markierten Schuss (Mündungsblitz)",
    "recheck": "bestätigt: 12 Blitze im Abstand 5 Bilder (720/min), Vor-Schuss-Netto Schuss 12 −12,3 pp H, Spitze −13,2 pp H, seitlich ≤ 2,1 pp B, ±3-pp-Band 24 Bilder nach letztem Schuss"
   },
   {
@@ -579,6 +581,7 @@
    "timestamp": "2,467–8,333; 11,533–17,400; 20,467–26,333 s",
    "notes": "Offizieller Bungie-Test: RD86, Stabilität 25, ausdrücklich ohne Gegensteuern. Drei Magazine 36→0. 30/s: nur Form/Lage, keine 60-Hz-Zeitabnahme. Homographie-Gegenprobe statt großer Translation; Perspektiv-/Extrapolationsgrenzen beachten. path_pct=erstes Magazin, je erstmals erkannter HUD-Zahl im 2 Quellframe-OCR-Raster; unbekannte/zu weit extrapolierte Positionen [null,null]. Keine Zeitmessung daraus. Inverse Homographie projiziert Bildmitte aufs Ausgangsbild; SIFT/RANSAC≥12 Inlier, Median-Reprojektion<1,5 Rechenpixel,Extrapolation max 150 Rechenpixel außerhalb Inlierhülle. Drei Bahnfamilien in abyss_paths.json. Gültige Teilspitzen 58/63/60 pp H sind wegen unterschiedlicher Endabdeckung nicht als Magazinstreuung verwendbar. Zufallsanteil bleibt null.",
    "source_id": "rw_6lS0pBf0",
+   "path_basis": "Nullpunkt: Bild vor dem ersten Schuss des ersten Magazins (projektiv per Homographie); Probe beim ersten Erkennen jeder HUD-Zahl im 2-Bild-Raster (der erste Wert ist daher schon die Lage nach dem ersten Schuss)",
    "recheck": "Zählung bestätigt: HUD 36 bei 2,40 s, 35 bei 2,50 s, 0 bei 8,30 s (≈ 360/min); großer Aufstieg am Bild sichtbar, Amplitude nicht nachgemessen"
   },
   {
@@ -642,7 +645,8 @@
    "source_url": "https://www.youtube.com/watch?v=DFn14wAPluA",
    "timestamp": "29,70–32,30 s",
    "notes": "Drei Dreiersalven. Native Marker an Blitzphasen; Bildbahn unmittelbar davor. Intra-Salve 4 Bilder, letzte Salvenbeginne 24 Bilder auseinander; erste Pause 68 Bilder. Beobachteter Takt ist kein Eingabelimit. NCC beider Anker≥0,864. JSON-Pfad: negative lokale Weltankerverschiebung im Bild unmittelbar vor jedem markierten Schuss, auf erste Probe genullt; keine Projektion in Grad. Die Nachkommastelle ist Rechenrohwert; Lagegenauigkeit ±3 pp. Markerliste in shot_markers.json. Rückführung bezeichnet Eintritt ins ±3 pp-Band für mindestens 12 Quellframes, nicht exakte Null; recovery_rest_pct enthält die letzte beobachtete lokale Ankerlage, nicht einen behaupteten exakten Nullpunkt.",
-   "source_id": "DFn14wAPluA"
+   "source_id": "DFn14wAPluA",
+   "path_basis": "Nullpunkt: erste Probe; Probe im Bild unmittelbar vor jedem markierten Schuss (Mündungsblitz)"
   },
   {
    "game": "Destiny 2",
@@ -712,7 +716,8 @@
    "source_url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
    "timestamp": "388,50–391,40 s",
    "notes": "Fünferfolge, 21/21/20/20 Bilder Abstand. Anker links bleibt NCC≥0,987; Weltpeak 5,7 pp H. Vor Folgeschüssen Restlage nimmt zu. Toleranzband-Rücklauf ist Netto der Quelle, keine isolierte Spieleigenschaft. JSON-Pfad: negative lokale Weltankerverschiebung im Bild unmittelbar vor jedem markierten Schuss, auf erste Probe genullt; keine Projektion in Grad. Die Nachkommastelle ist Rechenrohwert; Lagegenauigkeit ±3 pp. Markerliste in shot_markers.json. Rückführung bezeichnet Eintritt ins ±3 pp-Band für mindestens 12 Quellframes, nicht exakte Null; recovery_rest_pct enthält die letzte beobachtete lokale Ankerlage, nicht einen behaupteten exakten Nullpunkt.",
-   "source_id": "IG-GZ72Vbi0"
+   "source_id": "IG-GZ72Vbi0",
+   "path_basis": "Nullpunkt: erste Probe; Probe im Bild unmittelbar vor jedem markierten Schuss (Mündungsblitz)"
   },
   {
    "game": "Destiny 2",
@@ -756,7 +761,8 @@
    "source_url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
    "timestamp": "83,50–87,50 s",
    "notes": "Fünf markierte Schüsse eines längeren ADS-Abschnitts; weitere Schüsse nach 87,5s, daher keine Rückkehr nach kompletter Serie. Höchster Weltankerhub 7,6 pp H, starkes Modellkippen separat qualitativ. Kein exaktes Klassentempo aus unregelmäßigem Spielertakt. JSON-Pfad: negative lokale Weltankerverschiebung im Bild unmittelbar vor jedem markierten Schuss, auf erste Probe genullt; keine Projektion in Grad. Die Nachkommastelle ist Rechenrohwert; Lagegenauigkeit ±3 pp. Markerliste in shot_markers.json.",
-   "source_id": "IG-GZ72Vbi0"
+   "source_id": "IG-GZ72Vbi0",
+   "path_basis": "Nullpunkt: erste Probe; Probe im Bild unmittelbar vor jedem markierten Schuss (Mündungsblitz)"
   },
   {
    "game": "Destiny 2",
@@ -889,6 +895,7 @@
    "timestamp": "34,30–42,50 s; vier Schüsse≈34,567/36,817/39,033/41,133",
    "notes": "Vier geladene Einzelschüsse. Vor Schuss 2/3/4 projizierte Aufwärts-Restlage ≈6,7/13,1/19,6 pp H. Beide überarbeiteten Texturanker stimmen bei 378 gemeinsamen gültigen Bildern innerhalb 0,73 pp B/0,37 pp H überein. Blitzbilder und spätere ungültige Endframes sind verworfen; keine volle Rückführung. Abstand ist Spielertakt, keine rpm-Ableitung aus Ladewert. JSON-Pfad: negative lokale Weltankerverschiebung im Bild unmittelbar vor jedem markierten Schuss, auf erste Probe genullt; keine Projektion in Grad. Die Nachkommastelle ist Rechenrohwert; Lagegenauigkeit ±3 pp. Markerliste in shot_markers.json. Suchradius 110px begrenzt positive Welt-y auf 20,37 pp H; dieser Grenzwert darf nicht als Einfrieren gelesen werden. Der vierte Vor-Schusswert liegt noch innerhalb der Grenze, spätere ungültige Proben sind ausgeschlossen.",
    "source_id": "uoTaCBMXcFk",
+   "path_basis": "Nullpunkt: erste Probe; Probe im Bild unmittelbar vor jedem markierten Schuss (Mündungsblitz)",
    "recheck": "bestätigt mit zwei Ankern: Vor-Schuss-Rest 6,6 / 13,2 / 19,6 pp H, seitlich ≤ 1,0 pp B"
   },
   {
@@ -1241,6 +1248,7 @@
    "timestamp": "21.100–22.517",
    "notes": "Vorveröffentlichungs-Build. Pfad an visuell gegengeprüften HUD-Munitionswechseln, Marker ±1 Bild; OCR allein nicht übernommen. Vorzeichen x rechts/y unten; Basis unmittelbar vor erstem verwendeten Schuss. Kamerawirkung inklusive möglicher Eingaben; kein isoliertes Spielmuster, Lagegenauigkeit ±3 pp. Automatik; 18 aufeinanderfolgende Schüsse aus dem verbleibenden Magazin, letzte Patrone später",
    "source_id": "ROUP1z62caA",
+   "path_basis": "Nullpunkt: Bild unmittelbar vor dem ersten verwendeten Schuss; Probe je HUD-Munitionswechsel (der erste Wert ist daher schon die Lage beim ersten Schuss)",
    "recheck": "bestätigt: HUD 19 → 1 von 21,08 bis 22,52 s; Netto beim 18. Schuss −5,6 pp H (Codex −6,1), erste sieben Schüsse ≤ 1,5 pp H, seitlich ≤ 1,4 pp B"
   },
   {
@@ -1317,7 +1325,8 @@
    "source_url": "https://www.youtube.com/watch?v=ROUP1z62caA",
    "timestamp": "49.950–51.583",
    "notes": "Vorveröffentlichungs-Build. Pfad an visuell gegengeprüften HUD-Munitionswechseln, Marker ±1 Bild; OCR allein nicht übernommen. Vorzeichen x rechts/y unten; Basis unmittelbar vor erstem verwendeten Schuss. Kamerawirkung inklusive möglicher Eingaben; kein isoliertes Spielmuster, Lagegenauigkeit ±3 pp. 8 + 5 Schüsse, 22 Bilder zwischen den Teilstößen",
-   "source_id": "ROUP1z62caA"
+   "source_id": "ROUP1z62caA",
+   "path_basis": "Nullpunkt: Bild unmittelbar vor dem ersten verwendeten Schuss; Probe je HUD-Munitionswechsel (der erste Wert ist daher schon die Lage beim ersten Schuss)"
   },
   {
    "game": "Battlefield 6",
@@ -1401,7 +1410,8 @@
    "source_url": "https://www.youtube.com/watch?v=ROUP1z62caA",
    "timestamp": "113.117–114.117",
    "notes": "Vorveröffentlichungs-Build. Pfad an visuell gegengeprüften HUD-Munitionswechseln, Marker ±1 Bild; OCR allein nicht übernommen. Vorzeichen x rechts/y unten; Basis unmittelbar vor erstem verwendeten Schuss. Kamerawirkung inklusive möglicher Eingaben; kein isoliertes Spielmuster, Lagegenauigkeit ±3 pp. Automatik; vollständiges identifiziertes 15-Schuss-Teilstück",
-   "source_id": "ROUP1z62caA"
+   "source_id": "ROUP1z62caA",
+   "path_basis": "Nullpunkt: Bild unmittelbar vor dem ersten verwendeten Schuss; Probe je HUD-Munitionswechsel (der erste Wert ist daher schon die Lage beim ersten Schuss)"
   },
   {
    "game": "Battlefield 2042",

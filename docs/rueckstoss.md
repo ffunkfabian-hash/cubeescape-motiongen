@@ -93,7 +93,8 @@ Gesichtet und verworfen (freies Zielen, Optikmontagen, falsches Spiel oder gelö
 ## 2. Destiny 2 – Messungen
 
 Recoil Direction (RD) laut Datenbank ist ein Basiswert ohne Beleg der Clipkonfiguration; im Clip belegt ist nur Abyss Defiant (RD 86,
-Stabilität 25). Pfadwerte: Bildmitte gegen Weltanker im Bild **vor** jedem Schuss, auf die erste Probe genullt.
+Stabilität 25). Pfadwerte der Showcases: Bildmitte gegen Weltanker im Bild **vor** jedem Schuss, auf die erste Probe genullt; Abyss Defiant
+und Battlefield 6 beziehen sich auf das Bild vor dem ersten Schuss und tasten am Munitionszähler ab (`path_basis` in den Daten).
 
 | Vorgang | Quelle, Zeit | Messung | RD (Basis) |
 |---|---|---|---|
@@ -164,7 +165,8 @@ Formen sind den genannten Clips zugeordnet; Prozentwerte unterschiedlicher Spiel
 
 ## 6. Gestaltungsregeln für BASIC (Vorschlag)
 
-Vorschlag aus den Beobachtungen oben; Werte und Entscheidung liegen in BASIC. Quellprozente sind Formreferenzen und müssen im eigenen FOV
+Vorschlag aus den Beobachtungen oben, im Auftrag der BASIC-Sitzung formuliert und ihr per Briefkasten übergeben; Werte und Entscheidung
+liegen in BASIC (`cubeescape-ballon`), nicht hier. Quellprozente sind Formreferenzen und müssen im eigenen FOV
 kalibriert werden.
 
 1. **Vier Kurven getrennt führen:** Grundbahn der Kugel, Kameraantwort, Modellkick und Streuung als eigene Parameter
