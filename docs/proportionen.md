@@ -4,7 +4,7 @@ Referenzanalyse REF 0.15 „Sideview“ (25.10.2026) für die Waffenreihe **BASI
 echten Waffen. Schwerpunkt Destiny 2 als Stilvorbild höchster Priorität – **nicht kopieren**, sondern Verhältnisse und Formhierarchie
 verstehen. Hier stehen Beobachtungen und Zahlen; der Abschnitt [BASIC-Abweichungen](#5-basic-abweichungen) stellt Abweichungen
 fest; Schlüsse und Startwerte setzt BASIC. Maschinenlesbare Fassung: [`data/proportionen.json`](../data/proportionen.json). Anschluss an REF 0.14
-„Eyebox“ (Visiere, `docs/visiere.md`, [PR #42](https://github.com/ffunkfabian-hash/cubeescape-reference/pull/42)), die fand, dass
+„Eyebox“ ([Visiere](visiere.md)), die fand, dass
 „klobig“ vor allem von großen, hohen Gehäusen und Block-Sockeln kommt.
 
 **Status:** **[C]** Zuarbeit einer Antigravity-Sitzung (24.10.2026) – Quelle in dieser Version per yt-dlp bzw. Seitenabruf bestätigt,
@@ -187,7 +187,7 @@ waagerechten Öffnungsmitte (±4 px).
 |---|---:|---:|
 | Außenbreite Ringgehäuse | 328 px = 51,3 % B (326,5 px [M]) | 169 px = 26,4 % B |
 | Lichte Öffnung | 181 px = 28,3 % B (171–186 px [M], je nach Innenfase) | 132 px = 20,6 % B |
-| **Außen / Öffnung** <a id="p-ring-verhaeltnis"></a> | **1,81** (1,76–1,91 [M]) | **1,28** (REF 0.14 bei 4:04,5: 1,30 [M]) |
+| **Außen / Öffnung** <a id="p-ring-verhaeltnis"></a> | **1,81** (1,76–1,91 [M]) | **1,28** ([REF 0.14](visiere.md#v-d2-scout) bei 4:04,5: 1,30 [M]) |
 | Randbreite waagerecht | ≈ 73,5 px | ≈ 18,5 px |
 | Ringflächenanteil (Kreis genähert) | ≈ 69,5 % | ≈ 39 % |
 

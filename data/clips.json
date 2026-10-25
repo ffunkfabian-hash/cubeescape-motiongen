@@ -978,6 +978,204 @@
     "timestamps": "Blitz 88,850 · Kern bis 88,883 · Flamme bis 88,933 · ab 88,950 weg · Explosion 89,300; Marker ±1 Bild, Abstände ±2 Bilder, Lage ±3 Prozentpunkte"
   },
   {
+    "measurement": "Visier im Zielen: Destiny-2-Scout-Ring, Größe und ADS-Zeit (docs/visiere.md › 4)",
+    "clip": "https://www.youtube.com/watch?v=1ERmScNiOk4",
+    "source": "DFP (YouTube), 09.02.2023, 1920 × 1080, 60 fps; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "Größe 244,5 s · ADS 251,78 → Schnitt 251,883 → ruhig 251,98 · aus 253,983 → 254,017; ±1 Bild, Lage ±3 Prozentpunkte"
+  },
+  {
+    "measurement": "Visier im Zielen: Destiny-2-Kasten-Reflex, Rahmen/Öffnung 0,08",
+    "clip": "https://www.youtube.com/watch?v=1ERmScNiOk4",
+    "source": "DFP (YouTube), 09.02.2023, 60 fps; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "Hüfte 510,3 s · Zielen 514,2 s"
+  },
+  {
+    "measurement": "Absehen Destiny 2: SUROS-Glas und Häkke-Ringe",
+    "clip": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+    "source": "Ultraclocked (YouTube), 14.02.2020, 60 fps; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "Foggy Notion 207 s · Solemn Hymn 339 s"
+  },
+  {
+    "measurement": "Absehen Destiny 2: Häkke-Ringe (Call to Serve, Eystein-D)",
+    "clip": "https://www.youtube.com/watch?v=73lGCT7yOtk",
+    "source": "Ultraclocked (YouTube), 25.01.2020, 60 fps; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "131 s · 251 s"
+  },
+  {
+    "measurement": "Visiere Destiny 1: Ranged Lens, Focus Lens, Rotpunkt-Kasten",
+    "clip": "https://www.youtube.com/watch?v=MkkQa1OIpDk",
+    "source": "Jumping Puzzle (YouTube), 05.03.2015, 1280 × 720, 30 fps (Destiny 1); REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "OAS 115,5 s · RLR5 223 s · FLA5 272 s; keine Zeiten (30/s)"
+  },
+  {
+    "measurement": "Visiere Marathon: Volt Thrower, Ares, Stryder, Scar, Longshot",
+    "clip": "https://www.youtube.com/watch?v=QxZAflLtJRQ",
+    "source": "soda (YouTube), 04.06.2026, 1080p60 (Season 1); REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "150 s · 800 s · 676 s · Scar-ADS 364,45 → 364,65 s · 734 s"
+  },
+  {
+    "measurement": "Visier im Zielen: Apex 3× HCOG Ranger, Weltzoom Glas = außen, ADS-Zeit",
+    "clip": "https://www.youtube.com/watch?v=gCQHKNsIU9w",
+    "source": "Skeptation (YouTube), 08.11.2021, 1080p60, Mod-Client R5Reloaded; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "Hüfte 28,30 s · Anheben 28,333 → ruhig 28,517 s · Zielbild 28,70 s"
+  },
+  {
+    "measurement": "Visier im Zielen: Apex 1× HCOG Classic und 1–2× Variable Holo",
+    "clip": "https://www.youtube.com/watch?v=UetKaZiF9uA",
+    "source": "ClawZ (YouTube), 25.11.2020, 1150 × 720, 30 fps; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "75 s · 87,5 s (1×) · 95 s (2×)"
+  },
+  {
+    "measurement": "Visier im Zielen: BF2042 Rotpunkt, Weltzoom 1,68 und ADS-Zeit; mittleres ZF Glas = außen; Scharfschützen-ZF",
+    "clip": "https://www.youtube.com/watch?v=enyEjb4dXU8",
+    "source": "SammyBoiii: FPS (YouTube), 17.02.2022, 1080p60; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "Rotpunkt 39,94 → 40,07 s · mittleres ZF 122,4 / 122,8 s · Scharfschütze 128,462 → 128,81 s"
+  },
+  {
+    "measurement": "Visiere BF4: Holo, Coyote, HD-33, PKA-S, M145, Scharfschützen-Overlay",
+    "clip": "https://www.youtube.com/watch?v=q2j9kG3S4vA",
+    "source": "WiciuXshooter (YouTube), 30.08.2018, 1080p30; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "17 · 32 · 62 · 72 · 107 · 221 s; keine Zeiten (30/s)"
+  },
+  {
+    "measurement": "Visier im Zielen: Halo Infinite Commando, Weltzoom 4,15, Schnitt",
+    "clip": "https://www.youtube.com/watch?v=ZfNuA5r-470",
+    "source": "Abyssopelagic (YouTube), 30.07.2021, 720p60 (Technical Preview); REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "Hüfte 134,45 s · Schnitt 134,500 → 134,517 s · Zielbild 134,70 s"
+  },
+  {
+    "measurement": "Zoom-Überlagerung Halo 3: Karabiner, Weltzoom 2,33, Schnitt in 1 Bild",
+    "clip": "https://www.youtube.com/watch?v=X_ADv1HMwkg",
+    "source": "Weapons From Games (YouTube), 14.07.2020, 1080p60; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "190,858 → 190,874 s"
+  },
+  {
+    "measurement": "Visiere Titanfall (2014): Öffnung bei FOV 70/90/112",
+    "clip": "https://www.youtube.com/watch?v=Ny7bw5dXwPo",
+    "source": "Kat (YouTube), 11.07.2023, 1080p60; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "HCOG 6 / 18 / 30 s · Holo 48 / 58 / 68 s · AOG 82 / 98 / 120 s"
+  },
+  {
+    "measurement": "Visier im Zielen: Valorant Operator und Rifles, Bildmaßstab gegen Winkelzoom",
+    "clip": "https://www.youtube.com/watch?v=WH5xpA7tfY8",
+    "source": "Skovos (YouTube), 30 fps; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "Stinger 233,3 → 233,6 s · Phantom 367,4 → 369 s · Operator 422 → 430 s"
+  },
+  {
+    "measurement": "Visiere CoD MW2019: Cronen 2x2 Elite (Weltzoom 2,9), Reflex, Brownlee, PU Scope",
+    "clip": "https://www.youtube.com/watch?v=qI_IWMuH_Zs",
+    "source": "Hoodiewaffles (YouTube), 18.08.2020, 1080p30; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "15,0 → 15,2 s · 82 · 112 · 240 s"
+  },
+  {
+    "measurement": "Scharfschützen-Darstellung in 100 Spielen (Katalog)",
+    "clip": "https://www.youtube.com/watch?v=MM9db665Urg",
+    "source": "Tigerfield (YouTube), 60 fps; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "je Spiel ein Zielbild, ±1 s; Zuordnung Art A–E"
+  },
+  {
+    "measurement": "Visier Destiny 2: Tex Mechanica Long Arm (Korn mit Schutzflügeln), Nachprüfung Antigravity",
+    "clip": "https://www.youtube.com/watch?v=6TV5PKyv-Kk",
+    "source": "Ultraclocked (YouTube), 18.12.2022, 1080p60; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "25 s (Zielbild); MG-Holo 46 s"
+  },
+  {
+    "measurement": "Absehen Destiny 2: VEIST-Keile, Dauerfeuer-Ring (Valakadyn)",
+    "clip": "https://www.youtube.com/watch?v=afs_dhFDhQU",
+    "source": "Ultraclocked (YouTube), 09.02.2020, 1080p60; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "Death Adder 151 s · Rattler 276 s · Valakadyn 347,5–348,9 s"
+  },
+  {
+    "measurement": "Visier Marathon: Wärmebild-Zielfernrohr (Vollbild, violett)",
+    "clip": "https://www.youtube.com/watch?v=FEW1ZkadfM8",
+    "source": "Aculite (YouTube), 01.03.2026, 1080p60 (vor Release); REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "21 s · 156 s"
+  },
+  {
+    "measurement": "Visiere Titanfall 2: HCOG, CAR (kein Weltzoom), Longbow/Kraber-Overlay",
+    "clip": "https://www.youtube.com/watch?v=4sDwTD9U8bw",
+    "source": "Weapons From Games (YouTube), 1080p60; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "CAR 94,3 → 96,0 s · HCOG 184,5 → 188 s · Longbow 548,80–548,85 s · Kraber 590,23–590,27 s"
+  },
+  {
+    "measurement": "Visiere Rainbow Six Siege: Reflex/Holo und Ring-Zielfernrohre (Rang #16 … #1)",
+    "clip": "https://www.youtube.com/watch?v=Wib_5yd2mWk",
+    "source": "BeastModPlayer (YouTube), 15.04.2024, 1080p60, geschnitten (Zeiten ±6 s); REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "#7 ≈ 7:40 · #4 ≈ 10:00 · #3 ≈ 10:36 · #1 ≈ 11:50"
+  },
+  {
+    "measurement": "Visier CS:GO-AUG (Szene von 2018 im CS2-Video): Öffnung, Gehäuse, Glas gegen Hüfte",
+    "clip": "https://www.youtube.com/watch?v=fIscQmMHys4",
+    "source": "NartOutHere (YouTube), 02.05.2025, 1080p60; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "0:15–0:25 (CS:GO-Szene) · SG 553 Hüfte 5:03"
+  },
+  {
+    "measurement": "Zielfernrohr Overwatch 2: Widowmaker-Overlay, Waffe weg innerhalb ≤ 0,1 s (10/s-Abtastung)",
+    "clip": "https://www.youtube.com/watch?v=Qh7gYQpSq0Y",
+    "source": "iFaiiLed (YouTube), 07.11.2022, 59,94 fps (gemessen bei 10/s); REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "22,7 → 22,8 s · 43,2 → 43,3 s"
+  },
+  {
+    "measurement": "Visier Overwatch 2: Ashe-Hörnerkorn, Weltzoom 1,6",
+    "clip": "https://www.youtube.com/watch?v=NH0Qs8EXWOY",
+    "source": "lonesomary (YouTube), 08.06.2025, 60 fps, Abschnitt 10–310 s (Dateizeiten); REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "37,2 → 37,3 s"
+  },
+  {
+    "measurement": "Visiere The Finals: Holo-Fenster, Magnifex (Weltzoom 1,3), PIKE-556-Zielfernrohr",
+    "clip": "https://www.youtube.com/watch?v=ILLTAgWBT4w",
+    "source": "HazedNConfused (YouTube), 17.09.2025, 1080p60; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "21 · 63 s (PIKE) · 94 · 170 · 200 s · Magnifex: Zoom-Bildpaar Hüfte 290,98 / Zielen 291,45 s; Wechsel Hüftbild → Zielbild zwischen 291,017 und 291,033 s (Schnitt im Video nicht ausgeschlossen); keine Gesamtdauer"
+  },
+  {
+    "measurement": "Visiere Helldivers 2: Sightliner, Nova, AMR-20; Kamerasprung und schwarze Linse",
+    "clip": "https://www.youtube.com/watch?v=VawsGNra7tg",
+    "source": "Jumpycode (YouTube), 20.10.2026, 1080p60; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "Übergang 113,750 → 113,767 s, Linse schwarz bis 113,883 s · 25 · 128 · 262 s"
+  },
+  {
+    "measurement": "Visiere Tarkov: ACOG, PSO-1, EOTech; Außenzoom gegen Linsenbild",
+    "clip": "https://www.youtube.com/watch?v=aGkRvi6V0O8",
+    "source": "Syrekx (YouTube), 30.09.2023, 1080p60; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "ACOG 1:50–1:56 · EOTech 4:34–4:42 · PSO-1 8:13–8:20"
+  },
+  {
+    "measurement": "Visiere Insurgency Sandstorm: Linsenbild, Holo, Messing-Zielfernrohr",
+    "clip": "https://www.youtube.com/watch?v=61ikyEt9CM8",
+    "source": "Sick Snipes (YouTube), 28.09.2021, 1080p60; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "Holo 1:34–1:48 · Kasten 2:25–2:46"
+  },
+  {
+    "measurement": "Visiere Borderlands 3: Vladof 3,3×/5,0× (Weltzoom = Teilname), ADS-Zeiten",
+    "clip": "https://www.youtube.com/watch?v=Nwp4VJWUujY",
+    "source": "Agent Lomax (YouTube), 02.10.2019, 60 fps; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "3,3× 334,05 → 334,35 s · 5,0× 336,60 → 336,95 s"
+  },
+  {
+    "measurement": "Visier Borderlands 3: Hyperion 4,4× (Weltzoom 4,47), Schnitt auf Vollbild",
+    "clip": "https://www.youtube.com/watch?v=3T2UZUYPzEc",
+    "source": "Agent Lomax (YouTube), 15.03.2020, 60 fps; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "384,03 → Schnitt 384,28 → ruhig 384,68 s"
+  },
+  {
+    "measurement": "Visiere Cyberpunk 2077: Reflexe und Prospecta",
+    "clip": "https://www.youtube.com/watch?v=crGei3_OARY",
+    "source": "Akooma (YouTube), 16.12.2020, 60 fps; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "3,3 · 10 · 23 · 33 · 47 · 70 · 126–133 s"
+  },
+  {
+    "measurement": "Zoom-Overlay Warframe: Vulkar (Weltzoom 2,8), Snipetron, Rubico",
+    "clip": "https://www.youtube.com/watch?v=te0K_V1U2ok",
+    "source": "MCGamerCZ (YouTube), 28.12.2015, variable Bildrate; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "Hüfte 47 s · Vulkar 168 s · Snipetron 49–58 s · Rubico 274 s"
+  },
+  {
+    "measurement": "Zielfernrohr Arc Raiders: Osprey-Kreislinse",
+    "clip": "https://www.youtube.com/watch?v=MlK0E83JfEE",
+    "source": "TayXDc (YouTube), 03.11.2025, 60 fps; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
+    "timestamps": "332 s · 376 s"
+  },
+  {
     "measurement": "Proportionen: Far Future (D2-Scharfschützengewehr), H/L und freier Lauf im Menübild",
     "clip": "https://www.youtube.com/watch?v=RXgRxHESqHQ",
     "source": "Ultraclocked (YouTube), 18.02.2021, Abruf 1920 × 1080, 60 fps; REF 0.15 „Sideview“ (Mac, 25.10.2026), docs/proportionen.md › 6; Zahl der Antigravity-Zuarbeit nachgemessen",
