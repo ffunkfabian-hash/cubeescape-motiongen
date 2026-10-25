@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.24.0 „Glidepath“ – 2026-10-25
+
+- **Visier-Anflug, Fadenkreuz und Sprint je Waffentyp in Destiny 2** für den BALLON-Prototyp (17 BASIC-Standardtypen): Tabellen je Typ in [destiny2.md › 3](docs/destiny2.md#s-glidepath), 35 Messzeilen (`z-gp-…`), Methode „Glidepath“, Vergleich in [auswertung.md](docs/auswertung.md#ballon-visier), Einträge in `data/clips.json`.
+- Befund: **kein Überschwingen in 11 gemessenen Typen** (Bogen, Scharfschütze, kurze Fusion nur ±3–4 pp, Scout übertragen); in verfolgten Fällen monoton mit Abbremsen über 3–9 Bilder, Dauer 6–20 Bilder; Weltzoom endet meist mit dem Modell (drei Ausnahmen). Hüft-Fadenkreuz an 8 Typen gemessen, beim ADS-Beginn in einem Bild weg (Automatik, MP); Trefferanzeige rotes X 3,0–3,6 % H. Sprintfrequenz in keinem eigenen Clip mit 4 Zyklen belegt. Acht Widersprüche zum Bestand gelistet, nicht entschieden. [Bericht](docs/versions/0.md#0240-glidepath--2026-10-25).
+
+## 0.23.0 „Stride“ – 2026-10-25
+
+- **Sprint-Wippen in Destiny 2 gemessen** ([Methode 21](docs/destiny2.md#methode-21), Tabelle [Sprint-Wippen je Typ](docs/destiny2.md#s-sprint-wippen)): Automatikgewehr (Datto, Last Wish, 15.09.2018) und Handfeuerwaffe (Crystic, 24.08.2022) wippen vertikal mit **0,317 s (3,16 Hz)** über 4 bzw. 9 (5 + 4) Zyklen, seitlich mit **≈ 0,63 s (≈ 1,6 Hz, je 2 Zyklen, vorläufig)**; Hochpunkte an den Seitenumkehren (U-Bogen); Hub ≈ 10–11 % H / 13 % B (Automatik, Visier) und ≈ 13 % H / 4 % B (Handfeuerwaffe, Griff); Rollen ≈ 7° (Automatik); kein Kamerawippen nachweisbar. Ersetzt die unbestätigte 30/s-Lesung 2,5–3 Hz; PandaPaxxy an der 60/s-Datei nur Teilbeleg (2 Zyklen).
+- Zwei Messzeilen (`z-st-…`), PandaPaxxy-Zeile nachgemessen, Steckbriefe Automatik/Handfeuerwaffe, Bewegungsabsatz, Vergleich mit dem BALLON-Prototyp in [auswertung.md](docs/auswertung.md#ballon-sprint), drei Einträge in `data/clips.json`, eine Lehre. Ein-/Austritt nicht isoliert; übrige Typen in REF 0.24 „Glidepath“. [Bericht](docs/versions/0.md#0230-stride--2026-10-25).
+
 ## 0.22.0 „Hipline“ – 2026-10-25
 
 - Neue Referenzanalyse [Hüftlage](docs/huefte.md) mit `data/huefte.json`: 57 Waffen aus 10 Spielen bzw. Fassungen aus 17 Videos (Zuarbeit: 19) (Codex-Mac, Ego-Bewegung Thema 1) – Mündung, hintere Visieröffnung, Griffhand, Hüllrechteck und projizierte Neigung im Ruhebild; Destiny 2 mit 28 neuen Waffen aus 16 Klassen. Acht Messzeilen in `docs/destiny2.md` › 2 (Anker `z-hl-…`), Methode 20, 17 Einträge in `data/clips.json`.
