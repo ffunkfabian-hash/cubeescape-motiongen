@@ -154,8 +154,8 @@ Beobachtungen über die Beispiele hinweg, keine Gestaltungsregeln: was BASIC dar
   Threaded Needle, Tone Patrol, Annual Skate, Minimum Distance und First In, Last Out ist im Fenster keine Hülse sicher sichtbar.
 - **Farbe trägt Identität:** D1 Hawkmoon (warmer Stern) und Thorn (weißgrüne Flügel) unterscheiden sich bei gleicher Klasse stark;
   Dauerleuchten am Modell ist ein getrennter Effekt. New Malpais zeigt außen einen grünweißen Fächer mit Ringresten.
-- **Halo und Apex:** gut lesbare Sternformen und rechts (Apex rechts oben) fliegende Hülsen; Inhaltsduplikate begrenzen die zeitliche
-  Auflösung.
+- **Halo und Apex:** gut lesbare Sternformen; die Apex-Hülsen fliegen rechts oben (für Halo ist keine Hülsenrichtung erfasst).
+  Inhaltsduplikate begrenzen die zeitliche Auflösung.
 - **CoD und BF6:** in den gewählten Fenstern eher Gehäusebewegung, Rauch und Hülsen als ein isolierbarer heller Kern; BF6 zeigt im
   Nachladen getrennte rechteckige Auswurffenster.
 - **Form:** offene zylindrische Endstücke (MG ≈ 6 %, Impuls 10–15 % der sichtbaren Länge) vor geschlitzten Mänteln; Energiewaffen mit
