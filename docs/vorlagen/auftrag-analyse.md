@@ -2,7 +2,8 @@
 
 Kopieren, Platzhalter `<…>` ersetzen, nichts aus [docs/standard.md](../standard.md) weglassen. Der fertige Auftrag liegt **im Arbeitsordner**
 (Cache) als `AUFTRAG.md`, damit jeder Client ihn lesen kann; eine Kopie im Notizordner der koordinierenden Sitzung. Die Startnachricht an
-Codex/Antigravity nennt nur den Pfad, die Welle und die Freigabe für Unteragenten.
+Codex/Antigravity nennt nur den Pfad, die Welle und – **je Auftrag entschieden** – ob Unteragenten freigegeben sind. Die Pfade unten
+sind der Stand am Mac (Oktober 2026) und vor jedem Auftrag zu prüfen; alles in `<…>` ist Platzhalter.
 
 ---
 
@@ -50,6 +51,6 @@ abschließen, bevor das nächste beginnt“.>
 
 ```text
 Auftrag: ~/Library/Caches/CubeEscape/reference/<bereich>/AUFTRAG.md – bitte vollständig lesen und genau befolgen, dazu docs/standard.md
-im Repo cubeescape-reference (origin/main). Bearbeite Welle <n>. Unteragenten sind freigegeben. Nichts in Git-Repos ändern.
+im Repo cubeescape-reference (origin/main). Bearbeite Welle <n>. <Unteragenten sind freigegeben | Keine Unteragenten>. Nichts in Git-Repos ändern.
 Erste Zeile: Modell, Denkaufwand, Grund. Antworte auf Deutsch.
 ```

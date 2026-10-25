@@ -65,8 +65,10 @@ Bewertung ist Pflicht, nicht Beiwerk. Je Spiel und untersuchtem Gegenstand:
   Claude-Sitzung je Thema mit Versionsnummer.
 - **Prüfung durch den Koordinator** vor „fertig“ bzw. vor dem Einpflegen: 3 Quellen per yt-dlp nachprüfen, 2–8 Zahlen am eigenen Rasterbild
   nachmessen, jedes übernommene Beispiel am Zeitstempel ansehen, 3 Spieler-URLs aufrufen, Aufbau nach [6](#6-aufbau-einer-ergebnisdatei)
-  vollständig. Was die Prüfung nicht besteht, wird nicht übernommen und im Bericht als „nicht übernommen“ mit Grund genannt.
-  Erfahrung 0.14/0.18: Zuarbeit nannte falsche Video-IDs, falsche Waffen zu echten IDs und erfundene Beschreibungen.
+  vollständig; Zeitstempel gegen die Videolänge prüfen. Was die Prüfung nicht besteht, wird nicht übernommen und im Bericht **gezählt**
+  („bestätigt n von m, nicht übernommen k mit Grund“). **Fremde Zuarbeit ist Rohstoff, keine Quelle:** 0.14 fand Video-IDs anderer Titel,
+  0.18 bestätigte 30 von 86 Beispielen (24 von 34 Videos mit falschem Kanal/Datum, 14 Zeitstempel hinter dem Videoende, Farbangaben bei
+  mindestens 8 Waffen falsch) – siehe [LESSONS](LESSONS.md).
 - **Leitplanken (weich):** Zwischenstand alle 30–45 Minuten mit „fertig/nicht fertig“ in der ersten Zeile; je Thema Abschluss nach etwa
   3 Stunden, Offenes für eine Folgesitzung notieren; Dateien über ~1,5 GB in 720p; Cache je Auftrag in einer vorher genannten Grenze.
 - **Aufräumen** nach dem Merge: eigene Downloads und Zwischendateien; Belege der aktuellen und der vorigen Version bleiben.
@@ -93,4 +95,8 @@ Gilt für Zuarbeiten und als Gliederung des späteren Docs:
   `data/<thema>.json`; Kernmessungen in `data/clips.json`; benannte Anker für zitierte Zeilen; Lehre in `docs/LESSONS.md`; CHANGELOG und
   Versionsbericht.
 - Prüfung: `./check`, `git diff --check`, Codex-Richter bis Freigabe; Merge nur durch Sightline nach Ja des Nutzers.
+- **Parallele Sitzungen im selben Repo:** eigene Dateien (`docs/<thema>.md`, `data/<thema>.json`) parallel bearbeiten; die gemeinsamen
+  Dateien (`CHANGELOG.md`, `.ce-repo.json`, `docs/versions/0.md`, `docs/LESSONS.md`, `README.md`, `data/clips.json`, `docs/destiny2.md`)
+  erst kurz vor dem PR nach `git merge origin/main` ändern – am besten per idempotentem Skript, das nach jedem Einholen erneut läuft.
+  Sightline mergt in Versionsreihenfolge; so liefen 0.14–0.20 ohne Konflikt.
 - Übergabe an das abnehmende Repo (BASIC, Cube Escape, Toolgen) per Briefkasten; dort nie selbst schreiben.
