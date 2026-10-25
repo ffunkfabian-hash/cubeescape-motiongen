@@ -43,7 +43,7 @@ belastbaren Musterbefund. **Der Vergleich mit anderen Spielen fehlt damit in die
 
 | Quelle | Kanal | Hochgeladen | Inhalt | hier verwendet |
 |---|---|---|---|---|
-| [`IG-GZ72Vbi0`](https://www.youtube.com/watch?v=IG-GZ72Vbi0) <a id="o-q-suros"></a> | Ultraclocked | 14.02.2020 | D2 Titan-Legendaries (SUROS), 1080p60 | 10 Menüs, 4 Beispiele, 2 [M] |
+| [`IG-GZ72Vbi0`](https://www.youtube.com/watch?v=IG-GZ72Vbi0) <a id="o-q-suros"></a> | Ultraclocked | 14.02.2020 | D2 Titan-Legendaries (SUROS), 1080p60 | 10 Menüs, 5 Beispiele, 2 [M] |
 | [`73lGCT7yOtk`](https://www.youtube.com/watch?v=73lGCT7yOtk) <a id="o-q-hakke"></a> | Ultraclocked | 25.01.2020 | D2 EDZ-Legendaries (Häkke) | 13 Menüs, 5 Beispiele, 2 [M] |
 | [`42zdQOVBAD0`](https://www.youtube.com/watch?v=42zdQOVBAD0) <a id="o-q-omolon"></a> | Ultraclocked | 30.01.2020 | D2 Nessus-Legendaries (Omolon) | 10 Menüs, 4 Beispiele, 2 [M] |
 | [`afs_dhFDhQU`](https://www.youtube.com/watch?v=afs_dhFDhQU) <a id="o-q-veist"></a> | Ultraclocked | 09.02.2020 | D2 Io-Legendaries (VEIST) | 9 Menüs, 4 Beispiele, 2 [M] |
