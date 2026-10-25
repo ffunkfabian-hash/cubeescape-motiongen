@@ -137,10 +137,10 @@ Formen sind den genannten Clips zugeordnet; Prozentwerte unterschiedlicher Spiel
 
 | Klasse | Destiny | Vergleich | Form in Worten |
 |---|---|---|---|
-| Automatik | Chroma Rush: gleichmäßige Rampe, ≈ 1 pp H je Schuss, seitlich kaum; Abyss: lange Säule mit kleinen Seitenwechseln, dreimal gleiche Form | CS2: Stamm mit seitlicher Kappe; MW2019: Diagonale / Bogen / Säule je Waffe; Apex: Haken, S, Schleife; BF: fast senkrecht | **Destiny = senkrecht mit leichtem Wackeln, keine markante Figur**; Eigenart in CS/CoD/Apex kommt aus der Seitenform, nicht aus mehr Hub |
+| Automatik | Chroma Rush: gleichmäßige Rampe, ≈ 1 pp H je Schuss, seitlich kaum; Abyss: lange Säule mit kleinen Seitenwechseln, dreimal gleiche Form | CS2: Stamm mit seitlicher Kappe; MW2019: Diagonale / Bogen / Säule je Waffe; Apex: Haken, S, Schleife; BF: fast senkrecht | in den Destiny-Clips senkrecht mit leichtem Wackeln, keine markante Figur; die markanten Figuren der CS2/MW2019/Apex-Clips liegen in der Seitenform |
 | Impuls | Gridskipper: Stufe je Salve, Erholung zwischen den Salven | Halo BR75 fast ruhig; Hemlok steigt über die Salven | Salve = ein Paket, Pause = Teil-Rücklauf |
 | Scout | Tone Patrol: kräftiger Einzelimpuls, wachsender Rest bei schnellem Takt | VK78 (getaktete Taps) | Impuls groß, Rücklauf fast vollständig, Rest summiert sich nur bei Takt am Limit |
-| Handfeuerwaffe | Annual Skate: großer Hochimpuls, deutliches Kippen des Modells, Rest klein | kein gleichwertiger Vergleich | größter Kick pro Schuss, Modell zeigt ihn stärker als die Kamera |
+| Handfeuerwaffe | Annual Skate: großer Hochimpuls, deutliches Kippen des Modells, Rest klein | kein gleichwertiger Vergleich | in diesem Clip großer Einzelimpuls; das Modell kippt sichtbar stärker, als die Welt wandert |
 | Seitenwaffe | Dead Man Walking: Hochimpulse bis ≈ 10 pp H | Halo Mk50 klein | – |
 | MP | Foggy Notion: steigende Nettobahn ≈ 9 pp H, seitlich wenig | BF2042 K30 schmal senkrecht; C.A.R. mit Seitenwechseln | – |
 | MG | Shattered Cipher: im ADS deutlich mehr Bildweg als in der Hüfte | kein Vergleich | – |
@@ -154,13 +154,14 @@ Formen sind den genannten Clips zugeordnet; Prozentwerte unterschiedlicher Spiel
 1. **Fest, hybrid oder zufällig ist eine Entwurfsentscheidung, die Spiele wechseln:** CS2 und CoD MW2019 setzen auf lernbare Grundbahnen,
    Valorant auf einen festen Anfang mit zufälligen Seitenwechseln, Apex auf feste Punkte mit kleiner Varianz, Destiny 2023 kurz auf
    teilweise feste Folgen und 2025 wieder zurück (außer Vigilance Wing).
-2. **Destiny hat keine Signaturform:** seine Automatikbahnen sind steigende Säulen mit kleinem Seitenwackeln (Chroma, Abyss);
-   Unterschiede trägt die Stärke, nicht die Figur. Signaturformen (Diagonale, Bogen, S, Haken) zeigen CS2, MW2019 und Apex.
-3. **Battlefield ist am senkrechtesten:** BF6 und BF2042 steigen in allen Fenstern mit ≤ 2,2 pp B seitlich; BF6 B36A4 beginnt flach und
+2. **Die beiden gemessenen Destiny-Automatikwaffen zeigen keine Signaturform:** Chroma Rush und Abyss Defiant steigen als Säule mit
+   kleinem Seitenwackeln; ob das für alle Destiny-Waffen gilt, ist mit zwei Clips nicht belegt. Signaturformen (Diagonale, Bogen, S, Haken) zeigen CS2, MW2019 und Apex.
+3. **Die Battlefield-Fenster sind fast senkrecht:** BF6 und BF2042 steigen in allen sechs gemessenen Fenstern mit ≤ 2,2 pp B seitlich
+   (Netto, Eingabe unbekannt); BF6 B36A4 beginnt flach und
    steigt erst nach etwa sieben Schüssen.
 4. **Kamera, Modell und Treffer bewegen sich verschieden:** Apex-Trefferhüllen sind kleiner als die gleichzeitige Kamerabahn,
    Annual Skate kippt das Modell stärker als die Welt wandert, Valorant/CS zeigen Treffer, Kamera und Modell getrennt.
-5. **Takt bestimmt den Rest:** bei Scout und Fusion wächst die Restlage vor jedem Folgeschuss, bei Salvenwaffen erholt sich die Bahn
+5. **Takt und Rest hängen in den Clips zusammen:** bei Tone Patrol (Scout) und Threaded Needle (Fusion) wächst die Restlage vor jedem Folgeschuss, bei Salvenwaffen erholt sich die Bahn
    in der Salvenpause.
 
 ## 6. Gestaltungsregeln für BASIC (Vorschlag)
@@ -172,7 +173,8 @@ kalibriert werden.
 1. **Vier Kurven getrennt führen:** Grundbahn der Kugel, Kameraantwort, Modellkick und Streuung als eigene Parameter
    (Apex, Annual Skate, CS2 zeigen sie verschieden).
 2. **Eine lesbare Form je Waffe:** senkrechter Beginn, Diagonale, Bogen oder spätes S. Mehr Hub allein schafft wenig Eigenart.
-   Für den Destiny-Stil genügt eine steigende Säule mit kleinem Seitenwackeln; Signaturformen sind eine Stufe weiter.
+   Die beiden Destiny-Automatikclips zeigen eine steigende Säule mit kleinem Seitenwackeln; Signaturformen wie in CS2/MW2019/Apex
+   wären eine eigene Entscheidung.
 3. **Salven zweistufig:** Takt in der Salve und Erholung bis zur nächsten getrennt einstellen (Gridskipper, BR75, Hemlok).
 4. **Lernbarkeit ausdrücklich festlegen:** fester Anfang plus begrenzter Zufall (Valorant) oder ganz feste Bahn (CS2) ist eine Entscheidung,
    kein Nebenprodukt.
