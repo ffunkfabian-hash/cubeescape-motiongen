@@ -13,3 +13,4 @@
 - Rückstoß aus fremden Aufnahmen ist Netto aus Spiel und Spielereingabe; ohne belegten Nullinput keine Rückstoßkonstante, keinen Zufallsanteil und keine Rückführzeit daraus ableiten ([rueckstoss](rueckstoss.md#7-offen-und-nicht-messbar)).
 - Rückstoß im Zielen gegen einen starren Weltanker getrennt vom Visier verfolgen; Spuren mit Overlay, Blitz oder Formwechsel (NCC deutlich < 0,85) verwerfen statt sie als Null oder Spitze zu melden ([zielbewegung](zielbewegung.md#1-methode-und-genauigkeit)).
 - Halte unter 2 s tragen keine Atemperiode; „innerhalb ±3 pp“ ist eine Auflösungsgrenze, kein Nachweis für Null-Sway ([zielbewegung](zielbewegung.md#7-nicht-messbar--offen)).
+- Inspect- und Animationsdauern aus Showcases sind Quellmedienzeit; die Marker-Definition mitnennen – „erste Bewegung → Hüftlage“ und „Ruhe → Ruhe“ unterscheiden sich um 0,2–0,4 s ([inspektion](inspektion.md#1-methode-und-genauigkeit)).
