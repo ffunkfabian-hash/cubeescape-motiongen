@@ -1,0 +1,3801 @@
+{
+ "version": "0.22.0",
+ "name": "Hipline",
+ "date": "2026-10-25",
+ "doc": "docs/huefte.md",
+ "measured_by": "Codex-Mac (Ego-Bewegung, Thema 1), 25.10.2026; eingepflegt von REF 0.22 „Hipline“ (Claude Opus 5.5) nach Abnahme (19/19 Videos per yt-dlp, 10 Bildstichproben, 1 Wert widerlegt), 25.10.2026",
+ "units": "Lage in % Bildbreite / Bildhöhe, Ursprung oben links, Mitte 50 / 50, ±3 pp; body_bbox_pct = [xmin, ymin, xmax, ymax] des sichtbaren Waffenkörpers ohne Arme (Hüllrechteck, keine verdeckte Pixelfläche; am Bildrand abgeschnitten = Untergrenze); tilt_deg = projizierte Lauflinie, edge_tilt_deg = sichtbare Längskante, beide 2D, ±10°; FOV unbekannt",
+ "fields": {
+  "muzzle_pct": "sichtbares Laufende",
+  "sight_pct": "hintere Visieröffnung / Okular",
+  "grip_pct": "rechte Griffhand (Bogen: linke Griffhand, grip_hand)",
+  "body_bbox_pct": "Hüllrechteck Waffenkörper ohne Arme",
+  "tilt_deg": "0° = waagerecht nach links, positiv = nach links oben",
+  "edge_tilt_deg": "Gehäuse-/Mantelkante, kein Laufwinkel",
+  "evaluation": "Schlüssel in evaluations (Bewertung je Spiel, nicht je Waffe)",
+  "integration": "übernommen / korrigiert / verworfen / offen (Abnahme 0.22)"
+ },
+ "dropped_fields": {
+  "convergence": "nur 50 − Mündungswert, keine Konvergenz oder Flugbahn",
+  "good/bad je Eintrag": "Codex kopierte den Spieltext in jede Zeile; Bewertung steht in evaluations"
+ },
+ "status": {
+  "M": "am Einzelbild mit Raster gemessen",
+  "O": "Sichtung ohne belastbare Ruhepose",
+  "C": "Spielerstimme",
+  "B": "Entwicklerquelle"
+ },
+ "player_sources": [
+  {
+   "id": "C1",
+   "game": "Destiny 2",
+   "status": "C",
+   "title": "Weapon model being too big since Echoes",
+   "url": "https://www.reddit.com/r/DestinyTheGame/comments/1g48fgt/",
+   "date": "2024-10-15",
+   "author": "Sabo2",
+   "access_date": "2026-10-25",
+   "page_status": "Vollseite mit relevanten Originalbeiträgen/Kommentaren geöffnet und gelesen",
+   "date_evidence": "Absolutes Datum im Suchauszug; geöffnete Reddit-Seite zeigt überwiegend relative Datierung.",
+   "patch_context": "Autor nennt Waffen seit Episode Echoes; genaue Buildnummer und FOV unbekannt. Keine Prüfung der hier 2020/21 gemessenen Waffen.",
+   "summary": "Kritik an hohen/großen Hüftmodellen; mehrere Waffen werden trotz positivem Spielgefühl wegen Sichtverdeckung gemieden.",
+   "recurrence": "Zwei Threads verschiedener Starter in einer Woche zum selben Update (C1/C2) – nicht unabhängig wiederkehrend",
+   "agreement": "Mehrere konkrete zustimmende Kommentare zur Sichtverdeckung.",
+   "visible_score_at_search": {
+    "post": 262,
+    "supporting_comment": 121,
+    "counter_comment": 0
+   },
+   "score_caveat": "Scores stammen aus dem sichtbaren Suchauszug, nicht aus einer aktuellen Abstimmungsmessung; im geöffneten Seiten-Text fehlen die Scorezahlen.",
+   "counter": "Eine Gegenstimme sieht trotz großer Modelle gut; eine weitere mag Spielgefühl und Visier.",
+   "audit": "Reddit bei der Abnahme 25.10.2026 nicht abrufbar; Inhalt nicht nachgeprüft"
+  },
+  {
+   "id": "C2",
+   "game": "Destiny 2",
+   "status": "C",
+   "title": "Bungie, either move some of the weapon models down or let us move them down because holy, I cannot see half of my screen.",
+   "url": "https://www.reddit.com/r/DestinyTheGame/comments/1g8kmtn/",
+   "date": "2024-10-21",
+   "author": "jamer2500",
+   "access_date": "2026-10-25",
+   "page_status": "Vollseite mit relevanten Originalbeiträgen/Kommentaren geöffnet und gelesen",
+   "date_evidence": "Absolutes Datum im Suchauszug; geöffnete Reddit-Seite zeigt überwiegend relative Datierung.",
+   "patch_context": "Bericht über damalige Hard-Light-/VS-Chill-Inhibitor-Modelle; Buildnummer/FOV offen, zeitlich vier Jahre nach den älteren Messclips.",
+   "summary": "Wünscht tiefere beziehungsweise einstellbare Modelle; bemängelt besonders rechte Sichtverdeckung und die zentrierte Zielpunktoption.",
+   "recurrence": "Zwei Threads verschiedener Starter in einer Woche zum selben Update (C1/C2) – nicht unabhängig wiederkehrend",
+   "agreement": "Mehrere Kommentare beschreiben ähnliche Beschwerden; ästhetisches Lob ist keine Zustimmung zur Verdeckung.",
+   "visible_score_at_search": {
+    "post": 536
+   },
+   "score_caveat": "Scores stammen aus dem sichtbaren Suchauszug, nicht aus einer aktuellen Abstimmungsmessung; im geöffneten Seiten-Text fehlen die Scorezahlen.",
+   "counter": "Keine direkte Gegenstimme zur Verdeckung im geprüften Abschnitt; ein Kommentar lobt das Aussehen des Visiers und nennt es zugleich groß.",
+   "audit": "Reddit bei der Abnahme 25.10.2026 nicht abrufbar; Inhalt nicht nachgeprüft"
+  },
+  {
+   "id": "C3",
+   "game": "Marathon (2026)",
+   "status": "C",
+   "title": "Does the FOV feel too low or is it just me?",
+   "url": "https://www.reddit.com/r/Marathon/comments/1ty9zg1/does_the_fov_feel_too_low_or_is_it_just_me/",
+   "date": "2026-06-06",
+   "author": "Dark_Throat",
+   "access_date": "2026-10-25",
+   "page_status": "Vollseite mit relevanten Originalbeiträgen/Kommentaren geöffnet und gelesen",
+   "date_evidence": "Absolutes Datum im Suchauszug; geöffnete Reddit-Seite zeigt überwiegend relative Datierung.",
+   "patch_context": "Zwei Tage nach dem Messvideo vom 04.06.2026; gleicher Build nicht nachgewiesen, genannte 105 sind persönliche Angabe, keine neue Messung.",
+   "summary": "Empfindet die Ansicht selbst am oberen FOV-Ende als eng und vermutet den Waffenbildanteil als Ursache.",
+   "recurrence": "Einzelstimme in einem geprüften Thread; keine repräsentative Verbreitung belegt.",
+   "agreement": "Eine Antwort wünscht einen gesonderten Waffen-FOV-Regler.",
+   "visible_score_at_search": {
+    "post": 3,
+    "supporting_comment": 2
+   },
+   "score_caveat": "Scores stammen aus dem sichtbaren Suchauszug, nicht aus einer aktuellen Abstimmungsmessung; im geöffneten Seiten-Text fehlen die Scorezahlen.",
+   "counter": "Keine Gegenstimme im kurzen geladenen Thread gefunden.",
+   "audit": "Reddit bei der Abnahme 25.10.2026 nicht abrufbar; Inhalt nicht nachgeprüft"
+  },
+  {
+   "id": "C4",
+   "game": "Halo Infinite",
+   "status": "C",
+   "title": "Mind the Skill Gap – Kommentare zu Weapon Offsets",
+   "url": "https://www.reddit.com/r/haloinfinite/comments/12lsu78/",
+   "date": "2023-04-14",
+   "author": "_JackReacheround / mehrere Kommentierende",
+   "access_date": "2026-10-25",
+   "page_status": "Vollseite mit relevanten Originalbeiträgen/Kommentaren geöffnet und gelesen",
+   "date_evidence": "Absolutes Datum im Suchauszug; geöffnete Reddit-Seite zeigt überwiegend relative Datierung.",
+   "patch_context": "Veröffentlichte Fassung 2023, nicht die gemessene Technical Preview 2021; exakte Buildnummer/FOV unbekannt.",
+   "summary": "Ein Spieler stellt Modelle weit aus dem Bild für bessere Zielsuche; andere bevorzugen eigene oder nur bei schweren Waffen veränderte Lagen.",
+   "recurrence": "Ein Thread mit mehreren unterschiedlichen Präferenzen; kein Konsens über ideale Offsetwerte.",
+   "agreement": "Zustimmung zum Wahlrecht, zugleich Einwände gegen extreme Positionen. Postscore 335 bezieht sich auf den Gameplayclip und wird nicht als Zustimmung zur Offsetthese verwendet.",
+   "visible_score_at_search": {
+    "question_comment": 3,
+    "personalization_reply": 4
+   },
+   "score_caveat": "Scores stammen aus dem sichtbaren Suchauszug, nicht aus einer aktuellen Abstimmungsmessung; im geöffneten Seiten-Text fehlen die Scorezahlen.",
+   "counter": "Ein Kommentar findet die starken Offsets merkwürdig; ein weiterer verschiebt nur große Powerwaffen.",
+   "audit": "Reddit bei der Abnahme 25.10.2026 nicht abrufbar; Inhalt nicht nachgeprüft"
+  },
+  {
+   "id": "C5",
+   "game": "The Finals",
+   "status": "C",
+   "title": "change weapon fov or add a weapon fov slider to the settings",
+   "url": "https://www.reddit.com/r/thefinals/comments/1hdtjfp/",
+   "date": "2024-12-14",
+   "author": "adrenaline___junky",
+   "access_date": "2026-10-25",
+   "page_status": "Vollseite mit relevanten Originalbeiträgen/Kommentaren geöffnet und gelesen",
+   "date_evidence": "Absolutes Datum im Suchauszug; geöffnete Reddit-Seite zeigt überwiegend relative Datierung.",
+   "patch_context": "Datum 2024, vor dem Messclip vom 19.09.2025; genaue Version/FOV unbekannt.",
+   "summary": "Kritisiert zu nahe und große Waffenmodelle und verlangt einen eigenen Waffen-FOV-Regler.",
+   "recurrence": "Einzelstimme in einem geprüften Thread; keine repräsentative Verbreitung belegt.",
+   "agreement": "Keine weitere unabhängige Zustimmung im geladenen kurzen Thread gefunden.",
+   "visible_score_at_search": {
+    "post": 1,
+    "counter_comment": 1
+   },
+   "score_caveat": "Scores stammen aus dem sichtbaren Suchauszug, nicht aus einer aktuellen Abstimmungsmessung; im geöffneten Seiten-Text fehlen die Scorezahlen.",
+   "counter": "Antwort widerspricht dem behaupteten Realismusargument: eine angeschlagene Waffe werde tatsächlich nahe am Gesicht gehalten.",
+   "audit": "Reddit bei der Abnahme 25.10.2026 nicht abrufbar; Inhalt nicht nachgeprüft"
+  },
+  {
+   "id": "C6",
+   "game": "Call of Duty: Modern Warfare (2019)",
+   "status": "C",
+   "title": "Weapon/Player Model FOV",
+   "url": "https://www.reddit.com/r/modernwarfare/comments/du4u4g/",
+   "date": "2019-11-10",
+   "author": "hunterbenben",
+   "access_date": "2026-10-25",
+   "page_status": "Vollseite mit relevanten Originalbeiträgen/Kommentaren geöffnet und gelesen",
+   "date_evidence": "Absolutes Datum im Suchauszug; geöffnete Reddit-Seite zeigt überwiegend relative Datierung.",
+   "patch_context": "Kurz nach dem Launch und dem Messvideo vom 26.10.2019; exakter Patch unbekannt. Genannte 80/110 sind Spielerangaben, nicht nachgemessen.",
+   "summary": "Wünscht eine eigene Modell-FOV-Einstellung, weil Modell und weiter Weltblick für ihn unpassend zusammenwirken.",
+   "recurrence": "Einzelstimme in einem geprüften Thread; keine repräsentative Verbreitung belegt.",
+   "agreement": "Die Antwort ist eine Begriffsverwechslung, keine technische Bestätigung eines Waffenmodell-Reglers.",
+   "visible_score_at_search": {
+    "post": 4
+   },
+   "score_caveat": "Scores stammen aus dem sichtbaren Suchauszug, nicht aus einer aktuellen Abstimmungsmessung; im geöffneten Seiten-Text fehlen die Scorezahlen.",
+   "counter": "Antwort verweist auf ADS-FOV; Autor grenzt diese Funktion ausdrücklich vom Waffenmodell-FOV ab. Kein belegter Gegenbeweis zur persönlichen Präferenz.",
+   "audit": "Reddit bei der Abnahme 25.10.2026 nicht abrufbar; Inhalt nicht nachgeprüft"
+  },
+  {
+   "id": "C7",
+   "game": "Apex Legends",
+   "status": "C",
+   "title": "What FOV do you guys use?",
+   "url": "https://www.reddit.com/r/apexlegends/comments/1wioo4n/what_fov_do_you_guys_use/",
+   "date": "2026-09-17",
+   "author": "Strict_Winter8760 / mehrere Kommentierende",
+   "access_date": "2026-10-25",
+   "page_status": "Vollseite mit relevanten Originalbeiträgen/Kommentaren geöffnet und gelesen",
+   "date_evidence": "Absolutes Datum im Suchauszug; geöffnete Reddit-Seite zeigt überwiegend relative Datierung.",
+   "patch_context": "Aktuelle Diskussion 2026, deutlich nach dem gemessenen 2019-Clip. Keine Bestätigung des alten Modellmaßstabs und keine verifizierten Komfortwirkungen.",
+   "summary": "Verschiedene Spieler bevorzugen mehr Umgebungssicht oder weniger perspektivische Verzerrung; ein einheitlicher Idealwert fehlt.",
+   "recurrence": "Ein Thread mit mehreren gegensätzlichen persönlichen Einstellungen; keine repräsentative Häufigkeit.",
+   "agreement": "Mehrere Beiträge vertreten beide Richtungen; keine medizinische Wirksamkeitsaussage.",
+   "visible_score_at_search": null,
+   "score_caveat": "Scores stammen aus dem sichtbaren Suchauszug, nicht aus einer aktuellen Abstimmungsmessung; im geöffneten Seiten-Text fehlen die Scorezahlen.",
+   "counter": "Befürwortern maximaler Weite stehen Nutzer mit 90/100 und Beschwerden über Fischaugeneindruck gegenüber.",
+   "audit": "Reddit bei der Abnahme 25.10.2026 nicht abrufbar; Inhalt nicht nachgeprüft"
+  }
+ ],
+ "developer_sources": [
+  {
+   "id": "D1",
+   "game": "Destiny 2",
+   "status": "B",
+   "title": "The Next Generation of Destiny",
+   "url": "https://www.bungie.net/7/en/News/article/49650",
+   "date": "2020-10-15",
+   "access_date": "2026-10-25",
+   "publisher": "Bungie",
+   "page_status": "Volltext geöffnet",
+   "summary": "Kündigt FOV-Anpassung für neue Konsolen zum 08.12.2020 an, mit einem PC-ähnlichen Einstellbereich als Ziel.",
+   "scope_limit": "Belegt einen Plattform-/Versionswechsel des Welt-FOV; weder Waffenmodell-Regler noch Reaktion auf die erst 2024 geäußerte Modellkritik."
+  },
+  {
+   "id": "D2",
+   "game": "Halo Infinite",
+   "status": "B",
+   "title": "Guide to Halo Infinite Game Settings",
+   "url": "https://support.halowaypoint.com/hc/en-us/articles/4407649252116-Guide-to-Halo-Infinite-Game-Settings",
+   "date": null,
+   "access_date": "2026-10-25",
+   "publisher": "Halo Support",
+   "page_status": "Volltext geöffnet; Publikationsdatum nicht sichtbar",
+   "summary": "Dokumentiert horizontale, vertikale und Tiefen-Offsets nach Waffenkategorie, die Anzeige, nicht Funktionsweise oder Zielen ändern.",
+   "scope_limit": "Heutige Funktionsdokumentation; keine belegte Einführung nach Kritik und kein Nachweis der beim 2021-Messclip gewählten Offsets."
+  },
+  {
+   "id": "D3",
+   "game": "Apex Legends",
+   "status": "B",
+   "title": "What are the best settings for Apex Legends on PC?",
+   "url": "https://help.ea.com/en/articles/apex-legends/best-settings-pc/",
+   "date": null,
+   "updated_relative_at_access": "Updated 3 months ago",
+   "access_date": "2026-10-25",
+   "publisher": "EA Help",
+   "page_status": "Volltext geöffnet; exaktes Datum nicht sichtbar",
+   "summary": "Erklärt den Zielkonflikt: höherer Welt-FOV zeigt mehr Umgebung, stellt entfernte Ziele aber kleiner dar.",
+   "scope_limit": "Keine Aussage zum separat gerenderten Waffenmodell-FOV oder zur Implementierung im gemessenen 2019-Clip."
+  },
+  {
+   "id": "D4",
+   "game": "Call of Duty: Modern Warfare (2019)",
+   "status": "B",
+   "title": "Getting Started in Modern Warfare: Controls and Settings (PC)",
+   "url": "https://blog.activision.com/de/call-of-duty/2019-10/Getting-Started-in-Modern-Warfare-Controls-and-Settings-PC",
+   "date": "2019-10-25",
+   "access_date": "2026-10-25",
+   "publisher": "Activision / James Mattone",
+   "page_status": "Volltext geöffnet; Datum im Artikel",
+   "summary": "Nennt Welt-FOV einen oft gewünschten Grafikregler und beschreibt unabhängiges beziehungsweise relatives ADS-FOV.",
+   "scope_limit": "Das bestätigt keine freie Modell-FOV-Einstellung und keine nachträgliche Behebung der Spielerbeschwerde C6."
+  }
+ ],
+ "evaluations": [
+  {
+   "game": "Destiny 2",
+   "subject": "Kompakte Handfeuerwaffe gegen hohe schwere Modelle und breiten Bogen",
+   "status": "O",
+   "source_url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+   "timestamp": "79.500000",
+   "notes": "Eigene Einschätzung aus vorhandenen Messzeilen, keine neue Bildmessung oder Spielerprobung. FOV der Aufnahmen unbekannt. Die Communitykritik betrifft spätere andere Modelle; sie bestätigt keine konkrete Verdeckung der gemessenen 2020/21-Waffen und keinen Fehler aller Destiny-Waffen.",
+   "good": "Einschätzung: Annual Skate liegt als kompakte rechte Kontur tief im Bild; Imperial Needle spannt breit, bleibt aber im unteren Bildteil. Die sehr verschiedenen Konturen machen Waffenfamilien leicht unterscheidbar.",
+   "bad": "Einschätzung: Hoosegow erreicht rechts die gesamte Bildhöhe, Shattered Cipher reicht bis 35,7%H und über die Bildmitte. Bei solchen Konturen muss Sicht in die rechte Umgebung bewusst geprüft werden; das Hüllrechteck allein misst die tatsächlich verdeckte Fläche nicht.",
+   "audience": "Orientierung und Zielsuche in PvE/PvP; Anfänger profitieren von klarer Silhouette, Sichtpräferenzen können unterschiedlich sein. Keine gemessene Leistungsverbesserung.",
+   "player_opinion": {
+    "summary": "Kritik an hohen/großen Hüftmodellen; mehrere Waffen werden trotz positivem Spielgefühl wegen Sichtverdeckung gemieden. / Wünscht tiefere beziehungsweise einstellbare Modelle; bemängelt besonders rechte Sichtverdeckung und die zentrierte Zielpunktoption.",
+    "recurrence": "Zwei Threads verschiedener Starter (C1 15.10.2024, C2 21.10.2024) zum selben Update in einer Woche – kein unabhängig wiederkehrender Befund; Inhalt bei der Abnahme nicht nachgeprüft (Reddit blockiert)",
+    "sources": [
+     "https://www.reddit.com/r/DestinyTheGame/comments/1g48fgt/",
+     "https://www.reddit.com/r/DestinyTheGame/comments/1g8kmtn/"
+    ],
+    "source_ids": [
+     "C1",
+     "C2"
+    ],
+    "counter": "Eine Gegenstimme sieht trotz großer Modelle gut; eine weitere mag Spielgefühl und Visier. / Keine direkte Gegenstimme zur Verdeckung im geprüften Abschnitt; ein Kommentar lobt das Aussehen des Visiers und nennt es zugleich groß."
+   },
+   "dev_reference": {
+    "summary": "Kündigt FOV-Anpassung für neue Konsolen zum 08.12.2020 an, mit einem PC-ähnlichen Einstellbereich als Ziel.",
+    "url": "https://www.bungie.net/7/en/News/article/49650",
+    "date": "2020-10-15",
+    "scope_limit": "Belegt einen Plattform-/Versionswechsel des Welt-FOV; weder Waffenmodell-Regler noch Reaktion auf die erst 2024 geäußerte Modellkritik."
+   }
+  },
+  {
+   "game": "Destiny 1",
+   "subject": "Handfeuerwaffe gegen Scout-/Raketenwerferkontur",
+   "status": "O",
+   "source_url": "https://www.youtube.com/watch?v=lTMKIvPrJZc",
+   "timestamp": "24.992",
+   "notes": "Eigene Einschätzung aus vorhandenen Messzeilen, keine neue Bildmessung oder Spielerprobung. FOV der Aufnahmen unbekannt. Quelle ist ein 30/s-Vergleichsvideo. Daraus folgen keine Ruhefrequenz oder Animationszeit; aktuelle Destiny 2-Meinungen sind kein Destiny 1-Beleg.",
+   "good": "Einschätzung: Die Handfeuerwaffe bleibt auf eine kleine rechte Kontur begrenzt; die dokumentierten ruhigen Nachbarposen machen sie als Grundlagenreferenz brauchbar.",
+   "bad": "Einschätzung: Scout und Werfer reichen deutlich höher als die Handfeuerwaffe. Eine übernommene gemeinsame Standardgröße würde diese Unterschiede verdecken; reale Sichtbehinderung ist nicht flächengenau erfasst.",
+   "audience": "Referenzgestaltung kompakter und schwerer Waffen; keine Aussage zum heutigen Komfort auf unterschiedlichen Monitoren.",
+   "player_opinion": {
+    "summary": "Keine ausreichend passende, geprüfte Spielerquelle für dieses Spiel in diesem Nachtrag.",
+    "recurrence": "Nicht belegt.",
+    "sources": [],
+    "source_ids": [],
+    "counter": "Nicht erhoben; fehlende Quelle ist keine Zustimmung."
+   },
+   "dev_reference": {
+    "summary": null,
+    "url": null,
+    "date": null,
+    "scope_limit": "Keine ausreichend passende geprüfte Entwickler-/Fachquelle für dieses Spiel; allgemeine Vergleichsprinzipien D2/D3 nicht als Spieltatsache übertragen."
+   }
+  },
+  {
+   "game": "Marathon (2026)",
+   "subject": "Kleine Pistole gegen hohes Langwaffenmodell",
+   "status": "O",
+   "source_url": "https://www.youtube.com/watch?v=QxZAflLtJRQ",
+   "timestamp": "8.000",
+   "notes": "Eigene Einschätzung aus vorhandenen Messzeilen, keine neue Bildmessung oder Spielerprobung. FOV der Aufnahmen unbekannt. C3 liegt nahe am Datum des Messvideos, identischer Patch/FOV ist trotzdem nicht belegt. Kein gesicherter Entwicklerbeleg zu einem Modell-FOV-Regler.",
+   "good": "Einschätzung: Die Pistole ist kompakt; ruhige Vergleichsbilder erlauben eine klare Ausgangskontur ohne Ziehpose.",
+   "bad": "Einschätzung: Longshot reicht bis 37%H und sein Okular sitzt weit rechts. Die Kontur kann rechte Suchräume beanspruchen; aus dem ruhigen Screenshot folgt keine Komfort- oder Trefferquote.",
+   "audience": "Erkundung und Gegnerwahrnehmung im Extraction-Kontext; unterschiedliche Größenpräferenzen ausdrücklich zulassen.",
+   "player_opinion": {
+    "summary": "Empfindet die Ansicht selbst am oberen FOV-Ende als eng und vermutet den Waffenbildanteil als Ursache.",
+    "recurrence": "Einzelstimme in einem geprüften Thread; keine repräsentative Verbreitung belegt.",
+    "sources": [
+     "https://www.reddit.com/r/Marathon/comments/1ty9zg1/does_the_fov_feel_too_low_or_is_it_just_me/"
+    ],
+    "source_ids": [
+     "C3"
+    ],
+    "counter": "Keine Gegenstimme im kurzen geladenen Thread gefunden."
+   },
+   "dev_reference": {
+    "summary": null,
+    "url": null,
+    "date": null,
+    "scope_limit": "Keine ausreichend passende geprüfte Entwickler-/Fachquelle für dieses Spiel; allgemeine Vergleichsprinzipien D2/D3 nicht als Spieltatsache übertragen."
+   }
+  },
+  {
+   "game": "Titanfall 2",
+   "subject": "CAR und R-201 als tiefe rechte Gewehrkonturen",
+   "status": "O",
+   "source_url": "https://www.youtube.com/watch?v=4sDwTD9U8bw",
+   "timestamp": "88.000",
+   "notes": "Eigene Einschätzung aus vorhandenen Messzeilen, keine neue Bildmessung oder Spielerprobung. FOV der Aufnahmen unbekannt. Keine ausreichend passende geprüfte Spieler-/Entwicklerquelle zur ruhigen Standardhüftlage. Modding-Nachfrage aus der Suche ist kein Beleg für eine Stock-Implementierung oder verbreitete Kritik.",
+   "good": "Einschätzung: Beide Hüftkonturen bleiben unterhalb beziehungsweise an der horizontalen Bildmitte; gleichbleibende Zähler und Nachbarposen ergeben brauchbare Grundposen.",
+   "bad": "Einschätzung: Beide werden am rechten/unteren Rand abgeschnitten. Waffenidentität lässt sich lesen, vollständige Größe oder Mündungsrichtung daraus jedoch nicht; mögliche rechte Verdeckung bleibt ungeprüft.",
+   "audience": "Schnelle Orientierung und Referenzvergleich von Gewehrformen; kein Nachweis über Lesbarkeit während Parkour.",
+   "player_opinion": {
+    "summary": "Keine ausreichend passende, geprüfte Spielerquelle für dieses Spiel in diesem Nachtrag.",
+    "recurrence": "Nicht belegt.",
+    "sources": [],
+    "source_ids": [],
+    "counter": "Nicht erhoben; fehlende Quelle ist keine Zustimmung."
+   },
+   "dev_reference": {
+    "summary": null,
+    "url": null,
+    "date": null,
+    "scope_limit": "Keine ausreichend passende geprüfte Entwickler-/Fachquelle für dieses Spiel; allgemeine Vergleichsprinzipien D2/D3 nicht als Spieltatsache übertragen."
+   }
+  },
+  {
+   "game": "Apex Legends",
+   "subject": "R-301 in ruhiger Hüfte",
+   "status": "O",
+   "source_url": "https://www.youtube.com/watch?v=R-BGChzYGpo",
+   "timestamp": "39.500",
+   "notes": "Eigene Einschätzung aus vorhandenen Messzeilen, keine neue Bildmessung oder Spielerprobung. FOV der Aufnahmen unbekannt. C7/D3 sind spätere Quellen und belegen nicht die konkrete 2019-Waffenprojektion; keine numerische Empfehlung für BASIC daraus ableiten.",
+   "good": "Einschätzung: Die erfasste Kontur bleibt unter 58%H und rechts der Mitte; im ruhigen Abschnitt ist der Zähler stabil und die Grundform von der späteren Inspektion getrennt.",
+   "bad": "Einschätzung: Nur ein Waffenbeispiel und unbekanntes FOV. Mehr Welt-FOV darf nicht pauschal als bessere Lesbarkeit gelten, weil entfernte Ziele laut EA kleiner erscheinen.",
+   "audience": "Nah- gegen Fernorientierung; C7 enthält unterschiedliche Maus-/Controllerpräferenzen, keine universelle Idealzahl.",
+   "player_opinion": {
+    "summary": "Verschiedene Spieler bevorzugen mehr Umgebungssicht oder weniger perspektivische Verzerrung; ein einheitlicher Idealwert fehlt.",
+    "recurrence": "Ein Thread mit mehreren gegensätzlichen persönlichen Einstellungen; keine repräsentative Häufigkeit.",
+    "sources": [
+     "https://www.reddit.com/r/apexlegends/comments/1wioo4n/what_fov_do_you_guys_use/"
+    ],
+    "source_ids": [
+     "C7"
+    ],
+    "counter": "Befürwortern maximaler Weite stehen Nutzer mit 90/100 und Beschwerden über Fischaugeneindruck gegenüber."
+   },
+   "dev_reference": {
+    "summary": "Erklärt den Zielkonflikt: höherer Welt-FOV zeigt mehr Umgebung, stellt entfernte Ziele aber kleiner dar.",
+    "url": "https://help.ea.com/en/articles/apex-legends/best-settings-pc/",
+    "date": null,
+    "scope_limit": "Keine Aussage zum separat gerenderten Waffenmodell-FOV oder zur Implementierung im gemessenen 2019-Clip."
+   }
+  },
+  {
+   "game": "Halo Infinite",
+   "subject": "MA40 gegen höheres BR75-Gehäuse",
+   "status": "O",
+   "source_url": "https://www.youtube.com/watch?v=ZfNuA5r-470",
+   "timestamp": "6.000",
+   "notes": "Eigene Einschätzung aus vorhandenen Messzeilen, keine neue Bildmessung oder Spielerprobung. FOV der Aufnahmen unbekannt. Messung stammt aus der ersten Technical Preview 2021; Meinung 2023 und aktuelle Supportdokumentation sind ausdrücklich zeitlich getrennt.",
+   "good": "Einschätzung: Klare obere Konturen trennen MA40-Anzeige und BR75-Optik; die offiziell dokumentierten Offsets bieten grundsätzlich eine Wahl der sichtbaren Waffenlage.",
+   "bad": "Einschätzung: BR75 reicht bis 38%H statt 51%H der MA40 und kann mehr rechten oberen Suchraum beanspruchen. Unbekannte Preview-Offsets begrenzen Zahlenvergleiche mit späteren Einstellungen.",
+   "audience": "Spieler mit unterschiedlichen Vorlieben für Zielsuche und sichtbare Waffe; Wahlfreiheit statt einem behaupteten Optimaloffset.",
+   "player_opinion": {
+    "summary": "Ein Spieler stellt Modelle weit aus dem Bild für bessere Zielsuche; andere bevorzugen eigene oder nur bei schweren Waffen veränderte Lagen.",
+    "recurrence": "Ein Thread mit mehreren unterschiedlichen Präferenzen; kein Konsens über ideale Offsetwerte.",
+    "sources": [
+     "https://www.reddit.com/r/haloinfinite/comments/12lsu78/"
+    ],
+    "source_ids": [
+     "C4"
+    ],
+    "counter": "Ein Kommentar findet die starken Offsets merkwürdig; ein weiterer verschiebt nur große Powerwaffen."
+   },
+   "dev_reference": {
+    "summary": "Dokumentiert horizontale, vertikale und Tiefen-Offsets nach Waffenkategorie, die Anzeige, nicht Funktionsweise oder Zielen ändern.",
+    "url": "https://support.halowaypoint.com/hc/en-us/articles/4407649252116-Guide-to-Halo-Infinite-Game-Settings",
+    "date": null,
+    "scope_limit": "Heutige Funktionsdokumentation; keine belegte Einführung nach Kritik und kein Nachweis der beim 2021-Messclip gewählten Offsets."
+   }
+  },
+  {
+   "game": "Call of Duty: Modern Warfare (2019)",
+   "subject": "X16 und1911 als kompakte tiefe Pistolenlage",
+   "status": "O",
+   "source_url": "https://www.youtube.com/watch?v=_KTdg4YM1fQ",
+   "timestamp": "4.000",
+   "notes": "Eigene Einschätzung aus vorhandenen Messzeilen, keine neue Bildmessung oder Spielerprobung. FOV der Aufnahmen unbekannt. Der Meinungsthread betrifft die damalige PC-Fassung, keinen quantifizierten Fehler der hier gemessenen X16/1911. ADS-FOV ist kein Ersatznachweis für Modell-FOV.",
+   "good": "Einschätzung: Beide Gehäuse liegen tief und nahe der Mitte und lassen oberhalb der Kontur viel Bildraum frei. Ruhige Nachbarbilder unterscheiden Grundpose von Nachladeende.",
+   "bad": "Einschätzung: Die tiefe kleine Silhouette allein beweist keine gute Erkennbarkeit ihrer Mündung. Die Spielerbeschwerde zeigt zudem, dass Welt-FOV und Modellprojektion begrifflich getrennt werden müssen.",
+   "audience": "PC-Spieler mit weitem Weltblick und Gestalter kompakter BASIC-Pistolen; keine Komfort- oder Reaktionszeitmessung.",
+   "player_opinion": {
+    "summary": "Wünscht eine eigene Modell-FOV-Einstellung, weil Modell und weiter Weltblick für ihn unpassend zusammenwirken.",
+    "recurrence": "Einzelstimme in einem geprüften Thread; keine repräsentative Verbreitung belegt.",
+    "sources": [
+     "https://www.reddit.com/r/modernwarfare/comments/du4u4g/"
+    ],
+    "source_ids": [
+     "C6"
+    ],
+    "counter": "Antwort verweist auf ADS-FOV; Autor grenzt diese Funktion ausdrücklich vom Waffenmodell-FOV ab. Kein belegter Gegenbeweis zur persönlichen Präferenz."
+   },
+   "dev_reference": {
+    "summary": "Nennt Welt-FOV einen oft gewünschten Grafikregler und beschreibt unabhängiges beziehungsweise relatives ADS-FOV.",
+    "url": "https://blog.activision.com/de/call-of-duty/2019-10/Getting-Started-in-Modern-Warfare-Controls-and-Settings-PC",
+    "date": "2019-10-25",
+    "scope_limit": "Das bestätigt keine freie Modell-FOV-Einstellung und keine nachträgliche Behebung der Spielerbeschwerde C6."
+   }
+  },
+  {
+   "game": "Battlefield 6 (pre-launch build)",
+   "subject": "B36A4 und AK4D im Vorabstand",
+   "status": "O",
+   "source_url": "https://www.youtube.com/watch?v=ROUP1z62caA",
+   "timestamp": "41.200",
+   "notes": "Eigene Einschätzung aus vorhandenen Messzeilen, keine neue Bildmessung oder Spielerprobung. FOV der Aufnahmen unbekannt. Neue spätere Bugberichte zu Weapon-FOV-Reset nicht als Bestätigung des 2025-Prelaunch-Clips verwendet. Keine passende zeitlich zugeordnete Spieler-/Entwicklerquelle verifiziert.",
+   "good": "Einschätzung: Die Gehäuse enden rechts vor dem Bildrand und bleiben im unteren rechten Bereich; gemessene Öffnungen lassen sich von vorderen Kornformen unterscheiden.",
+   "bad": "Einschätzung: Vorabstand und zwei Beispiele tragen keine allgemeine Aussage zur veröffentlichten Reihe. Randabstand ist weder eine gemessene Sichtverdeckungsfläche noch ein Komforturteil.",
+   "audience": "Referenzvergleich langer Gewehre; spätere Patch-/Einstelltests müssen separat erfolgen.",
+   "player_opinion": {
+    "summary": "Keine ausreichend passende, geprüfte Spielerquelle für dieses Spiel in diesem Nachtrag.",
+    "recurrence": "Nicht belegt.",
+    "sources": [],
+    "source_ids": [],
+    "counter": "Nicht erhoben; fehlende Quelle ist keine Zustimmung."
+   },
+   "dev_reference": {
+    "summary": null,
+    "url": null,
+    "date": null,
+    "scope_limit": "Keine ausreichend passende geprüfte Entwickler-/Fachquelle für dieses Spiel; allgemeine Vergleichsprinzipien D2/D3 nicht als Spieltatsache übertragen."
+   }
+  },
+  {
+   "game": "Valorant",
+   "subject": "Classic gegen nur gesichtete Bulldog-Haltung",
+   "status": "O",
+   "source_url": "https://www.youtube.com/watch?v=WH5xpA7tfY8",
+   "timestamp": "82.015",
+   "notes": "Eigene Einschätzung aus vorhandenen Messzeilen, keine neue Bildmessung oder Spielerprobung. FOV der Aufnahmen unbekannt. Quelle 2020 liegt nur bei 29,97/s. Keine Ruhezeit/Frequenz neu ableiten; keine ausreichend passende geprüfte Spieler-/Entwicklerquelle gefunden.",
+   "good": "Einschätzung: Die Classic besitzt eine kompakte abgegrenzte rechte Kontur; die ruhigen Nachbarbilder eignen sich für einen klaren Grundformvergleich.",
+   "bad": "Einschätzung: Bulldog ist im Bestand nurO mit Blickdrehung/Sway. Eine Wertung ihrer angeblich ruhigen Grundhaltung wäre stärker als der Beleg; die große Hüllkontur allein misst keine Verdeckung.",
+   "audience": "Klarheit der Waffenform für neue Spieler; keine Aussage über Crosshair-Placement oder Wettbewerbsvorteile.",
+   "player_opinion": {
+    "summary": "Keine ausreichend passende, geprüfte Spielerquelle für dieses Spiel in diesem Nachtrag.",
+    "recurrence": "Nicht belegt.",
+    "sources": [],
+    "source_ids": [],
+    "counter": "Nicht erhoben; fehlende Quelle ist keine Zustimmung."
+   },
+   "dev_reference": {
+    "summary": null,
+    "url": null,
+    "date": null,
+    "scope_limit": "Keine ausreichend passende geprüfte Entwickler-/Fachquelle für dieses Spiel; allgemeine Vergleichsprinzipien D2/D3 nicht als Spieltatsache übertragen."
+   }
+  },
+  {
+   "game": "The Finals",
+   "subject": "M26 Matter nach dem Nachladen",
+   "status": "O",
+   "source_url": "https://www.youtube.com/watch?v=1QFjDZBh3GE",
+   "timestamp": "35.300",
+   "notes": "Eigene Einschätzung aus vorhandenen Messzeilen, keine neue Bildmessung oder Spielerprobung. FOV der Aufnahmen unbekannt. C5 stammt aus 2024, der Messclip aus 2025; identische Einstellung oder unveränderte Projektion nicht belegt. Die Realismus-Gegenstimme ist keine Leistungsstudie.",
+   "good": "Einschätzung: Die bestätigte Hüftpose bleibt unter 60%H und lässt die obere Bildhälfte in dieser Kontur frei; die drei Nachbarposen vermeiden eine Bewertung der Rückkehrbewegung.",
+   "bad": "Einschätzung: Rechts/unten angeschnittene Waffe, nur ein Beispiel. Ein großer sichtbarer Waffenanteil kann für Identität gefallen und für Umgebungssicht stören; C5 vertritt nur eine persönliche Gewichtung.",
+   "audience": "Spieler mit unterschiedlicher Nähe-/Waffengefühlpräferenz; kein allgemein gutes oder schlechtes Modell-FOV.",
+   "player_opinion": {
+    "summary": "Kritisiert zu nahe und große Waffenmodelle und verlangt einen eigenen Waffen-FOV-Regler.",
+    "recurrence": "Einzelstimme in einem geprüften Thread; keine repräsentative Verbreitung belegt.",
+    "sources": [
+     "https://www.reddit.com/r/thefinals/comments/1hdtjfp/"
+    ],
+    "source_ids": [
+     "C5"
+    ],
+    "counter": "Antwort widerspricht dem behaupteten Realismusargument: eine angeschlagene Waffe werde tatsächlich nahe am Gesicht gehalten."
+   },
+   "dev_reference": {
+    "summary": null,
+    "url": null,
+    "date": null,
+    "scope_limit": "Keine ausreichend passende geprüfte Entwickler-/Fachquelle für dieses Spiel; allgemeine Vergleichsprinzipien D2/D3 nicht als Spieltatsache übertragen."
+   }
+  }
+ ],
+ "proposals": [
+  {
+   "action": "übernehmen",
+   "proposal": "Pro Waffenfamilie eine klar lesbare Silhouette entwerfen und die Hüft-Grundpose erst an wirklich ruhigen Nachbarbildern beurteilen.",
+   "basis": [
+    "M:Annual Skate79,5s",
+    "M:CE Tactical Sidearm8,0s",
+    "M:R-30139,5s"
+   ],
+   "test": "Sichtbarkeit von Form und Griff von der tatsächlich freien Weltfläche getrennt prüfen."
+  },
+  {
+   "action": "vermeiden",
+   "proposal": "Hüllrechteckfläche nicht als tatsächlichen Verdeckungsanteil ausgeben; Bogenlöcher und Zwischenräume sind sichtbare Welt.",
+   "basis": [
+    "M:Imperial Needle47,0s"
+   ],
+   "test": "Wenn Verdeckung später gemessen werden soll, Silhouettenmaske statt Bboxfläche verwenden; in diesem Auftrag keine neue Messung."
+  },
+  {
+   "action": "testen",
+   "proposal": "Horizontale, vertikale und Tiefenlage je Waffengruppe innerhalb geprüfter Grenzen einstellbar machen.",
+   "basis": [
+    "C1",
+    "C2",
+    "C4",
+    "D2"
+   ],
+   "test": "Dieselben Ziel- und Orientierungsszenen mit mehreren individuellen Lagen testen; Funktionsweise und Trefferachse dabei unverändert halten."
+  },
+  {
+   "action": "testen",
+   "proposal": "Welt-FOV und Waffenprojektion als getrennte Gestaltungsgrößen behandeln und schmale sowie breite Seitenverhältnisse abnehmen.",
+   "basis": [
+    "C3",
+    "C6",
+    "D1",
+    "D3",
+    "D4"
+   ],
+   "test": "Zielgröße, sichtbare Umgebung und Waffenverdeckung separat vergleichen; keine Destiny-Prozentwerte als universelle Startwerte kopieren."
+  },
+  {
+   "action": "vermeiden",
+   "proposal": "Große Waffen nicht allein durch hohe oder nach innen ragende Gehäusekonturen schwer wirken lassen.",
+   "basis": [
+    "M:Hoosegow226,2s",
+    "M:Shattered Cipher3,4s",
+    "C1",
+    "C2"
+   ],
+   "test": "Alternativen über Form/Material und gewünschte Präsenz gegentesten; Wucht oder Animation gehören nicht zu dieser Hüftlagen-Nachbesserung."
+  },
+  {
+   "action": "testen",
+   "proposal": "Ruhige Grundlage und Verdeckungspräferenzen mit unterschiedlichen Spielern prüfen, statt eine maximale FOV-/Minimalmodell-Pose allen vorzuschreiben.",
+   "basis": [
+    "C1",
+    "C4",
+    "C5",
+    "C7"
+   ],
+   "test": "Subjektive Lesbarkeit und Orientierung erfassen; aus stationären Clipbildern keine Übelkeits-, Leistungs- oder Barrierefreiheitswirkung versprechen."
+  }
+ ],
+ "entries": [
+  {
+   "id": "hl-destiny-2-a-single-clap",
+   "game": "Destiny 2",
+   "subject": "A Single Clap",
+   "class": "Scharfschützengewehr",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+   "timestamp": 6.0,
+   "channel": "Ultraclocked",
+   "title": "Destiny 2 - All Titan Legendary Weapons - Animations & Sounds w/ Slow-Motion | SUROS Weapons",
+   "upload_date": "20200214",
+   "frame_rate": "60/1",
+   "muzzle_pct": [
+    56,
+    68
+   ],
+   "sight_pct": [
+    70,
+    54
+   ],
+   "grip_pct": null,
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    55,
+    44,
+    100,
+    100
+   ],
+   "visible_size_pct": [
+    45,
+    56
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": 40,
+   "arm_bbox_pct": {
+    "left": [
+     47,
+     81,
+     60,
+     100
+    ],
+    "right": null
+   },
+   "notes": "Sehr große Sechseckoptik; rechte Griffhand durch Receiver verdeckt. Sichtbare Laufmantelkante vorn, keine 3D-Achse. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 2",
+   "integration": "übernommen",
+   "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
+  },
+  {
+   "id": "hl-destiny-2-annual-skate",
+   "game": "Destiny 2",
+   "subject": "Annual Skate",
+   "class": "Handfeuerwaffe",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+   "timestamp": 79.5,
+   "channel": "Ultraclocked",
+   "title": "Destiny 2 - All Titan Legendary Weapons - Animations & Sounds w/ Slow-Motion | SUROS Weapons",
+   "upload_date": "20200214",
+   "frame_rate": "60/1",
+   "muzzle_pct": [
+    57,
+    63
+   ],
+   "sight_pct": [
+    64,
+    66
+   ],
+   "grip_pct": [
+    67,
+    87
+   ],
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    55,
+    60,
+    70,
+    84
+   ],
+   "visible_size_pct": [
+    15,
+    24
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": 35,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": [
+     59,
+     80,
+     83,
+     100
+    ]
+   },
+   "notes": "Kurze einhändig sichtbare Hüftpose vor ADS-Eintritt bei80.5s; linke Hand nicht identifizierbar. Laufmantel-Längskante. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 2",
+   "integration": "übernommen",
+   "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
+  },
+  {
+   "id": "hl-destiny-2-dead-man-walking",
+   "game": "Destiny 2",
+   "subject": "Dead Man Walking",
+   "class": "Sidearm",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+   "timestamp": 101.0,
+   "channel": "Ultraclocked",
+   "title": "Destiny 2 - All Titan Legendary Weapons - Animations & Sounds w/ Slow-Motion | SUROS Weapons",
+   "upload_date": "20200214",
+   "frame_rate": "60/1",
+   "muzzle_pct": [
+    57,
+    64
+   ],
+   "sight_pct": [
+    66,
+    71
+   ],
+   "grip_pct": [
+    67,
+    87
+   ],
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    56,
+    60,
+    71,
+    84
+   ],
+   "visible_size_pct": [
+    15,
+    24
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": 35,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": [
+     59,
+     80,
+     83,
+     100
+    ]
+   },
+   "notes": "Kurze Pistole; hintere Kimme ist vom vorderen Laufende getrennt. Linke Hand nicht identifizierbar. Oberkante Laufmantel. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 2",
+   "integration": "übernommen",
+   "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
+  },
+  {
+   "id": "hl-destiny-2-first-in-last-out",
+   "game": "Destiny 2",
+   "subject": "First In, Last Out",
+   "class": "Schrotflinte",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+   "timestamp": 136.0,
+   "channel": "Ultraclocked",
+   "title": "Destiny 2 - All Titan Legendary Weapons - Animations & Sounds w/ Slow-Motion | SUROS Weapons",
+   "upload_date": "20200214",
+   "frame_rate": "60/1",
+   "muzzle_pct": [
+    57,
+    63
+   ],
+   "sight_pct": [
+    66,
+    68
+   ],
+   "grip_pct": null,
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    56,
+    60,
+    83,
+    100
+   ],
+   "visible_size_pct": [
+    27,
+    40
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": 35,
+   "arm_bbox_pct": {
+    "left": [
+     47,
+     71,
+     62,
+     100
+    ],
+    "right": null
+   },
+   "notes": "Slug-Schrotflinte; linke Stützhand/Unterarm groß, Abzugshand verdeckt. Zylindrische vordere Laufmantelkante. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 2",
+   "integration": "übernommen",
+   "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
+  },
+  {
+   "id": "hl-destiny-2-foggy-notion",
+   "game": "Destiny 2",
+   "subject": "Foggy Notion",
+   "class": "Maschinenpistole",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+   "timestamp": 185.0,
+   "channel": "Ultraclocked",
+   "title": "Destiny 2 - All Titan Legendary Weapons - Animations & Sounds w/ Slow-Motion | SUROS Weapons",
+   "upload_date": "20200214",
+   "frame_rate": "60/1",
+   "muzzle_pct": [
+    57,
+    67
+   ],
+   "sight_pct": [
+    72,
+    67
+   ],
+   "grip_pct": null,
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    56,
+    60,
+    100,
+    100
+   ],
+   "visible_size_pct": [
+    44,
+    40
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": [
+     51,
+     81,
+     62,
+     100
+    ],
+    "right": null
+   },
+   "notes": "Große geschlossene Receiverform; Mündung sichtbar, zu kurze/mehrdeutige Laufstrecke für belastbaren Winkel. Null ist kein0°. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 2",
+   "integration": "übernommen",
+   "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
+  },
+  {
+   "id": "hl-destiny-2-hoosegow",
+   "game": "Destiny 2",
+   "subject": "Hoosegow",
+   "class": "Raketenwerfer",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+   "timestamp": 226.2,
+   "channel": "Ultraclocked",
+   "title": "Destiny 2 - All Titan Legendary Weapons - Animations & Sounds w/ Slow-Motion | SUROS Weapons",
+   "upload_date": "20200214",
+   "frame_rate": "60/1",
+   "muzzle_pct": null,
+   "sight_pct": [
+    65,
+    68
+   ],
+   "grip_pct": null,
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    60,
+    0,
+    100,
+    100
+   ],
+   "visible_size_pct": [
+    40,
+    100
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": null
+   },
+   "notes": "Rohr schneidet oberen/rechten/unteren Bildrand. Seitliches blaues Optikfenster; Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 2",
+   "integration": "übernommen",
+   "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
+  },
+  {
+   "id": "hl-destiny-2-nox-echo-iii",
+   "game": "Destiny 2",
+   "subject": "Nox Echo III",
+   "class": "kurzes Fusionsgewehr",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+   "timestamp": 290.0,
+   "channel": "Ultraclocked",
+   "title": "Destiny 2 - All Titan Legendary Weapons - Animations & Sounds w/ Slow-Motion | SUROS Weapons",
+   "upload_date": "20200214",
+   "frame_rate": "60/1",
+   "muzzle_pct": [
+    59,
+    68
+   ],
+   "sight_pct": [
+    71,
+    68
+   ],
+   "grip_pct": null,
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    58,
+    63,
+    100,
+    100
+   ],
+   "visible_size_pct": [
+    42,
+    37
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": 40,
+   "arm_bbox_pct": {
+    "left": [
+     57,
+     80,
+     64,
+     100
+    ],
+    "right": null
+   },
+   "notes": "Helle runde vordere Energiemündung. Hintere offene Kimme; Stützhand links. Sichtbare zylindrische Laufmantel-Längskante. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 2",
+   "integration": "übernommen",
+   "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
+  },
+  {
+   "id": "hl-destiny-2-solemn-hymn",
+   "game": "Destiny 2",
+   "subject": "Solemn Hymn",
+   "class": "Automatikgewehr",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+   "timestamp": 321.0,
+   "channel": "Ultraclocked",
+   "title": "Destiny 2 - All Titan Legendary Weapons - Animations & Sounds w/ Slow-Motion | SUROS Weapons",
+   "upload_date": "20200214",
+   "frame_rate": "60/1",
+   "muzzle_pct": [
+    57,
+    69
+   ],
+   "sight_pct": [
+    77,
+    57
+   ],
+   "grip_pct": null,
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    57,
+    56,
+    100,
+    100
+   ],
+   "visible_size_pct": [
+    43,
+    44
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": [
+     50,
+     75,
+     63,
+     100
+    ],
+    "right": null
+   },
+   "notes": "Breites geschlossenes Bullpup-/Receivergehäuse; keine ausreichend eindeutige offene Lauflängskante, Winkel null. Kleine hintere Kimme oben. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 2",
+   "integration": "übernommen",
+   "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
+  },
+  {
+   "id": "hl-destiny-2-swift-ride",
+   "game": "Destiny 2",
+   "subject": "Swift Ride",
+   "class": "Impulsgewehr",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+   "timestamp": 355.0,
+   "channel": "Ultraclocked",
+   "title": "Destiny 2 - All Titan Legendary Weapons - Animations & Sounds w/ Slow-Motion | SUROS Weapons",
+   "upload_date": "20200214",
+   "frame_rate": "60/1",
+   "muzzle_pct": [
+    59,
+    67
+   ],
+   "sight_pct": [
+    73,
+    55
+   ],
+   "grip_pct": null,
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    58,
+    49,
+    100,
+    100
+   ],
+   "visible_size_pct": [
+    42,
+    51
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": 40,
+   "arm_bbox_pct": {
+    "left": [
+     55,
+     83,
+     64,
+     100
+    ],
+    "right": null
+   },
+   "notes": "Erhöhtes offenes Reflexfenster. Sichtbare untere Laufmantel-/Vorderschaft-Längskante; Winkel beschreibt diese Kante, nicht eine Weltachse. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 2",
+   "integration": "übernommen",
+   "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
+  },
+  {
+   "id": "hl-destiny-2-tone-patrol",
+   "game": "Destiny 2",
+   "subject": "Tone Patrol",
+   "class": "Scoutgewehr",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+   "timestamp": 381.0,
+   "channel": "Ultraclocked",
+   "title": "Destiny 2 - All Titan Legendary Weapons - Animations & Sounds w/ Slow-Motion | SUROS Weapons",
+   "upload_date": "20200214",
+   "frame_rate": "60/1",
+   "muzzle_pct": [
+    57,
+    65
+   ],
+   "sight_pct": [
+    65,
+    60
+   ],
+   "grip_pct": null,
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    56,
+    57,
+    100,
+    100
+   ],
+   "visible_size_pct": [
+    44,
+    43
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": 35,
+   "arm_bbox_pct": {
+    "left": [
+     51,
+     78,
+     64,
+     100
+    ],
+    "right": null
+   },
+   "notes": "Kleine offene hintere Kimme. Neuer Griff-/Arm-/Bildwinkelbefund ergänzt vorhandenen Körper-/Mündungssteckbrief; vordere Laufmantelkante. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 2",
+   "integration": "verworfen",
+   "integration_reason": "Doppelung: Repo destiny2.md Scout-Gewehr legendär (Tone Patrol) Mündung 57/63, Körper 56-100x57-100; Codex 57/65, 56/57/100/100 (Δ<=2 pp)"
+  },
+  {
+   "id": "hl-destiny-2-bad-news",
+   "game": "Destiny 2",
+   "subject": "Bad News",
+   "class": "Handfeuerwaffe",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=73lGCT7yOtk",
+   "timestamp": 8.0,
+   "channel": "Ultraclocked",
+   "title": "Destiny 2 - All EDZ Legendary Weapons - Animations & Sounds w/ Slow-Motion | Häkke Weapons",
+   "upload_date": "20200125",
+   "frame_rate": "60/1",
+   "muzzle_pct": [
+    54,
+    69
+   ],
+   "sight_pct": [
+    62,
+    62
+   ],
+   "grip_pct": [
+    67,
+    89
+   ],
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    53,
+    59,
+    70,
+    84
+   ],
+   "visible_size_pct": [
+    17,
+    25
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": 30,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": [
+     56,
+     81,
+     82,
+     100
+    ]
+   },
+   "notes": "Massiver Trommelbereich links vor der Griffhand; linke Hand nicht identifizierbar. Gerade obere Laufmantelkante. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 2",
+   "integration": "übernommen",
+   "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
+  },
+  {
+   "id": "hl-destiny-2-belfry-bounty",
+   "game": "Destiny 2",
+   "subject": "Belfry Bounty",
+   "class": "Scharfschützengewehr",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=73lGCT7yOtk",
+   "timestamp": 54.0,
+   "channel": "Ultraclocked",
+   "title": "Destiny 2 - All EDZ Legendary Weapons - Animations & Sounds w/ Slow-Motion | Häkke Weapons",
+   "upload_date": "20200125",
+   "frame_rate": "60/1",
+   "muzzle_pct": [
+    56,
+    66
+   ],
+   "sight_pct": [
+    81,
+    73
+   ],
+   "grip_pct": null,
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    55,
+    58,
+    100,
+    100
+   ],
+   "visible_size_pct": [
+    45,
+    42
+   ],
+   "tilt_deg": 30,
+   "edge_tilt_deg": 30,
+   "arm_bbox_pct": {
+    "left": [
+     53,
+     79,
+     63,
+     100
+    ],
+    "right": null
+   },
+   "notes": "Rundes Okular rechts, deutlich tiefer als das Sechseckbeispiel. Linke Stützhand sichtbar, rechte Abzugshand verdeckt. Freie vordere Laufstrecke. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 2",
+   "integration": "übernommen",
+   "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt; tilt nur grob (±10°, Kurzläufe ±15°), projizierte Kante, keine 3D-Achse"
+  },
+  {
+   "id": "hl-destiny-2-call-to-serve",
+   "game": "Destiny 2",
+   "subject": "Call to Serve",
+   "class": "Scoutgewehr",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=73lGCT7yOtk",
+   "timestamp": 104.0,
+   "channel": "Ultraclocked",
+   "title": "Destiny 2 - All EDZ Legendary Weapons - Animations & Sounds w/ Slow-Motion | Häkke Weapons",
+   "upload_date": "20200125",
+   "frame_rate": "60/1",
+   "muzzle_pct": [
+    58,
+    61
+   ],
+   "sight_pct": [
+    72,
+    52
+   ],
+   "grip_pct": null,
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    56,
+    47,
+    100,
+    100
+   ],
+   "visible_size_pct": [
+    44,
+    53
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": 35,
+   "arm_bbox_pct": {
+    "left": [
+     50,
+     69,
+     68,
+     100
+    ],
+    "right": null
+   },
+   "notes": "Hinterer runder Visierdurchblick liegt wesentlich höher als Mündung. Großer linker Handschuh, rechter Arm verdeckt. Vordere Lauf-/Mantelkante. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 2",
+   "integration": "übernommen",
+   "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
+  },
+  {
+   "id": "hl-destiny-2-cartesian-coordinate",
+   "game": "Destiny 2",
+   "subject": "Cartesian Coordinate",
+   "class": "kurzes Fusionsgewehr",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=73lGCT7yOtk",
+   "timestamp": 146.5,
+   "channel": "Ultraclocked",
+   "title": "Destiny 2 - All EDZ Legendary Weapons - Animations & Sounds w/ Slow-Motion | Häkke Weapons",
+   "upload_date": "20200125",
+   "frame_rate": "60/1",
+   "muzzle_pct": [
+    58,
+    67
+   ],
+   "sight_pct": [
+    70,
+    66
+   ],
+   "grip_pct": null,
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    57,
+    60,
+    100,
+    100
+   ],
+   "visible_size_pct": [
+    43,
+    40
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": [
+     56,
+     81,
+     64,
+     100
+    ],
+    "right": null
+   },
+   "notes": "Vor der sichtbaren Salve; dunkles vorderes Gehäuse mit schwacher/mehrdeutiger Laufkontur, Winkel null. Gegenprobe147.5s zeigt Feuer und wird nicht als Ruhepose verwendet. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 2",
+   "integration": "verworfen",
+   "integration_reason": "Doppelung: Repo Fusionsgewehr (kurz)/Cartesian Coordinate Mündung 58/66, Körper 57-100x60-100; Codex 58/67, 57/60/100/100"
+  },
+  {
+   "id": "hl-destiny-2-eystein-d",
+   "game": "Destiny 2",
+   "subject": "Eystein-D",
+   "class": "Impulsgewehr",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=73lGCT7yOtk",
+   "timestamp": 226.0,
+   "channel": "Ultraclocked",
+   "title": "Destiny 2 - All EDZ Legendary Weapons - Animations & Sounds w/ Slow-Motion | Häkke Weapons",
+   "upload_date": "20200125",
+   "frame_rate": "60/1",
+   "muzzle_pct": [
+    58,
+    64
+   ],
+   "sight_pct": [
+    74,
+    55
+   ],
+   "grip_pct": null,
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    57,
+    50,
+    100,
+    100
+   ],
+   "visible_size_pct": [
+    43,
+    50
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": 35,
+   "arm_bbox_pct": {
+    "left": [
+     53,
+     79,
+     65,
+     100
+    ],
+    "right": null
+   },
+   "notes": "Runde erhöhte Visieröffnung; gelb-schwarzer Vorderschaft. Sichtbare vordere Laufmantel-Längskante. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 2",
+   "integration": "übernommen",
+   "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
+  },
+  {
+   "id": "hl-destiny-2-flash-and-thunder",
+   "game": "Destiny 2",
+   "subject": "Flash and Thunder",
+   "class": "Granatwerfer",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=73lGCT7yOtk",
+   "timestamp": 267.0,
+   "channel": "Ultraclocked",
+   "title": "Destiny 2 - All EDZ Legendary Weapons - Animations & Sounds w/ Slow-Motion | Häkke Weapons",
+   "upload_date": "20200125",
+   "frame_rate": "60/1",
+   "muzzle_pct": [
+    58,
+    67
+   ],
+   "sight_pct": [
+    66,
+    55
+   ],
+   "grip_pct": null,
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    57,
+    43,
+    95,
+    100
+   ],
+   "visible_size_pct": [
+    38,
+    57
+   ],
+   "tilt_deg": 35,
+   "edge_tilt_deg": 35,
+   "arm_bbox_pct": {
+    "left": [
+     53,
+     79,
+     65,
+     100
+    ],
+    "right": null
+   },
+   "notes": "Spezial, Kipplauf. Hohes Leiter-/Rahmenvisier; Handgriff hinter dem sichtbaren Receiver verdeckt. Zylindrische Laufmantelkante. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 2",
+   "integration": "übernommen",
+   "integration_reason": "neu; der Bestandswert ≈ 57 / 54 der Steckbriefzeile Granatwerfer stammt aus Ignition Code (destiny2.md › 2), nicht aus Flash and Thunder – am Bild bestätigt ≈ 58 / 64–68"
+  },
+  {
+   "id": "hl-destiny-2-hawthornes-field-forged-shotgu",
+   "game": "Destiny 2",
+   "subject": "Hawthorne's Field-Forged Shotgun",
+   "class": "Schrotflinte",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=73lGCT7yOtk",
+   "timestamp": 306.0,
+   "channel": "Ultraclocked",
+   "title": "Destiny 2 - All EDZ Legendary Weapons - Animations & Sounds w/ Slow-Motion | Häkke Weapons",
+   "upload_date": "20200125",
+   "frame_rate": "60/1",
+   "muzzle_pct": [
+    58,
+    64
+   ],
+   "sight_pct": [
+    74,
+    77
+   ],
+   "grip_pct": null,
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    57,
+    60,
+    96,
+    100
+   ],
+   "visible_size_pct": [
+    39,
+    40
+   ],
+   "tilt_deg": 40,
+   "edge_tilt_deg": 40,
+   "arm_bbox_pct": {
+    "left": [
+     50,
+     71,
+     65,
+     100
+    ],
+    "right": null
+   },
+   "notes": "Klassische Röhrenmagazin-Schrotflinte; hintere offene Kimme tief, linke Stützhand groß. Oberer freier Lauf-/Mantelabschnitt. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 2",
+   "integration": "verworfen",
+   "integration_reason": "Doppelung: Repo Schrotflinte/Hawthorne Mündung 58/66, Körper ca. 50-95x63-100; Codex 58/64 (Bild: 57/61); nur tilt 40 (grob ±10, Bild ≈30-38) neu -> separat als Zusatz übernehmbar"
+  },
+  {
+   "id": "hl-destiny-2-minimum-distance",
+   "game": "Destiny 2",
+   "subject": "Minimum Distance",
+   "class": "Sidearm",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=73lGCT7yOtk",
+   "timestamp": 415.0,
+   "channel": "Ultraclocked",
+   "title": "Destiny 2 - All EDZ Legendary Weapons - Animations & Sounds w/ Slow-Motion | Häkke Weapons",
+   "upload_date": "20200125",
+   "frame_rate": "60/1",
+   "muzzle_pct": [
+    59,
+    67
+   ],
+   "sight_pct": [
+    66,
+    73
+   ],
+   "grip_pct": [
+    67,
+    88
+   ],
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    58,
+    64,
+    70,
+    84
+   ],
+   "visible_size_pct": [
+    12,
+    20
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": 35,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": [
+     57,
+     82,
+     83,
+     100
+    ]
+   },
+   "notes": "Schmale Pistole; rechte Griffhand sichtbar, linke nicht identifizierbar. Kurze gerade obere Laufmantelkante, Winkel nur grob. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 2",
+   "integration": "übernommen",
+   "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
+  },
+  {
+   "id": "hl-destiny-2-new-city",
+   "game": "Destiny 2",
+   "subject": "New City",
+   "class": "Maschinenpistole",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=73lGCT7yOtk",
+   "timestamp": 456.0,
+   "channel": "Ultraclocked",
+   "title": "Destiny 2 - All EDZ Legendary Weapons - Animations & Sounds w/ Slow-Motion | Häkke Weapons",
+   "upload_date": "20200125",
+   "frame_rate": "60/1",
+   "muzzle_pct": [
+    56,
+    71
+   ],
+   "sight_pct": [
+    63,
+    57
+   ],
+   "grip_pct": null,
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    54,
+    54,
+    87,
+    100
+   ],
+   "visible_size_pct": [
+    33,
+    46
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": 40,
+   "arm_bbox_pct": {
+    "left": [
+     51,
+     81,
+     64,
+     100
+    ],
+    "right": null
+   },
+   "notes": "Rundes erhöhtes Reflexfenster, sichtbarer Körper schmaler als Foggy Notion. Kurzer vorderer Laufmantelabschnitt. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 2",
+   "integration": "übernommen",
+   "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
+  },
+  {
+   "id": "hl-destiny-2-scathelocke",
+   "game": "Destiny 2",
+   "subject": "Scathelocke",
+   "class": "Automatikgewehr",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=73lGCT7yOtk",
+   "timestamp": 504.0,
+   "channel": "Ultraclocked",
+   "title": "Destiny 2 - All EDZ Legendary Weapons - Animations & Sounds w/ Slow-Motion | Häkke Weapons",
+   "upload_date": "20200125",
+   "frame_rate": "60/1",
+   "muzzle_pct": [
+    59,
+    71
+   ],
+   "sight_pct": [
+    70,
+    66
+   ],
+   "grip_pct": null,
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    57,
+    61,
+    90,
+    100
+   ],
+   "visible_size_pct": [
+    33,
+    39
+   ],
+   "tilt_deg": 40,
+   "edge_tilt_deg": 35,
+   "arm_bbox_pct": {
+    "left": [
+     52,
+     83,
+     62,
+     100
+    ],
+    "right": null
+   },
+   "notes": "Klassisch langes Gewehr; runder hinterer Durchblick, freier vorderer Laufabschnitt. Abzugshand unter dem Receiver verdeckt. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 2",
+   "integration": "übernommen",
+   "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt; tilt nur grob (±10°, Kurzläufe ±15°), projizierte Kante, keine 3D-Achse"
+  },
+  {
+   "id": "hl-destiny-2-berengers-memory",
+   "game": "Destiny 2",
+   "subject": "Berenger's Memory",
+   "class": "Granatwerfer",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=afs_dhFDhQU",
+   "timestamp": 44.0,
+   "channel": "Ultraclocked",
+   "title": "Destiny 2 - All Io Legendary Weapons - Animations & Sounds w/ Slow-Motion | VEIST Weapons",
+   "upload_date": "20200209",
+   "frame_rate": "60/1",
+   "muzzle_pct": [
+    56,
+    63
+   ],
+   "sight_pct": [
+    90,
+    63
+   ],
+   "grip_pct": null,
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    54,
+    54,
+    100,
+    100
+   ],
+   "visible_size_pct": [
+    46,
+    46
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": [
+     46,
+     85,
+     58,
+     100
+    ],
+    "right": null
+   },
+   "notes": "Schwerer Trommel-GL. Hinteres Leiter-/Rahmenvisier sehr weit rechts, massige Trommel. Aus der Pose keine eindeutige längere Lauflinie, Winkel null. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 2",
+   "integration": "übernommen",
+   "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
+  },
+  {
+   "id": "hl-destiny-2-man-o-war",
+   "game": "Destiny 2",
+   "subject": "Man O' War",
+   "class": "Lineares Fusionsgewehr",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=afs_dhFDhQU",
+   "timestamp": 170.0,
+   "channel": "Ultraclocked",
+   "title": "Destiny 2 - All Io Legendary Weapons - Animations & Sounds w/ Slow-Motion | VEIST Weapons",
+   "upload_date": "20200209",
+   "frame_rate": "60/1",
+   "muzzle_pct": [
+    58,
+    69
+   ],
+   "sight_pct": [
+    73,
+    57
+   ],
+   "grip_pct": null,
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    57,
+    49,
+    100,
+    100
+   ],
+   "visible_size_pct": [
+    43,
+    51
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": 30,
+   "arm_bbox_pct": {
+    "left": [
+     55,
+     76,
+     65,
+     100
+    ],
+    "right": null
+   },
+   "notes": "Großes geschlossenes Reflexfenster; Laufmantel-Längskante vorn. Griffhand hinter Receiver verdeckt. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 2",
+   "integration": "übernommen",
+   "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
+  },
+  {
+   "id": "hl-destiny-2-tarantula",
+   "game": "Destiny 2",
+   "subject": "Tarantula",
+   "class": "Lineares Fusionsgewehr",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=afs_dhFDhQU",
+   "timestamp": 211.0,
+   "channel": "Ultraclocked",
+   "title": "Destiny 2 - All Io Legendary Weapons - Animations & Sounds w/ Slow-Motion | VEIST Weapons",
+   "upload_date": "20200209",
+   "frame_rate": "60/1",
+   "muzzle_pct": [
+    58,
+    68
+   ],
+   "sight_pct": [
+    73,
+    60
+   ],
+   "grip_pct": null,
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    57,
+    51,
+    100,
+    100
+   ],
+   "visible_size_pct": [
+    43,
+    49
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": 30,
+   "arm_bbox_pct": {
+    "left": [
+     54,
+     77,
+     65,
+     100
+    ],
+    "right": null
+   },
+   "notes": "Offene V-förmige hintere Visieröffnung.209.8s ist noch angehobene Übergangs-/Rückstoßform, nicht Messpose;210/211s nahe gleicher Lage. Laufmantel-Längskante. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 2",
+   "integration": "übernommen",
+   "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
+  },
+  {
+   "id": "hl-destiny-2-blue-shift",
+   "game": "Destiny 2",
+   "subject": "Blue Shift",
+   "class": "Raketenwerfer",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=afs_dhFDhQU",
+   "timestamp": 88.5,
+   "channel": "Ultraclocked",
+   "title": "Destiny 2 - All Io Legendary Weapons - Animations & Sounds w/ Slow-Motion | VEIST Weapons",
+   "upload_date": "20200209",
+   "frame_rate": "60/1",
+   "muzzle_pct": null,
+   "sight_pct": [
+    68,
+    57
+   ],
+   "grip_pct": null,
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    60,
+    17,
+    100,
+    100
+   ],
+   "visible_size_pct": [
+    40,
+    83
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": null
+   },
+   "notes": "Großer seitlicher blauer Optikdurchblick. Mündungsöffnung in der massigen Front nicht sicher von Gehäuse/Anbauten zu trennen; Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 2",
+   "integration": "übernommen",
+   "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
+  },
+  {
+   "id": "hl-destiny-2-shattered-cipher",
+   "game": "Destiny 2",
+   "subject": "Shattered Cipher",
+   "class": "Maschinengewehr",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=DEM-8xg66R8",
+   "timestamp": 3.4,
+   "channel": "Ultraclocked",
+   "title": "Destiny 2 - Shattered Cipher (Legendary Machine Gun) - Animations & Sounds",
+   "upload_date": "20210514",
+   "frame_rate": "60/1",
+   "muzzle_pct": [
+    56.1,
+    55.1
+   ],
+   "sight_pct": [
+    66.0,
+    39.6
+   ],
+   "grip_pct": null,
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    46.1,
+    35.7,
+    100.0,
+    100.0
+   ],
+   "visible_size_pct": [
+    53.9,
+    64.3
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": null
+   },
+   "notes": "Mündung: sichtbarer vorderer dunkler Austritt. Optiköffnung gemessen. Trommel gehört zur Waffenbbox; keine Hände erkennbar. Gehäusekante ist ausdrücklich kein Laufwinkel.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 2",
+   "integration": "verworfen",
+   "integration_reason": "Doppelung: Repo Maschinengewehr/Shattered Cipher Mündung 56/54, Körper 46-100x38-100, Optik 63-72x38-48; Codex 56.1/55.1, 46.1/35.7/100/100, 66/39.6"
+  },
+  {
+   "id": "hl-destiny-2-hammerhead",
+   "game": "Destiny 2",
+   "subject": "Hammerhead",
+   "class": "Maschinengewehr",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=oauUQuhlwGs",
+   "timestamp": 55.0,
+   "channel": "Ultraclocked",
+   "title": "Destiny 2 - All Black Armory Weapon Frames - Animations & Sounds w/ Slow-Motion",
+   "upload_date": "20200409",
+   "frame_rate": "60/1",
+   "muzzle_pct": [
+    56.2,
+    64.0
+   ],
+   "sight_pct": [
+    65.9,
+    48.2
+   ],
+   "grip_pct": null,
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    47.9,
+    43.5,
+    100.0,
+    100.0
+   ],
+   "visible_size_pct": [
+    52.1,
+    56.5
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": null
+   },
+   "notes": "Mündung am vorderen linken Gehäuseende. Hintere Reflexöffnung; Trommel eingeschlossen, Arme ausgeschlossen. Griffhand verdeckt. Kein sicherer freier Lauf für tilt_deg.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 2",
+   "integration": "übernommen",
+   "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
+  },
+  {
+   "id": "hl-destiny-2-prometheus-lens",
+   "game": "Destiny 2",
+   "subject": "Prometheus Lens",
+   "class": "Spurgewehr",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=XnWXuoZxnVA",
+   "timestamp": 4.0,
+   "channel": "Ultraclocked",
+   "title": "Destiny 2 - Prometheus Lens (Exotic Trace Rifle) - Animations, Sounds & Effects w/ Slow-Motion",
+   "upload_date": "20210130",
+   "frame_rate": "60/1",
+   "muzzle_pct": null,
+   "sight_pct": null,
+   "grip_pct": null,
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    56.2,
+    58.5,
+    100.0,
+    100.0
+   ],
+   "visible_size_pct": [
+    43.8,
+    41.5
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": [
+     54.4,
+     77.5,
+     64.3,
+     100.0
+    ],
+    "right": null
+   },
+   "notes": "Mündung = dunkle vordere Linsenöffnung zwischen den Frontstreben, nicht Strebenende; Schussbild f300 bestätigt Austrittsbereich. Dreieckiges Display ist Munitionsanzeige und wird nicht als Visier gemessen. Hintere Griffhand verdeckt, linke Stützhand sichtbar. Kein freier langer Laufmantel.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 2",
+   "integration": "verworfen",
+   "integration_reason": "Doppelung zum Bestand (destiny2.md › 3, Spurgewehr – Exotic: Körper 56–100 × 57–100, Mündung ≈ 57 / 60); Codex-Mündung 61,7 / 68,9 am Bild widerlegt (Nachprüfung ≈ 57 / 61)"
+  },
+  {
+   "id": "hl-destiny-2-coldheart",
+   "game": "Destiny 2",
+   "subject": "Coldheart",
+   "class": "Spurgewehr",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=WgBf7P6wzCE",
+   "timestamp": 2.002,
+   "channel": "Boosh Ninja",
+   "title": "Coldheart | Exotic Weapon Sound and Visual Showcase (Destiny 2)",
+   "upload_date": "20221006",
+   "frame_rate": "60000/1001",
+   "muzzle_pct": null,
+   "sight_pct": null,
+   "grip_pct": null,
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    56.2,
+    48.5,
+    100.0,
+    100.0
+   ],
+   "visible_size_pct": [
+    43.8,
+    51.5
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": [
+     50.6,
+     65.7,
+     70.3,
+     100.0
+    ],
+    "right": null
+   },
+   "notes": "Oberes Rohr enthält hinten die Munitionsanzeige. Schussgegenprobe f899 zeigt Beam unter diesem Körper; Mündung ist im Ruhebild nicht sicher isoliert, muzzle=null. Holo-Zielöffnung erscheint im ADS und ist in Hüfte nicht sicher abgrenzbar, sight=null. Linke Stützhand getrennt von verdeckter rechter Griffhand. Kein sicherer freier Lauf: tilt=null; Anzeigegehäusekante separat.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 2",
+   "integration": "übernommen",
+   "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
+  },
+  {
+   "id": "hl-destiny-2-imperial-needle",
+   "game": "Destiny 2",
+   "subject": "Imperial Needle",
+   "class": "Bogen",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=dKNTDzi__Qo",
+   "timestamp": 47.0,
+   "channel": "Ultraclocked",
+   "title": "Destiny 2 - Imperial Needle (Legendary Bow) - Animations & Sounds",
+   "upload_date": "20210219",
+   "frame_rate": "60/1",
+   "muzzle_pct": null,
+   "sight_pct": [
+    57.3,
+    75.2
+   ],
+   "grip_pct": [
+    46.6,
+    84.8
+   ],
+   "grip_hand": "left",
+   "body_bbox_pct": [
+    7.6,
+    68.6,
+    100.0,
+    100.0
+   ],
+   "visible_size_pct": [
+    92.4,
+    31.4
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": [
+     21.7,
+     77.6,
+     50.1,
+     100.0
+    ],
+    "right": [
+     49.1,
+     90.7,
+     63.9,
+     100.0
+    ]
+   },
+   "notes": "Bogen ungespannt mit genocktem Pfeil in Hüfte. Waffenbbox enthält beide angeschnittenen Wurfarme und Pfeil, keine Arme. Linke Hand ist hier die primäre Griffhand, rechts Hand an Sehne/Nocke. Mündung und Laufwinkel sind für den Bogen n.a.; Riser separat. Vor Schnittüberblendung ab etwa47.2s gemessen.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 2",
+   "integration": "übernommen",
+   "integration_reason": "neu für Hüftlage; Bogen: Griff = linke Hand, Mündung/Lauf n.a.; bbox >=100 abgeschnitten"
+  },
+  {
+   "id": "hl-destiny-2-the-spiteful-fang",
+   "game": "Destiny 2",
+   "subject": "The Spiteful Fang",
+   "class": "Bogen",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=oauUQuhlwGs",
+   "timestamp": 272.0,
+   "channel": "Ultraclocked",
+   "title": "Destiny 2 - All Black Armory Weapon Frames - Animations & Sounds w/ Slow-Motion",
+   "upload_date": "20200409",
+   "frame_rate": "60/1",
+   "muzzle_pct": null,
+   "sight_pct": [
+    58.2,
+    78.0
+   ],
+   "grip_pct": [
+    46.6,
+    85.6
+   ],
+   "grip_hand": "left",
+   "body_bbox_pct": [
+    5.2,
+    68.9,
+    100.0,
+    100.0
+   ],
+   "visible_size_pct": [
+    94.8,
+    31.1
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": [
+     22.4,
+     77.0,
+     50.1,
+     100.0
+    ],
+    "right": [
+     48.9,
+     90.6,
+     63.9,
+     100.0
+    ]
+   },
+   "notes": "Ungespannter genockter Bogen in Hüfte. Beide angeschnittenen Wurfarme und Pfeil in der Waffenbbox; markanter schwarzer/roter linker Wurfarm unten links gehört zur Waffe. Linke Griffhand, rechte Nockhand. Keine Mündung/kein Lauf.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 2",
+   "integration": "übernommen",
+   "integration_reason": "neu für Hüftlage; Bogen wie Imperial Needle"
+  },
+  {
+   "id": "hl-destiny-2-lubraes-ruin",
+   "game": "Destiny 2",
+   "subject": "Lubrae's Ruin",
+   "class": "Glefe",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=O9QEU2RzB28",
+   "timestamp": 143.002,
+   "channel": "Boosh Ninja",
+   "title": "Vow of the Disciple | Legendary Weapon Sound and Visual Showcase (Destiny 2)",
+   "upload_date": "20221118",
+   "frame_rate": "60000/1001",
+   "muzzle_pct": null,
+   "sight_pct": null,
+   "grip_pct": [
+    73.0,
+    92.4
+   ],
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    46.0,
+    45.3,
+    74.5,
+    100.0
+   ],
+   "visible_size_pct": [
+    28.5,
+    54.7
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": [
+     51.1,
+     87.4,
+     60.6,
+     100.0
+    ],
+    "right": [
+     68.1,
+     81.2,
+     80.3,
+     100.0
+    ]
+   },
+   "notes": "Ego-Grundpose, nicht Menüansicht. Klingenkopf und Schaft in Waffenbbox, Knochenfinger der rechten Hand ausgeschlossen. Kopf glüht; ein eigenständig abgrenzbarer Mündungsaustritt ist im Ruhebild nicht sicher sichtbar, daher muzzle=null. Keine Visieröffnung. Schaftwinkel getrennt vom nicht sichtbaren Lauf.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 2",
+   "integration": "übernommen",
+   "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
+  },
+  {
+   "id": "hl-destiny-2-nezarecs-whisper",
+   "game": "Destiny 2",
+   "subject": "Nezarec's Whisper",
+   "class": "Glefe",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=1pH6zS-lj5g",
+   "timestamp": 234.002,
+   "channel": "Boosh Ninja",
+   "title": "Season of The Haunted | Legendary Weapon Sound and Visual Showcase (Destiny 2)",
+   "upload_date": "20230314",
+   "frame_rate": "60000/1001",
+   "muzzle_pct": null,
+   "sight_pct": null,
+   "grip_pct": null,
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    52.3,
+    50.0,
+    83.0,
+    100.0
+   ],
+   "visible_size_pct": [
+    30.7,
+    50.0
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": [
+     43.0,
+     66.5,
+     67.6,
+     100.0
+    ],
+    "right": null
+   },
+   "notes": "Legendäre Glefe in Ego, dunkler Klingenkopf oben rechts. Keine klar sichtbare Visieröffnung und kein sicher abgegrenzter Mündungsaustritt; glühende Kopfpartikel nicht als Mündungspunkt verwendet. Linke Hand umfasst den Schaft, rechte primäre Griffhand verdeckt. Zur Konturprüfung existiert zusätzliche Helligkeitsansicht mit unveränderten Pixelkoordinaten.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 2",
+   "integration": "übernommen",
+   "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
+  },
+  {
+   "id": "hl-destiny-2-hollow-denial",
+   "game": "Destiny 2",
+   "subject": "Hollow Denial",
+   "class": "Spurgewehr",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=1pH6zS-lj5g",
+   "timestamp": 385.002,
+   "channel": "Boosh Ninja",
+   "title": "Season of The Haunted | Legendary Weapon Sound and Visual Showcase (Destiny 2)",
+   "upload_date": "20230314",
+   "frame_rate": "60000/1001",
+   "muzzle_pct": [
+    57.7,
+    59.6
+   ],
+   "sight_pct": [
+    66.9,
+    45.6
+   ],
+   "grip_pct": null,
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    56.9,
+    40.0,
+    100.0,
+    100.0
+   ],
+   "visible_size_pct": [
+    43.1,
+    60.0
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": [
+     44.1,
+     66.1,
+     63.7,
+     100.0
+    ],
+    "right": null
+   },
+   "notes": "Legendäres Spurgewehr. Hintere Visieröffnung oben, rotglühender Kristall an der Seite ist nicht Mündung. Dunkler Frontaustritt links unter dem Visier, Gegenprobe am Dauerstrahl in Quelle395.996s (lokalf779): Beam setzt am vorderen linken Rand an. Mündungskoordinate im ruhigen f120 genommen. Rechte Griffhand verdeckt. Dunkle Kontur zusätzlich bei erhöhter Helligkeit geprüft.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 2",
+   "integration": "übernommen",
+   "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
+  },
+  {
+   "id": "hl-destiny-2-negative-space",
+   "game": "Destiny 2",
+   "subject": "Negative Space",
+   "class": "Schwert",
+   "status": "O",
+   "source_url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+   "timestamp": 260.0,
+   "channel": "Ultraclocked",
+   "title": "Destiny 2 - All Titan Legendary Weapons - Animations & Sounds w/ Slow-Motion | SUROS Weapons",
+   "upload_date": "20200214",
+   "frame_rate": "60/1",
+   "muzzle_pct": null,
+   "sight_pct": null,
+   "grip_pct": null,
+   "grip_hand": null,
+   "body_bbox_pct": null,
+   "visible_size_pct": null,
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": null
+   },
+   "notes": "n.a. für Ego-Grundpose: eigener Bildbeleg zeigt Schulter-/Drittpersonensicht mit ganzer Spielfigur. Keine Ego-Koordinaten aus Drittperspektive übertragen.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 2",
+   "integration": "verworfen",
+   "integration_reason": "nur n.a. (Wechsel in 3. Person); Repo hat Schwert = Schulteransicht bereits"
+  },
+  {
+   "id": "hl-destiny-2-unspoken-promise",
+   "game": "Destiny 2",
+   "subject": "Unspoken Promise",
+   "class": "Schwert",
+   "status": "O",
+   "source_url": "https://www.youtube.com/watch?v=afs_dhFDhQU",
+   "timestamp": 290.0,
+   "channel": "Ultraclocked",
+   "title": "Destiny 2 - All Io Legendary Weapons - Animations & Sounds w/ Slow-Motion | VEIST Weapons",
+   "upload_date": "20200209",
+   "frame_rate": "60/1",
+   "muzzle_pct": null,
+   "sight_pct": null,
+   "grip_pct": null,
+   "grip_hand": null,
+   "body_bbox_pct": null,
+   "visible_size_pct": null,
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": null
+   },
+   "notes": "n.a. für Ego-Grundpose: eigener Bildbeleg zeigt Schulter-/Drittpersonensicht mit ganzer Spielfigur. Keine Ego-Koordinaten aus Drittperspektive übertragen.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 2",
+   "integration": "verworfen",
+   "integration_reason": "nur n.a. (Wechsel in 3. Person); Repo hat Schwert = Schulteransicht bereits"
+  },
+  {
+   "id": "hl-destiny-1-hand-cannon",
+   "game": "Destiny 1",
+   "subject": "Hand Cannon (Modellname nicht eingeblendet)",
+   "class": "Handfeuerwaffe",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=lTMKIvPrJZc",
+   "timestamp": 24.991633,
+   "channel": "MadladDeluxe",
+   "title": "Destiny 1 vs. Destiny 2: Weapon Sounds and Animations",
+   "upload_date": "20230521",
+   "frame_rate": "30000/1001",
+   "muzzle_pct": null,
+   "sight_pct": [
+    62,
+    61
+   ],
+   "grip_pct": [
+    61,
+    81
+   ],
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    54,
+    57,
+    67,
+    78
+   ],
+   "visible_size_pct": [
+    13,
+    21
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": null
+   },
+   "notes": "Mündungsöffnung und Vorderende durch vordere rote/obere Kontur nicht eindeutig getrennt; muzzle null. Bbox nur sichtbares Gehäuse, Griff verdeckt; kein Arm in Waffen-Bbox. Ruhige Nachbarpose25.292s.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 1",
+   "integration": "übernommen",
+   "integration_reason": "neu (D1 nicht im Repo); 30/s nur Form/Lage, Modellnamen nicht eingeblendet -> Klassenbeispiel, kein Modell"
+  },
+  {
+   "id": "hl-destiny-1-pulse-rifle",
+   "game": "Destiny 1",
+   "subject": "Pulse Rifle (Modellname nicht eingeblendet)",
+   "class": "Impulsgewehr",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=lTMKIvPrJZc",
+   "timestamp": 54.988267,
+   "channel": "MadladDeluxe",
+   "title": "Destiny 1 vs. Destiny 2: Weapon Sounds and Animations",
+   "upload_date": "20230521",
+   "frame_rate": "30000/1001",
+   "muzzle_pct": [
+    56,
+    65
+   ],
+   "sight_pct": [
+    70,
+    59
+   ],
+   "grip_pct": null,
+   "grip_hand": null,
+   "body_bbox_pct": [
+    55,
+    54,
+    100,
+    100
+   ],
+   "visible_size_pct": [
+    45,
+    46
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": null
+   },
+   "notes": "Sichtbarer vorderer Rohrabschluss als Mündungsanker; Öffnung selbst nicht einsehbar. Ruhige Nachbarpose55.289s.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 1",
+   "integration": "übernommen",
+   "integration_reason": "neu (D1 nicht im Repo); 30/s nur Form/Lage, Modellnamen nicht eingeblendet -> Klassenbeispiel, kein Modell; Bild t=55 bestätigt (Mündung ≈56/62-64)"
+  },
+  {
+   "id": "hl-destiny-1-auto-rifle",
+   "game": "Destiny 1",
+   "subject": "Auto Rifle (Modellname nicht eingeblendet)",
+   "class": "Automatikgewehr",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=lTMKIvPrJZc",
+   "timestamp": 82.015267,
+   "channel": "MadladDeluxe",
+   "title": "Destiny 1 vs. Destiny 2: Weapon Sounds and Animations",
+   "upload_date": "20230521",
+   "frame_rate": "30000/1001",
+   "muzzle_pct": null,
+   "sight_pct": [
+    75,
+    51
+   ],
+   "grip_pct": null,
+   "grip_hand": null,
+   "body_bbox_pct": [
+    58,
+    47,
+    100,
+    100
+   ],
+   "visible_size_pct": [
+    42,
+    53
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": null
+   },
+   "notes": "Korn ist sichtbar, eigentlicher Rohrabschluss liegt hinter Vorderkontur: Mündung null; Auto-Bild82.015s gewählt,82.048s gleiche Pose;82.081s bereits Schussblitz und ausgeschlossen;82.316s Blick-/Waffenbewegung, kein Ruhevergleich.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 1",
+   "integration": "übernommen",
+   "integration_reason": "neu (D1 nicht im Repo); 30/s nur Form/Lage, Modellnamen nicht eingeblendet -> Klassenbeispiel, kein Modell"
+  },
+  {
+   "id": "hl-destiny-1-scout-rifle",
+   "game": "Destiny 1",
+   "subject": "Scout Rifle (Modellname nicht eingeblendet)",
+   "class": "Scoutgewehr",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=lTMKIvPrJZc",
+   "timestamp": 108.0079,
+   "channel": "MadladDeluxe",
+   "title": "Destiny 1 vs. Destiny 2: Weapon Sounds and Animations",
+   "upload_date": "20230521",
+   "frame_rate": "30000/1001",
+   "muzzle_pct": null,
+   "sight_pct": [
+    71,
+    47
+   ],
+   "grip_pct": null,
+   "grip_hand": null,
+   "body_bbox_pct": [
+    57,
+    40,
+    100,
+    100
+   ],
+   "visible_size_pct": [
+    43,
+    60
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": null
+   },
+   "notes": "Vorderer brauner Gehäuseabschluss nicht sicher getrennte Mündung. Nachbar108.308s ruhig.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 1",
+   "integration": "übernommen",
+   "integration_reason": "neu (D1 nicht im Repo); 30/s nur Form/Lage, Modellnamen nicht eingeblendet -> Klassenbeispiel, kein Modell"
+  },
+  {
+   "id": "hl-destiny-1-sniper-rifle",
+   "game": "Destiny 1",
+   "subject": "Sniper Rifle (Modellname nicht eingeblendet)",
+   "class": "Scharfschützengewehr",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=lTMKIvPrJZc",
+   "timestamp": 132.999533,
+   "channel": "MadladDeluxe",
+   "title": "Destiny 1 vs. Destiny 2: Weapon Sounds and Animations",
+   "upload_date": "20230521",
+   "frame_rate": "30000/1001",
+   "muzzle_pct": [
+    54,
+    65
+   ],
+   "sight_pct": [
+    74,
+    54
+   ],
+   "grip_pct": null,
+   "grip_hand": null,
+   "body_bbox_pct": [
+    54,
+    45,
+    100,
+    100
+   ],
+   "visible_size_pct": [
+    46,
+    55
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": null
+   },
+   "notes": "Mündungsanker am sichtbaren kleinen vorderen Rohrende; großer Okularmittelpunkt. Nachbar133.300s ruhig; Laufachse überwiegend vom Gehäuse verdeckt, Winkel null.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 1",
+   "integration": "übernommen",
+   "integration_reason": "neu (D1 nicht im Repo); 30/s nur Form/Lage, Modellnamen nicht eingeblendet -> Klassenbeispiel, kein Modell"
+  },
+  {
+   "id": "hl-destiny-1-shotgun",
+   "game": "Destiny 1",
+   "subject": "Shotgun (Modellname nicht eingeblendet)",
+   "class": "Schrotflinte",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=lTMKIvPrJZc",
+   "timestamp": 150.984167,
+   "channel": "MadladDeluxe",
+   "title": "Destiny 1 vs. Destiny 2: Weapon Sounds and Animations",
+   "upload_date": "20230521",
+   "frame_rate": "30000/1001",
+   "muzzle_pct": [
+    55,
+    64
+   ],
+   "sight_pct": [
+    75,
+    69
+   ],
+   "grip_pct": null,
+   "grip_hand": null,
+   "body_bbox_pct": [
+    55,
+    60,
+    100,
+    100
+   ],
+   "visible_size_pct": [
+    45,
+    40
+   ],
+   "tilt_deg": 26.2,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": null
+   },
+   "notes": "Projizierter sichtbarer oberer Rohrverlauf, zwei Endpunkte im Audit; keine 3D-Neigung. Nachbar151.284s ruhig.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 1",
+   "integration": "übernommen",
+   "integration_reason": "neu (D1 nicht im Repo); 30/s nur Form/Lage, Modellnamen nicht eingeblendet -> Klassenbeispiel, kein Modell; tilt nur grob (±10°, Kurzläufe ±15°), projizierte Kante, keine 3D-Achse"
+  },
+  {
+   "id": "hl-destiny-1-fusion-rifle",
+   "game": "Destiny 1",
+   "subject": "Fusion Rifle (Modellname nicht eingeblendet)",
+   "class": "Fusionsgewehr",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=lTMKIvPrJZc",
+   "timestamp": 182.015167,
+   "channel": "MadladDeluxe",
+   "title": "Destiny 1 vs. Destiny 2: Weapon Sounds and Animations",
+   "upload_date": "20230521",
+   "frame_rate": "30000/1001",
+   "muzzle_pct": [
+    61,
+    72
+   ],
+   "sight_pct": [
+    73,
+    65
+   ],
+   "grip_pct": null,
+   "grip_hand": null,
+   "body_bbox_pct": [
+    60,
+    59,
+    100,
+    100
+   ],
+   "visible_size_pct": [
+    40,
+    41
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": null
+   },
+   "notes": "182.015s ohne Ladungs-/Schusseffekt; frühere Kandidaten175s verworfen. Sichtbarer vorderer Rohrabschluss, keine perspektivbereinigte Richtung.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 1",
+   "integration": "übernommen",
+   "integration_reason": "neu (D1 nicht im Repo); 30/s nur Form/Lage, Modellnamen nicht eingeblendet -> Klassenbeispiel, kein Modell"
+  },
+  {
+   "id": "hl-destiny-1-rocket-launcher",
+   "game": "Destiny 1",
+   "subject": "Rocket Launcher (Modellname nicht eingeblendet)",
+   "class": "Raketenwerfer",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=lTMKIvPrJZc",
+   "timestamp": 195.9958,
+   "channel": "MadladDeluxe",
+   "title": "Destiny 1 vs. Destiny 2: Weapon Sounds and Animations",
+   "upload_date": "20230521",
+   "frame_rate": "30000/1001",
+   "muzzle_pct": null,
+   "sight_pct": [
+    65,
+    57
+   ],
+   "grip_pct": null,
+   "grip_hand": null,
+   "body_bbox_pct": [
+    56,
+    27,
+    100,
+    100
+   ],
+   "visible_size_pct": [
+    44,
+    73
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": null
+   },
+   "notes": "Mündung links vor dem großen Werfergehäuse verdeckt; Welt-/Projektilpartikel links kein Mündungsersatz. Nachbar196.296s gleiche Pose.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 1",
+   "integration": "übernommen",
+   "integration_reason": "neu (D1 nicht im Repo); 30/s nur Form/Lage, Modellnamen nicht eingeblendet -> Klassenbeispiel, kein Modell"
+  },
+  {
+   "id": "hl-destiny-1-machine-gun",
+   "game": "Destiny 1",
+   "subject": "Machine Gun (Modellname nicht eingeblendet)",
+   "class": "Maschinengewehr",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=lTMKIvPrJZc",
+   "timestamp": 210.0098,
+   "channel": "MadladDeluxe",
+   "title": "Destiny 1 vs. Destiny 2: Weapon Sounds and Animations",
+   "upload_date": "20230521",
+   "frame_rate": "30000/1001",
+   "muzzle_pct": null,
+   "sight_pct": [
+    67,
+    50
+   ],
+   "grip_pct": null,
+   "grip_hand": null,
+   "body_bbox_pct": [
+    54,
+    45,
+    100,
+    100
+   ],
+   "visible_size_pct": [
+    46,
+    55
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": null
+   },
+   "notes": "Vorderes Waffenende vom Gehäuse verdeckt: muzzle null. Nachbar210.310s ruhig; Munitionsgurt gehört zur Waffe, nicht zum Arm.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Destiny 1",
+   "integration": "übernommen",
+   "integration_reason": "neu (D1 nicht im Repo); 30/s nur Form/Lage, Modellnamen nicht eingeblendet -> Klassenbeispiel, kein Modell"
+  },
+  {
+   "id": "hl-marathon-ce-tactical-sidearm",
+   "game": "Marathon (2026)",
+   "subject": "CE Tactical Sidearm",
+   "class": "Pistole",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=QxZAflLtJRQ",
+   "timestamp": 8.0,
+   "channel": "soda",
+   "title": "All Marathon (2026) Weapon Animations (Season 1)",
+   "upload_date": "20260604",
+   "frame_rate": "60/1",
+   "muzzle_pct": null,
+   "sight_pct": [
+    60,
+    54
+   ],
+   "grip_pct": [
+    64,
+    77
+   ],
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    57,
+    51,
+    69,
+    72
+   ],
+   "visible_size_pct": [
+    12,
+    21
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": null
+   },
+   "notes": "Pistolenrohr vorne durch Schlitten verborgen: Mündung null. Ruhige Vergleichsframes7.0/7.5/8.0s; Waffen-Bbox ohne Arme.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Marathon (2026)",
+   "integration": "übernommen",
+   "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
+  },
+  {
+   "id": "hl-marathon-v11-punch",
+   "game": "Marathon (2026)",
+   "subject": "V11 Punch",
+   "class": "Pistole",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=QxZAflLtJRQ",
+   "timestamp": 35.5,
+   "channel": "soda",
+   "title": "All Marathon (2026) Weapon Animations (Season 1)",
+   "upload_date": "20260604",
+   "frame_rate": "60/1",
+   "muzzle_pct": null,
+   "sight_pct": [
+    59,
+    52
+   ],
+   "grip_pct": [
+    65,
+    83
+   ],
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    56,
+    49,
+    69,
+    79
+   ],
+   "visible_size_pct": [
+    13,
+    30
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": null
+   },
+   "notes": "Vorderes Laufende durch hohe offene Kimme/Modell verdeckt; Mündung null.35.5/36.0s ruhige Hüfte;35.0 noch Hub.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Marathon (2026)",
+   "integration": "übernommen",
+   "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
+  },
+  {
+   "id": "hl-marathon-bully-smg",
+   "game": "Marathon (2026)",
+   "subject": "Bully SMG",
+   "class": "Maschinenpistole",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=QxZAflLtJRQ",
+   "timestamp": 113.0,
+   "channel": "soda",
+   "title": "All Marathon (2026) Weapon Animations (Season 1)",
+   "upload_date": "20260604",
+   "frame_rate": "60/1",
+   "muzzle_pct": [
+    58,
+    66
+   ],
+   "sight_pct": [
+    66,
+    50
+   ],
+   "grip_pct": null,
+   "grip_hand": null,
+   "body_bbox_pct": [
+    58,
+    46,
+    100,
+    100
+   ],
+   "visible_size_pct": [
+    42,
+    54
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": null
+   },
+   "notes": "112s noch Ziehen,112.5/113s ruhig und Zähler23. Mündungsanker am kurzen sichtbaren vorderen Ende links unter Korn; Laufachse verdeckt.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Marathon (2026)",
+   "integration": "übernommen",
+   "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
+  },
+  {
+   "id": "hl-marathon-v22-volt-thrower",
+   "game": "Marathon (2026)",
+   "subject": "V22 Volt Thrower",
+   "class": "Maschinenpistole",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=QxZAflLtJRQ",
+   "timestamp": 139.0,
+   "channel": "soda",
+   "title": "All Marathon (2026) Weapon Animations (Season 1)",
+   "upload_date": "20260604",
+   "frame_rate": "60/1",
+   "muzzle_pct": null,
+   "sight_pct": [
+    60,
+    58
+   ],
+   "grip_pct": null,
+   "grip_hand": null,
+   "body_bbox_pct": [
+    55,
+    52,
+    80,
+    100
+   ],
+   "visible_size_pct": [
+    25,
+    48
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": null
+   },
+   "notes": "139/139.15/139.3s gleiche Pose vor blauem Feuereffekt139.5s. Mündungs-/Emitterende hinter Visier/Vordergehäuse nicht getrennt, null.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Marathon (2026)",
+   "integration": "übernommen",
+   "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
+  },
+  {
+   "id": "hl-marathon-wstr-combat-shotgun",
+   "game": "Marathon (2026)",
+   "subject": "WSTR Combat Shotgun",
+   "class": "Schrotflinte",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=QxZAflLtJRQ",
+   "timestamp": 236.0,
+   "channel": "soda",
+   "title": "All Marathon (2026) Weapon Animations (Season 1)",
+   "upload_date": "20260604",
+   "frame_rate": "60/1",
+   "muzzle_pct": [
+    56,
+    59
+   ],
+   "sight_pct": [
+    71,
+    58
+   ],
+   "grip_pct": [
+    70,
+    87
+   ],
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    55,
+    55,
+    82,
+    100
+   ],
+   "visible_size_pct": [
+    27,
+    45
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": null
+   },
+   "notes": "Sichtbarer weißer Vorderabschluss als Mündungsanker, Öffnung nicht sichtbar; Kimmenpunkt hinten oben am Kastengehäuse.235s Ziehen verworfen;235.5/236s ruhig.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Marathon (2026)",
+   "integration": "übernommen",
+   "integration_reason": "Bild bestätigt (Mündung 55/55-58 vs 56/59, Grip 72/86 vs 70/87); Auflage: Per-Eintrag-Text good/bad ist Spielvorlage (Pistole), nicht zur Waffe passend"
+  },
+  {
+   "id": "hl-marathon-misriah-2442",
+   "game": "Marathon (2026)",
+   "subject": "Misriah 2442",
+   "class": "Schrotflinte",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=QxZAflLtJRQ",
+   "timestamp": 270.0,
+   "channel": "soda",
+   "title": "All Marathon (2026) Weapon Animations (Season 1)",
+   "upload_date": "20260604",
+   "frame_rate": "60/1",
+   "muzzle_pct": [
+    57,
+    65
+   ],
+   "sight_pct": [
+    75,
+    67
+   ],
+   "grip_pct": null,
+   "grip_hand": null,
+   "body_bbox_pct": [
+    55,
+    59,
+    100,
+    100
+   ],
+   "visible_size_pct": [
+    45,
+    41
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": null
+   },
+   "notes": "270/270.3/270.6s ruhig.257s Schussblitz verworfen. Achsenkandidat nach Vollbildprüfung verworfen: Linie schnitt Gehäuse statt sicher sichtbaren Lauf. tilt null.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Marathon (2026)",
+   "integration": "übernommen",
+   "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
+  },
+  {
+   "id": "hl-marathon-m77-assault-rifle",
+   "game": "Marathon (2026)",
+   "subject": "M77 Assault Rifle",
+   "class": "Automatikgewehr",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=QxZAflLtJRQ",
+   "timestamp": 334.5,
+   "channel": "soda",
+   "title": "All Marathon (2026) Weapon Animations (Season 1)",
+   "upload_date": "20260604",
+   "frame_rate": "60/1",
+   "muzzle_pct": null,
+   "sight_pct": [
+    71,
+    57
+   ],
+   "grip_pct": null,
+   "grip_hand": null,
+   "body_bbox_pct": [
+    55,
+    51,
+    100,
+    100
+   ],
+   "visible_size_pct": [
+    45,
+    49
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": null
+   },
+   "notes": "334.5/335s ähnliche Hüftpose, keine Schusswirkung. Korn kein Mündungsersatz, Rohrende hinter Vorderhand/Gehäuse: null.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Marathon (2026)",
+   "integration": "übernommen",
+   "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
+  },
+  {
+   "id": "hl-marathon-demolition-hmg",
+   "game": "Marathon (2026)",
+   "subject": "Demolition HMG",
+   "class": "Maschinengewehr",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=QxZAflLtJRQ",
+   "timestamp": 493.5,
+   "channel": "soda",
+   "title": "All Marathon (2026) Weapon Animations (Season 1)",
+   "upload_date": "20260604",
+   "frame_rate": "60/1",
+   "muzzle_pct": null,
+   "sight_pct": [
+    65,
+    59
+   ],
+   "grip_pct": null,
+   "grip_hand": null,
+   "body_bbox_pct": [
+    50,
+    53,
+    94,
+    100
+   ],
+   "visible_size_pct": [
+    44,
+    47
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": null
+   },
+   "notes": "492.5s noch Ziehen;493/493.5s ruhige tiefe Pose. Mündung verdeckt, oberste kleine Zinken sind Visierkontur.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Marathon (2026)",
+   "integration": "übernommen",
+   "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
+  },
+  {
+   "id": "hl-marathon-longshot",
+   "game": "Marathon (2026)",
+   "subject": "Longshot",
+   "class": "Scharfschützengewehr",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=QxZAflLtJRQ",
+   "timestamp": 730.0,
+   "channel": "soda",
+   "title": "All Marathon (2026) Weapon Animations (Season 1)",
+   "upload_date": "20260604",
+   "frame_rate": "60/1",
+   "muzzle_pct": [
+    55,
+    59
+   ],
+   "sight_pct": [
+    84,
+    66
+   ],
+   "grip_pct": null,
+   "grip_hand": null,
+   "body_bbox_pct": [
+    54,
+    37,
+    100,
+    100
+   ],
+   "visible_size_pct": [
+    46,
+    63
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": null
+   },
+   "notes": "730/730.3s Hüfte, großes seitliches Okular weit rechts. Mündungsanker an sichtbarem kleinen Rohrabschluss links der Optik; keine Sichtlinie daraus extrapolieren.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Marathon (2026)",
+   "integration": "übernommen",
+   "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
+  },
+  {
+   "id": "hl-titanfall-2-car",
+   "game": "Titanfall 2",
+   "subject": "CAR",
+   "class": "Maschinenpistole",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=4sDwTD9U8bw",
+   "timestamp": 88.0,
+   "channel": "Weapons From Games",
+   "title": "Titanfall 2 [2019] - All Weapons Showcase After All Patches, Updates, DLC's, Fixes - PC ULTRA 1440P",
+   "upload_date": "20190314",
+   "frame_rate": "60/1",
+   "muzzle_pct": [
+    56,
+    65
+   ],
+   "sight_pct": [
+    72,
+    57
+   ],
+   "grip_pct": null,
+   "grip_hand": null,
+   "body_bbox_pct": [
+    55,
+    50,
+    100,
+    100
+   ],
+   "visible_size_pct": [
+    45,
+    50
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": null
+   },
+   "notes": "88/88.15/88.3s gleicher Zähler36, ruhige Hüfte. Orange/weißer Vorderabschluss liefert Mündungsanker, Öffnung nicht separat lesbar.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Titanfall 2",
+   "integration": "übernommen",
+   "integration_reason": "Bild bestätigt grob (Mündung y ≈ 61-62 statt 65, Δ3-4 pp, grenzwertig). WIDERSPRUCH Repo titanfall2.md (Gewehr 16 Schuss: klein, tief rechts, Körper 35-60x65-100, Mündung 45/68) vs Showcase groß/mittig (Körper 54-100x50-100): FOV/Viewmodel-Einstellung unbekannt -> nebeneinander stellen, nicht ersetzen"
+  },
+  {
+   "id": "hl-titanfall-2-r-201-carbine",
+   "game": "Titanfall 2",
+   "subject": "R-201 Carbine",
+   "class": "Automatikgewehr",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=4sDwTD9U8bw",
+   "timestamp": 163.3,
+   "channel": "Weapons From Games",
+   "title": "Titanfall 2 [2019] - All Weapons Showcase After All Patches, Updates, DLC's, Fixes - PC ULTRA 1440P",
+   "upload_date": "20190314",
+   "frame_rate": "60/1",
+   "muzzle_pct": [
+    55,
+    65
+   ],
+   "sight_pct": [
+    74,
+    68
+   ],
+   "grip_pct": null,
+   "grip_hand": null,
+   "body_bbox_pct": [
+    54,
+    55,
+    100,
+    100
+   ],
+   "visible_size_pct": [
+    46,
+    45
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": null
+   },
+   "notes": "163.3/163.6s Zähler30, ruhige Hüfte vor Schussserie; Gehäuse bis rechts/unten abgeschnitten.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Titanfall 2",
+   "integration": "übernommen",
+   "integration_reason": "Wie CAR: Widerspruch zu titanfall2.md Hüfte klein/tief (anderer Clip, FOV unbekannt); nicht am Bild nachgemessen"
+  },
+  {
+   "id": "hl-apex-legends-r-301",
+   "game": "Apex Legends",
+   "subject": "R-301",
+   "class": "Automatikgewehr",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=R-BGChzYGpo",
+   "timestamp": 39.5,
+   "channel": "Cacek47",
+   "title": "Apex Legends @ ALL Weapons Look and Sound Showcase @ FHD 60fps",
+   "upload_date": "20190206",
+   "frame_rate": "60/1",
+   "muzzle_pct": null,
+   "sight_pct": [
+    71,
+    69
+   ],
+   "grip_pct": null,
+   "grip_hand": null,
+   "body_bbox_pct": [
+    54,
+    58,
+    100,
+    100
+   ],
+   "visible_size_pct": [
+    46,
+    42
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": null
+   },
+   "notes": "39.4–39.7s Zähler18, ruhige Grundpose vor Inspektion40.2s; normale2019-Fassung, keine R5Reloaded-Quelle. Frontabschluss nicht sicher vom Vorderschaft getrennt, Mündung null.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Apex Legends",
+   "integration": "übernommen",
+   "integration_reason": "neu (Repo hat nur R-99 Hüfte); nur Visier/Hüllrechteck, Mündung null; nicht am Bild nachgemessen"
+  },
+  {
+   "id": "hl-halo-infinite-ma40-assault-rifle",
+   "game": "Halo Infinite",
+   "subject": "MA40 Assault Rifle",
+   "class": "Automatikgewehr",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=ZfNuA5r-470",
+   "timestamp": 6.0,
+   "channel": "Abyssopelagic",
+   "title": "Halo Infinite Gameplay - All Weapons from the First Technical Preview",
+   "upload_date": "20210730",
+   "frame_rate": "60/1",
+   "muzzle_pct": [
+    61,
+    67
+   ],
+   "sight_pct": [
+    73,
+    61
+   ],
+   "grip_pct": null,
+   "grip_hand": null,
+   "body_bbox_pct": [
+    60,
+    51,
+    100,
+    100
+   ],
+   "visible_size_pct": [
+    40,
+    49
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": null
+   },
+   "notes": "5/6/7s gleicher Zähler36 und stationäre Grundpose. Quelle First Technical Preview2021, keine aktuelleBalance. Halo hat hier Hüftpose mit Stielanzeige; keine klassische offene Kimme, sight ist Anzeigen-/Visiergehäusezentrum.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Halo Infinite",
+   "integration": "übernommen",
+   "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
+  },
+  {
+   "id": "hl-halo-infinite-br75",
+   "game": "Halo Infinite",
+   "subject": "BR75",
+   "class": "Impulsgewehr",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=ZfNuA5r-470",
+   "timestamp": 49.0,
+   "channel": "Abyssopelagic",
+   "title": "Halo Infinite Gameplay - All Weapons from the First Technical Preview",
+   "upload_date": "20210730",
+   "frame_rate": "60/1",
+   "muzzle_pct": [
+    61,
+    65
+   ],
+   "sight_pct": [
+    80,
+    47
+   ],
+   "grip_pct": null,
+   "grip_hand": null,
+   "body_bbox_pct": [
+    60,
+    38,
+    100,
+    100
+   ],
+   "visible_size_pct": [
+    40,
+    62
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": null
+   },
+   "notes": "49s vor erster Schussserie;48s Blick in andere Richtung, gleiche Grundhaltung. 49.000/49.050s ruhig mit36,49.100s bereits erster Schuss und ausdrücklich ausgeschlossen. Quelle Technical Preview2021.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Halo Infinite",
+   "integration": "übernommen",
+   "integration_reason": "Bild bestätigt (Visier 80/47, Mündung am Handschutz-Ende 61/65 – \"Mündung\" = vorderes Gehäuseende, Lauf verdeckt)"
+  },
+  {
+   "id": "hl-call-of-duty-modern-warfare-x16",
+   "game": "Call of Duty: Modern Warfare (2019)",
+   "subject": "X16",
+   "class": "Pistole",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=_KTdg4YM1fQ",
+   "timestamp": 4.0,
+   "channel": "Tigerfield",
+   "title": "COD Modern Warfare 2019 - ALL WEAPONS Showcase",
+   "upload_date": "20191026",
+   "frame_rate": "60/1",
+   "muzzle_pct": null,
+   "sight_pct": [
+    54,
+    73
+   ],
+   "grip_pct": [
+    55,
+    90
+   ],
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    51,
+    69,
+    60,
+    91
+   ],
+   "visible_size_pct": [
+    9,
+    22
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": null
+   },
+   "notes": "3/4s ruhige tiefe Hüfte; keine ADS-Lage. Laufende hinter Schlittenkontur verdeckt, null. Ausschnitt startet bei Original0, daher kein Zeitversatz.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Call of Duty: Modern Warfare (2019)",
+   "integration": "übernommen",
+   "integration_reason": "neu; Visierpunkt unsicher (Bild: Kimme eher 52/78-80 als 54/73, Pistole von hinten), bbox/Grip plausibel; 60/s"
+  },
+  {
+   "id": "hl-call-of-duty-modern-warfare-1911",
+   "game": "Call of Duty: Modern Warfare (2019)",
+   "subject": "1911",
+   "class": "Pistole",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=_KTdg4YM1fQ",
+   "timestamp": 32.0,
+   "channel": "Tigerfield",
+   "title": "COD Modern Warfare 2019 - ALL WEAPONS Showcase",
+   "upload_date": "20191026",
+   "frame_rate": "60/1",
+   "muzzle_pct": null,
+   "sight_pct": [
+    52,
+    78
+   ],
+   "grip_pct": [
+    53,
+    92
+   ],
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    49,
+    74,
+    57,
+    95
+   ],
+   "visible_size_pct": [
+    8,
+    21
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": null
+   },
+   "notes": "31s Nachladen,32s Rückkehr; 32.0/32.1/32.2s ruhig bestätigt. Mündung nicht getrennt sichtbar.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Call of Duty: Modern Warfare (2019)",
+   "integration": "übernommen",
+   "integration_reason": "neu; wie X16 nicht am Bild nachgemessen"
+  },
+  {
+   "id": "hl-battlefield-6-b36a4",
+   "game": "Battlefield 6 (pre-launch build)",
+   "subject": "B36A4",
+   "class": "Automatikgewehr",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=ROUP1z62caA",
+   "timestamp": 41.2,
+   "channel": "Torbis",
+   "title": "Battlefield 6 - All Weapons Reloads Animations + Optics & Attachments",
+   "upload_date": "20250917",
+   "frame_rate": "60/1",
+   "muzzle_pct": [
+    54,
+    59
+   ],
+   "sight_pct": [
+    66.5,
+    71
+   ],
+   "grip_pct": null,
+   "grip_hand": null,
+   "body_bbox_pct": [
+    53,
+    57,
+    82,
+    100
+   ],
+   "visible_size_pct": [
+    29,
+    43
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": null
+   },
+   "notes": "41/41.2/41.4s nach Nachladen ruhige Hüfte. Sichtbarer Hinweis Recorded in pre-launch build; Gehäuse endet rechts vor Bildrand, unten abgeschnitten. Kleine offene Kimme hinten.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Battlefield 6 (pre-launch build)",
+   "integration": "übernommen",
+   "integration_reason": "Bild bestätigt (Mündung ≈56/59 vs 54/59, Visier 66/71); Vorabbuild BF6"
+  },
+  {
+   "id": "hl-battlefield-6-ak4d",
+   "game": "Battlefield 6 (pre-launch build)",
+   "subject": "AK4D",
+   "class": "Automatikgewehr",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=ROUP1z62caA",
+   "timestamp": 42.2,
+   "channel": "Torbis",
+   "title": "Battlefield 6 - All Weapons Reloads Animations + Optics & Attachments",
+   "upload_date": "20250917",
+   "frame_rate": "60/1",
+   "muzzle_pct": [
+    54,
+    58
+   ],
+   "sight_pct": [
+    66,
+    63
+   ],
+   "grip_pct": null,
+   "grip_hand": null,
+   "body_bbox_pct": [
+    53,
+    51,
+    84,
+    100
+   ],
+   "visible_size_pct": [
+    31,
+    49
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": null
+   },
+   "notes": "42/42.2/42.4s ruhige Hüfte mit Zähler21; Prelaunch-Aufnahme. Öffnung der hinteren Ringkimme als sight, nicht vorderer Kornring.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Battlefield 6 (pre-launch build)",
+   "integration": "übernommen",
+   "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
+  },
+  {
+   "id": "hl-valorant-classic",
+   "game": "Valorant",
+   "subject": "Classic",
+   "class": "Pistole",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=WH5xpA7tfY8",
+   "timestamp": 82.015267,
+   "channel": "Skovos",
+   "title": "Valorant: Weapons and Guns Guide + Alternate Fire [Explained in Detail]",
+   "upload_date": "20200418",
+   "frame_rate": "30000/1001",
+   "muzzle_pct": null,
+   "sight_pct": [
+    72,
+    66
+   ],
+   "grip_pct": [
+    72,
+    84
+   ],
+   "grip_hand": "right",
+   "body_bbox_pct": [
+    63,
+    59,
+    76,
+    79
+   ],
+   "visible_size_pct": [
+    13,
+    20
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": null
+   },
+   "notes": "82/82.3/82.6s stationäre Hüfte; ca29.97/s nur Form/Lage. Laufende durch Schlitten verdeckt. Waffe Classic im HUD/Kaufmenü derselben Quelle.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Valorant",
+   "integration": "übernommen",
+   "integration_reason": "Bild bestätigt (Sight 72/66, Grip 72/84, bbox 63/59/76/79); 30/s nur Form/Lage"
+  },
+  {
+   "id": "hl-valorant-bulldog",
+   "game": "Valorant",
+   "subject": "Bulldog",
+   "class": "Automatikgewehr",
+   "status": "O",
+   "source_url": "https://www.youtube.com/watch?v=WH5xpA7tfY8",
+   "timestamp": 353.286267,
+   "channel": "Skovos",
+   "title": "Valorant: Weapons and Guns Guide + Alternate Fire [Explained in Detail]",
+   "upload_date": "20200418",
+   "frame_rate": "30000/1001",
+   "muzzle_pct": [
+    57,
+    57
+   ],
+   "sight_pct": [
+    76,
+    64
+   ],
+   "grip_pct": null,
+   "grip_hand": null,
+   "body_bbox_pct": [
+    56,
+    53,
+    100,
+    100
+   ],
+   "visible_size_pct": [
+    44,
+    47
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": null
+   },
+   "notes": "Menü342s bestätigt Bulldog, magazin12 hier nach vorherigen Schüssen;353.0–353.6 Blickdrehung/schwacher Sway. Als O statt Standardruhe einstufen, falls Stationarität gefordert. Kein Klassenmittel.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "Valorant",
+   "integration": "offen",
+   "integration_reason": "Status O: bewegte Sichtung (Kamera dreht, Sway), keine ruhige Grundpose; 30/s"
+  },
+  {
+   "id": "hl-the-finals-m26-matter",
+   "game": "The Finals",
+   "subject": "M26 Matter",
+   "class": "Schrotflinte",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=1QFjDZBh3GE",
+   "timestamp": 35.3,
+   "channel": "Game Arsenal",
+   "title": "The Finals - All Weapon Reload Animations",
+   "upload_date": "20250919",
+   "frame_rate": "60/1",
+   "muzzle_pct": [
+    55.5,
+    64.5
+   ],
+   "sight_pct": [
+    67.5,
+    66
+   ],
+   "grip_pct": null,
+   "grip_hand": null,
+   "body_bbox_pct": [
+    55,
+    60,
+    100,
+    100
+   ],
+   "visible_size_pct": [
+    45,
+    40
+   ],
+   "tilt_deg": null,
+   "edge_tilt_deg": null,
+   "arm_bbox_pct": {
+    "left": null,
+    "right": null
+   },
+   "notes": "35/35.3/35.6s ruhige Hüfte nach Nachladen; Name im Creator-Overlay. Quelle vollständiger Showcase, eigener0–65s-Ausschnitt, Originalstart0. Laufachse verdeckt, tilt null.",
+   "good": null,
+   "bad": null,
+   "audience": null,
+   "player_opinion": null,
+   "dev_reference": null,
+   "evaluation": "The Finals",
+   "integration": "übernommen",
+   "integration_reason": "Bild bestätigt (Mündung ≈57/63 vs 55.5/64.5); Auflage: M26 Matter ist Gewehr mit Unterlauf-Schrot, Klasse \"Schrotflinte\" fraglich"
+  }
+ ],
+ "counts": {
+  "entries": 65,
+  "taken": 57,
+  "rejected": 7,
+  "open": 1,
+  "games": 10,
+  "videos": 19
+ }
+}

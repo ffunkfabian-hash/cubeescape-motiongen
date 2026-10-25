@@ -19,3 +19,4 @@
 - Entwickler-Portfolios belegen Form, keinen Retailstand, und können andere Feuermodi zeigen (New Malpais: Granatschuss); Quelle und Modus getrennt nennen ([muendung](muendung.md#2-quellen)).
 - Inspect- und Animationsdauern aus Showcases sind Quellmedienzeit; die Marker-Definition mitnennen – „erste Bewegung → Hüftlage“ und „Ruhe → Ruhe“ unterscheiden sich um 0,2–0,4 s ([inspektion](inspektion.md#1-methode-und-genauigkeit)).
 - Regeln einmal festschreiben statt je Prompt kopieren: der [Analyse-Standard](standard.md) gilt für jede Zuarbeit, Aufträge entstehen aus der [Vorlage](vorlagen/auftrag-analyse.md) ([0.21](versions/0.md#0210-playbook--2026-10-25)).
+- Hüftlage-Zuarbeit vor Übernahme gegen den Bestand abgleichen: Steckbriefzeilen mit zwei Waffen können den Wert nur einer tragen (Granatwerfer 57 / 54 = Ignition Code), und je Zeile kopierte Bewertungstexte passen nicht zur Waffe – Bewertung je Spiel führen ([huefte](huefte.md#3-abgleich-mit-dem-bestand)).
