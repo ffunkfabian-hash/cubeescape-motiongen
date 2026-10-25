@@ -8,3 +8,5 @@
 - Weltzoom als Bildmaßstab messen (Vorlagensuche, corr ≥ 0,85) und nie mit dem Winkelzoom eines Spiels gleichsetzen; Glas gegen außen zeigt, ob ein Linsenbild existiert ([visiere](visiere.md#1-quellen-und-methode)).
 - `sheet` bei niedriger Bildrate: Kachel zeigt ein Bild eine halbe Abtastperiode nach ihrer Beschriftung – Zahlen nur aus Einzelbildern oder Bögen ≥ 5/s ([visiere](visiere.md#1-quellen-und-methode)).
 - Zuarbeit anderer Agenten (Antigravity) vor Übernahme per yt-dlp gegen Kanal/Titel prüfen und eine Stichprobe am Bild nachmessen; erfundene Quellen kommen vor ([visiere](visiere.md#1-quellen-und-methode)).
+- Rückstoß im Zielen gegen einen starren Weltanker getrennt vom Visier verfolgen; Spuren mit Overlay, Blitz oder Formwechsel (NCC deutlich < 0,85) verwerfen statt sie als Null oder Spitze zu melden ([zielbewegung](zielbewegung.md#1-methode-und-genauigkeit)).
+- Halte unter 2 s tragen keine Atemperiode; „innerhalb ±3 pp“ ist eine Auflösungsgrenze, kein Nachweis für Null-Sway ([zielbewegung](zielbewegung.md#7-nicht-messbar--offen)).
