@@ -30,7 +30,9 @@ gesichtet. **Jede Zahl ist das Beispiel einer Waffe** in einer Aufnahme mit unbe
 - **Zielpunkt:** Chroma Rush und Gridskipper zielen auf ≈ 50/50, die übrigen sechs Destiny-Beispiele auf ≈ 50/57,4 (Showcases 2020/21).
   Bezug ist jeweils die sichtbare Ruhelage.
 - **Normaltempo** je Video geprüft ([destiny2.md › Methode 10](destiny2.md#2-messungen-an-60-fps-aufnahmen-ab-16-oktober-2026--m)): Schussabstände
-  Chroma 5, Gridskipper 4 Bilder (Zeitlupe 8), Tone Patrol 20–21 Bilder (= 180/min), Annual Skate 27 Bilder (= 140/min); die übrigen
+  Chroma 5, Gridskipper 4 Bilder (Zeitlupe 8), Tone Patrol 20–21 Bilder (= 180/min); Annual Skate über gleiche Nachladeposen (Phasenabstand 1 s normal gegen 2 s langsam), dazu ein
+  späterer ADS-Schussabstand von 27 Bildern (0,45 s ≈ 133/min) – nicht kürzer als der Mindestabstand 0,43 s bei 140/min, also mit Normaltempo
+  vereinbar, aber selbst kein Grenzwert; die übrigen
   Destiny-Videos mit markierten 0,5×-/0,25×-Abschnitten getrennt.
 - **Übersichtskacheln liefern keine Zeitmarker:** `reference_frames.py sheet` zeigt bei niedriger Bildrate ein Bild eine halbe Abtastperiode
   nach seiner Beschriftung ([LESSONS](LESSONS.md)). Alle Zahlen stammen aus absoluten nativen Bildindizes.
@@ -120,8 +122,11 @@ Halo zeigt einen anderen Aufbau: das Modell verschwindet im Umschaltbild, der di
   Tone Patrol und Annual Skate je 6, Threaded Needle 13, Far Future 18 pp H Welt bei Visierhub unter 1 pp (Holo) bzw. Scope-Zeichen unter 3 pp.
   Threaded Needle trennt Modell und Welt zeitlich (Gabel nach 3, Welt nach 8 Bildern). Scharfschütze und lineare Fusion kehren im Fenster nicht
   ganz zurück (12 bzw. 6–7 pp H Rest), Stöße und Salven schon (36–75 Bilder ab letztem Schuss, kein Unterschwingen über der Genauigkeit).
-  BF2042 (Reflex-Gewehr) und Halo (BR75) zeigen im Feuer ebenfalls ≈ 4 pp H Weltaufbau bei kleinem Rahmenhub; die Pistolen und das R-301 in
-  Apex sowie G57 in BF bleiben unter ±3 pp. Das sind getrennte Kanäle je Waffe, keine gemeinsame Amplitude einer Waffenklasse.
+  Das BF2042-Reflex-Gewehr zeigt im Feuerstoß ebenfalls ≈ 4 pp H Weltaufbau bei Rahmenhub unter 1 pp (Peak im Fenster nicht erreicht);
+  Halos BR75 ≈ 4 pp H Welt, aber ohne Modell- oder Rahmenkanal (Modell im Zoom ausgeblendet). RE-45 und R-301 (Apex), G57 (BF) und das
+  Commando im digitalen Zoom bleiben unter ±3 pp. Die P2020 hat **keinen** Weltkanal (nur Wolken) und keinen freigegebenen Modellpeak,
+  nur eine Formrückkehr des Schlittens nach 11 Bildern Videozeit – daraus folgt keine Obergrenze der Amplitude. Das sind getrennte Kanäle
+  je Waffe, keine gemeinsame Amplitude einer Waffenklasse.
 - **(c) Punkt im Glas:** Nur Threaded Needle liefert einen groben Versatz (Punkt ≈ 7 pp H tiefer gegen den angehobenen Gabelrand, ±6 pp);
   Tone Patrol bleibt relativ unter 1 pp, aber die Blitzbilder sind verdeckt. Offene Kimmen haben keine Glasöffnung, Halo-Rahmen sind digitale
   Overlays. Ein ruhiger Punkt im Bild belegt keine Parallaxefreiheit, und aus einem Punkt-/Rahmenversatz folgt kein bestimmter Kamera- oder
@@ -158,7 +163,7 @@ Bildindizes. Alle fünf Werte liegen innerhalb der Genauigkeit:
 |---|---|---|---|
 | Chroma Rush, Welt im Viererstoß | ≈ 4 pp H, Spitze +2 | 3,7–3,8 pp H, Plateau +2 bis +6 Bilder (f1406–1410), NCC ≥ 0,95; Rest ≤ 0,1 pp ab +30 | zwei Wand-ROIs links/rechts |
 | Far Future, Welt nach dem Schuss | ≈ 18 pp H bei +4, Rest ≈ 12 | 17,5 pp H bei +4 (f2012), NCC 0,933; Rest 12,0 pp H bei 34,483 | Wand-ROI ohne Scope-Balken (die ROI mit Balken fällt auf NCC 0,6) |
-| Threaded Needle, Gabel und Welt | −8 bei +3; 13 bei +8 | Gabel −7,8 pp H bei +3 (NCC 0,77, Gabel wächst); Welt 12,8 pp H ab +7, Rest 6,7 | Gabelspitze, zwei Wand-ROIs |
+| Threaded Needle, Gabel und Welt | −8 bei +3; 13 bei +8 | Oberkante der linken Gabel −8,2 pp H bei +2/+3 (Vorlage wächst dabei auf ≈ 1,5×, NCC ≥ 0,918), zurück im ±3-pp-Band bei +20; Welt 12,8 pp H ab +7, Rest 6,7 | Gabelspitze mit Mehrskalen-Suche je Bild (eine reine Verschiebungssuche fällt am Formwechsel auf NCC 0,77 und gilt nicht), zwei Wand-ROIs |
 | Imperial Needle, Endmaßstab | ≈ 2,2× | 2,24× mit zwei ROIs (NCC 0,912 / 0,855), aus den Fundorten 2,23× | Mehrskalen-NCC, ADS-Ausschnitt verkleinert |
 | Extraordinary Rendition, Endmaßstab | ≈ 1,7× | 1,709× (32 Inlier) | ORB + RANSAC (Ähnlichkeit) |
 
