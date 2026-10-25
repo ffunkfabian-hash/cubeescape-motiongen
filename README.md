@@ -10,6 +10,7 @@ Toolgen und das Design-Repo lesen hier; entschieden und umgesetzt wird dort.
 |---|---|
 | `docs/destiny2.md` | Messungen (Tabelle mit Clip und Zeitstempeln) und Steckbriefe je Waffentyp |
 | `docs/apex.md`, `docs/titanfall2.md` | Bewegungs-Vorbilder: Sprint, Rutschen, Sprung/Landung, Wandlauf, tiefe Hüfte (je ein Steckbrief) |
+| [docs/proportionen.md](docs/proportionen.md) | Waffenproportionen und Silhouetten: Verhältnisse je Klasse (Destiny 2 und fünf Vergleichsspiele), was schlank macht, BASIC-Abweichungen als Vorschlag (`data/proportionen.json`) |
 | [docs/auswertung.md](docs/auswertung.md) | Gesamtauswertung: Vergleich der Vorgänge, belegte Muster, Widersprüche und offene Fragen |
 | `docs/cube-escape.md` | Cube Escape selbst, mit denselben Messgrößen vermessen (eigene 60-fps-Aufnahmen aus der Testkopie): Messungen, Steckbriefe je Gerät, Vergleich mit den Vorbildern |
 | `data/clips.json` | Clip-Verzeichnis: Messung, Clip-URL, Quelle, Zeitstempel |

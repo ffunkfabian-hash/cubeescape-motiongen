@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.15.0 „Sideview“ – 2026-10-25
+
+- Neue Referenzanalyse [Waffenproportionen und Silhouetten](docs/proportionen.md) mit `data/proportionen.json`: 52 Waffen aus 6 Spielen (Destiny 2: 26, Destiny 1, Marathon, Halo Infinite, Apex je 5, Borderlands 3: 6), Verhältnisse je D2-Klasse (Gehäuse, freier Lauf, Visierhöhe/-länge, H/L), zehn Beobachtungen „was schlank macht“, 17 BASIC-Konturen und der Scout-Visierring im Zielen als Vorschlag für BASIC (cubeescape-ballon).
+- Zuarbeit einer Antigravity-Sitzung [C]: alle 17 Videos per yt-dlp und alle 12 Bildseiten per Abruf bestätigt (keine weggelassen), sechs Werte am eigenen Bild nachgemessen [M], alle innerhalb der Toleranz; vier Kernmessungen in `data/clips.json`.
+- Befund: BASIC-Gehäuse sind nicht zu hoch (0,10–0,13 L gegen D2 0,16–0,25 in 3/4-Ansicht); abweichend sind der Scout-Visieraufbau (0,063 L gegen 0,02–0,04) und der Visierring im Zielen (außen/Öffnung 1,76–1,91 gegen Destiny 1,28–1,30). [Bericht](docs/versions/0.md#0150-sideview--2026-10-25).
+
 ## 0.13.1 – 2026-10-24
 
 - Werkzeug-Pin auf ce-agent-tools 0.22.0 „Tollgate“ (`9f1ed12`, vorher 0.20.0 `c7d03f4`): `./ce session say/mail` mit Courier-Verbesserungen (Modellzeile, Kopie an Sightline bei PR/Merge, `ce-freigabe`-Erkennung, `--follow`), Merge-Sperre im Plugin; `.ce-repo.json`, `./ce`, PR-Check-Schritt. Kein Verhalten des Generators geändert.
