@@ -1,0 +1,2323 @@
+{
+  "version": "0.26.0",
+  "version_name": "Swapline",
+  "topic": "Ziehen, Wegstecken und Waffenwechsel",
+  "source": "Codex-Mac, Ego-Bewegung Thema 2, 25.10.2026 (codex-wechsel.md); geprüft und eingepflegt in REF 0.26 „Swapline“",
+  "notes": "Zeiten sind Quellmedienzeit sichtbarer Posen bei nativen 60/s (Twitch-Clip ≈ 59,98/s), Bildmarker ±1, Differenzen ±2 Bilder; keine Eingabe-, Sperr- oder Schussfreigabezeit. hüftähnlich = erste Passage (weich), nicht ruhig. unbekannt = null. Die je Eintrag kopierten Bewertungsfelder der Zuarbeit sind nicht übernommen; Bewertung je Spiel unter `evaluation`.",
+  "counts": {
+    "entries": 29,
+    "M": 23,
+    "O": 6,
+    "uebernommen": 24,
+    "korrigiert": 5,
+    "verworfen": 0,
+    "neu": 16,
+    "videos": 14
+  },
+  "fields": {
+    "window_s": "Messfenster [Beginn, Ende] in Quellsekunden",
+    "markers": "feste Schlüssel stow_start, last_old, first_empty, last_empty, first_new, hip (erste hüftähnliche Passage), settled, ads (null = nicht belegt) mit frame (nullbasierter Bildindex der Quelldatei), t_s und ggf. frame_range (weich); weitere Marker unter extra_markers (menu_last, world_first, ads_exit_first_motion, first_character, shoulder_distance)",
+    "event_kind": "Art des Ereignisses laut Zuarbeit (z. B. weapon_switch, draw_after_menu_cut, pickup, switch_into_ads, draw_only_low_content_rate)",
+    "observed_draw_segment_frames": "nur Valorant CV13/CV14: Bilder des beobachteten Ziehsegments (Beginn durch Schnitt unsichtbar)",
+    "hold_pose / pose_definition / ego_values / entry_direction": "Freitext zur Haltung (D02), zur Pose-Definition (D05–D07), Ego-Wert null bei [O] (H06), Eintrittsrichtung",
+    "stow_frames_range / settle_frames_range / first_new_to_ads_frames_range / empty_frames_range / draw_frames_range": "Spannen bei weichen Markern; der Hauptwert ist aus den Hauptmarkern gerechnet (bei CV02/CV04 die bestätigte Untergrenze), die Spanne nennt weiche Marker",
+    "hip_stable_frame_range / draw_frames_note / tempo_note / time_zero_definition / uncertainty": "Zusatzangaben zur stabilen Lage nach der ersten Passage (D01, D04), zur Untergrenze von draw_frames, zum Normaltempo-Nachweis, zur Zeitnull-Definition und zur Messgenauigkeit",
+    "extra_markers (Auswahl)": "menu_last, world_first, ads_exit_first_motion, last_world_without_character, first_character, shoulder_distance (Ansichtswechsel H06, Menüschnitte, ADS-Austritt)",
+    "stow_frames / empty_frames / draw_frames / settle_frames": "Bilder: erste Wegsteckbewegung bis erstes Bild ohne alte Waffe / waffenfreie Bilder / erstes neues Bild bis erste hüftähnliche Pose / von dort bis ruhig; *_s = Bilder/60",
+    "first_new_to_ads_frames": "Bilder vom ersten neuen Bild bis zur ADS-Pose (Waffen, die direkt in ADS ziehen)",
+    "into_ads": "Ziehen endet in ADS ohne Hüftpassage",
+    "audit": "Abnahme: decision (übernommen|korrigiert), bestand (Bezug zum Bestand), korrektur",
+    "evaluation": "Freitext je Spiel (Standard § 6 C: player_opinion/dev_reference sind hier je Spiel statt je Zeile)"
+  },
+  "units": {
+    "time": "s (Quellmedienzeit)",
+    "frame": "nullbasierter Bildindex der Quelldatei"
+  },
+  "id_scheme": "IDs aus den Teilzuarbeiten, unverändert: D01–D07 Destiny-Wechsel und Ziehen, D08 (id-loser Eintrag der Zuarbeit, hier vergeben) Waffe A → Gewehr, H01–H06 schwere Waffen und Menüschnitte, CV01–CV15 Vergleichsspiele",
+  "entries": [
+    {
+      "id": "D01",
+      "game": "Destiny 2",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=1ERmScNiOk4",
+      "source_channel": "DFP",
+      "source_upload_date": "20230209",
+      "source_title": "THE MOST UNIQUE + RARE SCOUT RIFLE IN DESTINY 2! (Saint's Scout)",
+      "source_offset_s": 0,
+      "native_rate": "60/1",
+      "event_kind": "complete_weapon_pair_partial_settle",
+      "stow_frames": 12,
+      "empty_frames": 14,
+      "draw_frames": 14,
+      "settle_frames": null,
+      "entry_direction": "unten, leicht links der späteren rechten Hüftpose",
+      "into_ads": false,
+      "notes": "Scout senkt sich nach unten/rechts aus der Hüfte; früheste neue Sicht ist der obere Ringrand unten links der späteren Endlage. Schrot steigt auf und gleitet zur rechten Hüfte. Anschließender Blick-/Sway-Anteil verhindert eine isolierte Ruhegrenze; Hüftpassage weich etwa f 27462–27464. Native Randvergrößerung korrigiert die grobe erste Lesung: Modell schon f 27448, nicht erst f 27450. Handling, Perks und FOV unbekannt; Einzelfall dieser Waffe. Rotation sichtbar, aber keine verlässlich verfolgte identische gerade Kante über die Eintrittsphase, daher Winkel null. Ruhige Pose ist keine Feuerfreigabe.",
+      "subject": "Patron of Lost Causes → Schrotflinte (Modellname offen)",
+      "weapon": "Patron of Lost Causes → Schrotflinte (Modellname offen)",
+      "class": "Scoutgewehr → Schrotflinte",
+      "window_s": [
+        457.033333,
+        457.7
+      ],
+      "timestamp": "457.033–457.700 s",
+      "markers": {
+        "stow_start": {
+          "frame": 27422,
+          "t_s": 457.033
+        },
+        "last_old": {
+          "frame": 27433,
+          "t_s": 457.217
+        },
+        "first_empty": {
+          "frame": 27434,
+          "t_s": 457.233
+        },
+        "last_empty": {
+          "frame": 27447,
+          "t_s": 457.45
+        },
+        "first_new": {
+          "frame": 27448,
+          "t_s": 457.467
+        },
+        "hip": {
+          "frame": 27462,
+          "t_s": 457.7
+        },
+        "settled": null,
+        "ads": null
+      },
+      "empty_frames_range": null,
+      "draw_frames_range": null,
+      "stow_frames_range": null,
+      "settle_frames_range": null,
+      "tempo_note": null,
+      "uncertainty": "Bildmarker ±1 Bild, Differenzen ±2 Bilder; hüftähnlich = erste Passage (weich, ±3 pp)",
+      "first_new_to_ads_frames": null,
+      "hip_stable_frame_range": [
+        27466,
+        27468
+      ],
+      "draw_frames_note": "Untergrenze bis zur ersten Passage (14); stabile Lage ≈ 27466–27468 (≈ 18–20 Bilder), Kamera dreht mit",
+      "extra_markers": null,
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "neu",
+        "korrektur": "hip_like (27462) weich, stabile Lage ≈ 27466–27468; draw_frames als Untergrenze 14 (bis ≈ 18–20) kennzeichnen"
+      },
+      "stow_s": 0.2,
+      "empty_s": 0.233,
+      "draw_s": 0.233,
+      "settle_s": null,
+      "observed_draw_segment_frames": null,
+      "time_zero_definition": null,
+      "first_new_to_ads_frames_range": null
+    },
+    {
+      "id": "D02",
+      "game": "Destiny 2",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=ZpuJ2yw_U3c",
+      "source_channel": "Hynra Can Fly",
+      "source_upload_date": "20220629",
+      "source_title": "\"why are you using a bow with a sniper?\"",
+      "source_offset_s": 0,
+      "native_rate": "60/1",
+      "event_kind": "weapon_pair_from_ads",
+      "stow_frames": null,
+      "empty_frames": 5,
+      "draw_frames": 6,
+      "settle_frames": null,
+      "entry_direction": "unten rechts, Pfeil/Bogenkante zuerst",
+      "into_ads": false,
+      "notes": "Scope-Ausgang und Wegstecken bilden eine durchgehende Kurve ohne trennbaren Hüfthalt, daher reines stow null; kombinierter ADS-aus→blank Weg dauert 9 Intervalle. Nach sechs Intervallen liegt der Bogen quer hüftähnlich; danach geht er direkt in die senkrechte Visier-/Spannhaltung. Kein isoliertes Nachfedern bis Ruhe. Erste silberne Bogenkante f 592 am unteren Rand; die Sehnenhand/Pfeilspitze f 593 sind ein späterer Marker. Handling, Perks und FOV unbekannt; Einzelfall dieser Waffe. Rotation sichtbar, aber keine verlässlich verfolgte identische gerade Kante über die Eintrittsphase, daher Winkel null. Ruhige Pose ist keine Feuerfreigabe.",
+      "subject": "Scharfschützengewehr (violett/blau, Name offen) → Bogen (Name offen)",
+      "weapon": "Scharfschützengewehr (violett/blau, Name offen) → Bogen (Name offen)",
+      "class": "Scharfschützengewehr → Bogen",
+      "window_s": [
+        9.633333,
+        9.966667
+      ],
+      "timestamp": "9.633–9.967 s",
+      "markers": {
+        "stow_start": null,
+        "last_old": {
+          "frame": 586,
+          "t_s": 9.767
+        },
+        "first_empty": {
+          "frame": 587,
+          "t_s": 9.783
+        },
+        "last_empty": {
+          "frame": 591,
+          "t_s": 9.85
+        },
+        "first_new": {
+          "frame": 592,
+          "t_s": 9.867
+        },
+        "hip": {
+          "frame": 598,
+          "t_s": 9.967
+        },
+        "settled": null,
+        "ads": null
+      },
+      "empty_frames_range": null,
+      "draw_frames_range": null,
+      "stow_frames_range": null,
+      "settle_frames_range": null,
+      "tempo_note": null,
+      "uncertainty": "Bildmarker ±1 Bild, Differenzen ±2 Bilder; hüftähnlich = erste Passage (weich, ±3 pp)",
+      "first_new_to_ads_frames": null,
+      "hold_pose": "Spannhaltung (Bogen) statt ADS",
+      "extra_markers": {
+        "ads_exit_first_motion": {
+          "frame": 578,
+          "t_s": 9.633
+        }
+      },
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "neu",
+        "korrektur": "into_ads auf false (Spannhaltung) vereinheitlicht; hip 598 nicht als Ziehzeit bis Hüfte"
+      },
+      "stow_s": null,
+      "empty_s": 0.083,
+      "draw_s": 0.1,
+      "settle_s": null,
+      "hip_stable_frame_range": null,
+      "draw_frames_note": null,
+      "observed_draw_segment_frames": null,
+      "time_zero_definition": null,
+      "first_new_to_ads_frames_range": null
+    },
+    {
+      "id": "D03",
+      "game": "Destiny 2",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=ZpuJ2yw_U3c",
+      "source_channel": "Hynra Can Fly",
+      "source_upload_date": "20220629",
+      "source_title": "\"why are you using a bow with a sniper?\"",
+      "source_offset_s": 0,
+      "native_rate": "60/1",
+      "event_kind": "weapon_pair_into_reload",
+      "stow_frames": 5,
+      "empty_frames": 6,
+      "draw_frames": null,
+      "settle_frames": null,
+      "entry_direction": "unten rechts, Gehäusekante zuerst",
+      "into_ads": false,
+      "notes": "Nach dem Bogenschuss wird der Riser schräg nach rechts unten geführt; f 831 zeigt die letzte Spitze. Kleine blaue Gehäusekante des Scharfschützen f 838, Optik erst später. Unmittelbar anschließende Magazin-/Reloadbewegung verhindert reine Ziehzeit bis Hüfte oder Ruhe. Keine Thema 3-Dauer abgeleitet. Handling, Perks und FOV unbekannt; Einzelfall dieser Waffe. Rotation sichtbar, aber keine verlässlich verfolgte identische gerade Kante über die Eintrittsphase, daher Winkel null. Ruhige Pose ist keine Feuerfreigabe.",
+      "subject": "Bogen (Name offen) → Scharfschützengewehr (violett/blau, Name offen)",
+      "weapon": "Bogen (Name offen) → Scharfschützengewehr (violett/blau, Name offen)",
+      "class": "Bogen → Scharfschützengewehr",
+      "window_s": [
+        13.783333,
+        13.966667
+      ],
+      "timestamp": "13.783–13.967 s",
+      "markers": {
+        "stow_start": {
+          "frame": 827,
+          "t_s": 13.783
+        },
+        "last_old": {
+          "frame": 831,
+          "t_s": 13.85
+        },
+        "first_empty": {
+          "frame": 832,
+          "t_s": 13.867
+        },
+        "last_empty": {
+          "frame": 837,
+          "t_s": 13.95
+        },
+        "first_new": {
+          "frame": 838,
+          "t_s": 13.967
+        },
+        "hip": null,
+        "settled": null,
+        "ads": null
+      },
+      "empty_frames_range": null,
+      "draw_frames_range": null,
+      "stow_frames_range": null,
+      "settle_frames_range": null,
+      "tempo_note": null,
+      "uncertainty": "Bildmarker ±1 Bild, Differenzen ±2 Bilder; hüftähnlich = erste Passage (weich, ±3 pp)",
+      "first_new_to_ads_frames": null,
+      "extra_markers": null,
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "ergänzt z-rl-rq01 (Hynra, Beginn des Nachladens)",
+        "korrektur": "keine"
+      },
+      "stow_s": 0.083,
+      "empty_s": 0.1,
+      "draw_s": null,
+      "settle_s": null,
+      "hip_stable_frame_range": null,
+      "draw_frames_note": null,
+      "observed_draw_segment_frames": null,
+      "time_zero_definition": null,
+      "first_new_to_ads_frames_range": null
+    },
+    {
+      "id": "D04",
+      "game": "Destiny 2",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=ZpuJ2yw_U3c",
+      "source_channel": "Hynra Can Fly",
+      "source_upload_date": "20220629",
+      "source_title": "\"why are you using a bow with a sniper?\"",
+      "source_offset_s": 0,
+      "native_rate": "60/1",
+      "event_kind": "weapon_pair_from_ads",
+      "stow_frames": null,
+      "empty_frames": 4,
+      "draw_frames": 8,
+      "settle_frames": 12,
+      "entry_direction": "unten rechts, schmale silberne Kante/Pfeil zuerst",
+      "into_ads": false,
+      "notes": "Scope aus und Senken sind nicht als reine Wegsteckphase trennbar. Bogen tritt von unten rechts ein; Pfeilhand steigt hoch, Riser rollt in eine fast waagerechte tiefe Hüftform. Erste Hüftpassage f 1269, gerichtetes Nachpendeln bis ungefähr f 1281; tiefe Form wird danach gehalten. Späteres Anlegen ist eigener Folgeablauf, kein direkter Draw ins ADS. Posemarker weich±3 Bilder. Handling, Perks und FOV unbekannt; Einzelfall dieser Waffe. Rotation sichtbar, aber keine verlässlich verfolgte identische gerade Kante über die Eintrittsphase, daher Winkel null. Ruhige Pose ist keine Feuerfreigabe.",
+      "subject": "Scharfschützengewehr (violett/blau, Name offen) → Bogen (Name offen)",
+      "weapon": "Scharfschützengewehr (violett/blau, Name offen) → Bogen (Name offen)",
+      "class": "Scharfschützengewehr → Bogen",
+      "window_s": [
+        20.933333,
+        21.35
+      ],
+      "timestamp": "20.933–21.350 s",
+      "markers": {
+        "stow_start": null,
+        "last_old": {
+          "frame": 1256,
+          "t_s": 20.933
+        },
+        "first_empty": {
+          "frame": 1257,
+          "t_s": 20.95
+        },
+        "last_empty": {
+          "frame": 1260,
+          "t_s": 21.0
+        },
+        "first_new": {
+          "frame": 1261,
+          "t_s": 21.017
+        },
+        "hip": {
+          "frame": 1269,
+          "t_s": 21.15
+        },
+        "settled": {
+          "frame": 1281,
+          "t_s": 21.35
+        },
+        "ads": null
+      },
+      "empty_frames_range": null,
+      "draw_frames_range": null,
+      "stow_frames_range": null,
+      "settle_frames_range": null,
+      "tempo_note": null,
+      "uncertainty": "Bildmarker ±1 Bild, Differenzen ±2 Bilder; hüftähnlich = erste Passage (weich, ±3 pp)",
+      "first_new_to_ads_frames": null,
+      "hip_stable_frame_range": [
+        1275,
+        1278
+      ],
+      "draw_frames_note": "8 Bilder = erste Passage; Bogen schwingt bis ≈ f1275 um bis zu ≈ 9 pp aus, stabil ≈ f1278 (≈ 17 Bilder)",
+      "extra_markers": null,
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "neu",
+        "korrektur": "draw_frames 8 = erste Hüftpassage; stabile Lage ≈ 1278 (≈ 17 Bilder), Auslenkung bis ≈ 9 pp"
+      },
+      "stow_s": null,
+      "empty_s": 0.067,
+      "draw_s": 0.133,
+      "settle_s": 0.2,
+      "observed_draw_segment_frames": null,
+      "time_zero_definition": null,
+      "first_new_to_ads_frames_range": null
+    },
+    {
+      "id": "D05",
+      "game": "Destiny 2",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=73lGCT7yOtk",
+      "source_channel": "Ultraclocked",
+      "source_upload_date": "20200125",
+      "source_title": "Destiny 2 - All EDZ Legendary Weapons - Animations & Sounds w/ Slow-Motion | Häkke Weapons",
+      "source_offset_s": 0,
+      "native_rate": "60/1",
+      "event_kind": "draw_after_menu_cut",
+      "stow_frames": null,
+      "empty_frames": null,
+      "draw_frames": 16,
+      "settle_frames": 19,
+      "entry_direction": "unten rechts, vorderes Gehäuse zuerst",
+      "into_ads": false,
+      "notes": "Nach Menüschnitt mindestens ein klar waffenfreies Weltbild vor dem ersten Gehäuseteil: vollständiger sichtbarer Hochweg, aber kein belegter Paarwechsel. Gehäuse steigt über die spätere Lage hinaus und schwingt nach unten sowie zurück. Getrackter Gehäusepunkt um f 321–334 rund 8 Prozentpunkte vertikal Spitze zu Spitze; kein 3D-Winkel. NCC beim gültigen Track ab f 321 mindestens 0.873; erster Eintritt nicht per Template extrapoliert. Handling, Perks und FOV unbekannt; Einzelfall dieser Waffe. Rotation sichtbar, aber keine verlässlich verfolgte identische gerade Kante über die Eintrittsphase, daher Winkel null. Ruhige Pose ist keine Feuerfreigabe.",
+      "pose_definition": "hip_like: charakteristischer Gehäusepunkt erstmals ungefähr innerhalb±3 pp der späteren Hüftlage bei gültigemNCC und passender Form. calm: gerichtetes Gegenpendeln beendet; Punkt ungefähr innerhalb 0.5 pp der späteren Lage und nachfolgende Kontrollbilder ähnlich. Idle-Sway erlaubt; weiche Marke±2–3 Bilder.",
+      "subject": "Bad News",
+      "weapon": "Bad News",
+      "class": "Handfeuerwaffe",
+      "window_s": [
+        5.116667,
+        5.716667
+      ],
+      "timestamp": "5.117–5.717 s",
+      "markers": {
+        "stow_start": null,
+        "last_old": null,
+        "first_empty": null,
+        "last_empty": {
+          "frame": 307,
+          "t_s": 5.117
+        },
+        "first_new": {
+          "frame": 308,
+          "t_s": 5.133
+        },
+        "hip": {
+          "frame": 324,
+          "t_s": 5.4
+        },
+        "settled": {
+          "frame": 343,
+          "t_s": 5.717
+        },
+        "ads": null
+      },
+      "empty_frames_range": null,
+      "draw_frames_range": null,
+      "stow_frames_range": null,
+      "settle_frames_range": null,
+      "tempo_note": null,
+      "uncertainty": "Bildmarker ±1 Bild, Differenzen ±2 Bilder; hüftähnlich = erste Passage (weich, ±3 pp)",
+      "first_new_to_ads_frames": null,
+      "extra_markers": null,
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "ergänzt Zeile z-hl-73lgct7yotk (Bad News, Hüftlage)",
+        "korrektur": "Ziehen nach Menüschnitt, kein Waffenwechsel"
+      },
+      "stow_s": null,
+      "empty_s": null,
+      "draw_s": 0.267,
+      "settle_s": 0.317,
+      "hip_stable_frame_range": null,
+      "draw_frames_note": null,
+      "observed_draw_segment_frames": null,
+      "time_zero_definition": null,
+      "first_new_to_ads_frames_range": null
+    },
+    {
+      "id": "D06",
+      "game": "Destiny 2",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=73lGCT7yOtk",
+      "source_channel": "Ultraclocked",
+      "source_upload_date": "20200125",
+      "source_title": "Destiny 2 - All EDZ Legendary Weapons - Animations & Sounds w/ Slow-Motion | Häkke Weapons",
+      "source_offset_s": 0,
+      "native_rate": "60/1",
+      "event_kind": "draw_after_menu_cut",
+      "stow_frames": null,
+      "empty_frames": null,
+      "draw_frames": 12,
+      "settle_frames": 16,
+      "entry_direction": "unten rechts, Laufende/Gehäuse zuerst",
+      "into_ads": false,
+      "notes": "Vollständiger sichtbarer Hochweg aus vorher waffenfreier Welt nach Menüschnitt; kein belegter Paarwechsel. Kleine Pistole schwingt erst über die Hüftlage, dann unter diese und kehrt zurück. Gültige NCC-Verfolgung ab f 24798 mindestens 0.850; nicht gültige frühe Treffer verworfen. Ruhemarker liegt innerhalb 0.5 Prozentpunkten der späteren Gehäuselage; weicher Marker±2 Bilder. Handling, Perks und FOV unbekannt; Einzelfall dieser Waffe. Rotation sichtbar, aber keine verlässlich verfolgte identische gerade Kante über die Eintrittsphase, daher Winkel null. Ruhige Pose ist keine Feuerfreigabe.",
+      "pose_definition": "hip_like: charakteristischer Gehäusepunkt erstmals ungefähr innerhalb±3 pp der späteren Hüftlage bei gültigemNCC und passender Form. calm: gerichtetes Gegenpendeln beendet; Punkt ungefähr innerhalb 0.5 pp der späteren Lage und nachfolgende Kontrollbilder ähnlich. Idle-Sway erlaubt; weiche Marke±2–3 Bilder.",
+      "subject": "Minimum Distance",
+      "weapon": "Minimum Distance",
+      "class": "Sidearm",
+      "window_s": [
+        413.133333,
+        413.616667
+      ],
+      "timestamp": "413.133–413.617 s",
+      "markers": {
+        "stow_start": null,
+        "last_old": null,
+        "first_empty": null,
+        "last_empty": {
+          "frame": 24788,
+          "t_s": 413.133
+        },
+        "first_new": {
+          "frame": 24789,
+          "t_s": 413.15
+        },
+        "hip": {
+          "frame": 24801,
+          "t_s": 413.35
+        },
+        "settled": {
+          "frame": 24817,
+          "t_s": 413.617
+        },
+        "ads": null
+      },
+      "empty_frames_range": null,
+      "draw_frames_range": null,
+      "stow_frames_range": null,
+      "settle_frames_range": null,
+      "tempo_note": null,
+      "uncertainty": "Bildmarker ±1 Bild, Differenzen ±2 Bilder; hüftähnlich = erste Passage (weich, ±3 pp)",
+      "first_new_to_ads_frames": null,
+      "extra_markers": null,
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "ergänzt Zeile z-hl-73lgct7yotk (Minimum Distance, Hüftlage)",
+        "korrektur": "Ziehen nach Menüschnitt; first_new ±1 (24788)"
+      },
+      "stow_s": null,
+      "empty_s": null,
+      "draw_s": 0.2,
+      "settle_s": 0.267,
+      "hip_stable_frame_range": null,
+      "draw_frames_note": null,
+      "observed_draw_segment_frames": null,
+      "time_zero_definition": null,
+      "first_new_to_ads_frames_range": null
+    },
+    {
+      "id": "D07",
+      "game": "Destiny 2",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=73lGCT7yOtk",
+      "source_channel": "Ultraclocked",
+      "source_upload_date": "20200125",
+      "source_title": "Destiny 2 - All EDZ Legendary Weapons - Animations & Sounds w/ Slow-Motion | Häkke Weapons",
+      "source_offset_s": 0,
+      "native_rate": "60/1",
+      "event_kind": "draw_after_menu_cut",
+      "stow_frames": null,
+      "empty_frames": null,
+      "draw_frames": 7,
+      "settle_frames": 23,
+      "entry_direction": "unten rechts, Ringkorn zuerst",
+      "into_ads": false,
+      "notes": "Vollständiger sichtbarer Hochweg mit wenigstens einem unmittelbar vorher waffenfreien Bild; kein Paarwechsel aus dem Menüschnitt. Ring tritt unten ein, Gehäuse erreicht die Hüftzone rasch und schwingt deutlich hoch/tief nach. Gun-Track ab f 30223 NCC mindestens 0.886. Früherer Probe-Track an einer Hintergrundregion ist ausdrücklich verworfen; nur scathe-track-gun.csv verwendet. Handling, Perks und FOV unbekannt; Einzelfall dieser Waffe. Rotation sichtbar, aber keine verlässlich verfolgte identische gerade Kante über die Eintrittsphase, daher Winkel null. Ruhige Pose ist keine Feuerfreigabe.",
+      "pose_definition": "hip_like: charakteristischer Gehäusepunkt erstmals ungefähr innerhalb±3 pp der späteren Hüftlage bei gültigemNCC und passender Form. calm: gerichtetes Gegenpendeln beendet; Punkt ungefähr innerhalb 0.5 pp der späteren Lage und nachfolgende Kontrollbilder ähnlich. Idle-Sway erlaubt; weiche Marke±2–3 Bilder.",
+      "subject": "Scathelocke",
+      "weapon": "Scathelocke",
+      "class": "Automatikgewehr",
+      "window_s": [
+        503.6,
+        504.116667
+      ],
+      "timestamp": "503.600–504.117 s",
+      "markers": {
+        "stow_start": null,
+        "last_old": null,
+        "first_empty": null,
+        "last_empty": {
+          "frame": 30216,
+          "t_s": 503.6
+        },
+        "first_new": {
+          "frame": 30217,
+          "t_s": 503.617
+        },
+        "hip": {
+          "frame": 30224,
+          "t_s": 503.733
+        },
+        "settled": {
+          "frame": 30247,
+          "t_s": 504.117
+        },
+        "ads": null
+      },
+      "empty_frames_range": null,
+      "draw_frames_range": null,
+      "stow_frames_range": null,
+      "settle_frames_range": null,
+      "tempo_note": null,
+      "uncertainty": "Bildmarker ±1 Bild, Differenzen ±2 Bilder; hüftähnlich = erste Passage (weich, ±3 pp)",
+      "first_new_to_ads_frames": null,
+      "extra_markers": null,
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "ergänzt Zeile z-hl-73lgct7yotk (Scathelocke, Hüftlage)",
+        "korrektur": "Ziehen nach Menüschnitt"
+      },
+      "stow_s": null,
+      "empty_s": null,
+      "draw_s": 0.117,
+      "settle_s": 0.383,
+      "hip_stable_frame_range": null,
+      "draw_frames_note": null,
+      "observed_draw_segment_frames": null,
+      "time_zero_definition": null,
+      "first_new_to_ads_frames_range": null
+    },
+    {
+      "id": "H01",
+      "game": "Destiny 2",
+      "status": "M",
+      "source_url": "https://twitch.tv/saltagreppo/clip/NiceAuspiciousScorpionDatSheffy-ALH4TQ8yBKxiEOH5",
+      "stow_frames": null,
+      "empty_frames": 11,
+      "draw_frames": null,
+      "settle_frames": null,
+      "entry_direction": "von rechts unten; nahe große Optik zieht zur Mitte",
+      "into_ads": true,
+      "event_kind": "weapon_switch",
+      "first_new_to_ads_frames": 17,
+      "notes": "Wegsteckbeginn nicht isolierbar: unmittelbar zuvor läuft Rückkehr aus Nachladen. Keine ruhige Hüfte: direkte ADS-Führung. Eine Quelle/ein Waffenpaar; keine Klassenmittel. Facecam verdeckt rechts mittig einen Teil der Modellbahn; Marker beziehen sich ausschließlich auf die sichtbare Geometrie, keine Aussage zur Geometrie hinter der Facecam. Korrektur 0.26: leer f78–88 (≈ 10–11 Bilder), letztes altes Bild f77.",
+      "source_channel": "Saltagreppo",
+      "source_upload_date": "20220306",
+      "source_title": "World's First Vow of The Disciple",
+      "native_rate": "≈ 59,98/1 (Twitch-Clip)",
+      "source_offset_s": 0,
+      "subject": "Gewehr mit Honed-Edge-Anzeige → Raketenwerfer mit Häkke-Glas (Modellname offen)",
+      "weapon": "Gewehr mit Honed-Edge-Anzeige → Raketenwerfer mit Häkke-Glas (Modellname offen)",
+      "class": "Raketenwerfer",
+      "window_s": [
+        1.284,
+        1.767
+      ],
+      "timestamp": "1.284–1.767 s",
+      "markers": {
+        "stow_start": null,
+        "last_old": {
+          "frame": 77,
+          "t_s": 1.284
+        },
+        "first_empty": {
+          "frame": 78,
+          "t_s": 1.3
+        },
+        "last_empty": {
+          "frame": 88,
+          "t_s": 1.467
+        },
+        "first_new": {
+          "frame": 89,
+          "t_s": 1.484,
+          "frame_range": [
+            88,
+            89
+          ]
+        },
+        "hip": null,
+        "settled": null,
+        "ads": {
+          "frame": 106,
+          "t_s": 1.767
+        }
+      },
+      "empty_frames_range": [
+        10,
+        11
+      ],
+      "draw_frames_range": null,
+      "stow_frames_range": null,
+      "settle_frames_range": null,
+      "tempo_note": null,
+      "uncertainty": "Bildmarker ±1 Bild, Differenzen ±2 Bilder; hüftähnlich = erste Passage (weich, ±3 pp)",
+      "first_new_to_ads_frames_range": [
+        17,
+        18
+      ],
+      "extra_markers": null,
+      "audit": {
+        "decision": "korrigiert",
+        "bestand": "korrigiert Zeile „Raketenwerfer im PvE: Ziehen direkt in ADS“ (Saltagreppo, 06.03.2022)",
+        "korrektur": "last_old 73→77, first_blank 74→78, last_blank 85→88, first_new 86→89 (1,483 s), empty_frames 12→11 (±2), first_new_to_ads 20→17; Notiz „Leere f 74–85“ streichen"
+      },
+      "stow_s": null,
+      "empty_s": 0.183,
+      "draw_s": null,
+      "settle_s": null,
+      "hip_stable_frame_range": null,
+      "draw_frames_note": null,
+      "observed_draw_segment_frames": null,
+      "time_zero_definition": null
+    },
+    {
+      "id": "H02",
+      "game": "Destiny 2",
+      "status": "M",
+      "source_url": "https://twitch.tv/saltagreppo/clip/NiceAuspiciousScorpionDatSheffy-ALH4TQ8yBKxiEOH5",
+      "stow_frames": 16,
+      "empty_frames": 18,
+      "draw_frames": null,
+      "settle_frames": null,
+      "entry_direction": "neues Gewehr von unten leicht rechts, dann zur Mitte",
+      "into_ads": true,
+      "event_kind": "weapon_switch",
+      "first_new_to_ads_frames": 31,
+      "notes": "Stow umfasst den ununterbrochenen kombinierten ADS-aus/Wegsteckweg; keine isolierte Hüft-Stowzeit. Bestandsmarker ganz weg 2.334 wird durch natives Vollbild f 137 PTS2.283984 präzisiert; f 136 zeigt noch deutlich das alte Modell. Direkte Scope-Führung, kein Hüft- oder Ruhewert.",
+      "source_channel": "Saltagreppo",
+      "source_upload_date": "20220306",
+      "source_title": "World's First Vow of The Disciple",
+      "native_rate": "≈ 59,98/1 (Twitch-Clip)",
+      "source_offset_s": 0,
+      "subject": "Raketenwerfer mit Häkke-Glas → Gewehr mit Honed-Edge-Anzeige",
+      "weapon": "Raketenwerfer mit Häkke-Glas → Gewehr mit Honed-Edge-Anzeige",
+      "class": "Raketenwerfer → Gewehr mit Optik",
+      "window_s": [
+        2.016992,
+        3.100977
+      ],
+      "timestamp": "2.017–3.101 s",
+      "markers": {
+        "stow_start": {
+          "frame": 121,
+          "t_s": 2.017
+        },
+        "last_old": {
+          "frame": 136,
+          "t_s": 2.267
+        },
+        "first_empty": {
+          "frame": 137,
+          "t_s": 2.284
+        },
+        "last_empty": {
+          "frame": 154,
+          "t_s": 2.567
+        },
+        "first_new": {
+          "frame": 155,
+          "t_s": 2.584
+        },
+        "hip": null,
+        "settled": null,
+        "ads": {
+          "frame": 186,
+          "t_s": 3.101
+        }
+      },
+      "empty_frames_range": null,
+      "draw_frames_range": null,
+      "stow_frames_range": null,
+      "settle_frames_range": null,
+      "tempo_note": null,
+      "uncertainty": "Bildmarker ±1 Bild, Differenzen ±2 Bilder; hüftähnlich = erste Passage (weich, ±3 pp)",
+      "extra_markers": null,
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "korrigiert Bestandswert „Waffe ganz weg 2,334 s“ → 2,284 s (f137)",
+        "korrektur": "Bestandswert 2,334 → 2,284 (f137), erstes neues Bild f155 (2,584)"
+      },
+      "stow_s": 0.267,
+      "empty_s": 0.3,
+      "draw_s": null,
+      "settle_s": null,
+      "hip_stable_frame_range": null,
+      "draw_frames_note": null,
+      "observed_draw_segment_frames": null,
+      "time_zero_definition": null,
+      "first_new_to_ads_frames_range": null
+    },
+    {
+      "id": "H03",
+      "game": "Destiny 2",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=DEM-8xg66R8",
+      "stow_frames": null,
+      "empty_frames": null,
+      "draw_frames": 18,
+      "settle_frames": 37,
+      "entry_direction": "von unten rechts, großer Körper steigt und schwenkt ein",
+      "into_ads": false,
+      "event_kind": "draw_after_menu_cut",
+      "notes": "Vollständiges Ziehen nach Schnitt ins Weltbild. Kein belegter Waffenwechsel: stow/empty bleiben null. Hüftähnlich=erste Passage der späteren Hüftzone, nicht Ende des Überschwingens; Optik sinkt danach noch einmal rund 55 px und kehrt zurück. Ruhig=Ende des dominanten Ziehtransienten, Idle bleibt.",
+      "source_channel": "Ultraclocked",
+      "source_upload_date": "20210514",
+      "source_title": "Destiny 2 - Shattered Cipher (Legendary Machine Gun) - Animations & Sounds",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "subject": "Shattered Cipher",
+      "weapon": "Shattered Cipher",
+      "class": "Maschinengewehr",
+      "window_s": [
+        2.283,
+        3.2
+      ],
+      "timestamp": "2.283–3.200 s",
+      "markers": {
+        "stow_start": null,
+        "last_old": null,
+        "first_empty": null,
+        "last_empty": {
+          "frame": 136,
+          "t_s": 2.267
+        },
+        "first_new": {
+          "frame": 137,
+          "t_s": 2.283
+        },
+        "hip": {
+          "frame": 155,
+          "t_s": 2.583
+        },
+        "settled": {
+          "frame": 192,
+          "t_s": 3.2
+        },
+        "ads": null
+      },
+      "empty_frames_range": null,
+      "draw_frames_range": null,
+      "stow_frames_range": null,
+      "settle_frames_range": null,
+      "tempo_note": null,
+      "uncertainty": "Bildmarker ±1 Bild, Differenzen ±2 Bilder; hüftähnlich = erste Passage (weich, ±3 pp)",
+      "first_new_to_ads_frames": null,
+      "extra_markers": {
+        "menu_last": {
+          "frame": 134,
+          "t_s": 2.233
+        },
+        "world_first": {
+          "frame": 135,
+          "t_s": 2.25
+        }
+      },
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "neu (Quelle im Bestand für Nachladen/Mündung)",
+        "korrektur": "draw_frames 18 = erste Passage, Überschwingen danach (≈55 px); Ziehen nach Menüschnitt"
+      },
+      "stow_s": null,
+      "empty_s": null,
+      "draw_s": 0.3,
+      "settle_s": 0.617,
+      "hip_stable_frame_range": null,
+      "draw_frames_note": null,
+      "observed_draw_segment_frames": null,
+      "time_zero_definition": null,
+      "first_new_to_ads_frames_range": null
+    },
+    {
+      "id": "H04",
+      "game": "Destiny 2",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=uoTaCBMXcFk",
+      "stow_frames": null,
+      "empty_frames": null,
+      "draw_frames": 24,
+      "settle_frames": 23,
+      "entry_direction": "von unten rechts, zunächst stark gekanteter Körper rollt in die Hüfte",
+      "into_ads": false,
+      "event_kind": "draw_after_menu_cut",
+      "notes": "Vollständiges Ziehen nach Menüschnitt; stow/empty null. Hüftähnlich als erste räumliche Annäherung an spätere Hüftpose; Körper dreht und federt danach weiter. Grenzmarken weich±2–3 Bilder. NCC für die Bronzeform ist während der Rotation unzuverlässig; gesamte Folge deshalb zusätzlich angesehen.",
+      "source_channel": "Ultraclocked",
+      "source_upload_date": "20210220",
+      "source_title": "Destiny 2 - Threaded Needle (Legendary Linear Fusion Rifle) - Weapon Animations & Sounds",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "subject": "Threaded Needle",
+      "weapon": "Threaded Needle",
+      "class": "Lineares Fusionsgewehr",
+      "window_s": [
+        3.017,
+        3.8
+      ],
+      "timestamp": "3.017–3.800 s",
+      "markers": {
+        "stow_start": null,
+        "last_old": null,
+        "first_empty": null,
+        "last_empty": {
+          "frame": 180,
+          "t_s": 3.0
+        },
+        "first_new": {
+          "frame": 181,
+          "t_s": 3.017
+        },
+        "hip": {
+          "frame": 205,
+          "t_s": 3.417
+        },
+        "settled": {
+          "frame": 228,
+          "t_s": 3.8
+        },
+        "ads": null
+      },
+      "empty_frames_range": null,
+      "draw_frames_range": null,
+      "stow_frames_range": null,
+      "settle_frames_range": null,
+      "tempo_note": null,
+      "uncertainty": "Bildmarker ±1 Bild, Differenzen ±2 Bilder; hüftähnlich = erste Passage (weich, ±3 pp)",
+      "first_new_to_ads_frames": null,
+      "draw_frames_note": "erste Passage f205; bei f213 noch ≈ 10 pp daneben",
+      "extra_markers": {
+        "menu_last": {
+          "frame": 179,
+          "t_s": 2.983
+        },
+        "world_first": {
+          "frame": 180,
+          "t_s": 3.0
+        }
+      },
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "neu",
+        "korrektur": "hip_like 205 = erste Passage, bei 213 ≈10 pp daneben; draw_frames als Untergrenze"
+      },
+      "stow_s": null,
+      "empty_s": null,
+      "draw_s": 0.4,
+      "settle_s": 0.383,
+      "hip_stable_frame_range": null,
+      "observed_draw_segment_frames": null,
+      "time_zero_definition": null,
+      "first_new_to_ads_frames_range": null
+    },
+    {
+      "id": "H05",
+      "game": "Destiny 2",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=L3UXaiGBtVc",
+      "stow_frames": null,
+      "empty_frames": null,
+      "draw_frames": 21,
+      "settle_frames": 28,
+      "entry_direction": "von unten, leicht rechts; Vordergriff/Visier steigen zuerst",
+      "into_ads": false,
+      "event_kind": "draw_after_menu_cut",
+      "notes": "Exotic mit Trommel; kein legendärer GL-Klassenwert. Durchgehend blanke Welt vor erster sichtbarer Modellspitze; Schnitt ist kein Wechsel und seine Leerstrecke wird nicht als empty_frames gemessen. Nach erster Hüftannäherung leichtes Gegenpendeln und Abklingen, kein Schuss als Ruhemarke.",
+      "source_channel": "Ultraclocked",
+      "source_upload_date": "20210312",
+      "source_title": "Destiny 2 - The Prospector - Animations, Sounds & Effects (Exotic Grenade Launcher)",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "subject": "The Prospector",
+      "weapon": "The Prospector",
+      "class": "Schwerer Granatwerfer",
+      "window_s": [
+        3.133,
+        3.95
+      ],
+      "timestamp": "3.133–3.950 s",
+      "markers": {
+        "stow_start": null,
+        "last_old": null,
+        "first_empty": null,
+        "last_empty": {
+          "frame": 187,
+          "t_s": 3.117
+        },
+        "first_new": {
+          "frame": 188,
+          "t_s": 3.133
+        },
+        "hip": {
+          "frame": 209,
+          "t_s": 3.483
+        },
+        "settled": {
+          "frame": 237,
+          "t_s": 3.95
+        },
+        "ads": null
+      },
+      "empty_frames_range": null,
+      "draw_frames_range": null,
+      "stow_frames_range": null,
+      "settle_frames_range": null,
+      "tempo_note": null,
+      "uncertainty": "Bildmarker ±1 Bild, Differenzen ±2 Bilder; hüftähnlich = erste Passage (weich, ±3 pp)",
+      "first_new_to_ads_frames": null,
+      "extra_markers": {
+        "menu_last": {
+          "frame": 179,
+          "t_s": 2.983
+        },
+        "world_first": {
+          "frame": 180,
+          "t_s": 3.0
+        }
+      },
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "neu (schließt Matrixlücke „Granatwerfer schwer“)",
+        "korrektur": "Ziehen nach Menüschnitt, Exotic mit Trommel"
+      },
+      "stow_s": null,
+      "empty_s": null,
+      "draw_s": 0.35,
+      "settle_s": 0.467,
+      "hip_stable_frame_range": null,
+      "draw_frames_note": null,
+      "observed_draw_segment_frames": null,
+      "time_zero_definition": null,
+      "first_new_to_ads_frames_range": null
+    },
+    {
+      "id": "H06",
+      "game": "Destiny 2",
+      "status": "O",
+      "source_url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+      "stow_frames": null,
+      "empty_frames": null,
+      "draw_frames": null,
+      "settle_frames": null,
+      "entry_direction": null,
+      "into_ads": null,
+      "event_kind": "perspective_transition_after_menu_cut",
+      "notes": "Ego-Waffenwerte n.a.: alle sieben angefragten Ego-Felder null. Zwei leere Weltbilder nach Menüschnitt bis Figur sind keine Wechselpause. Gemessen wird nur der vollständige sichtbare Rückzug der Kamera ab erstem Figurenbild bis nahezu konstanter Schulterdistanz. Rückweg in Ego nicht vorhanden; kein tatsächlicher Waffenwechsel belegt. Tempofreigabe fehlt:24 nur Quellbilder, keine belastbare Spielzeit.",
+      "source_channel": "Ultraclocked",
+      "source_upload_date": "20200214",
+      "source_title": "Destiny 2 - All Titan Legendary Weapons - Animations & Sounds w/ Slow-Motion | SUROS Weapons",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "subject": "Negative Space",
+      "weapon": "Negative Space",
+      "class": "Schwert (dritte Person)",
+      "window_s": [
+        259.416667,
+        259.85
+      ],
+      "timestamp": "259.417–259.850 s",
+      "markers": {
+        "stow_start": null,
+        "last_old": null,
+        "first_empty": null,
+        "last_empty": null,
+        "first_new": null,
+        "hip": null,
+        "settled": null,
+        "ads": null
+      },
+      "empty_frames_range": null,
+      "draw_frames_range": null,
+      "stow_frames_range": null,
+      "settle_frames_range": null,
+      "tempo_note": null,
+      "uncertainty": "Bildmarker ±1 Bild, Differenzen ±2 Bilder; hüftähnlich = erste Passage (weich, ±3 pp)",
+      "first_new_to_ads_frames": null,
+      "ego_values": null,
+      "extra_markers": {
+        "menu_last": {
+          "frame": 15564,
+          "t_s": 259.4
+        },
+        "world_first": {
+          "frame": 15565,
+          "t_s": 259.417
+        },
+        "last_world_without_character": {
+          "frame": 15566,
+          "t_s": 259.433
+        },
+        "first_character": {
+          "frame": 15567,
+          "t_s": 259.45
+        },
+        "shoulder_distance": {
+          "frame": 15591,
+          "t_s": 259.85
+        }
+      },
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "neu (Negativbefund)",
+        "korrektur": "nur als [O]-Negativbefund (Dritte Person, 24 Medienbilder, kein Ego-Wert)"
+      },
+      "stow_s": null,
+      "empty_s": null,
+      "draw_s": null,
+      "settle_s": null,
+      "hip_stable_frame_range": null,
+      "draw_frames_note": null,
+      "observed_draw_segment_frames": null,
+      "time_zero_definition": null,
+      "first_new_to_ads_frames_range": null
+    },
+    {
+      "game": "Destiny 2",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=vaUe2AY2-EE",
+      "source_channel": "mell0wtonin",
+      "source_upload_date": "20220718",
+      "source_title": "Reload Animation Cancelling | Destiny 2 Beginner Tips",
+      "native_rate": "60/1",
+      "stow_frames": 6,
+      "empty_frames": 12,
+      "draw_frames": 4,
+      "settle_frames": null,
+      "entry_direction": "von unten rechts; altes Modell sinkt unten rechts aus dem Bild",
+      "into_ads": false,
+      "notes": "Neue Ergänzung zum origin/main-Anker z-waffe-a-wechsel: Wegstecken und Zahl waffenfreier Bilder erstmals getrennt. f123 ist auch im Vollbild noch waffenfrei; neue Optik erst f124. 6 Intervalle = 0,100 s Wegstecken; 12 vollständig leere Bilder = 0,200 s; erste hüftähnliche Lage nach 4 Intervallen = 0,067 s, weicher Bereich 4–6 Intervalle. Kein isolierter Ruhe-Endpunkt: die unmittelbar anschließende Waffen-/Handaktion überlagert ihn. Keine Schussfreigabe und kein Reload-Abbruch behauptet. Waffennamen, Handling, Perks und FOV unbekannt. Marker ±1 Bild, Differenzen bis ±2; Rohframes und zusätzlich aufgehellter Randbeschnitt geprüft. Unabhängige Gegenprüfung und verlustfreier Originalbeschnitt native-bottom.png zeigen in f111 noch einen schmalen Modellrest; erst f112 ist leer.",
+      "source_offset_s": 0,
+      "subject": "Waffe A (15er-Magazin, Suros-Synergy-HUD) → Gewehr mit runder Optik",
+      "id": "D08",
+      "weapon": "Waffe A (15er-Magazin, Suros-Synergy-HUD) → Gewehr mit runder Optik",
+      "class": "Modelle/Klassen nicht sicher bestimmt",
+      "window_s": [
+        1.7,
+        2.2
+      ],
+      "timestamp": "1.700–2.200 s",
+      "markers": {
+        "stow_start": {
+          "frame": 106,
+          "t_s": 1.767
+        },
+        "last_old": {
+          "frame": 111,
+          "t_s": 1.85,
+          "frame_range": [
+            110,
+            111
+          ]
+        },
+        "first_empty": {
+          "frame": 112,
+          "t_s": 1.867
+        },
+        "last_empty": {
+          "frame": 123,
+          "t_s": 2.05
+        },
+        "first_new": {
+          "frame": 124,
+          "t_s": 2.067
+        },
+        "hip": {
+          "frame": 128,
+          "t_s": 2.133,
+          "frame_range": [
+            128,
+            130
+          ]
+        },
+        "settled": null,
+        "ads": null
+      },
+      "empty_frames_range": null,
+      "draw_frames_range": [
+        4,
+        6
+      ],
+      "stow_frames_range": null,
+      "settle_frames_range": null,
+      "event_kind": "complete_weapon_pair",
+      "tempo_note": "HUD-Uhr 1:59 / 2:00 / 2:01 / 2:02 bei Video 0,5 / 1,5 / 2,5 / 3,5 s; native Rate 60/1. Bilder 96–149 ohne alternierendes Doppelbildmuster; kleinste 96×54-Graustufendifferenz 0,833. Modellweg visuell in jedem Übergangsbild geprüft.",
+      "uncertainty": "Bildmarker ±1 Bild, Differenzen ±2 Bilder; hüftähnlich = erste Passage (weich, ±3 pp)",
+      "first_new_to_ads_frames": null,
+      "extra_markers": null,
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "ergänzt z-waffe-a-wechsel (Leerphase war ungeprüft)",
+        "korrektur": "Leerphase 12 Bilder (0,200 s) und Wegstecken 6 Bilder (0,100 s) eintragen; ‚Leerphase ungeprüft‘ in Bestand und V13 streichen"
+      },
+      "stow_s": 0.1,
+      "empty_s": 0.2,
+      "draw_s": 0.067,
+      "settle_s": null,
+      "hip_stable_frame_range": null,
+      "draw_frames_note": null,
+      "observed_draw_segment_frames": null,
+      "time_zero_definition": null,
+      "first_new_to_ads_frames_range": null
+    },
+    {
+      "id": "CV01",
+      "game": "Marathon (2026)",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=FEW1ZkadfM8",
+      "source_channel": "Aculite",
+      "source_upload_date": "20260301",
+      "source_title": "Thermal Sniping in Marathon",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "stow_frames": null,
+      "empty_frames": null,
+      "draw_frames": 36,
+      "settle_frames": 7,
+      "entry_direction": "unten rechts",
+      "into_ads": false,
+      "notes": "Ziehen aus zuvor leeren Händen beim Gehen; kein vorheriges Waffenmodell, deshalb Wegstecken und Wechsel-Leerphase nicht bestimmbar. Breites seitliches Auftauchen, dann Einwärtszug; Ruhe relativ zur bewegten Kamera, keine belegte Schussbereitschaft.",
+      "time_zero_definition": "Erstes neues Modell für draw; sichtbare erste Wegsteckbewegung für stow; Hüftpassage für settle. Keine Eingabe-/Bereitschaftszeit.",
+      "subject": "Gewehr A, schwarzer Körper mit gelbem Oberteil (Modell unbestätigt)",
+      "weapon": "Gewehr A, schwarzer Körper mit gelbem Oberteil (Modell unbestätigt)",
+      "class": "Gewehr",
+      "window_s": [
+        110.45,
+        111.5
+      ],
+      "timestamp": "110.450–111.500 s",
+      "markers": {
+        "stow_start": null,
+        "last_old": null,
+        "first_empty": null,
+        "last_empty": null,
+        "first_new": {
+          "frame": 6632,
+          "t_s": 110.533
+        },
+        "hip": {
+          "frame": 6668,
+          "t_s": 111.133
+        },
+        "settled": {
+          "frame": 6675,
+          "t_s": 111.25
+        },
+        "ads": null
+      },
+      "empty_frames_range": null,
+      "draw_frames_range": null,
+      "stow_frames_range": null,
+      "settle_frames_range": null,
+      "event_kind": "draw_only",
+      "tempo_note": "Im verwendeten Bewegungsabschnitt neue Inhaltsbilder pro Frame; keine erkennbare Zeitlupe. Reale Spielgeschwindigkeit bleibt aus Fremdupload nicht extern beweisbar.",
+      "uncertainty": "Bildmarker ±1 Bild, Differenzen ±2 Bilder; hüftähnlich = erste Passage (weich, ±3 pp)",
+      "first_new_to_ads_frames": null,
+      "extra_markers": null,
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "neu (erste Marathon-Wechselzeilen; dasselbe Video wie nachladen.md MV02)",
+        "korrektur": "first_new f6632 und hiplike f6668 am Bild bestaetigt (Delta 0)"
+      },
+      "stow_s": null,
+      "empty_s": null,
+      "draw_s": 0.6,
+      "settle_s": 0.117,
+      "hip_stable_frame_range": null,
+      "draw_frames_note": null,
+      "observed_draw_segment_frames": null,
+      "first_new_to_ads_frames_range": null
+    },
+    {
+      "id": "CV02",
+      "game": "Marathon (2026)",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=FEW1ZkadfM8",
+      "source_channel": "Aculite",
+      "source_upload_date": "20260301",
+      "source_title": "Thermal Sniping in Marathon",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "stow_frames": null,
+      "empty_frames": 15,
+      "draw_frames": 20,
+      "settle_frames": null,
+      "entry_direction": "unten links, anschließend nach rechts innen",
+      "into_ads": true,
+      "notes": "Alte Waffe kehrt aus einem Nachladen zurück und sinkt weiter; isolierter Wegsteckbeginn nicht trennbar. Alte Kante verschwindet zwischen f8115 und f8117, daher Leerzahl nicht als exakter Wert. Neue Waffe tritt zunächst links unten mit Optik voraus ein, erreicht nur eine kurze hüftähnliche Passage und geht unmittelbar ins ADS. Keine ruhige Hüft-Endlage. 0.26: empty_frames = bestätigte Untergrenze (15), Spanne in empty_frames_range; stow nicht bestimmbar (null).",
+      "time_zero_definition": "Erstes neues Modell für draw; sichtbare erste Wegsteckbewegung für stow; Hüftpassage für settle. Keine Eingabe-/Bereitschaftszeit.",
+      "subject": "Gewehr A → Gewehr B mit großer Thermaloptik (25 Schuss, Modelle unbestätigt)",
+      "weapon": "Gewehr A → Gewehr B mit großer Thermaloptik (25 Schuss, Modelle unbestätigt)",
+      "class": "Gewehr → Gewehr mit Thermaloptik",
+      "window_s": [
+        135.0833,
+        136.1833
+      ],
+      "timestamp": "135.083–136.183 s",
+      "markers": {
+        "stow_start": null,
+        "last_old": null,
+        "first_empty": {
+          "frame": 8117,
+          "t_s": 135.283
+        },
+        "last_empty": {
+          "frame": 8131,
+          "t_s": 135.517
+        },
+        "first_new": {
+          "frame": 8132,
+          "t_s": 135.533
+        },
+        "hip": {
+          "frame": 8152,
+          "t_s": 135.867
+        },
+        "settled": null,
+        "ads": {
+          "frame": 8155,
+          "t_s": 135.917
+        }
+      },
+      "empty_frames_range": [
+        15,
+        17
+      ],
+      "draw_frames_range": null,
+      "stow_frames_range": null,
+      "settle_frames_range": null,
+      "event_kind": "switch_into_ads",
+      "tempo_note": "Im verwendeten Bewegungsabschnitt neue Inhaltsbilder pro Frame; keine erkennbare Zeitlupe. Reale Spielgeschwindigkeit bleibt aus Fremdupload nicht extern beweisbar.",
+      "uncertainty": "Bildmarker ±1 Bild, Differenzen ±2 Bilder; hüftähnlich = erste Passage (weich, ±3 pp)",
+      "first_new_to_ads_frames": 23,
+      "extra_markers": null,
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "neu",
+        "korrektur": "0.26: empty_frames = bestätigte Untergrenze (15) mit Spanne, stow null (Beginn überlagert/zu dunkel); Bildprüfung nur Rechnung"
+      },
+      "stow_s": null,
+      "empty_s": 0.25,
+      "draw_s": 0.333,
+      "settle_s": null,
+      "hip_stable_frame_range": null,
+      "draw_frames_note": null,
+      "observed_draw_segment_frames": null,
+      "first_new_to_ads_frames_range": null
+    },
+    {
+      "id": "CV03",
+      "game": "Marathon (2026)",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=FEW1ZkadfM8",
+      "source_channel": "Aculite",
+      "source_upload_date": "20260301",
+      "source_title": "Thermal Sniping in Marathon",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "stow_frames": null,
+      "empty_frames": 19,
+      "draw_frames": 17,
+      "settle_frames": 5,
+      "entry_direction": "unten rechts",
+      "into_ads": false,
+      "notes": "Vorheriger Scope-Austritt verdeckt den isolierten Beginn des Wegsteckens; der sichtbare Modellrest sinkt unten aus dem Bild. Nach der freien Sicht tritt das schwarze Gewehr rechts unten ein, wandert hoch und federt leicht zurück. Endlage wird gegenüber fortgesetztem Gehen beurteilt.",
+      "time_zero_definition": "Erstes neues Modell für draw; sichtbare erste Wegsteckbewegung für stow; Hüftpassage für settle. Keine Eingabe-/Bereitschaftszeit.",
+      "subject": "Gewehr B mit Thermaloptik → Gewehr A (Modelle unbestätigt)",
+      "weapon": "Gewehr B mit Thermaloptik → Gewehr A (Modelle unbestätigt)",
+      "class": "Gewehr mit Thermaloptik → Gewehr",
+      "window_s": [
+        163.3833,
+        164.2833
+      ],
+      "timestamp": "163.383–164.283 s",
+      "markers": {
+        "stow_start": null,
+        "last_old": {
+          "frame": 9811,
+          "t_s": 163.517,
+          "frame_range": [
+            9809,
+            9811
+          ]
+        },
+        "first_empty": {
+          "frame": 9812,
+          "t_s": 163.533,
+          "frame_range": [
+            9810,
+            9812
+          ]
+        },
+        "last_empty": {
+          "frame": 9830,
+          "t_s": 163.833
+        },
+        "first_new": {
+          "frame": 9831,
+          "t_s": 163.85
+        },
+        "hip": {
+          "frame": 9848,
+          "t_s": 164.133
+        },
+        "settled": {
+          "frame": 9853,
+          "t_s": 164.217
+        },
+        "ads": null
+      },
+      "empty_frames_range": [
+        19,
+        21
+      ],
+      "draw_frames_range": null,
+      "stow_frames_range": null,
+      "settle_frames_range": null,
+      "event_kind": "switch_partial_stow",
+      "tempo_note": "Im verwendeten Bewegungsabschnitt neue Inhaltsbilder pro Frame; keine erkennbare Zeitlupe. Reale Spielgeschwindigkeit bleibt aus Fremdupload nicht extern beweisbar.",
+      "uncertainty": "Bildmarker ±1 Bild, Differenzen ±2 Bilder; hüftähnlich = erste Passage (weich, ±3 pp)",
+      "first_new_to_ads_frames": null,
+      "extra_markers": null,
+      "audit": {
+        "decision": "korrigiert",
+        "bestand": "neu",
+        "korrektur": "Soll: letztes altes Bild f9811, erstes ohne f9812, empty 19. Ist: Modellrest noch f9809, f9810 leer -> first_without 9810, empty 21 (Delta 2, Grenze); first_new 9831 (f9830 Splitter) und hip 9848 bestaetigt. Als Spanne 19-21 fuehren"
+      },
+      "stow_s": null,
+      "empty_s": 0.317,
+      "draw_s": 0.283,
+      "settle_s": 0.083,
+      "hip_stable_frame_range": null,
+      "draw_frames_note": null,
+      "observed_draw_segment_frames": null,
+      "first_new_to_ads_frames_range": null
+    },
+    {
+      "id": "CV04",
+      "game": "Marathon (2026)",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=FEW1ZkadfM8",
+      "source_channel": "Aculite",
+      "source_upload_date": "20260301",
+      "source_title": "Thermal Sniping in Marathon",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "stow_frames": null,
+      "empty_frames": 39,
+      "draw_frames": 20,
+      "settle_frames": null,
+      "entry_direction": "unten links, anschließend nach rechts innen",
+      "into_ads": true,
+      "notes": "Kamera dreht während des Wegsenkens. Sehr dunkle Restkontur lässt das letzte alte Waffenbild nicht auf ein einzelnes Bild begrenzen; deshalb stow_frames und empty_frames null. f9893–9931 sind sicher waffenfrei. Neues Modell folgt demselben links beginnenden Weg wie CV02 und läuft anschließend ins ADS; kein Ruhemarker. 0.26: empty_frames = bestätigte Untergrenze (39), Spanne in empty_frames_range; stow nicht bestimmbar (null).",
+      "time_zero_definition": "Erstes neues Modell für draw; sichtbare erste Wegsteckbewegung für stow; Hüftpassage für settle. Keine Eingabe-/Bereitschaftszeit.",
+      "subject": "Gewehr A → Gewehr B mit Thermaloptik (Modelle unbestätigt)",
+      "weapon": "Gewehr A → Gewehr B mit Thermaloptik (Modelle unbestätigt)",
+      "class": "Gewehr → Gewehr mit Thermaloptik",
+      "window_s": [
+        164.6,
+        166.4
+      ],
+      "timestamp": "164.600–166.400 s",
+      "markers": {
+        "stow_start": null,
+        "last_old": null,
+        "first_empty": {
+          "frame": 9893,
+          "t_s": 164.883
+        },
+        "last_empty": {
+          "frame": 9931,
+          "t_s": 165.517
+        },
+        "first_new": {
+          "frame": 9932,
+          "t_s": 165.533
+        },
+        "hip": {
+          "frame": 9952,
+          "t_s": 165.867
+        },
+        "settled": null,
+        "ads": {
+          "frame": 9955,
+          "t_s": 165.917
+        }
+      },
+      "empty_frames_range": [
+        39,
+        43
+      ],
+      "draw_frames_range": null,
+      "stow_frames_range": null,
+      "settle_frames_range": null,
+      "event_kind": "switch_into_ads",
+      "tempo_note": "Im verwendeten Bewegungsabschnitt neue Inhaltsbilder pro Frame; keine erkennbare Zeitlupe. Reale Spielgeschwindigkeit bleibt aus Fremdupload nicht extern beweisbar.",
+      "uncertainty": "Bildmarker ±1 Bild, Differenzen ±2 Bilder; hüftähnlich = erste Passage (weich, ±3 pp)",
+      "first_new_to_ads_frames": 23,
+      "extra_markers": null,
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "neu",
+        "korrektur": "0.26: empty_frames = bestätigte Untergrenze (39) mit Spanne, stow null (Beginn überlagert/zu dunkel); Bildprüfung nur Rechnung"
+      },
+      "stow_s": null,
+      "empty_s": 0.65,
+      "draw_s": 0.333,
+      "settle_s": null,
+      "hip_stable_frame_range": null,
+      "draw_frames_note": null,
+      "observed_draw_segment_frames": null,
+      "first_new_to_ads_frames_range": null
+    },
+    {
+      "id": "CV05",
+      "game": "Apex Legends",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=R-BGChzYGpo",
+      "source_channel": "Cacek47",
+      "source_upload_date": "20190206",
+      "source_title": "Apex Legends @ ALL Weapons Look and Sound Showcase @ FHD 60fps",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "stow_frames": 2,
+      "empty_frames": 19,
+      "draw_frames": 36,
+      "settle_frames": 10,
+      "entry_direction": "unten rechts",
+      "into_ads": false,
+      "notes": "Tutorial-Aufheben am Waffenständer, kein gewöhnlicher Slotwechsel. Alte RE-45 geht sehr rasch unter die Unterkante; nach klarer Leere kommt P2020 rechts unten und wird mit einer Hand-/Schlittenaktion hoch geführt. Danach Absenken in die Hüfte und kleines Nachfedern. HUD/Picker bestätigen beide Modelle.",
+      "time_zero_definition": "Erstes neues Modell für draw; sichtbare erste Wegsteckbewegung für stow; Hüftpassage für settle. Keine Eingabe-/Bereitschaftszeit.",
+      "subject": "RE-45 → P2020 (Erstaufheben)",
+      "weapon": "RE-45 → P2020 (Erstaufheben)",
+      "class": "Pistole → Pistole",
+      "window_s": [
+        20.267,
+        21.583
+      ],
+      "timestamp": "20.267–21.583 s",
+      "markers": {
+        "stow_start": {
+          "frame": 1218,
+          "t_s": 20.3,
+          "frame_range": [
+            1216,
+            1218
+          ]
+        },
+        "last_old": {
+          "frame": 1219,
+          "t_s": 20.317
+        },
+        "first_empty": {
+          "frame": 1220,
+          "t_s": 20.333
+        },
+        "last_empty": {
+          "frame": 1238,
+          "t_s": 20.633
+        },
+        "first_new": {
+          "frame": 1239,
+          "t_s": 20.65
+        },
+        "hip": {
+          "frame": 1275,
+          "t_s": 21.25,
+          "frame_range": [
+            1275,
+            1282
+          ]
+        },
+        "settled": {
+          "frame": 1285,
+          "t_s": 21.417
+        },
+        "ads": null
+      },
+      "empty_frames_range": null,
+      "draw_frames_range": [
+        36,
+        43
+      ],
+      "stow_frames_range": [
+        2,
+        4
+      ],
+      "settle_frames_range": [
+        3,
+        10
+      ],
+      "event_kind": "pickup",
+      "tempo_note": "Im verwendeten Bewegungsabschnitt neue Inhaltsbilder pro Frame; keine erkennbare Zeitlupe. Reale Spielgeschwindigkeit bleibt aus Fremdupload nicht extern beweisbar.",
+      "uncertainty": "Bildmarker ±1 Bild, Differenzen ±2 Bilder; hüftähnlich = erste Passage (weich, ±3 pp)",
+      "first_new_to_ads_frames": null,
+      "extra_markers": null,
+      "audit": {
+        "decision": "korrigiert",
+        "bestand": "ergänzt apex.md „Waffenwechsel (Gewehr → Pistole)“ – anderer Vorgang",
+        "korrektur": "Hüftmarker f1275 (Zuarbeit) weich: am Bild ≈ f1275–1282 (Kamera schwenkt) → Ziehen 36–43 Bilder (0,600–0,717 s) statt 36; danach bis ruhig +3–10 Bilder; Wegstecken-Beginn f1216–1218 → Wegstecken 2–4 Bilder"
+      },
+      "stow_s": 0.033,
+      "empty_s": 0.317,
+      "draw_s": 0.6,
+      "settle_s": 0.167,
+      "hip_stable_frame_range": null,
+      "draw_frames_note": null,
+      "observed_draw_segment_frames": null,
+      "first_new_to_ads_frames_range": null
+    },
+    {
+      "id": "CV06",
+      "game": "Apex Legends",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=R-BGChzYGpo",
+      "source_channel": "Cacek47",
+      "source_upload_date": "20190206",
+      "source_title": "Apex Legends @ ALL Weapons Look and Sound Showcase @ FHD 60fps",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "stow_frames": 3,
+      "empty_frames": 7,
+      "draw_frames": 52,
+      "settle_frames": 7,
+      "entry_direction": "unten rechts",
+      "into_ads": false,
+      "notes": "Wechsel durch Erstaufheben am Ständer. Neues Gewehr erscheint rechts unten und führt eine zusätzliche Hand-/Verschlussaktion vor der niedrigen Hüftpose aus. Der lange sichtbare Ziehweg ist nicht der Quickdraw-Slotwechsel des bestehenden Apex-Docs.",
+      "time_zero_definition": "Erstes neues Modell für draw; sichtbare erste Wegsteckbewegung für stow; Hüftpassage für settle. Keine Eingabe-/Bereitschaftszeit.",
+      "subject": "P2020 → R-301 (Erstaufheben)",
+      "weapon": "P2020 → R-301 (Erstaufheben)",
+      "class": "Pistole → Automatikgewehr",
+      "window_s": [
+        37.85,
+        39.1833
+      ],
+      "timestamp": "37.850–39.183 s",
+      "markers": {
+        "stow_start": {
+          "frame": 2277,
+          "t_s": 37.95
+        },
+        "last_old": {
+          "frame": 2279,
+          "t_s": 37.983
+        },
+        "first_empty": {
+          "frame": 2280,
+          "t_s": 38.0
+        },
+        "last_empty": {
+          "frame": 2286,
+          "t_s": 38.1
+        },
+        "first_new": {
+          "frame": 2287,
+          "t_s": 38.117
+        },
+        "hip": {
+          "frame": 2339,
+          "t_s": 38.983
+        },
+        "settled": {
+          "frame": 2346,
+          "t_s": 39.1
+        },
+        "ads": null
+      },
+      "empty_frames_range": null,
+      "draw_frames_range": null,
+      "stow_frames_range": null,
+      "settle_frames_range": null,
+      "event_kind": "pickup",
+      "tempo_note": "Im verwendeten Bewegungsabschnitt neue Inhaltsbilder pro Frame; keine erkennbare Zeitlupe. Reale Spielgeschwindigkeit bleibt aus Fremdupload nicht extern beweisbar.",
+      "uncertainty": "Bildmarker ±1 Bild, Differenzen ±2 Bilder; hüftähnlich = erste Passage (weich, ±3 pp)",
+      "first_new_to_ads_frames": null,
+      "extra_markers": null,
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "ergänzt apex.md „Waffenwechsel (Gewehr → Pistole)“ – anderer Vorgang",
+        "korrektur": "keine"
+      },
+      "stow_s": 0.05,
+      "empty_s": 0.117,
+      "draw_s": 0.867,
+      "settle_s": 0.117,
+      "hip_stable_frame_range": null,
+      "draw_frames_note": null,
+      "observed_draw_segment_frames": null,
+      "first_new_to_ads_frames_range": null
+    },
+    {
+      "id": "CV07",
+      "game": "Apex Legends",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=R-BGChzYGpo",
+      "source_channel": "Cacek47",
+      "source_upload_date": "20190206",
+      "source_title": "Apex Legends @ ALL Weapons Look and Sound Showcase @ FHD 60fps",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "stow_frames": 9,
+      "empty_frames": 24,
+      "draw_frames": 47,
+      "settle_frames": 9,
+      "entry_direction": "unten rechts",
+      "into_ads": false,
+      "notes": "R-301 senkt sich unten rechts weg; R-99 steigt danach schräg hoch, wird kurz hoch gehalten und sinkt nach dem Handgriff in die Hüfte. HUD bestätigt R-301 vorher und R-99 danach. Keine ADS-Passage im ausgewerteten Ziehen.",
+      "time_zero_definition": "Erstes neues Modell für draw; sichtbare erste Wegsteckbewegung für stow; Hüftpassage für settle. Keine Eingabe-/Bereitschaftszeit.",
+      "subject": "R-301 → R-99 (Erstaufheben)",
+      "weapon": "R-301 → R-99 (Erstaufheben)",
+      "class": "Automatikgewehr → Maschinenpistole",
+      "window_s": [
+        55.45,
+        57.25
+      ],
+      "timestamp": "55.450–57.250 s",
+      "markers": {
+        "stow_start": {
+          "frame": 3335,
+          "t_s": 55.583
+        },
+        "last_old": {
+          "frame": 3343,
+          "t_s": 55.717
+        },
+        "first_empty": {
+          "frame": 3344,
+          "t_s": 55.733
+        },
+        "last_empty": {
+          "frame": 3367,
+          "t_s": 56.117
+        },
+        "first_new": {
+          "frame": 3368,
+          "t_s": 56.133
+        },
+        "hip": {
+          "frame": 3415,
+          "t_s": 56.917
+        },
+        "settled": {
+          "frame": 3424,
+          "t_s": 57.067
+        },
+        "ads": null
+      },
+      "empty_frames_range": [
+        24,
+        25
+      ],
+      "draw_frames_range": null,
+      "stow_frames_range": null,
+      "settle_frames_range": null,
+      "event_kind": "pickup",
+      "tempo_note": "Im verwendeten Bewegungsabschnitt neue Inhaltsbilder pro Frame; keine erkennbare Zeitlupe. Reale Spielgeschwindigkeit bleibt aus Fremdupload nicht extern beweisbar.",
+      "uncertainty": "Bildmarker ±1 Bild, Differenzen ±2 Bilder; hüftähnlich = erste Passage (weich, ±3 pp)",
+      "first_new_to_ads_frames": null,
+      "extra_markers": null,
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "ergänzt apex.md „Waffenwechsel (Gewehr → Pistole)“ – anderer Vorgang",
+        "korrektur": "first_without 3344 -> Ist 3343 (Delta 1), empty 24 -> 25 (Delta 1), stow 9 -> 8; first_new 3368 und hiplike 3415 am Bild bestaetigt"
+      },
+      "stow_s": 0.15,
+      "empty_s": 0.4,
+      "draw_s": 0.783,
+      "settle_s": 0.15,
+      "hip_stable_frame_range": null,
+      "draw_frames_note": null,
+      "observed_draw_segment_frames": null,
+      "first_new_to_ads_frames_range": null
+    },
+    {
+      "id": "CV13",
+      "game": "Valorant",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=etvP32vASoY",
+      "source_channel": "THE DARK 007",
+      "source_upload_date": "20220515",
+      "source_title": "Valorant - All Weapons Equip Animations",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "stow_frames": null,
+      "empty_frames": null,
+      "draw_frames": null,
+      "settle_frames": 8,
+      "entry_direction": "unten, Eintrittsbeginn durch Schnitt nicht abgesichert",
+      "into_ads": false,
+      "notes": "Beginn nicht sichtbar: Schnitt von zuvor ruhig gehaltener Ghost zur bereits eintretenden Sheriff. Deshalb keine Wegsteck-, Leer- oder vollständige Ziehdauer. Messbar ist nur das beobachtete Segment f328→390 und das anschließende Ausfedern. Revolver wird hoch aufgestellt und danach abgesenkt.",
+      "observed_draw_segment_frames": 62,
+      "time_zero_definition": "Erstes neues Modell für draw; sichtbare erste Wegsteckbewegung für stow; Hüftpassage für settle. Keine Eingabe-/Bereitschaftszeit.",
+      "subject": "Sheriff",
+      "weapon": "Sheriff",
+      "class": "Revolver",
+      "window_s": [
+        5.35,
+        6.9
+      ],
+      "timestamp": "5.350–6.900 s",
+      "markers": {
+        "stow_start": null,
+        "last_old": null,
+        "first_empty": null,
+        "last_empty": null,
+        "first_new": {
+          "frame": 328,
+          "t_s": 5.467
+        },
+        "hip": {
+          "frame": 390,
+          "t_s": 6.5
+        },
+        "settled": {
+          "frame": 398,
+          "t_s": 6.633
+        },
+        "ads": null
+      },
+      "empty_frames_range": null,
+      "draw_frames_range": null,
+      "stow_frames_range": null,
+      "settle_frames_range": null,
+      "event_kind": "draw_segment_start_missing",
+      "tempo_note": "Im verwendeten Bewegungsabschnitt neue Inhaltsbilder pro Frame; keine erkennbare Zeitlupe. Reale Spielgeschwindigkeit bleibt aus Fremdupload nicht extern beweisbar.",
+      "uncertainty": "Bildmarker ±1 Bild, Differenzen ±2 Bilder; hüftähnlich = erste Passage (weich, ±3 pp)",
+      "first_new_to_ads_frames": null,
+      "extra_markers": null,
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "neu (kein Valorant-Doc)",
+        "korrektur": "keine; first_observed_new f328 und hiplike f390 am Bild bestaetigt (Ghost bis f325, f328 leer = Schnitt)"
+      },
+      "stow_s": null,
+      "empty_s": null,
+      "draw_s": null,
+      "settle_s": 0.133,
+      "hip_stable_frame_range": null,
+      "draw_frames_note": null,
+      "first_new_to_ads_frames_range": null
+    },
+    {
+      "id": "CV14",
+      "game": "Valorant",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=etvP32vASoY",
+      "source_channel": "THE DARK 007",
+      "source_upload_date": "20220515",
+      "source_title": "Valorant - All Weapons Equip Animations",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "stow_frames": null,
+      "empty_frames": null,
+      "draw_frames": null,
+      "settle_frames": 7,
+      "entry_direction": null,
+      "into_ads": false,
+      "notes": "Beginn nicht sichtbar: nach Schnitt ist der Operator bereits im Bild, die rechte Hand arbeitet am Verschluss. Nur der beobachtete Weg dieses Segments bis zur Hüftlage und das weitere Ausfedern werden beziffert; vollständiges Ziehen null. Vorheriger Marshal wird nicht als lückenloser Wechsel ausgewertet.",
+      "observed_draw_segment_frames": 45,
+      "time_zero_definition": "Erstes neues Modell für draw; sichtbare erste Wegsteckbewegung für stow; Hüftpassage für settle. Keine Eingabe-/Bereitschaftszeit.",
+      "subject": "Operator",
+      "weapon": "Operator",
+      "class": "Scharfschützengewehr",
+      "window_s": [
+        21.2,
+        22.8
+      ],
+      "timestamp": "21.200–22.800 s",
+      "markers": {
+        "stow_start": null,
+        "last_old": null,
+        "first_empty": null,
+        "last_empty": null,
+        "first_new": {
+          "frame": 1308,
+          "t_s": 21.8
+        },
+        "hip": {
+          "frame": 1353,
+          "t_s": 22.55
+        },
+        "settled": {
+          "frame": 1360,
+          "t_s": 22.667
+        },
+        "ads": null
+      },
+      "empty_frames_range": null,
+      "draw_frames_range": null,
+      "stow_frames_range": null,
+      "settle_frames_range": null,
+      "event_kind": "draw_segment_start_missing",
+      "tempo_note": "Im verwendeten Bewegungsabschnitt neue Inhaltsbilder pro Frame; keine erkennbare Zeitlupe. Reale Spielgeschwindigkeit bleibt aus Fremdupload nicht extern beweisbar.",
+      "uncertainty": "Bildmarker ±1 Bild, Differenzen ±2 Bilder; hüftähnlich = erste Passage (weich, ±3 pp)",
+      "first_new_to_ads_frames": null,
+      "extra_markers": null,
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "neu",
+        "korrektur": "keine; Bild nicht einzeln gemessen, Nachrechnung stimmt (45/7)"
+      },
+      "stow_s": null,
+      "empty_s": null,
+      "draw_s": null,
+      "settle_s": 0.117,
+      "hip_stable_frame_range": null,
+      "draw_frames_note": null,
+      "first_new_to_ads_frames_range": null
+    },
+    {
+      "id": "CV15",
+      "game": "Valorant",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=etvP32vASoY",
+      "source_channel": "THE DARK 007",
+      "source_upload_date": "20220515",
+      "source_title": "Valorant - All Weapons Equip Animations",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "stow_frames": null,
+      "empty_frames": null,
+      "draw_frames": 90,
+      "settle_frames": 6,
+      "entry_direction": "unten rechts",
+      "into_ads": false,
+      "notes": "f1518→1519 ist ein Schnitt von Ares in die nächste Darstellung, daher stow_frames und empty_frames null. Nach dem Schnitt sind f1519/1520 ohne neues Modell, erst f1521 erscheint Odin: der neue Ziehweg ist separat vollständig sichtbar. Breiter seitlicher Eintritt von unten rechts, Aufstellen mit sichtbarem Gurt/Handgriff, tiefe Zwischenlage, dann Hochziehen und Ausfedern. Kein Schussbereitschaftstest.",
+      "time_zero_definition": "Erstes neues Modell für draw; sichtbare erste Wegsteckbewegung für stow; Hüftpassage für settle. Keine Eingabe-/Bereitschaftszeit.",
+      "subject": "Odin",
+      "weapon": "Odin",
+      "class": "Maschinengewehr",
+      "window_s": [
+        25.3,
+        27.1667
+      ],
+      "timestamp": "25.300–27.167 s",
+      "markers": {
+        "stow_start": null,
+        "last_old": null,
+        "first_empty": null,
+        "last_empty": null,
+        "first_new": {
+          "frame": 1521,
+          "t_s": 25.35
+        },
+        "hip": {
+          "frame": 1611,
+          "t_s": 26.85
+        },
+        "settled": {
+          "frame": 1617,
+          "t_s": 26.95
+        },
+        "ads": null
+      },
+      "empty_frames_range": null,
+      "draw_frames_range": null,
+      "stow_frames_range": null,
+      "settle_frames_range": null,
+      "event_kind": "complete_draw_after_cut",
+      "tempo_note": "Im verwendeten Bewegungsabschnitt neue Inhaltsbilder pro Frame; keine erkennbare Zeitlupe. Reale Spielgeschwindigkeit bleibt aus Fremdupload nicht extern beweisbar.",
+      "uncertainty": "Bildmarker ±1 Bild, Differenzen ±2 Bilder; hüftähnlich = erste Passage (weich, ±3 pp)",
+      "first_new_to_ads_frames": null,
+      "extra_markers": null,
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "neu",
+        "korrektur": "first_new f1521 und hiplike ca. f1608-1611 am Bild bestaetigt; Schnitt f1518->1519, f1519/1520 leer"
+      },
+      "stow_s": null,
+      "empty_s": null,
+      "draw_s": 1.5,
+      "settle_s": 0.1,
+      "hip_stable_frame_range": null,
+      "draw_frames_note": null,
+      "observed_draw_segment_frames": null,
+      "first_new_to_ads_frames_range": null
+    },
+    {
+      "id": "CV08",
+      "game": "Halo Infinite (Technical Preview, Juli 2021)",
+      "status": "O",
+      "source_url": "https://www.youtube.com/watch?v=ZfNuA5r-470",
+      "source_channel": "Abyssopelagic",
+      "source_upload_date": "20210730",
+      "source_title": "Halo Infinite Gameplay - All Weapons from the First Technical Preview",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "stow_frames": null,
+      "empty_frames": null,
+      "draw_frames": null,
+      "settle_frames": null,
+      "entry_direction": "unten rechts",
+      "into_ads": null,
+      "notes": "Nur Formbeleg: Aufheben vom Ständer, Eintritt rechts unten, deutliches Anheben und linke Handaktion; anschließend Absenken zur ruhigen Hüftpose. Fast gleiche Zwischenbilder im 60/s-Container ergeben effektiv etwa 30 Bewegungsbilder/s. Keine Framezeiten. Technische Vorabfassung, keine aktuelle Balance.",
+      "time_zero_definition": "Erstes neues Modell für draw; sichtbare erste Wegsteckbewegung für stow; Hüftpassage für settle. Keine Eingabe-/Bereitschaftszeit.",
+      "subject": "MA40",
+      "weapon": "MA40",
+      "class": "Automatikgewehr",
+      "window_s": [
+        2.7,
+        5.0
+      ],
+      "timestamp": "2.700–5.000 s",
+      "markers": {
+        "stow_start": null,
+        "last_old": null,
+        "first_empty": null,
+        "last_empty": null,
+        "first_new": null,
+        "hip": null,
+        "settled": null,
+        "ads": null
+      },
+      "empty_frames_range": null,
+      "draw_frames_range": null,
+      "stow_frames_range": null,
+      "settle_frames_range": null,
+      "event_kind": "draw_only_low_content_rate",
+      "tempo_note": "Container 60/s; alternierende fast gleiche Zwischenbilder im Ziehabschnitt, deshalb keine Framezeiten.",
+      "uncertainty": null,
+      "first_new_to_ads_frames": null,
+      "extra_markers": null,
+      "audit": {
+        "decision": "korrigiert",
+        "bestand": "neu",
+        "korrektur": "JSON-Eintrag enthaelt markers.first_observed_new 199 und marker_times_s 3.3167 -> entfernen (Auftrag: keine Zeiten bei [O]); Text bleibt ohne Zeiten"
+      },
+      "stow_s": null,
+      "empty_s": null,
+      "draw_s": null,
+      "settle_s": null,
+      "hip_stable_frame_range": null,
+      "draw_frames_note": null,
+      "observed_draw_segment_frames": null,
+      "first_new_to_ads_frames_range": null
+    },
+    {
+      "id": "CV09",
+      "game": "Halo Infinite (Technical Preview, Juli 2021)",
+      "status": "O",
+      "source_url": "https://www.youtube.com/watch?v=ZfNuA5r-470",
+      "source_channel": "Abyssopelagic",
+      "source_upload_date": "20210730",
+      "source_title": "Halo Infinite Gameplay - All Weapons from the First Technical Preview",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "stow_frames": null,
+      "empty_frames": null,
+      "draw_frames": null,
+      "settle_frames": null,
+      "entry_direction": "unten rechts",
+      "into_ads": null,
+      "notes": "Nur Formbeleg: BR75 kommt rechts unten, wird zur linken Hand hin aufgestellt und gleitet danach nach unten in die Hüfte. Das Bildpaar-Muster wiederholt Inhaltsbilder; Container-Frames werden nicht als 60 unabhängige Bewegungsbilder gezählt. Vorheriger Abschnitt ist ausgeblendet, kein vollständiger Wechsel.",
+      "time_zero_definition": "Erstes neues Modell für draw; sichtbare erste Wegsteckbewegung für stow; Hüftpassage für settle. Keine Eingabe-/Bereitschaftszeit.",
+      "subject": "BR75",
+      "weapon": "BR75",
+      "class": "Salvengewehr",
+      "window_s": [
+        43.3833,
+        44.8
+      ],
+      "timestamp": "43.383–44.800 s",
+      "markers": {
+        "stow_start": null,
+        "last_old": null,
+        "first_empty": null,
+        "last_empty": null,
+        "first_new": null,
+        "hip": null,
+        "settled": null,
+        "ads": null
+      },
+      "empty_frames_range": null,
+      "draw_frames_range": null,
+      "stow_frames_range": null,
+      "settle_frames_range": null,
+      "event_kind": "draw_only_low_content_rate",
+      "tempo_note": "Container 60/s; alternierende fast gleiche Zwischenbilder im Ziehabschnitt, deshalb keine Framezeiten.",
+      "uncertainty": null,
+      "first_new_to_ads_frames": null,
+      "extra_markers": null,
+      "audit": {
+        "decision": "korrigiert",
+        "bestand": "neu",
+        "korrektur": "JSON markers.first_observed_new 2609 / 43.4833 s entfernen"
+      },
+      "stow_s": null,
+      "empty_s": null,
+      "draw_s": null,
+      "settle_s": null,
+      "hip_stable_frame_range": null,
+      "draw_frames_note": null,
+      "observed_draw_segment_frames": null,
+      "first_new_to_ads_frames_range": null
+    },
+    {
+      "id": "CV10",
+      "game": "Titanfall 2",
+      "status": "O",
+      "source_url": "https://www.youtube.com/watch?v=GSzouZZwDgg",
+      "source_channel": "nonname123",
+      "source_upload_date": "20210614",
+      "source_title": "Titanfall 2 animation skip to speedload and fast switch weapons",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "stow_frames": null,
+      "empty_frames": null,
+      "draw_frames": null,
+      "settle_frames": null,
+      "entry_direction": "unten rechts",
+      "into_ads": null,
+      "notes": "Nur Formbeleg: G2 sinkt unten rechts weg, freie Sicht, Archer steigt von rechts unten fast aufrecht herein und kippt in die breite quer gehaltene Endpose. HUD benennt G2 und Archer. Quelle demonstriert Fast Switch; wechselnde mehrfach verwendete Inhaltsbilder verhindern Zeiten bei nativen 60/s.",
+      "time_zero_definition": "Erstes neues Modell für draw; sichtbare erste Wegsteckbewegung für stow; Hüftpassage für settle. Keine Eingabe-/Bereitschaftszeit.",
+      "subject": "G2 → Archer",
+      "weapon": "G2 → Archer",
+      "class": "Halbautomatisches Gewehr → Raketenwerfer",
+      "window_s": [
+        144.35,
+        145.95
+      ],
+      "timestamp": "144.350–145.950 s",
+      "markers": {
+        "stow_start": null,
+        "last_old": null,
+        "first_empty": null,
+        "last_empty": null,
+        "first_new": null,
+        "hip": null,
+        "settled": null,
+        "ads": null
+      },
+      "empty_frames_range": null,
+      "draw_frames_range": null,
+      "stow_frames_range": null,
+      "settle_frames_range": null,
+      "event_kind": "fast_switch_variable_content_rate",
+      "tempo_note": "Container 60/s; variable wiederholte Inhaltsbilder, deshalb keine Framezeiten.",
+      "uncertainty": null,
+      "first_new_to_ads_frames": null,
+      "extra_markers": null,
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "ergänzt titanfall2.md (Offen: Waffenwechsel), nur Form",
+        "korrektur": "keine; markers leer, keine Zeiten"
+      },
+      "stow_s": null,
+      "empty_s": null,
+      "draw_s": null,
+      "settle_s": null,
+      "hip_stable_frame_range": null,
+      "draw_frames_note": null,
+      "observed_draw_segment_frames": null,
+      "first_new_to_ads_frames_range": null
+    },
+    {
+      "id": "CV11",
+      "game": "Titanfall 2",
+      "status": "O",
+      "source_url": "https://www.youtube.com/watch?v=GSzouZZwDgg",
+      "source_channel": "nonname123",
+      "source_upload_date": "20210614",
+      "source_title": "Titanfall 2 animation skip to speedload and fast switch weapons",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "stow_frames": null,
+      "empty_frames": null,
+      "draw_frames": null,
+      "settle_frames": null,
+      "entry_direction": "unten mittig/rechts",
+      "into_ads": null,
+      "notes": "Nur Formbeleg: Archer senkt sich quer nach unten; nach klarer freier Sicht kommt G2 niedrig mittig/rechts zurück. Der G2-Rückweg wirkt deutlich kleiner als das breite Aufstellen des Werfers. Keine Zeit- oder Verhältniszahl wegen ungleichmäßiger Inhaltsbildrate.",
+      "time_zero_definition": "Erstes neues Modell für draw; sichtbare erste Wegsteckbewegung für stow; Hüftpassage für settle. Keine Eingabe-/Bereitschaftszeit.",
+      "subject": "Archer → G2",
+      "weapon": "Archer → G2",
+      "class": "Raketenwerfer → Halbautomatisches Gewehr",
+      "window_s": [
+        145.9,
+        147.0
+      ],
+      "timestamp": "145.900–147.000 s",
+      "markers": {
+        "stow_start": null,
+        "last_old": null,
+        "first_empty": null,
+        "last_empty": null,
+        "first_new": null,
+        "hip": null,
+        "settled": null,
+        "ads": null
+      },
+      "empty_frames_range": null,
+      "draw_frames_range": null,
+      "stow_frames_range": null,
+      "settle_frames_range": null,
+      "event_kind": "fast_switch_variable_content_rate",
+      "tempo_note": "Container 60/s; variable wiederholte Inhaltsbilder, deshalb keine Framezeiten.",
+      "uncertainty": null,
+      "first_new_to_ads_frames": null,
+      "extra_markers": null,
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "ergänzt titanfall2.md (Offen: Waffenwechsel), nur Form",
+        "korrektur": "keine"
+      },
+      "stow_s": null,
+      "empty_s": null,
+      "draw_s": null,
+      "settle_s": null,
+      "hip_stable_frame_range": null,
+      "draw_frames_note": null,
+      "observed_draw_segment_frames": null,
+      "first_new_to_ads_frames_range": null
+    },
+    {
+      "id": "CV12",
+      "game": "Titanfall 2",
+      "status": "O",
+      "source_url": "https://www.youtube.com/watch?v=GSzouZZwDgg",
+      "source_channel": "nonname123",
+      "source_upload_date": "20210614",
+      "source_title": "Titanfall 2 animation skip to speedload and fast switch weapons",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "stow_frames": null,
+      "empty_frames": null,
+      "draw_frames": null,
+      "settle_frames": null,
+      "entry_direction": "unten rechts",
+      "into_ads": null,
+      "notes": "Nur Formbeleg für Abbruch/Verkürzung: G2 verschwindet abrupt, Archer erscheint und wird unmittelbar wieder abgesenkt, bevor eine länger gehaltene Endlage entsteht. Nicht mit dem gehaltenen Archer-Fall gleichsetzen. Keine mechanische Bereitschaft und keine Framezeiten bestimmt.",
+      "time_zero_definition": "Erstes neues Modell für draw; sichtbare erste Wegsteckbewegung für stow; Hüftpassage für settle. Keine Eingabe-/Bereitschaftszeit.",
+      "subject": "G2 → Archer → G2, verkürzte Folge",
+      "weapon": "G2 → Archer → G2, verkürzte Folge",
+      "class": "Gewehr / Raketenwerfer",
+      "window_s": [
+        150.45,
+        151.9
+      ],
+      "timestamp": "150.450–151.900 s",
+      "markers": {
+        "stow_start": null,
+        "last_old": null,
+        "first_empty": null,
+        "last_empty": null,
+        "first_new": null,
+        "hip": null,
+        "settled": null,
+        "ads": null
+      },
+      "empty_frames_range": null,
+      "draw_frames_range": null,
+      "stow_frames_range": null,
+      "settle_frames_range": null,
+      "event_kind": "fast_switch_short_sequence",
+      "tempo_note": "Container 60/s; variable wiederholte Inhaltsbilder, deshalb keine Framezeiten.",
+      "uncertainty": null,
+      "first_new_to_ads_frames": null,
+      "extra_markers": null,
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "ergänzt titanfall2.md (Offen: Waffenwechsel), nur Form",
+        "korrektur": "keine"
+      },
+      "stow_s": null,
+      "empty_s": null,
+      "draw_s": null,
+      "settle_s": null,
+      "hip_stable_frame_range": null,
+      "draw_frames_note": null,
+      "observed_draw_segment_frames": null,
+      "first_new_to_ads_frames_range": null
+    }
+  ],
+  "evaluation": [
+    {
+      "game": "Destiny 2",
+      "subject": "Wechsel zwischen zwei Waffen (Wegstecken, leere Sicht, Ziehen) und Ziehen nach Menüschnitt",
+      "good": "Wegstecken, leere Sicht und Ziehen sind in den Wechselfällen als getrennte Phasen sichtbar (Waffe A → Gewehr: 6 Bilder weg, 12 leer, ≈ 4 Bilder ziehen); schwere Waffen steigen sichtbar von unten rechts ein, ihre Silhouette gibt den Klassencharakter.",
+      "bad": "Die „hüftähnliche“ Passage ist nur die erste Passage – danach folgte in drei gemessenen Fällen Überschwingen von 8–10 pp (Bogen D04, Bad News D05, Threaded Needle H04), Hüfte und ruhig liegen also auseinander; die leere Sicht reicht bis 18 Bilder (0,30 s, Raketenwerfer H02) und lässt dem Spieler kurz keine Waffe im Bild (Einschätzung).",
+      "audience": "PvE und PvP; besonders Einsteiger beim Erlernen von Bereitschaftssignalen.",
+      "evidence": "[M] D08 (mell0wtonin), D01 (DFP), H01/H02 (Saltagreppo), D05–D07 und H03–H05 (Ziehen nach Menüschnitt, kein Wechsel).",
+      "player": "[C] Bungie-Forum „Quick-draw glitch“ (Sk8r1337, 28.01.2021) und Reddit-TWAB-Thread vom 08.04.2021 (r/DestinyTheGame/mmxmri): Threads existieren, der Forenthread behandelt laut Prüfer das Sprint-Abbrechen/Quickdraw, der TWAB-Thread die Quickdraw-Änderung; **Antworten, Zustimmungszahlen und Gegenstimmen nicht nachgelesen**, keine Aussage über die Ziehanimation.",
+      "dev": "[B] Bungie TWAB 08.04.2021: Quickdraw mit schnellerem Wechsel und +100 Handling, Balance-Eingriff (über Wayback-Kopie bestätigt) – bestätigt weder unsere Bildzahlen noch eine Animationsbewertung."
+    },
+    {
+      "game": "Marathon (2026)",
+      "subject": "Wechsel zwischen zwei Gewehren, teils direkt in ADS",
+      "good": "Der Eintritt von unten (rechts bei CV01/CV03, links bei CV02/CV04) mit anschließender kurzer Ruhepassage ist als neuer Zustand erkennbar (hüftähnlich 0,28–0,60 s nach dem ersten neuen Bild).",
+      "bad": "Direktes ADS (CV02, CV04) hebt die Hüft-Endlage auf; Nachladen oder Scope-Austritt überlagert den Beginn; Modelle unbestätigt.",
+      "audience": "Schnelle PvP-Wechsel; Prototyping mit getrennten Übergängen.",
+      "evidence": "[M] CV01–CV04 (Aculite, FEW1ZkadfM8, 110–166 s).",
+      "player": "keine (für Marathon keine belastbare Spielerstimme geprüft)",
+      "dev": "[B/S] Autodesk-Blog 20.10.2026 (Brendan Russert, Riot/Valorant; in 0.25 bestätigt, beim Prüflauf 403): relevante Ausrüst-, Schuss- und Nachladezeiten sollen konsistent lesbar bleiben – spielübergreifendes Entwurfsziel, nicht Marathon-spezifisch."
+    },
+    {
+      "game": "Apex Legends",
+      "subject": "Erstaufheben am Ständer (RE-45 → P2020 → R-301 → R-99) – kein normaler Slotwechsel",
+      "good": "Sichtbare Handarbeit erklärt das Aufnehmen einer neuen Waffe (Wegstecken 0,03–0,15 s, Leere 0,12–0,40 s, Ziehen bis hüftähnlich 0,60–0,87 s).",
+      "bad": "Erstaufheben ist optisch mit dem Slotwechsel verwandt (Bestand: Gewehr → Pistole 0,40 s, kein Bild ohne Waffe) – die lange Aufnahmefolge darf nicht auf jeden Wechsel übertragen werden.",
+      "audience": "Einsteiger und Controller-Nutzer.",
+      "evidence": "[M] CV05–CV07 (Cacek47, R-BGChzYGpo, 20,3–57,3 s).",
+      "player": "[C] r/apexuniversity „Wechsel auf Controller“ (25.11.2022): Thread existiert, behandelt die Eingabe-Ergonomie des **Slotwechsels**, nicht das Erstaufheben; Inhalte nicht nachgelesen.",
+      "dev": "keine"
+    },
+    {
+      "game": "Valorant",
+      "subject": "Ausrüsten (Sheriff, Operator, Odin)",
+      "good": "Erkennbare Handgriffe geben der Waffe Identität; der Odin-Ziehweg dauert 1,5 s und ist vollständig sichtbar (Einschätzung).",
+      "bad": "Bei Sheriff und Operator ist nur das beobachtete Segment messbar (0,75–1,03 s), der Eintritt liegt vor dem Videoschnitt.",
+      "audience": "PvP und kosmetische Gestaltung; Lernende sollten Bereitschaft klar erkennen.",
+      "evidence": "[M] CV13–CV15 (THE DARK 007, etvP32vASoY, 5,4–27,2 s).",
+      "player": "[C] r/VALORANT (01.06.2021, nphw66; 17.08.2023, 15tu207): zwei Threads über die **Gewohnheit**, Waffen zu wechseln (Fidget, Messer läuft schneller) – keine Aussage über die Ziehanimation; Inhalte nicht nachgelesen.",
+      "dev": "[B/S] Autodesk-Blog 20.10.2026 (siehe Marathon)."
+    },
+    {
+      "game": "Halo Infinite (Technical Preview) und Titanfall 2 (FastSwitch)",
+      "subject": "Ziehen bzw. schnelle Wechselfolge, nur Form",
+      "good": "Form und Eintritt bleiben beobachtbar (Halo MA40/BR75, Titanfall G2/Archer).",
+      "bad": "Rund 30 echte Bilder/s (Halo) bzw. wechselnde Bildwiederholungen (Titanfall) verhindern jede Zeitangabe; kein Urteil über Reaktionsgefühl.",
+      "audience": "Animationsentwurf, keine Zeitabstimmung.",
+      "evidence": "[O] CV08–CV12 (ZfNuA5r-470, GSzouZZwDgg).",
+      "player": "keine",
+      "dev": "keine"
+    }
+  ],
+  "player_sources": [
+    {
+      "id": "P1",
+      "game": "Destiny 2",
+      "url": "https://www.bungie.net/en/Forums/Post/258176224",
+      "date": "2021-01-28",
+      "author": "Sk8r1337",
+      "check": "per curl erreichbar, Thema laut Prüfer Sprint-Abbruch/Quickdraw; Antworten nicht ladbar",
+      "weight": "ein Thread"
+    },
+    {
+      "id": "P2",
+      "game": "Destiny 2",
+      "url": "https://www.reddit.com/r/DestinyTheGame/comments/mmxmri/this_week_at_bungie_4082021/",
+      "date": "2021-04-08",
+      "author": null,
+      "check": "Pullpush: Beitrag existiert, Thema passt; Scores weichen vom Codex ab, nicht übernommen",
+      "weight": "ein Thread"
+    },
+    {
+      "id": "P3",
+      "game": "Apex Legends",
+      "url": "https://www.reddit.com/r/apexuniversity/comments/z4n5vj/",
+      "date": "2022-11-25",
+      "author": null,
+      "check": "Pullpush: Beitrag existiert, behandelt Slotwechsel-Eingabe auf Controller",
+      "weight": "ein Thread"
+    },
+    {
+      "id": "P4",
+      "game": "Valorant",
+      "url": "https://www.reddit.com/r/VALORANT/comments/nphw66/",
+      "date": "2021-06-01",
+      "author": null,
+      "check": "Pullpush: Beitrag existiert, Thema Wechselgewohnheit",
+      "weight": "mit P5 zwei Threads zur Gewohnheit"
+    },
+    {
+      "id": "P5",
+      "game": "Valorant",
+      "url": "https://www.reddit.com/r/VALORANT/comments/15tu207/",
+      "date": "2023-08-17",
+      "author": null,
+      "check": "Pullpush: Beitrag existiert, Thema Wechselgewohnheit",
+      "weight": "mit P4 zwei Threads zur Gewohnheit"
+    }
+  ],
+  "dev_sources": [
+    {
+      "id": "D1",
+      "url": "https://www.bungie.net/7/en/News/article/50237",
+      "who": "Bungie, This Week at Bungie 08.04.2021",
+      "check": "über Wayback-Kopie gelesen: Quickdraw „faster swap speed“, +100 Handling",
+      "status": "bestätigt"
+    },
+    {
+      "id": "D2",
+      "url": "https://blogs.autodesk.com/media-and-entertainment/2026/10/20/riot-games-animates-valorant-with-autodesk-maya/",
+      "who": "Autodesk M&E, Brendan Russert (Riot Games)",
+      "check": "in 0.25 abgerufen und bestätigt; beim Prüflauf 403, Archiv leer",
+      "status": "bestätigt (0.25), nicht erneut abrufbar"
+    }
+  ]
+}

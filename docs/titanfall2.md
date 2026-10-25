@@ -33,4 +33,6 @@ Twitch-Clips der Kanäle `iniquity` und `frothyomen` (18.10.2026, 13 + 16 Clips 
 
 **Nachladen im Showcase (0.25):** Weapons From Games (2019, 60/s) zeigt vier vollständige Abläufe mit HUD: P2016 taktisch 1,23 s / leer 1,17 s bis ruhig, CAR taktisch 1,85 s / leer 2,27 s (zusätzlicher Griff auf der Oberseite); Anzeige 0,25–0,53 s vor der Hüftpassage ([nachladen.md](nachladen.md#2-messtabelle)). Die Aussage „Nachladen: nur Ansätze hinter Effekten“ gilt weiter für den Spielclip; ein Paar je Waffe ist kein Klassenfaktor.
 
+**Waffenwechsel nur als Form (0.26):** Ein Video mit überspringbarer Animation (FastSwitch, nonname123, 2021) zeigt G2 ↔ Archer; wegen wechselnder Bildwiederholungen sind **keine Zeiten** freigegeben ([wechsel.md](wechsel.md#2-messtabelle)). Die Lücke „Waffenwechsel“ bleibt für Zeiten offen.
+
 **Offen:** Rutschen (in acht Clips kein sauberes Rutschen – Titanfall-Piloten rutschen kurz und meist in den Sprung), Nachladen im Spielclip (nur Ansätze hinter Effekten; im Showcase seit 0.25 vermessen, [nachladen.md](nachladen.md)), Waffenwechsel, Sprint-Haltung (Titanfall hat keine getrennte Sprint-Pose: die Hüfte ist die Laufhaltung – an einem längeren Lauf-Clip prüfen), Doppelsprung-Kameraimpuls bei 60/s.
