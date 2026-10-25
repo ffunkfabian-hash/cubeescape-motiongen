@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.28.0 „Pullzone“ – 2026-10-25
+
+- Neue Referenzanalyse [Zielhilfe und Eingabe](docs/zielhilfe.md) mit `data/zielhilfe.json`: 35 Beispiele aus fünf Spielen (Destiny 2 14, Halo Infinite 6, Apex Legends 7, Call of Duty 5, VALORANT 3; sechs Video- und 29 Dokumentarbefunde) aus fünf Videos und 21 Entwicklerquellen (Codex-Mac, Ego-Bewegung R2, Thema Zielhilfe). Eine Messzeile in `docs/destiny2.md` › 2 (Anker `z-zh-drewsky`), Methode 26, fünf Einträge in `data/clips.json`, Querverweis in waffenwerte.md.
+- Befund (Beobachtung, Schlüsse in BASIC/Cube Escape): Schusskorrektur und Kamerahilfe sind getrennte Mechaniken; es gibt **keine gemessene Zielhilfe-Stärke** (die drei [M]-Zeilen zeigen nur Bildlagen), ein AA-Stat hat keine Formel im Manifest, Entwicklerzahlen sind historisch oder relativ; CoD BO7 koppelt die volle Rotational-AA an aktive Verfolgung (Launch-Abzug 35 %, später 25 %).
+- Abnahme: 5/5 Videos per yt-dlp, 21/21 Entwicklerquellen (7 nur per Archiv), 5/7 Spielerbeiträge, 11 Nachmessungen an 8 Zahlenpaaren; übernommen 29, **korrigiert 6** (Halo H01: zweiter Bildwert widerlegt, (95,50) gegen (51,51)), kopierte Bewertungsfelder und „alle Threads gelesen“ verworfen. [Bericht](docs/versions/0.md#0280-pullzone--2026-10-25).
+
 ## 0.27.0 „Statline“ – 2026-10-25
 
 - Neue Referenzanalyse [Waffenwerte](docs/waffenwerte.md) mit `data/waffenwerte.json`: 113 Destiny-2-Manifestgruppen (Kadenz, Magazin, sechs Stats) als unbewertete Rohdaten, das historische Schadens- und Handlingmodell von Patch 8.2.6 (43 Rahmen, 16 Kennlinien, veraltet) und zwölf Beispiele aus fünf Spielen (Destiny 2, Halo Infinite, Apex Legends, Valorant, Warzone; drei Video-, neun Text-/API-Beispiele; Codex-Mac, Ego-Bewegung R2, Thema Waffenwerte). Eine Messzeile in `docs/destiny2.md` › 2 (Anker `z-ww-karte`), Methode 25, drei Einträge in `data/clips.json`, Notiz in apex.md.
