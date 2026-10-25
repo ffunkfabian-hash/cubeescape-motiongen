@@ -189,7 +189,7 @@
    "title": "Hand cannon ranges.",
    "url": "https://www.reddit.com/r/CrucibleGuidebook/comments/194r4qh/",
    "date": "2024-01-12",
-   "note": "Rollfrage Reichweite gegen Stabilität; Gegenstimme (Eyasluna 90 Stabilität / 55 Reichweite) vorhanden",
+   "note": "Frage nach Hand-Cannon-Rolls: Reichweite gegen Stabilität; Kommentare nicht gelesen",
    "kind": "Einzelstimme",
    "checked": "Beitrag bestätigt (Pullpush), Kommentare nicht gelesen"
   },
@@ -259,7 +259,8 @@
     "menu_rpm": "S",
     "menu_magazine": "S",
     "visible_handling_bar_fill_pct": "M"
-   }
+   },
+   "notes": "Menükarte Bild 60 bei 60 fps; RPM/Magazin eingeblendet [S], Balkenfüllung [M] ±3 pp; Zuarbeit las 36, Bestand 37 – kein neuer Messwert; Ausrüstung/Perks unbekannt, keine Aussage zur aktuellen Balance."
   },
   {
    "id": "M-02",
@@ -285,7 +286,8 @@
     "menu_rpm": "S",
     "menu_magazine": "S",
     "visible_handling_bar_fill_pct": "M"
-   }
+   },
+   "notes": "Menükarte Bild 60 bei 60 fps; RPM/Magazin eingeblendet [S], Balkenfüllung [M] ±3 pp; Zuarbeit las 29, Bestand 30 – kein neuer Messwert; Ausrüstung/Perks unbekannt, keine Aussage zur aktuellen Balance."
   },
   {
    "id": "O-VAL-VIDEO",
@@ -5483,6 +5485,7 @@
    "ideal_ttk_precision_s": 1.379,
    "ideal_ttk_body_s": 2.069,
    "zoom_x": 1.6,
+   "zoom_kind": "Entwicklerangabe Vergrößerung",
    "ttk_origin": "Rechnung (n−1)/Schuss je s aus Quellwerten, keine Messung"
   },
   {
@@ -5507,6 +5510,7 @@
    "ideal_ttk_precision_s": 1.473,
    "ideal_ttk_body_s": 2.21,
    "zoom_x": 1.6,
+   "zoom_kind": "Entwicklerangabe Vergrößerung",
    "ttk_origin": "Rechnung (n−1)/Schuss je s aus Quellwerten, keine Messung"
   },
   {
@@ -5560,6 +5564,7 @@
    "draw_s": 1,
    "reload_s": 2.5,
    "zoom_x": 1.25,
+   "zoom_kind": "Winkelzoom (API)",
    "ads_rpm": 526.5,
    "ttk_origin": "Rechnung aus API-Bändern, 150 HP, nachgerechnet"
   },
@@ -5599,6 +5604,7 @@
    "draw_s": 1,
    "reload_s": 2.5,
    "zoom_x": 1.25,
+   "zoom_kind": "Winkelzoom (API)",
    "ads_rpm": 594.0,
    "ttk_origin": "Rechnung aus API-Bändern, 150 HP, nachgerechnet"
   },
@@ -5629,6 +5635,7 @@
    "draw_s": 1,
    "reload_s": 2.5,
    "zoom_x": 1.5,
+   "zoom_kind": "Winkelzoom (API)",
    "ads_rpm": 315.0,
    "ttk_origin": "Rechnung aus API-Bändern, 150 HP, nachgerechnet"
   },
@@ -5659,6 +5666,7 @@
    "draw_s": 1.5,
    "reload_s": 3.7,
    "zoom_x": 2.5,
+   "zoom_kind": "Winkelzoom (API)",
    "ads_rpm": 36.0,
    "ttk_origin": "Rechnung aus API-Bändern, 150 HP, nachgerechnet"
   },
