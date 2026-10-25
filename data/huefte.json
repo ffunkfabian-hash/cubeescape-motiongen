@@ -2192,7 +2192,7 @@
      100.0
     ]
    },
-   "notes": "Ego-Grundpose, nicht Menüansicht. Klingenkopf und Schaft in Waffenbbox, Knochenfinger der rechten Hand ausgeschlossen. Kopf glüht; ein eigenständig abgrenzbarer Mündungsaustritt ist im Ruhebild nicht sicher sichtbar, daher muzzle=null und convergence=null. Keine Visieröffnung. Schaftwinkel getrennt vom nicht sichtbaren Lauf.",
+   "notes": "Ego-Grundpose, nicht Menüansicht. Klingenkopf und Schaft in Waffenbbox, Knochenfinger der rechten Hand ausgeschlossen. Kopf glüht; ein eigenständig abgrenzbarer Mündungsaustritt ist im Ruhebild nicht sicher sichtbar, daher muzzle=null. Keine Visieröffnung. Schaftwinkel getrennt vom nicht sichtbaren Lauf.",
    "good": null,
    "bad": null,
    "audience": null,
