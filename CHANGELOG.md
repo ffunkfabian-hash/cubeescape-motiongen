@@ -3,7 +3,7 @@
 ## 0.18.0 „Livery“ – 2026-10-25
 
 - Neue Referenzanalyse [Oberflächenmuster von Waffen](docs/oberflaechen.md) mit `data/oberflaechen.json`: Farbfelder, bunter Anteil, Helligkeitsabstand Schale–Rahmen, Muster, Verschleiß und Shaderlogik in Destiny 2 (42 Hersteller-Grundlacke gesichtet, acht gemessen, zwei Shaderreihen), die zehn Antigravity-„Regeln“ als Behauptung mit Befund, BASIC-Materialrollen als Vorschlag. Acht Messeinträge in `data/clips.json`.
-- Antigravity-Zuarbeit (9 Spiele, 86 Beispiele, 34 Videos) größtenteils nicht übernommen: alle IDs echt, aber 24 Videos mit falschem Kanal/Datum, 56 Beispiele nicht bestätigt (u. a. Halo 3 statt Infinite, Teileleitfäden statt Hersteller, 14 Zeitstempel hinter dem Videoende), Beschreibungen bei mindestens 8 bestätigten D2-Waffen falsch. Befund: bunter Anteil der Grundlacke 1,7–9,9 % (C* > 25) bei 7 von 8, ΔL* ≥ 40 nur bei hellen Schalen, Muster queren Paneele, Visiergehäuse folgen bei mehreren Waffen der Lackierung. [Bericht](docs/versions/0.md#0180-livery--2026-10-25).
+- Antigravity-Zuarbeit (9 Spiele, 86 Beispiele, 34 Videos) größtenteils nicht übernommen: alle IDs echt, aber 24 Videos mit falschem Kanal/Datum, 56 Beispiele nicht bestätigt (u. a. Halo 3 statt Infinite, Teileleitfäden statt Hersteller, 14 Zeitstempel hinter dem Videoende), Beschreibungen bei mindestens 8 bestätigten D2-Waffen falsch. Befund: bunte Pixel der Grundlacke 1,7–9,9 % (C* > 25) bei 7 von 8, Farbtonfläche der Akzente 5,6–11,7 % (Antigravity 18–20 %), ΔL* ≥ 40 nur bei hellen Schalen, Muster queren Paneele, Visiergehäuse folgen bei mehreren Waffen der Lackierung. [Bericht](docs/versions/0.md#0180-livery--2026-10-25).
 
 ## 0.17.0 „Steadyhand“ – 2026-10-25
 

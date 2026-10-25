@@ -116,7 +116,7 @@ Zwei Nb90-Videos zeigen je eine Waffe mit allen Shadern ihres Kontos; Bögen all
 | fest | Form, Prägungen und Kleinsymbole behalten Lage, nehmen aber die Shaderfarbe an | goldenes Emblem hinten, kleine blaue Leuchtanzeige oben, helle Magazinfenster |
 
 **Folgerung als Beobachtung:** Ein Destiny-Shader belegt erkennbar wenige Farb-/Materialfelder und kann die ganze Waffe umfärben;
-Leuchtteile und Embleme sind ausgenommen. Ob ein Muster vom Shader oder von der Waffe kommt, unterscheidet sich je Waffe. Antigravitys
+bei Elsie's Rifle sind Emblem, Leuchtanzeige und Magazinfenster ausgenommen (bei Ros Arago IV nicht gesondert geprüft). Ob ein Muster vom Shader oder von der Waffe kommt, unterscheidet sich je Waffe. Antigravitys
 „4-Kanal-System nach den Quadranten des Shader-Symbols“ mit festen Flächenanteilen (35–50 / 15–25 / 25–35 / 5–12 %) ist aus den Videos
 weder bestätigt noch widerlegt und hier nicht übernommen.
 
@@ -134,16 +134,22 @@ C* über der Schwelle; ΔL* = beleuchtete Schalenprobe minus dunkle Rahmen-/Grif
 | Uriel's Gift <a id="o-m-uriels-gift"></a> | 434 s | 27,6 % | 1,7 % | 0,1 % | Tarnung `#83A2B3`/`#63899C` 55–65 | Unterschale `#3B586A` 35,9 | 19–29 | ähnlich (Petrol/Indigo) |
 | Death Adder <a id="o-m-death-adder"></a> | 117,5 s | 15,7 % | 3,3 % | 2,8 % | `#ACAF98` 70,7 | `#141614` 7,0 | 64 | „mattschwarz 60 %, giftgrün“ – falsch |
 | The Mornin' Comes <a id="o-m-mornin-comes"></a> | 387,5 s | 45,9 % | 28,1 % | 10,1 % | rot `#321211`–`#471A17` 10–16 | Magazin `#101416` 6,0 | 4–10 | „kobaltblau 55 %“ – falsch |
-| Valakadyn <a id="o-m-valakadyn"></a> | 318,5 s | 3,1 % | 2,8 % | 2,3 % | `#646E6D` 45,6 | dunkle Klasse L* 11,6 | ≈ 34 | „giftgrüne Haube 30 %“ – zu hoch |
+| Valakadyn <a id="o-m-valakadyn"></a> | 318,5 s | 3,1 % | 2,8 % | 2,3 % | `#646E6D` 45,6 | keine Probe (dunkle Klasse L* 11,6) | – | „giftgrüne Haube 30 %“ – zu hoch |
 
 Weitere Proben: Akzentflächen Annual Skate `#CD697C`/`#97323E` (C* 42–46), Solemn Hymn `#B3686A` (32), Bad News Orange `#EDB393` (30),
 Eystein-D Ockerfeld `#7F6C35` (33), Uriel's Gift Türkis `#39828C` (23), Death Adder Gelb `#D8D170` (50), Valakadyn Grün `#3D5512` (40);
 blanke Läufe und Mündungen L* 40–74 bei C* ≤ 3. Mit Schatten und Glanz verteilt sich die Helligkeit breit (L*-Spanne 10.–90.
 Perzentil der Waffenfläche: helle Schalen 69–75, Tarnung und dunkle Lacke 46–52, Mornin' 37).
 
-**Befund:** Der bunte Anteil der Grundlacke liegt bei 7 von 8 Waffen unter 10 % (C* > 25); Antigravitys Akzentanteile sind etwa doppelt
-so hoch. Er hängt stark an der Schwelle (Uriel's Gift 1,7 % oder 27,6 %), weil gedämpfte Tarnfarben zwischen 15 und 25 liegen. Der
-Helligkeitsabstand Schale–Rahmen ist bei hellen Schalen groß (64–78), bei Tarnung und Farblack klein (4–34).
+**Akzentfläche über den Farbton:** Bunte Pixel sind nicht die bemalte Fläche – Schatten im Band und helle Abplatzer fallen unter die
+Schwelle. Darum ist die Fläche der Akzentfarbe zusätzlich über ihr Farbtonband gemessen (C* > 8, danach Schließen mit 4-px-Scheibe, damit
+Sprenkel im Band mitzählen; Kontrollbild angesehen): SUROS-Rot **9,7 %** (Annual Skate) und **11,7 %** (Solemn Hymn), Häkke-Orange
+**5,6 %** (Bad News). Bei Death Adder trifft das Gelbband auch die cremefarbene Schale, dort ist keine Farbtonfläche angegeben.
+
+**Befund:** Der bunte Anteil der Grundlacke liegt bei 7 von 8 Waffen unter 10 % (C* > 25), die Farbtonfläche der Akzente bei 6–12 %;
+Antigravitys Akzentanteile (18–20 %) liegen über beiden Maßen. Der bunte Anteil hängt stark an der Schwelle (Uriel's Gift 1,7 % oder
+27,6 %), weil gedämpfte Tarnfarben zwischen 15 und 25 liegen. Der Helligkeitsabstand Schale–Rahmen ist bei hellen Schalen groß (64–78),
+bei Tarnung und Farblack klein (4–29; Valakadyn ohne Rahmenprobe).
 
 ## 5. Die Antigravity-Regeln am Bild
 
@@ -152,10 +158,10 @@ Antigravity formulierte zehn „harte Gestaltungsregeln“. Hier sind sie als Be
 | # | Behauptung [A] | Befund | Urteil |
 |---|---|---|---|
 | 1 | 3–4 Farbzonen, keine überzeugende Waffe hat mehr | Die 42 Grundlacke zeigen meist drei bis vier Felder (Schale, dunkler Rahmen, Metall, ein Akzent; Tarnung = ein Feld mit zwei bis drei Tönen); Shader zwei bis drei Felder plus Metall [O] | Beobachtung passt, Wertung unbelegt |
-| 2 | Akzent 5–12 %, mehr wirkt wie Spielzeug | 1,7–9,9 % bei 7 von 8 (C* > 25), Belege zu hoch (Annual Skate 6,7 statt 20 %, Solemn Hymn 9,9 statt 18 %); Mornin' ist rot als Grundfarbe [M] | Größenordnung „unter etwa 10 %“ passt für Grundlacke; Wirkung unbelegt |
+| 2 | Akzent 5–12 %, mehr wirkt wie Spielzeug | bunte Pixel 1,7–9,9 % bei 7 von 8 (C* > 25), Farbtonfläche SUROS-Rot 9,7 und 11,7 %, Häkke-Orange 5,6 %; Belege zu hoch (Annual Skate 20 %, Solemn Hymn 18 %); Mornin' ist rot als Grundfarbe [M] | Größenordnung „um 10 % oder weniger“ passt für Grundlacke; Wirkung unbelegt |
 | 3 | Muster enden an Fugen und Kanten | Eystein-D: ja; Annual Skate, Swift Ride, Elsie's Rifle, Ros-Arago-Shader: Muster queren Paneele [O] | als Regel widerlegt |
 | 4 | Musterelement 2–6 % der Länge (10–35 mm) | nicht gemessen; Millimeter haben keinen Maßstab im Bild | offen |
-| 5 | Schale/Rahmen ΔL* ≥ 40 | helle Schalen 64–78, Tarnung und Farblack 4–34; Antigravitys eigener Omolon-Beleg ergibt 27 [M] | als allgemeine Regel widerlegt |
+| 5 | Schale/Rahmen ΔL* ≥ 40 | helle Schalen 64–78, Tarnung und Farblack 4–29; Antigravitys eigener Omolon-Beleg ergibt 27 [M] | als allgemeine Regel widerlegt |
 | 6 | Visiere bleiben in 85 % neutral | Gegenbeispiele: Visiergehäuse folgen der Lackierung bei Uriel's Gift, Mornin' und den Cabal-/Chosen-Waffen; neutral bleibt die Linse; eine Quote ist nicht ausgezählt [O] | Quote ungeprüft, Gegenbeispiele vorhanden |
 | 7 | Funktionsteile bleiben unlackiert | Läufe und Mündungen meist blank; Shader färben aber auch Griff, Magazin, Schaft; fest bleiben Emblem, Leuchtanzeige, Magazinfenster (Elsie's) [O] | teilweise |
 | 8 | Verschleiß zu 80 % an Kanten, nie flächig | Kantenabrieb kommt vor (Uriel's Gift), ebenso flächige gemalte Abnutzung: Sprenkel im Rotband (SUROS), ganze Schale (Bad News), Gold über Dunkel (Cabal/Chosen) [O] | Absolutform widerlegt |
@@ -166,7 +172,7 @@ Antigravity formulierte zehn „harte Gestaltungsregeln“. Hier sind sie als Be
 
 Nur aus den bestätigten Destiny-Bildern; keine Wirkungsmessung.
 
-- **Wenige Felder, eine Signalfarbe:** Die Grundlacke tragen eine bunte Farbe auf wenigen Prozent der Fläche (Band, Block, Schriftfeld);
+- **Wenige Felder, eine Signalfarbe:** Die Grundlacke tragen eine bunte Farbe als Band, Block oder Schriftfeld (Farbtonfläche 5,6–11,7 % bei drei gemessenen Waffen);
   Ausnahme sind ganz farbige Waffen wie The Mornin' Comes, deren Farbe dann gedämpft und dunkel gerendert ist (L* 10–16).
 - **Hell/Dunkel trägt die Form bei hellen Schalen,** bei Tarnungen tun es Tonwechsel innerhalb einer Farbfamilie und blanke Metallteile.
 - **Abnutzung ist gemalt und flächig verteilt** (Sprenkel, abgeriebene Flächen), nicht nur Kantenaufhellung.
@@ -185,8 +191,8 @@ entschieden wird in BASIC.** BASIC-Farben sind Albedo, die Destiny-Werte gerende
 | `graphite` | dunkler Rahmen, Griff, Untergehäuse (Proben L* 5–19); Shader färben auch ihn um (Arctic Pearl) | darf je Skin umgefärbt werden, Standard dunkel; Kontrast zu `shell` je Skin festlegen statt pauschal ΔL* ≥ 40 |
 | `anodized` | Visiergehäuse folgen bei mehreren Grundlacken der Lackierung (Quote nicht ausgezählt) | Visiergehäuse wahlweise `shell` folgen lassen, Klemmen und Schiene `anodized` |
 | `trim` | blanke Läufe, Mündungen, Kanten (L* 40–74, C* ≤ 3) | skinfest als Metall; Abnutzung legt `trim` frei |
-| `accent` | bunter Anteil 2–10 % (C* > 25) als Band, Block oder Schriftfeld | eine Akzentfarbe je Skin; Anteil als messbare Größe (C* > 25) im Bildtest |
-| `energy` | Leuchtanzeigen, Kapseln und Linsen bleiben unter Shadern | skinfest |
+| `accent` | bunte Pixel 2–10 % (C* > 25), Farbtonfläche 6–12 %, als Band, Block oder Schriftfeld | eine Akzentfarbe je Skin; Anteil als messbare Größe (C* > 25) im Bildtest |
+| `energy` | bei Elsie's Rifle bleiben Leuchtanzeige und Magazinfenster unter allen gesichteten Shadern; Kapseln und Linsen unter Shadern nicht geprüft | skinfest (aus einer Waffe abgeleitet) |
 | `decal` | Herstellerschrift auf fast allen Grundlacken, Emblem bei Elsie's Rifle skinfest | eigene Schrift/Marke als `decal`, Lage skinfest |
 | Muster | aus dem Shader (Ros Arago IV) oder festes Bandlayout der Waffe, vom Shader nur gefärbt (Elsie's Rifle) | Musterlayout je Waffe als Maske, Farben aus dem Skin; Muster dürfen Paneele queren |
 

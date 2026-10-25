@@ -11,7 +11,8 @@
  "method": {
   "frames": "Ultraclocked-Menübilder 1920 × 1080, 60/s, Mitte des Menüabschnitts (Bedienleiste ausgeblendet, Waffe herangezoomt)",
   "mask": "Hintergrund als maskierter Median über 42 Menübilder aus vier Videos (960 × 540), Restbereich der Überlagerung bilinear gefüllt; Waffe = Summe |RGB − Hintergrund| > 36, Schließen/Öffnen, eingeschlossene Löcher gefüllt; Herstellerbanner, Wasserzeichen und Bedienleiste ausgenommen",
-  "chroma_share": "Anteil der Waffenpixel mit CIELAB-Buntheit C* über 15/25/35 (D65, sRGB)",
+  "chroma_share": "Anteil der Waffenpixel mit CIELAB-Buntheit C* über 15/25/35 (D65, sRGB); misst bunte Pixel, nicht die bemalte Fläche",
+  "accent_hue_area": "Akzentfläche über den Farbton: Waffenpixel mit C* > 8 im Farbtonband der Akzentfarbe, danach Schließen (Scheibe 4 px), damit helle Sprenkel im Band mitzählen; nur wo das Band keine anderen Teile trifft (SUROS-Rot, Häkke-Orange)",
   "lightness_classes": "nur bei C* ≤ 25: light L* > 65, mid 35–65, dark < 35; misst gerenderte Helligkeit mit Menülicht und Schatten, keine Albedo",
   "probes": "12 × 12 px Mittelwert im 1080p-Bild zum Messbild (frame_s), Mitte xy_1080 in Pixeln (Ursprung oben links); Lage im Kontrollbild markiert",
   "accuracy": "Maske ±2 px am Rand (Anteile ±1–2 Prozentpunkte), Proben ±3 L*; Menülicht warm von oben rechts"
@@ -455,11 +456,7 @@
     "timestamp": "00:05"
    },
    "verdict": "dropped",
-   "source": null,
-   "url": "https://www.youtube.com/watch?v=None",
-   "time_s": null,
-   "observation": "kWUViHovz1E zeigt bei 0:05 Conditional Finality, Liminal Vigil kommt im 22-s-Video nicht vor",
-   "status": "O"
+   "reason": "kWUViHovz1E zeigt bei 0:05 Conditional Finality, Liminal Vigil kommt im 22-s-Video nicht vor"
   },
   {
    "n": 19,
@@ -471,11 +468,7 @@
     "timestamp": "07:20"
    },
    "verdict": "dropped",
-   "source": null,
-   "url": "https://www.youtube.com/watch?v=None",
-   "time_s": null,
-   "observation": "7:20 liegt hinter dem Ende des Videos (7:09); The Last Word ist keine Io-Legendary",
-   "status": "O"
+   "reason": "7:20 liegt hinter dem Ende des Videos (7:09); The Last Word ist keine Io-Legendary"
   },
   {
    "n": 20,
@@ -487,11 +480,7 @@
     "timestamp": "08:10"
    },
    "verdict": "dropped",
-   "source": null,
-   "url": "https://www.youtube.com/watch?v=None",
-   "time_s": null,
-   "observation": "8:10 liegt hinter dem Ende des Videos (7:09)",
-   "status": "O"
+   "reason": "8:10 liegt hinter dem Ende des Videos (7:09)"
   },
   {
    "n": 21,
@@ -519,11 +508,7 @@
     "timestamp": "02:10"
    },
    "verdict": "dropped",
-   "source": null,
-   "url": "https://www.youtube.com/watch?v=None",
-   "time_s": null,
-   "observation": "DEM-8xg66R8 ist Shattered Cipher (50 s), 2:10 liegt hinter dem Ende",
-   "status": "O"
+   "reason": "DEM-8xg66R8 ist Shattered Cipher (50 s), 2:10 liegt hinter dem Ende"
   },
   {
    "n": 23,
@@ -615,11 +600,7 @@
     "timestamp": "02:15"
    },
    "verdict": "dropped",
-   "source": null,
-   "url": "https://www.youtube.com/watch?v=None",
-   "time_s": null,
-   "observation": "pazFJ51axhE zeigt nur Elsie's Rifle mit wechselnden Shadern",
-   "status": "O"
+   "reason": "pazFJ51axhE zeigt nur Elsie's Rifle mit wechselnden Shadern"
   },
   {
    "n": 29,
@@ -631,11 +612,7 @@
     "timestamp": "04:30"
    },
    "verdict": "dropped",
-   "source": null,
-   "url": "https://www.youtube.com/watch?v=None",
-   "time_s": null,
-   "observation": "pazFJ51axhE zeigt nur Elsie's Rifle mit wechselnden Shadern",
-   "status": "O"
+   "reason": "pazFJ51axhE zeigt nur Elsie's Rifle mit wechselnden Shadern"
   },
   {
    "n": 30,
@@ -1383,6 +1360,14 @@
     }
    },
    "L_p90_minus_p10": 70.0,
+   "accent_hue_area": {
+    "hue_band_deg": [
+     -30,
+     30
+    ],
+    "hue_share": 0.09,
+    "hue_share_closed": 0.097
+   },
    "probes": {
     "shell": {
      "hex": "#C7DAD9",
@@ -1488,6 +1473,14 @@
     }
    },
    "L_p90_minus_p10": 70.2,
+   "accent_hue_area": {
+    "hue_band_deg": [
+     -30,
+     30
+    ],
+    "hue_share": 0.109,
+    "hue_share_closed": 0.117
+   },
    "probes": {
     "shell": {
      "hex": "#C5D2D0",
@@ -1575,6 +1568,14 @@
     }
    },
    "L_p90_minus_p10": 74.9,
+   "accent_hue_area": {
+    "hue_band_deg": [
+     30,
+     75
+    ],
+    "hue_share": 0.051,
+    "hue_share_closed": 0.056
+   },
    "probes": {
     "shell": {
      "hex": "#C8D0D0",
@@ -1652,6 +1653,7 @@
     }
    },
    "L_p90_minus_p10": 48.8,
+   "accent_hue_area": null,
    "probes": {
     "camo": {
      "hex": "#475734",
@@ -1739,6 +1741,7 @@
     }
    },
    "L_p90_minus_p10": 46.1,
+   "accent_hue_area": null,
    "probes": {
     "camo_a": {
      "hex": "#83A2B3",
@@ -1825,6 +1828,7 @@
     }
    },
    "L_p90_minus_p10": 68.7,
+   "accent_hue_area": null,
    "probes": {
     "shell": {
      "hex": "#ACAF98",
@@ -1910,6 +1914,7 @@
     }
    },
    "L_p90_minus_p10": 36.6,
+   "accent_hue_area": null,
    "probes": {
     "red": {
      "hex": "#321211",
@@ -1987,6 +1992,7 @@
     }
    },
    "L_p90_minus_p10": 51.8,
+   "accent_hue_area": null,
    "probes": {
     "shell": {
      "hex": "#646E6D",
@@ -2088,8 +2094,8 @@
   {
    "n": 2,
    "antigravity": "Akzent 5–12 % der Fläche, höher wirkt wie Spielzeug",
-   "finding": "Bunter Anteil (C* > 25) gemessen 1,7–9,9 % bei 7 von 8 Waffen; Antigravity-Belege zu hoch (Annual Skate 6,7 % statt 20 %, Solemn Hymn 9,9 % statt 18 %). The Mornin' Comes ist rot als Grundfarbe (28 %). Stark schwellenabhängig: Uriel's Gift 1,7 % bei C* > 25, 27,6 % bei C* > 15.",
-   "verdict": "Größenordnung „Signalfarbe unter etwa 10 %“ trifft für die Grundlacke zu; Wirkungsaussage unbelegt",
+   "finding": "Bunte Pixel (C* > 25) 1,7–9,9 % der Waffenfläche bei 7 von 8 Waffen; The Mornin' Comes 28 % als rote Grundfarbe. Bunte Pixel sind nicht die bemalte Fläche (Schatten und helle Sprenkel im Band fallen heraus); die Farbtonfläche einschließlich Sprenkel ist etwas größer: SUROS-Rot 9,7 % (Annual Skate) und 11,7 % (Solemn Hymn), Häkke-Orange 5,6 % (Bad News). Antigravitys Belege (20 % und 18 %) liegen auch darüber. Stark schwellenabhängig: Uriel's Gift 1,7 % bei C* > 25, 27,6 % bei C* > 15.",
+   "verdict": "Größenordnung „Akzent um 10 % oder weniger“ trifft für die Grundlacke zu; Wirkungsaussage unbelegt",
    "status": "M"
   },
   {
@@ -2174,13 +2180,13 @@
    },
    {
     "role": "accent",
-    "observed": "bunter Anteil der Grundlacke 2–10 % (C* > 25), als Band, Block oder Schriftfeld",
+    "observed": "bunte Pixel (C* > 25) 1,7–9,9 % der Waffenfläche, Farbtonfläche SUROS-Rot 9,7–11,7 %, Häkke-Orange 5,6 %; als Band, Block oder Schriftfeld",
     "proposal": "eine Akzentfarbe je Skin, Flächenanteil als messbare Größe (C* > 25) im Bildtest"
    },
    {
     "role": "energy",
-    "observed": "Leuchtanzeigen, Kapseln, Linsen bleiben unter Shadern unverändert (Elsie's Rifle)",
-    "proposal": "skinfest"
+    "observed": "bei Elsie's Rifle bleiben Leuchtanzeige und Magazinfenster unter allen gesichteten Shadern unverändert; Kapseln und Linsen unter Shadern nicht geprüft",
+    "proposal": "skinfest (Vorschlag, aus einer Waffe abgeleitet)"
    },
    {
     "role": "decal",
