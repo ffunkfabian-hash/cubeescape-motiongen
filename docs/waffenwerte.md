@@ -6,7 +6,7 @@ Tötungszeit (TTK) ergeben – bei Destiny 2 (Waffenkarte, Manifest-Basiswerte, 
 Call of Duty: Warzone. Gesammelt hat eine Codex-Mac-Sitzung (Auftrag „Ego-Bewegung“ Runde 2, Thema Waffenwerte, 25.10.2026). Diese Version hat die Zuarbeit nach dem
 [Analyse-Standard](standard.md) geprüft, gegen den Bestand abgeglichen und nur Belegtes übernommen ([8](#8-prüfung-und-zählung)). Hier stehen Beobachtungen und
 Quellenzahlen; Schlüsse und Startwerte entstehen in BASIC bzw. Cube Escape. Maschinenlesbar: [`data/waffenwerte.json`](../data/waffenwerte.json). Nachbarthemen:
-[Nachladen](nachladen.md) (0.25), [Waffenwechsel](wechsel.md) (0.26), [Rückstoß](rueckstoss.md) (0.16), [Zielbewegung](zielbewegung.md) (0.17); die Zielhilfe (Aim-Assist-Stat und Zielhilfe im Spiel) ist ein eigenes Thema.
+[Nachladen](nachladen.md) (0.25), [Waffenwechsel](wechsel.md) (0.26), [Rückstoß](rueckstoss.md) (0.16), [Zielbewegung](zielbewegung.md) (0.17); die Zielhilfe (Aim-Assist-Stat und Zielhilfe im Spiel) ist ein eigenes Thema: [Zielhilfe](zielhilfe.md) (0.28).
 
 **Status:** **[M]** am Einzelbild gemessen; **[S]** Sekundärquelle (Datenbank, API, Rechenmodell, eingeblendete Menüzahl); **[B]** Entwickler (Patchnotes, Blog);
 **[C]** Spielerstimme, Beitrag bestätigt, Kommentare nicht gelesen; **[O]** Sichtung ohne belastbare Zahl. **Fast alle Zahlen sind [S] oder [B] und keine eigene Messung**: gemessen ist nur
@@ -220,7 +220,7 @@ Kommentare nicht nachgelesen; alle sind **Einzelstimmen** (je ein unabhängiger 
 
 - **Aktuelle Destiny-Schäden** je PvE/PvP: im Manifest nicht belegt; die Modelldaten sind von 2025 und veraltet (13 von 48 Kadenzen weichen ab).
 - **Aktuelle Ziehen-/Wegstecken-/ADS-/Nachladezeiten** und Falloff-Meter: aus Stats allein nicht ableitbar; Handling-Sekunden der Menükarten nicht gemessen.
-- **Wirkung des Aim-Assist-Stats:** weder Prozent noch Kegel; Zielhilfe ist ein eigenes Thema.
+- **Wirkung des Aim-Assist-Stats:** weder Prozent noch allgemeiner Kegel (0.28: nur ein historisches Hand-Cannon-Beispiel von 2021 nennt 2,5° bis 3°); Quellenaussagen in [zielhilfe.md](zielhilfe.md).
 - **30 nicht zugeordnete Destiny-Gruppen** und Projektil-, Pellet- und Sonderwaffen: kein Modell, Schadensfelder `null`.
 - **Gesamtzeit bis zur Tötung** (Eingabe, Ziehen, ADS, Flug, Zielerfassung): nicht gerechnet; die Zustände überlagern sich.
 - **Halo 2026:** nur historische Stände 2023/2024; die TTK 2024 nimmt gleiche Trefferzahlen wie 2023 an. **Apex Kopf, CoD Schaden und Kopffaktor:** `null` wegen Quellkonflikten. Destiny 1, Marathon: keine Zahlen.

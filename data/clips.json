@@ -2428,5 +2428,35 @@
     "clip": "https://www.youtube.com/watch?v=WH5xpA7tfY8",
     "source": "Skovos (YouTube), 18.04.2020, 30000/1001 fps; Codex-Mac 25.10.2026, REF 0.27 „Statline“ (Mac, 25.10.2026), docs/waffenwerte.md",
     "timestamps": "O-VAL-VIDEO 01:00.000"
+  },
+  {
+    "measurement": "Zielhilfe Destiny 2: Lage des Legionärs im Bild in der Friction-Vorführung (Bildlage, keine AA-Stärke)",
+    "clip": "https://www.youtube.com/watch?v=qrJv7mj7Ab4",
+    "source": "Drewsky (YouTube), 15.02.2020, 60 fps; Codex-Mac 25.10.2026, REF 0.28 „Pullzone“ (Mac, 25.10.2026), docs/zielhilfe.md",
+    "timestamps": "D01 06:30 / 06:35 / 06:40; D02 [O] 06:16–06:25"
+  },
+  {
+    "measurement": "Zielhilfe Destiny 2: Vergleichsvideo Maus gegen Controller (Retikelabbildungen, Sichtung [O])",
+    "clip": "https://www.youtube.com/watch?v=wwXYJcIwgkk",
+    "source": "jephXS (YouTube), 02.11.2022, 60 fps; Codex-Mac 25.10.2026, REF 0.28 „Pullzone“ (Mac, 25.10.2026), docs/zielhilfe.md",
+    "timestamps": "D14 02:05 / 06:40"
+  },
+  {
+    "measurement": "Zielhilfe CoD MW2019: Rotational-AA-Demos mit Controller-Overlay (Sichtung [O], Drift)",
+    "clip": "https://www.youtube.com/watch?v=ufw8bnIfG7E",
+    "source": "hecksmith (YouTube), 23.04.2022, 60 fps; Codex-Mac 25.10.2026, REF 0.28 „Pullzone“ (Mac, 25.10.2026), docs/zielhilfe.md",
+    "timestamps": "C02 00:07–00:14 / 00:45–01:00"
+  },
+  {
+    "measurement": "Zielhilfe Halo Infinite: Sniper-Test, Lage des Ziels im Bild (Bildlage, 30/s, keine AA-Stärke)",
+    "clip": "https://www.youtube.com/watch?v=GIBTUjd5YIY",
+    "source": "Girthworm Jim (YouTube), 05.01.2022, 30 fps; Codex-Mac 25.10.2026, REF 0.28 „Pullzone“ (Mac, 25.10.2026), docs/zielhilfe.md",
+    "timestamps": "H01 00:36 / 00:42"
+  },
+  {
+    "measurement": "Zielhilfe CoD MW2019: linker Stick ohne aktives Zielen, Lage des Ziels im Bild (Bildlage)",
+    "clip": "https://www.youtube.com/watch?v=frjx63T5FQU",
+    "source": "hecksmith (YouTube), 10.11.2022, 60 fps; Codex-Mac 25.10.2026, REF 0.28 „Pullzone“ (Mac, 25.10.2026), docs/zielhilfe.md",
+    "timestamps": "C01 03:23 / 03:25 / 03:27"
   }
 ]
