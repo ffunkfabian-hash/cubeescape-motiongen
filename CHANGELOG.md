@@ -3,7 +3,7 @@
 ## 0.24.0 „Glidepath“ – 2026-10-25
 
 - **Visier-Anflug, Fadenkreuz und Sprint je Waffentyp in Destiny 2** für den BALLON-Prototyp (17 BASIC-Standardtypen): Tabellen je Typ in [destiny2.md › 3](docs/destiny2.md#s-glidepath), 35 Messzeilen (`z-gp-…`), Methode „Glidepath“, Vergleich in [auswertung.md](docs/auswertung.md#ballon-visier), Einträge in `data/clips.json`.
-- Befund: **kein Überschwingen in 11 gemessenen Typen** (Bogen, Scharfschütze, kurze Fusion nur ±3–4 pp, Scout übertragen); in verfolgten Fällen monoton mit Abbremsen über 3–9 Bilder, Dauer 6–20 Bilder; Weltzoom endet meist mit dem Modell (drei Ausnahmen). Hüft-Fadenkreuz an 8 Typen gemessen, beim ADS-Beginn in einem Bild weg (Automatik, MP); Trefferanzeige rotes X 3,0–3,6 % H. Sprintfrequenz in keinem eigenen Clip mit 4 Zyklen belegt. Sieben Widersprüche zum Bestand gelistet, nicht entschieden. [Bericht](docs/versions/0.md#0240-glidepath--2026-10-25).
+- Befund: **kein Überschwingen in 11 gemessenen Typen** (Bogen, Scharfschütze, kurze Fusion nur ±3–4 pp, Scout übertragen); in verfolgten Fällen monoton mit Abbremsen über 3–9 Bilder, Dauer 6–20 Bilder; Weltzoom endet meist mit dem Modell (drei Ausnahmen). Hüft-Fadenkreuz an 8 Typen gemessen, beim ADS-Beginn in einem Bild weg (Automatik, MP); Trefferanzeige rotes X 3,0–3,6 % H. Sprintfrequenz in keinem eigenen Clip mit 4 Zyklen belegt. Acht Widersprüche zum Bestand gelistet, nicht entschieden. [Bericht](docs/versions/0.md#0240-glidepath--2026-10-25).
 
 ## 0.23.0 „Stride“ – 2026-10-25
 
