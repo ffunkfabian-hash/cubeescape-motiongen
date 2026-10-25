@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.25.0 „Reload“ – 2026-10-25
+
+- Neue Referenzanalyse [Nachladen](docs/nachladen.md) mit `data/nachladen.json`: 23 Beispiele aus Destiny 2 (13), Marathon (3), Apex (3) und Titanfall 2 (4) aus 13 Videos (Codex-Mac, Ego-Bewegung Thema 3) – Marker von Beginn bis Hüfte und Ruhe, Munitionsanzeige (HUD) gegen sichtbare Rückkehr, Leer-/Taktisch-Paare. Vier Messzeilen in `docs/destiny2.md` › 2 (Anker `z-rl-…`), Methode 23, 13 Einträge in `data/clips.json`, Notizen in apex.md, titanfall2.md und auswertung.md (V12).
+- Befund (Beobachtung, Schlüsse in BASIC/Cube Escape): die Munitionsanzeige wechselt in allen 12 Fällen mit HUD **vor** dem Hüftmarker (0,15–1,22 s), nie deckungsgleich; Hüfte und ruhig liegen in den 15 Einträgen mit beiden Markern 0,03–0,45 s auseinander (Destiny-Magazin-/Trommel-/Gurtaufnahmen 0,12–0,45 s, Titanfall 2/Apex 0,07–0,20 s; Baligant 2 und Shock and Awe 3 Bilder, an der Grenze der ±2-Bilder-Differenz); Titanfall CAR leer 2,27 s gegen taktisch 1,85 s, P2016 ohne Unterschied.
+- Abnahme: 13/13 Videos per yt-dlp, 27 Nachmessungen am Bild an 23 verschiedenen Zahlen (22 Prüfer, 5 Koordinator, 4 doppelt); übernommen 20, **korrigiert 3** (Apex-RE-45-Hüfte widerlegt: ≈ 19,6–19,85 s statt 19,15 s; zwei Zeitfelder), die je Eintrag kopierten Bewertungsfelder verworfen. [Bericht](docs/versions/0.md#0250-reload--2026-10-25).
+
 ## 0.24.0 „Glidepath“ – 2026-10-25
 
 - **Visier-Anflug, Fadenkreuz und Sprint je Waffentyp in Destiny 2** für den BALLON-Prototyp (17 BASIC-Standardtypen): Tabellen je Typ in [destiny2.md › 3](docs/destiny2.md#s-glidepath), 35 Messzeilen (`z-gp-…`), Methode „Glidepath“, Vergleich in [auswertung.md](docs/auswertung.md#ballon-visier), Einträge in `data/clips.json`.

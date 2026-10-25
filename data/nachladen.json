@@ -1,0 +1,2455 @@
+{
+  "version": "0.25.0",
+  "version_name": "Reload",
+  "topic": "Nachladen: Phasen, Munitionsübernahme und Rückkehr",
+  "source": "Codex-Mac, Ego-Bewegung Thema 3, 25.10.2026 (codex-nachladen.md); geprüft und eingepflegt in REF 0.25 „Reload“",
+  "notes": "Alle Zeiten sind Quellmedienzeit bei nativen 60/s (±1 Bild, Differenzen ±2 Bilder). Felder visible_* beschreiben sichtbare Posenintervalle, keine Eingabe-, Sperr- oder Feuerfreigabezeiten. unbekannt = null. Die je Eintrag kopierten Bewertungsfelder der Zuarbeit sind nicht übernommen; die Bewertung steht je Spiel unter `evaluation`.",
+  "counts": {
+    "entries": 23,
+    "uebernommen": 20,
+    "korrigiert": 3,
+    "verworfen": 0,
+    "neu": 7,
+    "videos": 13
+  },
+  "entries": [
+    {
+      "id": "d2-hawthorne-native",
+      "game": "Destiny 2",
+      "weapon": "Hawthorne's Field-Forged Shotgun",
+      "class": "Schrotflinte",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=73lGCT7yOtk",
+      "timestamp": "322.283–328.267 s",
+      "notes": "Ergänzung/Präzisierung der bestehenden 0.6.0-Zeile, kein neues Waffenbeispiel. Sieben klar wiederholte Zuführbewegungen, erste klar sichtbare Hülse 0.600 s nach Beginn; Takt 37–38 f/.617–.633 s. Hülsenmarker sind sichtbare Spitzen und keine logischen Munitionsübernahmen. Kein HUD, deshalb Leer-/Taktisch-Zustand unbekannt. HUD voll, Abbruch und Feuerfreigabe offen.",
+      "source_channel": "Ultraclocked",
+      "source_upload_date": "20200125",
+      "source_title": "Destiny 2 - All EDZ Legendary Weapons - Animations & Sounds w/ Slow-Motion | Häkke Weapons",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "phases": [
+        {
+          "key": "start",
+          "label": "Waffe verlässt die Hüftlage / Nachladebeginn",
+          "t_s": 322.283333,
+          "frame": 19337
+        },
+        {
+          "key": "other",
+          "label": "Ladeöffnung dreht zur Kamera",
+          "t_s": 322.4,
+          "frame": 19344
+        },
+        {
+          "key": "magazine_out",
+          "label": "Magazin heraus",
+          "t_s": null,
+          "reason": "n. a. für diesen sichtbaren Einzelhülsenablauf: kein herausnehmbares Magazin; Hülsen werden einzeln zugeführt."
+        },
+        {
+          "key": "shell",
+          "label": "Hülse 1",
+          "t_s": 322.883333,
+          "frame": 19373
+        },
+        {
+          "key": "shell",
+          "label": "Hülse 2",
+          "t_s": 323.516667,
+          "frame": 19411
+        },
+        {
+          "key": "shell",
+          "label": "Hülse 3",
+          "t_s": 324.133333,
+          "frame": 19448
+        },
+        {
+          "key": "shell",
+          "label": "Hülse 4",
+          "t_s": 324.75,
+          "frame": 19485
+        },
+        {
+          "key": "shell",
+          "label": "Hülse 5",
+          "t_s": 325.383333,
+          "frame": 19523
+        },
+        {
+          "key": "shell",
+          "label": "Hülse 6",
+          "t_s": 326.0,
+          "frame": 19560
+        },
+        {
+          "key": "shell",
+          "label": "Hülse 7",
+          "t_s": 326.616667,
+          "frame": 19597
+        },
+        {
+          "key": "magazine_in",
+          "label": "Magazin ein",
+          "t_s": null,
+          "reason": "n. a. für diesen sichtbaren Einzelhülsenablauf: kein herausnehmbares Magazin; Hülsen werden einzeln zugeführt."
+        },
+        {
+          "key": "bolt",
+          "label": "abschließende Repetierbewegung",
+          "t_s": 327.666667,
+          "t_s_range": [
+            327.5,
+            327.8
+          ],
+          "frame": 19660
+        },
+        {
+          "key": "hip",
+          "label": "zurück hüftähnlich",
+          "t_s": 328.066667,
+          "t_s_range": [
+            328.05,
+            328.1
+          ],
+          "frame": 19684
+        },
+        {
+          "key": "settled",
+          "label": "ruhige Hüftlage, weiches Ende",
+          "t_s": 328.166667,
+          "t_s_range": [
+            328.116667,
+            328.266667
+          ],
+          "frame": 19690
+        }
+      ],
+      "visible_total_s": 5.883333,
+      "ammo_state": {
+        "mode": null,
+        "note": "kein HUD / kein Leer-Taktisch-Nachweis"
+      },
+      "hud_ammo_shown_s": null,
+      "cancel_observed": null,
+      "visible_total_s_range": [
+        5.833333,
+        5.983333
+      ],
+      "uncertainty": "Native klare Marker ±1 f; Differenzen ±2 f. Weiche Phasen ausdrücklich als Bereich; kein Eingabezeitpunkt und keine Feuerbereitschaft.",
+      "visible_definition": {
+        "begin": "erste sichtbare Nachladebewegung",
+        "begin_s": 322.28333333333336,
+        "end": "weiches Beruhigen in Hüftlage",
+        "end_s": 328.1666666666667,
+        "end_range_s": [
+          328.1166666666667,
+          328.26666666666665
+        ]
+      },
+      "visible_to_hip_s_range": [
+        5.766666666666667,
+        5.816666666666666
+      ],
+      "measured_frame_count": 88,
+      "subject": "Hawthorne's Field-Forged Shotgun",
+      "window_s": [
+        322.283,
+        328.267
+      ],
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "ergänzt Zeile Hawthorne (0.6.0)",
+        "korrektur": null
+      },
+      "visible_start_s": 322.283333,
+      "visible_end_s": 328.166667,
+      "visible_end_marker": null,
+      "visible_end_definition": null,
+      "hud_to_hip_s": null,
+      "hud_to_hip_s_range": null,
+      "context": null
+    },
+    {
+      "id": "d2-baligant-native",
+      "game": "Destiny 2",
+      "weapon": "Baligant",
+      "class": "Schrotflinte",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=afs_dhFDhQU",
+      "timestamp": "15.550–21.350 s",
+      "notes": "Ergänzung/Präzisierung der bestehenden 0.6.0-Zeile. Fünf einzelne Zuführbewegungen; sichtbare Hülsenspitzen im Takt 52/51/52/52 f=.867/.850/.867/.867 s. Keine logischen Übernahmepunkte ohne HUD. Nur einmal Repetieren nach der letzten Hülse. Leer-/Taktisch-Paar und Abbruch offen.",
+      "source_channel": "Ultraclocked",
+      "source_upload_date": "20200209",
+      "source_title": "Destiny 2 - All Io Legendary Weapons - Animations & Sounds w/ Slow-Motion | VEIST Weapons",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "phases": [
+        {
+          "key": "start",
+          "label": "Waffe verlässt die Hüftlage / Nachladebeginn",
+          "t_s": 15.55,
+          "frame": 933
+        },
+        {
+          "key": "magazine_out",
+          "label": "Magazin heraus",
+          "t_s": null,
+          "reason": "n. a. für diesen sichtbaren Einzelhülsenablauf: kein herausnehmbares Magazin; Hülsen werden einzeln zugeführt."
+        },
+        {
+          "key": "shell",
+          "label": "Hülse 1",
+          "t_s": 16.116667,
+          "frame": 967
+        },
+        {
+          "key": "shell",
+          "label": "Hülse 2",
+          "t_s": 16.983333,
+          "frame": 1019
+        },
+        {
+          "key": "shell",
+          "label": "Hülse 3",
+          "t_s": 17.833333,
+          "frame": 1070
+        },
+        {
+          "key": "shell",
+          "label": "Hülse 4",
+          "t_s": 18.7,
+          "frame": 1122
+        },
+        {
+          "key": "shell",
+          "label": "Hülse 5",
+          "t_s": 19.566667,
+          "frame": 1174
+        },
+        {
+          "key": "magazine_in",
+          "label": "Magazin ein",
+          "t_s": null,
+          "reason": "n. a. für diesen sichtbaren Einzelhülsenablauf: kein herausnehmbares Magazin; Hülsen werden einzeln zugeführt."
+        },
+        {
+          "key": "bolt",
+          "label": "abschließende Repetierbewegung",
+          "t_s": 20.733333,
+          "t_s_range": [
+            20.583333,
+            20.883333
+          ],
+          "frame": 1244
+        },
+        {
+          "key": "hip",
+          "label": "zurück hüftähnlich",
+          "t_s": 21.283333,
+          "t_s_range": [
+            21.25,
+            21.3
+          ],
+          "frame": 1277
+        },
+        {
+          "key": "settled",
+          "label": "ruhige Hüftlage, weiches Ende",
+          "t_s": 21.316667,
+          "t_s_range": [
+            21.3,
+            21.35
+          ],
+          "frame": 1279
+        }
+      ],
+      "visible_total_s": 5.766667,
+      "ammo_state": {
+        "mode": null,
+        "note": "kein HUD / kein Leer-Taktisch-Nachweis"
+      },
+      "hud_ammo_shown_s": null,
+      "cancel_observed": null,
+      "visible_total_s_range": [
+        5.75,
+        5.8
+      ],
+      "uncertainty": "Native klare Marker ±1 f; Differenzen ±2 f. Weiche Phasen ausdrücklich als Bereich; kein Eingabezeitpunkt und keine Feuerbereitschaft.",
+      "visible_definition": {
+        "begin": "erste sichtbare Nachladebewegung",
+        "begin_s": 15.55,
+        "end": "weiches Beruhigen in Hüftlage",
+        "end_s": 21.316666666666666,
+        "end_range_s": [
+          21.3,
+          21.35
+        ]
+      },
+      "visible_to_hip_s_range": [
+        5.7,
+        5.75
+      ],
+      "measured_frame_count": 65,
+      "subject": "Baligant",
+      "window_s": [
+        15.55,
+        21.35
+      ],
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "ergänzt Zeile Baligant (0.6.0)",
+        "korrektur": null
+      },
+      "visible_start_s": 15.55,
+      "visible_end_s": 21.316667,
+      "visible_end_marker": null,
+      "visible_end_definition": null,
+      "hud_to_hip_s": null,
+      "hud_to_hip_s_range": null,
+      "context": null
+    },
+    {
+      "id": "d2-cartesian-native",
+      "game": "Destiny 2",
+      "weapon": "Cartesian Coordinate",
+      "class": "kurzes Fusionsgewehr",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=73lGCT7yOtk",
+      "timestamp": "161.317–163.300 s",
+      "notes": "Ergänzung der 0.6.0-Zeile durch getrennten Hüft-/Ruhe-Endmarker und native Batterie-Grenzbilder. Die orange Anzeige gehört zum Waffenmodell und ist KEIN HUD-Munitionszähler; hud_full_s bleibt null. Batterie seitlich links hinaus/hinein; kein Leer-/Taktisch-Nachweis ohne HUD. Ruhige Endpose bewegt sich leicht im Idle.",
+      "source_channel": "Ultraclocked",
+      "source_upload_date": "20200125",
+      "source_title": "Destiny 2 - All EDZ Legendary Weapons - Animations & Sounds w/ Slow-Motion | Häkke Weapons",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "phases": [
+        {
+          "key": "start",
+          "label": "Waffe verlässt die Hüftlage / Nachladebeginn",
+          "t_s": 161.316667,
+          "frame": 9679
+        },
+        {
+          "key": "other",
+          "label": "Batterie sichtbar vom Schacht getrennt",
+          "t_s": 161.633333,
+          "frame": 9698
+        },
+        {
+          "key": "other",
+          "label": "neue Batterie vor dem Schacht",
+          "t_s": 162.266667,
+          "frame": 9736
+        },
+        {
+          "key": "other",
+          "label": "Batterie sitzt / orange Modellanzeige beginnt",
+          "t_s": 162.316667,
+          "t_s_range": [
+            162.3,
+            162.316667
+          ],
+          "frame": 9739
+        },
+        {
+          "key": "other",
+          "label": "Hand löst sich vom Schacht",
+          "t_s": 162.5,
+          "frame": 9750
+        },
+        {
+          "key": "other",
+          "label": "Handballenschlag gegen die Seite",
+          "t_s": 162.733333,
+          "t_s_range": [
+            162.7,
+            162.8
+          ],
+          "frame": 9764
+        },
+        {
+          "key": "bolt",
+          "label": "Verschluss / eigener Ladehebel",
+          "t_s": null,
+          "reason": "Kein eigener Ladehebel in dieser sichtbaren Figur identifiziert; Handballenschlag separat dokumentiert."
+        },
+        {
+          "key": "hip",
+          "label": "zurück hüftähnlich",
+          "t_s": 163.05,
+          "t_s_range": [
+            163.033333,
+            163.083333
+          ],
+          "frame": 9783
+        },
+        {
+          "key": "settled",
+          "label": "ruhige Hüftlage, weiches Ende",
+          "t_s": 163.233333,
+          "t_s_range": [
+            163.2,
+            163.3
+          ],
+          "frame": 9794
+        }
+      ],
+      "visible_total_s": 1.916667,
+      "ammo_state": {
+        "mode": null,
+        "note": "kein HUD / kein Leer-Taktisch-Nachweis"
+      },
+      "hud_ammo_shown_s": null,
+      "cancel_observed": null,
+      "visible_total_s_range": [
+        1.8833333333333333,
+        1.9833333333333334
+      ],
+      "uncertainty": "Native klare Marker ±1 f; Differenzen ±2 f. Weiche Phasen ausdrücklich als Bereich; kein Eingabezeitpunkt und keine Feuerbereitschaft.",
+      "visible_definition": {
+        "begin": "erste sichtbare Nachladebewegung",
+        "begin_s": 161.31666666666666,
+        "end": "weiches Beruhigen in Hüftlage",
+        "end_s": 163.23333333333332,
+        "end_range_s": [
+          163.2,
+          163.3
+        ]
+      },
+      "visible_to_hip_s_range": [
+        1.7166666666666666,
+        1.7666666666666666
+      ],
+      "measured_frame_count": 56,
+      "subject": "Cartesian Coordinate",
+      "window_s": [
+        161.317,
+        163.3
+      ],
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "ergänzt Zeile Cartesian Coordinate (0.6.0)",
+        "korrektur": "Start Soll f9679 / Ist f9678 (−1 Bild, innerhalb ±1)"
+      },
+      "visible_start_s": 161.316667,
+      "visible_end_s": 163.233333,
+      "visible_end_marker": null,
+      "visible_end_definition": null,
+      "hud_to_hip_s": null,
+      "hud_to_hip_s_range": null,
+      "context": null
+    },
+    {
+      "id": "d2-shock-awe-native",
+      "game": "Destiny 2",
+      "weapon": "Shock and Awe",
+      "class": "kurzes Fusionsgewehr",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=42zdQOVBAD0",
+      "timestamp": "358.850–361.833 s",
+      "notes": "Ergänzung der bislang groben 0.6.0-Phasen auf native 60/s. Einsetzen und Handballenschlag liegen in getrennten Phasen. Entfernte Batterie teils von Modell/Hand verdeckt; der Zeitpunkt bezeichnet sichtbares Ablösen, keinen mathematisch sicher vollständig freien Gegenstand. Kein HUD, keine Abbruchaktion, Leer-/Taktisch unbekannt.",
+      "source_channel": "Ultraclocked",
+      "source_upload_date": "20200130",
+      "source_title": "Destiny 2 - All Nessus Legendary Weapons - Animations & Sounds w/ Slow-Motion | Omolon Weapons",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "phases": [
+        {
+          "key": "start",
+          "label": "Waffe verlässt die Hüftlage / Nachladebeginn",
+          "t_s": 358.85,
+          "frame": 21531
+        },
+        {
+          "key": "other",
+          "label": "Batterie löst sich sichtbar seitlich",
+          "t_s": 359.4,
+          "t_s_range": [
+            359.4,
+            359.433333
+          ],
+          "frame": 21564
+        },
+        {
+          "key": "other",
+          "label": "neue Batterie von unten links sichtbar",
+          "t_s": 360.233333,
+          "frame": 21614
+        },
+        {
+          "key": "other",
+          "label": "Einsetzen beendet, Hand löst sich",
+          "t_s": 360.433333,
+          "t_s_range": [
+            360.4,
+            360.466667
+          ],
+          "frame": 21626
+        },
+        {
+          "key": "other",
+          "label": "Handballenschlag gegen die Seite",
+          "t_s": 361.133333,
+          "t_s_range": [
+            361.0,
+            361.233333
+          ],
+          "frame": 21668
+        },
+        {
+          "key": "bolt",
+          "label": "Verschluss / eigener Ladehebel",
+          "t_s": null,
+          "reason": "Kein eigener Ladehebel identifiziert; Handballenschlag als eigene sichtbare Phase."
+        },
+        {
+          "key": "hip",
+          "label": "zurück hüftähnlich",
+          "t_s": 361.666667,
+          "t_s_range": [
+            361.633333,
+            361.683333
+          ],
+          "frame": 21700
+        },
+        {
+          "key": "settled",
+          "label": "ruhige Hüftlage, weiches Ende",
+          "t_s": 361.716667,
+          "t_s_range": [
+            361.7,
+            361.833333
+          ],
+          "frame": 21703
+        }
+      ],
+      "visible_total_s": 2.866667,
+      "ammo_state": {
+        "mode": null,
+        "note": "kein HUD / kein Leer-Taktisch-Nachweis"
+      },
+      "hud_ammo_shown_s": null,
+      "cancel_observed": null,
+      "visible_total_s_range": [
+        2.85,
+        2.9833333333333334
+      ],
+      "uncertainty": "Native klare Marker ±1 f; Differenzen ±2 f. Weiche Phasen ausdrücklich als Bereich; kein Eingabezeitpunkt und keine Feuerbereitschaft.",
+      "visible_definition": {
+        "begin": "erste sichtbare Nachladebewegung",
+        "begin_s": 358.85,
+        "end": "weiches Beruhigen in Hüftlage",
+        "end_s": 361.71666666666664,
+        "end_range_s": [
+          361.7,
+          361.8333333333333
+        ]
+      },
+      "visible_to_hip_s_range": [
+        2.783333333333333,
+        2.8333333333333335
+      ],
+      "measured_frame_count": 53,
+      "subject": "Shock and Awe",
+      "window_s": [
+        358.85,
+        361.833
+      ],
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "ergänzt Zeile Shock and Awe (0.6.0)",
+        "korrektur": null
+      },
+      "visible_start_s": 358.85,
+      "visible_end_s": 361.716667,
+      "visible_end_marker": null,
+      "visible_end_definition": null,
+      "hud_to_hip_s": null,
+      "hud_to_hip_s_range": null,
+      "context": null
+    },
+    {
+      "id": "d2-shotgun-three-round-hud",
+      "game": "Destiny 2",
+      "weapon": "Häkke-Schrotflinte, Name nicht eingeblendet",
+      "class": "Schrotflinte",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=lZcqE1LWRDA",
+      "timestamp": "11.700–13.967 s",
+      "notes": "Neuer HUD-Beleg. Waffe/Perks nicht im Menü gezeigt. Häkke-Schriftzug sichtbar; Enhanced Dual Loader+Frenzy nur Titel/Beschreibung, kein kontrollierter Perkvergleich. Pro sichtbarer Zuführbewegung HUD+3, nicht+1; 24 f/.400 s zwischen den HUD-Zunahmen. Letzte beobachtete Munitionsübernahme deutlich vor Hüftpose; Reserve danach 0. Die 6 am Clipanfang belegt keine Maximalkapazität: Vollstand und Feuerfreigabe unbekannt. Nachladebeginn folgt direkt auf Waffenwechsel; keine isolierte ruhige Ausgangslage. Kein Abbruch durch Sprint/Wechsel sichtbar. total_s null, weil Ruhe-Ende nicht isoliert.",
+      "source_channel": "GrizzlyOne95",
+      "source_upload_date": "20220313",
+      "source_title": "Destiny 2 - Watch how fast Enhanced Dual Loader + Frenzy is LMAO",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "phases": [
+        {
+          "key": "start",
+          "label": "Nachlade-Rollen nach Waffenwechsel, weicher Beginn",
+          "t_s": 11.75,
+          "t_s_range": [
+            11.716667,
+            11.783333
+          ],
+          "frame": 705
+        },
+        {
+          "key": "magazine_out",
+          "label": "Magazin heraus",
+          "t_s": null,
+          "reason": "n. a. für diesen sichtbaren Einzelhülsenablauf: kein herausnehmbares Magazin; Hülsen werden einzeln zugeführt."
+        },
+        {
+          "key": "other",
+          "label": "erste sichtbare rote Hülse",
+          "t_s": 12.25,
+          "frame": 735
+        },
+        {
+          "key": "hud_change",
+          "label": "HUD 0→3 / Reserve 6→3",
+          "t_s": 12.35,
+          "frame": 741
+        },
+        {
+          "key": "hud_change",
+          "label": "HUD 3→6 / Reserve 3→0",
+          "t_s": 12.75,
+          "frame": 765
+        },
+        {
+          "key": "magazine_in",
+          "label": "Magazin ein",
+          "t_s": null,
+          "reason": "n. a. für diesen sichtbaren Einzelhülsenablauf: kein herausnehmbares Magazin; Hülsen werden einzeln zugeführt."
+        },
+        {
+          "key": "bolt",
+          "label": "abschließende Repetier-/Schließbewegung sichtbar",
+          "t_s": 13.333333,
+          "t_s_range": [
+            13.2,
+            13.6
+          ],
+          "frame": 800
+        },
+        {
+          "key": "hip",
+          "label": "zurück hüftähnlich",
+          "t_s": 13.9,
+          "t_s_range": [
+            13.833333,
+            13.966667
+          ],
+          "frame": 834
+        },
+        {
+          "key": "settled",
+          "label": "ruhig",
+          "t_s": null,
+          "reason": "Kampf, Blicknachführung und Bewegung überlagern das Ende; kein isolierter Ruhepunkt."
+        }
+      ],
+      "visible_total_s": null,
+      "ammo_state": {
+        "mode": "empty",
+        "before": 0,
+        "after": 6,
+        "reserve_before": 6,
+        "reserve_after": 0,
+        "note": "Kapazität unbekannt; Zähler 6 am Clipanfang belegt keine Maximalkapazität"
+      },
+      "hud_ammo_shown_s": 12.75,
+      "cancel_observed": null,
+      "uncertainty": "Native klare Marker ±1 f; Differenzen ±2 f. Weiche Phasen ausdrücklich als Bereich; kein Eingabezeitpunkt und keine Feuerbereitschaft.",
+      "hud_last_increment_s": 12.75,
+      "capacity_rounds": null,
+      "hud_increments": [
+        {
+          "from": 0,
+          "to": 3,
+          "reserve_from": 6,
+          "reserve_to": 3,
+          "t_s": 12.35,
+          "native_local_frame": 741
+        },
+        {
+          "from": 3,
+          "to": 6,
+          "reserve_from": 3,
+          "reserve_to": 0,
+          "t_s": 12.75,
+          "native_local_frame": 765
+        }
+      ],
+      "hud_increment_interval_s": 0.4,
+      "hud_last_increment_to_hip_s_range": [
+        1.0833333333333333,
+        1.2166666666666666
+      ],
+      "visible_definition": {
+        "begin": "weicher Reload-Rollbeginn nach Ziehen",
+        "begin_s": 11.75,
+        "begin_range_s": [
+          11.716666666666667,
+          11.783333333333333
+        ],
+        "end": "kein isolierter Ruhepunkt",
+        "end_s": null
+      },
+      "visible_to_hip_s_range": [
+        2.05,
+        2.25
+      ],
+      "measured_frame_count": 84,
+      "subject": "Häkke-Schrotflinte, Name nicht eingeblendet",
+      "window_s": [
+        11.7,
+        13.967
+      ],
+      "hud_changes_s": [
+        12.35,
+        12.75
+      ],
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "neu",
+        "korrektur": null
+      },
+      "visible_start_s": 11.75,
+      "hud_to_hip_s": 1.15,
+      "hud_to_hip_s_range": [
+        1.083,
+        1.217
+      ],
+      "visible_end_s": null,
+      "visible_total_s_range": null,
+      "visible_end_marker": null,
+      "visible_end_definition": null,
+      "context": null
+    },
+    {
+      "id": "d2-bow-reload-na",
+      "game": "Destiny 2",
+      "weapon": "Imperial Needle",
+      "class": "Bogen",
+      "status": "O",
+      "source_url": "https://www.youtube.com/watch?v=dKNTDzi__Qo",
+      "timestamp": "≈ 4–6 s (nur Sichtung)",
+      "notes": "O-Abgrenzung zu den bestehenden Bogen-Zyklusmessungen. Sichtbarer neuer Pfeil von rechts, Hand kehrt zum Riser/zur Sehne zurück; diese Folge nicht als Magazin-Nachladen oder neues Timing doppeln. Keine Aussage über alle Bogenvarianten oder eine nicht sichtbare Reload-Eingabe.",
+      "source_channel": "Ultraclocked",
+      "source_upload_date": "20210219",
+      "source_title": "Destiny 2 - Imperial Needle (Legendary Bow) - Animations & Sounds",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "phases": [
+        {
+          "key": "magazine_out",
+          "label": "Magazin heraus",
+          "t_s": null,
+          "reason": "n. a. beim sichtbaren Pfeil-Anlegen"
+        },
+        {
+          "key": "magazine_in",
+          "label": "Magazin ein",
+          "t_s": null,
+          "reason": "n. a. beim sichtbaren Pfeil-Anlegen"
+        },
+        {
+          "key": "other",
+          "label": "Nachladezeit",
+          "t_s": null,
+          "reason": "n. a.: Pfeil-Anlegen/Nocken gehört zum Schusszyklus; kein klassischer Magazin-Reload in diesem Fenster."
+        }
+      ],
+      "visible_total_s": null,
+      "ammo_state": {
+        "mode": null,
+        "note": "n. a. für klassischen Magazin-Reload im sichtbaren Fenster"
+      },
+      "hud_ammo_shown_s": null,
+      "cancel_observed": null,
+      "uncertainty": "Native klare Marker ±1 f; Differenzen ±2 f. Weiche Phasen ausdrücklich als Bereich; kein Eingabezeitpunkt und keine Feuerbereitschaft.",
+      "measured_frame_count": 0,
+      "subject": "Imperial Needle",
+      "window_s": [
+        4.0,
+        6.0
+      ],
+      "window_approx": true,
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "ergänzt Bogen-Zyklus (s-matrix-bogen), nur Abgrenzung",
+        "korrektur": null
+      },
+      "visible_start_s": null,
+      "visible_end_s": null,
+      "visible_total_s_range": null,
+      "visible_to_hip_s_range": null,
+      "visible_end_marker": null,
+      "visible_definition": null,
+      "visible_end_definition": null,
+      "hud_to_hip_s": null,
+      "hud_to_hip_s_range": null,
+      "context": null
+    },
+    {
+      "id": "R-H01",
+      "game": "Destiny 2",
+      "weapon": "Far Future",
+      "class": "Scharfschützengewehr",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=RXgRxHESqHQ",
+      "source_channel": "Ultraclocked",
+      "source_upload_date": "20210218",
+      "source_title": "Destiny 2 - Far Future (Legendary Sniper Rifle) - Animations & Sounds",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "timestamp": "15.867–18.050 s",
+      "context": "Nachladen aus Hüfte",
+      "phases": [
+        {
+          "key": "start",
+          "label": "Beginn",
+          "t_s": 15.866667
+        },
+        {
+          "key": "magazine_out",
+          "label": "Magazin heraus",
+          "t_s": 16.15
+        },
+        {
+          "key": "magazine_in",
+          "label": "Magazin ein",
+          "t_s": 16.566667
+        },
+        {
+          "key": "bolt",
+          "label": "Kammerstängel-Griff",
+          "t_s": 17.066667
+        },
+        {
+          "key": "hip",
+          "label": "Hüfte",
+          "t_s": 17.933333
+        },
+        {
+          "key": "settled",
+          "label": "ruhig",
+          "t_s": 18.05
+        }
+      ],
+      "visible_total_s": 2.183333,
+      "visible_start_s": 15.866667,
+      "visible_end_s": 18.05,
+      "visible_start_frame": 952,
+      "visible_end_frame": 1083,
+      "visible_end_definition": "Ende der großen gerichteten Rückkehrbewegung; langsamer Idle bleibt erlaubt.",
+      "ammo_state": {
+        "mode": null,
+        "note": "kein HUD / kein Leer-Taktisch-Nachweis"
+      },
+      "hud_ammo_shown_s": null,
+      "cancel_observed": null,
+      "notes": "Native Ergänzung der groben 0.6.0-Zeile: Start ist erster gerichteter Hub aus der Hüfte; Magazin heraus ist erste klar sichtbare Trennung des braunen Magazins vom Schacht (nicht erster Handkontakt). Ein: sichtbare Endlage der Einsteckbewegung, weich. Verschlussmarke ist geschlossene Hand am sichtbaren Kammerstängel, kein interner Ladezustand. Perks, konkrete Reload-/Handling-Modifikatoren und FOV unbekannt. Waffenbeispiel, kein Klassenmittel. HUD fehlt: leer/taktisch, volle Munition, Feuerfreigabe und Abbruch nicht messbar.",
+      "visible_total_s_range": [
+        2.116667,
+        2.25
+      ],
+      "subject": "Far Future",
+      "window_s": [
+        15.866667,
+        18.05
+      ],
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "ergänzt Zeile Far Future (0.6.0)",
+        "korrektur": null
+      },
+      "visible_to_hip_s_range": null,
+      "visible_end_marker": null,
+      "visible_definition": null,
+      "hud_to_hip_s": null,
+      "hud_to_hip_s_range": null,
+      "uncertainty": null
+    },
+    {
+      "id": "R-H02",
+      "game": "Destiny 2",
+      "weapon": "Far Future",
+      "class": "Scharfschützengewehr",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=RXgRxHESqHQ",
+      "source_channel": "Ultraclocked",
+      "source_upload_date": "20210218",
+      "source_title": "Destiny 2 - Far Future (Legendary Sniper Rifle) - Animations & Sounds",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "timestamp": "44.000–46.233 s",
+      "context": "Nachladen aus Zielfernrohr, ADS-Aus enthalten",
+      "phases": [
+        {
+          "key": "start",
+          "label": "Beginn",
+          "t_s": 44.0
+        },
+        {
+          "key": "leaves_center",
+          "label": "verlässt Zielachse",
+          "t_s": 44.1
+        },
+        {
+          "key": "magazine_out",
+          "label": "Magazin heraus",
+          "t_s": null
+        },
+        {
+          "key": "magazine_in",
+          "label": "Magazin ein",
+          "t_s": 44.75
+        },
+        {
+          "key": "bolt",
+          "label": "Kammerstängel-Griff",
+          "t_s": 45.183333
+        },
+        {
+          "key": "hip",
+          "label": "Hüfte",
+          "t_s": 46.066667
+        },
+        {
+          "key": "settled",
+          "label": "ruhig",
+          "t_s": 46.233333
+        }
+      ],
+      "visible_total_s": 2.233333,
+      "visible_start_s": 44.0,
+      "visible_end_s": 46.233333,
+      "visible_start_frame": 2640,
+      "visible_end_frame": 2774,
+      "visible_end_definition": "Ende der großen gerichteten Rückkehrbewegung; langsamer Idle bleibt erlaubt.",
+      "ammo_state": {
+        "mode": null,
+        "note": "kein HUD / kein Leer-Taktisch-Nachweis"
+      },
+      "hud_ammo_shown_s": null,
+      "cancel_observed": null,
+      "notes": "Start ist erste Scope-Verkleinerung; kein zusätzlicher Halt in Hüfte vor dem Kippen. Die Entnahme liegt dunkel/tief hinter der Hand; kein sicherer separater Aus-Marker. Magazin-Ein bedeutet sichtbare Einsteck-Endlage, nicht HUD voll. Gesamt enthält Scope-Aus und unterscheidet sich deshalb in der Definition vom Hüftstart. Perks, konkrete Reload-/Handling-Modifikatoren und FOV unbekannt. Waffenbeispiel, kein Klassenmittel. HUD fehlt: leer/taktisch, volle Munition, Feuerfreigabe und Abbruch nicht messbar.",
+      "visible_total_s_range": [
+        2.166667,
+        2.3
+      ],
+      "subject": "Far Future",
+      "window_s": [
+        44.0,
+        46.233333
+      ],
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "ergänzt Zeile Far Future (0.6.0)",
+        "korrektur": null
+      },
+      "visible_to_hip_s_range": null,
+      "visible_end_marker": null,
+      "visible_definition": null,
+      "hud_to_hip_s": null,
+      "hud_to_hip_s_range": null,
+      "uncertainty": null
+    },
+    {
+      "id": "R-H03",
+      "game": "Destiny 2",
+      "weapon": "Shattered Cipher",
+      "class": "Maschinengewehr",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=DEM-8xg66R8",
+      "source_channel": "Ultraclocked",
+      "source_upload_date": "20210514",
+      "source_title": "Destiny 2 - Shattered Cipher (Legendary Machine Gun) - Animations & Sounds",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "timestamp": "11.800–16.667 s",
+      "context": "Nachladen aus Hüfte; Quelle Mai 2021",
+      "phases": [
+        {
+          "key": "start",
+          "label": "Beginn",
+          "t_s": 11.8
+        },
+        {
+          "key": "other",
+          "label": "Deckel öffnet",
+          "t_s": 12.433333
+        },
+        {
+          "key": "magazine_out",
+          "label": "Magazin heraus",
+          "t_s": null
+        },
+        {
+          "key": "other",
+          "label": "Trommel hoch",
+          "t_s": 13.116667
+        },
+        {
+          "key": "magazine_in",
+          "label": "Magazin ein",
+          "t_s": null
+        },
+        {
+          "key": "other",
+          "label": "Gurt",
+          "t_s": 13.5
+        },
+        {
+          "key": "other",
+          "label": "Deckel geschlossen",
+          "t_s": 14.583333
+        },
+        {
+          "key": "bolt",
+          "label": "Ladegriff",
+          "t_s": null
+        },
+        {
+          "key": "other",
+          "label": "seitliche Hand",
+          "t_s": 15.366667
+        },
+        {
+          "key": "hip",
+          "label": "Hüfte",
+          "t_s": 16.216667
+        },
+        {
+          "key": "settled",
+          "label": "ruhig",
+          "t_s": 16.666667
+        }
+      ],
+      "visible_total_s": 4.866667,
+      "visible_start_s": 11.8,
+      "visible_end_s": 16.666667,
+      "visible_start_frame": 708,
+      "visible_end_frame": 1000,
+      "visible_end_definition": "Ende der großen gerichteten Rückkehrbewegung; langsamer Idle bleibt erlaubt.",
+      "ammo_state": {
+        "mode": null,
+        "note": "kein HUD / kein Leer-Taktisch-Nachweis"
+      },
+      "hud_ammo_shown_s": null,
+      "cancel_observed": null,
+      "notes": "Native Ergänzung der alten 8-Bilder/s-Phasen (4,40 s Hüfte /4,87 s ruhig). Deckel hebt ab f746 sichtbar ab; f875 ist erstmals die wieder horizontale Deckel-/Visierform klar. Drum-Entnahme/Einrastpunkt liegen am unteren Rand bzw. hinter der Hand: beide Magazinmarker bleiben null. f787 ist lediglich die sichtbar hochgeführte Trommel, f810 Hand am offenen Gurtkanal. Bei f922 greift die Hand seitlich an; Mechanik verdeckt, deshalb keine sichere Ladehebelmarke. Quelle vor den 2025 angekündigten MG-Reload-Checkpoints; keine Übertragung auf aktuelle Unterbrechungsregeln. Perks, konkrete Reload-/Handling-Modifikatoren und FOV unbekannt. Waffenbeispiel, kein Klassenmittel. HUD fehlt: leer/taktisch, volle Munition, Feuerfreigabe und Abbruch nicht messbar.",
+      "visible_total_s_range": [
+        4.8,
+        4.933333
+      ],
+      "subject": "Shattered Cipher",
+      "window_s": [
+        11.8,
+        16.666667
+      ],
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "ergänzt Zeile Shattered Cipher (0.7.0)",
+        "korrektur": null
+      },
+      "visible_to_hip_s_range": null,
+      "visible_end_marker": null,
+      "visible_definition": null,
+      "hud_to_hip_s": null,
+      "hud_to_hip_s_range": null,
+      "uncertainty": null
+    },
+    {
+      "id": "R-H04",
+      "game": "Destiny 2",
+      "weapon": "Threaded Needle",
+      "class": "Lineares Fusionsgewehr",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=uoTaCBMXcFk",
+      "source_channel": "Ultraclocked",
+      "source_upload_date": "20210220",
+      "source_title": "Destiny 2 - Threaded Needle (Legendary Linear Fusion Rifle) - Weapon Animations & Sounds",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "timestamp": "16.033–19.333 s",
+      "context": "Nachladen aus Hüfte",
+      "phases": [
+        {
+          "key": "start",
+          "label": "Beginn",
+          "t_s": 16.033333
+        },
+        {
+          "key": "magazine_out",
+          "label": "Magazin heraus",
+          "t_s": null
+        },
+        {
+          "key": "magazine_in",
+          "label": "Magazin ein",
+          "t_s": 17.566667
+        },
+        {
+          "key": "bolt",
+          "label": "Ladegriff",
+          "t_s": null
+        },
+        {
+          "key": "other",
+          "label": "tiefer Halt",
+          "t_s": 18.4
+        },
+        {
+          "key": "hip",
+          "label": "Hüfte",
+          "t_s": 19.116667
+        },
+        {
+          "key": "settled",
+          "label": "ruhig",
+          "t_s": 19.333333
+        }
+      ],
+      "visible_total_s": 3.3,
+      "visible_start_s": 16.033333,
+      "visible_end_s": 19.333333,
+      "visible_start_frame": 962,
+      "visible_end_frame": 1160,
+      "visible_end_definition": "Ende der großen gerichteten Rückkehrbewegung; langsamer Idle bleibt erlaubt.",
+      "ammo_state": {
+        "mode": null,
+        "note": "kein HUD / kein Leer-Taktisch-Nachweis"
+      },
+      "hud_ammo_shown_s": null,
+      "cancel_observed": null,
+      "notes": "Native Ergänzung der 0.7.0-Phasen: aufrecht gekantete Waffe, länglicher Einsatz von unten/links. Alteinsatz verlässt die Ansicht am Rand hinter der Hand, Trennung nicht sicher aufgelöst: Aus null. Ein ist sichtbare Endlage, während die Hand abgleitet; kein isolierter äußerer Ladehebel erkennbar. Nach dem Einsetzen lange tiefe/seitlich gehaltene Zwischenpose, f1104 beispielhafter Halt; erste Hüftannäherung ist früher als alte grobe 19,3-s-Marke, ruhiges Ende bleibt etwa 19,33 s. Perks, konkrete Reload-/Handling-Modifikatoren und FOV unbekannt. Waffenbeispiel, kein Klassenmittel. HUD fehlt: leer/taktisch, volle Munition, Feuerfreigabe und Abbruch nicht messbar.",
+      "visible_total_s_range": [
+        3.216667,
+        3.366667
+      ],
+      "subject": "Threaded Needle",
+      "window_s": [
+        16.033333,
+        19.333333
+      ],
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "ergänzt Zeile Threaded Needle (0.7.0); Hüfte-Marker weicht ab",
+        "korrektur": "Ruhe 19,333 s ≈ Bestand ruhig ≈ 19,35 s und 3,3 s bis ruhig stimmen; Hüfte 19,117 s (Zuarbeit) gegen Bestand 19,3 s ≈ 11 Bilder Abweichung, am Bild nicht entschieden; Bestand bleibt stehen."
+      },
+      "visible_to_hip_s_range": null,
+      "visible_end_marker": null,
+      "visible_definition": null,
+      "hud_to_hip_s": null,
+      "hud_to_hip_s_range": null,
+      "uncertainty": null
+    },
+    {
+      "id": "R-H05",
+      "game": "Destiny 2",
+      "weapon": "The Prospector",
+      "class": "Schwerer Trommelgranatwerfer (Exotic)",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=L3UXaiGBtVc",
+      "source_channel": "Ultraclocked",
+      "source_upload_date": "20210312",
+      "source_title": "Destiny 2 - The Prospector - Animations, Sounds & Effects (Exotic Grenade Launcher)",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "timestamp": "14.267–18.883 s",
+      "context": "Erster normaler Trommelwechsel; Schussrücklauf davor",
+      "phases": [
+        {
+          "key": "start",
+          "label": "Beginn",
+          "t_s": 14.266667
+        },
+        {
+          "key": "other",
+          "label": "Trommel offen",
+          "t_s": 14.5
+        },
+        {
+          "key": "magazine_out",
+          "label": "Magazin heraus",
+          "t_s": 15.05
+        },
+        {
+          "key": "magazine_in",
+          "label": "Magazin ein",
+          "t_s": 16.233333
+        },
+        {
+          "key": "bolt",
+          "label": "Ladegriff",
+          "t_s": null
+        },
+        {
+          "key": "hip",
+          "label": "Hüfte",
+          "t_s": 18.683333
+        },
+        {
+          "key": "settled",
+          "label": "ruhig",
+          "t_s": 18.883333
+        }
+      ],
+      "visible_total_s": 4.616667,
+      "visible_start_s": 14.266667,
+      "visible_end_s": 18.883333,
+      "visible_start_frame": 856,
+      "visible_end_frame": 1133,
+      "visible_end_definition": "Ende der großen gerichteten Rückkehrbewegung; langsamer Idle bleibt erlaubt.",
+      "ammo_state": {
+        "mode": null,
+        "note": "kein HUD / kein Leer-Taktisch-Nachweis"
+      },
+      "hud_ammo_shown_s": null,
+      "cancel_observed": null,
+      "notes": "Neue Auflösung der Bestandslücke „Prospector gesichtet, Ablauf unklar“: tatsächlicher sichtbarer Trommelwechsel, kein bloßer Fernzündungsblitz. Beginn ist nachladespezifischer gerichteter Körper-Rollbogen; vorheriger Schussrücklauf überlappt, daher Beginn weich und keine Zeit ab Eingabe. Der separate helle Effekt ab f863 ist nicht der Reloadstart. Heraus: erster klarer Luftspalt zwischen ausgehobener silberner Trommel und fester unterer Platte. Ein: Ende der sichtbaren Abwärtsbewegung, teilweise handverdeckt und als Bereich. Kein separater äußerer Ladehebel erkennbar. Perks, konkrete Reload-/Handling-Modifikatoren und FOV unbekannt. Waffenbeispiel, kein Klassenmittel. HUD fehlt: leer/taktisch, volle Munition, Feuerfreigabe und Abbruch nicht messbar.",
+      "visible_total_s_range": [
+        4.533333,
+        4.7
+      ],
+      "subject": "The Prospector",
+      "window_s": [
+        14.266667,
+        18.883333
+      ],
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "neu (Bestand: „nicht vermessen“)",
+        "korrektur": null
+      },
+      "visible_to_hip_s_range": null,
+      "visible_end_marker": null,
+      "visible_definition": null,
+      "hud_to_hip_s": null,
+      "hud_to_hip_s_range": null,
+      "uncertainty": null
+    },
+    {
+      "id": "R-H06",
+      "game": "Destiny 2",
+      "weapon": "The Prospector",
+      "class": "Schwerer Trommelgranatwerfer (Exotic)",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=L3UXaiGBtVc",
+      "source_channel": "Ultraclocked",
+      "source_upload_date": "20210312",
+      "source_title": "Destiny 2 - The Prospector - Animations, Sounds & Effects (Exotic Grenade Launcher)",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "timestamp": "22.900–27.383 s",
+      "context": "Zweiter normaler Trommelwechsel; gleicher Upload, getrenntes Ereignis",
+      "phases": [
+        {
+          "key": "start",
+          "label": "Beginn",
+          "t_s": 22.9
+        },
+        {
+          "key": "other",
+          "label": "Trommel offen",
+          "t_s": 23.1
+        },
+        {
+          "key": "magazine_out",
+          "label": "Magazin heraus",
+          "t_s": 23.65
+        },
+        {
+          "key": "magazine_in",
+          "label": "Magazin ein",
+          "t_s": 24.8
+        },
+        {
+          "key": "bolt",
+          "label": "Ladegriff",
+          "t_s": null
+        },
+        {
+          "key": "hip",
+          "label": "Hüfte",
+          "t_s": 27.233333
+        },
+        {
+          "key": "settled",
+          "label": "ruhig",
+          "t_s": 27.383333
+        }
+      ],
+      "visible_total_s": 4.483333,
+      "visible_start_s": 22.9,
+      "visible_end_s": 27.383333,
+      "visible_start_frame": 1374,
+      "visible_end_frame": 1643,
+      "visible_end_definition": "Ende der großen gerichteten Rückkehrbewegung; langsamer Idle bleibt erlaubt.",
+      "ammo_state": {
+        "mode": null,
+        "note": "kein HUD / kein Leer-Taktisch-Nachweis"
+      },
+      "hud_ammo_shown_s": null,
+      "cancel_observed": null,
+      "notes": "Zweiter echter sichtbarer Trommelwechsel, vor der folgenden 0.5x-Überblendung (ab etwa f1651). Beginn: nachladespezifischer Körper-Rollbogen; vorherige Schussrückkehr nicht als Reloadzeit addiert. Aus f1419: klarer Luftspalt zur unteren Platte; Ein f1488: Ende der Abwärtsbewegung, als Bereich. Dazwischen leere feste Platte und neuer silberner Einsatz sichtbar. Kein gesonderter Ladehebel identifizierbar; Anheben und Zurückschwenken des ganzen Werfers getrennt von Hüftpose/Ruhe. Derselbe Waffenstand/Upload wie R-H05, kein unabhängiges zweites Waffenexemplar. Perks, konkrete Reload-/Handling-Modifikatoren und FOV unbekannt. Waffenbeispiel, kein Klassenmittel. HUD fehlt: leer/taktisch, volle Munition, Feuerfreigabe und Abbruch nicht messbar.",
+      "visible_total_s_range": [
+        4.4,
+        4.566667
+      ],
+      "subject": "The Prospector",
+      "window_s": [
+        22.9,
+        27.383333
+      ],
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "neu",
+        "korrektur": null
+      },
+      "visible_to_hip_s_range": null,
+      "visible_end_marker": null,
+      "visible_definition": null,
+      "hud_to_hip_s": null,
+      "hud_to_hip_s_range": null,
+      "uncertainty": null
+    },
+    {
+      "id": "MV01",
+      "game": "Marathon (2026)",
+      "weapon": "Gewehr A, schwarz/rot mit gelbem Oberteil (Modell unbestätigt)",
+      "class": "Gewehr",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=FEW1ZkadfM8",
+      "timestamp": "199.083–201.367 s",
+      "notes": "Start = erste sichtbare Reload-Handbewegung nach ADS-aus, nicht letzter Schuss. Magazin heraus = erster hier eindeutig freier Zustand; Magazin ein = sichtbarer Sitz nach blauem Ersatzmagazin. Keine isolierte Ruhe wegen Gehen/Kamerabewegung. FOV, Handling, Aufsätze/Perks und Eingabezeit unbekannt; Einzelbeispiel, kein Klassenmittel. HUD-voll ist keine Feuerfreigabe.",
+      "phases": [
+        {
+          "key": "start",
+          "label": "Beginn",
+          "t_s": 199.166667
+        },
+        {
+          "key": "leaves_center",
+          "label": "verlässt Mitte",
+          "t_s": 199.2
+        },
+        {
+          "key": "magazine_out",
+          "label": "Magazin heraus",
+          "t_s": 199.683333
+        },
+        {
+          "key": "magazine_in",
+          "label": "Magazin ein",
+          "t_s": 200.0
+        },
+        {
+          "key": "bolt",
+          "label": "Verschluss",
+          "t_s": null
+        },
+        {
+          "key": "hip",
+          "label": "Hüfte",
+          "t_s": 201.266667
+        },
+        {
+          "key": "settled",
+          "label": "ruhig",
+          "t_s": null
+        },
+        {
+          "key": "hud_change",
+          "label": "HUD",
+          "t_s": 200.816667
+        }
+      ],
+      "visible_total_s": 2.1,
+      "visible_start_s": 199.166667,
+      "visible_end_s": 201.266667,
+      "visible_end_marker": "Hüfte",
+      "ammo_state": {
+        "mode": "tactical",
+        "before": 15,
+        "after": 27
+      },
+      "hud_ammo_shown_s": 200.816667,
+      "cancel_observed": null,
+      "source_channel": "Aculite",
+      "source_upload_date": "20260301",
+      "source_title": "Thermal Sniping in Marathon",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "marker_uncertainty_frames": 1,
+      "difference_uncertainty_frames": 2,
+      "subject": "Gewehr A, schwarz/rot mit gelbem Oberteil (Modell unbestätigt)",
+      "window_s": [
+        199.0833,
+        201.3667
+      ],
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "neu (kein Marathon-Doc)",
+        "korrektur": null
+      },
+      "hud_to_hip_s": 0.45,
+      "visible_total_s_range": null,
+      "visible_to_hip_s_range": null,
+      "visible_definition": null,
+      "visible_end_definition": null,
+      "hud_to_hip_s_range": null,
+      "uncertainty": null,
+      "context": null
+    },
+    {
+      "id": "MV02",
+      "game": "Marathon (2026)",
+      "weapon": "Gewehr A, schwarz/rot mit gelbem Oberteil (Modell unbestätigt)",
+      "class": "Gewehr",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=FEW1ZkadfM8",
+      "timestamp": "272.633–274.917 s",
+      "notes": "Draw nach Gegenstandhaltung geht unmittelbar in Reload über; erster Reloadframe lässt sich nicht sicher vom Ziehen abgrenzen. Deshalb Start/Gesamtdauer null. HUD voll liegt 0.4333 s vor Hüftmarker; Gehen und Transparenzeffekt verhindern Ruhemarker. FOV, Handling, Aufsätze/Perks und Eingabezeit unbekannt; Einzelbeispiel, kein Klassenmittel. HUD-voll ist keine Feuerfreigabe.",
+      "phases": [
+        {
+          "key": "start",
+          "label": "Beginn",
+          "t_s": null
+        },
+        {
+          "key": "leaves_center",
+          "label": "verlässt Mitte",
+          "t_s": null
+        },
+        {
+          "key": "magazine_out",
+          "label": "Magazin heraus",
+          "t_s": null
+        },
+        {
+          "key": "magazine_in",
+          "label": "Magazin ein",
+          "t_s": null
+        },
+        {
+          "key": "bolt",
+          "label": "Verschluss",
+          "t_s": null
+        },
+        {
+          "key": "hip",
+          "label": "Hüfte",
+          "t_s": 274.783333
+        },
+        {
+          "key": "settled",
+          "label": "ruhig",
+          "t_s": null
+        },
+        {
+          "key": "hud_change",
+          "label": "HUD",
+          "t_s": 274.35
+        }
+      ],
+      "visible_total_s": null,
+      "visible_start_s": null,
+      "visible_end_s": null,
+      "visible_end_marker": null,
+      "ammo_state": {
+        "mode": "tactical",
+        "before": 6,
+        "after": 27
+      },
+      "hud_ammo_shown_s": 274.35,
+      "cancel_observed": null,
+      "source_channel": "Aculite",
+      "source_upload_date": "20260301",
+      "source_title": "Thermal Sniping in Marathon",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "marker_uncertainty_frames": 1,
+      "difference_uncertainty_frames": 2,
+      "subject": "Gewehr A, schwarz/rot mit gelbem Oberteil (Modell unbestätigt)",
+      "window_s": [
+        272.6333,
+        274.9167
+      ],
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "neu",
+        "korrektur": null
+      },
+      "hud_to_hip_s": 0.433,
+      "visible_total_s_range": null,
+      "visible_to_hip_s_range": null,
+      "visible_definition": null,
+      "visible_end_definition": null,
+      "hud_to_hip_s_range": null,
+      "uncertainty": null,
+      "context": null
+    },
+    {
+      "id": "MV03",
+      "game": "Marathon (2026)",
+      "weapon": "Thermal-Scharfschützengewehr mit HUD-Kapazität 5 (Modell unbestätigt)",
+      "class": "Scharfschützengewehr",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=FEW1ZkadfM8",
+      "timestamp": "149.900–152.467 s",
+      "notes": "ADS-aus und Beginn des Aufrichtens überlagern sich; Start und Gesamtdauer null. Unterseite/Ladeweg dunkel verdeckt, kein belegter Magazinauswurf und keine belegte Einzelpatronenmechanik. HUD 4→5; Hüftpassage vor erneutem ADS, keine gehaltene Ruhe. FOV, Handling, Aufsätze/Perks und Eingabezeit unbekannt; Einzelbeispiel, kein Klassenmittel. HUD-voll ist keine Feuerfreigabe.",
+      "phases": [
+        {
+          "key": "start",
+          "label": "Beginn",
+          "t_s": null
+        },
+        {
+          "key": "leaves_center",
+          "label": "verlässt Mitte",
+          "t_s": null
+        },
+        {
+          "key": "magazine_out",
+          "label": "Magazin heraus",
+          "t_s": null
+        },
+        {
+          "key": "magazine_in",
+          "label": "Magazin ein",
+          "t_s": null
+        },
+        {
+          "key": "bolt",
+          "label": "Verschluss",
+          "t_s": null
+        },
+        {
+          "key": "hip",
+          "label": "Hüfte",
+          "t_s": 152.333333
+        },
+        {
+          "key": "settled",
+          "label": "ruhig",
+          "t_s": null
+        },
+        {
+          "key": "hud_change",
+          "label": "HUD",
+          "t_s": 151.733333
+        }
+      ],
+      "visible_total_s": null,
+      "visible_start_s": null,
+      "visible_end_s": null,
+      "visible_end_marker": null,
+      "ammo_state": {
+        "mode": "tactical",
+        "before": 4,
+        "after": 5
+      },
+      "hud_ammo_shown_s": 151.733333,
+      "cancel_observed": null,
+      "source_channel": "Aculite",
+      "source_upload_date": "20260301",
+      "source_title": "Thermal Sniping in Marathon",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "marker_uncertainty_frames": 1,
+      "difference_uncertainty_frames": 2,
+      "subject": "Thermal-Scharfschützengewehr mit HUD-Kapazität 5 (Modell unbestätigt)",
+      "window_s": [
+        149.9,
+        152.4667
+      ],
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "neu",
+        "korrektur": "HUD 4→5: Soll 151,7333 s, Ist 151,7167 s (−1 Bild, in Toleranz)"
+      },
+      "hud_to_hip_s": 0.6,
+      "visible_total_s_range": null,
+      "visible_to_hip_s_range": null,
+      "visible_definition": null,
+      "visible_end_definition": null,
+      "hud_to_hip_s_range": null,
+      "uncertainty": null,
+      "context": null
+    },
+    {
+      "id": "AV01",
+      "game": "Apex Legends (2019)",
+      "weapon": "RE-45 Auto",
+      "class": "Pistole",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=R-BGChzYGpo",
+      "timestamp": "17.717–19.900 s",
+      "notes": "KORREKTUR (Abnahme 25.10.2026): Codex setzte die Hüftlage auf 19,15 s (Gesamt 1,40 s); am Bild sind dort noch beide Hände am Verschluss, die Waffe sitzt erst ≈ 19,6–19,85 s in der Hüfte (Start 17,75 s → 1,85–2,10 s); die Aussage „Hüftlage vor HUD“ entfällt. Start = erste eindeutige Reloadrotation nach Rückstoß. Sichtbarer Magazinsitz und Hand am oberen Verschluss getrennt. Kameradrehung verhindert sichere Ruhe. Kein Taktisch-Gegenfall: frühere Folge 5–8 s ist Inspektion. FOV, Handling, Aufsätze/Perks und Eingabezeit unbekannt; Einzelbeispiel, kein Klassenmittel. HUD-voll ist keine Feuerfreigabe.",
+      "phases": [
+        {
+          "key": "start",
+          "label": "Beginn",
+          "t_s": 17.75
+        },
+        {
+          "key": "leaves_center",
+          "label": "verlässt Mitte",
+          "t_s": 17.766667
+        },
+        {
+          "key": "magazine_out",
+          "label": "Magazin heraus",
+          "t_s": null
+        },
+        {
+          "key": "magazine_in",
+          "label": "Magazin ein",
+          "t_s": 18.733333
+        },
+        {
+          "key": "bolt",
+          "label": "Verschluss",
+          "t_s": 18.883333
+        },
+        {
+          "key": "hip",
+          "label": "Hüfte",
+          "t_s": null,
+          "t_s_range": [
+            19.6,
+            19.85
+          ],
+          "reason": "Korrektur 25.10.2026: bei 19,15 s noch beide Hände am Verschluss; Waffe in der Hüftlage erst ≈ 19,6–19,85 s"
+        },
+        {
+          "key": "settled",
+          "label": "ruhig",
+          "t_s": null
+        },
+        {
+          "key": "hud_change",
+          "label": "HUD",
+          "t_s": 19.333333
+        }
+      ],
+      "visible_total_s": null,
+      "visible_start_s": 17.75,
+      "visible_end_s": null,
+      "visible_end_marker": "Hüfte (Bereich)",
+      "ammo_state": {
+        "mode": "empty",
+        "before": 0,
+        "after": 15
+      },
+      "hud_ammo_shown_s": 19.333333,
+      "cancel_observed": null,
+      "source_channel": "Cacek47",
+      "source_upload_date": "20190206",
+      "source_title": "Apex Legends @ ALL Weapons Look and Sound Showcase @ FHD 60fps",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "marker_uncertainty_frames": 1,
+      "difference_uncertainty_frames": 2,
+      "subject": "RE-45 Auto",
+      "window_s": [
+        17.717,
+        19.9
+      ],
+      "visible_to_hip_s_range": [
+        1.85,
+        2.1
+      ],
+      "audit": {
+        "decision": "korrigiert",
+        "bestand": "ergänzt apex.md (Nachladen, Beginn) und auswertung.md V12",
+        "korrektur": "Hüfte Zuarbeit 19,15 s / Start→Hüfte 1,40 s; am Bild ≈ 19,6–19,85 s / 1,85–2,10 s (Prüfer 19,6–19,8 s; Koordinator-Nachmessung an den Bildern 19,15 / 19,35 / 19,60 / 19,85 s); HUD 0→15 bei 19,333 s bestätigt"
+      },
+      "hud_to_hip_s": null,
+      "hud_to_hip_s_range": [
+        0.267,
+        0.517
+      ],
+      "visible_total_s_range": null,
+      "visible_definition": null,
+      "visible_end_definition": null,
+      "uncertainty": null,
+      "context": null
+    },
+    {
+      "id": "AV02",
+      "game": "Apex Legends (2019)",
+      "weapon": "P2020",
+      "class": "Pistole",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=R-BGChzYGpo",
+      "timestamp": "29.017–30.217 s",
+      "notes": "Start nach letztem Schuss: erste vom Rückstoß getrennte Reloadbewegung. Kein separater, zweifelsfreier Verschlussgriff; deshalb null. HUD voll 0.1500 s vor Hüftmarker und 0.2500 s vor ruhiger Pose. FOV, Handling, Aufsätze/Perks und Eingabezeit unbekannt; Einzelbeispiel, kein Klassenmittel. HUD-voll ist keine Feuerfreigabe.",
+      "phases": [
+        {
+          "key": "start",
+          "label": "Beginn",
+          "t_s": 29.066667
+        },
+        {
+          "key": "leaves_center",
+          "label": "verlässt Mitte",
+          "t_s": 29.1
+        },
+        {
+          "key": "magazine_out",
+          "label": "Magazin heraus",
+          "t_s": null
+        },
+        {
+          "key": "magazine_in",
+          "label": "Magazin ein",
+          "t_s": 29.783333
+        },
+        {
+          "key": "bolt",
+          "label": "Verschluss",
+          "t_s": null
+        },
+        {
+          "key": "hip",
+          "label": "Hüfte",
+          "t_s": 30.066667
+        },
+        {
+          "key": "settled",
+          "label": "ruhig",
+          "t_s": 30.166667
+        },
+        {
+          "key": "hud_change",
+          "label": "HUD",
+          "t_s": 29.916667
+        }
+      ],
+      "visible_total_s": 1.1,
+      "visible_start_s": 29.066667,
+      "visible_end_s": 30.166667,
+      "visible_end_marker": "ruhig",
+      "ammo_state": {
+        "mode": "empty",
+        "before": 0,
+        "after": 10
+      },
+      "hud_ammo_shown_s": 29.916667,
+      "cancel_observed": null,
+      "source_channel": "Cacek47",
+      "source_upload_date": "20190206",
+      "source_title": "Apex Legends @ ALL Weapons Look and Sound Showcase @ FHD 60fps",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "marker_uncertainty_frames": 1,
+      "difference_uncertainty_frames": 2,
+      "subject": "P2020",
+      "window_s": [
+        29.0167,
+        30.2167
+      ],
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "ergänzt apex.md und auswertung.md V12",
+        "korrektur": null
+      },
+      "hud_to_hip_s": 0.15,
+      "visible_total_s_range": null,
+      "visible_to_hip_s_range": null,
+      "visible_definition": null,
+      "visible_end_definition": null,
+      "hud_to_hip_s_range": null,
+      "uncertainty": null,
+      "context": null
+    },
+    {
+      "id": "AV03",
+      "game": "Apex Legends (2019)",
+      "weapon": "R-301 Carbine",
+      "class": "Automatikgewehr",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=R-BGChzYGpo",
+      "timestamp": "46.283–48.783 s",
+      "notes": "Magazin heraus nicht mit ±1 klar genug abgegrenzt. Hand am Ladegriff nach Magazinsitz; HUD voll 48.2500 s, Hüftpassage 48.7333 s. Direkt danach ADS, daher ruhig null. Folge 40–42.8 s geprüft und als Inspektion verworfen. FOV, Handling, Aufsätze/Perks und Eingabezeit unbekannt; Einzelbeispiel, kein Klassenmittel. HUD-voll ist keine Feuerfreigabe.",
+      "phases": [
+        {
+          "key": "start",
+          "label": "Beginn",
+          "t_s": 46.35
+        },
+        {
+          "key": "leaves_center",
+          "label": "verlässt Mitte",
+          "t_s": 46.383333
+        },
+        {
+          "key": "magazine_out",
+          "label": "Magazin heraus",
+          "t_s": null
+        },
+        {
+          "key": "magazine_in",
+          "label": "Magazin ein",
+          "t_s": 47.8
+        },
+        {
+          "key": "bolt",
+          "label": "Verschluss",
+          "t_s": 48.233333
+        },
+        {
+          "key": "hip",
+          "label": "Hüfte",
+          "t_s": 48.733333
+        },
+        {
+          "key": "settled",
+          "label": "ruhig",
+          "t_s": null
+        },
+        {
+          "key": "hud_change",
+          "label": "HUD",
+          "t_s": 48.25
+        }
+      ],
+      "visible_total_s": 2.383333,
+      "visible_start_s": 46.35,
+      "visible_end_s": 48.733333,
+      "visible_end_marker": "Hüfte",
+      "ammo_state": {
+        "mode": "empty",
+        "before": 0,
+        "after": 18
+      },
+      "hud_ammo_shown_s": 48.25,
+      "cancel_observed": null,
+      "source_channel": "Cacek47",
+      "source_upload_date": "20190206",
+      "source_title": "Apex Legends @ ALL Weapons Look and Sound Showcase @ FHD 60fps",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "marker_uncertainty_frames": 1,
+      "difference_uncertainty_frames": 2,
+      "subject": "R-301 Carbine",
+      "window_s": [
+        46.2833,
+        48.7833
+      ],
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "ergänzt apex.md und auswertung.md V12",
+        "korrektur": null
+      },
+      "hud_to_hip_s": 0.483,
+      "visible_total_s_range": null,
+      "visible_to_hip_s_range": null,
+      "visible_definition": null,
+      "visible_end_definition": null,
+      "hud_to_hip_s_range": null,
+      "uncertainty": null,
+      "context": null
+    },
+    {
+      "id": "TV01",
+      "game": "Titanfall 2",
+      "weapon": "Hammond P2016",
+      "class": "Pistole",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=4sDwTD9U8bw",
+      "timestamp": "5.417–6.783 s",
+      "notes": "Echtes Paar mit TV02: HUD vor Beginn 5, während Magazin draußen 0, nach Übernahme 16. Kein Abbruch; Vollübernahme vor Rückkehr. Magazin-heraus und eigenständige Verschlussbetätigung nicht sicher genug getrennt. FOV, Handling, Aufsätze/Perks und Eingabezeit unbekannt; Einzelbeispiel, kein Klassenmittel. HUD-voll ist keine Feuerfreigabe.",
+      "phases": [
+        {
+          "key": "start",
+          "label": "Beginn",
+          "t_s": 5.483333
+        },
+        {
+          "key": "leaves_center",
+          "label": "verlässt Mitte",
+          "t_s": 5.533333
+        },
+        {
+          "key": "magazine_out",
+          "label": "Magazin heraus",
+          "t_s": null
+        },
+        {
+          "key": "magazine_in",
+          "label": "Magazin ein",
+          "t_s": 6.266667
+        },
+        {
+          "key": "bolt",
+          "label": "Verschluss",
+          "t_s": null
+        },
+        {
+          "key": "hip",
+          "label": "Hüfte",
+          "t_s": 6.516667
+        },
+        {
+          "key": "settled",
+          "label": "ruhig",
+          "t_s": 6.716667
+        },
+        {
+          "key": "hud_change",
+          "label": "HUD",
+          "t_s": 6.266667
+        }
+      ],
+      "visible_total_s": 1.233333,
+      "visible_start_s": 5.483333,
+      "visible_end_s": 6.716667,
+      "visible_end_marker": "ruhig",
+      "ammo_state": {
+        "mode": "tactical",
+        "before": 5,
+        "after": 16
+      },
+      "hud_ammo_shown_s": 6.266667,
+      "cancel_observed": null,
+      "source_channel": "Weapons From Games",
+      "source_upload_date": "20190314",
+      "source_title": "Titanfall 2 [2019] - All Weapons Showcase After All Patches, Updates, DLC's, Fixes - PC ULTRA 1440P",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "marker_uncertainty_frames": 1,
+      "difference_uncertainty_frames": 2,
+      "subject": "Hammond P2016",
+      "window_s": [
+        5.4167,
+        6.7833
+      ],
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "ergänzt titanfall2.md (Nachladen) und auswertung.md V12",
+        "korrektur": null
+      },
+      "hud_to_hip_s": 0.25,
+      "visible_total_s_range": null,
+      "visible_to_hip_s_range": null,
+      "visible_definition": null,
+      "visible_end_definition": null,
+      "hud_to_hip_s_range": null,
+      "uncertainty": null,
+      "context": null
+    },
+    {
+      "id": "TV02",
+      "game": "Titanfall 2",
+      "weapon": "Hammond P2016",
+      "class": "Pistole",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=4sDwTD9U8bw",
+      "timestamp": "15.517–16.817 s",
+      "notes": "Echtes Paar mit TV01: HUD0 vor Reload. Nahezu gleicher sichtbarer Magazinweg; keine belastbar isolierbare Zusatz-Verschlussphase. Werte sind dieses Showcase mit unbekannten Stats, keine allgemeine Leer/Taktisch-Differenz. FOV, Handling, Aufsätze/Perks und Eingabezeit unbekannt; Einzelbeispiel, kein Klassenmittel. HUD-voll ist keine Feuerfreigabe.",
+      "phases": [
+        {
+          "key": "start",
+          "label": "Beginn",
+          "t_s": 15.583333
+        },
+        {
+          "key": "leaves_center",
+          "label": "verlässt Mitte",
+          "t_s": 15.616667
+        },
+        {
+          "key": "magazine_out",
+          "label": "Magazin heraus",
+          "t_s": null
+        },
+        {
+          "key": "magazine_in",
+          "label": "Magazin ein",
+          "t_s": 16.3
+        },
+        {
+          "key": "bolt",
+          "label": "Verschluss",
+          "t_s": null
+        },
+        {
+          "key": "hip",
+          "label": "Hüfte",
+          "t_s": 16.583333
+        },
+        {
+          "key": "settled",
+          "label": "ruhig",
+          "t_s": 16.75
+        },
+        {
+          "key": "hud_change",
+          "label": "HUD",
+          "t_s": 16.3
+        }
+      ],
+      "visible_total_s": 1.166667,
+      "visible_start_s": 15.583333,
+      "visible_end_s": 16.75,
+      "visible_end_marker": "ruhig",
+      "ammo_state": {
+        "mode": "empty",
+        "before": 0,
+        "after": 16
+      },
+      "hud_ammo_shown_s": 16.3,
+      "cancel_observed": null,
+      "source_channel": "Weapons From Games",
+      "source_upload_date": "20190314",
+      "source_title": "Titanfall 2 [2019] - All Weapons Showcase After All Patches, Updates, DLC's, Fixes - PC ULTRA 1440P",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "marker_uncertainty_frames": 1,
+      "difference_uncertainty_frames": 2,
+      "subject": "Hammond P2016",
+      "window_s": [
+        15.5167,
+        16.8167
+      ],
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "ergänzt titanfall2.md und auswertung.md V12",
+        "korrektur": null
+      },
+      "hud_to_hip_s": 0.283,
+      "visible_total_s_range": null,
+      "visible_to_hip_s_range": null,
+      "visible_definition": null,
+      "visible_end_definition": null,
+      "hud_to_hip_s_range": null,
+      "uncertainty": null,
+      "context": null
+    },
+    {
+      "id": "TV03",
+      "game": "Titanfall 2",
+      "weapon": "CAR",
+      "class": "Maschinenpistole",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=4sDwTD9U8bw",
+      "timestamp": "94.100–96.200 s",
+      "notes": "Echtes Paar mit TV04: eine Restpatrone vor Beginn. Start = linke Hand löst sich zuerst vom Vorderschaft. Kein sichtbarer zusätzlicher Ladegriff in diesem taktischen Ablauf. Vollübernahme 95.5000 s, Magazinsitz-Handpalm 95.5167 s; Marker können um ein Bild differieren. FOV, Handling, Aufsätze/Perks und Eingabezeit unbekannt; Einzelbeispiel, kein Klassenmittel. HUD-voll ist keine Feuerfreigabe.",
+      "phases": [
+        {
+          "key": "start",
+          "label": "Beginn",
+          "t_s": 94.266667
+        },
+        {
+          "key": "leaves_center",
+          "label": "verlässt Mitte",
+          "t_s": 94.4
+        },
+        {
+          "key": "magazine_out",
+          "label": "Magazin heraus",
+          "t_s": 94.666667
+        },
+        {
+          "key": "magazine_in",
+          "label": "Magazin ein",
+          "t_s": 95.516667
+        },
+        {
+          "key": "bolt",
+          "label": "Verschluss",
+          "t_s": null
+        },
+        {
+          "key": "hip",
+          "label": "Hüfte",
+          "t_s": 95.933333
+        },
+        {
+          "key": "settled",
+          "label": "ruhig",
+          "t_s": 96.116667
+        },
+        {
+          "key": "hud_change",
+          "label": "HUD",
+          "t_s": 95.5
+        }
+      ],
+      "visible_total_s": 1.85,
+      "visible_start_s": 94.266667,
+      "visible_end_s": 96.116667,
+      "visible_end_marker": "ruhig",
+      "ammo_state": {
+        "mode": "tactical",
+        "before": 1,
+        "after": 36
+      },
+      "hud_ammo_shown_s": 95.5,
+      "cancel_observed": null,
+      "source_channel": "Weapons From Games",
+      "source_upload_date": "20190314",
+      "source_title": "Titanfall 2 [2019] - All Weapons Showcase After All Patches, Updates, DLC's, Fixes - PC ULTRA 1440P",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "marker_uncertainty_frames": 1,
+      "difference_uncertainty_frames": 2,
+      "subject": "CAR",
+      "window_s": [
+        94.1,
+        96.2
+      ],
+      "audit": {
+        "decision": "korrigiert",
+        "bestand": "ergänzt titanfall2.md und auswertung.md V12",
+        "korrektur": "timestamp Zuarbeit '94,1000–103,1500 s'; Ereignis 94,27–96,12 s (Feld gesetzt auf 94,10–96,20); HUD 1→36 bei 95,50 und Start 94,2667 bestätigt"
+      },
+      "hud_to_hip_s": 0.433,
+      "visible_total_s_range": null,
+      "visible_to_hip_s_range": null,
+      "visible_definition": null,
+      "visible_end_definition": null,
+      "hud_to_hip_s_range": null,
+      "uncertainty": null,
+      "context": null
+    },
+    {
+      "id": "TV04",
+      "game": "Titanfall 2",
+      "weapon": "CAR",
+      "class": "Maschinenpistole",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=4sDwTD9U8bw",
+      "timestamp": "101.633–104.100 s",
+      "notes": "Echtes Paar mit TV03: HUD0. Start = erste eindeutig vom ADS-aus getrennte Reloadbewegung, nicht letzter Schuss. Zusätzlicher Griff auf Oberseite nach Magazinsitz sichtbar; HUD voll erst dort. Keine Eingabesperre oder Abbruchgrenze getestet. FOV, Handling, Aufsätze/Perks und Eingabezeit unbekannt; Einzelbeispiel, kein Klassenmittel. HUD-voll ist keine Feuerfreigabe.",
+      "phases": [
+        {
+          "key": "start",
+          "label": "Beginn",
+          "t_s": 101.733333
+        },
+        {
+          "key": "leaves_center",
+          "label": "verlässt Mitte",
+          "t_s": 101.766667
+        },
+        {
+          "key": "magazine_out",
+          "label": "Magazin heraus",
+          "t_s": 102.216667
+        },
+        {
+          "key": "magazine_in",
+          "label": "Magazin ein",
+          "t_s": 103.1
+        },
+        {
+          "key": "bolt",
+          "label": "Verschluss",
+          "t_s": 103.4
+        },
+        {
+          "key": "hip",
+          "label": "Hüfte",
+          "t_s": 103.933333
+        },
+        {
+          "key": "settled",
+          "label": "ruhig",
+          "t_s": 104.0
+        },
+        {
+          "key": "hud_change",
+          "label": "HUD",
+          "t_s": 103.4
+        }
+      ],
+      "visible_total_s": 2.266667,
+      "visible_start_s": 101.733333,
+      "visible_end_s": 104.0,
+      "visible_end_marker": "ruhig",
+      "ammo_state": {
+        "mode": "empty",
+        "before": 0,
+        "after": 36
+      },
+      "hud_ammo_shown_s": 103.4,
+      "cancel_observed": null,
+      "source_channel": "Weapons From Games",
+      "source_upload_date": "20190314",
+      "source_title": "Titanfall 2 [2019] - All Weapons Showcase After All Patches, Updates, DLC's, Fixes - PC ULTRA 1440P",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "marker_uncertainty_frames": 1,
+      "difference_uncertainty_frames": 2,
+      "subject": "CAR",
+      "window_s": [
+        101.633,
+        104.1
+      ],
+      "audit": {
+        "decision": "korrigiert",
+        "bestand": "ergänzt titanfall2.md und auswertung.md V12",
+        "korrektur": "timestamp Zuarbeit '95,4333–104,0000 s'; Ereignis 101,73–104,0 s (Feld gesetzt auf 101,63–104,10); HUD 0→36 bei 103,4 nicht einzeln nachgeprüft"
+      },
+      "hud_to_hip_s": 0.533,
+      "visible_total_s_range": null,
+      "visible_to_hip_s_range": null,
+      "visible_definition": null,
+      "visible_end_definition": null,
+      "hud_to_hip_s_range": null,
+      "uncertainty": null,
+      "context": null
+    },
+    {
+      "id": "RQ01",
+      "game": "Destiny 2",
+      "weapon": "Blau/violettes Scharfschützengewehr mit kleiner Rundoptik (Name unbestätigt)",
+      "class": "Scharfschützengewehr",
+      "status": "M",
+      "source_url": "https://www.youtube.com/watch?v=ZpuJ2yw_U3c",
+      "timestamp": "14.133–15.667 s",
+      "source_channel": "Hynra Can Fly",
+      "source_upload_date": "20220629",
+      "source_title": "\"why are you using a bow with a sniper?\"",
+      "native_rate": "60/1",
+      "source_offset_s": 0,
+      "phases": [
+        {
+          "key": "start",
+          "label": "Beginn",
+          "t_s": null,
+          "reason": "Ziehen geht unmittelbar in Nachladen über; isolierter Beginn offen."
+        },
+        {
+          "key": "other",
+          "label": "linke Hand am Magazin",
+          "t_s": 14.133333,
+          "frame": 848
+        },
+        {
+          "key": "magazine_out",
+          "label": "Magazin aus dem Schacht",
+          "t_s": 14.316667,
+          "frame": 859
+        },
+        {
+          "key": "other",
+          "label": "neues Magazin sichtbar",
+          "t_s": 14.633333,
+          "frame": 878
+        },
+        {
+          "key": "magazine_in",
+          "label": "Magazin sitzt",
+          "t_s": 14.65,
+          "t_s_range": [
+            14.65,
+            14.666667
+          ],
+          "frame": 879
+        },
+        {
+          "key": "hud_change",
+          "label": "HUD 0→1 (Reserve 1→0)",
+          "t_s": 14.666667,
+          "frame": 880
+        },
+        {
+          "key": "bolt",
+          "label": "Seitenhand/Verschluss",
+          "t_s": null,
+          "reason": "Rechte Hand arbeitet während der Rollenbewegung an der Waffenseite; präziser Verschlussmarker nicht sicher getrennt."
+        },
+        {
+          "key": "hip",
+          "label": "hüftähnliche Rückkehr",
+          "t_s": 15.483333,
+          "t_s_range": [
+            15.45,
+            15.533333
+          ],
+          "frame": 929
+        },
+        {
+          "key": "settled",
+          "label": "ruhig",
+          "t_s": null,
+          "reason": "Geh-/Blickbewegung und kurz darauf ADS; reine ruhige Pose nicht isoliert."
+        }
+      ],
+      "visible_total_s": null,
+      "ammo_state": {
+        "mode": "empty",
+        "before": 0,
+        "after": 1,
+        "reserve_before": 1,
+        "reserve_after": 0,
+        "note": "Kapazität unbekannt, nicht als voll bezeichnet"
+      },
+      "hud_ammo_shown_s": 14.666667,
+      "hud_ammo_increment_s": 14.666667,
+      "cancel_observed": null,
+      "hud_to_hip_frames": 49,
+      "hud_to_hip_frames_range": [
+        47,
+        52
+      ],
+      "hud_to_hip_s": 0.817,
+      "normal_speed_control": "HUD-Uhr bei Video10s f600:6:21, bei20s f1200:6:11. Native60/1,start0, keine alternierenden Inhaltsdoppelbilder im Fenster840–949; minimale Nachbar-MAD6.674 bei96×54 Graustufen.",
+      "notes": "Neuer HUD-sichtbarer Reload-Teilbeleg derselben Quelle wie Thema 2-D03, dort nur Ziehphase. Linke Hand zieht das Magazin nach unten heraus und bringt eines von links unten zum Schacht. f879 zeigt den Einschub, HUD erst f880 von 0/1 auf 1/0. Die sichtbare Rückkehr folgt etwa 49 Bildern später (Bereich 47–52;0.783–0.867 s). HUD-Übernahme ist weder Magazinvollstand noch Feuerfreigabe. Kein Reload-Abbruch beobachtet oder getestet; kein Sprint-/Wechseleingabe-Beleg. Handling/Perks/FOV und Modellname unbekannt. Die Figur rollt nach dem Einsetzen für weitere Handarbeit; eindeutige Verschlussgrenze und ruhiger Endpunkt bleiben null. Harte Marker±1 f/Differenzen±2, Hüftpose weicher Bereich. Unabhängige Gegenprüfung bestätigt Magazin-aus f859 und HUD-Grenze f879/f880; Einschub-Endlage als 879–880 geführt.",
+      "subject": "Blau/violettes Scharfschützengewehr mit kleiner Rundoptik (Name unbestätigt)",
+      "window_s": [
+        14.133333,
+        15.666667
+      ],
+      "audit": {
+        "decision": "übernommen",
+        "bestand": "neu",
+        "korrektur": null
+      },
+      "visible_start_s": null,
+      "visible_end_s": null,
+      "visible_total_s_range": null,
+      "visible_to_hip_s_range": null,
+      "visible_end_marker": null,
+      "visible_definition": null,
+      "visible_end_definition": null,
+      "hud_to_hip_s_range": null,
+      "uncertainty": null,
+      "context": null
+    }
+  ],
+  "fields": {
+    "window_s": "Messfenster [Beginn, Ende] in Quellsekunden",
+    "phases": "Marker je Nachladen: key (start, leaves_center, magazine_out, magazine_in, bolt, hip, settled, hud_change, shell, other), label, t_s (null = nicht belegt), t_s_range, frame, reason",
+    "visible_*": "Dauern und Endpunkte sichtbarer Posen (Quellmedienzeit), keine Eingabe-, Sperr- oder Feuerfreigabezeit",
+    "visible_end_marker": "Freitext: Hüfte | ruhig | Hüfte (Bereich); null = Ende steht in visible_definition bzw. im Marker settled",
+    "hud_ammo_shown_s": "Zeitpunkt der (letzten) Änderung der Munitionsanzeige im HUD; null = kein HUD",
+    "hud_to_hip_s": "Abstand HUD-Änderung → Hüftmarker (s)",
+    "ammo_state": "{mode: empty|tactical|null, before, after, note}",
+    "cancel_observed": "Abbruch beobachtet (in keinem Fall)",
+    "optional": "weitere Felder je Eintrag (measured_frame_count, marker_uncertainty_frames, difference_uncertainty_frames, hud_increments u. a.) stehen nur, wo die Zuarbeit sie lieferte",
+    "audit": "Abnahme: decision (übernommen|korrigiert), bestand (Bezug zum Bestand), korrektur",
+    "evaluation": "evaluation[].player/dev sind Freitext (Standard § 6 C nennt player_opinion/dev_reference als Objekte; hier je Spiel statt je Zeile)"
+  },
+  "units": {
+    "time": "s (Quellmedienzeit, native 60/1, ±1 Bild = 0,0167 s, Differenzen ±2 Bilder)",
+    "frame": "nativer Bildindex der Quelldatei"
+  },
+  "id_scheme": "IDs aus den Teilzuarbeiten, unverändert: d2-… Destiny-Ergänzung zu einer Bestandszeile bzw. neuer Häkke-HUD-Fall, R-H01–R-H06 Destiny-Showcase-Nachladen, RQ01 Destiny-HUD-Scharfschütze, MV Marathon, AV Apex, TV Titanfall 2",
+  "evaluation": [
+    {
+      "game": "Destiny 2",
+      "subject": "Phasenlesbarkeit und Statusübernahme (Schrot, Fusion, Scharfschütze, MG, Granatwerfer)",
+      "good": "Lange Abläufe gliedern sich in erkennbare Abschnitte (Cipher: Deckel öffnen, Gurt, Deckel schließen; Far Future trennt Magazinsitz und Kammergriff); die Häkke-Schrotflinte zeigt die Munitionszunahme sichtbar in Dreierschritten.",
+      "bad": "Sichtbares Einsetzen oder eine Zunahme der Anzeige belegt keine Feuerfreigabe; Handverdeckung und lange Zwischenposen erschweren die Zuordnung; der reservebegrenzte Scharfschütze (Reserve 0 danach) darf nicht als voll gelten; Einzelhülsen dauern 5,77 s (Baligant) und 5,88 s (Hawthorne).",
+      "audience": "PvE: Gewichtsgefühl und Statusverständnis; PvP und Einsteiger: eindeutiger Bereitschaftshinweis und klare Abbruchregeln.",
+      "evidence": "[M] Shattered Cipher 11,800–16,667 s (DEM-8xg66R8), Far Future 15,867–18,050 s (RXgRxHESqHQ), Häkke-Schrotflinte HUD 0→3→6 (lZcqE1LWRDA).",
+      "player": "[C] Reddit r/DestinyTheGame: P1 Quicksilver Storm (17.03.2023, **Einzelstimme**: Reload-Cue ≈ 0,1 s zu früh laut Titel, nicht übernommen); P2 Riskrunner (07.12.2020) und P3 Scharfschütze (09.10.2019) – laut Zuarbeit zwei unabhängige Threads über volle Munition nach Animationsabbruch bei weiter bestehender Schusssperre. **Antworten, Gegenstimmen und Wertungen in den Threads wurden nicht nachgelesen** (nur Zuarbeit). Beiträge per Pullpush bestätigt (Subreddit, Titel, Datum, Autor); ob das Problem verbreitet ist, ist offen.",
+      "dev": "[B] Bungie Update 9.0.0.1 (MG-Nachlade-Checkpoints, laut Zuarbeit 15.07.2025): bei der Abnahme nicht abrufbar, **nicht geprüft**; die Cipher-Messung von 2021 kann die Regel ohnehin nicht belegen."
+    },
+    {
+      "game": "Apex Legends",
+      "subject": "Reihenfolge von HUD-Zunahme, Hüftlage und Leer-/Taktisch-Rückmeldung (RE-45, P2020, R-301)",
+      "good": "Die Zunahme der Munitionsanzeige kommt in allen drei Fällen **vor** der sichtbaren Rückkehr in die Hüfte (0,15–0,52 s); Einschätzung: die Rückmeldung ist früh, wer aufs HUD schaut, weiß es vor der Pose.",
+      "bad": "Eine Regel „Hüftpose = geladen“ oder „HUD voll = feuerbereit“ trägt die Stichprobe nicht; alle drei Fälle sind leer, ein taktischer Zeitgewinn ist hier nicht belegt; Apex-Clip von 2019, Threads von 2020 und 2025.",
+      "audience": "Schnelle Nahkämpfe (PvP), Einsteiger und Spieler mit seltenem Blick aufs HUD.",
+      "evidence": "[M] AV02 P2020 29,0667–30,1667 s, AV03 R-301 46,35–48,7333 s, AV01 RE-45 17,75 → ≈ 19,6–19,85 s (R-BGChzYGpo).",
+      "player": "[C] r/apexlegends: P4 „tactical reload trick“ (20.06.2020) und P5 „TIL this“ (21.11.2025) – laut Zuarbeit zwei unabhängige Threads über Nutzen und Bekanntheit des taktischen Nachladens (Zählen unter Feuer schwierig; späte Entdeckung der zusätzlichen Kammerphase). **Inhalte der Antworten nicht nachgelesen**; kein Beleg für Verbreitung. Beiträge per Pullpush bestätigt (Scores weichen leicht ab: P4 5 statt 4, P5 54 statt 60).",
+      "dev": "keine"
+    },
+    {
+      "game": "Titanfall 2",
+      "subject": "Leer-/Taktisch-Paare derselben Waffe (P2016, CAR)",
+      "good": "Zwei echte Paare im selben Upload machen die Zusatzarbeit des leeren Ablaufs prüfbar: CAR 2,27 s leer gegen 1,85 s taktisch bis ruhig.",
+      "bad": "Keine universelle Leer-Strafe: die P2016 braucht taktisch 1,23 s und leer 1,17 s; Marker, Poseende und Tempo-Restunsicherheit bleiben; HUD voll ist kein Feuerfreigabetest.",
+      "audience": "Spieler, die Leer-/Taktisch-Risiko lernen; Animations- und Balancingprüfung.",
+      "evidence": "[M] TV01/TV02 P2016 (5,48–6,72 s, 15,58–16,75 s), TV03/TV04 CAR (94,27–96,12 s, 101,73–104,0 s) in 4sDwTD9U8bw.",
+      "player": "keine (für Titanfall 2 wurden keine Threads ergänzt; weder Zufriedenheit noch Beschwerden behauptet)",
+      "dev": "keine"
+    },
+    {
+      "game": "Marathon (2026)",
+      "subject": "Munitionsübernahme vor sichtbarer Rückkehr (drei taktische Fälle)",
+      "good": "Die Anzeige wechselt 0,43–0,60 s vor der Hüftpassage – ein vom Pose-Ende getrennter Informationsschritt.",
+      "bad": "Gehen, transparente Effekte und überlagerte Startposen verhindern Ruhe und teils die Gesamtdauer; Modelle unbestätigt; ohne Feuerfreigabetest kein Urteil über zu frühes oder spätes Freigeben.",
+      "audience": "Einsteiger und schnelle Entscheidungen unter Bewegung; Anzeigen- und Animationstest.",
+      "evidence": "[M] MV01 199,17–201,27 s, MV02/MV03 nur Hüft- und HUD-Marker (FEW1ZkadfM8).",
+      "player": "keine",
+      "dev": "[B/S] Autodesk-Blog 20.10.2026 (Brendan Russert, Riot/Valorant): Magazin heraus, Munitionsübernahme und erneut schussfähiger Zustand als Beats, die auch bei Skins lesbar bleiben müssen; ein früher Drachen-Reload hatte einen unklaren Bereitschaftsmoment. Seite abgerufen und stützend – ein **spielübergreifendes Entwurfsziel** (Valorant), weder Marathon-spezifisch noch Bestätigung der hier gemessenen Zeiten."
+    }
+  ],
+  "player_sources": [
+    {
+      "id": "P1",
+      "game": "Destiny 2",
+      "url": "https://www.reddit.com/r/DestinyTheGame/comments/11tud97/",
+      "date": "2023-03-17",
+      "author": "Careless-Fill-930",
+      "check": "Pullpush: Subreddit, Titel, Datum, Autor bestätigt",
+      "weight": "Einzelstimme"
+    },
+    {
+      "id": "P2",
+      "game": "Destiny 2",
+      "url": "https://www.reddit.com/r/DestinyTheGame/comments/k8jbiv/",
+      "date": "2020-12-07",
+      "author": "EmployerTasty5235",
+      "check": "Pullpush bestätigt",
+      "weight": "mit P3 zwei unabhängige Threads"
+    },
+    {
+      "id": "P3",
+      "game": "Destiny 2",
+      "url": "https://www.reddit.com/r/DestinyTheGame/comments/dfao0p/",
+      "date": "2019-10-09",
+      "author": "NovaHands",
+      "check": "Pullpush bestätigt",
+      "weight": "mit P2 zwei unabhängige Threads"
+    },
+    {
+      "id": "P4",
+      "game": "Apex Legends",
+      "url": "https://www.reddit.com/r/apexlegends/comments/hctehq/",
+      "date": "2020-06-20",
+      "author": "little-conrad",
+      "check": "Pullpush bestätigt (Score 5, Zuarbeit 4)",
+      "weight": "mit P5 zwei unabhängige Threads"
+    },
+    {
+      "id": "P5",
+      "game": "Apex Legends",
+      "url": "https://www.reddit.com/r/apexlegends/comments/1p2x3ft/til_this/",
+      "date": "2025-11-21",
+      "author": "Sudden_Light8514",
+      "check": "Pullpush bestätigt (Score 54, Zuarbeit 60)",
+      "weight": "mit P4 zwei unabhängige Threads"
+    }
+  ],
+  "dev_sources": [
+    {
+      "id": "D1",
+      "url": "https://www.bungie.net/7/en/News/Article/destiny_update_9_0_0_1",
+      "who": "Bungie, Destiny 2 Update 9.0.0.1",
+      "check": "nicht prüfbar (Seite nur clientseitig gerendert, WebFetch liefert „Bungie.net“)",
+      "status": "nicht geprüft"
+    },
+    {
+      "id": "D2",
+      "url": "https://blogs.autodesk.com/media-and-entertainment/2026/10/20/riot-games-animates-valorant-with-autodesk-maya/",
+      "who": "Autodesk M&E, Brendan Russert (Riot Games)",
+      "check": "abgerufen, Datum 20.10.2026, stützt Beats-Aussage",
+      "status": "bestätigt (Entwurfsziel)"
+    }
+  ]
+}
