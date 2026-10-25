@@ -1,0 +1,1821 @@
+{
+ "version": "0.16.0",
+ "name": "Kickback",
+ "date": "2026-10-25",
+ "doc": "docs/rueckstoss.md",
+ "raw_data": "nicht im Repo: ~/Library/Caches/CubeEscape/reference/visiere/codex3/ (Codex-Zuarbeit 24.10.2026: CSV, Markerlisten, QA-Bögen); Dateinamen in notes beziehen sich darauf",
+ "status_overall": "nicht fertig im strengen Kontrollmessziel: keine Bahn mit nachgewiesen fehlender Spielereingabe außer Abyss Defiant (Bungie), keine Zufallsquote, keine Erstschuss-Streuung",
+ "units": "Prozent der Bildbreite (x) bzw. Bildhöhe (y), Ursprung oben links, x rechts, y unten positiv; Pfadwerte = Verschiebung der Bildmitte gegen einen festen Weltanker, auf die erste Probe genullt; negatives dy = Blick nach oben; Lagegenauigkeit ±3 Prozentpunkte, Nachkommastellen sind Rechenwerte; keine Umrechnung in Grad",
+ "status": {
+  "M": "gemessen am Bild",
+  "M-Netto": "gemessene Weltankerbewegung bei unbekannter Spielereingabe (Rückstoß plus Gegensteuern)",
+  "S": "Sekundär- oder Entwicklerquelle (Patchnotes, Datenbank)",
+  "C": "Community-Test",
+  "O": "Sichtung ohne belastbare Zahl"
+ },
+ "fields": {
+  "path_pct": "je Schuss [dx, dy] unmittelbar vor dem Schuss (D2) bzw. am HUD-Zählerwechsel (BF6, Halo, Titanfall); [null, null] = verworfen",
+  "net_range_pct": "Spanne der Weltanker-Nettobahn über das Messfenster, wenn keine schussweise Zuordnung vorliegt",
+  "recovery_frames": "Bilder (60/s) vom letzten Schuss bis zum Eintritt in das ±3-pp-Band um den Ausgangspunkt für mindestens 12 Bilder; Netto der Quelle",
+  "recoil_stat": "nur ein im Clip belegter aktiver Destiny-Wert; Datenbank-Basiswerte stehen in destiny_base_stats",
+  "null": "unbekannt oder für dieses Material nicht gültig, nie Nullrückstoß",
+  "recheck": "Nachmessung dieser Sitzung (eigener Tracker, eigene Anker, Rasterbild)"
+ },
+ "sources": {
+  "QxSa4m3wIEA": {
+   "channel": "Ultraclocked",
+   "upload_date": "2021-05-15",
+   "fps": 60,
+   "title": "Destiny 2 - Chroma Rush (Legendary Auto Rifle) - Animations & Sounds",
+   "url": "https://www.youtube.com/watch?v=QxSa4m3wIEA",
+   "checked": "yt-dlp 25.10.2026"
+  },
+  "rw_6lS0pBf0": {
+   "channel": "Destiny 2",
+   "upload_date": "2023-09-11",
+   "fps": 30,
+   "title": "Destiny 2: Season of the Witch | Deterministic Recoil Demo",
+   "url": "https://www.youtube.com/watch?v=rw_6lS0pBf0",
+   "checked": "yt-dlp 25.10.2026"
+  },
+  "DFn14wAPluA": {
+   "channel": "Ultraclocked",
+   "upload_date": "2021-05-13",
+   "fps": 60,
+   "title": "Destiny 2 - Gridskipper (Legendary Pulse Rifle) - Animations & Sounds",
+   "url": "https://www.youtube.com/watch?v=DFn14wAPluA",
+   "checked": "yt-dlp 25.10.2026"
+  },
+  "IG-GZ72Vbi0": {
+   "channel": "Ultraclocked",
+   "upload_date": "2020-02-14",
+   "fps": 60,
+   "title": "Destiny 2 - All Titan Legendary Weapons - Animations & Sounds w/ Slow-Motion | SUROS Weapons",
+   "url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+   "checked": "yt-dlp 25.10.2026"
+  },
+  "Y5OLr0nbgSg": {
+   "channel": "Ultraclocked",
+   "upload_date": "2021-02-15",
+   "fps": 60,
+   "title": "Destiny 2 - Extraordinary Rendition (Legendary SMG) - Animations & Sounds",
+   "url": "https://www.youtube.com/watch?v=Y5OLr0nbgSg",
+   "checked": "yt-dlp 25.10.2026"
+  },
+  "DEM-8xg66R8": {
+   "channel": "Ultraclocked",
+   "upload_date": "2021-05-14",
+   "fps": 60,
+   "title": "Destiny 2 - Shattered Cipher (Legendary Machine Gun) - Animations & Sounds",
+   "url": "https://www.youtube.com/watch?v=DEM-8xg66R8",
+   "checked": "yt-dlp 25.10.2026"
+  },
+  "uoTaCBMXcFk": {
+   "channel": "Ultraclocked",
+   "upload_date": "2021-02-20",
+   "fps": 60,
+   "title": "Destiny 2 - Threaded Needle (Legendary Linear Fusion Rifle) - Weapon Animations & Sounds",
+   "url": "https://www.youtube.com/watch?v=uoTaCBMXcFk",
+   "checked": "yt-dlp 25.10.2026"
+  },
+  "mkwgPBa1fXI": {
+   "channel": "Timothy Hsu",
+   "upload_date": "2021-04-27",
+   "fps": 30,
+   "title": "75 vs 100 recoil direction on The Messenger",
+   "url": "https://www.youtube.com/watch?v=mkwgPBa1fXI",
+   "checked": "yt-dlp 25.10.2026"
+  },
+  "wSZA073GUw8": {
+   "channel": "Moskri",
+   "upload_date": "2023-03-25",
+   "fps": 60,
+   "title": "Side by side GUN SPRAY PATTERN comparison in CS2/CS:GO (AK-47, M4A1-S, M4A4)",
+   "url": "https://www.youtube.com/watch?v=wSZA073GUw8",
+   "checked": "yt-dlp 25.10.2026"
+  },
+  "vaqlrCzy3PM": {
+   "channel": "SC Valorant Guides",
+   "upload_date": "2020-11-27",
+   "fps": 30,
+   "title": "How to CONTROL RECOIL for MORE KILLS in Valorant",
+   "url": "https://www.youtube.com/watch?v=vaqlrCzy3PM",
+   "checked": "yt-dlp 25.10.2026"
+  },
+  "8QQJAwUaRi0": {
+   "channel": "Do_ASAP",
+   "upload_date": "2026-01-28",
+   "fps": 60,
+   "title": "에이펙스 레전드 반동 연습법 & 모든 총 반동패턴",
+   "url": "https://www.youtube.com/watch?v=8QQJAwUaRi0",
+   "checked": "yt-dlp 25.10.2026"
+  },
+  "ROUP1z62caA": {
+   "channel": "Torbis",
+   "upload_date": "2025-09-17",
+   "fps": 60,
+   "title": "Battlefield 6 - All Weapons Reloads Animations + Optics & Attachments",
+   "url": "https://www.youtube.com/watch?v=ROUP1z62caA",
+   "checked": "yt-dlp 25.10.2026"
+  },
+  "enyEjb4dXU8": {
+   "channel": "SammyBoiii: FPS",
+   "upload_date": "2022-02-17",
+   "fps": 60,
+   "title": "This shows EXACTLY how Scopes work in BF2042...",
+   "url": "https://www.youtube.com/watch?v=enyEjb4dXU8",
+   "checked": "yt-dlp 25.10.2026"
+  },
+  "0Rq3rypcIQo": {
+   "channel": "SammyBoiii: FPS",
+   "upload_date": "2022-03-21",
+   "fps": 60,
+   "title": "AK-24 - Complete Weapon Breakdown | BF2042",
+   "url": "https://www.youtube.com/watch?v=0Rq3rypcIQo",
+   "checked": "yt-dlp 25.10.2026"
+  },
+  "L6BiTz_3teo": {
+   "channel": "SammyBoiii: FPS",
+   "upload_date": "2022-05-16",
+   "fps": 60,
+   "title": "K30 - Complete Weapon Breakdown | BF2042",
+   "url": "https://www.youtube.com/watch?v=L6BiTz_3teo",
+   "checked": "yt-dlp 25.10.2026"
+  },
+  "nBsmMfQfd_M": {
+   "channel": "Ghostjobs",
+   "upload_date": "2020-08-04",
+   "fps": 24,
+   "title": "Call of Duty Modern Warfare ALL AR Recoil PATTERN Comparison",
+   "url": "https://www.youtube.com/watch?v=nBsmMfQfd_M",
+   "checked": "yt-dlp 25.10.2026"
+  },
+  "ZfNuA5r-470": {
+   "channel": "Abyssopelagic",
+   "upload_date": "2021-07-30",
+   "fps": 60,
+   "title": "Halo Infinite Gameplay - All Weapons from the First Technical Preview",
+   "url": "https://www.youtube.com/watch?v=ZfNuA5r-470",
+   "checked": "yt-dlp 25.10.2026"
+  },
+  "9TdIttKuOgE": {
+   "channel": "AznSlickSlaya",
+   "upload_date": "2021-10-04",
+   "fps": 60,
+   "title": "Halo Infinite VK78 Commando Weapon Testing and Recoil Pattern",
+   "url": "https://www.youtube.com/watch?v=9TdIttKuOgE",
+   "checked": "yt-dlp 25.10.2026"
+  },
+  "4sDwTD9U8bw": {
+   "channel": "Weapons From Games",
+   "upload_date": "2019-03-14",
+   "fps": 60,
+   "title": "Titanfall 2 [2019] - All Weapons Showcase After All Patches, Updates, DLC's, Fixes - PC ULTRA 1440P",
+   "url": "https://www.youtube.com/watch?v=4sDwTD9U8bw",
+   "checked": "yt-dlp 25.10.2026"
+  }
+ },
+ "systems": [
+  {
+   "game": "Destiny 2",
+   "status": "S",
+   "date": "2023-09-21",
+   "claim": "Season 22: geeignete Waffen mit teilweise wiederholbarer Rückstoßfolge (gemeinsamer Anfang, möglicher Musterwechsel in der ersten Magazinhälfte, weiter zufällige Trefferabweichung); höhere Recoil Direction verringert den seitlichen Abstand",
+   "url": "https://www.bungie.net/7/en/News/article/twid_09_21_2023",
+   "checked": "nur Codex-Zuarbeit"
+  },
+  {
+   "game": "Destiny 2",
+   "status": "S",
+   "date": "2025-09-09",
+   "claim": "Update 9.1.0: deterministischer Rückstoß bei allen Waffen außer Vigilance Wing entfernt (in REF 0.16 per Suche bestätigt)",
+   "url": "https://www.bungie.net/7/en/News/Article/destiny_update_9_1_0",
+   "checked": "REF 0.16"
+  },
+  {
+   "game": "Destiny 2",
+   "status": "C",
+   "date": "2019-01-09",
+   "claim": "Community-Heuristik: Recoil Direction mit Endziffer 5 eher senkrecht, Zehnerwerte abwechselnd links/rechts, 100 Sonderfall – nicht bestätigt",
+   "url": "https://www.reddit.com/r/DestinyTheGame/comments/ae6r61/how_the_recoil_direction_stat_works_xpost_from/",
+   "checked": "nur Codex-Zuarbeit"
+  },
+  {
+   "game": "Valorant",
+   "status": "S",
+   "date": "2020-04-24",
+   "claim": "hybrider Rückstoß: deterministischer Anfang, spätere Abweichungen pseudozufällig; Geschossungenauigkeit getrennt",
+   "url": "https://old.reddit.com/r/VALORANT/comments/g7ft19/why_is_there_rifle_first_shot_deviation_and_rng/foj1bb5/",
+   "checked": "nur Codex-Zuarbeit"
+  },
+  {
+   "game": "Valorant",
+   "status": "S",
+   "date": "Patch 11.08",
+   "claim": "PC: Phantom 8 geschützte Kugeln, Seitenwechselzeit 0,6 s, Wechselchance 10 %; Vandal 6 / 0,6 s / 10 %; Spectre 5 / 0,28 s (in REF 0.16 nachgelesen); gilt nicht für die 2020-Aufnahmen",
+   "url": "https://playvalorant.com/en-gb/news/game-updates/valorant-patch-notes-11-08/",
+   "checked": "REF 0.16"
+  },
+  {
+   "game": "Apex Legends",
+   "status": "S",
+   "date": "2020",
+   "claim": "handabgestimmte Rückstoßpunkte mit kleiner Varianz, die die Bahn verformt statt sie auszutauschen (archivierte Entwicklerantwort)",
+   "url": "https://devtrackers.gg/apex-legends/p/028b5aa2-s4-updated-recoil-control-patterns-rotated",
+   "checked": "nur Codex-Zuarbeit"
+  },
+  {
+   "game": "CS2",
+   "status": "C",
+   "date": "2026-09-10",
+   "claim": "Test mit abgeschalteter Geschossstreuung: feste Grundbahn je Waffe, Trefferstreuung getrennt",
+   "url": "https://imbaboost.com/tools/cs2-recoil-patterns",
+   "checked": "nur Codex-Zuarbeit"
+  },
+  {
+   "game": "Call of Duty: Modern Warfare (2019)",
+   "status": "S",
+   "date": "2019-08",
+   "claim": "erlernbare waffenspezifische Muster; Gegeneingabe beim Rücklauf berücksichtigt",
+   "url": "https://blog.activision.com/ja/call-of-duty/2019-08/Modern-Warfare-Multiplayer-First-Look-New-Gameplay-Mechanics",
+   "checked": "nur Codex-Zuarbeit"
+  },
+  {
+   "game": "Battlefield 2042",
+   "status": "S",
+   "date": "Update 2.1.1",
+   "claim": "getrennte Multiplikatoren für Basisrückstoß und ersten Schuss (M16A3 0,44 → 0,36 bzw. 1,45 → 1,15)",
+   "url": "https://www.ea.com/en-gb/games/battlefield/battlefield-2042/news/battlefield-2042-update-notes-2-1-1",
+   "checked": "nur Codex-Zuarbeit"
+  },
+  {
+   "game": "Battlefield 6",
+   "status": "S",
+   "date": "2025-10-09",
+   "claim": "Update 1.0.1.0: Rückstoß gegenüber der Vorveröffentlichung geändert, ADS-Streuung geändert – die Torbis-Aufnahme liegt davor",
+   "url": "https://www.ea.com/games/battlefield/battlefield-6/news/battlefield-6-update-notes-1-0-1-0",
+   "checked": "nur Codex-Zuarbeit"
+  },
+  {
+   "game": "Call of Duty: Black Ops 6",
+   "status": "S",
+   "date": "2024",
+   "claim": "Waffenwerte führen Gun Kick und Centering Speed getrennt",
+   "url": "https://www.callofduty.com/guides/blackops6/pre-game/call-of-duty-guides-black-ops-6-multiplayer-pre-game-weapons-and-loadouts",
+   "checked": "nur Codex-Zuarbeit"
+  }
+ ],
+ "destiny_base_stats": [
+  {
+   "weapon": "Chroma Rush",
+   "recoil_direction": 45,
+   "in_clip": false
+  },
+  {
+   "weapon": "Abyss Defiant",
+   "recoil_direction": 86,
+   "stability": 25,
+   "in_clip": true
+  },
+  {
+   "weapon": "Gridskipper",
+   "recoil_direction": 55,
+   "in_clip": false
+  },
+  {
+   "weapon": "Swift Ride",
+   "recoil_direction": 70,
+   "in_clip": false
+  },
+  {
+   "weapon": "Tone Patrol",
+   "recoil_direction": 62,
+   "in_clip": false
+  },
+  {
+   "weapon": "Annual Skate",
+   "recoil_direction": 88,
+   "in_clip": false
+  },
+  {
+   "weapon": "Dead Man Walking",
+   "recoil_direction": 98,
+   "in_clip": false
+  },
+  {
+   "weapon": "Foggy Notion",
+   "recoil_direction": 91,
+   "in_clip": false
+  },
+  {
+   "weapon": "Extraordinary Rendition",
+   "recoil_direction": 97,
+   "in_clip": false
+  },
+  {
+   "weapon": "Shattered Cipher",
+   "recoil_direction": 45,
+   "in_clip": false
+  },
+  {
+   "weapon": "Threaded Needle",
+   "recoil_direction": 65,
+   "in_clip": false
+  }
+ ],
+ "counts": {
+  "games": 9,
+  "weapons": 36,
+  "series_windows": 44,
+  "quantitative_or_observed_windows": 35,
+  "extra_qualitative_mw2019_series": 9,
+  "processed_source_frame_ids": 6384,
+  "input_isolated_paths": 0,
+  "sources_checked_ytdlp": 19,
+  "rechecked_by_this_session": 6,
+  "corrected": 1
+ },
+ "records": [
+  {
+   "game": "Destiny 2",
+   "weapon": "Chroma Rush",
+   "class": "Auto",
+   "recoil_stat": null,
+   "rpm": 720,
+   "shots": 12,
+   "compensated": null,
+   "path_pct": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     -1.9
+    ],
+    [
+     0.7,
+     -2.6
+    ],
+    [
+     0.6,
+     -3.9
+    ],
+    [
+     1.4,
+     -4.6
+    ],
+    [
+     1.6,
+     -5.9
+    ],
+    [
+     1.4,
+     -7.2
+    ],
+    [
+     2.2,
+     -8.0
+    ],
+    [
+     1.7,
+     -8.9
+    ],
+    [
+     0.8,
+     -9.8
+    ],
+    [
+     0.0,
+     -10.7
+    ],
+    [
+     -0.4,
+     -12.0
+    ]
+   ],
+   "climb_total_pct": 12.0,
+   "side_max_pct": 2.2,
+   "deterministic": null,
+   "random_share": null,
+   "first_shot_spread_pct": null,
+   "recovery_frames": 24,
+   "recovery_rest_pct": [
+    -0.0,
+    -0.6
+   ],
+   "burst": null,
+   "status": "[M-Netto]; kein nachgewiesener Nullinput",
+   "source_url": "https://www.youtube.com/watch?v=QxSa4m3wIEA",
+   "timestamp": "5,55–7,20 s; Feuer 5,667–6,583",
+   "notes": "12er-Hüftstoß. Vorlage starrer rechter Mauerrand; zweiter Anker nur im ersten Teil gültig. Aufwärtspeak lokal 12,8 pp H, Rest bei 7,2 s unter 1 pp. FOV/Input unbekannt. JSON-Pfad: negative lokale Weltankerverschiebung im Bild unmittelbar vor jedem markierten Schuss, auf erste Probe genullt; keine Projektion in Grad. Die Nachkommastelle ist Rechenrohwert; Lagegenauigkeit ±3 pp. Markerliste in shot_markers.json. Rückführung bezeichnet Eintritt ins ±3 pp-Band für mindestens 12 Quellframes, nicht exakte Null; recovery_rest_pct enthält die letzte beobachtete lokale Ankerlage, nicht einen behaupteten exakten Nullpunkt.",
+   "source_id": "QxSa4m3wIEA",
+   "recheck": "bestätigt: 12 Blitze im Abstand 5 Bilder (720/min), Vor-Schuss-Netto Schuss 12 −12,3 pp H, Spitze −13,2 pp H, seitlich ≤ 2,1 pp B, ±3-pp-Band 24 Bilder nach letztem Schuss"
+  },
+  {
+   "game": "Destiny 2",
+   "weapon": "Abyss Defiant",
+   "class": "Auto",
+   "recoil_stat": 86,
+   "rpm": 360,
+   "shots": 36,
+   "compensated": false,
+   "path_pct": [
+    [
+     -0.0,
+     -2.2
+    ],
+    [
+     0.7,
+     -4.3
+    ],
+    [
+     0.7,
+     -5.9
+    ],
+    [
+     1.7,
+     -7.6
+    ],
+    [
+     1.5,
+     -9.2
+    ],
+    [
+     2.5,
+     -10.9
+    ],
+    [
+     1.6,
+     -11.7
+    ],
+    [
+     0.7,
+     -13.8
+    ],
+    [
+     0.9,
+     -15.4
+    ],
+    [
+     0.4,
+     -17.9
+    ],
+    [
+     -0.4,
+     -18.7
+    ],
+    [
+     -1.0,
+     -21.2
+    ],
+    [
+     -0.3,
+     -22.2
+    ],
+    [
+     -1.1,
+     -23.5
+    ],
+    [
+     -1.9,
+     -24.3
+    ],
+    [
+     -1.0,
+     -25.6
+    ],
+    [
+     -0.9,
+     -27.3
+    ],
+    [
+     -0.9,
+     -30.2
+    ],
+    [
+     -1.7,
+     -31.2
+    ],
+    [
+     -0.7,
+     -32.6
+    ],
+    [
+     -1.1,
+     -32.9
+    ],
+    [
+     -0.9,
+     -35.6
+    ],
+    [
+     -1.4,
+     -37.2
+    ],
+    [
+     -1.3,
+     -40.1
+    ],
+    [
+     -1.8,
+     -41.5
+    ],
+    [
+     -1.0,
+     -43.6
+    ],
+    [
+     -2.2,
+     -44.5
+    ],
+    [
+     -1.0,
+     -45.9
+    ],
+    [
+     -0.9,
+     -47.8
+    ],
+    [
+     0.2,
+     -49.5
+    ],
+    [
+     0.4,
+     -51.5
+    ],
+    [
+     null,
+     null
+    ],
+    [
+     0.3,
+     -55.9
+    ],
+    [
+     -1.0,
+     -58.2
+    ],
+    [
+     null,
+     null
+    ],
+    [
+     null,
+     null
+    ]
+   ],
+   "climb_total_pct": null,
+   "side_max_pct": 2.5,
+   "deterministic": null,
+   "random_share": null,
+   "first_shot_spread_pct": null,
+   "recovery_frames": null,
+   "recovery_rest_pct": null,
+   "burst": null,
+   "status": "[M/S]; historischer unkompensierter Test,30/s",
+   "source_url": "https://www.youtube.com/watch?v=rw_6lS0pBf0",
+   "timestamp": "2,467–8,333; 11,533–17,400; 20,467–26,333 s",
+   "notes": "Offizieller Bungie-Test: RD86, Stabilität 25, ausdrücklich ohne Gegensteuern. Drei Magazine 36→0. 30/s: nur Form/Lage, keine 60-Hz-Zeitabnahme. Homographie-Gegenprobe statt großer Translation; Perspektiv-/Extrapolationsgrenzen beachten. path_pct=erstes Magazin, je erstmals erkannter HUD-Zahl im 2 Quellframe-OCR-Raster; unbekannte/zu weit extrapolierte Positionen [null,null]. Keine Zeitmessung daraus. Inverse Homographie projiziert Bildmitte aufs Ausgangsbild; SIFT/RANSAC≥12 Inlier, Median-Reprojektion<1,5 Rechenpixel,Extrapolation max 150 Rechenpixel außerhalb Inlierhülle. Drei Bahnfamilien in abyss_paths.json. Gültige Teilspitzen 58/63/60 pp H sind wegen unterschiedlicher Endabdeckung nicht als Magazinstreuung verwendbar. Zufallsanteil bleibt null.",
+   "source_id": "rw_6lS0pBf0",
+   "recheck": "Zählung bestätigt: HUD 36 bei 2,40 s, 35 bei 2,50 s, 0 bei 8,30 s (≈ 360/min); großer Aufstieg am Bild sichtbar, Amplitude nicht nachgemessen"
+  },
+  {
+   "game": "Destiny 2",
+   "weapon": "Gridskipper",
+   "class": "Impuls",
+   "recoil_stat": null,
+   "rpm": 540,
+   "shots": 9,
+   "compensated": null,
+   "path_pct": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.2,
+     -2.6
+    ],
+    [
+     -0.2,
+     -4.1
+    ],
+    [
+     -0.3,
+     0.0
+    ],
+    [
+     -0.5,
+     -2.4
+    ],
+    [
+     -1.0,
+     -3.7
+    ],
+    [
+     -1.1,
+     -1.5
+    ],
+    [
+     -0.7,
+     -3.3
+    ],
+    [
+     -1.1,
+     -4.3
+    ]
+   ],
+   "climb_total_pct": 4.3,
+   "side_max_pct": 1.1,
+   "deterministic": null,
+   "random_share": null,
+   "first_shot_spread_pct": null,
+   "recovery_frames": 12,
+   "recovery_rest_pct": [
+    -0.8,
+    -0.0
+   ],
+   "burst": 3,
+   "status": "[M-Netto]; kein nachgewiesener Nullinput",
+   "source_url": "https://www.youtube.com/watch?v=DFn14wAPluA",
+   "timestamp": "29,70–32,30 s",
+   "notes": "Drei Dreiersalven. Native Marker an Blitzphasen; Bildbahn unmittelbar davor. Intra-Salve 4 Bilder, letzte Salvenbeginne 24 Bilder auseinander; erste Pause 68 Bilder. Beobachteter Takt ist kein Eingabelimit. NCC beider Anker≥0,864. JSON-Pfad: negative lokale Weltankerverschiebung im Bild unmittelbar vor jedem markierten Schuss, auf erste Probe genullt; keine Projektion in Grad. Die Nachkommastelle ist Rechenrohwert; Lagegenauigkeit ±3 pp. Markerliste in shot_markers.json. Rückführung bezeichnet Eintritt ins ±3 pp-Band für mindestens 12 Quellframes, nicht exakte Null; recovery_rest_pct enthält die letzte beobachtete lokale Ankerlage, nicht einen behaupteten exakten Nullpunkt.",
+   "source_id": "DFn14wAPluA"
+  },
+  {
+   "game": "Destiny 2",
+   "weapon": "Swift Ride",
+   "class": "Impuls",
+   "recoil_stat": null,
+   "rpm": 390,
+   "shots": null,
+   "compensated": null,
+   "path_pct": null,
+   "climb_total_pct": null,
+   "side_max_pct": null,
+   "deterministic": null,
+   "random_share": null,
+   "first_shot_spread_pct": null,
+   "recovery_frames": null,
+   "recovery_rest_pct": null,
+   "burst": 3,
+   "status": "[M-Netto/O/S]; unvollständig",
+   "source_url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+   "timestamp": "362,00–363,90 s",
+   "notes": "Drei sichtbare Dreiersalven. Weltanker widersprechen sich zeitweise, deshalb keine finale Bahn/Amplitude. Endphase ab 364 s enthält ADS-aus und ist ausgeschlossen. Basis-RD70 ist keine belegte Clipkonfiguration.",
+   "source_id": "IG-GZ72Vbi0"
+  },
+  {
+   "game": "Destiny 2",
+   "weapon": "Tone Patrol",
+   "class": "Scout",
+   "recoil_stat": null,
+   "rpm": 180,
+   "shots": 5,
+   "compensated": null,
+   "path_pct": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.1,
+     -1.7
+    ],
+    [
+     -0.1,
+     -2.2
+    ],
+    [
+     0.3,
+     -2.8
+    ],
+    [
+     0.4,
+     -3.3
+    ]
+   ],
+   "climb_total_pct": 3.3,
+   "side_max_pct": 0.4,
+   "deterministic": null,
+   "random_share": null,
+   "first_shot_spread_pct": null,
+   "recovery_frames": 23,
+   "recovery_rest_pct": [
+    0.3,
+    -0.2
+   ],
+   "burst": null,
+   "status": "[M-Netto]; kein nachgewiesener Nullinput",
+   "source_url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+   "timestamp": "388,50–391,40 s",
+   "notes": "Fünferfolge, 21/21/20/20 Bilder Abstand. Anker links bleibt NCC≥0,987; Weltpeak 5,7 pp H. Vor Folgeschüssen Restlage nimmt zu. Toleranzband-Rücklauf ist Netto der Quelle, keine isolierte Spieleigenschaft. JSON-Pfad: negative lokale Weltankerverschiebung im Bild unmittelbar vor jedem markierten Schuss, auf erste Probe genullt; keine Projektion in Grad. Die Nachkommastelle ist Rechenrohwert; Lagegenauigkeit ±3 pp. Markerliste in shot_markers.json. Rückführung bezeichnet Eintritt ins ±3 pp-Band für mindestens 12 Quellframes, nicht exakte Null; recovery_rest_pct enthält die letzte beobachtete lokale Ankerlage, nicht einen behaupteten exakten Nullpunkt.",
+   "source_id": "IG-GZ72Vbi0"
+  },
+  {
+   "game": "Destiny 2",
+   "weapon": "Annual Skate",
+   "class": "Handfeuerwaffe",
+   "recoil_stat": null,
+   "rpm": 140,
+   "shots": 5,
+   "compensated": null,
+   "path_pct": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.1,
+     0.0
+    ],
+    [
+     -0.1,
+     -0.2
+    ],
+    [
+     -0.3,
+     -1.5
+    ],
+    [
+     -0.1,
+     -1.7
+    ]
+   ],
+   "climb_total_pct": 1.7,
+   "side_max_pct": 0.3,
+   "deterministic": null,
+   "random_share": null,
+   "first_shot_spread_pct": null,
+   "recovery_frames": null,
+   "recovery_rest_pct": null,
+   "burst": null,
+   "status": "[M-Netto]; kein nachgewiesener Nullinput",
+   "source_url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+   "timestamp": "83,50–87,50 s",
+   "notes": "Fünf markierte Schüsse eines längeren ADS-Abschnitts; weitere Schüsse nach 87,5s, daher keine Rückkehr nach kompletter Serie. Höchster Weltankerhub 7,6 pp H, starkes Modellkippen separat qualitativ. Kein exaktes Klassentempo aus unregelmäßigem Spielertakt. JSON-Pfad: negative lokale Weltankerverschiebung im Bild unmittelbar vor jedem markierten Schuss, auf erste Probe genullt; keine Projektion in Grad. Die Nachkommastelle ist Rechenrohwert; Lagegenauigkeit ±3 pp. Markerliste in shot_markers.json.",
+   "source_id": "IG-GZ72Vbi0"
+  },
+  {
+   "game": "Destiny 2",
+   "weapon": "Dead Man Walking",
+   "class": "Sidearm",
+   "recoil_stat": null,
+   "rpm": 450,
+   "shots": null,
+   "compensated": null,
+   "path_pct": null,
+   "climb_total_pct": null,
+   "side_max_pct": null,
+   "deterministic": null,
+   "random_share": null,
+   "first_shot_spread_pct": null,
+   "recovery_frames": null,
+   "recovery_rest_pct": null,
+   "burst": null,
+   "status": "[M-Netto/O/S]; unvollständig",
+   "source_url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+   "timestamp": "121,00–124,60 s",
+   "notes": "Mehrere kurze/längere ADS-Feuerfolgen. Weltanker bestätigen bis 9,8 pp H. Schussanzahl aus schwachen/überlagerten Effekten ohne HUD nicht lückenlos gesichert; schussweiser Pfad und Rückführungszeit deshalb null. Kein Nachweis einer mechanischen Zweier-/Dreiersalve.",
+   "source_id": "IG-GZ72Vbi0"
+  },
+  {
+   "game": "Destiny 2",
+   "weapon": "Foggy Notion",
+   "class": "MP",
+   "recoil_stat": null,
+   "rpm": 900,
+   "shots": null,
+   "compensated": null,
+   "path_pct": null,
+   "climb_total_pct": null,
+   "side_max_pct": null,
+   "deterministic": null,
+   "random_share": null,
+   "first_shot_spread_pct": null,
+   "recovery_frames": null,
+   "recovery_rest_pct": null,
+   "burst": null,
+   "status": "[M-Netto/O/S]; unvollständig",
+   "source_url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+   "timestamp": "184,50–190,00 s",
+   "notes": "Mehrere Hüftstöße; kontinuierliche Zählung ohne HUD nicht gesichert. Bestätigte Weltankerspanne ≈9 pp H; Ende liegt noch im Feuer. Seitliche Werte unter ±3 pp. Keine Rückführungszeit/Determinismusaussage.",
+   "source_id": "IG-GZ72Vbi0"
+  },
+  {
+   "game": "Destiny 2",
+   "weapon": "Extraordinary Rendition",
+   "class": "MP",
+   "recoil_stat": null,
+   "rpm": 750,
+   "shots": null,
+   "compensated": null,
+   "path_pct": null,
+   "climb_total_pct": null,
+   "side_max_pct": null,
+   "deterministic": null,
+   "random_share": null,
+   "first_shot_spread_pct": null,
+   "recovery_frames": null,
+   "recovery_rest_pct": null,
+   "burst": null,
+   "status": "[M-Netto/O/S]; unvollständig",
+   "source_url": "https://www.youtube.com/watch?v=Y5OLr0nbgSg",
+   "timestamp": "43,20–44,55 s",
+   "notes": "Längerer ADS-Stoß. Weltvorlagen verlieren bzw. widersprechen sich trotz plausiblen Einzelmatches; finale quantitative Bahn gesperrt. Sichtbare Wandtreffer schmal aufwärts; kein vollständiges erstes-Schuss-relatives Trefferbild. Aktueller Datenbankwert 720/min wird nicht auf das 2021er 750/min-Menü übertragen.",
+   "source_id": "Y5OLr0nbgSg"
+  },
+  {
+   "game": "Destiny 2",
+   "weapon": "Shattered Cipher",
+   "class": "MG",
+   "recoil_stat": null,
+   "rpm": 900,
+   "shots": null,
+   "compensated": null,
+   "path_pct": null,
+   "climb_total_pct": null,
+   "side_max_pct": null,
+   "deterministic": null,
+   "random_share": null,
+   "first_shot_spread_pct": null,
+   "recovery_frames": null,
+   "recovery_rest_pct": null,
+   "burst": null,
+   "status": "[M-Netto/O/S]; unvollständig",
+   "source_url": "https://www.youtube.com/watch?v=DEM-8xg66R8",
+   "timestamp": "Hüfte7,00–8,70; ADS30,30–36,90 s",
+   "notes": "Hüft-Weltspitze 2,8 pp H liegt an der Lagegenauigkeit; ADS-Weltspitze 12,4 pp H, zwei Anker stimmen im gültigen Überlappungsfenster bis 0,74 pp überein. Mehrere Stöße und anderer Bildmaßstab: kein direkter Hip/ADS-Recoilquotient. Schussanzahl ohne HUD nicht vollständig gesichert.",
+   "source_id": "DEM-8xg66R8"
+  },
+  {
+   "game": "Destiny 2",
+   "weapon": "Threaded Needle",
+   "class": "lineare Fusion",
+   "recoil_stat": null,
+   "rpm": null,
+   "shots": 4,
+   "compensated": null,
+   "path_pct": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     -6.7
+    ],
+    [
+     0.4,
+     -13.1
+    ],
+    [
+     1.0,
+     -19.6
+    ]
+   ],
+   "climb_total_pct": 19.6,
+   "side_max_pct": 1.0,
+   "deterministic": null,
+   "random_share": null,
+   "first_shot_spread_pct": null,
+   "recovery_frames": null,
+   "recovery_rest_pct": null,
+   "burst": null,
+   "status": "[M-Netto]; kein nachgewiesener Nullinput",
+   "source_url": "https://www.youtube.com/watch?v=uoTaCBMXcFk",
+   "timestamp": "34,30–42,50 s; vier Schüsse≈34,567/36,817/39,033/41,133",
+   "notes": "Vier geladene Einzelschüsse. Vor Schuss 2/3/4 projizierte Aufwärts-Restlage ≈6,7/13,1/19,6 pp H. Beide überarbeiteten Texturanker stimmen bei 378 gemeinsamen gültigen Bildern innerhalb 0,73 pp B/0,37 pp H überein. Blitzbilder und spätere ungültige Endframes sind verworfen; keine volle Rückführung. Abstand ist Spielertakt, keine rpm-Ableitung aus Ladewert. JSON-Pfad: negative lokale Weltankerverschiebung im Bild unmittelbar vor jedem markierten Schuss, auf erste Probe genullt; keine Projektion in Grad. Die Nachkommastelle ist Rechenrohwert; Lagegenauigkeit ±3 pp. Markerliste in shot_markers.json. Suchradius 110px begrenzt positive Welt-y auf 20,37 pp H; dieser Grenzwert darf nicht als Einfrieren gelesen werden. Der vierte Vor-Schusswert liegt noch innerhalb der Grenze, spätere ungültige Proben sind ausgeschlossen.",
+   "source_id": "uoTaCBMXcFk",
+   "recheck": "bestätigt mit zwei Ankern: Vor-Schuss-Rest 6,6 / 13,2 / 19,6 pp H, seitlich ≤ 1,0 pp B"
+  },
+  {
+   "game": "CS2",
+   "weapon": "M4A1-S",
+   "class": "Automatikgewehr",
+   "recoil_stat": null,
+   "rpm": null,
+   "shots": null,
+   "compensated": null,
+   "path_pct": null,
+   "climb_total_pct": null,
+   "side_max_pct": null,
+   "deterministic": null,
+   "random_share": null,
+   "first_shot_spread_pct": null,
+   "recovery_frames": null,
+   "recovery_rest_pct": null,
+   "burst": null,
+   "status": "Teilbeleg: siehe Messzeile; fehlende kontrollierte Wiederholungen",
+   "source_url": "https://www.youtube.com/watch?v=wSZA073GUw8",
+   "timestamp": "00:00.000–00:02.000",
+   "notes": "[M] Kameranetto gegen Weltanker, keine Schussindizes: dx -0.547…+1.172 % der gesamten Montagebreite 1280, dy -3.114…+1.648 % der Höhe 546. 121 Frames, min corr 0.910. Serie im ersten Bild bereits begonnen; Basis/Haltepunkt fehlen. Kein intrinsischer Recoilwert, Gegeninput unbekannt. Trefferform [O] schmaler vertikaler Stamm mit seitlicher Kappe. Keine zweite Serie derselben Waffe. Rohdaten CS2_M4A1S_partial.csv.",
+   "source_id": "wSZA073GUw8",
+   "net_range_pct": {
+    "dx": [
+     -0.547,
+     1.172
+    ],
+    "dy": [
+     -3.114,
+     1.648
+    ],
+    "frames": 121,
+    "corr_min": 0.91
+   }
+  },
+  {
+   "game": "CS2",
+   "weapon": "M4A4",
+   "class": "Automatikgewehr",
+   "recoil_stat": null,
+   "rpm": null,
+   "shots": null,
+   "compensated": null,
+   "path_pct": null,
+   "climb_total_pct": null,
+   "side_max_pct": null,
+   "deterministic": null,
+   "random_share": null,
+   "first_shot_spread_pct": null,
+   "recovery_frames": null,
+   "recovery_rest_pct": null,
+   "burst": null,
+   "status": "Teilbeleg: siehe Messzeile; fehlende kontrollierte Wiederholungen",
+   "source_url": "https://www.youtube.com/watch?v=wSZA073GUw8",
+   "timestamp": "00:05.700–00:08.350",
+   "notes": "[M] Kameranetto gegen Weltanker, keine Schussindizes: dx -0.938…+1.797 % der Montagebreite 1280, dy -5.861…0 % der Höhe 546. 160 Frames, min corr 0.912. Quellbild links CS2/rechts CS:GO; Gegeninput unbekannt. Mehrere seitliche Richtungswechsel nach dem Steigen [O]. Zwei Spielhälften sind kein Zwei-Serien-Test derselben CS2-Waffe. Rohdaten CS2_M4A4_refined.csv.",
+   "source_id": "wSZA073GUw8",
+   "net_range_pct": {
+    "dx": [
+     -0.938,
+     1.797
+    ],
+    "dy": [
+     -5.861,
+     0.0
+    ],
+    "frames": 160,
+    "corr_min": 0.912
+   }
+  },
+  {
+   "game": "CS2",
+   "weapon": "AK-47",
+   "class": "Automatikgewehr",
+   "recoil_stat": null,
+   "rpm": null,
+   "shots": null,
+   "compensated": null,
+   "path_pct": null,
+   "climb_total_pct": null,
+   "side_max_pct": null,
+   "deterministic": null,
+   "random_share": null,
+   "first_shot_spread_pct": null,
+   "recovery_frames": null,
+   "recovery_rest_pct": null,
+   "burst": null,
+   "status": "Teilbeleg: siehe Messzeile; fehlende kontrollierte Wiederholungen",
+   "source_url": "https://www.youtube.com/watch?v=wSZA073GUw8",
+   "timestamp": "00:12.600–00:16.000",
+   "notes": "[M] Kameranetto gegen Weltanker, keine Schussindizes: dx -0.313…+2.656 % der Montagebreite 1280, dy -10.989…0 % der Höhe 546. 205 Frames, min corr 0.953. 17 annähernd gleiche Bilder vor/um den Feuerbeginn. Haltepunkt/Gegeninput nicht kontrolliert. Wandbild [O] vertikaler Stamm, danach breitere seitliche Spitze. Rohdaten CS2_AK47_refined.csv.",
+   "source_id": "wSZA073GUw8",
+   "net_range_pct": {
+    "dx": [
+     -0.313,
+     2.656
+    ],
+    "dy": [
+     -10.989,
+     0.0
+    ],
+    "frames": 205,
+    "corr_min": 0.953
+   }
+  },
+  {
+   "game": "Valorant",
+   "weapon": "Phantom",
+   "class": "Automatikgewehr",
+   "recoil_stat": null,
+   "rpm": null,
+   "shots": null,
+   "compensated": null,
+   "path_pct": null,
+   "climb_total_pct": null,
+   "side_max_pct": null,
+   "deterministic": false,
+   "random_share": null,
+   "first_shot_spread_pct": null,
+   "recovery_frames": null,
+   "recovery_rest_pct": null,
+   "burst": null,
+   "status": "Teilbeleg: siehe Messzeile; fehlende kontrollierte Wiederholungen",
+   "source_url": "https://www.youtube.com/watch?v=vaqlrCzy3PM",
+   "timestamp": "01:50.511",
+   "notes": "[M] Sichtbare gelbe Treffermarkermitten auf der großen Scheibe: x 599…668/y 352…361 in 1280×720, Hülle 5.39 %W×1.25 %H; relativ zur sichtbaren grünen Marke 640/360: x -3.20…+2.19 %W. Kein vollständiges Magazin und kein statistischer Streuungswert. Quellvideo vergrößert digital und zeigt Kontrollunterricht. [S] Riot beschreibt Hybrid-Recoil; voller Spray deshalb nicht vollständig fest. Die 2020-Bilder liegen vor Patch 11.08; dessen 8 geschützte Kugeln werden nicht rückwirkend zugeordnet. Quellkontext: Kapitel 1:43 „Phantom Spray Control“; horizontaler Streifen kann kompensierter/isoliert horizontaler Unterricht sein. Kein Beleg eines ungeführten gesamten Sprays.",
+   "source_id": "vaqlrCzy3PM"
+  },
+  {
+   "game": "Valorant",
+   "weapon": "Vandal",
+   "class": "Automatikgewehr",
+   "recoil_stat": null,
+   "rpm": null,
+   "shots": null,
+   "compensated": null,
+   "path_pct": null,
+   "climb_total_pct": null,
+   "side_max_pct": null,
+   "deterministic": false,
+   "random_share": null,
+   "first_shot_spread_pct": null,
+   "recovery_frames": null,
+   "recovery_rest_pct": null,
+   "burst": null,
+   "status": "Teilbeleg: siehe Messzeile; fehlende kontrollierte Wiederholungen",
+   "source_url": "https://www.youtube.com/watch?v=vaqlrCzy3PM",
+   "timestamp": "03:51.709",
+   "notes": "[M] Sichtbare Treffermarker auf der großen Scheibe: x 570…644/y 358…369 in 1280×720, Hülle 5.78 %W×1.53 %H, relativ zur grünen Marke 640/360 seitlich -5.47…+0.31 %W. Momentaufnahme einer kontrollierten/unklaren Demonstration, keine vollständige ungeführte Spray-Bahn. Daneben dargestellte kleine Ergebnisscheibe ist eine Kopie/Anzeige, kein zusätzlicher Wandtest. [S] Hybrid laut Riot 2020; 6 geschützte Kugeln aus Patch 11.08 nicht auf 2020 rückdatieren.",
+   "source_id": "vaqlrCzy3PM"
+  },
+  {
+   "game": "Valorant",
+   "weapon": "Spectre",
+   "class": "MP",
+   "recoil_stat": null,
+   "rpm": null,
+   "shots": null,
+   "compensated": null,
+   "path_pct": null,
+   "climb_total_pct": null,
+   "side_max_pct": null,
+   "deterministic": false,
+   "random_share": null,
+   "first_shot_spread_pct": null,
+   "recovery_frames": null,
+   "recovery_rest_pct": null,
+   "burst": null,
+   "status": "Teilbeleg: siehe Messzeile; fehlende kontrollierte Wiederholungen",
+   "source_url": "https://www.youtube.com/watch?v=vaqlrCzy3PM",
+   "timestamp": "05:49.510",
+   "notes": "[M] Sichtbare Treffermarker auf großer Scheibe: x 634…644/y 348…384 in 1280×720, Hülle 0.78 %W×5.00 %H. Kleine Ergebnisscheibe links nicht doppelt zählen. Laufende Mündung und konstante Übungsmunition verhindern eine belastbare verwendete Schusszahl in diesem Ausschnitt. Gegeninput nicht protokolliert. [S] Hybrid laut Riot 2020; 5 geschützte Kugeln aus Patch 11.08 gelten nicht als Messung dieser 2020-Fassung.",
+   "source_id": "vaqlrCzy3PM"
+  },
+  {
+   "game": "Apex Legends",
+   "weapon": "R-301",
+   "class": "Automatikgewehr",
+   "recoil_stat": null,
+   "rpm": null,
+   "shots": 31,
+   "compensated": null,
+   "path_pct": null,
+   "climb_total_pct": null,
+   "side_max_pct": null,
+   "deterministic": null,
+   "random_share": null,
+   "first_shot_spread_pct": null,
+   "recovery_frames": null,
+   "recovery_rest_pct": null,
+   "burst": null,
+   "status": "Teilbeleg: siehe Messzeile; fehlende kontrollierte Wiederholungen",
+   "source_url": "https://www.youtube.com/watch?v=8QQJAwUaRi0",
+   "timestamp": "02:07.804–02:11.508",
+   "notes": "[M] 31→0 am HUD; 4x-Beschriftung im Visier. Sichtbarer Endzustand: Hülle x 560…636/y 358…505 in 1280×720 = 5.94 %W×20.42 %H, teilweise am unteren Visierrahmen verdeckt. [O] erst Steigen, obere Hakenbewegung nach rechts; kein n-Schuss-Einfrieren bewiesen. matchTemplate-Versuch 211 Frames hat nur 83 mit corr≥0.85; Gesamtbahn verworfen. Lehrvideo friert bei Rest 19/12 Bilder einschließlich Leuchtstrahl ein; Kadenz/Rückführung nicht als Echtzeit messbar. Gegeninput unbekannt, deshalb kein reiner Recoilpfad.",
+   "source_id": "8QQJAwUaRi0"
+  },
+  {
+   "game": "Apex Legends",
+   "weapon": "VK-47 Flatline",
+   "class": "Automatikgewehr",
+   "recoil_stat": null,
+   "rpm": null,
+   "shots": 29,
+   "compensated": null,
+   "path_pct": null,
+   "climb_total_pct": null,
+   "side_max_pct": null,
+   "deterministic": null,
+   "random_share": null,
+   "first_shot_spread_pct": null,
+   "recovery_frames": null,
+   "recovery_rest_pct": null,
+   "burst": null,
+   "status": "Teilbeleg: siehe Messzeile; fehlende kontrollierte Wiederholungen",
+   "source_url": "https://www.youtube.com/watch?v=8QQJAwUaRi0",
+   "timestamp": "02:42.003–02:46.858",
+   "notes": "[M] 29→0 am HUD; 4x-Beschriftung. Sichtbare Endhülle x 568…708/y 360…526 in 1280×720 = 10.94 %W×23.06 %H, unterer Teil am Visierrahmen begrenzt. S-/Zickzack-Form [O]. matchTemplate-Versuch 271 Frames nur 202 mit corr≥0.85, Gesamtbahn verworfen. Bildhalte bei Rest 22/17/7; Kadenz/Rückführung null. Keine zweite unabhängige ungeführte Serie; Eingabe unbekannt.",
+   "source_id": "8QQJAwUaRi0"
+  },
+  {
+   "game": "Apex Legends",
+   "weapon": "HAVOC",
+   "class": "Automatikgewehr (Energie)",
+   "recoil_stat": null,
+   "rpm": null,
+   "shots": 29,
+   "compensated": null,
+   "path_pct": null,
+   "climb_total_pct": null,
+   "side_max_pct": null,
+   "deterministic": null,
+   "random_share": null,
+   "first_shot_spread_pct": null,
+   "recovery_frames": null,
+   "recovery_rest_pct": null,
+   "burst": null,
+   "status": "Teilbeleg: siehe Messzeile; fehlende kontrollierte Wiederholungen",
+   "source_url": "https://www.youtube.com/watch?v=8QQJAwUaRi0",
+   "timestamp": "03:20.004–03:24.509",
+   "notes": "[M] 29→0 am HUD; 4x-Beschriftung. Sichtbare Endhülle x 655…742/y 355…510 in 1280×720 = 6.80 %W×21.53 %H; unten teilweise vom Visierrahmen begrenzt. [M] Weltankernetto in 271 Frames, corr≥0.874: dx -6.406…+5.234 %W, dy -51.528…0 %H, Endnetto (-4.531,-48.889) %; source/4x-spezifisch, kein isolierter Recoilwert. [O] starker vertikaler Beginn, später Seitenschleife. Bildhalte bei Rest 24/19/12 machen Zeitwerte unbrauchbar. Unbekannter Gegeninput und fehlende zweite Serie.",
+   "source_id": "8QQJAwUaRi0",
+   "net_range_pct": {
+    "dx": [
+     -6.406,
+     5.234
+    ],
+    "dy": [
+     -51.528,
+     0.0
+    ],
+    "frames": 271,
+    "corr_min": 0.874
+   }
+  },
+  {
+   "game": "Battlefield 6",
+   "weapon": "B36A4",
+   "class": "Sturmgewehr",
+   "recoil_stat": null,
+   "rpm": 720,
+   "shots": 18,
+   "compensated": null,
+   "path_pct": [
+    [
+     0.312,
+     -0.741
+    ],
+    [
+     0.521,
+     -1.667
+    ],
+    [
+     0.104,
+     -1.481
+    ],
+    [
+     -0.104,
+     -1.481
+    ],
+    [
+     0.417,
+     -1.296
+    ],
+    [
+     0.625,
+     -1.111
+    ],
+    [
+     0.625,
+     -1.296
+    ],
+    [
+     0.729,
+     -0.926
+    ],
+    [
+     0.625,
+     -1.111
+    ],
+    [
+     0.521,
+     -1.852
+    ],
+    [
+     0.833,
+     -2.222
+    ],
+    [
+     0.937,
+     -3.148
+    ],
+    [
+     1.25,
+     -3.704
+    ],
+    [
+     1.25,
+     -4.444
+    ],
+    [
+     1.25,
+     -5.0
+    ],
+    [
+     1.562,
+     -5.556
+    ],
+    [
+     1.25,
+     -5.926
+    ],
+    [
+     1.771,
+     -6.111
+    ]
+   ],
+   "climb_total_pct": 6.111,
+   "side_max_pct": 1.771,
+   "deterministic": null,
+   "random_share": null,
+   "first_shot_spread_pct": null,
+   "recovery_frames": null,
+   "recovery_rest_pct": null,
+   "burst": "Automatik; 18 aufeinanderfolgende Schüsse aus dem verbleibenden Magazin, letzte Patrone später",
+   "status": "[M] partielle projizierte Nettobahn bei unbekanntem Input",
+   "source_url": "https://www.youtube.com/watch?v=ROUP1z62caA",
+   "timestamp": "21.100–22.517",
+   "notes": "Vorveröffentlichungs-Build. Pfad an visuell gegengeprüften HUD-Munitionswechseln, Marker ±1 Bild; OCR allein nicht übernommen. Vorzeichen x rechts/y unten; Basis unmittelbar vor erstem verwendeten Schuss. Kamerawirkung inklusive möglicher Eingaben; kein isoliertes Spielmuster, Lagegenauigkeit ±3 pp. Automatik; 18 aufeinanderfolgende Schüsse aus dem verbleibenden Magazin, letzte Patrone später",
+   "source_id": "ROUP1z62caA",
+   "recheck": "bestätigt: HUD 19 → 1 von 21,08 bis 22,52 s; Netto beim 18. Schuss −5,6 pp H (Codex −6,1), erste sieben Schüsse ≤ 1,5 pp H, seitlich ≤ 1,4 pp B"
+  },
+  {
+   "game": "Battlefield 6",
+   "weapon": "AK4D",
+   "class": "Sturmgewehr",
+   "recoil_stat": null,
+   "rpm": 514,
+   "shots": 13,
+   "compensated": null,
+   "path_pct": [
+    [
+     0.208,
+     0.926
+    ],
+    [
+     0.938,
+     -2.222
+    ],
+    [
+     0.938,
+     -2.593
+    ],
+    [
+     0.938,
+     -3.148
+    ],
+    [
+     0.833,
+     -3.519
+    ],
+    [
+     1.354,
+     -4.074
+    ],
+    [
+     1.354,
+     -4.815
+    ],
+    [
+     1.146,
+     -4.259
+    ],
+    [
+     0.833,
+     -1.111
+    ],
+    [
+     0.833,
+     -1.296
+    ],
+    [
+     1.042,
+     -2.407
+    ],
+    [
+     1.042,
+     -2.778
+    ],
+    [
+     1.458,
+     -3.704
+    ]
+   ],
+   "climb_total_pct": 3.704,
+   "side_max_pct": 1.458,
+   "deterministic": null,
+   "random_share": null,
+   "first_shot_spread_pct": null,
+   "recovery_frames": null,
+   "recovery_rest_pct": null,
+   "burst": "8 + 5 Schüsse, 22 Bilder zwischen den Teilstößen",
+   "status": "[M] partielle projizierte Nettobahn bei unbekanntem Input",
+   "source_url": "https://www.youtube.com/watch?v=ROUP1z62caA",
+   "timestamp": "49.950–51.583",
+   "notes": "Vorveröffentlichungs-Build. Pfad an visuell gegengeprüften HUD-Munitionswechseln, Marker ±1 Bild; OCR allein nicht übernommen. Vorzeichen x rechts/y unten; Basis unmittelbar vor erstem verwendeten Schuss. Kamerawirkung inklusive möglicher Eingaben; kein isoliertes Spielmuster, Lagegenauigkeit ±3 pp. 8 + 5 Schüsse, 22 Bilder zwischen den Teilstößen",
+   "source_id": "ROUP1z62caA"
+  },
+  {
+   "game": "Battlefield 6",
+   "weapon": "M433",
+   "class": "Sturmgewehr",
+   "recoil_stat": null,
+   "rpm": 847,
+   "shots": 15,
+   "compensated": null,
+   "path_pct": [
+    [
+     0.104,
+     -0.185
+    ],
+    [
+     0.521,
+     -0.926
+    ],
+    [
+     0.938,
+     -1.296
+    ],
+    [
+     1.458,
+     -1.296
+    ],
+    [
+     1.771,
+     -1.296
+    ],
+    [
+     1.771,
+     -1.667
+    ],
+    [
+     1.146,
+     -2.222
+    ],
+    [
+     1.458,
+     -2.778
+    ],
+    [
+     1.667,
+     -2.963
+    ],
+    [
+     1.979,
+     -2.963
+    ],
+    [
+     2.188,
+     -2.778
+    ],
+    [
+     1.771,
+     -3.148
+    ],
+    [
+     1.562,
+     -3.889
+    ],
+    [
+     1.562,
+     -4.444
+    ],
+    [
+     1.875,
+     -4.444
+    ]
+   ],
+   "climb_total_pct": 4.444,
+   "side_max_pct": 2.188,
+   "deterministic": null,
+   "random_share": null,
+   "first_shot_spread_pct": null,
+   "recovery_frames": null,
+   "recovery_rest_pct": null,
+   "burst": "Automatik; vollständiges identifiziertes 15-Schuss-Teilstück",
+   "status": "[M] partielle projizierte Nettobahn bei unbekanntem Input",
+   "source_url": "https://www.youtube.com/watch?v=ROUP1z62caA",
+   "timestamp": "113.117–114.117",
+   "notes": "Vorveröffentlichungs-Build. Pfad an visuell gegengeprüften HUD-Munitionswechseln, Marker ±1 Bild; OCR allein nicht übernommen. Vorzeichen x rechts/y unten; Basis unmittelbar vor erstem verwendeten Schuss. Kamerawirkung inklusive möglicher Eingaben; kein isoliertes Spielmuster, Lagegenauigkeit ±3 pp. Automatik; vollständiges identifiziertes 15-Schuss-Teilstück",
+   "source_id": "ROUP1z62caA"
+  },
+  {
+   "game": "Battlefield 2042",
+   "weapon": "M5A3",
+   "class": "Sturmgewehr",
+   "recoil_stat": null,
+   "rpm": null,
+   "shots": null,
+   "compensated": null,
+   "path_pct": null,
+   "climb_total_pct": null,
+   "side_max_pct": null,
+   "deterministic": null,
+   "random_share": null,
+   "first_shot_spread_pct": null,
+   "recovery_frames": null,
+   "recovery_rest_pct": null,
+   "burst": "Automatik",
+   "status": "[M] Nettobahn/Trefferbbox partiell",
+   "source_url": "https://www.youtube.com/watch?v=enyEjb4dXU8",
+   "timestamp": "41.041–43.710",
+   "notes": "Weltanker-Nettobahn und Trefferbbox gemessen; keine verlässliche Zuordnung sämtlicher Einschüsse zu einzelnen Schüssen. Eingaben unbekannt.",
+   "source_id": "enyEjb4dXU8"
+  },
+  {
+   "game": "Battlefield 2042",
+   "weapon": "AK-24",
+   "class": "Sturmgewehr",
+   "recoil_stat": null,
+   "rpm": null,
+   "shots": null,
+   "compensated": null,
+   "path_pct": null,
+   "climb_total_pct": null,
+   "side_max_pct": null,
+   "deterministic": null,
+   "random_share": null,
+   "first_shot_spread_pct": null,
+   "recovery_frames": null,
+   "recovery_rest_pct": null,
+   "burst": "Automatik",
+   "status": "[M] Nettobahn/Trefferbbox partiell",
+   "source_url": "https://www.youtube.com/watch?v=0Rq3rypcIQo",
+   "timestamp": "154.087–156.823",
+   "notes": "Zwei Weltanker, 30fps-Download; nur Form/Lage. Factory-Waffe laut Kommentar, Input unbekannt; Trefferbbox vorhanden.",
+   "source_id": "0Rq3rypcIQo"
+  },
+  {
+   "game": "Battlefield 2042",
+   "weapon": "K30",
+   "class": "MP",
+   "recoil_stat": null,
+   "rpm": null,
+   "shots": null,
+   "compensated": null,
+   "path_pct": null,
+   "climb_total_pct": null,
+   "side_max_pct": null,
+   "deterministic": null,
+   "random_share": null,
+   "first_shot_spread_pct": null,
+   "recovery_frames": null,
+   "recovery_rest_pct": null,
+   "burst": "Automatik",
+   "status": "[M] Nettobahn/Trefferbbox partiell",
+   "source_url": "https://www.youtube.com/watch?v=L6BiTz_3teo",
+   "timestamp": "167.167–168.669; 176.009–178.512",
+   "notes": "Zwei Serien und zwei Weltanker, 30fps-Download; nur Form/Lage. Trefferbbox vorhanden; Wiederholungen nicht schussweise ausrichtbar.",
+   "source_id": "L6BiTz_3teo"
+  },
+  {
+   "game": "Call of Duty: Modern Warfare (2019)",
+   "weapon": "Kilo 141",
+   "class": "Sturmgewehr",
+   "recoil_stat": null,
+   "rpm": null,
+   "shots": null,
+   "compensated": null,
+   "path_pct": null,
+   "climb_total_pct": null,
+   "side_max_pct": null,
+   "deterministic": null,
+   "random_share": null,
+   "first_shot_spread_pct": null,
+   "recovery_frames": null,
+   "recovery_rest_pct": null,
+   "burst": "Automatik",
+   "status": "[O/C] Wiederholungen und Musterform, vollständige Messung offen",
+   "source_url": "https://www.youtube.com/watch?v=nBsmMfQfd_M",
+   "timestamp": "10.5–28; Ergebnis 46–49",
+   "notes": "Links ohne Aufsätze, rechts mit Aufsätzen. Drei Wiederholungen sichtbar; 23.976fps. Motionblur und Montage/Perspektivwechsel verhindern belastbare vollständige Weltankerspur. Form aufwärts-links.",
+   "source_id": "nBsmMfQfd_M"
+  },
+  {
+   "game": "Call of Duty: Modern Warfare (2019)",
+   "weapon": "M4A1",
+   "class": "Sturmgewehr",
+   "recoil_stat": null,
+   "rpm": null,
+   "shots": null,
+   "compensated": null,
+   "path_pct": null,
+   "climb_total_pct": null,
+   "side_max_pct": null,
+   "deterministic": null,
+   "random_share": null,
+   "first_shot_spread_pct": null,
+   "recovery_frames": null,
+   "recovery_rest_pct": null,
+   "burst": "Automatik",
+   "status": "[O/C] Wiederholungen und Musterform, vollständige Messung offen",
+   "source_url": "https://www.youtube.com/watch?v=nBsmMfQfd_M",
+   "timestamp": "62–79; Ergebnis 99–103",
+   "notes": "Links ohne Aufsätze. Drei Wiederholungen sichtbar; 23.976fps. Keine belastbare vollständige Weltankerspur. Form aufwärts, oben nach rechts.",
+   "source_id": "nBsmMfQfd_M"
+  },
+  {
+   "game": "Call of Duty: Modern Warfare (2019)",
+   "weapon": "AK-47",
+   "class": "Sturmgewehr",
+   "recoil_stat": null,
+   "rpm": null,
+   "shots": null,
+   "compensated": null,
+   "path_pct": null,
+   "climb_total_pct": null,
+   "side_max_pct": null,
+   "deterministic": null,
+   "random_share": null,
+   "first_shot_spread_pct": null,
+   "recovery_frames": null,
+   "recovery_rest_pct": null,
+   "burst": "Automatik",
+   "status": "[O/C] Wiederholungen und Musterform, vollständige Messung offen",
+   "source_url": "https://www.youtube.com/watch?v=nBsmMfQfd_M",
+   "timestamp": "113–126; Ergebnis 157–161",
+   "notes": "Links ohne Aufsätze. Drei Wiederholungen sichtbar; 23.976fps. Keine belastbare vollständige Weltankerspur. Form lang senkrecht mit seitlichen Knicken.",
+   "source_id": "nBsmMfQfd_M"
+  },
+  {
+   "game": "Halo Infinite",
+   "weapon": "MA40 Assault Rifle",
+   "class": "Automatikgewehr",
+   "recoil_stat": null,
+   "rpm": null,
+   "shots": 17,
+   "compensated": null,
+   "path_pct": null,
+   "climb_total_pct": null,
+   "side_max_pct": null,
+   "deterministic": null,
+   "random_share": null,
+   "first_shot_spread_pct": null,
+   "recovery_frames": null,
+   "recovery_rest_pct": null,
+   "burst": "Dauerfeuer",
+   "status": "[M] lokale Weltankerproben; reines Muster offen",
+   "source_url": "https://www.youtube.com/watch?v=ZfNuA5r-470",
+   "timestamp": "11.80–13.23",
+   "notes": "Unbekannter Gegeninput: lokale negierte Weltankerverschiebung ist kein isoliertes Rückstoßmuster. Pro Schussprobe wird der Zählerwechsel benutzt; variable HUD-Latenz ist nicht eliminiert. Keine zwei identischen unkompensierten Serien. Nominell 60/s, in diesen Fenstern nahe 30 Inhaltsbilder/s; keine Rückführzeiten in 60er-Bildern.",
+   "source_id": "ZfNuA5r-470",
+   "net_range_pct": {
+    "dx": [
+     -0.8333,
+     0.4167
+    ],
+    "dy": [
+     -5.7407,
+     0.0
+    ],
+    "last": [
+     -0.1042,
+     -5.5556
+    ],
+    "frames": 86,
+    "corr_min": 0.94741
+   }
+  },
+  {
+   "game": "Halo Infinite",
+   "weapon": "BR75 Battle Rifle",
+   "class": "Impulsgewehr",
+   "recoil_stat": null,
+   "rpm": null,
+   "shots": 18,
+   "compensated": null,
+   "path_pct": null,
+   "climb_total_pct": null,
+   "side_max_pct": null,
+   "deterministic": null,
+   "random_share": null,
+   "first_shot_spread_pct": null,
+   "recovery_frames": null,
+   "recovery_rest_pct": null,
+   "burst": "3er;6 Salven",
+   "status": "[M] lokale Weltankerproben; reines Muster offen",
+   "source_url": "https://www.youtube.com/watch?v=ZfNuA5r-470",
+   "timestamp": "52.633–55.250",
+   "notes": "Unbekannter Gegeninput: lokale negierte Weltankerverschiebung ist kein isoliertes Rückstoßmuster. Pro Schussprobe wird der Zählerwechsel benutzt; variable HUD-Latenz ist nicht eliminiert. Keine zwei identischen unkompensierten Serien. Nominell 60/s, in diesen Fenstern nahe 30 Inhaltsbilder/s; keine Rückführzeiten in 60er-Bildern.",
+   "source_id": "ZfNuA5r-470",
+   "net_range_pct": {
+    "dx": [
+     0.0,
+     0.0
+    ],
+    "dy": [
+     -0.7407,
+     0.3704
+    ],
+    "last": [
+     0.0,
+     0.3704
+    ],
+    "frames": 157,
+    "corr_min": 0.9798
+   }
+  },
+  {
+   "game": "Halo Infinite",
+   "weapon": "Mk50 Sidekick",
+   "class": "Sidearm",
+   "recoil_stat": null,
+   "rpm": null,
+   "shots": 9,
+   "compensated": null,
+   "path_pct": null,
+   "climb_total_pct": null,
+   "side_max_pct": null,
+   "deterministic": null,
+   "random_share": null,
+   "first_shot_spread_pct": null,
+   "recovery_frames": null,
+   "recovery_rest_pct": null,
+   "burst": "Einzelschüsse",
+   "status": "[M] lokale Weltankerproben; reines Muster offen",
+   "source_url": "https://www.youtube.com/watch?v=ZfNuA5r-470",
+   "timestamp": "85.567–88.167",
+   "notes": "Unbekannter Gegeninput: lokale negierte Weltankerverschiebung ist kein isoliertes Rückstoßmuster. Pro Schussprobe wird der Zählerwechsel benutzt; variable HUD-Latenz ist nicht eliminiert. Keine zwei identischen unkompensierten Serien. Nominell 60/s, in diesen Fenstern nahe 30 Inhaltsbilder/s; keine Rückführzeiten in 60er-Bildern.",
+   "source_id": "ZfNuA5r-470",
+   "net_range_pct": {
+    "dx": [
+     0.0,
+     0.0
+    ],
+    "dy": [
+     -0.7407,
+     -0.5556
+    ],
+    "last": [
+     0.0,
+     -0.5556
+    ],
+    "frames": 156,
+    "corr_min": 0.94924
+   }
+  },
+  {
+   "game": "Halo Infinite",
+   "weapon": "VK78 Commando",
+   "class": "Automatikgewehr",
+   "recoil_stat": null,
+   "rpm": null,
+   "shots": 20,
+   "compensated": null,
+   "path_pct": null,
+   "climb_total_pct": null,
+   "side_max_pct": null,
+   "deterministic": null,
+   "random_share": null,
+   "first_shot_spread_pct": null,
+   "recovery_frames": null,
+   "recovery_rest_pct": null,
+   "burst": "getaktete Einzelschüsse, später schneller",
+   "status": "[M] lokale Weltankerproben; reines Muster offen",
+   "source_url": "https://www.youtube.com/watch?v=9TdIttKuOgE",
+   "timestamp": "7.500–13.333",
+   "notes": "Unbekannter Gegeninput: lokale negierte Weltankerverschiebung ist kein isoliertes Rückstoßmuster. Pro Schussprobe wird der Zählerwechsel benutzt; variable HUD-Latenz ist nicht eliminiert. Keine zwei identischen unkompensierten Serien. Oberes 608×342-Spielbild des 608×1080-Portraitvideos allein normalisiert; untere Kopie nicht doppelt gezählt. Getaktete Einzelschüsse, kein Dauerspray.",
+   "source_id": "9TdIttKuOgE",
+   "net_range_pct": {
+    "dx": [
+     -0.4167,
+     0.1042
+    ],
+    "dy": [
+     -2.4074,
+     1.1111
+    ],
+    "last": [
+     -0.1042,
+     -0.9259
+    ],
+    "frames": 350,
+    "corr_min": 0.98313
+   }
+  },
+  {
+   "game": "Titanfall 2",
+   "weapon": "C.A.R.",
+   "class": "Maschinenpistole",
+   "recoil_stat": null,
+   "rpm": null,
+   "shots": 36,
+   "compensated": null,
+   "path_pct": null,
+   "climb_total_pct": null,
+   "side_max_pct": null,
+   "deterministic": null,
+   "random_share": null,
+   "first_shot_spread_pct": null,
+   "recovery_frames": null,
+   "recovery_rest_pct": null,
+   "burst": "5 Einzelschüsse, dann31er Dauerfeuer",
+   "status": "[M] lokale Weltankerproben; reines Muster offen",
+   "source_url": "https://www.youtube.com/watch?v=4sDwTD9U8bw",
+   "timestamp": "96.600–101.483",
+   "notes": "Unbekannter Gegeninput: lokale negierte Weltankerverschiebung ist kein isoliertes Rückstoßmuster. Pro Schussprobe wird der Zählerwechsel benutzt; variable HUD-Latenz ist nicht eliminiert. Keine zwei identischen unkompensierten Serien.",
+   "source_id": "4sDwTD9U8bw",
+   "net_range_pct": {
+    "dx": [
+     -1.3542,
+     0.7292
+    ],
+    "dy": [
+     -4.2593,
+     -0.1852
+    ],
+    "last": [
+     0.1042,
+     -0.1852
+    ],
+    "frames": 286,
+    "corr_min": 0.84274
+   }
+  },
+  {
+   "game": "Titanfall 2",
+   "weapon": "R-201 Carbine",
+   "class": "Automatikgewehr",
+   "recoil_stat": null,
+   "rpm": null,
+   "shots": 29,
+   "compensated": null,
+   "path_pct": null,
+   "climb_total_pct": null,
+   "side_max_pct": null,
+   "deterministic": null,
+   "random_share": null,
+   "first_shot_spread_pct": null,
+   "recovery_frames": null,
+   "recovery_rest_pct": null,
+   "burst": "4 Einzelschüsse, dann25er Dauerfeuer",
+   "status": "[M] lokale Weltankerproben, in REF 0.16 nachgemessen und korrigiert; reines Muster offen",
+   "source_url": "https://www.youtube.com/watch?v=4sDwTD9U8bw",
+   "timestamp": "171.300–175.433",
+   "notes": "Unbekannter Gegeninput: lokale negierte Weltankerverschiebung ist kein isoliertes Rückstoßmuster. Pro Schussprobe wird der Zählerwechsel benutzt; variable HUD-Latenz ist nicht eliminiert. Keine zwei identischen unkompensierten Serien. Teilmagazin: Folge beginnt bei 29 bzw. 18 Restpatronen; erster Magazinschuss nicht enthalten. Korrektur 25.10.2026 (REF 0.16): die Codex-Spur springt ab 174,9 s auf einen falschen Turmabschnitt (dy −19 statt −5); gültig ist eine Spitze von ≈ 9 pp H und ein Ende bei ≈ 3 pp H.",
+   "source_id": "4sDwTD9U8bw",
+   "net_range_pct": {
+    "dx": [
+     -2.9,
+     2.3
+    ],
+    "dy": [
+     -9.3,
+     1.0
+    ],
+    "last": [
+     -1.0,
+     -2.6
+    ],
+    "frames": 216,
+    "corr_min": 0.85,
+    "note": "eigene Nachmessung 25.10.2026 (Felsanker rechts, Turmanker gegengeprüft); ersetzt Codex dy −18,9"
+   },
+   "recheck": "KORRIGIERT: Codex-Wert dy bis −18,9 pp H (Ende −16,7) ist ein Fehltreffer des Turmankers ab 174,9 s; zwei eigene Anker (Fels rechts, Turm) zeigen Spitze ≈ −9 pp H, Ende ≈ −3 pp H, seitlich −2,9 … +2,3 pp B"
+  },
+  {
+   "game": "Titanfall 2",
+   "weapon": "Hemlok BF-R",
+   "class": "Impulsgewehr",
+   "recoil_stat": null,
+   "rpm": null,
+   "shots": 18,
+   "compensated": null,
+   "path_pct": null,
+   "climb_total_pct": null,
+   "side_max_pct": null,
+   "deterministic": null,
+   "random_share": null,
+   "first_shot_spread_pct": null,
+   "recovery_frames": null,
+   "recovery_rest_pct": null,
+   "burst": "3er;6 Salven",
+   "status": "[M] lokale Weltankerproben; reines Muster offen",
+   "source_url": "https://www.youtube.com/watch?v=4sDwTD9U8bw",
+   "timestamp": "207.300–212.833",
+   "notes": "Unbekannter Gegeninput: lokale negierte Weltankerverschiebung ist kein isoliertes Rückstoßmuster. Pro Schussprobe wird der Zählerwechsel benutzt; variable HUD-Latenz ist nicht eliminiert. Keine zwei identischen unkompensierten Serien. Teilmagazin: Folge beginnt bei 29 bzw. 18 Restpatronen; erster Magazinschuss nicht enthalten.",
+   "source_id": "4sDwTD9U8bw",
+   "net_range_pct": {
+    "dx": [
+     -1.0417,
+     -0.3125
+    ],
+    "dy": [
+     -4.4444,
+     0.3704
+    ],
+    "last": [
+     -0.625,
+     -4.4444
+    ],
+    "frames": 332,
+    "corr_min": 0.97145
+   },
+   "recheck": "bestätigt mit drei Ankern: Ende −4,4 … −5,4 pp H (Codex −4,4)"
+  }
+ ]
+}
