@@ -9,3 +9,5 @@
 - `sheet` bei niedriger Bildrate: Kachel zeigt ein Bild eine halbe Abtastperiode nach ihrer Beschriftung – Zahlen nur aus Einzelbildern oder Bögen ≥ 5/s ([visiere](visiere.md#1-quellen-und-methode)).
 - Zuarbeit anderer Agenten (Antigravity) vor Übernahme per yt-dlp gegen Kanal/Titel prüfen und eine Stichprobe am Bild nachmessen; erfundene Quellen kommen vor ([visiere](visiere.md#1-quellen-und-methode)).
 - Proportionen aus 3/4-Menübildern und aus orthografischen Seitenbildern nur als Größenordnung vergleichen; jede Waffe auf ihre eigene Länge normieren, Bogen nur mit Wurfarm-L ([proportionen](proportionen.md#1-quellen-und-methode)).
+- Weltanker auf sich wiederholender Struktur (Turmsegmente, Wolken, Paneele) springt mit hoher Korrelation auf den falschen Abschnitt; jede Bahn mit einem zweiten, anders aussehenden Anker prüfen ([rueckstoss](rueckstoss.md#7-offen-und-nicht-messbar)).
+- Rückstoß aus fremden Aufnahmen ist Netto aus Spiel und Spielereingabe; ohne belegten Nullinput keine Rückstoßkonstante, keinen Zufallsanteil und keine Rückführzeit daraus ableiten ([rueckstoss](rueckstoss.md#7-offen-und-nicht-messbar)).
