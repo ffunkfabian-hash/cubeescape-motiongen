@@ -2,8 +2,8 @@
 
 Referenzanalyse REF 0.15 „Sideview“ (25.10.2026) für die Waffenreihe **BASIC** (Projekt `cubeescape-ballon`). Nur Videospiele, keine
 echten Waffen. Schwerpunkt Destiny 2 als Stilvorbild höchster Priorität – **nicht kopieren**, sondern Verhältnisse und Formhierarchie
-verstehen. Hier stehen Beobachtungen und Zahlen; der Abschnitt [BASIC-Abweichungen](#5-basic-abweichungen--vorschlag) ist ein **Vorschlag**,
-entschieden wird in BASIC. Maschinenlesbare Fassung: [`data/proportionen.json`](../data/proportionen.json). Anschluss an REF 0.14
+verstehen. Hier stehen Beobachtungen und Zahlen; der Abschnitt [BASIC-Abweichungen](#5-basic-abweichungen) stellt Abweichungen
+fest; Schlüsse und Startwerte setzt BASIC. Maschinenlesbare Fassung: [`data/proportionen.json`](../data/proportionen.json). Anschluss an REF 0.14
 „Eyebox“ (Visiere, `docs/visiere.md`, [PR #42](https://github.com/ffunkfabian-hash/cubeescape-reference/pull/42)), die fand, dass
 „klobig“ vor allem von großen, hohen Gehäusen und Block-Sockeln kommt.
 
@@ -73,7 +73,7 @@ Gewehre, Bögen und Stangenwaffen bilden.
 | **Sidearm** <a id="p-d2-sidearm"></a> | 2/2 | 0,33 | 0,00 | 0,03 | 0,08 | 0,74–0,83 | Dead Man Walking, Minimum Distance |
 | **Maschinenpistole** <a id="p-d2-mp"></a> | 1/1 | 0,14 | 0,00 | 0,06 | 0,05 | 0,50 [M] | Extraordinary Rendition, Magazin 0,30 [M] |
 | **Schrotflinte** <a id="p-d2-schrot"></a> | 1/1 | 0,16 | 0,00 | 0,02 | 0,08 | 0,29 | First In, Last Out |
-| **Scharfschützengewehr** <a id="p-d2-sniper"></a> | 3/3 | 0,07–0,13 | 0,00–0,48 | 0,05–0,11 | 0,17–0,22 | 0,17–0,32 | Far Future H/L 0,18 [M], A Single Clap, The Mornin' Comes |
+| **Scharfschützengewehr** <a id="p-d2-sniper"></a> | 3/3 | 0,07–0,13 | 0,00–0,48 | 0,05–0,11 | 0,17–0,22 | 0,17–0,32 | Far Future 0,17 [C], nachgemessen 0,18 [M]; A Single Clap, The Mornin' Comes |
 | **Fusionsgewehr** <a id="p-d2-fusion"></a> | 1/1 | 0,19 | 0,00 | 0,03 | 0,18 | 0,49 | Nox Echo III, Magazin geöffnet |
 | **Lineares Fusionsgewehr** <a id="p-d2-lfr"></a> | 1/1 | 0,17 | 0,00 | 0,11 | 0,16 | 0,43 | Threaded Needle |
 | **Bogen** <a id="p-d2-bogen"></a> | 1/2 | – | – | – | – | 0,73 | Wurfarm-L; Trinity Ghoul mit Ornament, Imperial Needle beschnitten [O] |
@@ -160,7 +160,7 @@ Bauteile der vier näher vermessenen Waffen (Anteil von L; Winkel ±5°): BASIC-
 0,184 (0,106); BASIC-06 Magazin 0,117/8°, Griff 0,193/8°, Schaft 0,224 (0,211). Bogen BASIC-07 mit derselben Sonderachse wie Trinity
 Ghoul (Wurfarmspanne 414 px, H mit Pfeil 277 px); entlang der Schussachse wäre H/L 1,495 – nicht mit dem D2-Bogenwert vergleichen.
 
-## 5. BASIC-Abweichungen – Vorschlag
+## 5. BASIC-Abweichungen
 
 ### 5.1 Ganze Waffen gegen Destiny 2
 
@@ -201,22 +201,17 @@ die verdeckte Bildfläche. Heller breiter Ring und dunkle Innenfase verstärken 
 das ganze Visier im Bild, ändert aber nicht das Verhältnis außen/Öffnung. Kompakte Prisma-/Flachkasten-Varianten zeigten im Zielen
 starke Tunnelansichten: kompakte Außenform garantiert keinen guten Durchblick (eigener Geometrie-/Kameraauftrag).
 
-### 5.3 Vorschläge für BASIC
+### 5.3 Abweichungen in Kürze
 
-Vorschläge aus den Beobachtungen oben, keine Entscheidung; Startwerte setzt BASIC.
+Nur Befunde aus 5.1 und 5.2; Schlüsse und Startwerte setzt BASIC (`cubeescape-ballon`), die Übergabe läuft über den Briefkasten.
 
-1. **Scout-Ring verschlanken:** Außen/Öffnung von ≈ 1,8 in Richtung 1,3 (bei gleicher Öffnung ≈ −29 % Außenbreite); passt zu REF 0.14
-   (Destiny-Rahmen ≈ 0,15 × Öffnung). Helligkeit des Rings getrennt prüfen.
-2. **Visier tiefer setzen:** Scout-Optik über dem Gehäuse von 0,063 L in Richtung 0,02–0,04 L; Sockel als Teil der oberen Linie
-   ([3.3](#p-schlank-optik)).
-3. **Gehäuse nicht pauschal abflachen:** BASIC-Körper (0,10–0,13 L) sind bereits flacher als die D2-Beispiele; Gewicht über
-   Längsstaffelung (dünn–breit–dünn, [3.1](#p-schlank-staffelung)) und Negativräume ([3.5](#p-schlank-negativ)) steuern, etwa
-   Skelett- statt Vollschaft.
-4. **Familie statt Wiederholung:** Die Reihe wiederholt gleich hohe helle Gehäuse mit dunklen Rechteckpaneelen; Destiny ordnet je
-   Waffe wenige große Flächen und bündelt Details in Zonen ([3.6](#p-schlank-zonen)) – dabei eine klare Hauptform je Familie
-   ([3.10](#p-schlank-masse)).
-5. **Klassen getrennt bewerten:** Pistolen/Sidearms (D2 0,52–0,83) und MPs (0,50) nie an Langwaffen-H/L messen; Bogen nur mit
-   Wurfarm-L vergleichen.
+| Merkmal | BASIC | Destiny-Beispiele | Befund |
+|---|---|---|---|
+| **Scout-Ring außen/Öffnung** <a id="p-abw-ring"></a> | 1,76–1,91 [M] | 1,28–1,30 [M] | Abweichung; Destiny-Verhältnis bei gleicher Öffnung ≈ 29 % weniger Außenbreite |
+| **Scout-Visier über Gehäuse** <a id="p-abw-visier"></a> | 0,063 | 0,02–0,04 (Tone Patrol 0,013–0,019 [M]) | Abweichung (Vorbehalt Projektion) |
+| **Gewehrgehäuse** <a id="p-abw-gehaeuse"></a> | 0,10–0,13 | 0,16–0,25 | keine Abweichung nach oben; BASIC flacher |
+| **Formgliederung** <a id="p-abw-form"></a> | gleich hohe helle Gehäuse mit dunklen Rechteckpaneelen, Vollschäfte (älterer Bogen) | Längsstaffelung, Negativräume, Detail in Zonen, eine Hauptform je Familie ([3](#3-was-schlank-macht--was-klobig-macht)) | Unterschied in der Gliederung, nicht in der Dicke |
+| **Kurzwaffen, MP, Bogen** | H/L 0,57–0,70, MP 0,525, Bogen 0,669 | 0,52–0,83, MP 0,50, Bogen 0,73 | keine Abweichung; nur innerhalb der Klasse vergleichen |
 
 ## 6. Nachmessung [M]
 
