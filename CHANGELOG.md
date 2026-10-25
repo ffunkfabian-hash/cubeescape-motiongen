@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.17.0 „Steadyhand“ – 2026-10-25
+
+- Neue Referenzanalyse [Zielbewegung im Zielen](docs/zielbewegung.md) mit maschinenlesbarer Fassung `data/zielbewegung.json`: Rückstoß im ADS gegen einen starren Weltanker getrennt vom Visier, ruhiges Halten, Punkt im Glas und Hüfte → Zielen für 17 Waffenbeispiele aus vier Spielen (Destiny 2, Battlefield 2042, Apex, Halo Infinite), gemessen von Codex-Mac am 24.10.2026, eingepflegt und an fünf Werten nachgemessen. 15 Destiny-Messzeilen in `docs/destiny2.md` › 2 (Anker `z-zb-…`), Methode 17, acht Steckbriefe ergänzt, 27 Einträge in `data/clips.json`.
+- Befund: Im ADS wandert in den Destiny-Showcases vor allem die Welt (4–18 pp Bildhöhe), das Visier bleibt nahe der Ruhelage; Scharfschütze und lineare Fusion kehren nicht ganz zurück; Halte von 0,75–1,8 s zeigen keine Atemperiode. Neue Endmaßstäbe Imperial Needle 2,2× und Extraordinary Rendition 1,7×. [Bericht](docs/versions/0.md#0170-steadyhand--2026-10-25).
 ## 0.16.0 „Kickback“ – 2026-10-25
 
 - Neue Referenzanalyse [Rückstoßmuster in Videospielen](docs/rueckstoss.md) mit maschinenlesbarer Fassung `data/rueckstoss.json`: 9 Spiele, 36 Waffen, 44 Serienfenster (Codex-Zuarbeit), Destiny 2 zuerst; Nettobahnen gegen Weltanker, Takt, Rücklauf ins ±3-pp-Band, Systemfassungen (Destiny 2023/2025, Valorant hybrid, Apex, CS2, CoD, Battlefield), Musterkatalog je Klasse und zehn Gestaltungsregeln als Vorschlag für BASIC (cubeescape-ballon). 27 Messeinträge in `data/clips.json` (einer je Messzeile).

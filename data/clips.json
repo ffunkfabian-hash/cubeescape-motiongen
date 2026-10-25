@@ -1360,5 +1360,167 @@
     "clip": "https://www.youtube.com/watch?v=9TdIttKuOgE",
     "source": "AznSlickSlaya (YouTube), 04.10.2021, 60 fps, oberes Spielbild 608 × 342; Codex-Messung 24.10.2026; REF 0.16 „Kickback“ (Mac, 25.10.2026), docs/rueckstoss.md",
     "timestamps": "7,500–13,333 s (20 → 0)"
+  },
+  {
+    "measurement": "Zielbewegung Destiny 2: Chroma Rush, Rückstoß im ADS",
+    "clip": "https://www.youtube.com/watch?v=QxSa4m3wIEA",
+    "source": "Ultraclocked (YouTube), 15.05.2021, 60 fps; Codex-Mac 24.10.2026, REF 0.17 „Steadyhand“ (Mac, 25.10.2026), docs/destiny2.md#z-zb-chroma-stoss",
+    "timestamps": "23,100-24,500 s · Schüsse 23,150 · 23,233 · 23,317 · 23,400; Weltmaximum 23,433"
+  },
+  {
+    "measurement": "Zielbewegung Destiny 2: Gridskipper, Rückstoß im ADS",
+    "clip": "https://www.youtube.com/watch?v=DFn14wAPluA",
+    "source": "Ultraclocked (YouTube), 13.05.2021, 60 fps; Codex-Mac 24.10.2026, REF 0.17 „Steadyhand“ (Mac, 25.10.2026), docs/destiny2.md#z-zb-gridskipper-salve",
+    "timestamps": "27,050-28,100 s · Schüsse 27,117 · 27,183 · 27,250; Maximum 27,283–27,300"
+  },
+  {
+    "measurement": "Zielbewegung Destiny 2: Tone Patrol, Rückstoß im ADS",
+    "clip": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+    "source": "Ultraclocked (YouTube), 14.02.2020, 60 fps; Codex-Mac 24.10.2026, REF 0.17 „Steadyhand“ (Mac, 25.10.2026), docs/destiny2.md#z-zb-tone-patrol-folge",
+    "timestamps": "388,500-391,400 s · Schüsse 388,750 · 389,100 · 389,450 · 389,783 · 390,117; Plateau 390,217–390,250"
+  },
+  {
+    "measurement": "Zielbewegung Destiny 2: Tone Patrol, Punkt im Glas",
+    "clip": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+    "source": "Ultraclocked (YouTube), 14.02.2020, 60 fps; Codex-Mac 24.10.2026, REF 0.17 „Steadyhand“ (Mac, 25.10.2026), docs/destiny2.md#z-zb-tone-patrol-punkt",
+    "timestamps": "388,500-391,400 s"
+  },
+  {
+    "measurement": "Zielbewegung Destiny 2: Annual Skate, Rückstoß im ADS",
+    "clip": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+    "source": "Ultraclocked (YouTube), 14.02.2020, 60 fps; Codex-Mac 24.10.2026, REF 0.17 „Steadyhand“ (Mac, 25.10.2026), docs/destiny2.md#z-zb-annual-skate-schuss",
+    "timestamps": "81,900-83,400 s · Blitz 82,217; Weltmaximum 82,333–82,350"
+  },
+  {
+    "measurement": "Zielbewegung Destiny 2: Far Future, Rückstoß im ADS",
+    "clip": "https://www.youtube.com/watch?v=RXgRxHESqHQ",
+    "source": "Ultraclocked (YouTube), 18.02.2021, 60 fps; Codex-Mac 24.10.2026, REF 0.17 „Steadyhand“ (Mac, 25.10.2026), docs/destiny2.md#z-zb-far-future-schuss",
+    "timestamps": "33,467-34,500 s · Blitz 33,467 (f2008); Weltmaximum 33,533 (f2012)"
+  },
+  {
+    "measurement": "Zielbewegung Destiny 2: Far Future, ADS-Halt",
+    "clip": "https://www.youtube.com/watch?v=RXgRxHESqHQ",
+    "source": "Ultraclocked (YouTube), 18.02.2021, 60 fps; Codex-Mac 24.10.2026, REF 0.17 „Steadyhand“ (Mac, 25.10.2026), docs/destiny2.md#z-zb-far-future-halt",
+    "timestamps": "34,500-36,300 s"
+  },
+  {
+    "measurement": "Zielbewegung Destiny 2: Threaded Needle, Rückstoß im ADS",
+    "clip": "https://www.youtube.com/watch?v=uoTaCBMXcFk",
+    "source": "Ultraclocked (YouTube), 20.02.2021, 60 fps; Codex-Mac 24.10.2026, REF 0.17 „Steadyhand“ (Mac, 25.10.2026), docs/destiny2.md#z-zb-threaded-needle-schuss",
+    "timestamps": "34,567-36,000 s · Blitz 34,567 (f2074); Modellspitze 34,617 (f2077); Weltspitze 34,700 (f2082)"
+  },
+  {
+    "measurement": "Zielbewegung Destiny 2: Threaded Needle, Punkt im Glas",
+    "clip": "https://www.youtube.com/watch?v=uoTaCBMXcFk",
+    "source": "Ultraclocked (YouTube), 20.02.2021, 60 fps; Codex-Mac 24.10.2026, REF 0.17 „Steadyhand“ (Mac, 25.10.2026), docs/destiny2.md#z-zb-threaded-needle-punkt",
+    "timestamps": "34,617-34,750 s"
+  },
+  {
+    "measurement": "Zielbewegung Destiny 2: Threaded Needle, ADS-Halt",
+    "clip": "https://www.youtube.com/watch?v=uoTaCBMXcFk",
+    "source": "Ultraclocked (YouTube), 20.02.2021, 60 fps; Codex-Mac 24.10.2026, REF 0.17 „Steadyhand“ (Mac, 25.10.2026), docs/destiny2.md#z-zb-threaded-needle-halt",
+    "timestamps": "35,300-36,100 s"
+  },
+  {
+    "measurement": "Zielbewegung Destiny 2: Extraordinary Rendition, Rückstoß im ADS",
+    "clip": "https://www.youtube.com/watch?v=Y5OLr0nbgSg",
+    "source": "Ultraclocked (YouTube), 15.02.2021, 60 fps; Codex-Mac 24.10.2026, REF 0.17 „Steadyhand“ (Mac, 25.10.2026), docs/destiny2.md#z-zb-rendition-folge",
+    "timestamps": "39,900-41,200 s · erster Blitz 40,050, weitere ≈ +5/+10 Bilder"
+  },
+  {
+    "measurement": "Zielbewegung Destiny 2: Imperial Needle, ADS-Halt",
+    "clip": "https://www.youtube.com/watch?v=dKNTDzi__Qo",
+    "source": "Ultraclocked (YouTube), 19.02.2021, 60 fps; Codex-Mac 24.10.2026, REF 0.17 „Steadyhand“ (Mac, 25.10.2026), docs/destiny2.md#z-zb-imperial-needle-halt",
+    "timestamps": "47,950-48,700 s"
+  },
+  {
+    "measurement": "Zielbewegung Destiny 2: Imperial Needle, Lösen/ADS-Ausstieg",
+    "clip": "https://www.youtube.com/watch?v=dKNTDzi__Qo",
+    "source": "Ultraclocked (YouTube), 19.02.2021, 60 fps; Codex-Mac 24.10.2026, REF 0.17 „Steadyhand“ (Mac, 25.10.2026), docs/destiny2.md#z-zb-imperial-needle-loesen",
+    "timestamps": "67,750-67,767 s · f4065 → f4066"
+  },
+  {
+    "measurement": "Zielbewegung Destiny 2: Imperial Needle, Endmaßstab Hüfte → ADS",
+    "clip": "https://www.youtube.com/watch?v=dKNTDzi__Qo",
+    "source": "Ultraclocked (YouTube), 19.02.2021, 60 fps; Codex-Mac 24.10.2026, REF 0.17 „Steadyhand“ (Mac, 25.10.2026), docs/destiny2.md#z-zb-imperial-needle-zoom",
+    "timestamps": "47,500 → 48,200 s"
+  },
+  {
+    "measurement": "Zielbewegung Destiny 2: Extraordinary Rendition, Endmaßstab Hüfte → ADS",
+    "clip": "https://www.youtube.com/watch?v=Y5OLr0nbgSg",
+    "source": "Ultraclocked (YouTube), 15.02.2021, 60 fps; Codex-Mac 24.10.2026, REF 0.17 „Steadyhand“ (Mac, 25.10.2026), docs/destiny2.md#z-zb-rendition-zoom",
+    "timestamps": "39,100 → 39,900 s"
+  },
+  {
+    "measurement": "Zielbewegung Battlefield 2042: rotes Gewehr (Identität offen), Rückstoß im ADS",
+    "clip": "https://www.youtube.com/watch?v=enyEjb4dXU8",
+    "source": "SammyBoiii: FPS (YouTube), 17.02.2022, 59,94 fps; Codex-Mac 24.10.2026, REF 0.17 „Steadyhand“ (Mac, 25.10.2026), docs/zielbewegung.md#z-zb-bf-reflex-stoss",
+    "timestamps": "41,408-42,092 s · f2482–2523"
+  },
+  {
+    "measurement": "Zielbewegung Battlefield 2042: rotes Gewehr (Identität offen), ADS-Halt",
+    "clip": "https://www.youtube.com/watch?v=enyEjb4dXU8",
+    "source": "SammyBoiii: FPS (YouTube), 17.02.2022, 59,94 fps; Codex-Mac 24.10.2026, REF 0.17 „Steadyhand“ (Mac, 25.10.2026), docs/zielbewegung.md#z-zb-bf-reflex-halt",
+    "timestamps": "40,407-41,408 s"
+  },
+  {
+    "measurement": "Zielbewegung Battlefield 2042 (Beta 2021): G57, Rückstoß im ADS",
+    "clip": "https://www.youtube.com/watch?v=EbV5pVp92AU",
+    "source": "Flexaur (YouTube), 06.10.2021, 59,94 fps; Codex-Mac 24.10.2026, REF 0.17 „Steadyhand“ (Mac, 25.10.2026), docs/zielbewegung.md#z-zb-bf-g57",
+    "timestamps": "89,706-90,307 s · Original f5377–5413 (lokal f521–557); Zähler 15 → 14"
+  },
+  {
+    "measurement": "Zielbewegung Battlefield 2042 (Beta 2021): M44, Rückstoß im ADS",
+    "clip": "https://www.youtube.com/watch?v=EbV5pVp92AU",
+    "source": "Flexaur (YouTube), 06.10.2021, 59,94 fps; Codex-Mac 24.10.2026, REF 0.17 „Steadyhand“ (Mac, 25.10.2026), docs/zielbewegung.md#z-zb-bf-m44",
+    "timestamps": "≈ 308,392-309,443 s · lokal f503–566; kein Schuss im Fenster"
+  },
+  {
+    "measurement": "Zielbewegung Apex Legends: RE-45, Rückstoß im ADS",
+    "clip": "https://www.youtube.com/watch?v=R-BGChzYGpo",
+    "source": "Cacek47 (YouTube), 06.02.2019, 60 fps; Codex-Mac 24.10.2026, REF 0.17 „Steadyhand“ (Mac, 25.10.2026), docs/zielbewegung.md#z-zb-apex-re45",
+    "timestamps": "14,450-14,983 s · f867–899; Zähler 15 → 14 → 13"
+  },
+  {
+    "measurement": "Zielbewegung Apex Legends: R-301, Rückstoß im ADS",
+    "clip": "https://www.youtube.com/watch?v=UetKaZiF9uA",
+    "source": "ClawZ (YouTube), 25.11.2020, ≈ 29,9 fps; Codex-Mac 24.10.2026, REF 0.17 „Steadyhand“ (Mac, 25.10.2026), docs/zielbewegung.md#z-zb-apex-r301",
+    "timestamps": "≈ 31,49-31,89 s · Quellindizes 942–954 bei ≈ 30/s; Zähler 16 → 15 → 14"
+  },
+  {
+    "measurement": "Zielbewegung Apex Legends: P2020, Rückstoß im ADS",
+    "clip": "https://www.youtube.com/watch?v=_ZttaEjdcQU",
+    "source": "tZveig (YouTube), 11.04.2019, 60 fps; Codex-Mac 24.10.2026, REF 0.17 „Steadyhand“ (Mac, 25.10.2026), docs/zielbewegung.md#z-zb-apex-p2020",
+    "timestamps": "21,100-22,300 s · Blitz/Zähler 10 → 9 bei f1297 = 21,617; Formrückkehr ≈ f1308 = 21,800"
+  },
+  {
+    "measurement": "Zielbewegung Halo Infinite (Technical Preview 2021): BR75, Rückstoß im ADS",
+    "clip": "https://www.youtube.com/watch?v=ZfNuA5r-470",
+    "source": "Abyssopelagic (YouTube), 30.07.2021, 60 fps; Codex-Mac 24.10.2026, REF 0.17 „Steadyhand“ (Mac, 25.10.2026), docs/zielbewegung.md#z-zb-halo-br75",
+    "timestamps": "58,150-58,750 s · f3489–3525"
+  },
+  {
+    "measurement": "Zielbewegung Halo Infinite (Technical Preview 2021): VK78 Commando, Rückstoß im ADS",
+    "clip": "https://www.youtube.com/watch?v=ZfNuA5r-470",
+    "source": "Abyssopelagic (YouTube), 30.07.2021, 60 fps; Codex-Mac 24.10.2026, REF 0.17 „Steadyhand“ (Mac, 25.10.2026), docs/zielbewegung.md#z-zb-halo-commando-feuer",
+    "timestamps": "128,300-128,950 s · f7698–7737"
+  },
+  {
+    "measurement": "Zielbewegung Halo Infinite (Technical Preview 2021): S7, Rückstoß im ADS",
+    "clip": "https://www.youtube.com/watch?v=ZfNuA5r-470",
+    "source": "Abyssopelagic (YouTube), 30.07.2021, 60 fps; Codex-Mac 24.10.2026, REF 0.17 „Steadyhand“ (Mac, 25.10.2026), docs/zielbewegung.md#z-zb-halo-s7-schuss",
+    "timestamps": "332,600-333,200 s · f19956–19992; Schuss ab f19967 = 332,783"
+  },
+  {
+    "measurement": "Zielbewegung Halo Infinite (Technical Preview 2021): VK78 Commando, Übergang Hüfte → Zielen",
+    "clip": "https://www.youtube.com/watch?v=ZfNuA5r-470",
+    "source": "Abyssopelagic (YouTube), 30.07.2021, 60 fps; Codex-Mac 24.10.2026, REF 0.17 „Steadyhand“ (Mac, 25.10.2026), docs/zielbewegung.md#z-zb-halo-commando-zoom",
+    "timestamps": "127,667-127,767 s · Modell zuletzt f7660 = 127,667; Overlay zuerst f7661 = 127,683; Rest bis ≈ f7666 = 127,767"
+  },
+  {
+    "measurement": "Zielbewegung Halo Infinite (Technical Preview 2021): S7, Übergang Hüfte → Zielen",
+    "clip": "https://www.youtube.com/watch?v=ZfNuA5r-470",
+    "source": "Abyssopelagic (YouTube), 30.07.2021, 60 fps; Codex-Mac 24.10.2026, REF 0.17 „Steadyhand“ (Mac, 25.10.2026), docs/zielbewegung.md#z-zb-halo-s7-zoom",
+    "timestamps": "331,617-331,750 s · Modell zuletzt f19897 = 331,617; Scope zuerst f19898 = 331,633; Rest bis ≈ f19905 = 331,750"
   }
 ]

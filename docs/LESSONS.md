@@ -11,3 +11,5 @@
 - Proportionen aus 3/4-Menübildern und aus orthografischen Seitenbildern nur als Größenordnung vergleichen; jede Waffe auf ihre eigene Länge normieren, Bogen nur mit Wurfarm-L ([proportionen](proportionen.md#1-quellen-und-methode)).
 - Weltanker auf sich wiederholender Struktur (Turmsegmente, Wolken, Paneele) springt mit hoher Korrelation auf den falschen Abschnitt; jede Bahn mit einem zweiten, anders aussehenden Anker prüfen ([rueckstoss](rueckstoss.md#7-offen-und-nicht-messbar)).
 - Rückstoß aus fremden Aufnahmen ist Netto aus Spiel und Spielereingabe; ohne belegten Nullinput keine Rückstoßkonstante, keinen Zufallsanteil und keine Rückführzeit daraus ableiten ([rueckstoss](rueckstoss.md#7-offen-und-nicht-messbar)).
+- Rückstoß im Zielen gegen einen starren Weltanker getrennt vom Visier verfolgen; Spuren mit Overlay, Blitz oder Formwechsel (NCC deutlich < 0,85) verwerfen statt sie als Null oder Spitze zu melden ([zielbewegung](zielbewegung.md#1-methode-und-genauigkeit)).
+- Halte unter 2 s tragen keine Atemperiode; „innerhalb ±3 pp“ ist eine Auflösungsgrenze, kein Nachweis für Null-Sway ([zielbewegung](zielbewegung.md#7-nicht-messbar--offen)).

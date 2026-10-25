@@ -13,6 +13,7 @@ Toolgen und das Design-Repo lesen hier; entschieden und umgesetzt wird dort.
 | [docs/visiere.md](docs/visiere.md) | Visiere in Videospielen: Darstellungsarten, Zahlen im Zielen, Form, Sitz, Absehen, Glas, Spielerstimmen, Empfehlungen für BASIC (`data/visiere.json`) |
 | [docs/proportionen.md](docs/proportionen.md) | Waffenproportionen und Silhouetten: Verhältnisse je Klasse (Destiny 2 und fünf Vergleichsspiele), was schlank macht, BASIC-Abweichungen (`data/proportionen.json`) |
 | [docs/rueckstoss.md](docs/rueckstoss.md) | Rückstoßmuster in Videospielen: Nettobahnen, Takt, Rücklauf, Systemfassungen, Musterkatalog je Klasse, Gestaltungsregeln für BASIC (`data/rueckstoss.json`) |
+| [docs/zielbewegung.md](docs/zielbewegung.md) | Zielbewegung im Zielen: Rückstoß im ADS gegen Weltanker, Halten, Punkt im Glas, Hüfte → Zielen; Destiny 2 mit Battlefield 2042, Apex und Halo im Vergleich (`data/zielbewegung.json`) |
 | [docs/auswertung.md](docs/auswertung.md) | Gesamtauswertung: Vergleich der Vorgänge, belegte Muster, Widersprüche und offene Fragen |
 | `docs/cube-escape.md` | Cube Escape selbst, mit denselben Messgrößen vermessen (eigene 60-fps-Aufnahmen aus der Testkopie): Messungen, Steckbriefe je Gerät, Vergleich mit den Vorbildern |
 | `data/clips.json` | Clip-Verzeichnis: Messung, Clip-URL, Quelle, Zeitstempel |
