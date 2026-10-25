@@ -18,6 +18,9 @@ keine privaten Daten, keine Bild- oder Videodateien aus fremden Aufnahmen (nur V
 
 ## Messregeln (Erfahrungen)
 
+- **Analysen und Zuarbeiten folgen dem [Analyse-Standard](docs/standard.md):** Themen getrennt (ein Thema = Ordner, Ergebnisdatei, Version, Doc),
+  Quellenpflicht per yt-dlp, Bewertung „gut / nicht so gut / für wen“ mit Spielerstimmen und Entwickler-Referenzen, Unteragenten je Thema bei
+  großen Analysen, Prüfung jeder Zuarbeit vor dem Einpflegen. Aufträge an Codex/Antigravity aus [docs/vorlagen/auftrag-analyse.md](docs/vorlagen/auftrag-analyse.md).
 - Eine Messung = eine Zeile in der Messtabelle des Spiels (`docs/<spiel>.md` › 2) **und** ein Eintrag in `data/clips.json`
   (Messung, Clip-URL, Quelle mit Kanal/Datum, Zeitstempel). Zahlen eines Clips sind Beispiele einer Waffe, keine Archetyp-Mittelwerte;
   Perks/Stats sind unbekannt – auffällig kurze Zeiten so einordnen.
