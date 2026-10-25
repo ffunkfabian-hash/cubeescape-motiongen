@@ -1614,6 +1614,18 @@
     "timestamps": "8,000 s; keine Zeiten"
   },
   {
+    "measurement": "Mündung Destiny 1: Arminius-D, Mündungsform im Menü (kein Schuss)",
+    "clip": "https://www.youtube.com/watch?v=VNprDRKZxt8",
+    "source": "Eris Jolley (YouTube), 07.01.2016, 30 fps; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/muendung.md#z-mf-d1-arminius",
+    "timestamps": "58,000 s; nur Geometrie"
+  },
+  {
+    "measurement": "Mündung Destiny 1: MIDA Multi-Tool, Mündungsform im Menü (kein Schuss)",
+    "clip": "https://www.youtube.com/watch?v=MkkQa1OIpDk",
+    "source": "Jumping Puzzle (YouTube), 05.03.2015, 30 fps; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/muendung.md#z-mf-d1-mida",
+    "timestamps": "285,000 s; nur Geometrie"
+  },
+  {
     "measurement": "Mündung Halo Infinite (Technical Preview 2021): MA40, Hüfte",
     "clip": "https://www.youtube.com/watch?v=ZfNuA5r-470",
     "source": "Abyssopelagic (YouTube), 30.07.2021, 60 fps mit Paarduplikaten; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/muendung.md#z-mf-halo-ma40",
