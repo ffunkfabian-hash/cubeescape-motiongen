@@ -63,7 +63,7 @@ bilinear aus ihrem Rand gefüllt. Waffe = Summe der RGB-Abweichung vom Hintergru
 Löcher gefüllt (Abzugsbügel-Öffnungen zählen dadurch mit, < 1 %), Herstellerbanner, Wasserzeichen und Bedienleiste ausgenommen.
 Je Waffenpixel CIELAB (sRGB, D65): **bunter Anteil** = Anteil mit Buntheit C* über 15, 25 und 35; bei C* ≤ 25 Helligkeitsklassen hell
 (L* > 65), mittel, dunkel (L* < 35). **Proben** sind 12 × 12-px-Mittel im 1080p-Bild an Stellen, die im Kontrollbild markiert und
-angesehen sind (Lage in `data/oberflaechen.json` › `measurements[].probes`). Genauigkeit: Maskenrand ±2 px (Anteile ±1–2 Punkte),
+angesehen sind (Mitte in Pixeln des 1080p-Messbilds: `data/oberflaechen.json` › `measurements[].probes[].xy_1080`). Genauigkeit: Maskenrand ±2 px (Anteile ±1–2 Punkte),
 Proben ±3 L*. Skripte und Kontrollbögen: `~/Library/Caches/CubeEscape/reference/oberflaechen-0.18/work/`.
 
 ## 2. Destiny 2 – Hersteller-Grundlacke und Sonderwaffen
@@ -156,7 +156,7 @@ Antigravity formulierte zehn „harte Gestaltungsregeln“. Hier sind sie als Be
 | 3 | Muster enden an Fugen und Kanten | Eystein-D: ja; Annual Skate, Swift Ride, Elsie's Rifle, Ros-Arago-Shader: Muster queren Paneele [O] | als Regel widerlegt |
 | 4 | Musterelement 2–6 % der Länge (10–35 mm) | nicht gemessen; Millimeter haben keinen Maßstab im Bild | offen |
 | 5 | Schale/Rahmen ΔL* ≥ 40 | helle Schalen 64–78, Tarnung und Farblack 4–34; Antigravitys eigener Omolon-Beleg ergibt 27 [M] | als allgemeine Regel widerlegt |
-| 6 | Visiere bleiben in 85 % neutral | Visiergehäuse folgen oft der Lackierung (Uriel's Gift, Mornin', Cabal/Chosen); neutral bleibt die Linse; 85 % ungezählt [O] | für Gehäuse widerlegt |
+| 6 | Visiere bleiben in 85 % neutral | Gegenbeispiele: Visiergehäuse folgen der Lackierung bei Uriel's Gift, Mornin' und den Cabal-/Chosen-Waffen; neutral bleibt die Linse; eine Quote ist nicht ausgezählt [O] | Quote ungeprüft, Gegenbeispiele vorhanden |
 | 7 | Funktionsteile bleiben unlackiert | Läufe und Mündungen meist blank; Shader färben aber auch Griff, Magazin, Schaft; fest bleiben Emblem, Leuchtanzeige, Magazinfenster (Elsie's) [O] | teilweise |
 | 8 | Verschleiß zu 80 % an Kanten, nie flächig | Kantenabrieb kommt vor (Uriel's Gift), ebenso flächige gemalte Abnutzung: Sprenkel im Rotband (SUROS), ganze Schale (Bad News), Gold über Dunkel (Cabal/Chosen) [O] | Absolutform widerlegt |
 | 9 | Material- statt Farbkontrast (Beleg Superblack) | Beleg nicht im genannten Video; Gold neben Petrol und Stahl neben Lack sichtbar; Rauheit aus Video nicht messbar | offen |
@@ -183,7 +183,7 @@ entschieden wird in BASIC.** BASIC-Farben sind Albedo, die Destiny-Werte gerende
 |---|---|---|
 | `shell` | Hauptträger von Farbe und Muster; Grundlacke hell (L* 71–86) oder Tarnung/Farblack (L* 10–65) | Skin färbt `shell` immer; Muster liegt hier |
 | `graphite` | dunkler Rahmen, Griff, Untergehäuse (Proben L* 5–19); Shader färben auch ihn um (Arctic Pearl) | darf je Skin umgefärbt werden, Standard dunkel; Kontrast zu `shell` je Skin festlegen statt pauschal ΔL* ≥ 40 |
-| `anodized` | Visiergehäuse folgen oft der Lackierung | Visiergehäuse wahlweise `shell` folgen lassen, Klemmen und Schiene `anodized` |
+| `anodized` | Visiergehäuse folgen bei mehreren Grundlacken der Lackierung (Quote nicht ausgezählt) | Visiergehäuse wahlweise `shell` folgen lassen, Klemmen und Schiene `anodized` |
 | `trim` | blanke Läufe, Mündungen, Kanten (L* 40–74, C* ≤ 3) | skinfest als Metall; Abnutzung legt `trim` frei |
 | `accent` | bunter Anteil 2–10 % (C* > 25) als Band, Block oder Schriftfeld | eine Akzentfarbe je Skin; Anteil als messbare Größe (C* > 25) im Bildtest |
 | `energy` | Leuchtanzeigen, Kapseln und Linsen bleiben unter Shadern | skinfest |
