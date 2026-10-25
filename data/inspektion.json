@@ -1,0 +1,1783 @@
+{
+  "version": "0.20.0",
+  "name": "Lookover",
+  "date": "2026-10-25",
+  "doc": "docs/inspektion.md",
+  "measured_by": "Codex-Mac (gpt-6.1-sol high), 24.10.2026; eingepflegt, Quellen per yt-dlp geprüft und an fünf Werten nachgemessen von REF 0.20 „Lookover“ (Claude Opus 5.5), 25.10.2026",
+  "units": "Zeiten als Quellmedienzeit (source_start_s/source_end_s, media_window) in nativen Bildern der Datei, keine nachgewiesene Spielechtzeit; max_area_pct = größtes gesichtetes Hüllrechteck des Waffenkörpers ohne Hände in Prozent der gesamten Bildfläche, ±6–10 Flächenpunkte",
+  "fields": {
+    "inspect_total_s": "immer null: ohne positiven Normaltempoanker keine abgesicherte Spielechtzeit",
+    "phases": "Reihenfolge der Phasen; Zeiten nur, wo Codex sie bildgenau abgelesen hat (CS2), sonst null bzw. grob in notes",
+    "max_area_pct": "Hüllrechteck-Stichprobe, kein Animationsmaximum und keine Silhouettenfläche; null = nicht belastbar",
+    "longest_side": "am längsten gezeigte Seite, nur wo unterscheidbar",
+    "sight_closeup": "Visier in Großaufnahme (Blick durch die Optik); in keinem Beispiel",
+    "media_window": "Codex-Marker in nativen Bildindizes: erste sichtbare Inspect-Bewegung → Hüftlage erreicht (±1–2 Bilder je Marker)",
+    "recheck_0_20": "Nachmessung dieser Version an eigenem Download: start_frame = erste Bewegung aus der ruhigen Hüfte, hip_frame = Hüftlage erreicht, rest_frame = Ruhe nach dem Nachschwingen; seconds_start_to_hip = start_frame → hip_frame, seconds_rest_to_rest = start_frame → rest_frame, codex_seconds = Codex-Fenster aus media_window"
+  },
+  "status": {
+    "M": "gemessen (Hüllrechteck bzw. native Medienmarker)",
+    "O": "Sichtbefund ohne belastbare Zahl"
+  },
+  "sources": [
+    {
+      "id": "kWUViHovz1E",
+      "url": "https://www.youtube.com/watch?v=kWUViHovz1E",
+      "game": "Destiny 2",
+      "channel": "Destiny 2",
+      "upload_date": "2023-05-17",
+      "analysed_rate": "60",
+      "title": "Destiny 2: Season of the Deep Preview -- Weapons Blog: Gear Inspection Updates",
+      "use": "offizielle Menürotation (Conditional Finality)"
+    },
+    {
+      "id": "Y5OLr0nbgSg",
+      "url": "https://www.youtube.com/watch?v=Y5OLr0nbgSg",
+      "game": "Destiny 2",
+      "channel": "Ultraclocked",
+      "upload_date": "2021-02-15",
+      "analysed_rate": "60",
+      "title": "Destiny 2 - Extraordinary Rendition (Legendary SMG) - Animations & Sounds",
+      "use": "statisches Menübild, älterer Menüstand"
+    },
+    {
+      "id": "RXgRxHESqHQ",
+      "url": "https://www.youtube.com/watch?v=RXgRxHESqHQ",
+      "game": "Destiny 2",
+      "channel": "Ultraclocked",
+      "upload_date": "2021-02-18",
+      "analysed_rate": "60",
+      "title": "Destiny 2 - Far Future (Legendary Sniper Rifle) - Animations & Sounds",
+      "use": "statisches Menübild, älterer Menüstand"
+    },
+    {
+      "id": "uoTaCBMXcFk",
+      "url": "https://www.youtube.com/watch?v=uoTaCBMXcFk",
+      "game": "Destiny 2",
+      "channel": "Ultraclocked",
+      "upload_date": "2021-02-20",
+      "analysed_rate": "60",
+      "title": "Destiny 2 - Threaded Needle (Legendary Linear Fusion Rifle) - Weapon Animations & Sounds",
+      "use": "statisches Menübild, älterer Menüstand"
+    },
+    {
+      "id": "iNizXu2hl_0",
+      "url": "https://www.youtube.com/watch?v=iNizXu2hl_0",
+      "game": "Apex Legends",
+      "channel": "AlexTheRed",
+      "upload_date": "2021-07-02",
+      "analysed_rate": "29.97",
+      "title": "Apex Legends - All Weapon Inspect Animations",
+      "use": "Form, Fläche, Reihenfolge; keine Dauer"
+    },
+    {
+      "id": "TnblT7JnMPI",
+      "url": "https://www.youtube.com/watch?v=TnblT7JnMPI",
+      "game": "Halo Infinite",
+      "channel": "Hectorlo",
+      "upload_date": "2021-11-17",
+      "analysed_rate": "60",
+      "title": "Halo Infinite - All Weapon Idle/Inspect Animations",
+      "use": "Multiplayer-Beta 2021, automatische Idle-Gesten"
+    },
+    {
+      "id": "7hhc4qju5JM",
+      "url": "https://www.youtube.com/watch?v=7hhc4qju5JM",
+      "game": "Halo Infinite",
+      "channel": "Deapog",
+      "upload_date": "2026-04-13",
+      "analysed_rate": "30 (Quelle 60)",
+      "title": "Halo Infinite Weapon Inspect Animations Are Very Detailed",
+      "use": "nur Sichtung, keine Waffenmessung"
+    },
+    {
+      "id": "VAdaNrfQcvw",
+      "url": "https://www.youtube.com/watch?v=VAdaNrfQcvw",
+      "game": "CoD MW2019",
+      "channel": "M4sked",
+      "upload_date": "2020-08-05",
+      "analysed_rate": "60",
+      "title": "Call of Duty: Modern Warfare | All Inspect Animations",
+      "use": "sechs Pistolen/Varianten, drei native Medienfenster"
+    },
+    {
+      "id": "HfgUhmc8p00",
+      "url": "https://www.youtube.com/watch?v=HfgUhmc8p00",
+      "game": "CoD BO6",
+      "channel": "EXILAS",
+      "upload_date": "2025-11-11",
+      "analysed_rate": "60",
+      "title": "CALL OF DUTY BLACK OPS 6 : ALL INSPECTION ANIMATION [SEASON 1-6] SHOWCASE 4K",
+      "use": "vier Pistolen, drei native Medienfenster"
+    },
+    {
+      "id": "woNLxv-5Hkg",
+      "url": "https://www.youtube.com/watch?v=woNLxv-5Hkg",
+      "game": "Battlefield 6",
+      "channel": "YourSixGaming",
+      "upload_date": "2025-10-17",
+      "analysed_rate": "60",
+      "title": "How to inspect your weapon in Battlefield 6 (Best Method)",
+      "use": "freie Benutzerdrehung, eine unbenannte MP"
+    },
+    {
+      "id": "NAR8MrinKQ0",
+      "url": "https://www.youtube.com/watch?v=NAR8MrinKQ0",
+      "game": "Battlefield 6",
+      "channel": "Destroyerfield51",
+      "upload_date": "2025-10-20",
+      "analysed_rate": "29.97 (Quelle 60)",
+      "title": "All Battlefield 6 Weapons Real Names, Origins, Inspect Animations, Sounds and MORE...",
+      "use": "drei Kapitelmodelle, nur Form/Seiten"
+    },
+    {
+      "id": "LF9pPIi5ops",
+      "url": "https://www.youtube.com/watch?v=LF9pPIi5ops",
+      "game": "Valorant",
+      "channel": "PC Gaming Videos",
+      "upload_date": "2020-05-13",
+      "analysed_rate": "59.94",
+      "title": "Valorant - All Weapons Showcase & Inspect Animations",
+      "use": "Beta-/Altstand 2020, fünf Waffen, drei vollständige Fenster"
+    },
+    {
+      "id": "y1NSHUq7WOI",
+      "url": "https://www.youtube.com/watch?v=y1NSHUq7WOI",
+      "game": "CS2",
+      "channel": "PC Gaming Videos",
+      "upload_date": "2023-04-01",
+      "analysed_rate": "59.94",
+      "title": "Counter-Strike 2 - All Inspect Animations",
+      "use": "Beta-/Altstand 2023, drei Pistolen"
+    },
+    {
+      "id": "Ugq35ExayfI",
+      "url": "https://www.youtube.com/watch?v=Ugq35ExayfI",
+      "game": "Borderlands 3",
+      "channel": "MorninAfterKill",
+      "upload_date": "2019-09-26",
+      "analysed_rate": "59.94",
+      "title": "HOW TO EASILY IDENTIFY WEAPON PARTS IN BORDERLANDS 3!!! BORDERLANDS 3 IN GAME WEAPON GUIDE!!!",
+      "use": "Item-/Parts-Menü (Hellfire)"
+    },
+    {
+      "id": "3T2UZUYPzEc",
+      "url": "https://www.youtube.com/watch?v=3T2UZUYPzEc",
+      "game": "Borderlands 3",
+      "channel": "Agent Lomax",
+      "upload_date": "2020-03-15",
+      "analysed_rate": "60",
+      "title": "Borderlands 3 Weapon Parts Guide | Hyperion Sniper Rifles",
+      "use": "Parts-Menü (Hyperion, Mogul-Lauf)"
+    },
+    {
+      "id": "Nwp4VJWUujY",
+      "url": "https://www.youtube.com/watch?v=Nwp4VJWUujY",
+      "game": "Borderlands 3",
+      "channel": "Agent Lomax",
+      "upload_date": "2019-10-02",
+      "analysed_rate": "60",
+      "title": "Borderlands 3 Weapon Parts Guide | Vladof AR's",
+      "use": "Parts-Menü (Bezoomy)"
+    }
+  ],
+  "primary_texts": [
+    {
+      "title": "Bungie, Season 21 Weapon Changes Preview",
+      "date": "2023-05-17",
+      "url": "https://www.bungie.net/7/en/News/article/season_21_weapon_preview"
+    },
+    {
+      "title": "Bungie, Destiny 2 Update 7.1.0",
+      "date": "2023-05-23",
+      "url": "https://www.bungie.net/7/en/News/Article/season-deep-update-7-1-0"
+    }
+  ],
+  "weapons": [
+    {
+      "game": "Destiny 2",
+      "weapon": "Conditional Finality",
+      "class": "Schrotflinte",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "Menüansicht / benutzergesteuerte Drehung",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Menübedienung bzw. statisches Bild; keine feste Phasendauer"
+        }
+      ],
+      "max_area_pct": 50,
+      "longest_side": null,
+      "sight_closeup": false,
+      "status": "M (Bildfläche); O (Ablauf)",
+      "source_url": "https://www.youtube.com/watch?v=kWUViHovz1E",
+      "timestamp": "0:00–0:10",
+      "notes": "Beide Breitseiten, verkürzte Vorder-/Hinteransichten. Sichtbare Eis-/Solar-Effekte bleiben am Modell; kein Schuss. Mehrere manuell bediente Seitenwechsel, keine feste Animationszeit. Fläche = größtes Hüllrechteck der betrachteten Stichproben, nicht Silhouettenpixel; ca. ±6 Prozentpunkte. Dauer null: keine Ego-Inspektion.",
+      "source": "Destiny 2 (YouTube), 2023-05-17",
+      "recheck_0_20": {
+        "max_area_pct": 43,
+        "frame": 540,
+        "verdict": "innerhalb der Flächenunsicherheit (±6–10), Codex-Wert eher obere Grenze",
+        "note": "Hüllrechteck am 5-%-Raster: x 0,26–0,975, y 0,355–0,955 (Flamme bis Klingenspitze); f150 ≈ 39 %"
+      }
+    },
+    {
+      "game": "Destiny 2",
+      "weapon": "Extraordinary Rendition",
+      "class": "Maschinenpistole",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "Statisches Menübild",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Menübedienung bzw. statisches Bild; keine feste Phasendauer"
+        }
+      ],
+      "max_area_pct": 48,
+      "longest_side": null,
+      "sight_closeup": false,
+      "status": "M (Bildfläche); O (Ablauf)",
+      "source_url": "https://www.youtube.com/watch?v=Y5OLr0nbgSg",
+      "timestamp": "0:01.000",
+      "notes": "Statische schräge Breitseite; Mündung links, Schaft rechts, Magazin unten. Kein Dreh-/Handablauf in diesem Messbild. Älter als die Menürotation von 2023. Fläche = größtes Hüllrechteck der betrachteten Stichproben, nicht Silhouettenpixel; ca. ±6 Prozentpunkte. Dauer null: keine Ego-Inspektion.",
+      "source": "Ultraclocked (YouTube), 2021-02-15"
+    },
+    {
+      "game": "Destiny 2",
+      "weapon": "Far Future",
+      "class": "Scharfschützengewehr",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "Statisches Menübild",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Menübedienung bzw. statisches Bild; keine feste Phasendauer"
+        }
+      ],
+      "max_area_pct": 43,
+      "longest_side": null,
+      "sight_closeup": false,
+      "status": "M (Bildfläche); O (Ablauf)",
+      "source_url": "https://www.youtube.com/watch?v=RXgRxHESqHQ",
+      "timestamp": "0:01.000",
+      "notes": "Statische Breitseite zeigt langes Laufstück und langes Visier oben; kein Blick durch die Optik. Älter als die Menürotation von 2023. Fläche = größtes Hüllrechteck der betrachteten Stichproben, nicht Silhouettenpixel; ca. ±6 Prozentpunkte. Dauer null: keine Ego-Inspektion.",
+      "source": "Ultraclocked (YouTube), 2021-02-18"
+    },
+    {
+      "game": "Destiny 2",
+      "weapon": "Threaded Needle",
+      "class": "Lineares Fusionsgewehr",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "Statisches Menübild",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Menübedienung bzw. statisches Bild; keine feste Phasendauer"
+        }
+      ],
+      "max_area_pct": 40,
+      "longest_side": null,
+      "sight_closeup": false,
+      "status": "M (Bildfläche); O (Ablauf)",
+      "source_url": "https://www.youtube.com/watch?v=uoTaCBMXcFk",
+      "timestamp": "0:01.000",
+      "notes": "Statische Breitseite zeigt Emitter zwischen länglichen Spitzen sowie offene Visiergabel oben; kein Handgriff und keine Rückkehr in Hüfte. Fläche = größtes Hüllrechteck der betrachteten Stichproben, nicht Silhouettenpixel; ca. ±6 Prozentpunkte. Dauer null: keine Ego-Inspektion.",
+      "source": "Ultraclocked (YouTube), 2021-02-20"
+    },
+    {
+      "game": "Apex Legends",
+      "weapon": "P2020",
+      "class": "Pistole",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "Heben und seitlich aufrichten",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "um die Laufachse zur Gegenflanke rollen",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "zurück zur ersten Flanke",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "zurück in Hüftpose",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        }
+      ],
+      "max_area_pct": 7,
+      "longest_side": null,
+      "sight_closeup": false,
+      "status": "M (Hüllrechteck-Stichprobe); O (Ablauf)",
+      "source_url": "https://www.youtube.com/watch?v=iNizXu2hl_0",
+      "timestamp": "00:00–00:11",
+      "notes": "29,97fps: keine Dauer oder zeitlichen Phasen gemessen. Flächenwert ist größte gesichtete Hüllrechteckprojektion, kein globales Animationsmaximum. Beide Flanken werden präsentiert; längste Seite zeitlich nicht bestimmt. Schmale Seitenform; türkises Detail am Griffende; keine isolierte Visiernahaufnahme. Kein Magazinentnehmen in diesem Ausschnitt.",
+      "source": "AlexTheRed (YouTube), 2021-07-02"
+    },
+    {
+      "game": "Apex Legends",
+      "weapon": "Peacekeeper",
+      "class": "Schrotflinte",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "aufgerichtete Seitenpose",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Laufachse in die Tiefe rollen",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Gegenflanke",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Rückkehr",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        }
+      ],
+      "max_area_pct": 31,
+      "longest_side": null,
+      "sight_closeup": false,
+      "status": "M (Hüllrechteck-Stichprobe); O (Ablauf)",
+      "source_url": "https://www.youtube.com/watch?v=iNizXu2hl_0",
+      "timestamp": "00:29–00:40",
+      "notes": "29,97fps: keine Dauer oder zeitlichen Phasen gemessen. Flächenwert ist größte gesichtete Hüllrechteckprojektion, kein globales Animationsmaximum. Beide Flanken werden präsentiert; längste Seite zeitlich nicht bestimmt. Langer gelochter Laufmantel und zentrales Gehäuse dominieren. Lauf nahe oberem Rand; Kimme bleibt kleines Teil der Oberkontur.",
+      "source": "AlexTheRed (YouTube), 2021-07-02"
+    },
+    {
+      "game": "Apex Legends",
+      "weapon": "EVA-8 Auto",
+      "class": "Schrotflinte",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "aufgerichtete Seitenpose mit Trommel",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Längsrolle zur Gegenflanke",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Rückkehr",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        }
+      ],
+      "max_area_pct": 35,
+      "longest_side": null,
+      "sight_closeup": false,
+      "status": "M (Hüllrechteck-Stichprobe); O (Ablauf)",
+      "source_url": "https://www.youtube.com/watch?v=iNizXu2hl_0",
+      "timestamp": "00:41–00:51",
+      "notes": "29,97fps: keine Dauer oder zeitlichen Phasen gemessen. Flächenwert ist größte gesichtete Hüllrechteckprojektion, kein globales Animationsmaximum. Beide Flanken werden präsentiert; längste Seite zeitlich nicht bestimmt. Trommelmagazin bildet großen Kreis an der Flanke; am Rasterbild44s zentral sichtbar, bei48s verdeckter. Keine Magazinabnahme beobachtet.",
+      "source": "AlexTheRed (YouTube), 2021-07-02"
+    },
+    {
+      "game": "Apex Legends",
+      "weapon": "Mozambique",
+      "class": "Schrotpistole",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "seitlich aufrichten",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "zur schmaleren Gegen-/Oberseite rollen",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "zurück",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        }
+      ],
+      "max_area_pct": 15,
+      "longest_side": null,
+      "sight_closeup": false,
+      "status": "M (Hüllrechteck-Stichprobe); O (Ablauf)",
+      "source_url": "https://www.youtube.com/watch?v=iNizXu2hl_0",
+      "timestamp": "01:04–01:15",
+      "notes": "29,97fps: keine Dauer oder zeitlichen Phasen gemessen. Flächenwert ist größte gesichtete Hüllrechteckprojektion, kein globales Animationsmaximum. Beide Flanken werden präsentiert; längste Seite zeitlich nicht bestimmt. Kurze hohe Dreilaufform; einhändig geführte Hauptpose, kleine Oberseitenoptik.",
+      "source": "AlexTheRed (YouTube), 2021-07-02"
+    },
+    {
+      "game": "Apex Legends",
+      "weapon": "Volt",
+      "class": "Energie-MP",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "seitlich aufrichten",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "um die Laufachse rollen",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Gegenflanke",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "zurück",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        }
+      ],
+      "max_area_pct": 56,
+      "longest_side": null,
+      "sight_closeup": false,
+      "status": "M (Hüllrechteck-Stichprobe); O (Ablauf)",
+      "source_url": "https://www.youtube.com/watch?v=iNizXu2hl_0",
+      "timestamp": "01:28–01:38",
+      "notes": "29,97fps: keine Dauer oder zeitlichen Phasen gemessen. Flächenwert ist größte gesichtete Hüllrechteckprojektion, kein globales Animationsmaximum. Beide Flanken werden präsentiert; längste Seite zeitlich nicht bestimmt. Große Seitenfläche mit türkis leuchtender Längslinie und Ziffern; Magazin und Abzugsbügel getrennt lesbar. Raster90s erreicht Bildränder, daher beschnittene Projektion.",
+      "source": "AlexTheRed (YouTube), 2021-07-02"
+    },
+    {
+      "game": "Apex Legends",
+      "weapon": "Flatline",
+      "class": "Sturmgewehr",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "seitlich aufrichten",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "rollen zur Ober-/Gegenflanke",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "zurück",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        }
+      ],
+      "max_area_pct": 50,
+      "longest_side": null,
+      "sight_closeup": false,
+      "status": "M (Hüllrechteck-Stichprobe); O (Ablauf)",
+      "source_url": "https://www.youtube.com/watch?v=iNizXu2hl_0",
+      "timestamp": "02:15–02:26",
+      "notes": "29,97fps: keine Dauer oder zeitlichen Phasen gemessen. Flächenwert ist größte gesichtete Hüllrechteckprojektion, kein globales Animationsmaximum. Beide Flanken werden präsentiert; längste Seite zeitlich nicht bestimmt. Gitter-/Rippengeometrie, Magazin und Griff gut lesbar; kein Blick durch das Visierglas. Raster136/144s am unteren Rand beschnitten.",
+      "source": "AlexTheRed (YouTube), 2021-07-02"
+    },
+    {
+      "game": "Halo Infinite",
+      "weapon": "MK50 Sidekick",
+      "class": "Pistole",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "anheben",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "linke Hand an Griff/Unterseite",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "zur Gegenflanke kippen",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Rückkehr",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        }
+      ],
+      "max_area_pct": 16,
+      "longest_side": null,
+      "sight_closeup": false,
+      "status": "M (Hüllrechteck-Stichprobe); O (Ablauf)",
+      "source_url": "https://www.youtube.com/watch?v=TnblT7JnMPI",
+      "timestamp": "00:01–00:06",
+      "notes": "Automatische Idle-/Fidget-Präsentation im Multiplayer-Beta-Stand2021, keine im Clip belegte Inspect-Eingabe. Quellenmedien60fps; keine abgesicherte Spielechtzeit. Flächenwert=größte gesichtete Hüllrechteckprojektion. Beide Hände arbeiten am kleinen Pistolenkörper; Schlittenoberseite sichtbar.",
+      "source": "Hectorlo (YouTube), 2021-11-17"
+    },
+    {
+      "game": "Halo Infinite",
+      "weapon": "CQS48 Bulldog",
+      "class": "Schrotflinte",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "seitlich rollen",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Stützhand öffnet sich am Vorderschaft",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Gegenrolle",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Rückkehr",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        }
+      ],
+      "max_area_pct": 29,
+      "longest_side": null,
+      "sight_closeup": false,
+      "status": "M (Hüllrechteck-Stichprobe); O (Ablauf)",
+      "source_url": "https://www.youtube.com/watch?v=TnblT7JnMPI",
+      "timestamp": "00:07–00:11",
+      "notes": "Automatische Idle-/Fidget-Präsentation im Multiplayer-Beta-Stand2021, keine im Clip belegte Inspect-Eingabe. Quellenmedien60fps; keine abgesicherte Spielechtzeit. Flächenwert=größte gesichtete Hüllrechteckprojektion. Großes rundes Seitenteil/Trommel und Schiene sichtbar; keine Magazinabnahme.",
+      "source": "Hectorlo (YouTube), 2021-11-17"
+    },
+    {
+      "game": "Halo Infinite",
+      "weapon": "MA40 Assault Rifle",
+      "class": "Sturmgewehr",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "nach links drehen",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Flanke flach zeigen",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Gegenrolle zur Oberseite",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Rückkehr",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        }
+      ],
+      "max_area_pct": 32,
+      "longest_side": null,
+      "sight_closeup": false,
+      "status": "M (Hüllrechteck-Stichprobe); O (Ablauf)",
+      "source_url": "https://www.youtube.com/watch?v=TnblT7JnMPI",
+      "timestamp": "00:12–00:16",
+      "notes": "Automatische Idle-/Fidget-Präsentation im Multiplayer-Beta-Stand2021, keine im Clip belegte Inspect-Eingabe. Quellenmedien60fps; keine abgesicherte Spielechtzeit. Flächenwert=größte gesichtete Hüllrechteckprojektion. Trage-/Visiereinheit bleibt Teil der Oberkontur; digitaler Zähler sichtbar.",
+      "source": "Hectorlo (YouTube), 2021-11-17"
+    },
+    {
+      "game": "Halo Infinite",
+      "weapon": "VK78 Commando",
+      "class": "Präzisions-Sturmgewehr",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "seitliche Rolle",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "nahe Flanke zeigen",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Gegenrolle zur oberen Schiene",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Rückkehr",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        }
+      ],
+      "max_area_pct": 33,
+      "longest_side": null,
+      "sight_closeup": false,
+      "status": "M (Hüllrechteck-Stichprobe); O (Ablauf)",
+      "source_url": "https://www.youtube.com/watch?v=TnblT7JnMPI",
+      "timestamp": "00:17–00:21",
+      "notes": "Automatische Idle-/Fidget-Präsentation im Multiplayer-Beta-Stand2021, keine im Clip belegte Inspect-Eingabe. Quellenmedien60fps; keine abgesicherte Spielechtzeit. Flächenwert=größte gesichtete Hüllrechteckprojektion. Reflexrahmen gut im Profil, keine Durchsicht-Nahaufnahme.",
+      "source": "Hectorlo (YouTube), 2021-11-17"
+    },
+    {
+      "game": "Halo Infinite",
+      "weapon": "BR75 Battle Rifle",
+      "class": "Impulsgewehr",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "auf breite Flankenpose drehen",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "halten",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "zur Gegen-/Oberseite kippen",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Rückkehr",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        }
+      ],
+      "max_area_pct": 40,
+      "longest_side": null,
+      "sight_closeup": false,
+      "status": "M (Hüllrechteck-Stichprobe); O (Ablauf)",
+      "source_url": "https://www.youtube.com/watch?v=TnblT7JnMPI",
+      "timestamp": "00:22–00:27",
+      "notes": "Automatische Idle-/Fidget-Präsentation im Multiplayer-Beta-Stand2021, keine im Clip belegte Inspect-Eingabe. Quellenmedien60fps; keine abgesicherte Spielechtzeit. Flächenwert=größte gesichtete Hüllrechteckprojektion. Zielfernrohr als eigenes schlankes Modul hoch über der Tragebrücke; an23/24s im Profil.",
+      "source": "Hectorlo (YouTube), 2021-11-17"
+    },
+    {
+      "game": "Halo Infinite",
+      "weapon": "S7 Sniper Rifle",
+      "class": "Scharfschützengewehr",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "Flanke anheben",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Hand an langem Gehäuse",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Gegenrolle",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Rückkehr",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        }
+      ],
+      "max_area_pct": 39,
+      "longest_side": null,
+      "sight_closeup": false,
+      "status": "M (Hüllrechteck-Stichprobe); O (Ablauf)",
+      "source_url": "https://www.youtube.com/watch?v=TnblT7JnMPI",
+      "timestamp": "00:28–00:33",
+      "notes": "Automatische Idle-/Fidget-Präsentation im Multiplayer-Beta-Stand2021, keine im Clip belegte Inspect-Eingabe. Quellenmedien60fps; keine abgesicherte Spielechtzeit. Flächenwert=größte gesichtete Hüllrechteckprojektion. Langes Zielfernrohr prominent; Zielglas nicht als Blickfeld inszeniert.",
+      "source": "Hectorlo (YouTube), 2021-11-17"
+    },
+    {
+      "game": "CoD MW2019",
+      "weapon": "X16",
+      "class": "Pistole",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "Heben zur ersten Flanke",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Handgelenkrolle, Oberseite/Gegenflanke",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Rückkehr in Hüftpose",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        }
+      ],
+      "max_area_pct": 18,
+      "longest_side": null,
+      "sight_closeup": false,
+      "status": "M (Hüllrechteck-Stichprobe); O (Ablauf)",
+      "source_url": "https://www.youtube.com/watch?v=VAdaNrfQcvw",
+      "timestamp": "00:02,533–00:06,467",
+      "notes": "Kurze Zweiflanken-Präsentation; kein Magazinwechsel beobachtet; kantiger kurzer Schlitten. Weltanker Leitungen/Mast bleiben bei den ersten drei Folgen fest. Längere Flanke nicht robust unterschieden. Native-Medienmarker f152=2,5333s →f388=6,4667s:236Bilder=3,9333s. Grobe Medienphasen: Heben2,53–3,0; erste Flanke3,0–4,5; Rollen4,5–4,9; zweite Flanke4,9–6,2; Rückkehr6,2–6,47. Leichtes Idle begrenzt manuelle Marker auf etwa±1–2Bilder. inspect_total_s=null: Medienzeit ist ohne positiven Normaltempoanker keine abgesicherte Spielechtzeit. Hüllrechteck-Stichprobe.",
+      "source": "M4sked (YouTube), 2020-08-05",
+      "media_window": {
+        "start_frame": 152,
+        "end_frame": 388,
+        "rate": 60,
+        "frames": 236,
+        "source_seconds": 3.93,
+        "marker": "erste sichtbare Inspect-Bewegung → Hüftlage erreicht"
+      },
+      "recheck_0_20": {
+        "start_frame": 151,
+        "hip_frame": 388,
+        "rest_frame": 397,
+        "seconds_start_to_hip": 3.95,
+        "seconds_rest_to_rest": 4.1,
+        "codex_seconds": 3.93,
+        "verdict": "bestätigt (+1 Bild)",
+        "note": "linke Hand erscheint f151; Pistole aufrecht in Hüfte f388, Nachschwingen bis f397"
+      }
+    },
+    {
+      "game": "CoD MW2019",
+      "weapon": "1911",
+      "class": "Pistole",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "Heben zur ersten Flanke",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Handgelenkrolle, Oberseite/Gegenflanke",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Rückkehr in Hüftpose",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        }
+      ],
+      "max_area_pct": 18,
+      "longest_side": null,
+      "sight_closeup": false,
+      "status": "M (Hüllrechteck-Stichprobe); O (Ablauf)",
+      "source_url": "https://www.youtube.com/watch?v=VAdaNrfQcvw",
+      "timestamp": "00:11,917–00:15,850",
+      "notes": "Kurze Zweiflanken-Präsentation; kein Magazinwechsel beobachtet; langer schmaler Schlitten. Weltanker Leitungen/Mast bleiben bei den ersten drei Folgen fest. Längere Flanke nicht robust unterschieden. Native-Medienmarker f715=11,9167s →f951=15,8500s:236Bilder=3,9333s. Grobe Medienphasen: Heben11,92–12,4; erste Flanke12,4–14,0; Rollen14,0–14,5; zweite Flanke14,5–15,6; Rückkehr15,6–15,85. Leichtes Idle begrenzt manuelle Marker auf etwa±1–2Bilder. inspect_total_s=null: Medienzeit ist ohne positiven Normaltempoanker keine abgesicherte Spielechtzeit. Hüllrechteck-Stichprobe.",
+      "source": "M4sked (YouTube), 2020-08-05",
+      "media_window": {
+        "start_frame": 715,
+        "end_frame": 951,
+        "rate": 60,
+        "frames": 236,
+        "source_seconds": 3.93,
+        "marker": "erste sichtbare Inspect-Bewegung → Hüftlage erreicht"
+      }
+    },
+    {
+      "game": "CoD MW2019",
+      "weapon": "M19",
+      "class": "Pistole",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "Heben zur ersten Flanke",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Handgelenkrolle, Oberseite/Gegenflanke",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Rückkehr in Hüftpose",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        }
+      ],
+      "max_area_pct": 18,
+      "longest_side": null,
+      "sight_closeup": false,
+      "status": "M (Hüllrechteck-Stichprobe); O (Ablauf)",
+      "source_url": "https://www.youtube.com/watch?v=VAdaNrfQcvw",
+      "timestamp": "00:16,517–00:20,450",
+      "notes": "Kurze Zweiflanken-Präsentation; kein Magazinwechsel beobachtet; heller kantiger Schlitten. Weltanker Leitungen/Mast bleiben bei den ersten drei Folgen fest. Längere Flanke nicht robust unterschieden. Native-Medienmarker f991=16,5167s →f1227=20,4500s:236Bilder=3,9333s. Grobe Medienphasen: Heben16,52–17,0; erste Flanke17,0–18,5; Rollen18,5–19,0; zweite Flanke19,0–20,2; Rückkehr20,2–20,45. Leichtes Idle begrenzt manuelle Marker auf etwa±1–2Bilder. inspect_total_s=null: Medienzeit ist ohne positiven Normaltempoanker keine abgesicherte Spielechtzeit. Hüllrechteck-Stichprobe.",
+      "source": "M4sked (YouTube), 2020-08-05",
+      "media_window": {
+        "start_frame": 991,
+        "end_frame": 1227,
+        "rate": 60,
+        "frames": 236,
+        "source_seconds": 3.93,
+        "marker": "erste sichtbare Inspect-Bewegung → Hüftlage erreicht"
+      }
+    },
+    {
+      "game": "CoD MW2019",
+      "weapon": "Renetti",
+      "class": "Pistole",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "Heben zur ersten Flanke",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Handgelenkrolle, Oberseite/Gegenflanke",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Rückkehr in Hüftpose",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        }
+      ],
+      "max_area_pct": 22,
+      "longest_side": null,
+      "sight_closeup": false,
+      "status": "M (Hüllrechteck-Stichprobe); O (Ablauf)",
+      "source_url": "https://www.youtube.com/watch?v=VAdaNrfQcvw",
+      "timestamp": "00:21–00:30",
+      "notes": "Kurze Zweiflanken-Präsentation; kein Magazinwechsel beobachtet; zwei Varianten gesichtet, zweite mit ausgeklappter Stütze/Anbauteil. Weltanker Leitungen/Mast bleiben bei den ersten drei Folgen fest. Längere Flanke nicht robust unterschieden. Kein natives Anfang-/Endpaar vermessen; keine Dauer. inspect_total_s=null: Medienzeit ist ohne positiven Normaltempoanker keine abgesicherte Spielechtzeit. Hüllrechteck-Stichprobe.",
+      "source": "M4sked (YouTube), 2020-08-05"
+    },
+    {
+      "game": "CoD MW2019",
+      "weapon": ".357",
+      "class": "Revolver",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "Heben zur ersten Flanke",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Handgelenkrolle, Oberseite/Gegenflanke",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Rückkehr in Hüftpose",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        }
+      ],
+      "max_area_pct": 25,
+      "longest_side": null,
+      "sight_closeup": false,
+      "status": "M (Hüllrechteck-Stichprobe); O (Ablauf)",
+      "source_url": "https://www.youtube.com/watch?v=VAdaNrfQcvw",
+      "timestamp": "00:30–00:44",
+      "notes": "Kurze Zweiflanken-Präsentation; kein Magazinwechsel beobachtet; zwei Griff-/Finishvarianten gesichtet; Trommel im Seitenprofil. Weltanker Leitungen/Mast bleiben bei den ersten drei Folgen fest. Längere Flanke nicht robust unterschieden. Kein natives Anfang-/Endpaar vermessen; keine Dauer. inspect_total_s=null: Medienzeit ist ohne positiven Normaltempoanker keine abgesicherte Spielechtzeit. Hüllrechteck-Stichprobe.",
+      "source": "M4sked (YouTube), 2020-08-05"
+    },
+    {
+      "game": "CoD MW2019",
+      "weapon": ".50 GS",
+      "class": "Pistole",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "Heben zur ersten Flanke",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Handgelenkrolle, Oberseite/Gegenflanke",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Rückkehr in Hüftpose",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        }
+      ],
+      "max_area_pct": 25,
+      "longest_side": null,
+      "sight_closeup": false,
+      "status": "M (Hüllrechteck-Stichprobe); O (Ablauf)",
+      "source_url": "https://www.youtube.com/watch?v=VAdaNrfQcvw",
+      "timestamp": "00:44–00:49",
+      "notes": "Kurze Zweiflanken-Präsentation; kein Magazinwechsel beobachtet; breiter hochkantiger Schlitten. Weltanker Leitungen/Mast bleiben bei den ersten drei Folgen fest. Längere Flanke nicht robust unterschieden. Kein natives Anfang-/Endpaar vermessen; keine Dauer. inspect_total_s=null: Medienzeit ist ohne positiven Normaltempoanker keine abgesicherte Spielechtzeit. Hüllrechteck-Stichprobe.",
+      "source": "M4sked (YouTube), 2020-08-05"
+    },
+    {
+      "game": "CoD BO6",
+      "weapon": "9mm PM",
+      "class": "Pistole",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "Heben und Griff/Flanke zeigen",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Magazin entnehmen und Patronenlippen zur Kamera drehen",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "gleiches Magazin wieder einsetzen",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Ober-/Rückseite kippen",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Hüfte",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        }
+      ],
+      "max_area_pct": 22,
+      "longest_side": null,
+      "sight_closeup": false,
+      "status": "M (Hüllrechteck-Stichprobe); O (Ablauf)",
+      "source_url": "https://www.youtube.com/watch?v=HfgUhmc8p00",
+      "timestamp": "00:01,033–00:06,917",
+      "notes": "Native-Medienmarker f62=1,0333s→f415=6,9167s:353Bilder=5,8833s. Grobe Medienphasen1,03–2,0Heben/Flanke;2,0–2,9Hand zum Magazin;2,9–4,2Magazinprüfung;4,2–4,8Einsetzen;4,8–6,6Oberseite;6,6–6,92Rückkehr. Keine HUD-Munitionsänderung als Reloadnachweis; Titel+gleiches Magazin und Präsentation stützen Inspect. Native60fps, keine Zeitlupenbeschriftung sichtbar. Weltanker Steinmauer/Baum weitgehend fest; Hände und Modell bewegen sich stark. Manuelle weiche Hüftmarker etwa±1–2Bilder. Keine abgesicherte Spielechtzeit, daher inspect_total_s=null. Akimbo-Folgen nach jeder Grundwaffe besitzen eigene beidhändige Rollen; nicht als zusätzliche Waffe gezählt. Standardmodelle/Anbauteile, kein Mastercraftvergleich. Hüllrechteck-Stichprobe.",
+      "source": "EXILAS (YouTube), 2025-11-11",
+      "media_window": {
+        "start_frame": 62,
+        "end_frame": 415,
+        "rate": 60,
+        "frames": 353,
+        "source_seconds": 5.88,
+        "marker": "erste sichtbare Inspect-Bewegung → Hüftlage erreicht"
+      },
+      "recheck_0_20": {
+        "start_frame": 58,
+        "hip_frame": 415,
+        "rest_frame": 416,
+        "seconds_start_to_hip": 5.95,
+        "seconds_rest_to_rest": 5.97,
+        "codex_seconds": 5.88,
+        "verdict": "bestätigt (+4 Bilder)",
+        "note": "erste Drehung f57–59 (Codex f62); linke Hand löst sich f412–413, Hüfte f413–416"
+      }
+    },
+    {
+      "game": "CoD BO6",
+      "weapon": "Grekhova",
+      "class": "Pistole",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "seitlich heben",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Flanke mit rotem Griff zeigen",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "mit zweiter Hand zur Gegen-/Oberseite rollen",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Rückkehr",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        }
+      ],
+      "max_area_pct": 18,
+      "longest_side": null,
+      "sight_closeup": false,
+      "status": "M (Hüllrechteck-Stichprobe); O (Ablauf)",
+      "source_url": "https://www.youtube.com/watch?v=HfgUhmc8p00",
+      "timestamp": "00:17,600–00:22,633",
+      "notes": "Native-Medienmarker f1056=17,6000s→f1358=22,6333s:302Bilder=5,0333s. Grobe Medienphasen17,60–18,0Heben;18,0–19,3erste Flanke;19,3–22,0Gegen-/Oberseite;22,0–22,63Rückkehr. Hier kein separat entnommenes Magazin beobachtet. Native60fps, keine Zeitlupenbeschriftung sichtbar. Weltanker Steinmauer/Baum weitgehend fest; Hände und Modell bewegen sich stark. Manuelle weiche Hüftmarker etwa±1–2Bilder. Keine abgesicherte Spielechtzeit, daher inspect_total_s=null. Akimbo-Folgen nach jeder Grundwaffe besitzen eigene beidhändige Rollen; nicht als zusätzliche Waffe gezählt. Standardmodelle/Anbauteile, kein Mastercraftvergleich. Hüllrechteck-Stichprobe.",
+      "source": "EXILAS (YouTube), 2025-11-11",
+      "media_window": {
+        "start_frame": 1056,
+        "end_frame": 1358,
+        "rate": 60,
+        "frames": 302,
+        "source_seconds": 5.03,
+        "marker": "erste sichtbare Inspect-Bewegung → Hüftlage erreicht"
+      }
+    },
+    {
+      "game": "CoD BO6",
+      "weapon": "GS .45",
+      "class": "Pistole",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "seitlich heben",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Magazin entnehmen, oberste Patrone deutlich zeigen",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "wieder einsetzen",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Ober-/Rückseite zeigen",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Rückkehr",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        }
+      ],
+      "max_area_pct": 23,
+      "longest_side": null,
+      "sight_closeup": false,
+      "status": "M (Hüllrechteck-Stichprobe); O (Ablauf)",
+      "source_url": "https://www.youtube.com/watch?v=HfgUhmc8p00",
+      "timestamp": "00:38,650–00:44,700",
+      "notes": "Native-Medienmarker f2319=38,6500s→f2682=44,7000s:363Bilder=6,0500s. Grobe Medienphasen38,65–40,0Heben/Flanke;40,0–40,8Hand zum Magazin;40,8–41,7Patrone/Magazin;41,7–42,5Einsetzen;42,5–44,2zweite Seite;44,2–44,70Rückkehr. Native60fps, keine Zeitlupenbeschriftung sichtbar. Weltanker Steinmauer/Baum weitgehend fest; Hände und Modell bewegen sich stark. Manuelle weiche Hüftmarker etwa±1–2Bilder. Keine abgesicherte Spielechtzeit, daher inspect_total_s=null. Akimbo-Folgen nach jeder Grundwaffe besitzen eigene beidhändige Rollen; nicht als zusätzliche Waffe gezählt. Standardmodelle/Anbauteile, kein Mastercraftvergleich. Hüllrechteck-Stichprobe.",
+      "source": "EXILAS (YouTube), 2025-11-11",
+      "media_window": {
+        "start_frame": 2319,
+        "end_frame": 2682,
+        "rate": 60,
+        "frames": 363,
+        "source_seconds": 6.05,
+        "marker": "erste sichtbare Inspect-Bewegung → Hüftlage erreicht"
+      }
+    },
+    {
+      "game": "CoD BO6",
+      "weapon": "Stryder .22",
+      "class": "Pistole",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "heben",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "langes Magazin entnehmen",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Magazin wieder einsetzen",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Ober-/Rückseite",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Rückkehr",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        }
+      ],
+      "max_area_pct": 33,
+      "longest_side": null,
+      "sight_closeup": false,
+      "status": "M (Hüllrechteck-Stichprobe); O (Ablauf)",
+      "source_url": "https://www.youtube.com/watch?v=HfgUhmc8p00",
+      "timestamp": "00:58–01:05",
+      "notes": "Langgezogene schmale Pistolenform; Schalldämpfer/verlängerter Lauf im Modell sichtbar. Kein natives Ende-/Anfangspaar gemessen. Native60fps, keine Zeitlupenbeschriftung sichtbar. Weltanker Steinmauer/Baum weitgehend fest; Hände und Modell bewegen sich stark. Manuelle weiche Hüftmarker etwa±1–2Bilder. Keine abgesicherte Spielechtzeit, daher inspect_total_s=null. Akimbo-Folgen nach jeder Grundwaffe besitzen eigene beidhändige Rollen; nicht als zusätzliche Waffe gezählt. Standardmodelle/Anbauteile, kein Mastercraftvergleich. Hüllrechteck-Stichprobe.",
+      "source": "EXILAS (YouTube), 2025-11-11"
+    },
+    {
+      "game": "Battlefield 6",
+      "weapon": null,
+      "class": "Maschinenpistole",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "in freie Inspect-Haltung heben",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Maus-/Stick-gesteuerte Rolle: Flanke, Unterseite, Gegenflanke, Oberseite",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "zurück nach Loslassen/Beenden",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        }
+      ],
+      "max_area_pct": 45,
+      "longest_side": null,
+      "sight_closeup": false,
+      "status": "M (Hüllrechteck-Stichprobe); O (Ablauf)",
+      "source_url": "https://www.youtube.com/watch?v=woNLxv-5Hkg",
+      "timestamp": "00:22–00:44",
+      "notes": "Goldene MP5-artige Tutorialwaffe, Ingame-Name nicht lesbar und daher null. Interaktiver Free-look, keine feste automatische Gesamt-/Phasendauer. Beide Flanken, Magazin, seitliche Schrauben und Ober-/Unterseite lesbar. Schienenoptik wird im Profil gezeigt; keine gezielte Durchsichtnahaufnahme. Beispiel22/30/36/40s. Projektion stark beschnitten, Hüllrechteck-Stichprobe45%; längere Seite durch Benutzereingabe bestimmt. In diesem Tutorial eine Waffe belastbar; drei benannte Modelle in separater Ergänzungsquelle erfasst.",
+      "source": "YourSixGaming (YouTube), 2025-10-17"
+    },
+    {
+      "game": "Battlefield 6",
+      "weapon": "M433",
+      "class": "Sturmgewehr",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "angehobene rechte Flanke",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Rollen zur Gegen-/Oberseite",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        }
+      ],
+      "max_area_pct": null,
+      "longest_side": null,
+      "sight_closeup": false,
+      "status": "O",
+      "source_url": "https://www.youtube.com/watch?v=NAR8MrinKQ0",
+      "timestamp": "00:32 / 00:36",
+      "notes": "Dunkles Gehäuse, langes schmales Oberteil, Magazin bleibt in der Vorführpose eingesetzt. Zeigefinger liegt außen am Gehäuse. Die separate Reloadfolge bei8–20s wird nicht als Inspect benutzt. Direkter All-weapons-Inspect-Showcase, Kapitelname aus Quelle und sichtbare Modellform konsistent. Geladener Kurzstream29,97fps: ausschließlich Form/Seiten, keinerlei Dauer oder zeitliche Phasen gemessen. Keine garantierte Maximalfläche, teils beschnitten; daher max_area_pct=null. Der ursprüngliche YourSixGaming-Clip belegt interaktive Rotation; dieser zusammengeschnittene Showcase beweist keine eigene feste Animationsdauer.",
+      "source": "Destroyerfield51 (YouTube), 2025-10-20"
+    },
+    {
+      "game": "Battlefield 6",
+      "weapon": "B36A4",
+      "class": "Sturmgewehr",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "nahe Seitenpose",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "leichtes Umrollen",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Hüftlage im anschließenden Bild",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        }
+      ],
+      "max_area_pct": null,
+      "longest_side": null,
+      "sight_closeup": false,
+      "status": "O",
+      "source_url": "https://www.youtube.com/watch?v=NAR8MrinKQ0",
+      "timestamp": "01:16 / 01:20",
+      "notes": "G36-artiges hohes, kantiges Gehäuse mit großem Abzugsbügel; nahes Profil und Handschuh entlang der Flanke. Sichtbare Datenkarte und Kapitel ordnen den Namen zu. Reloads bei48–60s separat. Direkter All-weapons-Inspect-Showcase, Kapitelname aus Quelle und sichtbare Modellform konsistent. Geladener Kurzstream29,97fps: ausschließlich Form/Seiten, keinerlei Dauer oder zeitliche Phasen gemessen. Keine garantierte Maximalfläche, teils beschnitten; daher max_area_pct=null. Der ursprüngliche YourSixGaming-Clip belegt interaktive Rotation; dieser zusammengeschnittene Showcase beweist keine eigene feste Animationsdauer.",
+      "source": "Destroyerfield51 (YouTube), 2025-10-20"
+    },
+    {
+      "game": "Battlefield 6",
+      "weapon": "SOR-556 Mk2",
+      "class": "Sturmgewehr",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "helle Seitenpose",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Gegen-/Oberseite im späteren Präsentationsbild",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        }
+      ],
+      "max_area_pct": null,
+      "longest_side": null,
+      "sight_closeup": false,
+      "status": "O",
+      "source_url": "https://www.youtube.com/watch?v=NAR8MrinKQ0",
+      "timestamp": "01:28 / 01:32 / 02:04 / 02:06",
+      "notes": "SCAR-artige helle Waffe mit langem Magazinschacht/Schiene. Erstes Profil mit eingeblendeter Datenkarte; Finger außen am Receiver, eingesetztes Magazin. Andere Fenster enthalten Nachladen und Schüsse; diese werden nicht als Inspect vermessen. Direkter All-weapons-Inspect-Showcase, Kapitelname aus Quelle und sichtbare Modellform konsistent. Geladener Kurzstream29,97fps: ausschließlich Form/Seiten, keinerlei Dauer oder zeitliche Phasen gemessen. Keine garantierte Maximalfläche, teils beschnitten; daher max_area_pct=null. Der ursprüngliche YourSixGaming-Clip belegt interaktive Rotation; dieser zusammengeschnittene Showcase beweist keine eigene feste Animationsdauer.",
+      "source": "Destroyerfield51 (YouTube), 2025-10-20"
+    },
+    {
+      "game": "Valorant",
+      "weapon": "Classic",
+      "class": "Pistole",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "erste Seite",
+          "source_start_s": 0.717,
+          "source_end_s": 1.752,
+          "time_basis": "Quellmedienzeit; Spielechtzeit unbestätigt"
+        },
+        {
+          "phase": "Unterseite/Gegenflanke",
+          "source_start_s": 1.752,
+          "source_end_s": 3.253,
+          "time_basis": "Quellmedienzeit; Spielechtzeit unbestätigt"
+        },
+        {
+          "phase": "Rückkehr",
+          "source_start_s": 3.253,
+          "source_end_s": 3.554,
+          "time_basis": "Quellmedienzeit; Spielechtzeit unbestätigt"
+        }
+      ],
+      "max_area_pct": 10,
+      "longest_side": null,
+      "sight_closeup": false,
+      "status": "M (Bildfläche/Medienmarker); O (Hand-/Seitenablauf)",
+      "source_url": "https://www.youtube.com/watch?v=LF9pPIi5ops",
+      "timestamp": "0:00.717–0:03.554",
+      "notes": "Start≈f43→Hüfte≈f213,170Intervalle≈2,84s Medienzeit. HUD12 bleibt während Inspect12; unterstützendes Indiz zusammen mit Titel und sichtbarer Präsentation ohne Magazinbedienung. Waffe seitlich aus Zielachse, Handgelenk rollt zur Unterseite und zur zweiten Flanke, dann zurück in Hüfte. Zeigefinger/Daumen abgespreizt. Deutliche Handgelenkrolle ohne kalibrierten 3D-Winkel, keine Nahaufnahme des Absehens. Kein unabhängiger Normaltempoanker; inspect_total_s daher null. Keine Visier-Nahaufnahme durch die Optik; Kamera-Weltanker nahezu fest. Flächenwert = größtes beobachtetes Hüllrechteck der sichtbaren Waffe, grob ±6 Prozentpunkte.",
+      "source": "PC Gaming Videos (YouTube), 2020-05-13",
+      "media_window": {
+        "start_frame": 43,
+        "end_frame": 213,
+        "rate": 59.94,
+        "frames": 170,
+        "source_seconds": 2.84,
+        "marker": "erste sichtbare Inspect-Bewegung → Hüftlage erreicht"
+      },
+      "recheck_0_20": {
+        "start_frame": 40,
+        "hip_frame": 213,
+        "rest_frame": 221,
+        "seconds_start_to_hip": 2.89,
+        "seconds_rest_to_rest": 3.02,
+        "codex_seconds": 2.84,
+        "verdict": "Marker bestätigt, Ruhe-zu-Ruhe +0,18 s",
+        "note": "erste Bewegung f40 (Codex f43); Hüftlage f213, Ruhe f221"
+      }
+    },
+    {
+      "game": "Valorant",
+      "weapon": "Ghost",
+      "class": "gedämpfte Pistole",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "erste Seite",
+          "source_start_s": 30.097,
+          "source_end_s": 31.248,
+          "time_basis": "Quellmedienzeit; Spielechtzeit unbestätigt"
+        },
+        {
+          "phase": "Unterseite/Gegenflanke",
+          "source_start_s": 31.248,
+          "source_end_s": 32.499,
+          "time_basis": "Quellmedienzeit; Spielechtzeit unbestätigt"
+        },
+        {
+          "phase": "Rückkehr",
+          "source_start_s": 32.499,
+          "source_end_s": 32.933,
+          "time_basis": "Quellmedienzeit; Spielechtzeit unbestätigt"
+        }
+      ],
+      "max_area_pct": 12,
+      "longest_side": null,
+      "sight_closeup": false,
+      "status": "M (Bildfläche/Medienmarker); O (Hand-/Seitenablauf)",
+      "source_url": "https://www.youtube.com/watch?v=LF9pPIi5ops",
+      "timestamp": "0:30.097–0:32.933",
+      "notes": "Start≈f1804→Hüfte≈f1974,170Intervalle≈2,84s Medienzeit. HUD15 unverändert. Der lange Dämpfer zeichnet die Blickrichtung; Handgelenk rollt die Waffe nach außen und kippt den oberen Schlitten zur Kamera. Keine Magazin- oder Verschlussbedienung während dieser Sequenz. Kein unabhängiger Normaltempoanker; inspect_total_s daher null. Keine Visier-Nahaufnahme durch die Optik; Kamera-Weltanker nahezu fest. Flächenwert = größtes beobachtetes Hüllrechteck der sichtbaren Waffe, grob ±6 Prozentpunkte.",
+      "source": "PC Gaming Videos (YouTube), 2020-05-13",
+      "media_window": {
+        "start_frame": 1804,
+        "end_frame": 1974,
+        "rate": 59.94,
+        "frames": 170,
+        "source_seconds": 2.84,
+        "marker": "erste sichtbare Inspect-Bewegung → Hüftlage erreicht"
+      }
+    },
+    {
+      "game": "Valorant",
+      "weapon": "Sheriff",
+      "class": "Revolver",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "Trommelseite",
+          "source_start_s": 45.145,
+          "source_end_s": 46.246,
+          "time_basis": "Quellmedienzeit; Spielechtzeit unbestätigt"
+        },
+        {
+          "phase": "Unterseite/Gegenflanke",
+          "source_start_s": 46.246,
+          "source_end_s": 47.748,
+          "time_basis": "Quellmedienzeit; Spielechtzeit unbestätigt"
+        },
+        {
+          "phase": "Rückkehr",
+          "source_start_s": 47.748,
+          "source_end_s": 48.081,
+          "time_basis": "Quellmedienzeit; Spielechtzeit unbestätigt"
+        }
+      ],
+      "max_area_pct": 10,
+      "longest_side": null,
+      "sight_closeup": false,
+      "status": "M (Bildfläche/Medienmarker); O (Hand-/Seitenablauf)",
+      "source_url": "https://www.youtube.com/watch?v=LF9pPIi5ops",
+      "timestamp": "0:45.145–0:48.081",
+      "notes": "Start≈f2706→Hüfte≈f2882,176Intervalle≈2,94s Medienzeit. HUD6 bleibt6; keine Trommel geöffnet und keine Patrone entfernt. Große glatte Rahmenflächen werden durch Rollung lesbar. Ein Like-Overlay liegt unten links; die rechte Griffhand wird im geprüften Bogen dadurch nicht verdeckt. Kein unabhängiger Normaltempoanker; inspect_total_s daher null. Keine Visier-Nahaufnahme durch die Optik; Kamera-Weltanker nahezu fest. Flächenwert = größtes beobachtetes Hüllrechteck der sichtbaren Waffe, grob ±6 Prozentpunkte.",
+      "source": "PC Gaming Videos (YouTube), 2020-05-13",
+      "media_window": {
+        "start_frame": 2706,
+        "end_frame": 2882,
+        "rate": 59.94,
+        "frames": 176,
+        "source_seconds": 2.94,
+        "marker": "erste sichtbare Inspect-Bewegung → Hüftlage erreicht"
+      }
+    },
+    {
+      "game": "Valorant",
+      "weapon": "Frenzy",
+      "class": "Automatikpistole",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "bereits angehobene Seitenpose",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Quellmedienzeit; Spielechtzeit unbestätigt"
+        },
+        {
+          "phase": "Unterseite/Gegenflanke",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Quellmedienzeit; Spielechtzeit unbestätigt"
+        },
+        {
+          "phase": "Rückkehr",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Quellmedienzeit; Spielechtzeit unbestätigt"
+        }
+      ],
+      "max_area_pct": 10,
+      "longest_side": null,
+      "sight_closeup": false,
+      "status": "M (Bildfläche/Medienmarker); O (Hand-/Seitenablauf)",
+      "source_url": "https://www.youtube.com/watch?v=LF9pPIi5ops",
+      "timestamp": "0:19.002–0:21.505",
+      "notes": "Am Kapitelbeginn bereits in einer angehobenen Seitenpose; sichtbarer Start fehlt, keine vollständige Dauer. HUD13 bleibt13. Schmale obere Lauf-/Schlittenpartie und Magazin-/Griffkontur werden beim Rollen von links nach unten gezeigt. Fläche nur Stichprobenwert. Kein unabhängiger Normaltempoanker; inspect_total_s daher null. Keine Visier-Nahaufnahme durch die Optik; Kamera-Weltanker nahezu fest. Flächenwert = größtes beobachtetes Hüllrechteck der sichtbaren Waffe, grob ±6 Prozentpunkte.",
+      "source": "PC Gaming Videos (YouTube), 2020-05-13"
+    },
+    {
+      "game": "Valorant",
+      "weapon": "Bucky",
+      "class": "Pump-Schrotflinte",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "breite linke Präsentation",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Quellmedienzeit; Spielechtzeit unbestätigt"
+        },
+        {
+          "phase": "Wiederholung/zweite Rotation",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Quellmedienzeit; Spielechtzeit unbestätigt"
+        },
+        {
+          "phase": "Hüftlage",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Quellmedienzeit; Spielechtzeit unbestätigt"
+        }
+      ],
+      "max_area_pct": null,
+      "longest_side": null,
+      "sight_closeup": false,
+      "status": "O (angeschnittener Ablauf; keine Fläche oder Gesamtdauer)",
+      "source_url": "https://www.youtube.com/watch?v=LF9pPIi5ops",
+      "timestamp": "1:13.257–1:16.760",
+      "notes": "Zwei nahe aufeinanderfolgende seitliche Präsentationen; der erste Beginn liegt am Kapitelschnitt, wiederholte Eingabe/Abbruch nicht trennbar. Langer Lauf links, Patronenhalter am Gehäuse sichtbar. Waffe am linken Bildrand zeitweise abgeschnitten; daher keine vollständige maximale Fläche und keine sichere Gesamtdauer. Kein klassischer Magazincheck belegt. Kein unabhängiger Normaltempoanker; inspect_total_s daher null. Keine Visier-Nahaufnahme durch die Optik; Kamera-Weltanker nahezu fest.",
+      "source": "PC Gaming Videos (YouTube), 2020-05-13"
+    },
+    {
+      "game": "CS2",
+      "weapon": "Desert Eagle",
+      "class": "Pistole",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "Heben/erste Flanke",
+          "source_start_s": 0.4,
+          "source_end_s": 2.002,
+          "time_basis": "Quellmedienzeit; Spielechtzeit unbestätigt"
+        },
+        {
+          "phase": "Umrollen",
+          "source_start_s": 2.002,
+          "source_end_s": 2.753,
+          "time_basis": "Quellmedienzeit; Spielechtzeit unbestätigt"
+        },
+        {
+          "phase": "zweite Flanke halten",
+          "source_start_s": 2.753,
+          "source_end_s": 4.755,
+          "time_basis": "Quellmedienzeit; Spielechtzeit unbestätigt"
+        },
+        {
+          "phase": "Absenken und Rückkehr",
+          "source_start_s": 4.755,
+          "source_end_s": 5.572,
+          "time_basis": "Quellmedienzeit; Spielechtzeit unbestätigt"
+        }
+      ],
+      "max_area_pct": 22,
+      "longest_side": "zweite, zur Kamera gerollte Breitseite",
+      "sight_closeup": false,
+      "status": "M (Bildfläche/Medienmarker); O (Hand-/Seitenablauf)",
+      "source_url": "https://www.youtube.com/watch?v=y1NSHUq7WOI",
+      "timestamp": "0:00.400–0:05.572",
+      "notes": "Normalablauf: Startf24→Hüftef334, 310Intervalle≈5,17s Medienzeit; Marker±1–2Bilder, Differenz±2–4. Erste Seite mit Lauf steil nach oben; zweite Seite deutlich länger gehalten, Schlitten/Auswurffenster und Griffseiten sichtbar. Grob40–60° Kippen im Bild und deutlicher Seiten-/Oberseitenwechsel; kein kalibrierter 3D-Winkel. Linke Hand öffnet sich/verlässt Stützgriff. Danach ab≈6s zusätzliche Dreh-/Spinvariante, getrennt vom Standardablauf; Eingabe und Seltenheit unbekannt. Kein unabhängiger Normaltempoanker; inspect_total_s daher null. Keine Visier-Nahaufnahme durch die Optik; Kamera-Weltanker nahezu fest. Flächenwert = größtes beobachtetes Hüllrechteck der sichtbaren Waffe, grob ±6 Prozentpunkte.",
+      "source": "PC Gaming Videos (YouTube), 2023-04-01",
+      "media_window": {
+        "start_frame": 24,
+        "end_frame": 334,
+        "rate": 59.94,
+        "frames": 310,
+        "source_seconds": 5.17,
+        "marker": "erste sichtbare Inspect-Bewegung → Hüftlage erreicht"
+      },
+      "recheck_0_20": {
+        "start_frame": 16,
+        "hip_frame": 334,
+        "rest_frame": 348,
+        "seconds_start_to_hip": 5.31,
+        "seconds_rest_to_rest": 5.54,
+        "codex_seconds": 5.17,
+        "verdict": "Marker bestätigt, Ruhe-zu-Ruhe +0,37 s",
+        "note": "Anlauf ab f16, linke Hand sichtbar f24 (= Codex-Start); Waffe auf Hüfthöhe f334 (= Codex-Ende), linke Hand zurück und Ruhe f348; ab f350 folgt die Drehvariante"
+      }
+    },
+    {
+      "game": "CS2",
+      "weapon": "R8 Revolver",
+      "class": "Revolver",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "Anheben/Trommelseite",
+          "source_start_s": 14.965,
+          "source_end_s": 18.252,
+          "time_basis": "Quellmedienzeit; Spielechtzeit unbestätigt"
+        },
+        {
+          "phase": "Umrollen/Oberseite",
+          "source_start_s": 18.252,
+          "source_end_s": 19.503,
+          "time_basis": "Quellmedienzeit; Spielechtzeit unbestätigt"
+        },
+        {
+          "phase": "Rückkehr",
+          "source_start_s": 19.503,
+          "source_end_s": 20.554,
+          "time_basis": "Quellmedienzeit; Spielechtzeit unbestätigt"
+        }
+      ],
+      "max_area_pct": 16,
+      "longest_side": "schräg zur Kamera gedrehte Trommelseite",
+      "sight_closeup": false,
+      "status": "M (Bildfläche/Medienmarker); O (Hand-/Seitenablauf)",
+      "source_url": "https://www.youtube.com/watch?v=y1NSHUq7WOI",
+      "timestamp": "0:14.965–0:20.554",
+      "notes": "Start≈f897→Hüftef1232,335Intervalle≈5,59s Medienzeit. Trommel und Rahmen breit zur Kamera, dann Achsenansicht entlang des Laufs und Rückrollen. Griff bleibt rechts, Finger lösen/öffnen sich. Keine sichtbare echte Trommelöffnung und keine Patronenentnahme. Deutliches Umrollen zwischen Flanken und Oberseite; kein kalibrierter 3D-Winkel. Kein unabhängiger Normaltempoanker; inspect_total_s daher null. Keine Visier-Nahaufnahme durch die Optik; Kamera-Weltanker nahezu fest. Flächenwert = größtes beobachtetes Hüllrechteck der sichtbaren Waffe, grob ±6 Prozentpunkte.",
+      "source": "PC Gaming Videos (YouTube), 2023-04-01",
+      "media_window": {
+        "start_frame": 897,
+        "end_frame": 1232,
+        "rate": 59.94,
+        "frames": 335,
+        "source_seconds": 5.59,
+        "marker": "erste sichtbare Inspect-Bewegung → Hüftlage erreicht"
+      }
+    },
+    {
+      "game": "CS2",
+      "weapon": "USP-S",
+      "class": "Pistole mit Dämpfer",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "Heben/erste Seite",
+          "source_start_s": 42.276,
+          "source_end_s": 45.512,
+          "time_basis": "Quellmedienzeit; Spielechtzeit unbestätigt"
+        },
+        {
+          "phase": "gegenüberliegende Flanke/Oberseite",
+          "source_start_s": 45.512,
+          "source_end_s": 47.514,
+          "time_basis": "Quellmedienzeit; Spielechtzeit unbestätigt"
+        },
+        {
+          "phase": "Rückkehr",
+          "source_start_s": 47.514,
+          "source_end_s": 48.799,
+          "time_basis": "Quellmedienzeit; Spielechtzeit unbestätigt"
+        }
+      ],
+      "max_area_pct": 20,
+      "longest_side": "erste breite Seitenansicht mit Dämpfer",
+      "sight_closeup": false,
+      "status": "M (Bildfläche/Medienmarker); O (Hand-/Seitenablauf)",
+      "source_url": "https://www.youtube.com/watch?v=y1NSHUq7WOI",
+      "timestamp": "0:42.276–0:48.799",
+      "notes": "Start≈f2534→Hüfte≈f2925,391Intervalle≈6,52s Medienzeit. Dämpfer macht die horizontale Silhouette länger; erste Seite≈3,2s, danach oberer Lauf-/Schlittenrücken und Gegenflanke. Keine Dämpferdemontage im ausgewerteten Inspect. Grob40–60° Anheben, zusätzlicher Wechsel zwischen Flanke und Oberseite ohne kalibrierten 3D-Winkel; Hände tragen die Präsentation, Weltblick bleibt nahezu fest. Kein unabhängiger Normaltempoanker; inspect_total_s daher null. Keine Visier-Nahaufnahme durch die Optik; Kamera-Weltanker nahezu fest. Flächenwert = größtes beobachtetes Hüllrechteck der sichtbaren Waffe, grob ±6 Prozentpunkte.",
+      "source": "PC Gaming Videos (YouTube), 2023-04-01",
+      "media_window": {
+        "start_frame": 2534,
+        "end_frame": 2925,
+        "rate": 59.94,
+        "frames": 391,
+        "source_seconds": 6.52,
+        "marker": "erste sichtbare Inspect-Bewegung → Hüftlage erreicht"
+      }
+    },
+    {
+      "game": "Borderlands 3",
+      "weapon": "Hellfire (Präfix unsicher)",
+      "class": "Dahl-MP",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "Item View mit frei stehendem Waffenmodell",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Wechsel zu Parts",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Body-/Barrel-Accessoires einzeln hervorheben",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        }
+      ],
+      "max_area_pct": 35,
+      "longest_side": "seitliches Menüprofil, unverändert im gesichteten Fenster",
+      "sight_closeup": false,
+      "status": "M (Hüllrechteck-Stichprobe); O (Ablauf)",
+      "source_url": "https://www.youtube.com/watch?v=Ugq35ExayfI",
+      "timestamp": "01:35–01:55",
+      "notes": "Menüinspektion, kein Ego-Inspect; keine Hände oder Rückkehr in die Hüfte innerhalb dieses Fensters. Seitliche, nahezu feste Profilpose. Teile werden blau markiert und ihr Attribut links angezeigt. Skin-Feld Default sichtbar; kein Skinvergleich durchgeführt.35% größte gesichtete Hüllrechteckprojektion, Karte verdeckt Lauf links teilweise. In diesem Fenster nur Hellfire; zwei weitere Menümodelle aus AgentLomax separat ergänzt.",
+      "source": "MorninAfterKill (YouTube), 2019-09-26"
+    },
+    {
+      "game": "Borderlands 3",
+      "weapon": "Hyperion-Scharfschützengewehr mit Mogul-Lauf (Itemname unbekannt)",
+      "class": "Scharfschützengewehr",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "Parts-Menü mit seitlichem Waffenprofil",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Lauf und Lauf-Accessoires einzeln blau hervorheben",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        }
+      ],
+      "max_area_pct": null,
+      "longest_side": "Menü-Seitenprofil; keine zeitlich längste Animationsflanke bestimmbar",
+      "sight_closeup": false,
+      "status": "O",
+      "source_url": "https://www.youtube.com/watch?v=3T2UZUYPzEc",
+      "timestamp": "03:40 / 03:50",
+      "notes": "Zusätzliches Menümodell in Agent-Lomax-Quelle. Mogul ist die im Video eingeblendete Lauf-/Modellfamilie, kein behaupteter vollständiger prozeduraler Itemname. Gelochter, zweistöckiger Vorderschaft, hohes Zielfernrohr über Träger; Parts-Auswahl hebt Laufkontur sowie seitliches Zubehör blau hervor. Keine Egoanimation, keine Hüft-Rückkehr; frei bedientes Menü ohne feste Dauer. Stark herangezoomt und rechts abgeschnitten: Maximalfläche unbekannt. Bei190/200s anderes Entrepreneur-Laufmodell ebenfalls gesichtet, nicht als zusätzliche vollständige Waffe gezählt.",
+      "source": "Agent Lomax (YouTube), 2020-03-15"
+    },
+    {
+      "game": "Borderlands 3",
+      "weapon": "Bezoomy (Vladof-AR, Präfix unsicher)",
+      "class": "Sturmgewehr",
+      "inspect_total_s": null,
+      "phases": [
+        {
+          "phase": "Parts-Menü im Profil",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Body und Body-Accessoires hervorheben",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        },
+        {
+          "phase": "Laufteil separat hervorheben",
+          "source_start_s": null,
+          "source_end_s": null,
+          "time_basis": "Qualitative Reihenfolge; keine Zeitmessung dieser Phase"
+        }
+      ],
+      "max_area_pct": null,
+      "longest_side": "seitliches Menüprofil",
+      "sight_closeup": false,
+      "status": "O",
+      "source_url": "https://www.youtube.com/watch?v=Nwp4VJWUujY",
+      "timestamp": "00:45 / 00:50 / 00:55",
+      "notes": "Blaues Item-Beispiel in Agent-Lomax-Vladof-AR-Quelle; Bezoomy ist lesbare Waffenbasis, Präfix unsicher. Glatter rechtwinkliger Holzschaft, kurzes Zielfernrohr, dicker mehrteiliger Lauf/Unterlaufblock. Auswahl färbt den gewählten Receiver bzw. Anbaukörper hellblau und erklärt Attribute links. Keine Hände und keine Rückkehr in die Hüfte; Menüinspektion ohne feste Dauer. Teile/ganze Waffe am linken Rand vom Menü verdeckt, daher keine Maximalfläche.",
+      "source": "Agent Lomax (YouTube), 2019-10-02"
+    }
+  ],
+  "not_found": {
+    "Destiny 2": "Kein Ego-Inspect gefunden (kein Beweis, dass keiner existiert): 63 Clip-Übersichten (docs/destiny2.md › Sichtungsprotokoll des PvE-Nachtrags) und Websuchen 24.10.2026 führten nur zur Menüvorschau mit Rotation (seit Season of the Deep, 2023).",
+    "Titanfall 2": "Kein belastbarer Vanilla-Inspect-Clip: OUCIHsQ4Vio Reload-Sammlung, TZY3MK8BYrQ Flatline-Demo ungeklärter Herkunft, XkfeClIww2M Titanfall 1, 4sDwTD9U8bw Schuss/Reload; Inspect nur als Northstar-Modfunktion belegt."
+  },
+  "counts": {
+    "weapons": 41,
+    "games": 9,
+    "videos": 16,
+    "json_sources": 15,
+    "native_windows": 12,
+    "rechecked": 5,
+    "source_frames_viewed_by_codex": 1433,
+    "marker_frames_by_codex": 714
+  }
+}

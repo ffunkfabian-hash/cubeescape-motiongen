@@ -17,3 +17,4 @@
 - Farbanteile aus Menübildern nur mit genannter Buntheitsschwelle angeben (gedämpfte Tarnfarben kippen zwischen C* 15 und 25) und als gerenderte Pixel, nie als Albedo ([oberflaechen](oberflaechen.md#4-nachmessung-m)).
 - Blitzgröße nur mit Definition nennen: getrennte Flammenteile (Glaskegel, Seitenzungen) ergeben verschiedene Hüllrechtecke – Gridskipper 13–16 % H gegen 38 % H mit Kegel ([muendung](muendung.md#1-methode-und-genauigkeit)).
 - Entwickler-Portfolios belegen Form, keinen Retailstand, und können andere Feuermodi zeigen (New Malpais: Granatschuss); Quelle und Modus getrennt nennen ([muendung](muendung.md#2-quellen)).
+- Inspect- und Animationsdauern aus Showcases sind Quellmedienzeit; die Marker-Definition mitnennen – „erste Bewegung → Hüftlage“ und „Ruhe → Ruhe“ unterscheiden sich um 0,2–0,4 s ([inspektion](inspektion.md#1-methode-und-genauigkeit)).

@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.20.0 „Lookover“ – 2026-10-25
+
+- Neue Referenzanalyse [Inspektionsanimationen](docs/inspektion.md) mit maschinenlesbarer Fassung `data/inspektion.json`: 41 Waffen aus 9 Spielen bzw. Fassungen (Destiny 2 zuerst, Apex, Halo Infinite, CoD MW2019 und BO6, Battlefield 6, Valorant, CS2, Borderlands 3) aus 16 Videos, gemessen von Codex-Mac am 24.10.2026: Darstellungsart (Menü, Idle-Geste, Ego-Inspect, freie Drehung), Ablauf und gezeigte Seiten, Hüllrechteck-Fläche, zwölf native Medienfenster mit Phasen. Vier Destiny-Messzeilen in `docs/destiny2.md` › 2 (Anker `z-insp-…`), Methode und Steckbrief-Hinweis, 23 Einträge in `data/clips.json`.
+- Befund: **Destiny 2 hat keinen belegten Ego-Inspect**, nur die Menüinspektion (seit Update 7.1.0 drehbar mit Ambient-VFX); Titanfall 2 ohne Vanilla-Inspect. Ego-Inspects dauern 2,8–6,5 s Quellmedienzeit (Valorant-Rolle bis CS2 USP-S mit langer Haltephase; BO6-Magazinprüfung 5,9–6,1 s), Ruhe-zu-Ruhe 0,2–0,4 s länger als die Codex-Marker. Alle 16 Quellen per yt-dlp geprüft, fünf Werte nachgemessen. [Bericht](docs/versions/0.md#0200-lookover--2026-10-25).
+
 ## 0.19.0 „Flashpan“ – 2026-10-25
 
 - Neue Referenzanalyse [Mündungsfeuer und Hülsenauswurf](docs/muendung.md) mit maschinenlesbarer Fassung `data/muendung.json`: Blitzdauer, Blitzgröße (Hüllrechteck), Überdeckung der Visieröffnung, Hülsen (erste Sichtbarkeit, Richtung) und Mündungsform für 35 Waffenmodelle aus acht Spielen (Destiny 2: 12, Destiny 1: 5, Halo Infinite, Titanfall 2, Apex, CoD MW 2019, Borderlands 3, Battlefield 6 je 3), gemessen von Codex-Mac am 24.10.2026. Zwölf Destiny-Messzeilen in `docs/destiny2.md` › 2 (Anker `z-mf-…`), Methode 18, elf Steckbriefe ergänzt, 35 Einträge in `data/clips.json`.

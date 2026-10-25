@@ -1780,5 +1780,143 @@
     "clip": "https://www.youtube.com/watch?v=ROUP1z62caA",
     "source": "Torbis (YouTube), 17.09.2025, 60 fps; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/muendung.md#z-mf-bf6-a545",
     "timestamps": "67,000–68,200 s; Raster 67,033; Form 79,000"
+  },
+  {
+    "measurement": "Inspektion Destiny 2: Conditional Finality, Menüinspektion mit Drehung (seit 7.1.0)",
+    "clip": "https://www.youtube.com/watch?v=kWUViHovz1E",
+    "source": "Destiny 2 (YouTube, offiziell), 17.05.2023, 60 fps; Codex-Mac 24.10.2026, REF 0.20 „Lookover“ (Mac, 25.10.2026), docs/inspektion.md",
+    "timestamps": "0:00–0:10 (f0–f600); Fläche ≈ 50 %, Nachmessung 43 % bei f540; docs/destiny2.md#z-insp-conditional-finality"
+  },
+  {
+    "measurement": "Inspektion Destiny 2: Extraordinary Rendition, statisches Menübild 2021",
+    "clip": "https://www.youtube.com/watch?v=Y5OLr0nbgSg",
+    "source": "Ultraclocked (YouTube), 15.02.2021, 60 fps; Codex-Mac 24.10.2026, REF 0.20 „Lookover“ (Mac, 25.10.2026), docs/inspektion.md",
+    "timestamps": "0:01,000; Fläche ≈ 48 %; docs/destiny2.md#z-insp-extraordinary-rendition"
+  },
+  {
+    "measurement": "Inspektion Destiny 2: Far Future, statisches Menübild 2021",
+    "clip": "https://www.youtube.com/watch?v=RXgRxHESqHQ",
+    "source": "Ultraclocked (YouTube), 18.02.2021, 60 fps; Codex-Mac 24.10.2026, REF 0.20 „Lookover“ (Mac, 25.10.2026), docs/inspektion.md",
+    "timestamps": "0:01,000; Fläche ≈ 43 %; docs/destiny2.md#z-insp-far-future"
+  },
+  {
+    "measurement": "Inspektion Destiny 2: Threaded Needle, statisches Menübild 2021",
+    "clip": "https://www.youtube.com/watch?v=uoTaCBMXcFk",
+    "source": "Ultraclocked (YouTube), 20.02.2021, 60 fps; Codex-Mac 24.10.2026, REF 0.20 „Lookover“ (Mac, 25.10.2026), docs/inspektion.md",
+    "timestamps": "0:01,000; Fläche ≈ 40 %; docs/destiny2.md#z-insp-threaded-needle"
+  },
+  {
+    "measurement": "Inspektion CoD MW2019: X16, Ego-Inspect (Medienfenster, nachgemessen)",
+    "clip": "https://www.youtube.com/watch?v=VAdaNrfQcvw",
+    "source": "M4sked (YouTube), 05.08.2020, 60 fps; Codex-Mac 24.10.2026, REF 0.20 „Lookover“ (Mac, 25.10.2026), docs/inspektion.md",
+    "timestamps": "f152 = 2,533 → f388 = 6,467 s (236 Bilder, 3,93 s); Nachmessung f151 → f388, Ruhe f397"
+  },
+  {
+    "measurement": "Inspektion CoD MW2019: 1911, Ego-Inspect (Medienfenster)",
+    "clip": "https://www.youtube.com/watch?v=VAdaNrfQcvw",
+    "source": "M4sked (YouTube), 05.08.2020, 60 fps; Codex-Mac 24.10.2026, REF 0.20 „Lookover“ (Mac, 25.10.2026), docs/inspektion.md",
+    "timestamps": "f715 = 11,917 → f951 = 15,850 s (236 Bilder, 3,93 s)"
+  },
+  {
+    "measurement": "Inspektion CoD MW2019: M19, Ego-Inspect (Medienfenster)",
+    "clip": "https://www.youtube.com/watch?v=VAdaNrfQcvw",
+    "source": "M4sked (YouTube), 05.08.2020, 60 fps; Codex-Mac 24.10.2026, REF 0.20 „Lookover“ (Mac, 25.10.2026), docs/inspektion.md",
+    "timestamps": "f991 = 16,517 → f1227 = 20,450 s (236 Bilder, 3,93 s)"
+  },
+  {
+    "measurement": "Inspektion CoD MW2019: Renetti, .357, .50 GS – Ablauf und Fläche ohne Dauer",
+    "clip": "https://www.youtube.com/watch?v=VAdaNrfQcvw",
+    "source": "M4sked (YouTube), 05.08.2020, 60 fps; Codex-Mac 24.10.2026, REF 0.20 „Lookover“ (Mac, 25.10.2026), docs/inspektion.md",
+    "timestamps": "Renetti 0:21–0:30 · .357 0:30–0:44 · .50 GS 0:44–0:49"
+  },
+  {
+    "measurement": "Inspektion CoD BO6: 9mm PM, Magazinprüfung (Medienfenster, nachgemessen)",
+    "clip": "https://www.youtube.com/watch?v=HfgUhmc8p00",
+    "source": "EXILAS (YouTube), 11.11.2025, 60 fps; Codex-Mac 24.10.2026, REF 0.20 „Lookover“ (Mac, 25.10.2026), docs/inspektion.md",
+    "timestamps": "f62 = 1,033 → f415 = 6,917 s (353 Bilder, 5,88 s); Nachmessung Start f57–59, Hüfte f413–416"
+  },
+  {
+    "measurement": "Inspektion CoD BO6: Grekhova, Zweiseiten-Rolle (Medienfenster)",
+    "clip": "https://www.youtube.com/watch?v=HfgUhmc8p00",
+    "source": "EXILAS (YouTube), 11.11.2025, 60 fps; Codex-Mac 24.10.2026, REF 0.20 „Lookover“ (Mac, 25.10.2026), docs/inspektion.md",
+    "timestamps": "f1056 = 17,600 → f1358 = 22,633 s (302 Bilder, 5,03 s)"
+  },
+  {
+    "measurement": "Inspektion CoD BO6: GS .45, Magazinprüfung (Medienfenster)",
+    "clip": "https://www.youtube.com/watch?v=HfgUhmc8p00",
+    "source": "EXILAS (YouTube), 11.11.2025, 60 fps; Codex-Mac 24.10.2026, REF 0.20 „Lookover“ (Mac, 25.10.2026), docs/inspektion.md",
+    "timestamps": "f2319 = 38,650 → f2682 = 44,700 s (363 Bilder, 6,05 s)"
+  },
+  {
+    "measurement": "Inspektion CoD BO6: Stryder .22, Ablauf und Fläche ohne Dauer",
+    "clip": "https://www.youtube.com/watch?v=HfgUhmc8p00",
+    "source": "EXILAS (YouTube), 11.11.2025, 60 fps; Codex-Mac 24.10.2026, REF 0.20 „Lookover“ (Mac, 25.10.2026), docs/inspektion.md",
+    "timestamps": "0:58–1:05"
+  },
+  {
+    "measurement": "Inspektion Valorant: Classic (Medienfenster, nachgemessen)",
+    "clip": "https://www.youtube.com/watch?v=LF9pPIi5ops",
+    "source": "PC Gaming Videos (YouTube), 13.05.2020, 59,94 fps; Codex-Mac 24.10.2026, REF 0.20 „Lookover“ (Mac, 25.10.2026), docs/inspektion.md",
+    "timestamps": "f43 → f213 (0,717–3,554 s, 170 Bilder, 2,84 s); Nachmessung erste Bewegung f40, Ruhe f221 (3,02 s)"
+  },
+  {
+    "measurement": "Inspektion Valorant: Ghost (Medienfenster)",
+    "clip": "https://www.youtube.com/watch?v=LF9pPIi5ops",
+    "source": "PC Gaming Videos (YouTube), 13.05.2020, 59,94 fps; Codex-Mac 24.10.2026, REF 0.20 „Lookover“ (Mac, 25.10.2026), docs/inspektion.md",
+    "timestamps": "f1804 → f1974 (30,097–32,933 s, 170 Bilder, 2,84 s)"
+  },
+  {
+    "measurement": "Inspektion Valorant: Sheriff (Medienfenster)",
+    "clip": "https://www.youtube.com/watch?v=LF9pPIi5ops",
+    "source": "PC Gaming Videos (YouTube), 13.05.2020, 59,94 fps; Codex-Mac 24.10.2026, REF 0.20 „Lookover“ (Mac, 25.10.2026), docs/inspektion.md",
+    "timestamps": "f2706 → f2882 (45,145–48,081 s, 176 Bilder, 2,94 s)"
+  },
+  {
+    "measurement": "Inspektion Valorant: Frenzy – Ablauf und Fläche, keine Dauer (beginnt bereits angehoben)",
+    "clip": "https://www.youtube.com/watch?v=LF9pPIi5ops",
+    "source": "PC Gaming Videos (YouTube), 13.05.2020, 59,94 fps; Codex-Mac 24.10.2026, REF 0.20 „Lookover“ (Mac, 25.10.2026), docs/inspektion.md",
+    "timestamps": "0:19,002–0:21,505; Fläche ≈ 10 %"
+  },
+  {
+    "measurement": "Inspektion CS2: Desert Eagle mit Phasen (Medienfenster, nachgemessen)",
+    "clip": "https://www.youtube.com/watch?v=y1NSHUq7WOI",
+    "source": "PC Gaming Videos (YouTube), 01.04.2023, 59,94 fps; Codex-Mac 24.10.2026, REF 0.20 „Lookover“ (Mac, 25.10.2026), docs/inspektion.md",
+    "timestamps": "f24 → f334 (0,400–5,572 s, 310 Bilder, 5,17 s); Phasen 0,40 · 2,00 · 2,75 · 4,76 · 5,57; Nachmessung Anlauf f16, Ruhe f348 (5,54 s)"
+  },
+  {
+    "measurement": "Inspektion CS2: R8 Revolver mit Phasen (Medienfenster)",
+    "clip": "https://www.youtube.com/watch?v=y1NSHUq7WOI",
+    "source": "PC Gaming Videos (YouTube), 01.04.2023, 59,94 fps; Codex-Mac 24.10.2026, REF 0.20 „Lookover“ (Mac, 25.10.2026), docs/inspektion.md",
+    "timestamps": "f897 → f1232 (14,965–20,554 s, 335 Bilder, 5,59 s); Phasen 14,97 · 18,25 · 19,50 · 20,55"
+  },
+  {
+    "measurement": "Inspektion CS2: USP-S mit Phasen (Medienfenster)",
+    "clip": "https://www.youtube.com/watch?v=y1NSHUq7WOI",
+    "source": "PC Gaming Videos (YouTube), 01.04.2023, 59,94 fps; Codex-Mac 24.10.2026, REF 0.20 „Lookover“ (Mac, 25.10.2026), docs/inspektion.md",
+    "timestamps": "f2534 → f2925 (42,276–48,799 s, 391 Bilder, 6,52 s); Phasen 42,28 · 45,51 · 47,51 · 48,80"
+  },
+  {
+    "measurement": "Inspektion Apex Legends: P2020, Peacekeeper, EVA-8, Mozambique, Volt, Flatline – Ablauf und Fläche, keine Dauer (29,97 fps)",
+    "clip": "https://www.youtube.com/watch?v=iNizXu2hl_0",
+    "source": "AlexTheRed (YouTube), 02.07.2021, 29,97 fps; Codex-Mac 24.10.2026, REF 0.20 „Lookover“ (Mac, 25.10.2026), docs/inspektion.md",
+    "timestamps": "0:00–0:11 · 0:29–0:40 · 0:41–0:51 · 1:04–1:15 · 1:28–1:38 · 2:15–2:26"
+  },
+  {
+    "measurement": "Inspektion Halo Infinite (Beta 2021): sechs automatische Idle-Gesten – Ablauf und Fläche",
+    "clip": "https://www.youtube.com/watch?v=TnblT7JnMPI",
+    "source": "Hectorlo (YouTube), 17.11.2021, 60 fps; Codex-Mac 24.10.2026, REF 0.20 „Lookover“ (Mac, 25.10.2026), docs/inspektion.md",
+    "timestamps": "MK50 0:01–0:06 · Bulldog 0:07–0:11 · MA40 0:12–0:16 · VK78 0:17–0:21 · BR75 0:22–0:27 · S7 0:28–0:33"
+  },
+  {
+    "measurement": "Inspektion Battlefield 6: freie Benutzerdrehung, unbenannte goldene MP",
+    "clip": "https://www.youtube.com/watch?v=woNLxv-5Hkg",
+    "source": "YourSixGaming (YouTube), 17.10.2025, 60 fps; Codex-Mac 24.10.2026, REF 0.20 „Lookover“ (Mac, 25.10.2026), docs/inspektion.md",
+    "timestamps": "0:22–0:44; Beispielbilder 22 / 30 / 36 / 40 s; Fläche ≈ 45 % (beschnitten)"
+  },
+  {
+    "measurement": "Inspektion Borderlands 3: Hellfire im Item-/Parts-Menü",
+    "clip": "https://www.youtube.com/watch?v=Ugq35ExayfI",
+    "source": "MorninAfterKill (YouTube), 26.09.2019, 59,94 fps; Codex-Mac 24.10.2026, REF 0.20 „Lookover“ (Mac, 25.10.2026), docs/inspektion.md",
+    "timestamps": "1:35–1:55; Fläche ≈ 35 % (Karte verdeckt den Lauf)"
   }
 ]
