@@ -25,7 +25,7 @@
   "player_posts_confirmed": 5,
   "data_sources": 2,
   "data_sources_called": 1,
-  "bar_pairs": 8,
+  "screen_pairs": 8,
   "remeasurements": 11,
   "remeasurements_pairs_doubled": 3,
   "remeasured_confirmed": 6,
@@ -44,7 +44,7 @@
    "source_ref": "V1",
    "source_url": "https://www.youtube.com/watch?v=qrJv7mj7Ab4",
    "timestamp": "06:30 / 06:35 / 06:40",
-   "notes": "[M] Kopfmitte des Legionärs ungefähr (79,50), (48,50), (58,50) % B/H bei Bildmitte (50,50). Die Blickrichtung passiert den Gegner; kein stabiles Kleben aus diesen Stichproben beweisbar. Eingabespur fehlt. Raster direkt am Vollvideo: drew-verify-grid.jpg; keine AA-Stärke abgeleitet.",
+   "notes": "[M] Kopfmitte des Legionärs ungefähr (79,50), (48,50), (58,50) % B/H bei Bildmitte (50,50). Die Blickrichtung passiert den Gegner; kein stabiles Kleben aus diesen Stichproben beweisbar. Eingabespur fehlt. Raster am Vollvideo (Bild im Cache der Zuarbeit, nicht im Repo); keine AA-Stärke abgeleitet.",
    "kind": "video_example",
    "mechanic": "observed_target_tracking",
    "strength": null,
@@ -133,7 +133,7 @@
    "source_ref": "V5",
    "source_url": "https://www.youtube.com/watch?v=frjx63T5FQU",
    "timestamp": "03:23 / 03:25 / 03:27",
-   "notes": "[M] Torsozentrum ungefähr (47,53), (46,53), (51,51) % B/H, Zielpunkt etwa (50,50). Abschnitt ist als LEFT STICK ONLY beschriftet, rechtes Stick-Overlay zentriert. Gemessen ist die Bildlage; das Eingabesignal bleibt ein vom Autor erzeugtes Overlay. Keine 0-ms-Behauptung oder Stärke aus drei Bildern. Raster am Vollvideo: heck-full-grid.jpg.",
+   "notes": "[M] Torsozentrum ungefähr (47,53), (46,53), (51,51) % B/H, Zielpunkt etwa (50,50). Abschnitt ist als LEFT STICK ONLY beschriftet, rechtes Stick-Overlay zentriert. Gemessen ist die Bildlage; das Eingabesignal bleibt ein vom Autor erzeugtes Overlay. Keine 0-ms-Behauptung oder Stärke aus drei Bildern. Raster am Vollvideo (Bild im Cache der Zuarbeit, nicht im Repo).",
    "kind": "video_example",
    "mechanic": "observed_rotational_tracking",
    "strength": null,
@@ -623,7 +623,7 @@
    "title": "Drewsky – Accuracy, Aim Assist & Range Explained In-Depth | Destiny 2 Shadowkeep",
    "url": "https://www.youtube.com/watch?v=qrJv7mj7Ab4",
    "date": "2020-02-15",
-   "check": ""
+   "check": "bestätigt (yt-dlp, 25.10.2026)"
   },
   {
    "id": "V2",
@@ -631,7 +631,7 @@
    "title": "jephXS – M&K VS CONTROLLER (Aim Assist, Accuracy, AE, recoil/stability)",
    "url": "https://www.youtube.com/watch?v=wwXYJcIwgkk",
    "date": "2022-11-02",
-   "check": ""
+   "check": "bestätigt (yt-dlp, 25.10.2026)"
   },
   {
    "id": "V3",
@@ -639,7 +639,7 @@
    "title": "hecksmith – Rotational Aim Assist in COD: Modern Warfare 2019 - Demos",
    "url": "https://www.youtube.com/watch?v=ufw8bnIfG7E",
    "date": "2022-04-23",
-   "check": ""
+   "check": "bestätigt (yt-dlp, 25.10.2026)"
   },
   {
    "id": "V4",
@@ -647,7 +647,7 @@
    "title": "Girthworm Jim – Halo Infinite Sniper Aim Assist Test",
    "url": "https://www.youtube.com/watch?v=GIBTUjd5YIY",
    "date": "2022-01-05",
-   "check": ""
+   "check": "bestätigt (yt-dlp, 25.10.2026)"
   },
   {
    "id": "V5",
@@ -655,7 +655,7 @@
    "title": "hecksmith – UNSEEN Aim Assist: Basics to Extremes (Rotational RETESTED)",
    "url": "https://www.youtube.com/watch?v=frjx63T5FQU",
    "date": "2022-11-10",
-   "check": ""
+   "check": "bestätigt (yt-dlp, 25.10.2026)"
   },
   {
    "id": "S1",
@@ -734,7 +734,7 @@
    "category": "Entwickler",
    "title": "343 Industries – Halo Infinite Update, December 6, 2022",
    "url": "https://support.halowaypoint.com/hc/en-us/articles/11284528984084-Halo-Infinite-Update-December-6-2022",
-   "date": "2022-12-06; Seite aktualisiert 2023-01-17",
+   "date": "Titel „Update December 6, 2022“; Zuarbeit: Seite aktualisiert 2023-01-17; Zendesk-API: zuletzt bearbeitet 2025-02-27",
    "check": "bestätigt (Archiv und Zendesk-API); Titel „Update December 6, 2022“, Artikel am 02.12.2022 angelegt, später überarbeitet"
   },
   {
@@ -912,7 +912,7 @@
    "good": "Getrennte Mechaniken erlauben Hilfen für verschiedene Eingabegeräte.",
    "bad": "Ein „AA“-Etikett verdeckt, welche Hilfe gemeint ist; aktuelle Stärken unveröffentlicht.",
    "audience": "Controller, Maus, Barrierefreiheit",
-   "evidence": "[B] D03–D07, D11, D13; [M] D01",
+   "evidence": "[B] D03–D07, D11; [S] D13; [M] D01",
    "player": "[C] C1: Einzelstimme, Beitrag nicht prüfbar",
    "dev": "B1, B2, B3"
   },
