@@ -1,0 +1,1857 @@
+{
+ "version": "0.14.0",
+ "name": "Eyebox",
+ "date": "2026-10-24",
+ "doc": "docs/visiere.md",
+ "units": "Prozent der Bildbreite (aperture/housing), Ursprung oben links; frame_ratio = Rahmen je Seite / Öffnung; world_zoom_image_scale = Bildmaßstab Hüfte → Zielen außerhalb der Linse (nicht Winkelzoom); lens_zoom_vs_hip = Bildmaßstab im Glas gegen das Hüftbild; ads_in_s nur aus 60/s",
+ "status": {
+  "M": "gemessen",
+  "S": "Sekundärquelle (Artikel, Wiki, Einblendung)",
+  "B": "Entwickler (Patchnotes, Studio, Community-Manager)",
+  "C": "Community oder Zuarbeit anderer Sitzung",
+  "O": "Sichtung ohne Zahl"
+ },
+ "status_format": "optics[].status: ein Code; community_sources[].status: Liste der zutreffenden Codes, z. B. [\"B\", \"S\"] = Entwickleraussage über eine Sekundärquelle; status_note erläutert",
+ "see_through": {
+  "A": "2D-Vollbild, außen schwarz, Waffe weg",
+  "B": "HUD-Überlagerung, Waffe weg, Welt abgedunkelt",
+  "C": "3D-Visier, eine Kamera",
+  "D": "3D-Visier mit eigenem Linsenbild (PiP)",
+  "E": "kein Zielen"
+ },
+ "sources": {
+  "1ERmScNiOk4": {
+   "channel": "DFP",
+   "upload_date": "2023-02-09",
+   "title": "Destiny 2 – Saint's Scout",
+   "fps": 60,
+   "url": "https://www.youtube.com/watch?v=1ERmScNiOk4"
+  },
+  "MkkQa1OIpDk": {
+   "channel": "Jumping Puzzle",
+   "upload_date": "2015-03-05",
+   "title": "Destiny Scout Rifle Scope comparison (Destiny 1)",
+   "fps": 30,
+   "url": "https://www.youtube.com/watch?v=MkkQa1OIpDk"
+  },
+  "IG-GZ72Vbi0": {
+   "channel": "Ultraclocked",
+   "upload_date": "2020-02-14",
+   "title": "Destiny 2 – Titan Legendaries (SUROS)",
+   "fps": 60,
+   "url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0"
+  },
+  "73lGCT7yOtk": {
+   "channel": "Ultraclocked",
+   "upload_date": "2020-01-25",
+   "title": "Destiny 2 – EDZ Legendaries (Häkke)",
+   "fps": 60,
+   "url": "https://www.youtube.com/watch?v=73lGCT7yOtk"
+  },
+  "afs_dhFDhQU": {
+   "channel": "Ultraclocked",
+   "upload_date": "2020-02-09",
+   "title": "Destiny 2 – Io Legendaries (VEIST)",
+   "fps": 60,
+   "url": "https://www.youtube.com/watch?v=afs_dhFDhQU"
+  },
+  "6TV5PKyv-Kk": {
+   "channel": "Ultraclocked",
+   "upload_date": "2022-12-18",
+   "title": "Destiny 2 – Spire of the Watcher (Tex Mechanica)",
+   "fps": 60,
+   "url": "https://www.youtube.com/watch?v=6TV5PKyv-Kk"
+  },
+  "QxZAflLtJRQ": {
+   "channel": "soda",
+   "upload_date": "2026-06-04",
+   "title": "All Marathon (2026) Weapon Animations (Season 1)",
+   "fps": 60,
+   "url": "https://www.youtube.com/watch?v=QxZAflLtJRQ"
+  },
+  "FEW1ZkadfM8": {
+   "channel": "Aculite",
+   "upload_date": "2026-03-01",
+   "title": "Thermal Sniping in Marathon",
+   "fps": 60,
+   "url": "https://www.youtube.com/watch?v=FEW1ZkadfM8"
+  },
+  "UetKaZiF9uA": {
+   "channel": "ClawZ",
+   "upload_date": "2020-11-25",
+   "title": "Apex Legends R-301 Skin Showcase [ALL OPTICS]",
+   "fps": 30,
+   "url": "https://www.youtube.com/watch?v=UetKaZiF9uA"
+  },
+  "gCQHKNsIU9w": {
+   "channel": "Skeptation",
+   "upload_date": "2021-11-08",
+   "title": "Every single optic on the Kraber (R5Reloaded mod client)",
+   "fps": 60,
+   "url": "https://www.youtube.com/watch?v=gCQHKNsIU9w"
+  },
+  "enyEjb4dXU8": {
+   "channel": "SammyBoiii: FPS",
+   "upload_date": "2022-02-17",
+   "title": "This shows EXACTLY how Scopes work in BF2042",
+   "fps": 60,
+   "url": "https://www.youtube.com/watch?v=enyEjb4dXU8"
+  },
+  "q2j9kG3S4vA": {
+   "channel": "WiciuXshooter",
+   "upload_date": "2018-08-30",
+   "title": "BF4 All Sights And Scopes",
+   "fps": 30,
+   "url": "https://www.youtube.com/watch?v=q2j9kG3S4vA"
+  },
+  "KOj-CAzkwTc": {
+   "channel": "TheXclusiveAce",
+   "upload_date": "2025-11-07",
+   "title": "Which Optic is Best for You in Battlefield 6?",
+   "fps": 60,
+   "url": "https://www.youtube.com/watch?v=KOj-CAzkwTc"
+  },
+  "qI_IWMuH_Zs": {
+   "channel": "Hoodiewaffles",
+   "upload_date": "2020-08-18",
+   "title": "All Unique Optics in Modern Warfare",
+   "fps": 30,
+   "url": "https://www.youtube.com/watch?v=qI_IWMuH_Zs"
+  },
+  "ZfNuA5r-470": {
+   "channel": "Abyssopelagic",
+   "upload_date": "2021-07-30",
+   "title": "Halo Infinite Technical Preview – All Weapons",
+   "fps": 60,
+   "url": "https://www.youtube.com/watch?v=ZfNuA5r-470"
+  },
+  "X_ADv1HMwkg": {
+   "channel": "Weapons From Games",
+   "upload_date": "2020-07-14",
+   "title": "HALO 3 PC – ALL WEAPONS",
+   "fps": 60,
+   "url": "https://www.youtube.com/watch?v=X_ADv1HMwkg"
+  },
+  "4sDwTD9U8bw": {
+   "channel": "Weapons From Games",
+   "upload_date": null,
+   "title": "Titanfall 2 – All Weapons Showcase",
+   "fps": 60,
+   "url": "https://www.youtube.com/watch?v=4sDwTD9U8bw"
+  },
+  "Ny7bw5dXwPo": {
+   "channel": "Kat",
+   "upload_date": "2023-07-11",
+   "title": "Titanfall's AMAZING Optics (Titanfall 2014)",
+   "fps": 60,
+   "url": "https://www.youtube.com/watch?v=Ny7bw5dXwPo"
+  },
+  "WH5xpA7tfY8": {
+   "channel": "Skovos",
+   "upload_date": null,
+   "title": "Valorant: Weapons and Guns Guide + Alternate Fire",
+   "fps": 30,
+   "url": "https://www.youtube.com/watch?v=WH5xpA7tfY8"
+  },
+  "Wib_5yd2mWk": {
+   "channel": "BeastModPlayer",
+   "upload_date": "2024-04-15",
+   "title": "Ranking EVERY Weapon Sight In R6",
+   "fps": 60,
+   "url": "https://www.youtube.com/watch?v=Wib_5yd2mWk"
+  },
+  "fIscQmMHys4": {
+   "channel": "NartOutHere",
+   "upload_date": "2025-05-02",
+   "title": "The AUG Is BACK in CS2",
+   "fps": 60,
+   "url": "https://www.youtube.com/watch?v=fIscQmMHys4"
+  },
+  "B3N6sjRF1bg": {
+   "channel": "d0cc two",
+   "upload_date": "2025-06-29",
+   "title": "CS2 Faceit (AWP)",
+   "fps": 60,
+   "url": "https://www.youtube.com/watch?v=B3N6sjRF1bg"
+  },
+  "Qh7gYQpSq0Y": {
+   "channel": "iFaiiLed",
+   "upload_date": "2022-11-07",
+   "title": "Overwatch 2 Widowmaker",
+   "fps": 60,
+   "url": "https://www.youtube.com/watch?v=Qh7gYQpSq0Y"
+  },
+  "NH0Qs8EXWOY": {
+   "channel": "lonesomary",
+   "upload_date": "2025-06-08",
+   "title": "Overwatch 2 Ashe",
+   "fps": 60,
+   "url": "https://www.youtube.com/watch?v=NH0Qs8EXWOY"
+  },
+  "ILLTAgWBT4w": {
+   "channel": "HazedNConfused",
+   "upload_date": "2025-09-17",
+   "title": "The Finals – Season 8 Sight Review",
+   "fps": 60,
+   "url": "https://www.youtube.com/watch?v=ILLTAgWBT4w"
+  },
+  "VawsGNra7tg": {
+   "channel": "Jumpycode",
+   "upload_date": "2026-10-20",
+   "title": "Helldivers 2 – Scope of Authority",
+   "fps": 60,
+   "url": "https://www.youtube.com/watch?v=VawsGNra7tg"
+  },
+  "aGkRvi6V0O8": {
+   "channel": "Syrekx",
+   "upload_date": "2023-09-30",
+   "title": "Escape from Tarkov – all scopes",
+   "fps": 60,
+   "url": "https://www.youtube.com/watch?v=aGkRvi6V0O8"
+  },
+  "61ikyEt9CM8": {
+   "channel": "Sick Snipes",
+   "upload_date": "2021-09-28",
+   "title": "Insurgency Sandstorm scopes",
+   "fps": 60,
+   "url": "https://www.youtube.com/watch?v=61ikyEt9CM8"
+  },
+  "Nwp4VJWUujY": {
+   "channel": "Agent Lomax",
+   "upload_date": "2019-10-02",
+   "title": "Borderlands 3 Parts Guide – Vladof AR",
+   "fps": 60,
+   "url": "https://www.youtube.com/watch?v=Nwp4VJWUujY"
+  },
+  "3T2UZUYPzEc": {
+   "channel": "Agent Lomax",
+   "upload_date": "2020-03-15",
+   "title": "Borderlands 3 Parts Guide – Hyperion Sniper",
+   "fps": 60,
+   "url": "https://www.youtube.com/watch?v=3T2UZUYPzEc"
+  },
+  "crGei3_OARY": {
+   "channel": "Akooma",
+   "upload_date": "2020-12-16",
+   "title": "Cyberpunk 2077 Scope Comparison",
+   "fps": 60,
+   "url": "https://www.youtube.com/watch?v=crGei3_OARY"
+  },
+  "te0K_V1U2ok": {
+   "channel": "MCGamerCZ",
+   "upload_date": "2015-12-28",
+   "title": "Warframe U18 Sniper Rework",
+   "fps": 50,
+   "url": "https://www.youtube.com/watch?v=te0K_V1U2ok"
+  },
+  "MlK0E83JfEE": {
+   "channel": "TayXDc",
+   "upload_date": "2025-11-03",
+   "title": "Arc Raiders – All Weapons Showcase",
+   "fps": 60,
+   "url": "https://www.youtube.com/watch?v=MlK0E83JfEE"
+  },
+  "MM9db665Urg": {
+   "channel": "Tigerfield",
+   "upload_date": null,
+   "title": "SNIPER SCOPE – Comparison in 100 Games",
+   "fps": 60,
+   "url": "https://www.youtube.com/watch?v=MM9db665Urg"
+  }
+ },
+ "optics": [
+  {
+   "game": "Destiny 2",
+   "optic": "Scout-Ring (Patron of Lost Causes)",
+   "class": "scout",
+   "see_through": "C",
+   "aperture_w_pct": 20.8,
+   "housing_w_pct": 26.9,
+   "frame_ratio": 0.15,
+   "world_zoom_image_scale": 2.0,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": 0.22,
+   "status": "M",
+   "source": {
+    "channel": "DFP",
+    "youtube_id": "1ERmScNiOk4",
+    "upload_date": "2023-02-09",
+    "t_s": "244.5",
+    "fps": 60
+   },
+   "note": "Öffnung 36 % H, außen 46 % H; ADS 0,20–0,25 s, aus 2–3 Bilder Schnitt; Rohr liegt direkt auf dem Gehäuse"
+  },
+  {
+   "game": "Destiny 2",
+   "optic": "Kasten-Reflex (Waffe unbekannt)",
+   "class": "unknown",
+   "see_through": "C",
+   "aperture_w_pct": 19.8,
+   "housing_w_pct": 23.0,
+   "frame_ratio": 0.08,
+   "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": null,
+   "status": "M",
+   "source": {
+    "channel": "DFP",
+    "youtube_id": "1ERmScNiOk4",
+    "upload_date": "2023-02-09",
+    "t_s": "514.2",
+    "fps": 60
+   },
+   "note": "abgerundetes Rechteck, 25,6 % H Öffnung"
+  },
+  {
+   "game": "Destiny 2",
+   "optic": "SUROS-Glas Foggy Notion",
+   "class": "smg",
+   "see_through": "C",
+   "aperture_w_pct": 11.5,
+   "housing_w_pct": null,
+   "frame_ratio": null,
+   "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": null,
+   "status": "M",
+   "source": {
+    "channel": "Ultraclocked",
+    "youtube_id": "IG-GZ72Vbi0",
+    "upload_date": "2020-02-14",
+    "t_s": "207",
+    "fps": 60
+   },
+   "note": "glasloses Rundrechteck 20 × 28,8 % H, Linie 2–3 px, Munitionszähler"
+  },
+  {
+   "game": "Destiny 2",
+   "optic": "Häkke-Ring Call to Serve",
+   "class": "scout",
+   "see_through": "C",
+   "aperture_w_pct": 12.0,
+   "housing_w_pct": null,
+   "frame_ratio": 0.06,
+   "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": null,
+   "status": "M",
+   "source": {
+    "channel": "Ultraclocked",
+    "youtube_id": "73lGCT7yOtk",
+    "upload_date": "2020-01-25",
+    "t_s": "131",
+    "fps": 60
+   },
+   "note": "Ring Ø 22 % H, Strich 1,4 % H, Lücke oben, dünner Pfosten"
+  },
+  {
+   "game": "Destiny 2",
+   "optic": "Häkke-Ring Eystein-D",
+   "class": "pulse",
+   "see_through": "C",
+   "aperture_w_pct": null,
+   "housing_w_pct": null,
+   "frame_ratio": null,
+   "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": null,
+   "status": "M",
+   "source": {
+    "channel": "Ultraclocked",
+    "youtube_id": "73lGCT7yOtk",
+    "upload_date": "2020-01-25",
+    "t_s": "251",
+    "fps": 60
+   },
+   "note": "geschlossener dunkler Ring Ø 30,7 % H, Strich ≈ 3 % H"
+  },
+  {
+   "game": "Destiny 2",
+   "optic": "Tex Mechanica Long Arm (Korn mit Schutzflügeln)",
+   "class": "scout",
+   "see_through": "C",
+   "aperture_w_pct": 3.0,
+   "housing_w_pct": 12.0,
+   "frame_ratio": null,
+   "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": null,
+   "status": "C",
+   "source": {
+    "channel": "Ultraclocked",
+    "youtube_id": "6TV5PKyv-Kk",
+    "upload_date": "2022-12-18",
+    "t_s": "25",
+    "fps": 60
+   },
+   "note": "Antigravity, am Bild nachgeprüft"
+  },
+  {
+   "game": "Destiny 1",
+   "optic": "Ranged Lens RLR5",
+   "class": "scout",
+   "see_through": "C",
+   "aperture_w_pct": 24.0,
+   "housing_w_pct": 31.6,
+   "frame_ratio": 0.15,
+   "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": null,
+   "status": "M",
+   "source": {
+    "channel": "Jumping Puzzle",
+    "youtube_id": "MkkQa1OIpDk",
+    "upload_date": "2015-03-05",
+    "t_s": "223",
+    "fps": 30
+   },
+   "note": "Einblendung Zoom 2,8× [S]; Welt außen unscharf"
+  },
+  {
+   "game": "Destiny 1",
+   "optic": "Focus Lens FLA5",
+   "class": "scout",
+   "see_through": "C",
+   "aperture_w_pct": 25.6,
+   "housing_w_pct": 33.5,
+   "frame_ratio": 0.18,
+   "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": null,
+   "status": "M",
+   "source": {
+    "channel": "Jumping Puzzle",
+    "youtube_id": "MkkQa1OIpDk",
+    "upload_date": "2015-03-05",
+    "t_s": "272",
+    "fps": 30
+   },
+   "note": "Kasten mit Rundloch"
+  },
+  {
+   "game": "Destiny 1",
+   "optic": "Rotpunkt-Kasten OAS",
+   "class": "scout",
+   "see_through": "C",
+   "aperture_w_pct": 17.5,
+   "housing_w_pct": 23.4,
+   "frame_ratio": null,
+   "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": null,
+   "status": "M",
+   "source": {
+    "channel": "Jumping Puzzle",
+    "youtube_id": "MkkQa1OIpDk",
+    "upload_date": "2015-03-05",
+    "t_s": "115.5",
+    "fps": 30
+   },
+   "note": "Rahmen/Öffnung seitlich 0,10–0,23; oben 1,8 % H, unten dick mit Stellrädern"
+  },
+  {
+   "game": "Marathon",
+   "optic": "V22 Volt Thrower Display-Reflex",
+   "class": "smg",
+   "see_through": "C",
+   "aperture_w_pct": 22.0,
+   "housing_w_pct": 25.0,
+   "frame_ratio": 0.07,
+   "world_zoom_image_scale": 1.0,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": null,
+   "status": "M",
+   "source": {
+    "channel": "soda",
+    "youtube_id": "QxZAflLtJRQ",
+    "upload_date": "2026-06-04",
+    "t_s": "150",
+    "fps": 60
+   },
+   "note": "Anzeige im Glas"
+  },
+  {
+   "game": "Marathon",
+   "optic": "Ares RG Display",
+   "class": "rifle",
+   "see_through": "C",
+   "aperture_w_pct": 25.0,
+   "housing_w_pct": 34.5,
+   "frame_ratio": 0.18,
+   "world_zoom_image_scale": 1.0,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": 0.25,
+   "status": "M",
+   "source": {
+    "channel": "soda",
+    "youtube_id": "QxZAflLtJRQ",
+    "upload_date": "2026-06-04",
+    "t_s": "800",
+    "fps": 60
+   },
+   "note": "Pixel-Sockel"
+  },
+  {
+   "game": "Marathon",
+   "optic": "Stryder M1T Ring",
+   "class": "rifle",
+   "see_through": "C",
+   "aperture_w_pct": 9.0,
+   "housing_w_pct": 13.8,
+   "frame_ratio": 0.26,
+   "world_zoom_image_scale": 1.0,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": null,
+   "status": "M",
+   "source": {
+    "channel": "soda",
+    "youtube_id": "QxZAflLtJRQ",
+    "upload_date": "2026-06-04",
+    "t_s": "676",
+    "fps": 60
+   },
+   "note": null
+  },
+  {
+   "game": "Marathon",
+   "optic": "V75 Scar Kimme",
+   "class": "rifle",
+   "see_through": "C",
+   "aperture_w_pct": 14.0,
+   "housing_w_pct": 24.0,
+   "frame_ratio": null,
+   "world_zoom_image_scale": 1.0,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": 0.18,
+   "status": "M",
+   "source": {
+    "channel": "soda",
+    "youtube_id": "QxZAflLtJRQ",
+    "upload_date": "2026-06-04",
+    "t_s": "364.45",
+    "fps": 60
+   },
+   "note": "Treppenkontur"
+  },
+  {
+   "game": "Marathon",
+   "optic": "Longshot Zielfernrohr",
+   "class": "sniper",
+   "see_through": "A",
+   "aperture_w_pct": 82.0,
+   "housing_w_pct": null,
+   "frame_ratio": null,
+   "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": null,
+   "status": "M",
+   "source": {
+    "channel": "soda",
+    "youtube_id": "QxZAflLtJRQ",
+    "upload_date": "2026-06-04",
+    "t_s": "734",
+    "fps": 60
+   },
+   "note": "Rundrechteck, teal; Weltzoom ≈ 4–5 [O]"
+  },
+  {
+   "game": "Apex Legends",
+   "optic": "1× HCOG Classic",
+   "class": "rifle",
+   "see_through": "C",
+   "aperture_w_pct": 15.0,
+   "housing_w_pct": null,
+   "frame_ratio": 0.07,
+   "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": null,
+   "status": "M",
+   "source": {
+    "channel": "ClawZ",
+    "youtube_id": "UetKaZiF9uA",
+    "upload_date": "2020-11-25",
+    "t_s": "75",
+    "fps": 30
+   },
+   "note": "Leuchtring"
+  },
+  {
+   "game": "Apex Legends",
+   "optic": "1–2× Variable Holo",
+   "class": "rifle",
+   "see_through": "C",
+   "aperture_w_pct": 18.0,
+   "housing_w_pct": null,
+   "frame_ratio": 0.05,
+   "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": null,
+   "status": "M",
+   "source": {
+    "channel": "ClawZ",
+    "youtube_id": "UetKaZiF9uA",
+    "upload_date": "2020-11-25",
+    "t_s": "87.5",
+    "fps": 30
+   },
+   "note": "Fenster bleibt bei 2× gleich groß"
+  },
+  {
+   "game": "Apex Legends",
+   "optic": "3× HCOG Ranger",
+   "class": "sniper",
+   "see_through": "C",
+   "aperture_w_pct": 26.0,
+   "housing_w_pct": 37.0,
+   "frame_ratio": 0.21,
+   "world_zoom_image_scale": 2.5,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": 0.2,
+   "status": "M",
+   "source": {
+    "channel": "Skeptation",
+    "youtube_id": "gCQHKNsIU9w",
+    "upload_date": "2021-11-08",
+    "t_s": "28.5",
+    "fps": 60
+   },
+   "note": "Glas 2,43 = außen 2,51 (eine Kamera); Mod-Client"
+  },
+  {
+   "game": "Battlefield 2042",
+   "optic": "Rotpunkt",
+   "class": "rifle",
+   "see_through": "C",
+   "aperture_w_pct": 9.4,
+   "housing_w_pct": 11.0,
+   "frame_ratio": 0.1,
+   "world_zoom_image_scale": 1.68,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": 0.133,
+   "status": "M",
+   "source": {
+    "channel": "SammyBoiii: FPS",
+    "youtube_id": "enyEjb4dXU8",
+    "upload_date": "2022-02-17",
+    "t_s": "40.07",
+    "fps": 60
+   },
+   "note": null
+  },
+  {
+   "game": "Battlefield 2042",
+   "optic": "mittleres Zielfernrohr",
+   "class": "rifle",
+   "see_through": "C",
+   "aperture_w_pct": 23.0,
+   "housing_w_pct": 38.0,
+   "frame_ratio": 0.33,
+   "world_zoom_image_scale": 3.86,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": null,
+   "status": "M",
+   "source": {
+    "channel": "SammyBoiii: FPS",
+    "youtube_id": "enyEjb4dXU8",
+    "upload_date": "2022-02-17",
+    "t_s": "122.8",
+    "fps": 60
+   },
+   "note": "Glas 3,83 = außen; Welt außen tiefenunscharf"
+  },
+  {
+   "game": "Battlefield 2042",
+   "optic": "Scharfschützen-ZF",
+   "class": "sniper",
+   "see_through": "C",
+   "aperture_w_pct": null,
+   "housing_w_pct": null,
+   "frame_ratio": null,
+   "world_zoom_image_scale": 8.8,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": 0.35,
+   "status": "M",
+   "source": {
+    "channel": "SammyBoiii: FPS",
+    "youtube_id": "enyEjb4dXU8",
+    "upload_date": "2022-02-17",
+    "t_s": "128.81",
+    "fps": 60
+   },
+   "note": "3D, kein Vollbild; Endzoom ≥ 8,8"
+  },
+  {
+   "game": "Battlefield 4",
+   "optic": "Holo EOTech",
+   "class": "rifle",
+   "see_through": "C",
+   "aperture_w_pct": 23.0,
+   "housing_w_pct": 39.0,
+   "frame_ratio": 0.35,
+   "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": null,
+   "status": "M",
+   "source": {
+    "channel": "WiciuXshooter",
+    "youtube_id": "q2j9kG3S4vA",
+    "upload_date": "2018-08-30",
+    "t_s": "17",
+    "fps": 30
+   },
+   "note": "klobig: Rahmen 8 % B je Seite"
+  },
+  {
+   "game": "Battlefield 4",
+   "optic": "M145 3,4×",
+   "class": "rifle",
+   "see_through": "C",
+   "aperture_w_pct": 30.0,
+   "housing_w_pct": 60.0,
+   "frame_ratio": 0.5,
+   "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": null,
+   "status": "M",
+   "source": {
+    "channel": "WiciuXshooter",
+    "youtube_id": "q2j9kG3S4vA",
+    "upload_date": "2018-08-30",
+    "t_s": "107",
+    "fps": 30
+   },
+   "note": "Tunnelring"
+  },
+  {
+   "game": "Battlefield 4",
+   "optic": "Scharfschütze 6–40×",
+   "class": "sniper",
+   "see_through": "A",
+   "aperture_w_pct": 45.0,
+   "housing_w_pct": null,
+   "frame_ratio": null,
+   "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": null,
+   "status": "M",
+   "source": {
+    "channel": "WiciuXshooter",
+    "youtube_id": "q2j9kG3S4vA",
+    "upload_date": "2018-08-30",
+    "t_s": "221",
+    "fps": 30
+   },
+   "note": "Kreis ≈ 80 % H"
+  },
+  {
+   "game": "Call of Duty MW2019",
+   "optic": "Cronen 2x2 Elite",
+   "class": "rifle",
+   "see_through": "C",
+   "aperture_w_pct": 22.0,
+   "housing_w_pct": 30.0,
+   "frame_ratio": 0.18,
+   "world_zoom_image_scale": 2.9,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": null,
+   "status": "M",
+   "source": {
+    "channel": "Hoodiewaffles",
+    "youtube_id": "qI_IWMuH_Zs",
+    "upload_date": "2020-08-18",
+    "t_s": "15.2",
+    "fps": 30
+   },
+   "note": "30/s – keine Zeit"
+  },
+  {
+   "game": "Halo Infinite",
+   "optic": "Commando 3,0×",
+   "class": "dmr",
+   "see_through": "B",
+   "aperture_w_pct": null,
+   "housing_w_pct": null,
+   "frame_ratio": null,
+   "world_zoom_image_scale": 4.15,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": null,
+   "status": "M",
+   "source": {
+    "channel": "Abyssopelagic",
+    "youtube_id": "ZfNuA5r-470",
+    "upload_date": "2021-07-30",
+    "t_s": "134.5",
+    "fps": 60
+   },
+   "note": "Waffe ausgeblendet, Schnitt"
+  },
+  {
+   "game": "Halo 3",
+   "optic": "Karabiner",
+   "class": "dmr",
+   "see_through": "B",
+   "aperture_w_pct": null,
+   "housing_w_pct": null,
+   "frame_ratio": null,
+   "world_zoom_image_scale": 2.33,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": null,
+   "status": "M",
+   "source": {
+    "channel": "Weapons From Games",
+    "youtube_id": "X_ADv1HMwkg",
+    "upload_date": "2020-07-14",
+    "t_s": "190.87",
+    "fps": 60
+   },
+   "note": "Schnitt in 1 Bild"
+  },
+  {
+   "game": "Titanfall 2",
+   "optic": "HCOG (R-101)",
+   "class": "rifle",
+   "see_through": "C",
+   "aperture_w_pct": 19.0,
+   "housing_w_pct": 28.0,
+   "frame_ratio": 0.24,
+   "world_zoom_image_scale": 1.0,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": 0.2,
+   "status": "M",
+   "source": {
+    "channel": "Weapons From Games",
+    "youtube_id": "4sDwTD9U8bw",
+    "upload_date": null,
+    "t_s": "187",
+    "fps": 60
+   },
+   "note": "kein Weltzoom"
+  },
+  {
+   "game": "Titanfall 2",
+   "optic": "Longbow/Kraber Zielfernrohr",
+   "class": "sniper",
+   "see_through": "A",
+   "aperture_w_pct": 65.0,
+   "housing_w_pct": null,
+   "frame_ratio": null,
+   "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": null,
+   "status": "M",
+   "source": {
+    "channel": "Weapons From Games",
+    "youtube_id": "4sDwTD9U8bw",
+    "upload_date": null,
+    "t_s": "590.2",
+    "fps": 60
+   },
+   "note": "Overlay ≤ 2 Bilder"
+  },
+  {
+   "game": "Titanfall (2014)",
+   "optic": "HCOG bei FOV 70/90/112",
+   "class": "rifle",
+   "see_through": "C",
+   "aperture_w_pct": 12.4,
+   "housing_w_pct": null,
+   "frame_ratio": null,
+   "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": null,
+   "status": "M",
+   "source": {
+    "channel": "Kat",
+    "youtube_id": "Ny7bw5dXwPo",
+    "upload_date": "2023-07-11",
+    "t_s": "6",
+    "fps": 60
+   },
+   "note": "14,1 / 15,7 % bei FOV 90 / 112"
+  },
+  {
+   "game": "Valorant",
+   "optic": "Operator",
+   "class": "sniper",
+   "see_through": "A",
+   "aperture_w_pct": 60.0,
+   "housing_w_pct": null,
+   "frame_ratio": null,
+   "world_zoom_image_scale": 3.34,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": null,
+   "status": "M",
+   "source": {
+    "channel": "Skovos",
+    "youtube_id": "WH5xpA7tfY8",
+    "upload_date": null,
+    "t_s": "430",
+    "fps": 30
+   },
+   "note": "Winkelzoom 2,5×"
+  },
+  {
+   "game": "Valorant",
+   "optic": "Phantom Kimme",
+   "class": "rifle",
+   "see_through": "C",
+   "aperture_w_pct": 10.0,
+   "housing_w_pct": 22.0,
+   "frame_ratio": null,
+   "world_zoom_image_scale": 1.44,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": null,
+   "status": "M",
+   "source": {
+    "channel": "Skovos",
+    "youtube_id": "WH5xpA7tfY8",
+    "upload_date": null,
+    "t_s": "369",
+    "fps": 30
+   },
+   "note": "Winkelzoom 1,25×"
+  },
+  {
+   "game": "Rainbow Six Siege",
+   "optic": "Reflex #4",
+   "class": "rifle",
+   "see_through": "C",
+   "aperture_w_pct": 11.0,
+   "housing_w_pct": 20.0,
+   "frame_ratio": 0.41,
+   "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": null,
+   "status": "M",
+   "source": {
+    "channel": "BeastModPlayer",
+    "youtube_id": "Wib_5yd2mWk",
+    "upload_date": "2024-04-15",
+    "t_s": "600",
+    "fps": 60
+   },
+   "note": "Zeit ±6 s"
+  },
+  {
+   "game": "Rainbow Six Siege",
+   "optic": "Ring-ZF #1",
+   "class": "rifle",
+   "see_through": "C",
+   "aperture_w_pct": 21.0,
+   "housing_w_pct": 33.0,
+   "frame_ratio": 0.29,
+   "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": null,
+   "status": "M",
+   "source": {
+    "channel": "BeastModPlayer",
+    "youtube_id": "Wib_5yd2mWk",
+    "upload_date": "2024-04-15",
+    "t_s": "710",
+    "fps": 60
+   },
+   "note": "Glas vergrößert [O]"
+  },
+  {
+   "game": "Counter-Strike: Global Offensive",
+   "optic": "AUG (Szene von 2018 im CS2-Video)",
+   "class": "rifle",
+   "see_through": "D",
+   "aperture_w_pct": 30.0,
+   "housing_w_pct": 67.0,
+   "frame_ratio": null,
+   "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": 2.65,
+   "ads_in_s": null,
+   "status": "M",
+   "source": {
+    "channel": "NartOutHere",
+    "youtube_id": "fIscQmMHys4",
+    "upload_date": "2025-05-02",
+    "t_s": "20",
+    "fps": 60
+   },
+   "note": "Glas gegen Hüfte 2,6–2,7; Außenmaßstab nicht gemessen"
+  },
+  {
+   "game": "Overwatch 2",
+   "optic": "Widowmaker",
+   "class": "sniper",
+   "see_through": "A",
+   "aperture_w_pct": 50.0,
+   "housing_w_pct": null,
+   "frame_ratio": null,
+   "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": null,
+   "status": "M",
+   "source": {
+    "channel": "iFaiiLed",
+    "youtube_id": "Qh7gYQpSq0Y",
+    "upload_date": "2022-11-07",
+    "t_s": "22.8",
+    "fps": 60
+   },
+   "note": "Weltzoom ≈ 6 [O] (Kamera nickte); Waffe weg innerhalb ≤ 0,1 s (nur 10/s abgetastet), Overlay 0,4–0,5 s"
+  },
+  {
+   "game": "The Finals",
+   "optic": "Magnifex Holo",
+   "class": "rifle",
+   "see_through": "D",
+   "aperture_w_pct": 15.6,
+   "housing_w_pct": 21.0,
+   "frame_ratio": 0.17,
+   "world_zoom_image_scale": 1.3,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": null,
+   "status": "M",
+   "source": {
+    "channel": "HazedNConfused",
+    "youtube_id": "ILLTAgWBT4w",
+    "upload_date": "2025-09-17",
+    "t_s": "291",
+    "fps": 60
+   },
+   "note": null
+  },
+  {
+   "game": "The Finals",
+   "optic": "PIKE-556 Zielfernrohr",
+   "class": "rifle",
+   "see_through": "D",
+   "aperture_w_pct": 33.0,
+   "housing_w_pct": 56.0,
+   "frame_ratio": 0.15,
+   "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": null,
+   "status": "M",
+   "source": {
+    "channel": "HazedNConfused",
+    "youtube_id": "ILLTAgWBT4w",
+    "upload_date": "2025-09-17",
+    "t_s": "63",
+    "fps": 60
+   },
+   "note": null
+  },
+  {
+   "game": "Helldivers 2",
+   "optic": "R-240 Sightliner",
+   "class": "sniper",
+   "see_through": "D",
+   "aperture_w_pct": 20.0,
+   "housing_w_pct": 27.0,
+   "frame_ratio": 0.15,
+   "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": null,
+   "status": "M",
+   "source": {
+    "channel": "Jumpycode",
+    "youtube_id": "VawsGNra7tg",
+    "upload_date": "2026-10-20",
+    "t_s": "113.77",
+    "fps": 60
+   },
+   "note": "Kamerasprung, Linse 5 Bilder schwarz"
+  },
+  {
+   "game": "Escape from Tarkov",
+   "optic": "ACOG TA01NSN",
+   "class": "rifle",
+   "see_through": "D",
+   "aperture_w_pct": 28.0,
+   "housing_w_pct": 51.0,
+   "frame_ratio": null,
+   "world_zoom_image_scale": 2.43,
+   "lens_zoom_vs_hip": 8.0,
+   "ads_in_s": null,
+   "status": "M",
+   "source": {
+    "channel": "Syrekx",
+    "youtube_id": "aGkRvi6V0O8",
+    "upload_date": "2023-09-30",
+    "t_s": "110",
+    "fps": 60
+   },
+   "note": "Glas gegen außen ×3,3"
+  },
+  {
+   "game": "Escape from Tarkov",
+   "optic": "PSO-1",
+   "class": "rifle",
+   "see_through": "D",
+   "aperture_w_pct": 28.0,
+   "housing_w_pct": 38.0,
+   "frame_ratio": null,
+   "world_zoom_image_scale": 2.43,
+   "lens_zoom_vs_hip": 8.8,
+   "ads_in_s": null,
+   "status": "M",
+   "source": {
+    "channel": "Syrekx",
+    "youtube_id": "aGkRvi6V0O8",
+    "upload_date": "2023-09-30",
+    "t_s": "493",
+    "fps": 60
+   },
+   "note": "Glas gegen außen ×3,6"
+  },
+  {
+   "game": "Escape from Tarkov",
+   "optic": "EOTech 553",
+   "class": "rifle",
+   "see_through": "C",
+   "aperture_w_pct": 12.0,
+   "housing_w_pct": 20.0,
+   "frame_ratio": null,
+   "world_zoom_image_scale": 1.3,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": null,
+   "status": "M",
+   "source": {
+    "channel": "Syrekx",
+    "youtube_id": "aGkRvi6V0O8",
+    "upload_date": "2023-09-30",
+    "t_s": "274",
+    "fps": 60
+   },
+   "note": null
+  },
+  {
+   "game": "Borderlands 3",
+   "optic": "Vladof 5,0× Zielfernrohr",
+   "class": "rifle",
+   "see_through": "A",
+   "aperture_w_pct": 93.0,
+   "housing_w_pct": null,
+   "frame_ratio": null,
+   "world_zoom_image_scale": 4.99,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": 0.35,
+   "status": "M",
+   "source": {
+    "channel": "Agent Lomax",
+    "youtube_id": "Nwp4VJWUujY",
+    "upload_date": "2019-10-02",
+    "t_s": "337",
+    "fps": 60
+   },
+   "note": "Teilname 5,0×"
+  },
+  {
+   "game": "Borderlands 3",
+   "optic": "Hyperion 4,4×",
+   "class": "sniper",
+   "see_through": "A",
+   "aperture_w_pct": null,
+   "housing_w_pct": null,
+   "frame_ratio": null,
+   "world_zoom_image_scale": 4.47,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": 0.65,
+   "status": "M",
+   "source": {
+    "channel": "Agent Lomax",
+    "youtube_id": "3T2UZUYPzEc",
+    "upload_date": "2020-03-15",
+    "t_s": "384",
+    "fps": 60
+   },
+   "note": null
+  },
+  {
+   "game": "Cyberpunk 2077",
+   "optic": "E305 Prospecta",
+   "class": "rifle",
+   "see_through": "D",
+   "aperture_w_pct": 41.0,
+   "housing_w_pct": 53.0,
+   "frame_ratio": null,
+   "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": null,
+   "status": "M",
+   "source": {
+    "channel": "Akooma",
+    "youtube_id": "crGei3_OARY",
+    "upload_date": "2020-12-16",
+    "t_s": "130",
+    "fps": 60
+   },
+   "note": "Glas stärker vergrößert [O]"
+  },
+  {
+   "game": "Warframe",
+   "optic": "Vulkar Overlay",
+   "class": "sniper",
+   "see_through": "A",
+   "aperture_w_pct": 62.0,
+   "housing_w_pct": null,
+   "frame_ratio": null,
+   "world_zoom_image_scale": 2.8,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": null,
+   "status": "M",
+   "source": {
+    "channel": "MCGamerCZ",
+    "youtube_id": "te0K_V1U2ok",
+    "upload_date": "2015-12-28",
+    "t_s": "168",
+    "fps": 50
+   },
+   "note": null
+  },
+  {
+   "game": "Arc Raiders",
+   "optic": "Osprey Zielfernrohr",
+   "class": "sniper",
+   "see_through": "A",
+   "aperture_w_pct": 50.0,
+   "housing_w_pct": null,
+   "frame_ratio": null,
+   "world_zoom_image_scale": null,
+   "lens_zoom_vs_hip": null,
+   "ads_in_s": null,
+   "status": "M",
+   "source": {
+    "channel": "TayXDc",
+    "youtube_id": "MlK0E83JfEE",
+    "upload_date": "2025-11-03",
+    "t_s": "332",
+    "fps": 60
+   },
+   "note": "Weltzoom ≈ 4–6 [O]"
+  }
+ ],
+ "sniper_catalog_100_games": {
+  "source": "MM9db665Urg",
+  "games": 100,
+  "assignments": 101,
+  "note": "Rising Storm 2: Vietnam zeigt zwei Zielfernrohre",
+  "A": 53,
+  "B": 6,
+  "C": 36,
+  "D": 5,
+  "E": 1,
+  "by_period": {
+   "bis 2005": [
+    12,
+    2,
+    0,
+    0,
+    1
+   ],
+   "2006-2009": [
+    15,
+    1,
+    5,
+    0,
+    0
+   ],
+   "2010-2013": [
+    15,
+    0,
+    9,
+    1,
+    0
+   ],
+   "2014-2016": [
+    4,
+    3,
+    10,
+    1,
+    0
+   ],
+   "2017-2020": [
+    7,
+    0,
+    12,
+    3,
+    0
+   ]
+  },
+  "order": "A, B, C, D, E"
+ },
+ "ranges": {
+  "open_sight_aperture_w_pct": {
+   "Destiny 2": [
+    12,
+    20
+   ],
+   "Apex": [
+    15,
+    18
+   ],
+   "Marathon": [
+    15,
+    25
+   ],
+   "The Finals": [
+    16,
+    18
+   ],
+   "BF2042": [
+    9,
+    9
+   ],
+   "BF4": [
+    20,
+    24
+   ],
+   "Siege": [
+    11,
+    16
+   ],
+   "Tarkov": [
+    12,
+    12
+   ]
+  },
+  "scope_aperture_w_pct": {
+   "Destiny 2": [
+    21,
+    21
+   ],
+   "Destiny 1": [
+    24,
+    26
+   ],
+   "Apex": [
+    26,
+    26
+   ],
+   "BF2042": [
+    23,
+    23
+   ],
+   "Helldivers 2": [
+    18,
+    21
+   ],
+   "The Finals": [
+    29,
+    33
+   ],
+   "Tarkov": [
+    28,
+    36
+   ]
+  },
+  "frame_ratio": {
+   "Destiny ring": [
+    0.15,
+    0.19
+   ],
+   "Destiny reflex box": [
+    0.08,
+    0.08
+   ],
+   "Destiny foundries (Antigravity)": [
+    0.08,
+    0.12
+   ],
+   "Marathon": [
+    0.07,
+    0.2
+   ],
+   "BF4 holo": [
+    0.35,
+    0.35
+   ],
+   "Siege reflex/holo": [
+    0.25,
+    0.41
+   ]
+  }
+ },
+ "basic_recommendations": [
+  "Form nach Visiertyp, Farbe nach Hersteller; Prisma-/Flachkasten nur als Variante",
+  "Rahmen ≤ 0,15 × Öffnung (Ring/ZF), ≤ 0,10 × Öffnung oder glaslos (Reflex/Holo); Haube oben offen oder sehr dünn",
+  "Öffnung im Zielen: Reflex 12–20 % B, Zielfernrohr 20–26 % B (außen ≤ 30 %); Bezugs-FOV festschreiben",
+  "Linse zeigt dasselbe Weltbild (eine Kamera; gemessen bei Apex/BF2042, bei Destiny offen), Welt außen scharf; ads_hide für Rohr/Okular behalten",
+  "Sockel als verjüngtes Trapez mit Fasen, Anzeigen unter der Visierlinie im Sockel",
+  "Weltzoom als Bildmaßstab angeben; Werte je Klasse liegen im beobachteten Bereich",
+  "Absehen fein, im Zielen kein Aufgehen, Ring beim Schuss, Farbe einstellbar",
+  "Glas Tönung ≤ 5 %, Leuchtring 2–5 % der Gehäusebreite, Gebrauchsspuren nur am Rand",
+  "Visier neutral dunkel mit einem Akzent"
+ ],
+ "community_sources": [
+  {
+   "id": "Q1",
+   "title": "EA Forum „Please give us option to turn off ADS blur“ (BF2042-Thread; nur Suchauszug)",
+   "url": "https://answers.ea.com/t5/General-Discussion/Please-give-us-option-to-turn-off-ADS-blur/td-p/11008137",
+   "date": "ca. 2021/22 (Thread ~4 J. alt)",
+   "status": [
+    "C"
+   ]
+  },
+  {
+   "id": "Q2",
+   "title": "Steam BF6 „Blurry mess, Even on overkill settings.“ (9 Kommentare)",
+   "url": "https://steamcommunity.com/app/2807960/discussions/0/811335793676341672/",
+   "date": "17.–23.10.2025",
+   "status": [
+    "C"
+   ]
+  },
+  {
+   "id": "Q3",
+   "title": "Steam BF6 „These red dots and scopes are breaking immersion“ (2 Kommentare)",
+   "url": "https://steamcommunity.com/app/2807960/discussions/0/599667545349443149/",
+   "date": "27.10.2025",
+   "status": [
+    "C"
+   ]
+  },
+  {
+   "id": "Q4",
+   "title": "EA Forum BF6 „Accessibility Issue for Colorblind Players: Red Dot Sight Color“ u. a. (nur Suchauszug)",
+   "url": "https://forums.ea.com/discussions/battlefield-6-general-discussion-en/accessibility-issue-for-colorblind-players-red-dot-sight-color/12765818",
+   "date": "ca. Herbst 2025",
+   "status": [
+    "C"
+   ]
+  },
+  {
+   "id": "Q5",
+   "title": "EA Forum BF6 „Why are the BF6 sniper scoped-in visuals so low resolution?“ (nur Suchauszug)",
+   "url": "https://forums.ea.com/discussions/battlefield-6-general-discussion-en/why-are-the-bf6-sniper-scoped-in-visuals-so-low-resolution/12801066",
+   "date": "ca. 2025/26",
+   "status": [
+    "C"
+   ]
+  },
+  {
+   "id": "Q6",
+   "title": "Steam BF2042 „sniper glint scope“",
+   "url": "https://steamcommunity.com/app/1517290/discussions/0/6393480947862232491/",
+   "date": "16.–19.10.2023",
+   "status": [
+    "C"
+   ]
+  },
+  {
+   "id": "Q7",
+   "title": "EA Community Update Tidal Strike (BF6): Reticles, Optics, Sights",
+   "url": "https://www.ea.com/games/battlefield/battlefield-6/news/battlefield-6-community-update-tidal-strike",
+   "date": "02.09.2026",
+   "status": [
+    "B"
+   ]
+  },
+  {
+   "id": "Q8",
+   "title": "EA BF6 Game Update 1.4.3.0 (Patchnotes)",
+   "url": "https://www.ea.com/games/battlefield/redsec/news/battlefield-6-game-update-1-4-3-0",
+   "date": "14./15.09.2026",
+   "status": [
+    "B"
+   ]
+  },
+  {
+   "id": "Q9",
+   "title": "GameGPU „Battlefield 6 … rework weapon sights“",
+   "url": "https://en.gamegpu.com/news/igry/battlefield-6-izmenit-balans-tsuru-reef-i-pererabotaet-oruzhejnye-pritsely",
+   "date": "03.09.2026",
+   "status": [
+    "S"
+   ]
+  },
+  {
+   "id": "Q10",
+   "title": "GamerBlurb „Battlefield 6 Scope Glint Guide“ (Dev-Aussage nur hier, Primärquelle nicht gefunden)",
+   "url": "https://gamerblurb.com/articles/battlefield-6-scope-glint-guide-what-scopes-have-glint",
+   "date": "8. Aug (Jahr nicht angegeben, vermutlich 2025)",
+   "status": [
+    "S"
+   ]
+  },
+  {
+   "id": "Q11",
+   "title": "Gamepressure BF4 Optics – Short Range (Guide)",
+   "url": "https://www.gamepressure.com/battlefield4/optics-short-range/z05a7c",
+   "date": "ca. 2013/14",
+   "status": [
+    "S"
+   ]
+  },
+  {
+   "id": "Q12",
+   "title": "Battlelog BF4 Forum „Ranking the optics“ (nur Suchauszug; Seite lud nicht)",
+   "url": "https://battlelog.battlefield.com/bf4/forum/threadview/2979150494029554549/",
+   "date": "ca. 2013/14",
+   "status": [
+    "C"
+   ]
+  },
+  {
+   "id": "Q13",
+   "title": "Steam Apex „HOLO/HCOG ?“ (12 Kommentare)",
+   "url": "https://steamcommunity.com/app/1172470/discussions/0/2998799976089011738/",
+   "date": "23.12.2020",
+   "status": [
+    "C"
+   ]
+  },
+  {
+   "id": "Q14",
+   "title": "EA Forum Apex „The sights in this game need some work“ (nur Suchauszug)",
+   "url": "https://forums.ea.com/discussions/apex-legends-feedback-en/the-sights-in-this-game-need-some-work/8552646",
+   "date": "ca. 2019",
+   "status": [
+    "C"
+   ]
+  },
+  {
+   "id": "Q15",
+   "title": "Gamepur „Best scopes in Apex Legends“",
+   "url": "https://www.gamepur.com/guides/best-scopes-in-apex-legends",
+   "date": "ca. 2021",
+   "status": [
+    "S"
+   ]
+  },
+  {
+   "id": "Q16",
+   "title": "caniplaythat.com: Apex Colorblind-Support/Reticle-Farbpresets (zitiert Respawn-Designer Justin Masse)",
+   "url": "https://caniplaythat.com/2021/07/21/apex-legends-colorblind-support-and-reticle-color-presets-are-in-the-works/",
+   "date": "21.07.2021 (Aussage 20.07.2021)",
+   "status": [
+    "B",
+    "S"
+   ],
+   "status_note": "über S"
+  },
+  {
+   "id": "Q17",
+   "title": "GameFAQs Titanfall 1 „HCOG is so unbearable“ (nur Suchauszug)",
+   "url": "https://gamefaqs.gamespot.com/boards/635381-titanfall/69046147",
+   "date": "unbekannt",
+   "status": [
+    "C"
+   ]
+  },
+  {
+   "id": "Q18",
+   "title": "Titanfall-Wiki „Weapon Attachments (Titanfall)“",
+   "url": "https://titanfall.fandom.com/wiki/Weapon_Attachments_(Titanfall)",
+   "date": "laufend",
+   "status": [
+    "S"
+   ]
+  },
+  {
+   "id": "Q19",
+   "title": "Sportskeeda „MW2 players on Reddit … humongous scope glints“ (nur Suchauszug)",
+   "url": "https://www.sportskeeda.com/esports/modern-warfare-2-players-reddit-frustrated-humongous-scope-glints-sniper-rifles",
+   "date": "ca. 2022/23",
+   "status": [
+    "S"
+   ],
+   "status_note": "Reddit-Zitate"
+  },
+  {
+   "id": "Q20",
+   "title": "Charlie INTEL „Warzone devs confirm plans to fix … no-glint Sniper Rifles“ / Dexerto Patchnotes 19.04.2021 (nur Suchauszug)",
+   "url": "https://www.dexerto.com/call-of-duty/warzone-update-april-19-sykov-nerf-sniper-glint-fix-more-1556833/",
+   "date": "04/2021",
+   "status": [
+    "B",
+    "S"
+   ]
+  },
+  {
+   "id": "Q21",
+   "title": "ONE Esports „best optics for better aim in MW2“",
+   "url": "https://www.oneesports.gg/call-of-duty/best-optics-dot-modern-warfare-2/",
+   "date": "27.07.2023",
+   "status": [
+    "S"
+   ]
+  },
+  {
+   "id": "Q22",
+   "title": "Sportskeeda MW2 Optik-Empfehlung Cronen Mini Pro vs. Corio RE-X Pro (nur Suchauszug)",
+   "url": "https://sportskeeda.com/esports/how-unlock-overpowered-blue-dot-optic-modern-warfare-2",
+   "date": "ca. 2022/23",
+   "status": [
+    "S"
+   ]
+  },
+  {
+   "id": "Q23",
+   "title": "Dexerto „Warzone 2 expert reveals powerful attachment nobody uses“ (SZ Recharge-DX)",
+   "url": "https://www.dexerto.com/call-of-duty/warzone-2-expert-reveals-powerful-attachment-nobody-uses-but-should-2132971/",
+   "date": "03.05.2023",
+   "status": [
+    "S"
+   ]
+  },
+  {
+   "id": "Q24",
+   "title": "Charlie INTEL „JAK Glassless Optic“ (Reddit-Zitate)",
+   "url": "https://www.charlieintel.com/call-of-duty/warzone-players-flock-to-new-mw3-optic-thanks-to-major-recoil-buffs-307985/",
+   "date": "29.02.2024",
+   "status": [
+    "S"
+   ]
+  },
+  {
+   "id": "Q25",
+   "title": "Mein-MMO „CoD MW3: A new sight … recoil appears lower“",
+   "url": "https://mein-mmo.de/en/cod-mw3-a-new-sight-is-immediately-used-in-the-strongest-meta-builds-because-your-recoil-appears-lower-due-to-it,1097259/",
+   "date": "29.02.2024",
+   "status": [
+    "S"
+   ]
+  },
+  {
+   "id": "Q26",
+   "title": "COD Fandom „JAK Glassless Optic“ (Spielbeschreibung, Stats)",
+   "url": "https://callofduty.fandom.com/wiki/JAK_Glassless_Optic",
+   "date": "ab 28.02.2024",
+   "status": [
+    "S"
+   ]
+  },
+  {
+   "id": "Q27",
+   "title": "GameRant „10 Best Black Ops 6 Sight Reticles, Ranked“",
+   "url": "https://gamerant.com/best-call-of-duty-black-ops-6-sight-reticles/",
+   "date": "07.01.2025",
+   "status": [
+    "S"
+   ]
+  },
+  {
+   "id": "Q28",
+   "title": "Call of Duty Patchnotes BO6/Warzone, Weapon Motion (10.12.2024), Wiedergabe durch Dexerto",
+   "url": "https://www.dexerto.com/call-of-duty/black-ops-6-dec-10-patch-notes-weapon-motion-changes-drastic-headshot-buffs-more-3003851/",
+   "date": "10.12.2024",
+   "status": [
+    "B",
+    "S"
+   ],
+   "status_note": "über S"
+  },
+  {
+   "id": "Q29",
+   "title": "Suchergebnis zu CoD-Grafikoptionen (World/Weapon Depth of Field, Motion Blur; Guides zu MW4)",
+   "url": "https://allthings.how/modern-warfare-4-how-to-change-fov-and-turn-off-motion-blur/",
+   "date": "2026",
+   "status": [
+    "S"
+   ]
+  },
+  {
+   "id": "Q30",
+   "title": "Guides zu ADS-FOV „Affected/Independent“ (Dexerto, Sportskeeda, gist.ly; keine IW-Primärquelle)",
+   "url": "https://www.dexerto.com/wikis/modern-warfare-4/best-fov-settings/",
+   "date": "2026",
+   "status": [
+    "S"
+   ]
+  },
+  {
+   "id": "Q31",
+   "title": "Bungie.net „Add Accessibility Options To Change Weapon Reticle Size & Color …“ (68 Antworten, CM-Antwort)",
+   "url": "https://www.bungie.net/en-US/Forums/Post/251109254",
+   "date": "25.–27.02.2019",
+   "status": [
+    "B",
+    "C"
+   ],
+   "status_note": "CM"
+  },
+  {
+   "id": "Q32",
+   "title": "Bungie.net „1000 yard stare, reticle color“ (ca. 20 Antworten)",
+   "url": "https://www.bungie.net/en/Forums/Post/260253808?page=0",
+   "date": "23.–26.12.2021",
+   "status": [
+    "C"
+   ]
+  },
+  {
+   "id": "Q33",
+   "title": "Bungie.net „Request for sights/scopes perk column …“ (1 Antwort)",
+   "url": "https://www.bungie.net/en/Forums/Post/264416418?sort=0&page=0&path=1",
+   "date": "zuletzt bearb. 19.12.2024",
+   "status": [
+    "C"
+   ]
+  },
+  {
+   "id": "Q34",
+   "title": "Bungie.net „Bring back sight perks“, „Choosable scopes for scouts“ (nur Suchauszug)",
+   "url": "https://www.bungie.net/en/Forums/Post/260991915",
+   "date": "ca. 2022",
+   "status": [
+    "C"
+   ]
+  },
+  {
+   "id": "Q35",
+   "title": "Steam Destiny 2 „Aim/ADS FOV“ (10 Kommentare)",
+   "url": "https://steamcommunity.com/app/1085660/discussions/0/3732953986138293938/",
+   "date": "05.–06.01.2023",
+   "status": [
+    "C"
+   ]
+  },
+  {
+   "id": "Q36",
+   "title": "Bungie „Season 21 Weapon Changes Preview“ (Reticle-Umbau; Suchauszug aus Rechercheantwort, Seite lud nicht)",
+   "url": "https://www.bungie.net/7/en/News/article/season_21_weapon_preview",
+   "date": "2023 (Season of the Deep)",
+   "status": [
+    "B"
+   ]
+  },
+  {
+   "id": "Q37",
+   "title": "Bungie „Dev Insights: Season 22 Weapons Preview“ (Zoom-Stat; nur Suchauszug)",
+   "url": "https://www.bungie.net/7/en/News/article/season-22-weapons-preview",
+   "date": "2023",
+   "status": [
+    "B"
+   ]
+  },
+  {
+   "id": "Q38",
+   "title": "Bungie Update 9.7.0.2 (Fix Sights Bad-Juju-Ornament; Armor-Ornamente verdecken Sicht; nur Suchauszug, Seite lud nicht)",
+   "url": "https://www.bungie.net/7/en/News/Article/destiny_update_9_7_0_2",
+   "date": "2026",
+   "status": [
+    "B"
+   ]
+  },
+  {
+   "id": "Q39",
+   "title": "GameSpot „Destiny 2 Gets More Accessibility Improvements In Season Of The Deep“ (nur Suchauszug)",
+   "url": "https://www.gamespot.com/articles/destiny-2-gets-more-accessibility-improvements-in-season-of-the-deep/1100-6513418/",
+   "date": "2023",
+   "status": [
+    "S"
+   ]
+  },
+  {
+   "id": "Q40",
+   "title": "NeoGAF „Obnoxious iron sights aka ADS in games“ (Destiny 1; nur Suchauszug)",
+   "url": "https://www.neogaf.com/threads/obnoxious-iron-sights-aka-ads-in-games.1052205/",
+   "date": "ca. 2015",
+   "status": [
+    "C"
+   ]
+  },
+  {
+   "id": "Q41",
+   "title": "Steam Insurgency: Sandstorm „Do you use picture-in-picture or normal scopes?“ (12 Kommentare)",
+   "url": "https://steamcommunity.com/app/581320/discussions/0/3199240042209104208/",
+   "date": "22.–24.11.2021",
+   "status": [
+    "C"
+   ]
+  },
+  {
+   "id": "Q42",
+   "title": "Steam Insurgency: Sandstorm „Blurry Scope?“",
+   "url": "https://steamcommunity.com/app/581320/discussions/0/2148721148466956629/",
+   "date": "28.03.2020",
+   "status": [
+    "C"
+   ]
+  },
+  {
+   "id": "Q43",
+   "title": "Steam Insurgency: Sandstorm „Scopes above 1x zoom massive issue.“ (10 Beiträge)",
+   "url": "https://steamcommunity.com/app/581320/discussions/0/3220528325741354066/",
+   "date": "02.10.2018",
+   "status": [
+    "C"
+   ]
+  },
+  {
+   "id": "Q44",
+   "title": "Steam Squad „Picture in picture scope“ (inkl. Entwickler Gatzby)",
+   "url": "https://steamcommunity.com/app/393380/discussions/0/1646544348827204120/",
+   "date": "unbekannt (Zeitstempel nicht angezeigt)",
+   "status": [
+    "B",
+    "C"
+   ],
+   "status_note": "Entwickler"
+  },
+  {
+   "id": "Q45",
+   "title": "Tarkov Community „Suggestion: Improve Scope Performance … Alternatives to Picture-in-Picture“ (nur Suchauszug)",
+   "url": "https://tarkov.community/posts/10696/suggestion-improve-scope-performance-and-explore-alternatives-to-picture-in-picture",
+   "date": "unbekannt",
+   "status": [
+    "C"
+   ]
+  },
+  {
+   "id": "Q46",
+   "title": "rifleconfigurator.com „Bodycam Game Guns“ (PiP vs Vollbild-Zoom, nur Suchauszug)",
+   "url": "https://www.rifleconfigurator.com/articles/bodycam-game-guns",
+   "date": "unbekannt",
+   "status": [
+    "S"
+   ]
+  },
+  {
+   "id": "Q47",
+   "title": "Dexerto Valorant 12.07 Patchnotes (Scope-Reticle-Konsistenz)",
+   "url": "https://www.dexerto.com/valorant/valorant-12-07-patch-notes-fix-scopes-aiming-issue-and-brings-discord-integration-3351639/",
+   "date": "unbekannt (Patch 12.07)",
+   "status": [
+    "B",
+    "S"
+   ],
+   "status_note": "über S"
+  },
+  {
+   "id": "Q48",
+   "title": "Halo Waypoint „Season 1 Outcomes Report“ (Zoom-Sensitivität)",
+   "url": "https://www.halowaypoint.com/news/season-1-outcomes-report",
+   "date": "2022",
+   "status": [
+    "B"
+   ]
+  },
+  {
+   "id": "Q49",
+   "title": "Steam Halo Infinite (Crosshair/FOV, Feb 2022, nur Suchauszug) und Sportskeeda „Halo Infinite fans want … reticle … customization“",
+   "url": "https://sportskeeda.com/esports/halo-infinite-fans-want-343-industries-bring-reticle-full-hud-customization-options-future-updates",
+   "date": "2021/22",
+   "status": [
+    "C",
+    "S"
+   ]
+  },
+  {
+   "id": "Q50",
+   "title": "Steam MCC „Aiming down sights“ (10 Beiträge)",
+   "url": "https://steamcommunity.com/app/976730/discussions/0/1657817111858496642/",
+   "date": "24.11.2019",
+   "status": [
+    "C"
+   ]
+  },
+  {
+   "id": "Q51",
+   "title": "Mouse-Sensitivity.com BF2042 (ADS-FOV/Zoomfaktoren; nur Suchauszug)",
+   "url": "https://www.mouse-sensitivity.com/forums/topic/7848-battlefield-2042/page/8/",
+   "date": "ca. 2021–2023",
+   "status": [
+    "C"
+   ]
+  }
+ ],
+ "not_taken": "Antigravity-Angaben zu Ready or Not, Delta Force, Payday 3, Crysis, Hunt, CoD 4 (Video-IDs gehören zu anderen Titeln/Kanälen); Spielerstimmen ohne prüfbare Adresse"
+}
