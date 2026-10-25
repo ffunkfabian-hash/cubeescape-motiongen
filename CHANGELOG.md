@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.27.0 „Statline“ – 2026-10-25
+
+- Neue Referenzanalyse [Waffenwerte](docs/waffenwerte.md) mit `data/waffenwerte.json`: 113 Destiny-2-Manifestgruppen (Kadenz, Magazin, sechs Stats) als unbewertete Rohdaten, das historische Schadens- und Handlingmodell von Patch 8.2.6 (43 Rahmen, 16 Kennlinien, veraltet) und zwölf Beispiele aus fünf Spielen (Destiny 2, Halo Infinite, Apex Legends, Valorant, Warzone) aus drei Videos (Codex-Mac, Ego-Bewegung R2, Thema Waffenwerte). Eine Messzeile in `docs/destiny2.md` › 2 (Anker `z-ww-karte`), Methode 25, drei Einträge in `data/clips.json`, Notiz in apex.md.
+- Befund (Beobachtung, Schlüsse in BASIC/Cube Escape): Menükarte (ausgerüstet, 2021) und Manifest-Basis (2026) liegen bei Chroma Rush und Gridskipper 1–25 Stat-Punkte auseinander; Stat-Zahlen sind keine Einheiten; Schwellen hängen am Entfernungsband (Phantom > 20 m, Sheriff > 30 m); ideale TTK ist eine Rechnung ab dem ersten Treffer; die Valorant-Ghost-Karte nannte 2020 Magazin 15 (API 2026: 13).
+- Abnahme: 3/3 Videos per yt-dlp, 113/113 Manifestgruppen, 43/43 Modellzeilen und 9/9 Vergleichszeilen nachgerechnet, 4 Nachmessungen an 2 Balkenzahlen; übernommen 122, **korrigiert 3** (Guardian-Deutung gestrichen, Halo-Status B + Rechnung), kopierte Bewertungsfelder und „wiederkehrend“ (C1/C2) verworfen. [Bericht](docs/versions/0.md#0270-statline--2026-10-25).
+
 ## 0.26.0 „Swapline“ – 2026-10-25
 
 - Neue Referenzanalyse [Ziehen, Wegstecken und Waffenwechsel](docs/wechsel.md) mit `data/wechsel.json`: 29 Beispiele aus Destiny 2 (14), Marathon (4), Apex (3, Erstaufheben), Valorant (3), Halo (2, nur Form) und Titanfall 2 (3, nur Form) aus 14 Videos (Codex-Mac, Ego-Bewegung Thema 2) – Wegstecken, leere Sicht, Ziehen bis zur ersten hüftähnlichen Passage und Ruhe in Bildern. Fünf Messzeilen in `docs/destiny2.md` › 2 (Anker `z-sw-…`), Methode 24, 14 Einträge in `data/clips.json`, Notizen in apex.md, titanfall2.md und auswertung.md.

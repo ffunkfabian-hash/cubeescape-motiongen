@@ -2410,5 +2410,23 @@
     "clip": "https://www.youtube.com/watch?v=GSzouZZwDgg",
     "source": "nonname123 (YouTube), 14.06.2021, 60 fps; Codex-Mac 25.10.2026, REF 0.26 „Swapline“ (Mac, 25.10.2026), docs/wechsel.md",
     "timestamps": "CV10 144,350–145,950 s; CV11 145,900–147,000 s; CV12 150,450–151,900 s"
+  },
+  {
+    "measurement": "Waffenwerte Destiny 2: Menü-Waffenkarte Chroma Rush (Handling-Balken 36,9 %, 720 RPM, Magazin 57)",
+    "clip": "https://www.youtube.com/watch?v=QxSa4m3wIEA",
+    "source": "Ultraclocked (YouTube), 15.05.2021, 60 fps; Codex-Mac 25.10.2026, REF 0.27 „Statline“ (Mac, 25.10.2026), docs/waffenwerte.md",
+    "timestamps": "M-01 Bild 60 (1,000 s)"
+  },
+  {
+    "measurement": "Waffenwerte Destiny 2: Menü-Waffenkarte Gridskipper (Handling-Balken 29,6 %, 540 RPM, Magazin 36)",
+    "clip": "https://www.youtube.com/watch?v=DFn14wAPluA",
+    "source": "Ultraclocked (YouTube), 13.05.2021, 60 fps; Codex-Mac 25.10.2026, REF 0.27 „Statline“ (Mac, 25.10.2026), docs/waffenwerte.md",
+    "timestamps": "M-02 Bild 60 (1,000 s)"
+  },
+  {
+    "measurement": "Waffenwerte Valorant: Ghost-Waffenkarte im Beta-Kaufmenü (6,75 Schuss/s, Magazin 15, Schaden je Zone) [O/S]",
+    "clip": "https://www.youtube.com/watch?v=WH5xpA7tfY8",
+    "source": "Skovos (YouTube), 18.04.2020, 30000/1001 fps; Codex-Mac 25.10.2026, REF 0.27 „Statline“ (Mac, 25.10.2026), docs/waffenwerte.md",
+    "timestamps": "O-VAL-VIDEO 01:00.000"
   }
 ]
