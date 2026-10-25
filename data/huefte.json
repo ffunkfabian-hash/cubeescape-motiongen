@@ -39,7 +39,7 @@
    "date_evidence": "Absolutes Datum im Suchauszug; geöffnete Reddit-Seite zeigt überwiegend relative Datierung.",
    "patch_context": "Autor nennt Waffen seit Episode Echoes; genaue Buildnummer und FOV unbekannt. Keine Prüfung der hier 2020/21 gemessenen Waffen.",
    "summary": "Kritik an hohen/großen Hüftmodellen; mehrere Waffen werden trotz positivem Spielgefühl wegen Sichtverdeckung gemieden.",
-   "recurrence": "Wiederkehrend in zwei getrennten Threads verschiedener Starter (C1/C2); keine populationsweite Aussage.",
+   "recurrence": "Zwei Threads verschiedener Starter in einer Woche zum selben Update (C1/C2) – nicht unabhängig wiederkehrend",
    "agreement": "Mehrere konkrete zustimmende Kommentare zur Sichtverdeckung.",
    "visible_score_at_search": {
     "post": 262,
@@ -47,7 +47,8 @@
     "counter_comment": 0
    },
    "score_caveat": "Scores stammen aus dem sichtbaren Suchauszug, nicht aus einer aktuellen Abstimmungsmessung; im geöffneten Seiten-Text fehlen die Scorezahlen.",
-   "counter": "Eine Gegenstimme sieht trotz großer Modelle gut; eine weitere mag Spielgefühl und Visier."
+   "counter": "Eine Gegenstimme sieht trotz großer Modelle gut; eine weitere mag Spielgefühl und Visier.",
+   "audit": "Reddit bei der Abnahme 25.10.2026 nicht abrufbar; Inhalt nicht nachgeprüft"
   },
   {
    "id": "C2",
@@ -62,13 +63,14 @@
    "date_evidence": "Absolutes Datum im Suchauszug; geöffnete Reddit-Seite zeigt überwiegend relative Datierung.",
    "patch_context": "Bericht über damalige Hard-Light-/VS-Chill-Inhibitor-Modelle; Buildnummer/FOV offen, zeitlich vier Jahre nach den älteren Messclips.",
    "summary": "Wünscht tiefere beziehungsweise einstellbare Modelle; bemängelt besonders rechte Sichtverdeckung und die zentrierte Zielpunktoption.",
-   "recurrence": "Wiederkehrend mit C1 in zwei Threads unterschiedlicher Starter.",
+   "recurrence": "Zwei Threads verschiedener Starter in einer Woche zum selben Update (C1/C2) – nicht unabhängig wiederkehrend",
    "agreement": "Mehrere Kommentare beschreiben ähnliche Beschwerden; ästhetisches Lob ist keine Zustimmung zur Verdeckung.",
    "visible_score_at_search": {
     "post": 536
    },
    "score_caveat": "Scores stammen aus dem sichtbaren Suchauszug, nicht aus einer aktuellen Abstimmungsmessung; im geöffneten Seiten-Text fehlen die Scorezahlen.",
-   "counter": "Keine direkte Gegenstimme zur Verdeckung im geprüften Abschnitt; ein Kommentar lobt das Aussehen des Visiers und nennt es zugleich groß."
+   "counter": "Keine direkte Gegenstimme zur Verdeckung im geprüften Abschnitt; ein Kommentar lobt das Aussehen des Visiers und nennt es zugleich groß.",
+   "audit": "Reddit bei der Abnahme 25.10.2026 nicht abrufbar; Inhalt nicht nachgeprüft"
   },
   {
    "id": "C3",
@@ -90,7 +92,8 @@
     "supporting_comment": 2
    },
    "score_caveat": "Scores stammen aus dem sichtbaren Suchauszug, nicht aus einer aktuellen Abstimmungsmessung; im geöffneten Seiten-Text fehlen die Scorezahlen.",
-   "counter": "Keine Gegenstimme im kurzen geladenen Thread gefunden."
+   "counter": "Keine Gegenstimme im kurzen geladenen Thread gefunden.",
+   "audit": "Reddit bei der Abnahme 25.10.2026 nicht abrufbar; Inhalt nicht nachgeprüft"
   },
   {
    "id": "C4",
@@ -112,7 +115,8 @@
     "personalization_reply": 4
    },
    "score_caveat": "Scores stammen aus dem sichtbaren Suchauszug, nicht aus einer aktuellen Abstimmungsmessung; im geöffneten Seiten-Text fehlen die Scorezahlen.",
-   "counter": "Ein Kommentar findet die starken Offsets merkwürdig; ein weiterer verschiebt nur große Powerwaffen."
+   "counter": "Ein Kommentar findet die starken Offsets merkwürdig; ein weiterer verschiebt nur große Powerwaffen.",
+   "audit": "Reddit bei der Abnahme 25.10.2026 nicht abrufbar; Inhalt nicht nachgeprüft"
   },
   {
    "id": "C5",
@@ -134,7 +138,8 @@
     "counter_comment": 1
    },
    "score_caveat": "Scores stammen aus dem sichtbaren Suchauszug, nicht aus einer aktuellen Abstimmungsmessung; im geöffneten Seiten-Text fehlen die Scorezahlen.",
-   "counter": "Antwort widerspricht dem behaupteten Realismusargument: eine angeschlagene Waffe werde tatsächlich nahe am Gesicht gehalten."
+   "counter": "Antwort widerspricht dem behaupteten Realismusargument: eine angeschlagene Waffe werde tatsächlich nahe am Gesicht gehalten.",
+   "audit": "Reddit bei der Abnahme 25.10.2026 nicht abrufbar; Inhalt nicht nachgeprüft"
   },
   {
    "id": "C6",
@@ -155,7 +160,8 @@
     "post": 4
    },
    "score_caveat": "Scores stammen aus dem sichtbaren Suchauszug, nicht aus einer aktuellen Abstimmungsmessung; im geöffneten Seiten-Text fehlen die Scorezahlen.",
-   "counter": "Antwort verweist auf ADS-FOV; Autor grenzt diese Funktion ausdrücklich vom Waffenmodell-FOV ab. Kein belegter Gegenbeweis zur persönlichen Präferenz."
+   "counter": "Antwort verweist auf ADS-FOV; Autor grenzt diese Funktion ausdrücklich vom Waffenmodell-FOV ab. Kein belegter Gegenbeweis zur persönlichen Präferenz.",
+   "audit": "Reddit bei der Abnahme 25.10.2026 nicht abrufbar; Inhalt nicht nachgeprüft"
   },
   {
    "id": "C7",
@@ -174,7 +180,8 @@
    "agreement": "Mehrere Beiträge vertreten beide Richtungen; keine medizinische Wirksamkeitsaussage.",
    "visible_score_at_search": null,
    "score_caveat": "Scores stammen aus dem sichtbaren Suchauszug, nicht aus einer aktuellen Abstimmungsmessung; im geöffneten Seiten-Text fehlen die Scorezahlen.",
-   "counter": "Befürwortern maximaler Weite stehen Nutzer mit 90/100 und Beschwerden über Fischaugeneindruck gegenüber."
+   "counter": "Befürwortern maximaler Weite stehen Nutzer mit 90/100 und Beschwerden über Fischaugeneindruck gegenüber.",
+   "audit": "Reddit bei der Abnahme 25.10.2026 nicht abrufbar; Inhalt nicht nachgeprüft"
   }
  ],
  "developer_sources": [
@@ -575,6 +582,7 @@
    "source_url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
    "timestamp": 6.0,
    "channel": "Ultraclocked",
+   "title": "Destiny 2 - All Titan Legendary Weapons - Animations & Sounds w/ Slow-Motion | SUROS Weapons",
    "upload_date": "20200214",
    "frame_rate": "60/1",
    "muzzle_pct": [
@@ -608,7 +616,7 @@
     ],
     "right": null
    },
-   "notes": "Sehr große Sechseckoptik; rechte Griffhand durch Receiver verdeckt. Sichtbare Laufmantelkante vorn, keine 3D-Achse. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Geometrische Konvergenz zur Mitte50/50, kein beobachteter Treffer-/Flugweg. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als longitudinal_edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
+   "notes": "Sehr große Sechseckoptik; rechte Griffhand durch Receiver verdeckt. Sichtbare Laufmantelkante vorn, keine 3D-Achse. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
    "good": null,
    "bad": null,
    "audience": null,
@@ -627,6 +635,7 @@
    "source_url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
    "timestamp": 79.5,
    "channel": "Ultraclocked",
+   "title": "Destiny 2 - All Titan Legendary Weapons - Animations & Sounds w/ Slow-Motion | SUROS Weapons",
    "upload_date": "20200214",
    "frame_rate": "60/1",
    "muzzle_pct": [
@@ -663,7 +672,7 @@
      100
     ]
    },
-   "notes": "Kurze einhändig sichtbare Hüftpose vor ADS-Eintritt bei80.5s; linke Hand nicht identifizierbar. Laufmantel-Längskante. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Geometrische Konvergenz zur Mitte50/50, kein beobachteter Treffer-/Flugweg. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als longitudinal_edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
+   "notes": "Kurze einhändig sichtbare Hüftpose vor ADS-Eintritt bei80.5s; linke Hand nicht identifizierbar. Laufmantel-Längskante. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
    "good": null,
    "bad": null,
    "audience": null,
@@ -682,6 +691,7 @@
    "source_url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
    "timestamp": 101.0,
    "channel": "Ultraclocked",
+   "title": "Destiny 2 - All Titan Legendary Weapons - Animations & Sounds w/ Slow-Motion | SUROS Weapons",
    "upload_date": "20200214",
    "frame_rate": "60/1",
    "muzzle_pct": [
@@ -718,7 +728,7 @@
      100
     ]
    },
-   "notes": "Kurze Pistole; hintere Kimme ist vom vorderen Laufende getrennt. Linke Hand nicht identifizierbar. Oberkante Laufmantel. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Geometrische Konvergenz zur Mitte50/50, kein beobachteter Treffer-/Flugweg. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als longitudinal_edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
+   "notes": "Kurze Pistole; hintere Kimme ist vom vorderen Laufende getrennt. Linke Hand nicht identifizierbar. Oberkante Laufmantel. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
    "good": null,
    "bad": null,
    "audience": null,
@@ -737,6 +747,7 @@
    "source_url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
    "timestamp": 136.0,
    "channel": "Ultraclocked",
+   "title": "Destiny 2 - All Titan Legendary Weapons - Animations & Sounds w/ Slow-Motion | SUROS Weapons",
    "upload_date": "20200214",
    "frame_rate": "60/1",
    "muzzle_pct": [
@@ -770,7 +781,7 @@
     ],
     "right": null
    },
-   "notes": "Slug-Schrotflinte; linke Stützhand/Unterarm groß, Abzugshand verdeckt. Zylindrische vordere Laufmantelkante. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Geometrische Konvergenz zur Mitte50/50, kein beobachteter Treffer-/Flugweg. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als longitudinal_edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
+   "notes": "Slug-Schrotflinte; linke Stützhand/Unterarm groß, Abzugshand verdeckt. Zylindrische vordere Laufmantelkante. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
    "good": null,
    "bad": null,
    "audience": null,
@@ -789,6 +800,7 @@
    "source_url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
    "timestamp": 185.0,
    "channel": "Ultraclocked",
+   "title": "Destiny 2 - All Titan Legendary Weapons - Animations & Sounds w/ Slow-Motion | SUROS Weapons",
    "upload_date": "20200214",
    "frame_rate": "60/1",
    "muzzle_pct": [
@@ -822,7 +834,7 @@
     ],
     "right": null
    },
-   "notes": "Große geschlossene Receiverform; Mündung sichtbar, zu kurze/mehrdeutige Laufstrecke für belastbaren Winkel. Null ist kein0°. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Geometrische Konvergenz zur Mitte50/50, kein beobachteter Treffer-/Flugweg. Ellbogen keiner sicher zuordenbar; daher null.",
+   "notes": "Große geschlossene Receiverform; Mündung sichtbar, zu kurze/mehrdeutige Laufstrecke für belastbaren Winkel. Null ist kein0°. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null.",
    "good": null,
    "bad": null,
    "audience": null,
@@ -841,6 +853,7 @@
    "source_url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
    "timestamp": 226.2,
    "channel": "Ultraclocked",
+   "title": "Destiny 2 - All Titan Legendary Weapons - Animations & Sounds w/ Slow-Motion | SUROS Weapons",
    "upload_date": "20200214",
    "frame_rate": "60/1",
    "muzzle_pct": null,
@@ -866,7 +879,7 @@
     "left": null,
     "right": null
    },
-   "notes": "Rohr schneidet oberen/rechten/unteren Bildrand. Seitliches blaues Optikfenster; Haupt-Mündungsöffnung nicht eindeutig identifizierbar, deshalb Mündung/Konvergenz/Winkel null. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Geometrische Konvergenz zur Mitte50/50, kein beobachteter Treffer-/Flugweg. Ellbogen keiner sicher zuordenbar; daher null.",
+   "notes": "Rohr schneidet oberen/rechten/unteren Bildrand. Seitliches blaues Optikfenster; Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null.",
    "good": null,
    "bad": null,
    "audience": null,
@@ -885,6 +898,7 @@
    "source_url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
    "timestamp": 290.0,
    "channel": "Ultraclocked",
+   "title": "Destiny 2 - All Titan Legendary Weapons - Animations & Sounds w/ Slow-Motion | SUROS Weapons",
    "upload_date": "20200214",
    "frame_rate": "60/1",
    "muzzle_pct": [
@@ -918,7 +932,7 @@
     ],
     "right": null
    },
-   "notes": "Helle runde vordere Energiemündung. Hintere offene Kimme; Stützhand links. Sichtbare zylindrische Laufmantel-Längskante. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Geometrische Konvergenz zur Mitte50/50, kein beobachteter Treffer-/Flugweg. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als longitudinal_edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
+   "notes": "Helle runde vordere Energiemündung. Hintere offene Kimme; Stützhand links. Sichtbare zylindrische Laufmantel-Längskante. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
    "good": null,
    "bad": null,
    "audience": null,
@@ -937,6 +951,7 @@
    "source_url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
    "timestamp": 321.0,
    "channel": "Ultraclocked",
+   "title": "Destiny 2 - All Titan Legendary Weapons - Animations & Sounds w/ Slow-Motion | SUROS Weapons",
    "upload_date": "20200214",
    "frame_rate": "60/1",
    "muzzle_pct": [
@@ -970,7 +985,7 @@
     ],
     "right": null
    },
-   "notes": "Breites geschlossenes Bullpup-/Receivergehäuse; keine ausreichend eindeutige offene Lauflängskante, Winkel null. Kleine hintere Kimme oben. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Geometrische Konvergenz zur Mitte50/50, kein beobachteter Treffer-/Flugweg. Ellbogen keiner sicher zuordenbar; daher null.",
+   "notes": "Breites geschlossenes Bullpup-/Receivergehäuse; keine ausreichend eindeutige offene Lauflängskante, Winkel null. Kleine hintere Kimme oben. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null.",
    "good": null,
    "bad": null,
    "audience": null,
@@ -989,6 +1004,7 @@
    "source_url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
    "timestamp": 355.0,
    "channel": "Ultraclocked",
+   "title": "Destiny 2 - All Titan Legendary Weapons - Animations & Sounds w/ Slow-Motion | SUROS Weapons",
    "upload_date": "20200214",
    "frame_rate": "60/1",
    "muzzle_pct": [
@@ -1022,7 +1038,7 @@
     ],
     "right": null
    },
-   "notes": "Erhöhtes offenes Reflexfenster. Sichtbare untere Laufmantel-/Vorderschaft-Längskante; Winkel beschreibt diese Kante, nicht eine Weltachse. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Geometrische Konvergenz zur Mitte50/50, kein beobachteter Treffer-/Flugweg. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als longitudinal_edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
+   "notes": "Erhöhtes offenes Reflexfenster. Sichtbare untere Laufmantel-/Vorderschaft-Längskante; Winkel beschreibt diese Kante, nicht eine Weltachse. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
    "good": null,
    "bad": null,
    "audience": null,
@@ -1041,6 +1057,7 @@
    "source_url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
    "timestamp": 381.0,
    "channel": "Ultraclocked",
+   "title": "Destiny 2 - All Titan Legendary Weapons - Animations & Sounds w/ Slow-Motion | SUROS Weapons",
    "upload_date": "20200214",
    "frame_rate": "60/1",
    "muzzle_pct": [
@@ -1074,7 +1091,7 @@
     ],
     "right": null
    },
-   "notes": "Kleine offene hintere Kimme. Neuer Griff-/Arm-/Bildwinkelbefund ergänzt vorhandenen Körper-/Mündungssteckbrief; vordere Laufmantelkante. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Geometrische Konvergenz zur Mitte50/50, kein beobachteter Treffer-/Flugweg. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als longitudinal_edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
+   "notes": "Kleine offene hintere Kimme. Neuer Griff-/Arm-/Bildwinkelbefund ergänzt vorhandenen Körper-/Mündungssteckbrief; vordere Laufmantelkante. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
    "good": null,
    "bad": null,
    "audience": null,
@@ -1093,6 +1110,7 @@
    "source_url": "https://www.youtube.com/watch?v=73lGCT7yOtk",
    "timestamp": 8.0,
    "channel": "Ultraclocked",
+   "title": "Destiny 2 - All EDZ Legendary Weapons - Animations & Sounds w/ Slow-Motion | Häkke Weapons",
    "upload_date": "20200125",
    "frame_rate": "60/1",
    "muzzle_pct": [
@@ -1129,7 +1147,7 @@
      100
     ]
    },
-   "notes": "Massiver Trommelbereich links vor der Griffhand; linke Hand nicht identifizierbar. Gerade obere Laufmantelkante. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Geometrische Konvergenz zur Mitte50/50, kein beobachteter Treffer-/Flugweg. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als longitudinal_edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
+   "notes": "Massiver Trommelbereich links vor der Griffhand; linke Hand nicht identifizierbar. Gerade obere Laufmantelkante. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
    "good": null,
    "bad": null,
    "audience": null,
@@ -1148,6 +1166,7 @@
    "source_url": "https://www.youtube.com/watch?v=73lGCT7yOtk",
    "timestamp": 54.0,
    "channel": "Ultraclocked",
+   "title": "Destiny 2 - All EDZ Legendary Weapons - Animations & Sounds w/ Slow-Motion | Häkke Weapons",
    "upload_date": "20200125",
    "frame_rate": "60/1",
    "muzzle_pct": [
@@ -1181,7 +1200,7 @@
     ],
     "right": null
    },
-   "notes": "Rundes Okular rechts, deutlich tiefer als das Sechseckbeispiel. Linke Stützhand sichtbar, rechte Abzugshand verdeckt. Freie vordere Laufstrecke. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Geometrische Konvergenz zur Mitte50/50, kein beobachteter Treffer-/Flugweg. Ellbogen keiner sicher zuordenbar; daher null.",
+   "notes": "Rundes Okular rechts, deutlich tiefer als das Sechseckbeispiel. Linke Stützhand sichtbar, rechte Abzugshand verdeckt. Freie vordere Laufstrecke. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null.",
    "good": null,
    "bad": null,
    "audience": null,
@@ -1200,6 +1219,7 @@
    "source_url": "https://www.youtube.com/watch?v=73lGCT7yOtk",
    "timestamp": 104.0,
    "channel": "Ultraclocked",
+   "title": "Destiny 2 - All EDZ Legendary Weapons - Animations & Sounds w/ Slow-Motion | Häkke Weapons",
    "upload_date": "20200125",
    "frame_rate": "60/1",
    "muzzle_pct": [
@@ -1233,7 +1253,7 @@
     ],
     "right": null
    },
-   "notes": "Hinterer runder Visierdurchblick liegt wesentlich höher als Mündung. Großer linker Handschuh, rechter Arm verdeckt. Vordere Lauf-/Mantelkante. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Geometrische Konvergenz zur Mitte50/50, kein beobachteter Treffer-/Flugweg. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als longitudinal_edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
+   "notes": "Hinterer runder Visierdurchblick liegt wesentlich höher als Mündung. Großer linker Handschuh, rechter Arm verdeckt. Vordere Lauf-/Mantelkante. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
    "good": null,
    "bad": null,
    "audience": null,
@@ -1252,6 +1272,7 @@
    "source_url": "https://www.youtube.com/watch?v=73lGCT7yOtk",
    "timestamp": 146.5,
    "channel": "Ultraclocked",
+   "title": "Destiny 2 - All EDZ Legendary Weapons - Animations & Sounds w/ Slow-Motion | Häkke Weapons",
    "upload_date": "20200125",
    "frame_rate": "60/1",
    "muzzle_pct": [
@@ -1285,7 +1306,7 @@
     ],
     "right": null
    },
-   "notes": "Vor der sichtbaren Salve; dunkles vorderes Gehäuse mit schwacher/mehrdeutiger Laufkontur, Winkel null. Gegenprobe147.5s zeigt Feuer und wird nicht als Ruhepose verwendet. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Geometrische Konvergenz zur Mitte50/50, kein beobachteter Treffer-/Flugweg. Ellbogen keiner sicher zuordenbar; daher null.",
+   "notes": "Vor der sichtbaren Salve; dunkles vorderes Gehäuse mit schwacher/mehrdeutiger Laufkontur, Winkel null. Gegenprobe147.5s zeigt Feuer und wird nicht als Ruhepose verwendet. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null.",
    "good": null,
    "bad": null,
    "audience": null,
@@ -1304,6 +1325,7 @@
    "source_url": "https://www.youtube.com/watch?v=73lGCT7yOtk",
    "timestamp": 226.0,
    "channel": "Ultraclocked",
+   "title": "Destiny 2 - All EDZ Legendary Weapons - Animations & Sounds w/ Slow-Motion | Häkke Weapons",
    "upload_date": "20200125",
    "frame_rate": "60/1",
    "muzzle_pct": [
@@ -1337,7 +1359,7 @@
     ],
     "right": null
    },
-   "notes": "Runde erhöhte Visieröffnung; gelb-schwarzer Vorderschaft. Sichtbare vordere Laufmantel-Längskante. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Geometrische Konvergenz zur Mitte50/50, kein beobachteter Treffer-/Flugweg. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als longitudinal_edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
+   "notes": "Runde erhöhte Visieröffnung; gelb-schwarzer Vorderschaft. Sichtbare vordere Laufmantel-Längskante. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
    "good": null,
    "bad": null,
    "audience": null,
@@ -1356,6 +1378,7 @@
    "source_url": "https://www.youtube.com/watch?v=73lGCT7yOtk",
    "timestamp": 267.0,
    "channel": "Ultraclocked",
+   "title": "Destiny 2 - All EDZ Legendary Weapons - Animations & Sounds w/ Slow-Motion | Häkke Weapons",
    "upload_date": "20200125",
    "frame_rate": "60/1",
    "muzzle_pct": [
@@ -1389,7 +1412,7 @@
     ],
     "right": null
    },
-   "notes": "Spezial, Kipplauf. Hohes Leiter-/Rahmenvisier; Handgriff hinter dem sichtbaren Receiver verdeckt. Zylindrische Laufmantelkante. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Geometrische Konvergenz zur Mitte50/50, kein beobachteter Treffer-/Flugweg. Ellbogen keiner sicher zuordenbar; daher null.",
+   "notes": "Spezial, Kipplauf. Hohes Leiter-/Rahmenvisier; Handgriff hinter dem sichtbaren Receiver verdeckt. Zylindrische Laufmantelkante. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null.",
    "good": null,
    "bad": null,
    "audience": null,
@@ -1408,6 +1431,7 @@
    "source_url": "https://www.youtube.com/watch?v=73lGCT7yOtk",
    "timestamp": 306.0,
    "channel": "Ultraclocked",
+   "title": "Destiny 2 - All EDZ Legendary Weapons - Animations & Sounds w/ Slow-Motion | Häkke Weapons",
    "upload_date": "20200125",
    "frame_rate": "60/1",
    "muzzle_pct": [
@@ -1441,7 +1465,7 @@
     ],
     "right": null
    },
-   "notes": "Klassische Röhrenmagazin-Schrotflinte; hintere offene Kimme tief, linke Stützhand groß. Oberer freier Lauf-/Mantelabschnitt. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Geometrische Konvergenz zur Mitte50/50, kein beobachteter Treffer-/Flugweg. Ellbogen keiner sicher zuordenbar; daher null.",
+   "notes": "Klassische Röhrenmagazin-Schrotflinte; hintere offene Kimme tief, linke Stützhand groß. Oberer freier Lauf-/Mantelabschnitt. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null.",
    "good": null,
    "bad": null,
    "audience": null,
@@ -1460,6 +1484,7 @@
    "source_url": "https://www.youtube.com/watch?v=73lGCT7yOtk",
    "timestamp": 415.0,
    "channel": "Ultraclocked",
+   "title": "Destiny 2 - All EDZ Legendary Weapons - Animations & Sounds w/ Slow-Motion | Häkke Weapons",
    "upload_date": "20200125",
    "frame_rate": "60/1",
    "muzzle_pct": [
@@ -1496,7 +1521,7 @@
      100
     ]
    },
-   "notes": "Schmale Pistole; rechte Griffhand sichtbar, linke nicht identifizierbar. Kurze gerade obere Laufmantelkante, Winkel nur grob. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Geometrische Konvergenz zur Mitte50/50, kein beobachteter Treffer-/Flugweg. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als longitudinal_edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
+   "notes": "Schmale Pistole; rechte Griffhand sichtbar, linke nicht identifizierbar. Kurze gerade obere Laufmantelkante, Winkel nur grob. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
    "good": null,
    "bad": null,
    "audience": null,
@@ -1515,6 +1540,7 @@
    "source_url": "https://www.youtube.com/watch?v=73lGCT7yOtk",
    "timestamp": 456.0,
    "channel": "Ultraclocked",
+   "title": "Destiny 2 - All EDZ Legendary Weapons - Animations & Sounds w/ Slow-Motion | Häkke Weapons",
    "upload_date": "20200125",
    "frame_rate": "60/1",
    "muzzle_pct": [
@@ -1548,7 +1574,7 @@
     ],
     "right": null
    },
-   "notes": "Rundes erhöhtes Reflexfenster, sichtbarer Körper schmaler als Foggy Notion. Kurzer vorderer Laufmantelabschnitt. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Geometrische Konvergenz zur Mitte50/50, kein beobachteter Treffer-/Flugweg. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als longitudinal_edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
+   "notes": "Rundes erhöhtes Reflexfenster, sichtbarer Körper schmaler als Foggy Notion. Kurzer vorderer Laufmantelabschnitt. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
    "good": null,
    "bad": null,
    "audience": null,
@@ -1567,6 +1593,7 @@
    "source_url": "https://www.youtube.com/watch?v=73lGCT7yOtk",
    "timestamp": 504.0,
    "channel": "Ultraclocked",
+   "title": "Destiny 2 - All EDZ Legendary Weapons - Animations & Sounds w/ Slow-Motion | Häkke Weapons",
    "upload_date": "20200125",
    "frame_rate": "60/1",
    "muzzle_pct": [
@@ -1600,7 +1627,7 @@
     ],
     "right": null
    },
-   "notes": "Klassisch langes Gewehr; runder hinterer Durchblick, freier vorderer Laufabschnitt. Abzugshand unter dem Receiver verdeckt. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Geometrische Konvergenz zur Mitte50/50, kein beobachteter Treffer-/Flugweg. Ellbogen keiner sicher zuordenbar; daher null.",
+   "notes": "Klassisch langes Gewehr; runder hinterer Durchblick, freier vorderer Laufabschnitt. Abzugshand unter dem Receiver verdeckt. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null.",
    "good": null,
    "bad": null,
    "audience": null,
@@ -1619,6 +1646,7 @@
    "source_url": "https://www.youtube.com/watch?v=afs_dhFDhQU",
    "timestamp": 44.0,
    "channel": "Ultraclocked",
+   "title": "Destiny 2 - All Io Legendary Weapons - Animations & Sounds w/ Slow-Motion | VEIST Weapons",
    "upload_date": "20200209",
    "frame_rate": "60/1",
    "muzzle_pct": [
@@ -1652,7 +1680,7 @@
     ],
     "right": null
    },
-   "notes": "Schwerer Trommel-GL. Hinteres Leiter-/Rahmenvisier sehr weit rechts, massige Trommel. Aus der Pose keine eindeutige längere Lauflinie, Winkel null. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Geometrische Konvergenz zur Mitte50/50, kein beobachteter Treffer-/Flugweg. Ellbogen keiner sicher zuordenbar; daher null.",
+   "notes": "Schwerer Trommel-GL. Hinteres Leiter-/Rahmenvisier sehr weit rechts, massige Trommel. Aus der Pose keine eindeutige längere Lauflinie, Winkel null. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null.",
    "good": null,
    "bad": null,
    "audience": null,
@@ -1671,6 +1699,7 @@
    "source_url": "https://www.youtube.com/watch?v=afs_dhFDhQU",
    "timestamp": 170.0,
    "channel": "Ultraclocked",
+   "title": "Destiny 2 - All Io Legendary Weapons - Animations & Sounds w/ Slow-Motion | VEIST Weapons",
    "upload_date": "20200209",
    "frame_rate": "60/1",
    "muzzle_pct": [
@@ -1704,7 +1733,7 @@
     ],
     "right": null
    },
-   "notes": "Großes geschlossenes Reflexfenster; Laufmantel-Längskante vorn. Griffhand hinter Receiver verdeckt. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Geometrische Konvergenz zur Mitte50/50, kein beobachteter Treffer-/Flugweg. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als longitudinal_edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
+   "notes": "Großes geschlossenes Reflexfenster; Laufmantel-Längskante vorn. Griffhand hinter Receiver verdeckt. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
    "good": null,
    "bad": null,
    "audience": null,
@@ -1723,6 +1752,7 @@
    "source_url": "https://www.youtube.com/watch?v=afs_dhFDhQU",
    "timestamp": 211.0,
    "channel": "Ultraclocked",
+   "title": "Destiny 2 - All Io Legendary Weapons - Animations & Sounds w/ Slow-Motion | VEIST Weapons",
    "upload_date": "20200209",
    "frame_rate": "60/1",
    "muzzle_pct": [
@@ -1756,7 +1786,7 @@
     ],
     "right": null
    },
-   "notes": "Offene V-förmige hintere Visieröffnung.209.8s ist noch angehobene Übergangs-/Rückstoßform, nicht Messpose;210/211s nahe gleicher Lage. Laufmantel-Längskante. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Geometrische Konvergenz zur Mitte50/50, kein beobachteter Treffer-/Flugweg. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als longitudinal_edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
+   "notes": "Offene V-förmige hintere Visieröffnung.209.8s ist noch angehobene Übergangs-/Rückstoßform, nicht Messpose;210/211s nahe gleicher Lage. Laufmantel-Längskante. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null. Der numerische Längskantenwinkel ist separat als edge_tilt_deg gespeichert: der eigentliche Lauf ist nicht vollständig sichtbar, deshalb tilt_deg=null.",
    "good": null,
    "bad": null,
    "audience": null,
@@ -1775,6 +1805,7 @@
    "source_url": "https://www.youtube.com/watch?v=afs_dhFDhQU",
    "timestamp": 88.5,
    "channel": "Ultraclocked",
+   "title": "Destiny 2 - All Io Legendary Weapons - Animations & Sounds w/ Slow-Motion | VEIST Weapons",
    "upload_date": "20200209",
    "frame_rate": "60/1",
    "muzzle_pct": null,
@@ -1800,7 +1831,7 @@
     "left": null,
     "right": null
    },
-   "notes": "Großer seitlicher blauer Optikdurchblick. Mündungsöffnung in der massigen Front nicht sicher von Gehäuse/Anbauten zu trennen; Mündung/Konvergenz/Winkel null.88.3/88.5s nahe gleiche Pose vor dem Schuss88.85s. Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Geometrische Konvergenz zur Mitte50/50, kein beobachteter Treffer-/Flugweg. Ellbogen keiner sicher zuordenbar; daher null.",
+   "notes": "Großer seitlicher blauer Optikdurchblick. Mündungsöffnung in der massigen Front nicht sicher von Gehäuse/Anbauten zu trennen; Lage±3Prozentpunkte; FOV unbekannt; Posebeispiel einer Waffe, kein Klassenmittel. Ellbogen keiner sicher zuordenbar; daher null.",
    "good": null,
    "bad": null,
    "audience": null,
@@ -1819,6 +1850,7 @@
    "source_url": "https://www.youtube.com/watch?v=DEM-8xg66R8",
    "timestamp": 3.4,
    "channel": "Ultraclocked",
+   "title": "Destiny 2 - Shattered Cipher (Legendary Machine Gun) - Animations & Sounds",
    "upload_date": "20210514",
    "frame_rate": "60/1",
    "muzzle_pct": [
@@ -1866,6 +1898,7 @@
    "source_url": "https://www.youtube.com/watch?v=oauUQuhlwGs",
    "timestamp": 55.0,
    "channel": "Ultraclocked",
+   "title": "Destiny 2 - All Black Armory Weapon Frames - Animations & Sounds w/ Slow-Motion",
    "upload_date": "20200409",
    "frame_rate": "60/1",
    "muzzle_pct": [
@@ -1913,6 +1946,7 @@
    "source_url": "https://www.youtube.com/watch?v=XnWXuoZxnVA",
    "timestamp": 4.0,
    "channel": "Ultraclocked",
+   "title": "Destiny 2 - Prometheus Lens (Exotic Trace Rifle) - Animations, Sounds & Effects w/ Slow-Motion",
    "upload_date": "20210130",
    "frame_rate": "60/1",
    "muzzle_pct": null,
@@ -1959,6 +1993,7 @@
    "source_url": "https://www.youtube.com/watch?v=WgBf7P6wzCE",
    "timestamp": 2.002,
    "channel": "Boosh Ninja",
+   "title": "Coldheart | Exotic Weapon Sound and Visual Showcase (Destiny 2)",
    "upload_date": "20221006",
    "frame_rate": "60000/1001",
    "muzzle_pct": null,
@@ -2005,6 +2040,7 @@
    "source_url": "https://www.youtube.com/watch?v=dKNTDzi__Qo",
    "timestamp": 47.0,
    "channel": "Ultraclocked",
+   "title": "Destiny 2 - Imperial Needle (Legendary Bow) - Animations & Sounds",
    "upload_date": "20210219",
    "frame_rate": "60/1",
    "muzzle_pct": null,
@@ -2062,6 +2098,7 @@
    "source_url": "https://www.youtube.com/watch?v=oauUQuhlwGs",
    "timestamp": 272.0,
    "channel": "Ultraclocked",
+   "title": "Destiny 2 - All Black Armory Weapon Frames - Animations & Sounds w/ Slow-Motion",
    "upload_date": "20200409",
    "frame_rate": "60/1",
    "muzzle_pct": null,
@@ -2119,6 +2156,7 @@
    "source_url": "https://www.youtube.com/watch?v=O9QEU2RzB28",
    "timestamp": 143.002,
    "channel": "Boosh Ninja",
+   "title": "Vow of the Disciple | Legendary Weapon Sound and Visual Showcase (Destiny 2)",
    "upload_date": "20221118",
    "frame_rate": "60000/1001",
    "muzzle_pct": null,
@@ -2173,6 +2211,7 @@
    "source_url": "https://www.youtube.com/watch?v=1pH6zS-lj5g",
    "timestamp": 234.002,
    "channel": "Boosh Ninja",
+   "title": "Season of The Haunted | Legendary Weapon Sound and Visual Showcase (Destiny 2)",
    "upload_date": "20230314",
    "frame_rate": "60000/1001",
    "muzzle_pct": null,
@@ -2219,6 +2258,7 @@
    "source_url": "https://www.youtube.com/watch?v=1pH6zS-lj5g",
    "timestamp": 385.002,
    "channel": "Boosh Ninja",
+   "title": "Season of The Haunted | Legendary Weapon Sound and Visual Showcase (Destiny 2)",
    "upload_date": "20230314",
    "frame_rate": "60000/1001",
    "muzzle_pct": [
@@ -2271,6 +2311,7 @@
    "source_url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
    "timestamp": 260.0,
    "channel": "Ultraclocked",
+   "title": "Destiny 2 - All Titan Legendary Weapons - Animations & Sounds w/ Slow-Motion | SUROS Weapons",
    "upload_date": "20200214",
    "frame_rate": "60/1",
    "muzzle_pct": null,
@@ -2304,6 +2345,7 @@
    "source_url": "https://www.youtube.com/watch?v=afs_dhFDhQU",
    "timestamp": 290.0,
    "channel": "Ultraclocked",
+   "title": "Destiny 2 - All Io Legendary Weapons - Animations & Sounds w/ Slow-Motion | VEIST Weapons",
    "upload_date": "20200209",
    "frame_rate": "60/1",
    "muzzle_pct": null,
@@ -2329,7 +2371,7 @@
    "integration_reason": "nur n.a. (Wechsel in 3. Person); Repo hat Schwert = Schulteransicht bereits"
   },
   {
-   "id": "hl-destiny-1-hand-cannon-modellname-nicht-e",
+   "id": "hl-destiny-1-hand-cannon",
    "game": "Destiny 1",
    "subject": "Hand Cannon (Modellname nicht eingeblendet)",
    "class": "Handfeuerwaffe",
@@ -2337,8 +2379,9 @@
    "source_url": "https://www.youtube.com/watch?v=lTMKIvPrJZc",
    "timestamp": 24.991633,
    "channel": "MadladDeluxe",
+   "title": "Destiny 1 vs. Destiny 2: Weapon Sounds and Animations",
    "upload_date": "20230521",
-   "frame_rate": null,
+   "frame_rate": "30000/1001",
    "muzzle_pct": null,
    "sight_pct": [
     62,
@@ -2376,7 +2419,7 @@
    "integration_reason": "neu (D1 nicht im Repo); 30/s nur Form/Lage, Modellnamen nicht eingeblendet -> Klassenbeispiel, kein Modell"
   },
   {
-   "id": "hl-destiny-1-pulse-rifle-modellname-nicht-e",
+   "id": "hl-destiny-1-pulse-rifle",
    "game": "Destiny 1",
    "subject": "Pulse Rifle (Modellname nicht eingeblendet)",
    "class": "Impulsgewehr",
@@ -2384,8 +2427,9 @@
    "source_url": "https://www.youtube.com/watch?v=lTMKIvPrJZc",
    "timestamp": 54.988267,
    "channel": "MadladDeluxe",
+   "title": "Destiny 1 vs. Destiny 2: Weapon Sounds and Animations",
    "upload_date": "20230521",
-   "frame_rate": null,
+   "frame_rate": "30000/1001",
    "muzzle_pct": [
     56,
     65
@@ -2423,7 +2467,7 @@
    "integration_reason": "neu (D1 nicht im Repo); 30/s nur Form/Lage, Modellnamen nicht eingeblendet -> Klassenbeispiel, kein Modell; Bild t=55 bestätigt (Mündung ≈56/62-64)"
   },
   {
-   "id": "hl-destiny-1-auto-rifle-modellname-nicht-ei",
+   "id": "hl-destiny-1-auto-rifle",
    "game": "Destiny 1",
    "subject": "Auto Rifle (Modellname nicht eingeblendet)",
    "class": "Automatikgewehr",
@@ -2431,8 +2475,9 @@
    "source_url": "https://www.youtube.com/watch?v=lTMKIvPrJZc",
    "timestamp": 82.015267,
    "channel": "MadladDeluxe",
+   "title": "Destiny 1 vs. Destiny 2: Weapon Sounds and Animations",
    "upload_date": "20230521",
-   "frame_rate": null,
+   "frame_rate": "30000/1001",
    "muzzle_pct": null,
    "sight_pct": [
     75,
@@ -2467,7 +2512,7 @@
    "integration_reason": "neu (D1 nicht im Repo); 30/s nur Form/Lage, Modellnamen nicht eingeblendet -> Klassenbeispiel, kein Modell"
   },
   {
-   "id": "hl-destiny-1-scout-rifle-modellname-nicht-e",
+   "id": "hl-destiny-1-scout-rifle",
    "game": "Destiny 1",
    "subject": "Scout Rifle (Modellname nicht eingeblendet)",
    "class": "Scoutgewehr",
@@ -2475,8 +2520,9 @@
    "source_url": "https://www.youtube.com/watch?v=lTMKIvPrJZc",
    "timestamp": 108.0079,
    "channel": "MadladDeluxe",
+   "title": "Destiny 1 vs. Destiny 2: Weapon Sounds and Animations",
    "upload_date": "20230521",
-   "frame_rate": null,
+   "frame_rate": "30000/1001",
    "muzzle_pct": null,
    "sight_pct": [
     71,
@@ -2511,7 +2557,7 @@
    "integration_reason": "neu (D1 nicht im Repo); 30/s nur Form/Lage, Modellnamen nicht eingeblendet -> Klassenbeispiel, kein Modell"
   },
   {
-   "id": "hl-destiny-1-sniper-rifle-modellname-nicht-",
+   "id": "hl-destiny-1-sniper-rifle",
    "game": "Destiny 1",
    "subject": "Sniper Rifle (Modellname nicht eingeblendet)",
    "class": "Scharfschützengewehr",
@@ -2519,8 +2565,9 @@
    "source_url": "https://www.youtube.com/watch?v=lTMKIvPrJZc",
    "timestamp": 132.999533,
    "channel": "MadladDeluxe",
+   "title": "Destiny 1 vs. Destiny 2: Weapon Sounds and Animations",
    "upload_date": "20230521",
-   "frame_rate": null,
+   "frame_rate": "30000/1001",
    "muzzle_pct": [
     54,
     65
@@ -2558,7 +2605,7 @@
    "integration_reason": "neu (D1 nicht im Repo); 30/s nur Form/Lage, Modellnamen nicht eingeblendet -> Klassenbeispiel, kein Modell"
   },
   {
-   "id": "hl-destiny-1-shotgun-modellname-nicht-einge",
+   "id": "hl-destiny-1-shotgun",
    "game": "Destiny 1",
    "subject": "Shotgun (Modellname nicht eingeblendet)",
    "class": "Schrotflinte",
@@ -2566,8 +2613,9 @@
    "source_url": "https://www.youtube.com/watch?v=lTMKIvPrJZc",
    "timestamp": 150.984167,
    "channel": "MadladDeluxe",
+   "title": "Destiny 1 vs. Destiny 2: Weapon Sounds and Animations",
    "upload_date": "20230521",
-   "frame_rate": null,
+   "frame_rate": "30000/1001",
    "muzzle_pct": [
     55,
     64
@@ -2605,7 +2653,7 @@
    "integration_reason": "neu (D1 nicht im Repo); 30/s nur Form/Lage, Modellnamen nicht eingeblendet -> Klassenbeispiel, kein Modell; tilt nur grob (±10°, Kurzläufe ±15°), projizierte Kante, keine 3D-Achse"
   },
   {
-   "id": "hl-destiny-1-fusion-rifle-modellname-nicht-",
+   "id": "hl-destiny-1-fusion-rifle",
    "game": "Destiny 1",
    "subject": "Fusion Rifle (Modellname nicht eingeblendet)",
    "class": "Fusionsgewehr",
@@ -2613,8 +2661,9 @@
    "source_url": "https://www.youtube.com/watch?v=lTMKIvPrJZc",
    "timestamp": 182.015167,
    "channel": "MadladDeluxe",
+   "title": "Destiny 1 vs. Destiny 2: Weapon Sounds and Animations",
    "upload_date": "20230521",
-   "frame_rate": null,
+   "frame_rate": "30000/1001",
    "muzzle_pct": [
     61,
     72
@@ -2652,7 +2701,7 @@
    "integration_reason": "neu (D1 nicht im Repo); 30/s nur Form/Lage, Modellnamen nicht eingeblendet -> Klassenbeispiel, kein Modell"
   },
   {
-   "id": "hl-destiny-1-rocket-launcher-modellname-nic",
+   "id": "hl-destiny-1-rocket-launcher",
    "game": "Destiny 1",
    "subject": "Rocket Launcher (Modellname nicht eingeblendet)",
    "class": "Raketenwerfer",
@@ -2660,8 +2709,9 @@
    "source_url": "https://www.youtube.com/watch?v=lTMKIvPrJZc",
    "timestamp": 195.9958,
    "channel": "MadladDeluxe",
+   "title": "Destiny 1 vs. Destiny 2: Weapon Sounds and Animations",
    "upload_date": "20230521",
-   "frame_rate": null,
+   "frame_rate": "30000/1001",
    "muzzle_pct": null,
    "sight_pct": [
     65,
@@ -2696,7 +2746,7 @@
    "integration_reason": "neu (D1 nicht im Repo); 30/s nur Form/Lage, Modellnamen nicht eingeblendet -> Klassenbeispiel, kein Modell"
   },
   {
-   "id": "hl-destiny-1-machine-gun-modellname-nicht-e",
+   "id": "hl-destiny-1-machine-gun",
    "game": "Destiny 1",
    "subject": "Machine Gun (Modellname nicht eingeblendet)",
    "class": "Maschinengewehr",
@@ -2704,8 +2754,9 @@
    "source_url": "https://www.youtube.com/watch?v=lTMKIvPrJZc",
    "timestamp": 210.0098,
    "channel": "MadladDeluxe",
+   "title": "Destiny 1 vs. Destiny 2: Weapon Sounds and Animations",
    "upload_date": "20230521",
-   "frame_rate": null,
+   "frame_rate": "30000/1001",
    "muzzle_pct": null,
    "sight_pct": [
     67,
@@ -2740,7 +2791,7 @@
    "integration_reason": "neu (D1 nicht im Repo); 30/s nur Form/Lage, Modellnamen nicht eingeblendet -> Klassenbeispiel, kein Modell"
   },
   {
-   "id": "hl-marathon-2026-ce-tactical-sidearm",
+   "id": "hl-marathon-ce-tactical-sidearm",
    "game": "Marathon (2026)",
    "subject": "CE Tactical Sidearm",
    "class": "Pistole",
@@ -2748,8 +2799,9 @@
    "source_url": "https://www.youtube.com/watch?v=QxZAflLtJRQ",
    "timestamp": 8.0,
    "channel": "soda",
+   "title": "All Marathon (2026) Weapon Animations (Season 1)",
    "upload_date": "20260604",
-   "frame_rate": null,
+   "frame_rate": "60/1",
    "muzzle_pct": null,
    "sight_pct": [
     60,
@@ -2787,7 +2839,7 @@
    "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
   },
   {
-   "id": "hl-marathon-2026-v11-punch",
+   "id": "hl-marathon-v11-punch",
    "game": "Marathon (2026)",
    "subject": "V11 Punch",
    "class": "Pistole",
@@ -2795,8 +2847,9 @@
    "source_url": "https://www.youtube.com/watch?v=QxZAflLtJRQ",
    "timestamp": 35.5,
    "channel": "soda",
+   "title": "All Marathon (2026) Weapon Animations (Season 1)",
    "upload_date": "20260604",
-   "frame_rate": null,
+   "frame_rate": "60/1",
    "muzzle_pct": null,
    "sight_pct": [
     59,
@@ -2834,7 +2887,7 @@
    "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
   },
   {
-   "id": "hl-marathon-2026-bully-smg",
+   "id": "hl-marathon-bully-smg",
    "game": "Marathon (2026)",
    "subject": "Bully SMG",
    "class": "Maschinenpistole",
@@ -2842,8 +2895,9 @@
    "source_url": "https://www.youtube.com/watch?v=QxZAflLtJRQ",
    "timestamp": 113.0,
    "channel": "soda",
+   "title": "All Marathon (2026) Weapon Animations (Season 1)",
    "upload_date": "20260604",
-   "frame_rate": null,
+   "frame_rate": "60/1",
    "muzzle_pct": [
     58,
     66
@@ -2881,7 +2935,7 @@
    "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
   },
   {
-   "id": "hl-marathon-2026-v22-volt-thrower",
+   "id": "hl-marathon-v22-volt-thrower",
    "game": "Marathon (2026)",
    "subject": "V22 Volt Thrower",
    "class": "Maschinenpistole",
@@ -2889,8 +2943,9 @@
    "source_url": "https://www.youtube.com/watch?v=QxZAflLtJRQ",
    "timestamp": 139.0,
    "channel": "soda",
+   "title": "All Marathon (2026) Weapon Animations (Season 1)",
    "upload_date": "20260604",
-   "frame_rate": null,
+   "frame_rate": "60/1",
    "muzzle_pct": null,
    "sight_pct": [
     60,
@@ -2925,7 +2980,7 @@
    "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
   },
   {
-   "id": "hl-marathon-2026-wstr-combat-shotgun",
+   "id": "hl-marathon-wstr-combat-shotgun",
    "game": "Marathon (2026)",
    "subject": "WSTR Combat Shotgun",
    "class": "Schrotflinte",
@@ -2933,8 +2988,9 @@
    "source_url": "https://www.youtube.com/watch?v=QxZAflLtJRQ",
    "timestamp": 236.0,
    "channel": "soda",
+   "title": "All Marathon (2026) Weapon Animations (Season 1)",
    "upload_date": "20260604",
-   "frame_rate": null,
+   "frame_rate": "60/1",
    "muzzle_pct": [
     56,
     59
@@ -2975,7 +3031,7 @@
    "integration_reason": "Bild bestätigt (Mündung 55/55-58 vs 56/59, Grip 72/86 vs 70/87); Auflage: Per-Eintrag-Text good/bad ist Spielvorlage (Pistole), nicht zur Waffe passend"
   },
   {
-   "id": "hl-marathon-2026-misriah-2442",
+   "id": "hl-marathon-misriah-2442",
    "game": "Marathon (2026)",
    "subject": "Misriah 2442",
    "class": "Schrotflinte",
@@ -2983,8 +3039,9 @@
    "source_url": "https://www.youtube.com/watch?v=QxZAflLtJRQ",
    "timestamp": 270.0,
    "channel": "soda",
+   "title": "All Marathon (2026) Weapon Animations (Season 1)",
    "upload_date": "20260604",
-   "frame_rate": null,
+   "frame_rate": "60/1",
    "muzzle_pct": [
     57,
     65
@@ -3022,7 +3079,7 @@
    "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
   },
   {
-   "id": "hl-marathon-2026-m77-assault-rifle",
+   "id": "hl-marathon-m77-assault-rifle",
    "game": "Marathon (2026)",
    "subject": "M77 Assault Rifle",
    "class": "Automatikgewehr",
@@ -3030,8 +3087,9 @@
    "source_url": "https://www.youtube.com/watch?v=QxZAflLtJRQ",
    "timestamp": 334.5,
    "channel": "soda",
+   "title": "All Marathon (2026) Weapon Animations (Season 1)",
    "upload_date": "20260604",
-   "frame_rate": null,
+   "frame_rate": "60/1",
    "muzzle_pct": null,
    "sight_pct": [
     71,
@@ -3066,7 +3124,7 @@
    "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
   },
   {
-   "id": "hl-marathon-2026-demolition-hmg",
+   "id": "hl-marathon-demolition-hmg",
    "game": "Marathon (2026)",
    "subject": "Demolition HMG",
    "class": "Maschinengewehr",
@@ -3074,8 +3132,9 @@
    "source_url": "https://www.youtube.com/watch?v=QxZAflLtJRQ",
    "timestamp": 493.5,
    "channel": "soda",
+   "title": "All Marathon (2026) Weapon Animations (Season 1)",
    "upload_date": "20260604",
-   "frame_rate": null,
+   "frame_rate": "60/1",
    "muzzle_pct": null,
    "sight_pct": [
     65,
@@ -3110,7 +3169,7 @@
    "integration_reason": "neu (Hüftwerte dieser Waffe nicht im Repo); Lage ±3 pp, Beispiel einer Waffe, FOV unbekannt"
   },
   {
-   "id": "hl-marathon-2026-longshot",
+   "id": "hl-marathon-longshot",
    "game": "Marathon (2026)",
    "subject": "Longshot",
    "class": "Scharfschützengewehr",
@@ -3118,8 +3177,9 @@
    "source_url": "https://www.youtube.com/watch?v=QxZAflLtJRQ",
    "timestamp": 730.0,
    "channel": "soda",
+   "title": "All Marathon (2026) Weapon Animations (Season 1)",
    "upload_date": "20260604",
-   "frame_rate": null,
+   "frame_rate": "60/1",
    "muzzle_pct": [
     55,
     59
@@ -3165,8 +3225,9 @@
    "source_url": "https://www.youtube.com/watch?v=4sDwTD9U8bw",
    "timestamp": 88.0,
    "channel": "Weapons From Games",
+   "title": "Titanfall 2 [2019] - All Weapons Showcase After All Patches, Updates, DLC's, Fixes - PC ULTRA 1440P",
    "upload_date": "20190314",
-   "frame_rate": null,
+   "frame_rate": "60/1",
    "muzzle_pct": [
     56,
     65
@@ -3212,8 +3273,9 @@
    "source_url": "https://www.youtube.com/watch?v=4sDwTD9U8bw",
    "timestamp": 163.3,
    "channel": "Weapons From Games",
+   "title": "Titanfall 2 [2019] - All Weapons Showcase After All Patches, Updates, DLC's, Fixes - PC ULTRA 1440P",
    "upload_date": "20190314",
-   "frame_rate": null,
+   "frame_rate": "60/1",
    "muzzle_pct": [
     55,
     65
@@ -3259,8 +3321,9 @@
    "source_url": "https://www.youtube.com/watch?v=R-BGChzYGpo",
    "timestamp": 39.5,
    "channel": "Cacek47",
+   "title": "Apex Legends @ ALL Weapons Look and Sound Showcase @ FHD 60fps",
    "upload_date": "20190206",
-   "frame_rate": null,
+   "frame_rate": "60/1",
    "muzzle_pct": null,
    "sight_pct": [
     71,
@@ -3303,8 +3366,9 @@
    "source_url": "https://www.youtube.com/watch?v=ZfNuA5r-470",
    "timestamp": 6.0,
    "channel": "Abyssopelagic",
+   "title": "Halo Infinite Gameplay - All Weapons from the First Technical Preview",
    "upload_date": "20210730",
-   "frame_rate": null,
+   "frame_rate": "60/1",
    "muzzle_pct": [
     61,
     67
@@ -3350,8 +3414,9 @@
    "source_url": "https://www.youtube.com/watch?v=ZfNuA5r-470",
    "timestamp": 49.0,
    "channel": "Abyssopelagic",
+   "title": "Halo Infinite Gameplay - All Weapons from the First Technical Preview",
    "upload_date": "20210730",
-   "frame_rate": null,
+   "frame_rate": "60/1",
    "muzzle_pct": [
     61,
     65
@@ -3389,7 +3454,7 @@
    "integration_reason": "Bild bestätigt (Visier 80/47, Mündung am Handschutz-Ende 61/65 – \"Mündung\" = vorderes Gehäuseende, Lauf verdeckt)"
   },
   {
-   "id": "hl-call-of-duty-modern-warfare-20-x16",
+   "id": "hl-call-of-duty-modern-warfare-x16",
    "game": "Call of Duty: Modern Warfare (2019)",
    "subject": "X16",
    "class": "Pistole",
@@ -3397,8 +3462,9 @@
    "source_url": "https://www.youtube.com/watch?v=_KTdg4YM1fQ",
    "timestamp": 4.0,
    "channel": "Tigerfield",
+   "title": "COD Modern Warfare 2019 - ALL WEAPONS Showcase",
    "upload_date": "20191026",
-   "frame_rate": null,
+   "frame_rate": "60/1",
    "muzzle_pct": null,
    "sight_pct": [
     54,
@@ -3436,7 +3502,7 @@
    "integration_reason": "neu; Visierpunkt unsicher (Bild: Kimme eher 52/78-80 als 54/73, Pistole von hinten), bbox/Grip plausibel; 60/s"
   },
   {
-   "id": "hl-call-of-duty-modern-warfare-20-1911",
+   "id": "hl-call-of-duty-modern-warfare-1911",
    "game": "Call of Duty: Modern Warfare (2019)",
    "subject": "1911",
    "class": "Pistole",
@@ -3444,8 +3510,9 @@
    "source_url": "https://www.youtube.com/watch?v=_KTdg4YM1fQ",
    "timestamp": 32.0,
    "channel": "Tigerfield",
+   "title": "COD Modern Warfare 2019 - ALL WEAPONS Showcase",
    "upload_date": "20191026",
-   "frame_rate": null,
+   "frame_rate": "60/1",
    "muzzle_pct": null,
    "sight_pct": [
     52,
@@ -3483,7 +3550,7 @@
    "integration_reason": "neu; wie X16 nicht am Bild nachgemessen"
   },
   {
-   "id": "hl-battlefield-6-pre-launch-build-b36a4",
+   "id": "hl-battlefield-6-b36a4",
    "game": "Battlefield 6 (pre-launch build)",
    "subject": "B36A4",
    "class": "Automatikgewehr",
@@ -3491,8 +3558,9 @@
    "source_url": "https://www.youtube.com/watch?v=ROUP1z62caA",
    "timestamp": 41.2,
    "channel": "Torbis",
+   "title": "Battlefield 6 - All Weapons Reloads Animations + Optics & Attachments",
    "upload_date": "20250917",
-   "frame_rate": null,
+   "frame_rate": "60/1",
    "muzzle_pct": [
     54,
     59
@@ -3530,7 +3598,7 @@
    "integration_reason": "Bild bestätigt (Mündung ≈56/59 vs 54/59, Visier 66/71); Vorabbuild BF6"
   },
   {
-   "id": "hl-battlefield-6-pre-launch-build-ak4d",
+   "id": "hl-battlefield-6-ak4d",
    "game": "Battlefield 6 (pre-launch build)",
    "subject": "AK4D",
    "class": "Automatikgewehr",
@@ -3538,8 +3606,9 @@
    "source_url": "https://www.youtube.com/watch?v=ROUP1z62caA",
    "timestamp": 42.2,
    "channel": "Torbis",
+   "title": "Battlefield 6 - All Weapons Reloads Animations + Optics & Attachments",
    "upload_date": "20250917",
-   "frame_rate": null,
+   "frame_rate": "60/1",
    "muzzle_pct": [
     54,
     58
@@ -3585,8 +3654,9 @@
    "source_url": "https://www.youtube.com/watch?v=WH5xpA7tfY8",
    "timestamp": 82.015267,
    "channel": "Skovos",
+   "title": "Valorant: Weapons and Guns Guide + Alternate Fire [Explained in Detail]",
    "upload_date": "20200418",
-   "frame_rate": null,
+   "frame_rate": "30000/1001",
    "muzzle_pct": null,
    "sight_pct": [
     72,
@@ -3632,8 +3702,9 @@
    "source_url": "https://www.youtube.com/watch?v=WH5xpA7tfY8",
    "timestamp": 353.286267,
    "channel": "Skovos",
+   "title": "Valorant: Weapons and Guns Guide + Alternate Fire [Explained in Detail]",
    "upload_date": "20200418",
-   "frame_rate": null,
+   "frame_rate": "30000/1001",
    "muzzle_pct": [
     57,
     57
@@ -3679,8 +3750,9 @@
    "source_url": "https://www.youtube.com/watch?v=1QFjDZBh3GE",
    "timestamp": 35.3,
    "channel": "Game Arsenal",
+   "title": "The Finals - All Weapon Reload Animations",
    "upload_date": "20250919",
-   "frame_rate": null,
+   "frame_rate": "60/1",
    "muzzle_pct": [
     55.5,
     64.5

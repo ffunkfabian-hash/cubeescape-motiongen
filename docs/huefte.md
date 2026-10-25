@@ -33,6 +33,9 @@ Skin und Spielstand – kein Klassenmittel.
   nach links, positiv = nach links oben, 2D-Winkel auf 16:9, **±10°** (kurze Läufe ±15°). Keine 3D-Achse.
 - **Ruhepose:** Codex hat je Waffe ein Bild gewählt, dessen Nachbarbilder dieselbe Lage zeigen (keine Zieh-, Nachlade- oder Rückstoßphase).
   30/s-Quellen liefern nur Lage, keine Zeiten. Gehen-Bob ist nicht gemessen.
+- **Vergleichsspiele** stehen wie in 0.19/0.20 nur hier und in `data/clips.json`, nicht als Messzeilen in den Spiel-Docs: Destiny 1, Marathon,
+  Halo, CoD, Battlefield, Valorant und The Finals haben kein eigenes Doc; Titanfall 2 bekommt einen Hinweis im Steckbrief, Apex nicht
+  (dort nur R-99, hier R-301 – kein Widerspruch).
 - **Nicht übernommen:** das Codex-Feld `convergence` (nur 50 minus Mündungswert, keine Konvergenz oder Flugbahn) und die je Zeile kopierten
   Bewertungstexte – die Bewertung steht je Spiel in [5](#5-bewertung-gut-nicht-so-gut-für-wen).
 - **Unbekannt = null:** fehlende Mündung, Griffhand oder Neigung heißt verdeckt oder ohne sichere Landmarke, nie Nullversatz.
@@ -78,29 +81,29 @@ Spalten in % B / % H; Körper als „x-Bereich × y-Bereich“. Nur übernommene
 
 | Waffe (Klasse) | Quelle | Zeit | Mündung | Visier | Griff | Körper (B × H) | Neigung | Hinweis |
 |---|---|---|---|---|---|---|---|---|
-| **Hand Cannon (Modellname nicht eingeblendet)** (Handfeuerwaffe) <a id="hl-destiny-1-hand-cannon-modellname-nicht-e"></a> | MadladDeluxe, [lTMKIvPrJZc](https://www.youtube.com/watch?v=lTMKIvPrJZc) | 0:24,992 | – | 62 / 61 | 61 / 81 | 54–67 × 57–78 | – | – |
-| **Pulse Rifle (Modellname nicht eingeblendet)** (Impulsgewehr) <a id="hl-destiny-1-pulse-rifle-modellname-nicht-e"></a> | MadladDeluxe, [lTMKIvPrJZc](https://www.youtube.com/watch?v=lTMKIvPrJZc) | 0:54,988 | 56 / 65 | 70 / 59 | – | 55–100 × 54–100 | – | Bildprüfung ok |
-| **Auto Rifle (Modellname nicht eingeblendet)** (Automatikgewehr) <a id="hl-destiny-1-auto-rifle-modellname-nicht-ei"></a> | MadladDeluxe, [lTMKIvPrJZc](https://www.youtube.com/watch?v=lTMKIvPrJZc) | 1:22,015 | – | 75 / 51 | – | 58–100 × 47–100 | – | – |
-| **Scout Rifle (Modellname nicht eingeblendet)** (Scoutgewehr) <a id="hl-destiny-1-scout-rifle-modellname-nicht-e"></a> | MadladDeluxe, [lTMKIvPrJZc](https://www.youtube.com/watch?v=lTMKIvPrJZc) | 1:48,008 | – | 71 / 47 | – | 57–100 × 40–100 | – | – |
-| **Sniper Rifle (Modellname nicht eingeblendet)** (Scharfschützengewehr) <a id="hl-destiny-1-sniper-rifle-modellname-nicht-"></a> | MadladDeluxe, [lTMKIvPrJZc](https://www.youtube.com/watch?v=lTMKIvPrJZc) | 2:13,000 | 54 / 65 | 74 / 54 | – | 54–100 × 45–100 | – | – |
-| **Shotgun (Modellname nicht eingeblendet)** (Schrotflinte) <a id="hl-destiny-1-shotgun-modellname-nicht-einge"></a> | MadladDeluxe, [lTMKIvPrJZc](https://www.youtube.com/watch?v=lTMKIvPrJZc) | 2:30,984 | 55 / 64 | 75 / 69 | – | 55–100 × 60–100 | Lauf 26,2° | – |
-| **Fusion Rifle (Modellname nicht eingeblendet)** (Fusionsgewehr) <a id="hl-destiny-1-fusion-rifle-modellname-nicht-"></a> | MadladDeluxe, [lTMKIvPrJZc](https://www.youtube.com/watch?v=lTMKIvPrJZc) | 3:02,015 | 61 / 72 | 73 / 65 | – | 60–100 × 59–100 | – | – |
-| **Rocket Launcher (Modellname nicht eingeblendet)** (Raketenwerfer) <a id="hl-destiny-1-rocket-launcher-modellname-nic"></a> | MadladDeluxe, [lTMKIvPrJZc](https://www.youtube.com/watch?v=lTMKIvPrJZc) | 3:15,996 | – | 65 / 57 | – | 56–100 × 27–100 | – | – |
-| **Machine Gun (Modellname nicht eingeblendet)** (Maschinengewehr) <a id="hl-destiny-1-machine-gun-modellname-nicht-e"></a> | MadladDeluxe, [lTMKIvPrJZc](https://www.youtube.com/watch?v=lTMKIvPrJZc) | 3:30,010 | – | 67 / 50 | – | 54–100 × 45–100 | – | – |
+| **Hand Cannon (Modellname nicht eingeblendet)** (Handfeuerwaffe) <a id="hl-destiny-1-hand-cannon"></a> | MadladDeluxe, [lTMKIvPrJZc](https://www.youtube.com/watch?v=lTMKIvPrJZc) | 0:24,992 | – | 62 / 61 | 61 / 81 | 54–67 × 57–78 | – | 30/s – nur Lage |
+| **Pulse Rifle (Modellname nicht eingeblendet)** (Impulsgewehr) <a id="hl-destiny-1-pulse-rifle"></a> | MadladDeluxe, [lTMKIvPrJZc](https://www.youtube.com/watch?v=lTMKIvPrJZc) | 0:54,988 | 56 / 65 | 70 / 59 | – | 55–100 × 54–100 | – | 30/s – nur Lage; Bildprüfung ok |
+| **Auto Rifle (Modellname nicht eingeblendet)** (Automatikgewehr) <a id="hl-destiny-1-auto-rifle"></a> | MadladDeluxe, [lTMKIvPrJZc](https://www.youtube.com/watch?v=lTMKIvPrJZc) | 1:22,015 | – | 75 / 51 | – | 58–100 × 47–100 | – | 30/s – nur Lage |
+| **Scout Rifle (Modellname nicht eingeblendet)** (Scoutgewehr) <a id="hl-destiny-1-scout-rifle"></a> | MadladDeluxe, [lTMKIvPrJZc](https://www.youtube.com/watch?v=lTMKIvPrJZc) | 1:48,008 | – | 71 / 47 | – | 57–100 × 40–100 | – | 30/s – nur Lage |
+| **Sniper Rifle (Modellname nicht eingeblendet)** (Scharfschützengewehr) <a id="hl-destiny-1-sniper-rifle"></a> | MadladDeluxe, [lTMKIvPrJZc](https://www.youtube.com/watch?v=lTMKIvPrJZc) | 2:13,000 | 54 / 65 | 74 / 54 | – | 54–100 × 45–100 | – | 30/s – nur Lage |
+| **Shotgun (Modellname nicht eingeblendet)** (Schrotflinte) <a id="hl-destiny-1-shotgun"></a> | MadladDeluxe, [lTMKIvPrJZc](https://www.youtube.com/watch?v=lTMKIvPrJZc) | 2:30,984 | 55 / 64 | 75 / 69 | – | 55–100 × 60–100 | Lauf 26,2° | 30/s – nur Lage |
+| **Fusion Rifle (Modellname nicht eingeblendet)** (Fusionsgewehr) <a id="hl-destiny-1-fusion-rifle"></a> | MadladDeluxe, [lTMKIvPrJZc](https://www.youtube.com/watch?v=lTMKIvPrJZc) | 3:02,015 | 61 / 72 | 73 / 65 | – | 60–100 × 59–100 | – | 30/s – nur Lage |
+| **Rocket Launcher (Modellname nicht eingeblendet)** (Raketenwerfer) <a id="hl-destiny-1-rocket-launcher"></a> | MadladDeluxe, [lTMKIvPrJZc](https://www.youtube.com/watch?v=lTMKIvPrJZc) | 3:15,996 | – | 65 / 57 | – | 56–100 × 27–100 | – | 30/s – nur Lage |
+| **Machine Gun (Modellname nicht eingeblendet)** (Maschinengewehr) <a id="hl-destiny-1-machine-gun"></a> | MadladDeluxe, [lTMKIvPrJZc](https://www.youtube.com/watch?v=lTMKIvPrJZc) | 3:30,010 | – | 67 / 50 | – | 54–100 × 45–100 | – | 30/s – nur Lage |
 
 ### Marathon (2026)
 
 | Waffe (Klasse) | Quelle | Zeit | Mündung | Visier | Griff | Körper (B × H) | Neigung | Hinweis |
 |---|---|---|---|---|---|---|---|---|
-| **CE Tactical Sidearm** (Pistole) <a id="hl-marathon-2026-ce-tactical-sidearm"></a> | soda, [QxZAflLtJRQ](https://www.youtube.com/watch?v=QxZAflLtJRQ) | 0:08,000 | – | 60 / 54 | 64 / 77 | 57–69 × 51–72 | – | – |
-| **V11 Punch** (Pistole) <a id="hl-marathon-2026-v11-punch"></a> | soda, [QxZAflLtJRQ](https://www.youtube.com/watch?v=QxZAflLtJRQ) | 0:35,500 | – | 59 / 52 | 65 / 83 | 56–69 × 49–79 | – | – |
-| **Bully SMG** (Maschinenpistole) <a id="hl-marathon-2026-bully-smg"></a> | soda, [QxZAflLtJRQ](https://www.youtube.com/watch?v=QxZAflLtJRQ) | 1:53,000 | 58 / 66 | 66 / 50 | – | 58–100 × 46–100 | – | – |
-| **V22 Volt Thrower** (Maschinenpistole) <a id="hl-marathon-2026-v22-volt-thrower"></a> | soda, [QxZAflLtJRQ](https://www.youtube.com/watch?v=QxZAflLtJRQ) | 2:19,000 | – | 60 / 58 | – | 55–80 × 52–100 | – | – |
-| **WSTR Combat Shotgun** (Schrotflinte) <a id="hl-marathon-2026-wstr-combat-shotgun"></a> | soda, [QxZAflLtJRQ](https://www.youtube.com/watch?v=QxZAflLtJRQ) | 3:56,000 | 56 / 59 | 71 / 58 | 70 / 87 | 55–82 × 55–100 | – | Bildprüfung Δ bis 4 pp (Grenzfall) |
-| **Misriah 2442** (Schrotflinte) <a id="hl-marathon-2026-misriah-2442"></a> | soda, [QxZAflLtJRQ](https://www.youtube.com/watch?v=QxZAflLtJRQ) | 4:30,000 | 57 / 65 | 75 / 67 | – | 55–100 × 59–100 | – | – |
-| **M77 Assault Rifle** (Automatikgewehr) <a id="hl-marathon-2026-m77-assault-rifle"></a> | soda, [QxZAflLtJRQ](https://www.youtube.com/watch?v=QxZAflLtJRQ) | 5:34,500 | – | 71 / 57 | – | 55–100 × 51–100 | – | – |
-| **Demolition HMG** (Maschinengewehr) <a id="hl-marathon-2026-demolition-hmg"></a> | soda, [QxZAflLtJRQ](https://www.youtube.com/watch?v=QxZAflLtJRQ) | 8:13,500 | – | 65 / 59 | – | 50–94 × 53–100 | – | – |
-| **Longshot** (Scharfschützengewehr) <a id="hl-marathon-2026-longshot"></a> | soda, [QxZAflLtJRQ](https://www.youtube.com/watch?v=QxZAflLtJRQ) | 12:10,000 | 55 / 59 | 84 / 66 | – | 54–100 × 37–100 | – | – |
+| **CE Tactical Sidearm** (Pistole) <a id="hl-marathon-ce-tactical-sidearm"></a> | soda, [QxZAflLtJRQ](https://www.youtube.com/watch?v=QxZAflLtJRQ) | 0:08,000 | – | 60 / 54 | 64 / 77 | 57–69 × 51–72 | – | – |
+| **V11 Punch** (Pistole) <a id="hl-marathon-v11-punch"></a> | soda, [QxZAflLtJRQ](https://www.youtube.com/watch?v=QxZAflLtJRQ) | 0:35,500 | – | 59 / 52 | 65 / 83 | 56–69 × 49–79 | – | – |
+| **Bully SMG** (Maschinenpistole) <a id="hl-marathon-bully-smg"></a> | soda, [QxZAflLtJRQ](https://www.youtube.com/watch?v=QxZAflLtJRQ) | 1:53,000 | 58 / 66 | 66 / 50 | – | 58–100 × 46–100 | – | – |
+| **V22 Volt Thrower** (Maschinenpistole) <a id="hl-marathon-v22-volt-thrower"></a> | soda, [QxZAflLtJRQ](https://www.youtube.com/watch?v=QxZAflLtJRQ) | 2:19,000 | – | 60 / 58 | – | 55–80 × 52–100 | – | – |
+| **WSTR Combat Shotgun** (Schrotflinte) <a id="hl-marathon-wstr-combat-shotgun"></a> | soda, [QxZAflLtJRQ](https://www.youtube.com/watch?v=QxZAflLtJRQ) | 3:56,000 | 56 / 59 | 71 / 58 | 70 / 87 | 55–82 × 55–100 | – | Bildprüfung Δ bis 4 pp (Grenzfall) |
+| **Misriah 2442** (Schrotflinte) <a id="hl-marathon-misriah-2442"></a> | soda, [QxZAflLtJRQ](https://www.youtube.com/watch?v=QxZAflLtJRQ) | 4:30,000 | 57 / 65 | 75 / 67 | – | 55–100 × 59–100 | – | – |
+| **M77 Assault Rifle** (Automatikgewehr) <a id="hl-marathon-m77-assault-rifle"></a> | soda, [QxZAflLtJRQ](https://www.youtube.com/watch?v=QxZAflLtJRQ) | 5:34,500 | – | 71 / 57 | – | 55–100 × 51–100 | – | – |
+| **Demolition HMG** (Maschinengewehr) <a id="hl-marathon-demolition-hmg"></a> | soda, [QxZAflLtJRQ](https://www.youtube.com/watch?v=QxZAflLtJRQ) | 8:13,500 | – | 65 / 59 | – | 50–94 × 53–100 | – | – |
+| **Longshot** (Scharfschützengewehr) <a id="hl-marathon-longshot"></a> | soda, [QxZAflLtJRQ](https://www.youtube.com/watch?v=QxZAflLtJRQ) | 12:10,000 | 55 / 59 | 84 / 66 | – | 54–100 × 37–100 | – | – |
 
 ### Titanfall 2
 
@@ -126,28 +129,29 @@ Spalten in % B / % H; Körper als „x-Bereich × y-Bereich“. Nur übernommene
 
 | Waffe (Klasse) | Quelle | Zeit | Mündung | Visier | Griff | Körper (B × H) | Neigung | Hinweis |
 |---|---|---|---|---|---|---|---|---|
-| **X16** (Pistole) <a id="hl-call-of-duty-modern-warfare-20-x16"></a> | Tigerfield, [_KTdg4YM1fQ](https://www.youtube.com/watch?v=_KTdg4YM1fQ) | 0:04,000 | – | 54 / 73 | 55 / 90 | 51–60 × 69–91 | – | Visier unsicher (Bildprüfung eher 52 / 78–80) |
-| **1911** (Pistole) <a id="hl-call-of-duty-modern-warfare-20-1911"></a> | Tigerfield, [_KTdg4YM1fQ](https://www.youtube.com/watch?v=_KTdg4YM1fQ) | 0:32,000 | – | 52 / 78 | 53 / 92 | 49–57 × 74–95 | – | – |
+| **X16** (Pistole) <a id="hl-call-of-duty-modern-warfare-x16"></a> | Tigerfield, [_KTdg4YM1fQ](https://www.youtube.com/watch?v=_KTdg4YM1fQ) | 0:04,000 | – | 54 / 73 | 55 / 90 | 51–60 × 69–91 | – | Visier unsicher (Bildprüfung eher 52 / 78–80) |
+| **1911** (Pistole) <a id="hl-call-of-duty-modern-warfare-1911"></a> | Tigerfield, [_KTdg4YM1fQ](https://www.youtube.com/watch?v=_KTdg4YM1fQ) | 0:32,000 | – | 52 / 78 | 53 / 92 | 49–57 × 74–95 | – | – |
 
 ### Battlefield 6 (pre-launch build)
 
 | Waffe (Klasse) | Quelle | Zeit | Mündung | Visier | Griff | Körper (B × H) | Neigung | Hinweis |
 |---|---|---|---|---|---|---|---|---|
-| **B36A4** (Automatikgewehr) <a id="hl-battlefield-6-pre-launch-build-b36a4"></a> | Torbis, [ROUP1z62caA](https://www.youtube.com/watch?v=ROUP1z62caA) | 0:41,200 | 54 / 59 | 66,5 / 71 | – | 53–82 × 57–100 | – | Bildprüfung ok |
-| **AK4D** (Automatikgewehr) <a id="hl-battlefield-6-pre-launch-build-ak4d"></a> | Torbis, [ROUP1z62caA](https://www.youtube.com/watch?v=ROUP1z62caA) | 0:42,200 | 54 / 58 | 66 / 63 | – | 53–84 × 51–100 | – | – |
+| **B36A4** (Automatikgewehr) <a id="hl-battlefield-6-b36a4"></a> | Torbis, [ROUP1z62caA](https://www.youtube.com/watch?v=ROUP1z62caA) | 0:41,200 | 54 / 59 | 66,5 / 71 | – | 53–82 × 57–100 | – | Bildprüfung ok |
+| **AK4D** (Automatikgewehr) <a id="hl-battlefield-6-ak4d"></a> | Torbis, [ROUP1z62caA](https://www.youtube.com/watch?v=ROUP1z62caA) | 0:42,200 | 54 / 58 | 66 / 63 | – | 53–84 × 51–100 | – | – |
 
 ### Valorant
 
 | Waffe (Klasse) | Quelle | Zeit | Mündung | Visier | Griff | Körper (B × H) | Neigung | Hinweis |
 |---|---|---|---|---|---|---|---|---|
-| **Classic** (Pistole) <a id="hl-valorant-classic"></a> | Skovos, [WH5xpA7tfY8](https://www.youtube.com/watch?v=WH5xpA7tfY8) | 1:22,015 | – | 72 / 66 | 72 / 84 | 63–76 × 59–79 | – | Bildprüfung ok |
-| **Bulldog** (Automatikgewehr) <a id="hl-valorant-bulldog"></a> | Skovos, [WH5xpA7tfY8](https://www.youtube.com/watch?v=WH5xpA7tfY8) | 5:53,286 | 57 / 57 | 76 / 64 | – | 56–100 × 53–100 | – | [O] bewegt, keine Ruhepose |
+| **Classic** (Pistole) <a id="hl-valorant-classic"></a> | Skovos, [WH5xpA7tfY8](https://www.youtube.com/watch?v=WH5xpA7tfY8) | 1:22,015 | – | 72 / 66 | 72 / 84 | 63–76 × 59–79 | – | 30/s – nur Lage; Bildprüfung ok |
+| **Bulldog** (Automatikgewehr) <a id="hl-valorant-bulldog"></a> | Skovos, [WH5xpA7tfY8](https://www.youtube.com/watch?v=WH5xpA7tfY8) | 5:53,286 | 57 / 57 | 76 / 64 | – | 56–100 × 53–100 | – | [O] bewegt, keine Ruhepose; 30/s – nur Lage |
 
 ### The Finals
 
 | Waffe (Klasse) | Quelle | Zeit | Mündung | Visier | Griff | Körper (B × H) | Neigung | Hinweis |
 |---|---|---|---|---|---|---|---|---|
 | **M26 Matter** (Schrotflinte) <a id="hl-the-finals-m26-matter"></a> | Game Arsenal, [1QFjDZBh3GE](https://www.youtube.com/watch?v=1QFjDZBh3GE) | 0:35,300 | 55,5 / 64,5 | 67,5 / 66 | – | 55–100 × 60–100 | – | Bildprüfung ok |
+
 ## 3. Abgleich mit dem Bestand
 
 | Waffe | Bestand | Codex | Entscheidung |
@@ -166,18 +170,18 @@ Valorant Bulldog (Skovos, 5:53,286) bleibt **offen**: Kamera dreht, Waffe schwin
 ## 4. Muster
 
 - **Destiny 2, lange Waffen:** Die Mündung liegt in allen 21 Destiny-Beispielen mit sichtbarer Mündung **rechts unter der Mitte** bei
-  x 54–59 / y 60–71 % – Showcase-Modelle bei fester Kamera. Die PvP-Twitch-Zeilen des Bestands mit Mündung links oben
-  (Scout ≈ 28 / 28, Automatik ≈ 65 / 57) sind andere Modelle bei unbekanntem FOV; die neuen Zeilen ersetzen sie nicht.
-- **Höhe der Kontur:** Raketenwerfer, Granatwerfer, Maschinengewehr, Scharfschütze und Spurgewehr reichen bis y 0–45 % (Hoosegow über die
-  ganze Bildhöhe, Blue Shift bis 17 %); Handfeuerwaffen und Sidearms bleiben kompakt bei x 53–71 × y 59–84 %.
+  x 54–59 / y ≈ 60–71 % – Showcase-Modelle bei fester Kamera. Die PvP-Twitch-Zeile des Bestands mit Mündung weit links oben
+  (langes Gewehr ≈ 28 / 28) ist ein anderes Modell bei unbekanntem FOV; die neuen Zeilen ersetzen sie nicht.
+- **Höhe der Kontur:** Die Oberkante liegt bei sechs großen Waffen bei y ≤ 45 % – Hoosegow 0 (ganze Bildhöhe), Blue Shift 17, Hollow Denial 40,
+  Flash and Thunder 43, Hammerhead 43,5, A Single Clap 44 –, bei Coldheart, Berenger's Memory und Belfry Bounty bei 48–58 %; Handfeuerwaffen und Sidearms bleiben kompakt bei x 53–71 × y 59–84 %.
 - **Visier gegen Mündung:** Die hintere Visieröffnung liegt in 13 von 21 Destiny-Paaren 5–16 pp höher und in allen 21 Paaren 7–34 pp weiter rechts
-  (Median 12) als die Mündung, in 5 Paaren 3–7 pp tiefer. Das Visier ist kein Ersatz für die Mündung.
-- **Griffhand:** nur bei kompakten Waffen und Bögen sichtbar (14 von 57 Beispielen); bei Schrot, MP und langen Waffen verdeckt das Gehäuse
-  die rechte Hand, sichtbar ist die linke Stützhand.
+  (Median 12) als die Mündung, in 3 gleich hoch, in 5 Paaren 3–7 pp tiefer. Das Visier ist kein Ersatz für die Mündung.
+- **Griffhand:** sichtbar in 14 von 57 Beispielen, fast nur bei kompakten Waffen und Bögen (Ausnahmen: Marathon-Schrotflinte WSTR,
+  Glefe Lubrae's Ruin); bei Schrot, MP und langen Waffen verdeckt sonst das Gehäuse die rechte Hand, sichtbar ist die linke Stützhand.
 - **Sonderformen:** Bögen liegen quer im unteren Bild (x 5–100 × y 69–100 %), Mündung und Lauf n. a.; Glefen bleiben Ego, die Spitze ist
   kein Mündungsersatz; Schwerter wechseln in die dritte Person.
 - **Vergleichsspiele:** Mündungen x 54–61 / y 58–67 % (Titanfall, Halo, BF6, Finals). CoD-MW2019- und Valorant-Pistolen liegen am tiefsten
-  und mittigsten (Körper ab y 59–74 %). Halo BR75 reicht bis y 38 %, MA40 bis 51 %.
+  (Körper ab y 59–74 %), die CoD-Pistolen zugleich am mittigsten (x 49–60 %). Halo BR75 reicht bis y 38 %, MA40 bis 51 %.
 
 ## 5. Bewertung: gut, nicht so gut, für wen
 
@@ -186,7 +190,7 @@ war Reddit nicht abrufbar, ihr Inhalt ist **nicht nachgeprüft** (Liste und Zita
 
 | Spiel | Gegenstand | Gut (warum) | Nicht so gut (warum) | Für wen | Belege | Spielerstimmen | Entwickler / Fach |
 |---|---|---|---|---|---|---|---|
-| Destiny 2 | kompakte Handfeuerwaffe gegen hohe schwere Modelle und breiten Bogen | sehr verschiedene Konturen machen Waffenfamilien leicht unterscheidbar (Annual Skate tief und kompakt, Imperial Needle breit im unteren Bild) | Hoosegow füllt rechts die ganze Bildhöhe, Shattered Cipher reicht bis ≈ 36 % H über die Mitte – Sicht nach rechts muss eigens geprüft werden | Orientierung und Zielsuche, PvE und PvP; Anfänger profitieren von klarer Silhouette | [M] Annual Skate, Hoosegow, Imperial Needle | [C] zwei Threads (15. und 21.10.2024) zu zu großen Modellen seit Echoes, Wunsch nach tieferen oder einstellbaren Modellen – **dieselbe Woche, dasselbe Update, nicht unabhängig wiederkehrend**; Gegenstimme: „sehe trotzdem gut“ | [B] Bungie 15.10.2020: FOV-Regler für neue Konsolen (Welt-FOV, kein Modellregler; nicht abrufbar bei der Abnahme) |
+| Destiny 2 | kompakte Handfeuerwaffe gegen hohe schwere Modelle und breiten Bogen | sehr verschiedene Konturen machen Waffenfamilien leicht unterscheidbar (Annual Skate tief und kompakt, Imperial Needle breit im unteren Bild) | Hoosegow füllt rechts die ganze Bildhöhe, Shattered Cipher reicht bis ≈ 38 % H über die Mitte (Bestand) – Sicht nach rechts muss eigens geprüft werden | Orientierung und Zielsuche, PvE und PvP; Anfänger profitieren von klarer Silhouette | [M] Annual Skate, Hoosegow, Imperial Needle | [C] zwei Threads (15. und 21.10.2024) zu zu großen Modellen seit Echoes, Wunsch nach tieferen oder einstellbaren Modellen – **dieselbe Woche, dasselbe Update, nicht unabhängig wiederkehrend**; Gegenstimme: „sehe trotzdem gut“ | [B] Bungie 15.10.2020: FOV-Regler für neue Konsolen (Welt-FOV, kein Modellregler; nicht abrufbar bei der Abnahme) |
 | Destiny 1 | Handfeuerwaffe gegen Scout- und Werferkontur | kleine rechte Kontur der Handfeuerwaffe | Scout und Werfer reichen viel höher; eine gemeinsame Standardgröße würde das verdecken | Gestaltung kompakter und schwerer Waffen | [M] Handfeuerwaffe 0:24,992, Scout 1:48,008 | keine | keine |
 | Marathon (2026) | kleine Pistole gegen hohes Langwaffenmodell | Pistole kompakt, ruhige Ausgangskontur | Longshot bis 37 % H, Okular weit rechts | Erkundung und Gegnerwahrnehmung | [M] CE Tactical Sidearm, Longshot | [C] Einzelstimme 06.06.2026: Bild eng trotz hohem FOV, Wunsch nach Waffen-FOV-Regler; keine Gegenstimme | keine |
 | Titanfall 2 | CAR und R-201 | Konturen unterhalb bzw. an der Bildmitte | am Rand abgeschnitten, Mündungsrichtung unsicher | Vergleich von Gewehrformen | [M] CAR 1:28, R-201 2:43,3 | keine | keine |
@@ -221,7 +225,7 @@ stehen in [2](#2-messtabelle). Werte gelten mit unbekanntem FOV; ein Vergleich b
 - **Gehen-Bob:** nicht gemessen; der Bestand hat keinen D2-Gehbeleg ([destiny2.md › 3](destiny2.md#3-steckbriefe-je-waffentyp--lage-im-bild-zielpunkt-visier-arme-aktionen-bildvermessung-mit-mittenkreuz-18-oktober-2026--m)).
 - **Je Klasse nur ein Beispiel** bei Apex, Halo, Finals und den meisten Vergleichsspielen; D1-Modellnamen sind im Video nicht eingeblendet.
 - **FOV** aller Clips unbekannt; Battlefield 6 ist eine Vorabfassung, Halo die Technical Preview 2021.
-- **Quellen nicht nachgeprüft:** Reddit (sieben Threads) und Bungie, Halo Support, EA Help waren bei der Abnahme nicht abrufbar; bestätigt ist
+- **Quellen nicht nachgeprüft:** von 11 Webquellen (7 Reddit-Threads, 4 Fachquellen) waren 10 bei der Abnahme nicht abrufbar; bestätigt ist
   nur der Activision-Blog.
 - **Klasse unsicher:** The Finals M26 Matter ist als Schrotflinte geführt (Videoangabe), nicht weiter geprüft.
 - **Nicht wieder versuchen:** Menü-, Crafting- und geteilte Ornamentbilder (Heir Apparent, Trinity Ghoul, Enigma) liefern keine Vollbildlage;
@@ -231,9 +235,11 @@ stehen in [2](#2-messtabelle). Werte gelten mit unbekanntem FOV; ein Vergleich b
 
 - **Zuarbeit:** 65 Einträge (62 [M], 3 [O]), 10 Spiele, 19 Videos. **Übernommen 57** (28 Destiny 2, 9 Destiny 1, 9 Marathon, 11 Vergleich),
   **verworfen 7** (5 Doppelungen, darunter Prometheus Lens mit widerlegter Mündung, 2 Schwerter ohne Ego-Wert), **offen 1** (Bulldog).
-- **Quellen:** 19 von 19 Videos per yt-dlp bestätigt; Nicht-Video-URLs 1 von 5 inhaltlich bestätigt, 4 nicht prüfbar (nicht falsch).
+- **Quellen:** 19 von 19 Videos per yt-dlp bestätigt; Webquellen 1 von 11 inhaltlich bestätigt (Activision), 10 nicht abrufbar und damit nicht
+  prüfbar (nicht falsch).
 - **Bild:** zehn Zahlen nachgemessen (Prüfagent Sonnet 5.5 und Koordinator, `grid.sh`): 7 innerhalb ±3 pp, 2 Grenzfälle (Marathon WSTR, Titanfall
   CAR, Δ bis 4 pp, in der Tabelle vermerkt), **1 widerlegt** (Prometheus Lens). Projizierte Neigung an drei Waffen nachgerechnet (32–38°, in ±10°).
 - **Bewertung:** Abschnitt E der Zuarbeit übernommen; „wiederkehrend“ bei den Destiny-Stimmen zurückgestuft (zwei Threads derselben Woche).
 
-Schlusszeile: 10 Spiele · 57 Beispiele übernommen · 19 Videos · 7 Spieler- und 4 Fachquellen (1 bestätigt) · 57 gemessene Einzelbilder.
+Schlusszeile: 10 Spiele · 57 Beispiele übernommen · 17 Videos (Zuarbeit 19) · 7 Spieler- und 4 Fachquellen (1 bestätigt) · 57 gemessene
+Einzelbilder.
