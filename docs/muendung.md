@@ -5,7 +5,7 @@ Gemessen hat eine Codex-Mac-Sitzung am 24.10.2026 an nativen Einzelbildern. Dies
 Quellen per yt-dlp geprüft und fünf Werte selbst nachgemessen ([8](#8-nachmessung-und-zählung)); ein Wert ist korrigiert (Gridskipper-Höhe).
 Hier stehen nur Beobachtungen und Messwerte, Schlüsse und Startwerte entstehen in BASIC bzw. Cube Escape. Getrennte Themen mit eigenen
 Versionen und Docs: [Visiere](visiere.md) (0.14), [Waffenproportionen](proportionen.md) (0.15), [Rückstoßmuster](rueckstoss.md) (0.16),
-[Zielbewegung](zielbewegung.md) (0.17). Inspektionsanimationen sind ein eigenes Thema und stehen nicht hier. Maschinenlesbare Fassung:
+[Zielbewegung](zielbewegung.md) (0.17), [Oberflächenmuster](oberflaechen.md) (0.18). Inspektionsanimationen sind ein eigenes Thema und stehen nicht hier. Maschinenlesbare Fassung:
 [`data/muendung.json`](../data/muendung.json).
 
 Die **Destiny-2-Messzeilen** stehen nach Repo-Regel in der Messtabelle [destiny2.md › 2](destiny2.md#2-messungen-an-60-fps-aufnahmen-ab-16-oktober-2026--m)

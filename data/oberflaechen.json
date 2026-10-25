@@ -1,0 +1,2203 @@
+{
+ "version": "0.18.0",
+ "name": "Livery",
+ "date": "2026-10-25",
+ "doc": "docs/oberflaechen.md",
+ "status": {
+  "M": "am eigenen 1080p-Bild gemessen (Maske gegen Menühintergrund, CIELAB, 12-px-Proben; REF 0.18)",
+  "O": "eigene Sichtung am Menübild ohne Zahl (REF 0.18)",
+  "A": "Angabe der Antigravity-Zuarbeit (24.10.2026), nicht übernommen, nur zum Vergleich"
+ },
+ "method": {
+  "frames": "Ultraclocked-Menübilder 1920 × 1080, 60/s, Mitte des Menüabschnitts (Bedienleiste ausgeblendet, Waffe herangezoomt)",
+  "mask": "Hintergrund als maskierter Median über 42 Menübilder aus vier Videos (960 × 540), Restbereich der Überlagerung bilinear gefüllt; Waffe = Summe |RGB − Hintergrund| > 36, Schließen/Öffnen, eingeschlossene Löcher gefüllt; Herstellerbanner, Wasserzeichen und Bedienleiste ausgenommen",
+  "chroma_share": "Anteil der Waffenpixel mit CIELAB-Buntheit C* über 15/25/35 (D65, sRGB); misst bunte Pixel, nicht die bemalte Fläche",
+  "accent_hue_area": "Akzentfläche über den Farbton: Waffenpixel mit C* > 8 im Farbtonband der Akzentfarbe, danach Schließen (Scheibe 4 px), damit helle Sprenkel im Band mitzählen; nur wo das Band keine anderen Teile trifft (SUROS-Rot, Häkke-Orange)",
+  "lightness_classes": "nur bei C* ≤ 25: light L* > 65, mid 35–65, dark < 35; misst gerenderte Helligkeit mit Menülicht und Schatten, keine Albedo",
+  "probes": "12 × 12 px Mittelwert im 1080p-Bild zum Messbild (frame_s), Mitte xy_1080 in Pixeln (Ursprung oben links); Lage im Kontrollbild markiert",
+  "accuracy": "Maske ±2 px am Rand (Anteile ±1–2 Prozentpunkte), Proben ±3 L*; Menülicht warm von oben rechts"
+ },
+ "antigravity": {
+  "examples": 86,
+  "games": 9,
+  "videos": 34,
+  "kept": 21,
+  "corrected": 9,
+  "dropped": 56,
+  "videos_metadata_wrong": 24,
+  "note": "Alle 34 Video-IDs existieren; bei 24 stimmen Kanal oder Datum nicht. Beschreibungsfelder (Zonen, Farben, Anteile, Verschleiß) nicht übernommen, weil sie an 8 von 24 bestätigten D2-Waffen dem Bild widersprechen."
+ },
+ "sources": [
+  {
+   "id": "42zdQOVBAD0",
+   "channel": "Ultraclocked",
+   "uploaded": "2020-01-30",
+   "duration_s": 499,
+   "fps": 60,
+   "title": "Destiny 2 - All Nessus Legendary Weapons - Animations & Sounds w/ Slow-Motion | Omolon Weapons"
+  },
+  {
+   "id": "73lGCT7yOtk",
+   "channel": "Ultraclocked",
+   "uploaded": "2020-01-25",
+   "duration_s": 605,
+   "fps": 60,
+   "title": "Destiny 2 - All EDZ Legendary Weapons - Animations & Sounds w/ Slow-Motion | Häkke Weapons"
+  },
+  {
+   "id": "HfgUhmc8p00",
+   "channel": "EXILAS",
+   "uploaded": "2025-11-11",
+   "duration_s": 800,
+   "fps": 60,
+   "title": "CALL OF DUTY BLACK OPS 6 : ALL INSPECTION ANIMATION [SEASON 1-6] SHOWCASE 4K"
+  },
+  {
+   "id": "IG-GZ72Vbi0",
+   "channel": "Ultraclocked",
+   "uploaded": "2020-02-14",
+   "duration_s": 425,
+   "fps": 60,
+   "title": "Destiny 2 - All Titan Legendary Weapons - Animations & Sounds w/ Slow-Motion | SUROS Weapons"
+  },
+  {
+   "id": "LF9pPIi5ops",
+   "channel": "PC Gaming Videos",
+   "uploaded": "2020-05-13",
+   "duration_s": 388,
+   "fps": 60,
+   "title": "Valorant - All Weapons Showcase & Inspect Animations"
+  },
+  {
+   "id": "Qh7gYQpSq0Y",
+   "channel": "iFaiiLed",
+   "uploaded": "2022-11-07",
+   "duration_s": 374,
+   "fps": 60,
+   "title": "Overwatch 2 Widowmaker Gameplay 22-0 (No Commentary)"
+  },
+  {
+   "id": "QxZAflLtJRQ",
+   "channel": "soda",
+   "uploaded": "2026-06-04",
+   "duration_s": 940,
+   "fps": 60,
+   "title": "All Marathon (2026) Weapon Animations (Season 1)"
+  },
+  {
+   "id": "RXgRxHESqHQ",
+   "channel": "Ultraclocked",
+   "uploaded": "2021-02-18",
+   "duration_s": 63,
+   "fps": 60,
+   "title": "Destiny 2 - Far Future (Legendary Sniper Rifle) - Animations & Sounds"
+  },
+  {
+   "id": "RdbQEge8ziM",
+   "channel": "Nb90",
+   "uploaded": "2024-09-28",
+   "duration_s": 1038,
+   "fps": 60,
+   "title": "Destiny 2 | Shader Showcase | Cassoid Foundry Weapons"
+  },
+  {
+   "id": "TnblT7JnMPI",
+   "channel": "Hectorlo",
+   "uploaded": "2021-11-17",
+   "duration_s": 170,
+   "fps": 60,
+   "title": "Halo Infinite - All Weapon Idle/Inspect Animations"
+  },
+  {
+   "id": "UetKaZiF9uA",
+   "channel": "ClawZ",
+   "uploaded": "2020-11-25",
+   "duration_s": 115,
+   "fps": 30,
+   "title": "Apex Legends Trophy Collector R-301 Skin Showcase [ALL OPTICS]"
+  },
+  {
+   "id": "Y5OLr0nbgSg",
+   "channel": "Ultraclocked",
+   "uploaded": "2021-02-15",
+   "duration_s": 66,
+   "fps": 60,
+   "title": "Destiny 2 - Extraordinary Rendition (Legendary SMG) - Animations & Sounds"
+  },
+  {
+   "id": "afs_dhFDhQU",
+   "channel": "Ultraclocked",
+   "uploaded": "2020-02-09",
+   "duration_s": 429,
+   "fps": 60,
+   "title": "Destiny 2 - All Io Legendary Weapons - Animations & Sounds w/ Slow-Motion | VEIST Weapons"
+  },
+  {
+   "id": "dKNTDzi__Qo",
+   "channel": "Ultraclocked",
+   "uploaded": "2021-02-19",
+   "duration_s": 101,
+   "fps": 60,
+   "title": "Destiny 2 - Imperial Needle (Legendary Bow) - Animations & Sounds"
+  },
+  {
+   "id": "kWUViHovz1E",
+   "channel": "Destiny 2",
+   "uploaded": "2023-05-17",
+   "duration_s": 22,
+   "fps": 60,
+   "title": "Destiny 2: Season of the Deep Preview -- Weapons Blog: Gear Inspection Updates"
+  },
+  {
+   "id": "pazFJ51axhE",
+   "channel": "Nb90",
+   "uploaded": "2024-09-23",
+   "duration_s": 1014,
+   "fps": 60,
+   "title": "Destiny 2 | Shader Showcase | Into the Light BRAVE Arsenal Weapons"
+  },
+  {
+   "id": "uoTaCBMXcFk",
+   "channel": "Ultraclocked",
+   "uploaded": "2021-02-20",
+   "duration_s": 73,
+   "fps": 60,
+   "title": "Destiny 2 - Threaded Needle (Legendary Linear Fusion Rifle) - Weapon Animations & Sounds"
+  }
+ ],
+ "examples": [
+  {
+   "n": 1,
+   "game": "Destiny 2",
+   "weapon": "Annual Skate",
+   "antigravity": {
+    "skin": "Factory Default (SUROS)",
+    "source": "IG-GZ72Vbi0",
+    "timestamp": "00:53"
+   },
+   "verdict": "kept",
+   "source": "IG-GZ72Vbi0",
+   "url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+   "time_s": 53,
+   "observation": "mintweiße Schale, zwei rote Diagonalbänder mit weißen Abplatzern, SUROS-Schriftzug, dunkler Rahmen und Griff, blanker Lauf",
+   "status": "M",
+   "measured": "IG-GZ72Vbi0_53"
+  },
+  {
+   "n": 2,
+   "game": "Destiny 2",
+   "weapon": "Solemn Hymn",
+   "antigravity": {
+    "skin": "Factory Default (SUROS)",
+    "source": "IG-GZ72Vbi0",
+    "timestamp": "05:15"
+   },
+   "verdict": "kept",
+   "source": "IG-GZ72Vbi0",
+   "url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+   "time_s": 315,
+   "observation": "weiße Oberschale, breites rotes Band entlang der Schalenunterkante mit weißen Sprenkeln, dunkelgraues Untergehäuse, graues Magazin",
+   "status": "M",
+   "measured": "IG-GZ72Vbi0_315"
+  },
+  {
+   "n": 3,
+   "game": "Destiny 2",
+   "weapon": "Swift Ride",
+   "antigravity": {
+    "skin": "Factory Default (SUROS)",
+    "source": "IG-GZ72Vbi0",
+    "timestamp": "05:50"
+   },
+   "verdict": "kept",
+   "source": "IG-GZ72Vbi0",
+   "url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+   "time_s": 350,
+   "observation": "weiße Schale mit roten Diagonalbändern (gesprenkelt), dunkler Rahmen, gelochter Stahl-Laufmantel",
+   "status": "O"
+  },
+  {
+   "n": 4,
+   "game": "Destiny 2",
+   "weapon": "Tone Patrol",
+   "antigravity": {
+    "skin": "Factory Default (SUROS)",
+    "source": "IG-GZ72Vbi0",
+    "timestamp": "06:15"
+   },
+   "verdict": "kept",
+   "source": "IG-GZ72Vbi0",
+   "url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+   "time_s": 375,
+   "observation": "weiß-rote Schale mit SUROS-Schriftzug, dunkles Untergehäuse, gelochter Stahl-Laufmantel",
+   "status": "O"
+  },
+  {
+   "n": 5,
+   "game": "Destiny 2",
+   "weapon": "A Single Clap",
+   "antigravity": {
+    "skin": "Factory Default (SUROS)",
+    "source": "42zdQOVBAD0",
+    "timestamp": "01:20"
+   },
+   "verdict": "corrected",
+   "source": "IG-GZ72Vbi0",
+   "url": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+   "time_s": 0,
+   "observation": "weiße Schale mit rotem Band, dunkler Schaft, Zielfernrohr dunkel; Antigravity nannte das Omolon-Video 42zdQOVBAD0 bei 1:20",
+   "status": "O"
+  },
+  {
+   "n": 6,
+   "game": "Destiny 2",
+   "weapon": "Eystein-D",
+   "antigravity": {
+    "skin": "Factory Default (Häkke)",
+    "source": "73lGCT7yOtk",
+    "timestamp": "03:40"
+   },
+   "verdict": "kept",
+   "source": "73lGCT7yOtk",
+   "url": "https://www.youtube.com/watch?v=73lGCT7yOtk",
+   "time_s": 220,
+   "observation": "Grün-Tarnung nur auf der oberen Handschutzschale, ockerfarbenes Feld mit rotem HÄKKE-Schriftzug, schwarzes geripptes Untergehäuse, blanke Mündungsbremse",
+   "status": "M",
+   "measured": "73lGCT7yOtk_220"
+  },
+  {
+   "n": 7,
+   "game": "Destiny 2",
+   "weapon": "Bad News",
+   "antigravity": {
+    "skin": "Factory Default (Häkke)",
+    "source": "73lGCT7yOtk",
+    "timestamp": "00:00"
+   },
+   "verdict": "kept",
+   "source": "73lGCT7yOtk",
+   "url": "https://www.youtube.com/watch?v=73lGCT7yOtk",
+   "time_s": 0,
+   "observation": "stark abgeriebene helle Stahl-/Weißschale, orangefarbener Block hinten oben mit Markierung, brauner Griff, HÄKKE-Schriftzug",
+   "status": "M",
+   "measured": "73lGCT7yOtk_0"
+  },
+  {
+   "n": 8,
+   "game": "Destiny 2",
+   "weapon": "Minimum Distance",
+   "antigravity": {
+    "skin": "Factory Default (Häkke)",
+    "source": "73lGCT7yOtk",
+    "timestamp": "06:45"
+   },
+   "verdict": "corrected",
+   "source": "73lGCT7yOtk",
+   "url": "https://www.youtube.com/watch?v=73lGCT7yOtk",
+   "time_s": 408,
+   "observation": "creme-orange Schlitten mit HÄKKE-Schriftzug, brauner Griff (Antigravity: 6:45, dort noch Lincoln Green)",
+   "status": "O"
+  },
+  {
+   "n": 9,
+   "game": "Destiny 2",
+   "weapon": "Show of Force",
+   "antigravity": {
+    "skin": "Factory Default (Häkke)",
+    "source": "73lGCT7yOtk",
+    "timestamp": "08:58"
+   },
+   "verdict": "corrected",
+   "source": "73lGCT7yOtk",
+   "url": "https://www.youtube.com/watch?v=73lGCT7yOtk",
+   "time_s": 541,
+   "observation": "abgeriebene hellgraue Fleckentarnung, orange Markierung hinten, Stahllauf (Antigravity: 8:58, dort noch Scathelocke)",
+   "status": "O"
+  },
+  {
+   "n": 10,
+   "game": "Destiny 2",
+   "weapon": "Uriel's Gift",
+   "antigravity": {
+    "skin": "Factory Default (Omolon)",
+    "source": "42zdQOVBAD0",
+    "timestamp": "07:12"
+   },
+   "verdict": "kept",
+   "source": "42zdQOVBAD0",
+   "url": "https://www.youtube.com/watch?v=42zdQOVBAD0",
+   "time_s": 432,
+   "observation": "blaugraue Fleckentarnung über Ober- und Unterschale und Zielfernrohr, türkiser Streifen oben, türkise Flüssigkeitskapsel, abgeriebene Kanten",
+   "status": "M",
+   "measured": "42zdQOVBAD0_432"
+  },
+  {
+   "n": 11,
+   "game": "Destiny 2",
+   "weapon": "The Mornin' Comes",
+   "antigravity": {
+    "skin": "Factory Default (Omolon)",
+    "source": "42zdQOVBAD0",
+    "timestamp": "06:25"
+   },
+   "verdict": "kept",
+   "source": "42zdQOVBAD0",
+   "url": "https://www.youtube.com/watch?v=42zdQOVBAD0",
+   "time_s": 386,
+   "observation": "rot über Körper und Zielfernrohr, dunkles Magazin, blaue Linse, OMOLON-Schriftzug (Antigravity: kobaltblau mit weißem Steg – falsch)",
+   "status": "M",
+   "measured": "42zdQOVBAD0_386"
+  },
+  {
+   "n": 12,
+   "game": "Destiny 2",
+   "weapon": "Last Hope",
+   "antigravity": {
+    "skin": "Factory Default (Omolon)",
+    "source": "42zdQOVBAD0",
+    "timestamp": "05:00"
+   },
+   "verdict": "corrected",
+   "source": "42zdQOVBAD0",
+   "url": "https://www.youtube.com/watch?v=42zdQOVBAD0",
+   "time_s": 45,
+   "observation": "blaugraue Tarnung, türkise Kapseln im Griff, OMOLON-Schriftzug (Antigravity: 5:00, dort Shattered Peace; Beschreibung perlweiß/marineblau falsch)",
+   "status": "O"
+  },
+  {
+   "n": 13,
+   "game": "Destiny 2",
+   "weapon": "Seven-Six-Five",
+   "antigravity": {
+    "skin": "Factory Default (Omolon)",
+    "source": "42zdQOVBAD0",
+    "timestamp": "03:42"
+   },
+   "verdict": "kept",
+   "source": "42zdQOVBAD0",
+   "url": "https://www.youtube.com/watch?v=42zdQOVBAD0",
+   "time_s": 223,
+   "observation": "blaugraue Tarnung mit türkisen Teilen, OMOLON-Schriftzug",
+   "status": "O"
+  },
+  {
+   "n": 14,
+   "game": "Destiny 2",
+   "weapon": "Valakadyn",
+   "antigravity": {
+    "skin": "Factory Default (VEIST)",
+    "source": "afs_dhFDhQU",
+    "timestamp": "01:10"
+   },
+   "verdict": "corrected",
+   "source": "afs_dhFDhQU",
+   "url": "https://www.youtube.com/watch?v=afs_dhFDhQU",
+   "time_s": 317,
+   "observation": "dunkles Olivgrau mit hellgrünem Lochfeld seitlich, blanker Schalldämpfer (Antigravity: 1:10, dort Berenger's Memory)",
+   "status": "M",
+   "measured": "afs_dhFDhQU_317"
+  },
+  {
+   "n": 15,
+   "game": "Destiny 2",
+   "weapon": "Death Adder",
+   "antigravity": {
+    "skin": "Factory Default (VEIST)",
+    "source": "afs_dhFDhQU",
+    "timestamp": "02:45"
+   },
+   "verdict": "corrected",
+   "source": "afs_dhFDhQU",
+   "url": "https://www.youtube.com/watch?v=afs_dhFDhQU",
+   "time_s": 116,
+   "observation": "cremefarbene Schale, gelbe Zelle oben, schwarzer Griff mit weißen Streifen, orange leuchtende Anzeige (Antigravity: 2:45, dort Man O' War; Beschreibung mattschwarz/giftgrün falsch)",
+   "status": "M",
+   "measured": "afs_dhFDhQU_116"
+  },
+  {
+   "n": 16,
+   "game": "Destiny 2",
+   "weapon": "Widow's Bite",
+   "antigravity": {
+    "skin": "Factory Default (VEIST)",
+    "source": "afs_dhFDhQU",
+    "timestamp": "04:15"
+   },
+   "verdict": "corrected",
+   "source": "afs_dhFDhQU",
+   "url": "https://www.youtube.com/watch?v=afs_dhFDhQU",
+   "time_s": 354,
+   "observation": "dunkelgrau mit violettem Schimmer, grünes Visierelement (Antigravity: 4:15, dort The Rattler)",
+   "status": "O"
+  },
+  {
+   "n": 17,
+   "game": "Destiny 2",
+   "weapon": "Rattler",
+   "antigravity": {
+    "skin": "Factory Default (VEIST)",
+    "source": "afs_dhFDhQU",
+    "timestamp": "05:30"
+   },
+   "verdict": "corrected",
+   "source": "afs_dhFDhQU",
+   "url": "https://www.youtube.com/watch?v=afs_dhFDhQU",
+   "time_s": 248,
+   "observation": "dunkles Oliv mit violettem Schimmer, kleine grüne Akzente, weiße Griffstreifen (Antigravity: 5:30, dort Valakadyn)",
+   "status": "O"
+  },
+  {
+   "n": 18,
+   "game": "Destiny 2",
+   "weapon": "Liminal Vigil",
+   "antigravity": {
+    "skin": "Factory Default (Tex Mechanica)",
+    "source": "kWUViHovz1E",
+    "timestamp": "00:05"
+   },
+   "verdict": "dropped",
+   "reason": "kWUViHovz1E zeigt bei 0:05 Conditional Finality, Liminal Vigil kommt im 22-s-Video nicht vor"
+  },
+  {
+   "n": 19,
+   "game": "Destiny 2",
+   "weapon": "The Last Word",
+   "antigravity": {
+    "skin": "Factory Default (Tex Mechanica)",
+    "source": "afs_dhFDhQU",
+    "timestamp": "07:20"
+   },
+   "verdict": "dropped",
+   "reason": "7:20 liegt hinter dem Ende des Videos (7:09); The Last Word ist keine Io-Legendary"
+  },
+  {
+   "n": 20,
+   "game": "Destiny 2",
+   "weapon": "The Huckleberry",
+   "antigravity": {
+    "skin": "Factory Default (Tex Mechanica)",
+    "source": "afs_dhFDhQU",
+    "timestamp": "08:10"
+   },
+   "verdict": "dropped",
+   "reason": "8:10 liegt hinter dem Ende des Videos (7:09)"
+  },
+  {
+   "n": 21,
+   "game": "Destiny 2",
+   "weapon": "Cartesian Coordinate",
+   "antigravity": {
+    "skin": "Factory Default (Cassoid)",
+    "source": "RdbQEge8ziM",
+    "timestamp": "01:45"
+   },
+   "verdict": "corrected",
+   "source": "73lGCT7yOtk",
+   "url": "https://www.youtube.com/watch?v=73lGCT7yOtk",
+   "time_s": 141,
+   "observation": "rosarot-graue abgeriebene Tarnung, dunkle Teile (Antigravity nannte RdbQEge8ziM; das Video zeigt nur Ros Arago IV)",
+   "status": "O"
+  },
+  {
+   "n": 22,
+   "game": "Destiny 2",
+   "weapon": "Telesto",
+   "antigravity": {
+    "skin": "Factory Default (Cassoid/Daito)",
+    "source": "DEM-8xg66R8",
+    "timestamp": "02:10"
+   },
+   "verdict": "dropped",
+   "reason": "DEM-8xg66R8 ist Shattered Cipher (50 s), 2:10 liegt hinter dem Ende"
+  },
+  {
+   "n": 23,
+   "game": "Destiny 2",
+   "weapon": "Conditional Finality",
+   "antigravity": {
+    "skin": "Factory Default (Raid Exotic)",
+    "source": "kWUViHovz1E",
+    "timestamp": "00:01"
+   },
+   "verdict": "kept",
+   "source": "kWUViHovz1E",
+   "url": "https://www.youtube.com/watch?v=kWUViHovz1E",
+   "time_s": 1,
+   "observation": "zwei Hälften rosa/rot und blau mit leuchtenden Kanten, Flammen- und Eiseffekt am Lauf (Exotic, Bungie-Video)",
+   "status": "O"
+  },
+  {
+   "n": 24,
+   "game": "Destiny 2",
+   "weapon": "Extraordinary Rendition",
+   "antigravity": {
+    "skin": "Factory Default (Cabal Empress)",
+    "source": "Y5OLr0nbgSg",
+    "timestamp": "00:01"
+   },
+   "verdict": "kept",
+   "source": "Y5OLr0nbgSg",
+   "url": "https://www.youtube.com/watch?v=Y5OLr0nbgSg",
+   "time_s": 1,
+   "observation": "abgeriebenes Gold über dunklem Petrol (gerippter Laufmantel), schwarzer Rahmen und Griff (Antigravity: knochenweiß 40 % – falsch)",
+   "status": "O"
+  },
+  {
+   "n": 25,
+   "game": "Destiny 2",
+   "weapon": "Imperial Needle",
+   "antigravity": {
+    "skin": "Factory Default (Chosen Royal)",
+    "source": "dKNTDzi__Qo",
+    "timestamp": "00:01"
+   },
+   "verdict": "kept",
+   "source": "dKNTDzi__Qo",
+   "url": "https://www.youtube.com/watch?v=dKNTDzi__Qo",
+   "time_s": 1,
+   "observation": "schwarz-goldener Bogen, Gold an den Kanten der Wurfarme, petrolfarbener Griff",
+   "status": "O"
+  },
+  {
+   "n": 26,
+   "game": "Destiny 2",
+   "weapon": "Far Future",
+   "antigravity": {
+    "skin": "Factory Default (Chosen Gilded)",
+    "source": "RXgRxHESqHQ",
+    "timestamp": "00:01"
+   },
+   "verdict": "kept",
+   "source": "RXgRxHESqHQ",
+   "url": "https://www.youtube.com/watch?v=RXgRxHESqHQ",
+   "time_s": 1,
+   "observation": "abgeriebenes Gold über Petrol, gerippter Laufmantel und Schaftrohr, orange Ringe am Zielfernrohr (Antigravity: elfenbein 40 % – falsch)",
+   "status": "O"
+  },
+  {
+   "n": 27,
+   "game": "Destiny 2",
+   "weapon": "Threaded Needle",
+   "antigravity": {
+    "skin": "Factory Default (Chosen Bronze)",
+    "source": "uoTaCBMXcFk",
+    "timestamp": "00:01"
+   },
+   "verdict": "kept",
+   "source": "uoTaCBMXcFk",
+   "url": "https://www.youtube.com/watch?v=uoTaCBMXcFk",
+   "time_s": 1,
+   "observation": "abgeriebenes Gold über Schwarz, petrolfarbene gerippte Teile, goldenes Visier",
+   "status": "O"
+  },
+  {
+   "n": 28,
+   "game": "Destiny 2",
+   "weapon": "Midnight Coup",
+   "antigravity": {
+    "skin": "Superblack Shader",
+    "source": "pazFJ51axhE",
+    "timestamp": "02:15"
+   },
+   "verdict": "dropped",
+   "reason": "pazFJ51axhE zeigt nur Elsie's Rifle mit wechselnden Shadern"
+  },
+  {
+   "n": 29,
+   "game": "Destiny 2",
+   "weapon": "Blast Furnace",
+   "antigravity": {
+    "skin": "Bergusia Night Shader",
+    "source": "pazFJ51axhE",
+    "timestamp": "04:30"
+   },
+   "verdict": "dropped",
+   "reason": "pazFJ51axhE zeigt nur Elsie's Rifle mit wechselnden Shadern"
+  },
+  {
+   "n": 30,
+   "game": "Destiny 2",
+   "weapon": "Elsie's Rifle",
+   "antigravity": {
+    "skin": "Calus's Selected Shader",
+    "source": "pazFJ51axhE",
+    "timestamp": "07:10"
+   },
+   "verdict": "kept",
+   "source": "pazFJ51axhE",
+   "url": "https://www.youtube.com/watch?v=pazFJ51axhE",
+   "time_s": 430,
+   "observation": "Elsie's Rifle mit einem Shader des Videos; Shadername „Calus's Selected“ nicht bestätigt, Befund siehe Shaderreihe",
+   "status": "O"
+  },
+  {
+   "n": 31,
+   "game": "Destiny 1",
+   "weapon": "Red Death",
+   "antigravity": {
+    "skin": "Factory Default (Exotic)",
+    "source": "MkkQa1OIpDk",
+    "timestamp": "01:15"
+   },
+   "verdict": "dropped",
+   "reason": "MkkQa1OIpDk ist ein D1-Scout-Visiervergleich; bei 1:15 Menü der Naraka SR5"
+  },
+  {
+   "n": 32,
+   "game": "Destiny 1",
+   "weapon": "Fatebringer",
+   "antigravity": {
+    "skin": "Vault of Glass Raid",
+    "source": "MkkQa1OIpDk",
+    "timestamp": "03:40"
+   },
+   "verdict": "dropped",
+   "reason": "MkkQa1OIpDk zeigt bei 3:40 Charaktermenü und Visier RLR5"
+  },
+  {
+   "n": 33,
+   "game": "Destiny 1",
+   "weapon": "Suros Regime",
+   "antigravity": {
+    "skin": "Factory Default (Exotic)",
+    "source": "MkkQa1OIpDk",
+    "timestamp": "05:20"
+   },
+   "verdict": "dropped",
+   "reason": "05:20 liegt hinter dem Ende des Videos (5:02)"
+  },
+  {
+   "n": 34,
+   "game": "Destiny 1",
+   "weapon": "Shadow Price",
+   "antigravity": {
+    "skin": "Vanguard Tactical",
+    "source": "VNprDRKZxt8",
+    "timestamp": "00:45"
+   },
+   "verdict": "dropped",
+   "reason": "VNprDRKZxt8 (Häkke-Visiervergleich) zeigt bei 0:45 eine dunkle Szene ohne bestimmbare Waffe"
+  },
+  {
+   "n": 35,
+   "game": "Destiny 1",
+   "weapon": "The Devil You Know",
+   "antigravity": {
+    "skin": "Crucible Red",
+    "source": "VNprDRKZxt8",
+    "timestamp": "02:10"
+   },
+   "verdict": "dropped",
+   "reason": "02:10 liegt hinter dem Ende des Videos (1:30)"
+  },
+  {
+   "n": 36,
+   "game": "Destiny 1",
+   "weapon": "Praedyth's Revenge",
+   "antigravity": {
+    "skin": "Vex Bronze Raid",
+    "source": "MjugMsHa_0o",
+    "timestamp": "01:30"
+   },
+   "verdict": "dropped",
+   "reason": "01:30 liegt hinter dem Ende des Videos (0:41)"
+  },
+  {
+   "n": 37,
+   "game": "Destiny 1",
+   "weapon": "Thorn",
+   "antigravity": {
+    "skin": "Weapons of Sorrow",
+    "source": "MjugMsHa_0o",
+    "timestamp": "03:15"
+   },
+   "verdict": "dropped",
+   "reason": "03:15 liegt hinter dem Ende des Videos (0:41)"
+  },
+  {
+   "n": 38,
+   "game": "Marathon (Bungie)",
+   "weapon": "CE Tactical Sidearm",
+   "antigravity": {
+    "skin": "Standard Issue Stencil",
+    "source": "QxZAflLtJRQ",
+    "timestamp": "00:10"
+   },
+   "verdict": "kept",
+   "source": "QxZAflLtJRQ",
+   "url": "https://www.youtube.com/watch?v=QxZAflLtJRQ",
+   "time_s": 10,
+   "observation": "Waffe am Einblendnamen bestätigt; Skinname nicht bestätigt, Spielszene ohne Musterbefund",
+   "status": "O"
+  },
+  {
+   "n": 39,
+   "game": "Marathon (Bungie)",
+   "weapon": "Traxus Heavy Shotgun",
+   "antigravity": {
+    "skin": "Industrial Hazard Yellow",
+    "source": "QxZAflLtJRQ",
+    "timestamp": "00:45"
+   },
+   "verdict": "dropped",
+   "reason": "bei 0:45 eingeblendet V11 Punch"
+  },
+  {
+   "n": 40,
+   "game": "Marathon (Bungie)",
+   "weapon": "MIDA Kinetic Rifle",
+   "antigravity": {
+    "skin": "Combat Prototype OD",
+    "source": "oVYV8rCXiKI",
+    "timestamp": "00:25"
+   },
+   "verdict": "dropped",
+   "reason": "bei 0:25 Einstellungsmenü"
+  },
+  {
+   "n": 41,
+   "game": "Marathon (Bungie)",
+   "weapon": "Sekiguchi SMG",
+   "antigravity": {
+    "skin": "Cybernetic Polycarbonate",
+    "source": "oVYV8rCXiKI",
+    "timestamp": "01:10"
+   },
+   "verdict": "dropped",
+   "reason": "01:10 liegt hinter dem Ende des Videos (0:35)"
+  },
+  {
+   "n": 42,
+   "game": "Marathon (Bungie)",
+   "weapon": "Overrun AR",
+   "antigravity": {
+    "skin": "Acid Runner Neon",
+    "source": "QxZAflLtJRQ",
+    "timestamp": "01:35"
+   },
+   "verdict": "dropped",
+   "reason": "bei 1:35 eingeblendet Magnum MC"
+  },
+  {
+   "n": 43,
+   "game": "Marathon (Bungie)",
+   "weapon": "Cyber-Chassis Sidearm",
+   "antigravity": {
+    "skin": "Iridescent Coating",
+    "source": "oVYV8rCXiKI",
+    "timestamp": "02:05"
+   },
+   "verdict": "dropped",
+   "reason": "02:05 liegt hinter dem Ende des Videos (0:35)"
+  },
+  {
+   "n": 44,
+   "game": "Marathon (Bungie)",
+   "weapon": "UESC Fleet Carbine",
+   "antigravity": {
+    "skin": "Naval Aerospace Blue",
+    "source": "QxZAflLtJRQ",
+    "timestamp": "02:20"
+   },
+   "verdict": "dropped",
+   "reason": "bei 2:20 eingeblendet V22 Volt Thrower"
+  },
+  {
+   "n": 45,
+   "game": "Halo Infinite",
+   "weapon": "MA40 Assault Rifle",
+   "antigravity": {
+    "skin": "Standard Issue UNSC",
+    "source": "X_ADv1HMwkg",
+    "timestamp": "00:30"
+   },
+   "verdict": "dropped",
+   "reason": "X_ADv1HMwkg zeigt Halo 3"
+  },
+  {
+   "n": 46,
+   "game": "Halo Infinite",
+   "weapon": "MA40 Assault Rifle",
+   "antigravity": {
+    "skin": "Passcode Coating Hazard",
+    "source": "TnblT7JnMPI",
+    "timestamp": "00:15"
+   },
+   "verdict": "kept",
+   "source": "TnblT7JnMPI",
+   "url": "https://www.youtube.com/watch?v=TnblT7JnMPI",
+   "time_s": 15,
+   "observation": "MA40 in der Inspektion bestätigt; Kanal Hectorlo (nicht „Halo Inspect“), Coating „Passcode“ nicht bestätigt",
+   "status": "O"
+  },
+  {
+   "n": 47,
+   "game": "Halo Infinite",
+   "weapon": "BR75 Battle Rifle",
+   "antigravity": {
+    "skin": "Standard Issue UNSC",
+    "source": "X_ADv1HMwkg",
+    "timestamp": "02:10"
+   },
+   "verdict": "dropped",
+   "reason": "X_ADv1HMwkg zeigt Halo 3"
+  },
+  {
+   "n": 48,
+   "game": "Halo Infinite",
+   "weapon": "BR75 Battle Rifle",
+   "antigravity": {
+    "skin": "Action Block Coating",
+    "source": "TnblT7JnMPI",
+    "timestamp": "00:45"
+   },
+   "verdict": "dropped",
+   "reason": "TnblT7JnMPI zeigt bei 0:45 eine Covenant-Waffe"
+  },
+  {
+   "n": 49,
+   "game": "Halo Infinite",
+   "weapon": "CQS48 Bulldog",
+   "antigravity": {
+    "skin": "Standard Tactical Olive",
+    "source": "ZfNuA5r-470",
+    "timestamp": "01:05"
+   },
+   "verdict": "dropped",
+   "reason": "ZfNuA5r-470 zeigt bei 1:05 ein Gewehr mit Zielfernrohr, keine Bulldog"
+  },
+  {
+   "n": 50,
+   "game": "Halo Infinite",
+   "weapon": "CQS48 Bulldog",
+   "antigravity": {
+    "skin": "Sundown Smile Desert",
+    "source": "TnblT7JnMPI",
+    "timestamp": "01:25"
+   },
+   "verdict": "dropped",
+   "reason": "TnblT7JnMPI zeigt bei 1:25 eine andere Waffe"
+  },
+  {
+   "n": 51,
+   "game": "Halo Infinite",
+   "weapon": "M50 Sidekick",
+   "antigravity": {
+    "skin": "Standard Issue Brushed",
+    "source": "X_ADv1HMwkg",
+    "timestamp": "03:45"
+   },
+   "verdict": "dropped",
+   "reason": "X_ADv1HMwkg zeigt Halo 3"
+  },
+  {
+   "n": 52,
+   "game": "Apex Legends",
+   "weapon": "R-301 Carbine",
+   "antigravity": {
+    "skin": "Factory Default Factory",
+    "source": "iNizXu2hl_0",
+    "timestamp": "00:20"
+   },
+   "verdict": "dropped",
+   "reason": "bei 0:20 eingeblendet RE-45"
+  },
+  {
+   "n": 53,
+   "game": "Apex Legends",
+   "weapon": "R-301 Carbine",
+   "antigravity": {
+    "skin": "The Iron Rampage (Legendary)",
+    "source": "UetKaZiF9uA",
+    "timestamp": "01:15"
+   },
+   "verdict": "kept",
+   "source": "UetKaZiF9uA",
+   "url": "https://www.youtube.com/watch?v=UetKaZiF9uA",
+   "time_s": 75,
+   "observation": "R-301 im Zielen mit orangem Skin; laut Titel Trophy Collector, nicht „The Iron Rampage“",
+   "status": "O"
+  },
+  {
+   "n": 54,
+   "game": "Apex Legends",
+   "weapon": "Wingman",
+   "antigravity": {
+    "skin": "Factory Default",
+    "source": "iNizXu2hl_0",
+    "timestamp": "01:40"
+   },
+   "verdict": "dropped",
+   "reason": "bei 1:40 eingeblendet Prowler"
+  },
+  {
+   "n": 55,
+   "game": "Apex Legends",
+   "weapon": "Wingman",
+   "antigravity": {
+    "skin": "The Sunburst (Legendary)",
+    "source": "UetKaZiF9uA",
+    "timestamp": "02:30"
+   },
+   "verdict": "dropped",
+   "reason": "02:30 liegt hinter dem Ende des Videos (1:55)"
+  },
+  {
+   "n": 56,
+   "game": "Apex Legends",
+   "weapon": "Peacekeeper",
+   "antigravity": {
+    "skin": "Factory Default",
+    "source": "gCQHKNsIU9w",
+    "timestamp": "00:50"
+   },
+   "verdict": "dropped",
+   "reason": "gCQHKNsIU9w zeigt nur die Kraber"
+  },
+  {
+   "n": 57,
+   "game": "Apex Legends",
+   "weapon": "Peacekeeper",
+   "antigravity": {
+    "skin": "The Superstar (Legendary)",
+    "source": "gCQHKNsIU9w",
+    "timestamp": "02:10"
+   },
+   "verdict": "dropped",
+   "reason": "02:10 liegt hinter dem Ende des Videos (0:55)"
+  },
+  {
+   "n": 58,
+   "game": "Apex Legends",
+   "weapon": "Kraber .50-Cal",
+   "antigravity": {
+    "skin": "Desert Camo Military",
+    "source": "gCQHKNsIU9w",
+    "timestamp": "03:40"
+   },
+   "verdict": "dropped",
+   "reason": "03:40 liegt hinter dem Ende des Videos (0:55)"
+  },
+  {
+   "n": 59,
+   "game": "Valorant",
+   "weapon": "Classic",
+   "antigravity": {
+    "skin": "Standard Issue Clean",
+    "source": "LF9pPIi5ops",
+    "timestamp": "00:02"
+   },
+   "verdict": "kept",
+   "source": "LF9pPIi5ops",
+   "url": "https://www.youtube.com/watch?v=LF9pPIi5ops",
+   "time_s": 2,
+   "observation": "Classic (Standard) am Einblendnamen bestätigt; Kanal PC Gaming Videos",
+   "status": "O"
+  },
+  {
+   "n": 60,
+   "game": "Valorant",
+   "weapon": "Classic",
+   "antigravity": {
+    "skin": "Prime Skinline (Deluxe)",
+    "source": "WH5xpA7tfY8",
+    "timestamp": "00:40"
+   },
+   "verdict": "dropped",
+   "reason": "WH5xpA7tfY8 (Leitfaden April 2020) zeigt Standardwaffen, Prime-Skin nicht zu sehen"
+  },
+  {
+   "n": 61,
+   "game": "Valorant",
+   "weapon": "Vandal",
+   "antigravity": {
+    "skin": "Standard Stamped Metal",
+    "source": "WH5xpA7tfY8",
+    "timestamp": "01:25"
+   },
+   "verdict": "dropped",
+   "reason": "bei 1:25 eine Pistole"
+  },
+  {
+   "n": 62,
+   "game": "Valorant",
+   "weapon": "Vandal",
+   "antigravity": {
+    "skin": "Reaver Skinline (Gothic)",
+    "source": "WH5xpA7tfY8",
+    "timestamp": "02:15"
+   },
+   "verdict": "dropped",
+   "reason": "bei 2:15 eine Pistole; Reaver erschien nach dem Video"
+  },
+  {
+   "n": 63,
+   "game": "Valorant",
+   "weapon": "Vandal",
+   "antigravity": {
+    "skin": "Prime Skinline (White/Gold)",
+    "source": "WH5xpA7tfY8",
+    "timestamp": "03:05"
+   },
+   "verdict": "dropped",
+   "reason": "bei 3:05 eine Pistole"
+  },
+  {
+   "n": 64,
+   "game": "Valorant",
+   "weapon": "Phantom",
+   "antigravity": {
+    "skin": "Standard Tactical Matte",
+    "source": "WH5xpA7tfY8",
+    "timestamp": "03:50"
+   },
+   "verdict": "dropped",
+   "reason": "Standardwaffe ohne Skinbefund, Waffe nicht eindeutig"
+  },
+  {
+   "n": 65,
+   "game": "Valorant",
+   "weapon": "Phantom",
+   "antigravity": {
+    "skin": "Glitchpop Skinline (Cyber)",
+    "source": "WH5xpA7tfY8",
+    "timestamp": "04:40"
+   },
+   "verdict": "dropped",
+   "reason": "Glitchpop nicht zu sehen"
+  },
+  {
+   "n": 66,
+   "game": "CoD MW2019/BO6",
+   "weapon": "X16 Pistol (MW2019)",
+   "antigravity": {
+    "skin": "Factory Default Cerakote FDE",
+    "source": "VAdaNrfQcvw",
+    "timestamp": "00:05"
+   },
+   "verdict": "dropped",
+   "reason": "nur ein Ausschnitt des Videos geprüft, Pistole ohne Einblendnamen"
+  },
+  {
+   "n": 67,
+   "game": "CoD MW2019/BO6",
+   "weapon": "M4A1 (MW2019)",
+   "antigravity": {
+    "skin": "Factory Default Mil-Spec",
+    "source": "qI_IWMuH_Zs",
+    "timestamp": "00:30"
+   },
+   "verdict": "dropped",
+   "reason": "Optikvideo, Waffe und Lackierung im Zielen nicht bestimmbar"
+  },
+  {
+   "n": 68,
+   "game": "CoD MW2019/BO6",
+   "weapon": "M4A1 (MW2019)",
+   "antigravity": {
+    "skin": "Damascus Mastery Camo",
+    "source": "xygk-adR6pg",
+    "timestamp": "01:10"
+   },
+   "verdict": "dropped",
+   "reason": "bei 1:10 Titelkarte „Scout Combat Optic“"
+  },
+  {
+   "n": 69,
+   "game": "CoD MW2019/BO6",
+   "weapon": "M4A1 (MW2019)",
+   "antigravity": {
+    "skin": "Gold Mastery Camo",
+    "source": "xygk-adR6pg",
+    "timestamp": "02:45"
+   },
+   "verdict": "dropped",
+   "reason": "Optikvideo, Lackierung im Zielen nicht bestimmbar"
+  },
+  {
+   "n": 70,
+   "game": "CoD MW2019/BO6",
+   "weapon": "9mm PM (BO6)",
+   "antigravity": {
+    "skin": "Factory Default Soviet Bakelite",
+    "source": "HfgUhmc8p00",
+    "timestamp": "00:05"
+   },
+   "verdict": "kept",
+   "source": "HfgUhmc8p00",
+   "url": "https://www.youtube.com/watch?v=HfgUhmc8p00",
+   "time_s": 5,
+   "observation": "9mm PM am Einblendnamen bestätigt; Kanal EXILAS (2025), Lackname nicht bestätigt",
+   "status": "O"
+  },
+  {
+   "n": 71,
+   "game": "CoD MW2019/BO6",
+   "weapon": "Ames 85 (BO6)",
+   "antigravity": {
+    "skin": "Factory Default Cold War",
+    "source": "v0HWVURYPDM",
+    "timestamp": "01:15"
+   },
+   "verdict": "dropped",
+   "reason": "Optikvideo, Waffe im Zielen nicht bestimmbar"
+  },
+  {
+   "n": 72,
+   "game": "CoD MW2019/BO6",
+   "weapon": "Jackal PDW (BO6)",
+   "antigravity": {
+    "skin": "Dark Matter Mastery Camo",
+    "source": "v0HWVURYPDM",
+    "timestamp": "02:30"
+   },
+   "verdict": "dropped",
+   "reason": "Jackal PDW ist eine MP, das Video zeigt Sturmgewehr-Optiken"
+  },
+  {
+   "n": 73,
+   "game": "Borderlands 3",
+   "weapon": "Maliwan Shock SMG",
+   "antigravity": {
+    "skin": "Factory Default Tech Teal",
+    "source": "Nwp4VJWUujY",
+    "timestamp": "00:25"
+   },
+   "verdict": "dropped",
+   "reason": "Nwp4VJWUujY ist ein Vladof-AR-Teileleitfaden"
+  },
+  {
+   "n": 74,
+   "game": "Borderlands 3",
+   "weapon": "Jakobs Revolver",
+   "antigravity": {
+    "skin": "Factory Default Engraved Walnut",
+    "source": "3T2UZUYPzEc",
+    "timestamp": "01:10"
+   },
+   "verdict": "dropped",
+   "reason": "3T2UZUYPzEc ist ein Hyperion-Scharfschützen-Leitfaden"
+  },
+  {
+   "n": 75,
+   "game": "Borderlands 3",
+   "weapon": "Vladof Assault Rifle",
+   "antigravity": {
+    "skin": "Factory Default Soviet Grime",
+    "source": "Td1dW-moo4o",
+    "timestamp": "00:55"
+   },
+   "verdict": "dropped",
+   "reason": "Waffe ohne Einblendnamen nicht bestimmbar"
+  },
+  {
+   "n": 76,
+   "game": "Borderlands 3",
+   "weapon": "Dahl Combat Rifle",
+   "antigravity": {
+    "skin": "Factory Default Woodland Camo",
+    "source": "Nwp4VJWUujY",
+    "timestamp": "02:15"
+   },
+   "verdict": "dropped",
+   "reason": "bei 2:15 Teilemenü einer Vladof-Waffe"
+  },
+  {
+   "n": 77,
+   "game": "Borderlands 3",
+   "weapon": "Torgue Shotgun",
+   "antigravity": {
+    "skin": "Factory Default Hazard Checker",
+    "source": "3T2UZUYPzEc",
+    "timestamp": "02:50"
+   },
+   "verdict": "dropped",
+   "reason": "3T2UZUYPzEc ist ein Hyperion-Scharfschützen-Leitfaden"
+  },
+  {
+   "n": 78,
+   "game": "Borderlands 3",
+   "weapon": "COV Assault Rifle",
+   "antigravity": {
+    "skin": "Children of the Vault Scrap",
+    "source": "Td1dW-moo4o",
+    "timestamp": "02:20"
+   },
+   "verdict": "dropped",
+   "reason": "Waffe ohne Einblendnamen nicht bestimmbar"
+  },
+  {
+   "n": 79,
+   "game": "Borderlands 3",
+   "weapon": "Hyperion Sniper Rifle",
+   "antigravity": {
+    "skin": "Factory Default Automotive Gold",
+    "source": "Nwp4VJWUujY",
+    "timestamp": "03:45"
+   },
+   "verdict": "dropped",
+   "reason": "bei 3:45 Teilemenü einer Vladof-Waffe"
+  },
+  {
+   "n": 80,
+   "game": "Overwatch 2",
+   "weapon": "Widow's Kiss",
+   "antigravity": {
+    "skin": "Default (Widowmaker)",
+    "source": "Qh7gYQpSq0Y",
+    "timestamp": "00:10"
+   },
+   "verdict": "kept",
+   "source": "Qh7gYQpSq0Y",
+   "url": "https://www.youtube.com/watch?v=Qh7gYQpSq0Y",
+   "time_s": 10,
+   "observation": "Widow's Kiss in Widowmaker-Spielszene bestätigt, ohne Musterbefund",
+   "status": "O"
+  },
+  {
+   "n": 81,
+   "game": "Overwatch 2",
+   "weapon": "Pulse Pistols",
+   "antigravity": {
+    "skin": "Default (Tracer)",
+    "source": "Qh7gYQpSq0Y",
+    "timestamp": "01:20"
+   },
+   "verdict": "dropped",
+   "reason": "Qh7gYQpSq0Y zeigt nur Widowmaker"
+  },
+  {
+   "n": 82,
+   "game": "Overwatch 2",
+   "weapon": "Heavy Pulse Rifle",
+   "antigravity": {
+    "skin": "Default (Soldier: 76)",
+    "source": "Qh7gYQpSq0Y",
+    "timestamp": "02:40"
+   },
+   "verdict": "dropped",
+   "reason": "Qh7gYQpSq0Y zeigt nur Widowmaker"
+  },
+  {
+   "n": 83,
+   "game": "Overwatch 2",
+   "weapon": "Peacekeeper Revolver",
+   "antigravity": {
+    "skin": "Default (Cassidy)",
+    "source": "Qh7gYQpSq0Y",
+    "timestamp": "03:55"
+   },
+   "verdict": "dropped",
+   "reason": "Qh7gYQpSq0Y zeigt nur Widowmaker"
+  },
+  {
+   "n": 84,
+   "game": "Overwatch 2",
+   "weapon": "Biotic Rifle",
+   "antigravity": {
+    "skin": "Default (Ana)",
+    "source": "Qh7gYQpSq0Y",
+    "timestamp": "05:10"
+   },
+   "verdict": "dropped",
+   "reason": "Qh7gYQpSq0Y zeigt nur Widowmaker"
+  },
+  {
+   "n": 85,
+   "game": "Overwatch 2",
+   "weapon": "Railgun",
+   "antigravity": {
+    "skin": "Default (Sojourn)",
+    "source": "Qh7gYQpSq0Y",
+    "timestamp": "06:25"
+   },
+   "verdict": "dropped",
+   "reason": "06:25 liegt hinter dem Ende des Videos (6:14)"
+  },
+  {
+   "n": 86,
+   "game": "Overwatch 2",
+   "weapon": "Shuriken / Katana",
+   "antigravity": {
+    "skin": "Default (Genji)",
+    "source": "Qh7gYQpSq0Y",
+    "timestamp": "07:30"
+   },
+   "verdict": "dropped",
+   "reason": "07:30 liegt hinter dem Ende des Videos (6:14)"
+  }
+ ],
+ "measurements": [
+  {
+   "weapon": "Annual Skate",
+   "source": "IG-GZ72Vbi0",
+   "menu_s": [
+    53,
+    56
+   ],
+   "frame_s": 54.5,
+   "weapon_px_960": 68168,
+   "chroma_share": {
+    "C_gt_15": 0.08,
+    "C_gt_25": 0.067,
+    "C_gt_35": 0.05
+   },
+   "lightness_classes": {
+    "light": {
+     "share": 0.154,
+     "hex": "#C2D2D2",
+     "L": 82.8
+    },
+    "mid": {
+     "share": 0.344,
+     "hex": "#858F8C",
+     "L": 58.5
+    },
+    "dark": {
+     "share": 0.435,
+     "hex": "#262625",
+     "L": 15.2
+    }
+   },
+   "L_p90_minus_p10": 70.0,
+   "accent_hue_area": {
+    "hue_band_deg": [
+     -30,
+     30
+    ],
+    "hue_share": 0.09,
+    "hue_share_closed": 0.097
+   },
+   "probes": {
+    "shell": {
+     "hex": "#C7DAD9",
+     "L": 85.7,
+     "C": 6.7,
+     "xy_1080": [
+      1050,
+      400
+     ]
+    },
+    "red": {
+     "hex": "#CD697C",
+     "L": 56.6,
+     "C": 42.2,
+     "xy_1080": [
+      1563,
+      354
+     ]
+    },
+    "frame": {
+     "hex": "#2E2E2E",
+     "L": 18.9,
+     "C": 0.0,
+     "xy_1080": [
+      1607,
+      564
+     ]
+    },
+    "grip": {
+     "hex": "#292926",
+     "L": 16.5,
+     "C": 2.1,
+     "xy_1080": [
+      1811,
+      691
+     ]
+    },
+    "barrel": {
+     "hex": "#878785",
+     "L": 56.3,
+     "C": 1.1,
+     "xy_1080": [
+      1213,
+      551
+     ]
+    },
+    "red_diag": {
+     "hex": "#97323E",
+     "L": 36.4,
+     "C": 46.0,
+     "xy_1080": [
+      1290,
+      420
+     ]
+    }
+   },
+   "antigravity": {
+    "zones": 4,
+    "colors": {
+     "primary": "#C8D6D6",
+     "secondary": "#565A5D",
+     "accent": "#9C5769",
+     "glow": null
+    },
+    "zone_map": {
+     "Gehäuse_oben": "Zone 1 (Cowl weiß, 45%)",
+     "Akzentband": "Zone 2 (Diagonales SUROS-Rot, 20%)",
+     "Unterbau_Trommel": "Zone 3 (Graphit matt, 25%)",
+     "Laufrohr_Achsen": "Zone 4 (Stahl blank gedreht, 10%)",
+     "Visier": "Korn rot markiert, Kimme dunkel (folgt Zone 3)"
+    }
+   }
+  },
+  {
+   "weapon": "Solemn Hymn",
+   "source": "IG-GZ72Vbi0",
+   "menu_s": [
+    315,
+    319
+   ],
+   "frame_s": 317.0,
+   "weapon_px_960": 93767,
+   "chroma_share": {
+    "C_gt_15": 0.11,
+    "C_gt_25": 0.099,
+    "C_gt_35": 0.085
+   },
+   "lightness_classes": {
+    "light": {
+     "share": 0.211,
+     "hex": "#C1CFCB",
+     "L": 81.9
+    },
+    "mid": {
+     "share": 0.177,
+     "hex": "#646665",
+     "L": 43.1
+    },
+    "dark": {
+     "share": 0.512,
+     "hex": "#2C2C2C",
+     "L": 18.0
+    }
+   },
+   "L_p90_minus_p10": 70.2,
+   "accent_hue_area": {
+    "hue_band_deg": [
+     -30,
+     30
+    ],
+    "hue_share": 0.109,
+    "hue_share_closed": 0.117
+   },
+   "probes": {
+    "shell": {
+     "hex": "#C5D2D0",
+     "L": 83.2,
+     "C": 4.8,
+     "xy_1080": [
+      1264,
+      436
+     ]
+    },
+    "red": {
+     "hex": "#B3686A",
+     "L": 52.4,
+     "C": 32.5,
+     "xy_1080": [
+      1136,
+      519
+     ]
+    },
+    "handguard": {
+     "hex": "#2E2E2E",
+     "L": 18.9,
+     "C": 0.0,
+     "xy_1080": [
+      1200,
+      640
+     ]
+    },
+    "magazine": {
+     "hex": "#5B5E5D",
+     "L": 39.6,
+     "C": 1.4,
+     "xy_1080": [
+      1493,
+      742
+     ]
+    }
+   },
+   "antigravity": {
+    "zones": 4,
+    "colors": {
+     "primary": "#E0E8E5",
+     "secondary": "#504F4B",
+     "accent": "#C41E3A",
+     "glow": null
+    },
+    "zone_map": {
+     "Oberhaube": "Zone 1 (Satin-Weiß, 42%)",
+     "Kantenstreifen": "Zone 2 (Crimson-Rot, 18%)",
+     "Unterteil": "Zone 3 (Graphitgrau matt, 30%)",
+     "Laufblock": "Zone 4 (Mattes Metall, 10%)",
+     "Visier": "Picatinny-Schiene schwarz eloxiert, SUROS-Badge geprägt"
+    }
+   }
+  },
+  {
+   "weapon": "Bad News",
+   "source": "73lGCT7yOtk",
+   "menu_s": [
+    0,
+    4
+   ],
+   "frame_s": 2.0,
+   "weapon_px_960": 65964,
+   "chroma_share": {
+    "C_gt_15": 0.045,
+    "C_gt_25": 0.027,
+    "C_gt_35": 0.01
+   },
+   "lightness_classes": {
+    "light": {
+     "share": 0.171,
+     "hex": "#CFD2D2",
+     "L": 83.8
+    },
+    "mid": {
+     "share": 0.31,
+     "hex": "#777875",
+     "L": 50.4
+    },
+    "dark": {
+     "share": 0.492,
+     "hex": "#211E1A",
+     "L": 11.4
+    }
+   },
+   "L_p90_minus_p10": 74.9,
+   "accent_hue_area": {
+    "hue_band_deg": [
+     30,
+     75
+    ],
+    "hue_share": 0.051,
+    "hue_share_closed": 0.056
+   },
+   "probes": {
+    "shell": {
+     "hex": "#C8D0D0",
+     "L": 82.9,
+     "C": 2.9,
+     "xy_1080": [
+      1391,
+      373
+     ]
+    },
+    "orange": {
+     "hex": "#EDB393",
+     "L": 77.5,
+     "C": 29.8,
+     "xy_1080": [
+      1650,
+      322
+     ]
+    },
+    "grip": {
+     "hex": "#191009",
+     "L": 5.4,
+     "C": 5.2,
+     "xy_1080": [
+      1773,
+      678
+     ]
+    }
+   },
+   "antigravity": {
+    "zones": 4,
+    "colors": {
+     "primary": "#202326",
+     "secondary": "#8A9096",
+     "accent": "#C9551A",
+     "glow": "#FF3300"
+    },
+    "zone_map": {
+     "Schlitten_Flanke": "Zone 1 (Phosphatiertes Schwarzstahl, 55%)",
+     "Fasen_Kanten": "Zone 2 (Blank gefrästes Silber, 18%)",
+     "Griffschalen": "Zone 3 (Hartpolymer strukturiert, 22%)",
+     "Kornmarke": "Zone 4 (Akzent Häkke-Orange, 5%)"
+    }
+   }
+  },
+  {
+   "weapon": "Eystein-D",
+   "source": "73lGCT7yOtk",
+   "menu_s": [
+    220,
+    224
+   ],
+   "frame_s": 222.0,
+   "weapon_px_960": 70095,
+   "chroma_share": {
+    "C_gt_15": 0.128,
+    "C_gt_25": 0.054,
+    "C_gt_35": 0.002
+   },
+   "lightness_classes": {
+    "light": {
+     "share": 0.057,
+     "hex": "#BAB8AF",
+     "L": 74.5
+    },
+    "mid": {
+     "share": 0.164,
+     "hex": "#706F64",
+     "L": 46.5
+    },
+    "dark": {
+     "share": 0.725,
+     "hex": "#23221D",
+     "L": 13.3
+    }
+   },
+   "L_p90_minus_p10": 48.8,
+   "accent_hue_area": null,
+   "probes": {
+    "camo": {
+     "hex": "#475734",
+     "L": 34.8,
+     "C": 22.6,
+     "xy_1080": [
+      1136,
+      449
+     ]
+    },
+    "ochre": {
+     "hex": "#7F6C35",
+     "L": 46.3,
+     "C": 33.1,
+     "xy_1080": [
+      1582,
+      413
+     ]
+    },
+    "handguard": {
+     "hex": "#25201D",
+     "L": 12.7,
+     "C": 3.4,
+     "xy_1080": [
+      1327,
+      564
+     ]
+    },
+    "muzzle": {
+     "hex": "#B7B5AF",
+     "L": 73.7,
+     "C": 3.3,
+     "xy_1080": [
+      882,
+      551
+     ]
+    }
+   },
+   "antigravity": {
+    "zones": 5,
+    "colors": {
+     "primary": "#334326",
+     "secondary": "#506343",
+     "accent": "#857A47",
+     "glow": "#00FF66"
+    },
+    "zone_map": {
+     "Hitzeschild_oben": "Zone 1 (Flecktarn-Grün, 25%)",
+     "Herstellerband": "Zone 2 (Ocker-Gelb/Orange, 8%)",
+     "Hauptkasten": "Zone 3 (Olivgrün matt, 40%)",
+     "Griff_Handschutz": "Zone 4 (Rippenpolymer schwarz, 18%)",
+     "Mündung": "Zone 5 (Kompensator gestrahlt, 9%)"
+    }
+   }
+  },
+  {
+   "weapon": "Uriel's Gift",
+   "source": "42zdQOVBAD0",
+   "menu_s": [
+    432,
+    436
+   ],
+   "frame_s": 434.0,
+   "weapon_px_960": 89190,
+   "chroma_share": {
+    "C_gt_15": 0.276,
+    "C_gt_25": 0.017,
+    "C_gt_35": 0.001
+   },
+   "lightness_classes": {
+    "light": {
+     "share": 0.041,
+     "hex": "#9FB2BB",
+     "L": 71.2
+    },
+    "mid": {
+     "share": 0.398,
+     "hex": "#596E7B",
+     "L": 45.3
+    },
+    "dark": {
+     "share": 0.543,
+     "hex": "#2C3A44",
+     "L": 23.7
+    }
+   },
+   "L_p90_minus_p10": 46.1,
+   "accent_hue_area": null,
+   "probes": {
+    "camo_a": {
+     "hex": "#83A2B3",
+     "L": 64.9,
+     "C": 14.0,
+     "xy_1080": [
+      1136,
+      462
+     ]
+    },
+    "camo_b": {
+     "hex": "#63899C",
+     "L": 55.0,
+     "C": 16.5,
+     "xy_1080": [
+      1035,
+      500
+     ]
+    },
+    "teal": {
+     "hex": "#39828C",
+     "L": 50.4,
+     "C": 23.0,
+     "xy_1080": [
+      1391,
+      443
+     ]
+    },
+    "lower": {
+     "hex": "#3B586A",
+     "L": 35.9,
+     "C": 14.8,
+     "xy_1080": [
+      1073,
+      755
+     ]
+    }
+   },
+   "antigravity": {
+    "zones": 4,
+    "colors": {
+     "primary": "#5B8696",
+     "secondary": "#404A63",
+     "accent": "#A3AAB1",
+     "glow": "#00E5FF"
+    },
+    "zone_map": {
+     "Oberschale": "Zone 1 (Polygonal-Tarnung Petrol/Blaugrau, 45%)",
+     "Unterschale": "Zone 2 (Tiefes Indigo/Violett matt, 30%)",
+     "Lochblech": "Zone 3 (Aluminium eloxiert silbergrau, 15%)",
+     "Flüssigkern": "Zone 4 (Emissives Cyan-Polymer, 10%)"
+    }
+   }
+  },
+  {
+   "weapon": "Death Adder",
+   "source": "afs_dhFDhQU",
+   "menu_s": [
+    116,
+    119
+   ],
+   "frame_s": 117.5,
+   "weapon_px_960": 87474,
+   "chroma_share": {
+    "C_gt_15": 0.157,
+    "C_gt_25": 0.033,
+    "C_gt_35": 0.028
+   },
+   "lightness_classes": {
+    "light": {
+     "share": 0.398,
+     "hex": "#B9BCA5",
+     "L": 75.3
+    },
+    "mid": {
+     "share": 0.266,
+     "hex": "#696C63",
+     "L": 45.1
+    },
+    "dark": {
+     "share": 0.303,
+     "hex": "#232825",
+     "L": 15.4
+    }
+   },
+   "L_p90_minus_p10": 68.7,
+   "accent_hue_area": null,
+   "probes": {
+    "shell": {
+     "hex": "#ACAF98",
+     "L": 70.7,
+     "C": 12.6,
+     "xy_1080": [
+      1582,
+      500
+     ]
+    },
+    "yellow": {
+     "hex": "#D8D170",
+     "L": 82.6,
+     "C": 49.8,
+     "xy_1080": [
+      1620,
+      347
+     ]
+    },
+    "grip": {
+     "hex": "#141614",
+     "L": 7.0,
+     "C": 1.7,
+     "xy_1080": [
+      1276,
+      793
+     ]
+    },
+    "barrel": {
+     "hex": "#5C5E60",
+     "L": 39.8,
+     "C": 1.5,
+     "xy_1080": [
+      1009,
+      538
+     ]
+    }
+   },
+   "antigravity": {
+    "zones": 3,
+    "colors": {
+     "primary": "#181A1C",
+     "secondary": "#3E9652",
+     "accent": "#73D43B",
+     "glow": "#00FF44"
+    },
+    "zone_map": {
+     "Oberschlitten": "Zone 1 (Mattschwarz Verbundstoff, 60%)",
+     "Seitenkiemen": "Zone 2 (Giftgrüne Kantenakzente, 25%)",
+     "Mechanik": "Zone 3 (Hochglanz-Schwarzstahl, 15%)"
+    }
+   }
+  },
+  {
+   "weapon": "The Mornin' Comes",
+   "source": "42zdQOVBAD0",
+   "menu_s": [
+    386,
+    389
+   ],
+   "frame_s": 387.5,
+   "weapon_px_960": 50605,
+   "chroma_share": {
+    "C_gt_15": 0.459,
+    "C_gt_25": 0.281,
+    "C_gt_35": 0.101
+   },
+   "lightness_classes": {
+    "light": {
+     "share": 0.006,
+     "hex": "#C9A5A3",
+     "L": 70.7
+    },
+    "mid": {
+     "share": 0.176,
+     "hex": "#6B605A",
+     "L": 42.0
+    },
+    "dark": {
+     "share": 0.538,
+     "hex": "#2A1A1B",
+     "L": 12.4
+    }
+   },
+   "L_p90_minus_p10": 36.6,
+   "accent_hue_area": null,
+   "probes": {
+    "red": {
+     "hex": "#321211",
+     "L": 10.2,
+     "C": 18.0,
+     "xy_1080": [
+      1700,
+      480
+     ]
+    },
+    "magazine": {
+     "hex": "#101416",
+     "L": 6.0,
+     "C": 2.1,
+     "xy_1080": [
+      1505,
+      640
+     ]
+    },
+    "red_lower": {
+     "hex": "#471A17",
+     "L": 16.2,
+     "C": 24.9,
+     "xy_1080": [
+      1500,
+      560
+     ]
+    }
+   },
+   "antigravity": {
+    "zones": 4,
+    "colors": {
+     "primary": "#253E6A",
+     "secondary": "#DEE4E8",
+     "accent": "#383D44",
+     "glow": "#00EEFF"
+    },
+    "zone_map": {
+     "Körper": "Zone 1 (Kobaltblau Polymer, 55%)",
+     "Rückensteg": "Zone 2 (Weißes Paneel, 20%)",
+     "Mechanik": "Zone 3 (Dunkelgrau, 15%)",
+     "Energietank": "Zone 4 (Flüssig-Cyan transparent, 10%)"
+    }
+   }
+  },
+  {
+   "weapon": "Valakadyn",
+   "source": "afs_dhFDhQU",
+   "menu_s": [
+    317,
+    320
+   ],
+   "frame_s": 318.5,
+   "weapon_px_960": 66894,
+   "chroma_share": {
+    "C_gt_15": 0.031,
+    "C_gt_25": 0.028,
+    "C_gt_35": 0.023
+   },
+   "lightness_classes": {
+    "light": {
+     "share": 0.067,
+     "hex": "#CCD0D3",
+     "L": 83.2
+    },
+    "mid": {
+     "share": 0.229,
+     "hex": "#686D6D",
+     "L": 45.6
+    },
+    "dark": {
+     "share": 0.677,
+     "hex": "#1F1F1E",
+     "L": 11.6
+    }
+   },
+   "L_p90_minus_p10": 51.8,
+   "accent_hue_area": null,
+   "probes": {
+    "shell": {
+     "hex": "#646E6D",
+     "L": 45.6,
+     "C": 4.1,
+     "xy_1080": [
+      1455,
+      398
+     ]
+    },
+    "green": {
+     "hex": "#3D5512",
+     "L": 33.0,
+     "C": 39.6,
+     "xy_1080": [
+      1607,
+      462
+     ]
+    },
+    "barrel": {
+     "hex": "#737677",
+     "L": 49.4,
+     "C": 1.3,
+     "xy_1080": [
+      1009,
+      615
+     ]
+    }
+   },
+   "antigravity": {
+    "zones": 4,
+    "colors": {
+     "primary": "#1A1D20",
+     "secondary": "#287563",
+     "accent": "#82BF45",
+     "glow": "#FF6600"
+    },
+    "zone_map": {
+     "Deckhaube": "Zone 1 (Giftgrün / Fluro-Teal, 30%)",
+     "Gehäusekörper": "Zone 2 (Carbonfaser-Schwarz, 50%)",
+     "Kleinteile": "Zone 3 (Anthrazitgrau matt, 15%)",
+     "Status-LED": "Zone 4 (Orange LED-Punkt, 5%)"
+    }
+   }
+  }
+ ],
+ "shader_series": [
+  {
+   "weapon": "Ros Arago IV",
+   "game": "Destiny 2",
+   "source": "RdbQEge8ziM",
+   "url": "https://www.youtube.com/watch?v=RdbQEge8ziM",
+   "shaders_seen": "rund 100 (Bogen alle 10 s)",
+   "frames_s": [
+    25,
+    105,
+    115,
+    205,
+    305,
+    425,
+    505,
+    605,
+    805,
+    925
+   ],
+   "status": "O",
+   "changes": "Farbe und Oberflächenstruktur der ganzen Waffe: Schale, Rahmen, Griff, Magazin und Schaft (Arctic Pearl bei 115 s macht auch Griff und Magazin weiß); je Shader zwei bis drei Farb-/Materialfelder (605 s: schwarze Schalenteile, rotbraunes Gehäuse, Stahl); Struktur kommt aus dem Shader (Digitaltarnung Vanguard Unity 105 s, Bruchstruktur, Schuppen, Marmor, Rost)",
+   "fixed": "Form, Prägungen und Kleinsymbole (Herzstempel) behalten Lage und Form, nehmen aber die Shaderfarbe an; Linsen und Leuchtteile nicht gesondert geprüft",
+   "pattern_vs_panels": "Shaderstrukturen laufen über Paneelgrenzen hinweg"
+  },
+  {
+   "weapon": "Elsie's Rifle",
+   "game": "Destiny 2",
+   "source": "pazFJ51axhE",
+   "url": "https://www.youtube.com/watch?v=pazFJ51axhE",
+   "shaders_seen": "rund 65 (Bogen alle 15 s)",
+   "frames_s": [
+    2,
+    60,
+    225,
+    430,
+    600,
+    900
+   ],
+   "status": "O",
+   "changes": "Farben der Bänder und der Grundfläche, teils Metall statt Lack (900 s: Stahl mit hellgrünem Feld)",
+   "fixed": "Lage und Form der Diagonalbänder bleiben bei jedem Shader gleich (das Bandlayout gehört zur Waffe, der Shader färbt es); das goldene Emblem hinten, die kleine blaue Leuchtanzeige oben und die hellen Fenster im Magazin bleiben unverändert",
+   "pattern_vs_panels": "die Bänder laufen schräg über Paneelgrenzen"
+  }
+ ],
+ "rules": [
+  {
+   "n": 1,
+   "antigravity": "3–4 Farbzonen, keine überzeugende Waffe mehr als 4",
+   "finding": "Die 42 gesichteten D2-Hersteller-Grundlacke (2020) zeigen meist drei bis vier unterscheidbare Felder: helle oder farbige Schale, dunkler Rahmen/Griff, blankes Metall, ein Akzent; eine Tarnung zählt als ein Feld mit zwei bis drei Tönen. Shader ergeben meist zwei bis drei Felder plus Metall.",
+   "verdict": "Beobachtung passt, Wertung „keine überzeugende Waffe“ unbelegt",
+   "status": "O"
+  },
+  {
+   "n": 2,
+   "antigravity": "Akzent 5–12 % der Fläche, höher wirkt wie Spielzeug",
+   "finding": "Bunte Pixel (C* > 25) 1,7–9,9 % der Waffenfläche bei 7 von 8 Waffen; The Mornin' Comes 28 % als rote Grundfarbe. Bunte Pixel sind nicht die bemalte Fläche (Schatten und helle Sprenkel im Band fallen heraus); die Farbtonfläche einschließlich Sprenkel ist etwas größer: SUROS-Rot 9,7 % (Annual Skate) und 11,7 % (Solemn Hymn), Häkke-Orange 5,6 % (Bad News). Antigravitys Belege (20 % und 18 %) liegen auch darüber. Stark schwellenabhängig: Uriel's Gift 1,7 % bei C* > 25, 27,6 % bei C* > 15.",
+   "verdict": "Größenordnung „Akzent um 10 % oder weniger“ trifft für die Grundlacke zu; Wirkungsaussage unbelegt",
+   "status": "M"
+  },
+  {
+   "n": 3,
+   "antigravity": "Muster enden an Fugen und Kanten",
+   "finding": "Kommt vor (Eystein-D: Tarnung nur auf der oberen Handschutzschale), ebenso das Gegenteil: Diagonalbänder von Annual Skate und Swift Ride queren die Schale, Elsie's-Rifle-Bänder laufen schräg über Paneele, Shaderstrukturen der Ros Arago IV über die ganze Waffe.",
+   "verdict": "als Regel widerlegt, beides belegt",
+   "status": "O"
+  },
+  {
+   "n": 4,
+   "antigravity": "Musterelement 2–6 % der Waffenlänge (10–35 mm)",
+   "finding": "Nicht gemessen; Millimeterangaben haben keinen Maßstab im Bild.",
+   "verdict": "offen",
+   "status": "A"
+  },
+  {
+   "n": 5,
+   "antigravity": "Helligkeitskontrast Schale/Rahmen ΔL* ≥ 40",
+   "finding": "Weiße und cremefarbene Schalen: ΔL* 64–78 (Annual Skate 85,7/18,9, Solemn Hymn 83,2/18,9, Bad News 82,9/5,4, Death Adder 70,7/7,0). Tarnung und Farblack deutlich darunter: Eystein-D 34,8/12,7 (22), Uriel's Gift 55–65/35,9 (19–29), The Mornin' Comes 10–16/6,0 (4–10). Antigravitys eigener Omolon-Beleg (55/28) liegt bei 27.",
+   "verdict": "als allgemeine Regel widerlegt; gilt für helle Schalen",
+   "status": "M"
+  },
+  {
+   "n": 6,
+   "antigravity": "Visiere bleiben in 85 % neutral",
+   "finding": "Gegenbeispiele bei den Grundlacken: Visiergehäuse folgen der Lackierung bei Uriel's Gift (Zielfernrohr in Tarnung), The Mornin' Comes (rot) und den Cabal-/Chosen-Waffen (gold); neutral bleiben die Linsen (blau/violett). Eine Quote ist nicht ausgezählt.",
+   "verdict": "Quote ungeprüft, Gegenbeispiele vorhanden",
+   "status": "O"
+  },
+  {
+   "n": 7,
+   "antigravity": "Funktionsteile bleiben unlackiert",
+   "finding": "Blanke Läufe und Mündungsbremsen bei fast allen Grundlacken; im Shadervideo der Ros Arago IV ändern sich aber auch Griff, Magazin und Schaft. Fest bleiben bei Elsie's Rifle Emblem, Leuchtanzeige und Magazinfenster.",
+   "verdict": "teilweise",
+   "status": "O"
+  },
+  {
+   "n": 8,
+   "antigravity": "Verschleiß zu 80 % an Kanten, nie flächig",
+   "finding": "Kantenabrieb kommt vor (Uriel's Gift), aber ebenso flächige gemalte Abnutzung: weiße Sprenkel im Rotband von Annual Skate und Solemn Hymn, abgeriebene ganze Schale bei Bad News, Gold über Dunkel flächig bei den Cabal-/Chosen-Waffen.",
+   "verdict": "in der Absolutform widerlegt",
+   "status": "O"
+  },
+  {
+   "n": 9,
+   "antigravity": "Material- statt Farbkontrast (Superblack-Beleg)",
+   "finding": "Der Beleg (Midnight Coup, Superblack) ist nicht im genannten Video. Gold neben Petrol und Schwarz (Cabal/Chosen) und Stahl neben Lack sind sichtbar; Rauheit und Metallanteil sind aus dem Video nicht messbar.",
+   "verdict": "offen",
+   "status": "O"
+  },
+  {
+   "n": 10,
+   "antigravity": "Herstellerschrift und Stempel als Maßstabsanker (1–3 %)",
+   "finding": "Herstellerschriftzüge auf fast allen Y1-Grundlacken (SUROS, HÄKKE, OMOLON, VEIST); Größe nicht gemessen.",
+   "verdict": "Beobachtung bestätigt, Größe offen",
+   "status": "O"
+  }
+ ],
+ "basic_roles_proposal": {
+  "note": "Vorschlag aus den Beobachtungen; entschieden wird in cubeescape-ballon. Rollen und Skins nach basic/kit.py (Branch claude/ballon-0.7-truecolor, gelesen 25.10.2026).",
+  "roles": [
+   {
+    "role": "shell",
+    "observed": "Hauptträger von Farbe und Muster (Schale, Haube); in den Grundlacken hell (L* 71–86) oder Tarnung/Farblack (L* 16–65)",
+    "proposal": "Skin färbt shell immer; Muster liegt hier"
+   },
+   {
+    "role": "graphite",
+    "observed": "dunkler Rahmen, Griff, Untergehäuse (L* 5–19 in den Proben); Shader können auch ihn umfärben (Arctic Pearl)",
+    "proposal": "Skin darf graphite umfärben, Standard bleibt dunkel; Kontrast zu shell je Skin festlegen statt pauschal ΔL* ≥ 40"
+   },
+   {
+    "role": "anodized",
+    "observed": "Visiergehäuse folgen bei mehreren D2-Grundlacken der Lackierung (Uriel's Gift, The Mornin' Comes, Cabal/Chosen), Quote nicht ausgezählt",
+    "proposal": "Visiergehäuse wahlweise shell folgen lassen; anodized für Klemmen und Schiene"
+   },
+   {
+    "role": "trim",
+    "observed": "blanker Lauf, Mündung, Kanten (L* 40–74, C* ≤ 3)",
+    "proposal": "skinfest als Metall; Abnutzung legt trim frei"
+   },
+   {
+    "role": "accent",
+    "observed": "bunte Pixel (C* > 25) 1,7–9,9 % der Waffenfläche, Farbtonfläche SUROS-Rot 9,7–11,7 %, Häkke-Orange 5,6 %; als Band, Block oder Schriftfeld",
+    "proposal": "eine Akzentfarbe je Skin, Flächenanteil als messbare Größe (C* > 25) im Bildtest"
+   },
+   {
+    "role": "energy",
+    "observed": "bei Elsie's Rifle bleiben Leuchtanzeige und Magazinfenster unter allen gesichteten Shadern unverändert; Kapseln und Linsen unter Shadern nicht geprüft",
+    "proposal": "skinfest (Vorschlag, aus einer Waffe abgeleitet)"
+   },
+   {
+    "role": "decal",
+    "observed": "Herstellerschrift auf fast allen Grundlacken; Emblem bei Elsie's Rifle skinfest",
+    "proposal": "eigene Schrift/Marke als decal, Lage skinfest"
+   },
+   {
+    "role": "Muster",
+    "observed": "zwei Arten: Muster aus dem Shader (Ros Arago IV) oder festes Bandlayout der Waffe, das der Shader nur färbt (Elsie's Rifle)",
+    "proposal": "Musterlayout je Waffe als Maske, Farben aus dem Skin (wie SKINS › pattern), Muster dürfen Paneele queren"
+   }
+  ]
+ }
+}

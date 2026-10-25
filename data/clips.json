@@ -1524,6 +1524,54 @@
     "timestamps": "331,617-331,750 s · Modell zuletzt f19897 = 331,617; Scope zuerst f19898 = 331,633; Rest bis ≈ f19905 = 331,750"
   },
   {
+    "measurement": "Oberflächen: Annual Skate (D2-Grundlack), bunter Anteil und Helligkeitsabstand im Inspektionsmenü",
+    "clip": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+    "source": "Ultraclocked (YouTube), 14.02.2020, 1920 × 1080, 60 fps; REF 0.18 „Livery“ (Mac, 25.10.2026), docs/oberflaechen.md#o-m-annual-skate",
+    "timestamps": "Menü 53–56 s, Messbild 54,5 s; Maske ±2 px, Proben 12 × 12 px ±3 L*"
+  },
+  {
+    "measurement": "Oberflächen: Solemn Hymn (D2-Grundlack), bunter Anteil und Helligkeitsabstand im Inspektionsmenü",
+    "clip": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+    "source": "Ultraclocked (YouTube), 14.02.2020, 1920 × 1080, 60 fps; REF 0.18 „Livery“ (Mac, 25.10.2026), docs/oberflaechen.md#o-m-solemn-hymn",
+    "timestamps": "Menü 315–319 s, Messbild 317,0 s; Maske ±2 px, Proben 12 × 12 px ±3 L*"
+  },
+  {
+    "measurement": "Oberflächen: Bad News (D2-Grundlack), bunter Anteil und Helligkeitsabstand im Inspektionsmenü",
+    "clip": "https://www.youtube.com/watch?v=73lGCT7yOtk",
+    "source": "Ultraclocked (YouTube), 25.01.2020, 1920 × 1080, 60 fps; REF 0.18 „Livery“ (Mac, 25.10.2026), docs/oberflaechen.md#o-m-bad-news",
+    "timestamps": "Menü 0–4 s, Messbild 2,0 s; Maske ±2 px, Proben 12 × 12 px ±3 L*"
+  },
+  {
+    "measurement": "Oberflächen: Eystein-D (D2-Grundlack), bunter Anteil und Helligkeitsabstand im Inspektionsmenü",
+    "clip": "https://www.youtube.com/watch?v=73lGCT7yOtk",
+    "source": "Ultraclocked (YouTube), 25.01.2020, 1920 × 1080, 60 fps; REF 0.18 „Livery“ (Mac, 25.10.2026), docs/oberflaechen.md#o-m-eystein-d",
+    "timestamps": "Menü 220–224 s, Messbild 222,0 s; Maske ±2 px, Proben 12 × 12 px ±3 L*"
+  },
+  {
+    "measurement": "Oberflächen: Uriel's Gift (D2-Grundlack), bunter Anteil und Helligkeitsabstand im Inspektionsmenü",
+    "clip": "https://www.youtube.com/watch?v=42zdQOVBAD0",
+    "source": "Ultraclocked (YouTube), 30.01.2020, 1920 × 1080, 60 fps; REF 0.18 „Livery“ (Mac, 25.10.2026), docs/oberflaechen.md#o-m-uriels-gift",
+    "timestamps": "Menü 432–436 s, Messbild 434,0 s; Maske ±2 px, Proben 12 × 12 px ±3 L*"
+  },
+  {
+    "measurement": "Oberflächen: Death Adder (D2-Grundlack), bunter Anteil und Helligkeitsabstand im Inspektionsmenü",
+    "clip": "https://www.youtube.com/watch?v=afs_dhFDhQU",
+    "source": "Ultraclocked (YouTube), 09.02.2020, 1920 × 1080, 60 fps; REF 0.18 „Livery“ (Mac, 25.10.2026), docs/oberflaechen.md#o-m-death-adder",
+    "timestamps": "Menü 116–119 s, Messbild 117,5 s; Maske ±2 px, Proben 12 × 12 px ±3 L*"
+  },
+  {
+    "measurement": "Oberflächen: The Mornin' Comes (D2-Grundlack), bunter Anteil und Helligkeitsabstand im Inspektionsmenü",
+    "clip": "https://www.youtube.com/watch?v=42zdQOVBAD0",
+    "source": "Ultraclocked (YouTube), 30.01.2020, 1920 × 1080, 60 fps; REF 0.18 „Livery“ (Mac, 25.10.2026), docs/oberflaechen.md#o-m-mornin-comes",
+    "timestamps": "Menü 386–389 s, Messbild 387,5 s; Maske ±2 px, Proben 12 × 12 px ±3 L*"
+  },
+  {
+    "measurement": "Oberflächen: Valakadyn (D2-Grundlack), bunter Anteil und Helligkeitsabstand im Inspektionsmenü",
+    "clip": "https://www.youtube.com/watch?v=afs_dhFDhQU",
+    "source": "Ultraclocked (YouTube), 09.02.2020, 1920 × 1080, 60 fps; REF 0.18 „Livery“ (Mac, 25.10.2026), docs/oberflaechen.md#o-m-valakadyn",
+    "timestamps": "Menü 317–320 s, Messbild 318,5 s; Maske ±2 px, Proben 12 × 12 px ±3 L*"
+  },
+  {
     "measurement": "Mündung Destiny 2: Extraordinary Rendition, ADS-Blitz und Hülse",
     "clip": "https://www.youtube.com/watch?v=Y5OLr0nbgSg",
     "source": "Ultraclocked (YouTube), 15.02.2021, 60 fps; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/destiny2.md#z-mf-rendition",
