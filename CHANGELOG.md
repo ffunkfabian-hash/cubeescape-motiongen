@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.15.0 „Sideview“ – 2026-10-25
+
+- Neue Referenzanalyse [Waffenproportionen und Silhouetten](docs/proportionen.md) mit `data/proportionen.json`: 52 Waffen aus 6 Spielen (Destiny 2: 26, Destiny 1, Marathon, Halo Infinite, Apex je 5, Borderlands 3: 6), Verhältnisse je D2-Klasse (Gehäuse, freier Lauf, Visierhöhe/-länge, H/L), zehn Beobachtungen „was schlank macht“, 17 BASIC-Konturen und der Scout-Visierring im Zielen als BASIC-Abweichungen (Schlüsse in cubeescape-ballon).
+- Zuarbeit einer Antigravity-Sitzung [C]: alle 17 Videos per yt-dlp und alle 12 Bildseiten per Abruf bestätigt (keine weggelassen), sechs Werte am eigenen Bild nachgemessen [M], alle innerhalb der Toleranz; vier Kernmessungen in `data/clips.json`.
+- Befund: BASIC-Gehäuse sind nicht zu hoch (0,10–0,13 L gegen D2 0,16–0,25 in 3/4-Ansicht); abweichend sind der Scout-Visieraufbau (0,063 L gegen 0,02–0,04) und der Visierring im Zielen (außen/Öffnung 1,76–1,91 gegen Destiny 1,28–1,30). [Bericht](docs/versions/0.md#0150-sideview--2026-10-25).
+
 ## 0.14.0 „Eyebox“ – 2026-10-24
 
 - Neue Referenzanalyse [Visiere in Videospielen](docs/visiere.md) mit maschinenlesbarer Fassung `data/visiere.json`: fünf Darstellungsarten (Vollbild, HUD, 3D mit einer Kamera, 3D mit Linsenbild, kein Zielen), Visiertyp je Klasse, Zahlen im Zielen (Öffnung, Gehäuse, Rahmen/Öffnung, Weltzoom als Bildmaßstab, ADS-Zeit) für 31 Spiele, Scharfschützen-Katalog über 100 Spiele, Sitz-Faustregeln, Absehen, Glas, Spielerstimmen und Empfehlungen für BASIC (cubeescape-ballon). 33 Kernmessungen in `data/clips.json`.

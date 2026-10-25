@@ -8,3 +8,4 @@
 - Weltzoom als Bildmaßstab messen (Vorlagensuche, corr ≥ 0,85) und nie mit dem Winkelzoom eines Spiels gleichsetzen; Glas gegen außen zeigt, ob ein Linsenbild existiert ([visiere](visiere.md#1-quellen-und-methode)).
 - `sheet` bei niedriger Bildrate: Kachel zeigt ein Bild eine halbe Abtastperiode nach ihrer Beschriftung – Zahlen nur aus Einzelbildern oder Bögen ≥ 5/s ([visiere](visiere.md#1-quellen-und-methode)).
 - Zuarbeit anderer Agenten (Antigravity) vor Übernahme per yt-dlp gegen Kanal/Titel prüfen und eine Stichprobe am Bild nachmessen; erfundene Quellen kommen vor ([visiere](visiere.md#1-quellen-und-methode)).
+- Proportionen aus 3/4-Menübildern und aus orthografischen Seitenbildern nur als Größenordnung vergleichen; jede Waffe auf ihre eigene Länge normieren, Bogen nur mit Wurfarm-L ([proportionen](proportionen.md#1-quellen-und-methode)).

@@ -1174,5 +1174,29 @@
     "clip": "https://www.youtube.com/watch?v=MlK0E83JfEE",
     "source": "TayXDc (YouTube), 03.11.2025, 60 fps; REF 0.14 „Eyebox“ (Mac, 24.10.2026), docs/visiere.md",
     "timestamps": "332 s · 376 s"
+  },
+  {
+    "measurement": "Proportionen: Far Future (D2-Scharfschützengewehr), H/L und freier Lauf im Menübild",
+    "clip": "https://www.youtube.com/watch?v=RXgRxHESqHQ",
+    "source": "Ultraclocked (YouTube), 18.02.2021, Abruf 1920 × 1080, 60 fps; REF 0.15 „Sideview“ (Mac, 25.10.2026), docs/proportionen.md › 6; Zahl der Antigravity-Zuarbeit nachgemessen",
+    "timestamps": "Menübild 0,7 s; Kanten ±3 px, Laufachse −8,9°"
+  },
+  {
+    "measurement": "Proportionen: Tone Patrol (D2-Scout), Visierhöhe über dem Gehäuse",
+    "clip": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+    "source": "Ultraclocked (YouTube), 14.02.2020, Abruf 1280 × 720, 60 fps; REF 0.15 „Sideview“ (Mac, 25.10.2026), docs/proportionen.md › 6; Zahl der Antigravity-Zuarbeit nachgemessen",
+    "timestamps": "Menübild 375,7 s; Kanten ±3 px"
+  },
+  {
+    "measurement": "Proportionen: Extraordinary Rendition (D2-MP), Magazinlänge und H/L",
+    "clip": "https://www.youtube.com/watch?v=Y5OLr0nbgSg",
+    "source": "Ultraclocked (YouTube), 15.02.2021, Abruf 1920 × 1080, 60 fps; REF 0.15 „Sideview“ (Mac, 25.10.2026), docs/proportionen.md › 6; Zahl der Antigravity-Zuarbeit nachgemessen",
+    "timestamps": "Menübild 0,7 s; Kanten ±3 px, Achse −12,8°"
+  },
+  {
+    "measurement": "Proportionen: Halo Infinite S7 Sniper, H/L in der Waffenbank",
+    "clip": "https://www.youtube.com/watch?v=ernPc3eEBdQ",
+    "source": "Bolt Gaming (YouTube), 05.10.2021, Abruf 1920 × 1080, 30 fps; REF 0.15 „Sideview“ (Mac, 25.10.2026), docs/proportionen.md › 6; Zahl der Antigravity-Zuarbeit nachgemessen",
+    "timestamps": "Waffenbank 160 s; Kanten ±3 px"
   }
 ]
