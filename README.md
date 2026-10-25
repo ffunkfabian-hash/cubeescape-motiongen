@@ -18,6 +18,7 @@ Toolgen und das Design-Repo lesen hier; entschieden und umgesetzt wird dort.
 | [docs/oberflaechen.md](docs/oberflaechen.md) | Oberflächenmuster von Waffen: Farbfelder, Akzentanteil, Helligkeitsabstand, Muster, Verschleiß und Shaderlogik in Destiny 2, Prüfung der Antigravity-Regeln, BASIC-Materialrollen als Vorschlag (`data/oberflaechen.json`) |
 | [docs/muendung.md](docs/muendung.md) | Mündungsfeuer und Hülsenauswurf: Blitzdauer und -größe, Überdeckung des Visiers, Hülsen, Mündungsform; Destiny 2 mit Destiny 1, Halo, Titanfall 2, Apex, CoD, Borderlands 3 und Battlefield 6 (`data/muendung.json`) |
 | [docs/inspektion.md](docs/inspektion.md) | Inspektionsanimationen: Menüinspektion (Destiny 2, Borderlands 3), Idle-Gesten (Halo), Ego-Inspect (Apex, CoD, Valorant, CS2, Battlefield 6) – Ablauf, gezeigte Seiten, Fläche, Medienzeiten (`data/inspektion.json`) |
+| [docs/huefte.md](docs/huefte.md) | Hüftlage: Mündung, Visier, Griff, Körper und Neigung der Waffe im Ruhebild – 28 Destiny-2-Waffen aus 16 Klassen, Vergleich mit Destiny 1, Marathon, Titanfall 2, Apex, Halo, CoD, Battlefield 6, Valorant, The Finals (`data/huefte.json`) |
 | [docs/auswertung.md](docs/auswertung.md) | Gesamtauswertung: Vergleich der Vorgänge, belegte Muster, Widersprüche und offene Fragen |
 | `docs/cube-escape.md` | Cube Escape selbst, mit denselben Messgrößen vermessen (eigene 60-fps-Aufnahmen aus der Testkopie): Messungen, Steckbriefe je Gerät, Vergleich mit den Vorbildern |
 | `data/clips.json` | Clip-Verzeichnis: Messung, Clip-URL, Quelle, Zeitstempel |
