@@ -15,3 +15,5 @@
 - Halte unter 2 s tragen keine Atemperiode; „innerhalb ±3 pp“ ist eine Auflösungsgrenze, kein Nachweis für Null-Sway ([zielbewegung](zielbewegung.md#7-nicht-messbar--offen)).
 - Zuarbeit nicht nur an der Quelle prüfen, sondern jedes Beispiel zum Zeitstempel am Bild: echte Video-IDs trugen in 0.18 falsche Waffen und erfundene Farbbeschreibungen ([oberflaechen](oberflaechen.md#1-quellen-und-methode)).
 - Farbanteile aus Menübildern nur mit genannter Buntheitsschwelle angeben (gedämpfte Tarnfarben kippen zwischen C* 15 und 25) und als gerenderte Pixel, nie als Albedo ([oberflaechen](oberflaechen.md#4-nachmessung-m)).
+- Blitzgröße nur mit Definition nennen: getrennte Flammenteile (Glaskegel, Seitenzungen) ergeben verschiedene Hüllrechtecke – Gridskipper 13–16 % H gegen 38 % H mit Kegel ([muendung](muendung.md#1-methode-und-genauigkeit)).
+- Entwickler-Portfolios belegen Form, keinen Retailstand, und können andere Feuermodi zeigen (New Malpais: Granatschuss); Quelle und Modus getrennt nennen ([muendung](muendung.md#2-quellen)).
