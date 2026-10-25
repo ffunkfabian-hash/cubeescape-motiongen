@@ -266,6 +266,23 @@ Die Rangfolge gewichtet zuerst die rechnerische Abweichung, dann die Vergleichba
 | 5 | Gewehr-Rückstoß Hüfte: CE 4,9 % gegen D2 1…2 % (nominal +2,9…+3,9 pp). | Schwach vergleichbar: CE-Riganker und D2-Modellverschiebung/Kameraverfolgung nicht dieselbe Perspektive. |
 
 Sprint-Wippen (Hub 8–10 % plausibel, Periodenlesung zurückgezogen/nicht bestätigt, kein Frequenzwert; Phasenmarker unbestätigt) ist ebenfalls aus der Rangfolge ausgeschlossen. Die folgenden Zeilen bleiben ausdrücklich **nicht tragfähig für eine Rangfolge**, auch wenn sich eine nominale Differenz ausrechnen lässt: Sprint→ADS (Startzustand und Endmarker verschieden); ADS aus bei zusammengefassten Waffen (Tastendruck gegen erste Bewegung); MP MagOut/MagIn (Spielereignis gegen sichtbaren Magazinmarker); Reloads außerhalb Tracefall (Nullpunkt und Endmarker verschieden); Impuls-Einzelschuss gegen D2-Dreiersalve (D2 0,383–0,433 s beobachtet, kein Grenzwert; nominale CE−D2-Differenz +0,167…+0,217 s, +38,6…+56,7 %); Schrot-Magazin gegen Einzelhülsen; Landung (D2-Beleg fehlt); D2-Kamera-Kick (nicht isoliert); Wechselgesamtzeit (andere Start-/Endmarker, Spannen überlappen); Fusionladen (CE-Verlassen der Visierlinie gegen D2-Ladebeginn/Strahl); fehlende CE-Gegenwerte für Bogen-ADS-Reset und Flash-and-Thunder-Schuss. Für diese Zeilen sind Zahlen nicht als Startwerte verwendbar.
+<!-- glidepath-ballon:start -->
+### BALLON-Prototyp (cubeescape-ballon): Visier-Anflug und Fadenkreuz (0.24) <a id="ballon-visier"></a>
+
+Vergleich der Destiny-2-Werte aus [destiny2.md › Glidepath](destiny2.md#s-glidepath) mit dem BALLON-Prototyp (Unity, Automatikgewehr BASIC-01 mit Holo-Visier). BALLON-Werte laut Übergabe aus BALLON 0.10 „Stride“ (25.10.2026). Beobachtungen, keine Startwerte – die Entscheidung trifft BALLON.
+
+| Größe | Destiny 2 (0.24) | BALLON 0.9 | BALLON 0.10 | Beobachtung |
+|---|---|---|---|---|
+| Überschwingen beim Visier-Anflug | in keinem gemessenen Anflug (17 Typen, Grenze ±0,2–3 pp) | Absehen 3,3° über die Mitte und zurück | Feder für Aktionen, die im Zielen enden, voll gedämpft | 0.10 entspricht Destiny 2 |
+| Abbremsen | monoton, über die letzten 3–9 Bilder | – | – | – |
+| Dauer Hüfte → ADS | 6–7 (Seitenwaffe) bis 20 Bilder (Automatik, Impuls, MG) | – | – | BALLON-Dauer in der Übergabe nicht genannt |
+| Bahn | von rechts unten bzw. rechts (Automatik 70 → 50 % B, Höhe konstant) | von 22° rechts | – | gleiche Richtung |
+| Weltzoom gegen Modell (Holo/Reflex) | beginnt mit dem Modell oder 1–2 Bilder später, endet gleichzeitig (±1 Bild) | – | – | in BALLON nicht gemessen |
+| Hüft-Fadenkreuz | ja bei fast allen Typen (Ring/Klammern 1,7–6,3 % H, lineare Fusion 12–13 % H; Scharfschütze nur Caret) | durchgehend, auch im Zielen | entfernt, nur kurze Trefferanzeige | Destiny 2 zeigt in der Hüfte ein Fadenkreuz und blendet es im Sprint und beim ADS-Beginn (1 Bild) aus |
+| Trefferanzeige | rotes X 3,0–3,6 % H, sofort volle Größe, Einzeltreffer 6–7 Bilder, bei Salve 15–19 Bilder; Präzision: Zahl gelb | – | kurze Trefferanzeige | – |
+| Sprint | 0.24: Frequenz in keinem eigenen Clip mit 4 Zyklen; Automatik-Modell im Scourge-Plateau ≤ 0,6 % H; Handfeuerwaffe verlässt das Bild | vertikal 6 Hz, seitlich 3 Hz, Rollen 4° | vertikal 3,16 Hz, seitlich 1,58 Hz, Rollen ±3,5° (nach REF 0.23) | Frequenz und Hub je Typ fehlen außer Automatik/Handfeuerwaffe; braucht eigenen Mitschnitt mit Eingabeanzeige |
+<!-- glidepath-ballon:end -->
+
 ## 6. Quellenverzeichnis
 
 Alle Verweise beziehen sich auf den oben genannten Quellenstand. Bezeichnungen in Anführungszeichen sind die Messzeilen der jeweiligen Tabelle;

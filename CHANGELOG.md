@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.24.0 „Glidepath“ – 2026-10-25
+
+- **Visier-Anflug, Fadenkreuz und Sprint je Waffentyp in Destiny 2** für den BALLON-Prototyp (17 BASIC-Standardtypen): Tabellen je Typ in [destiny2.md › 3](docs/destiny2.md#s-glidepath), 35 Messzeilen (`z-gp-…`), Methode „Glidepath“, Vergleich in [auswertung.md](docs/auswertung.md#ballon-visier), Einträge in `data/clips.json`.
+- Befund: **kein Überschwingen** in einem der gemessenen Anflüge; Ankunft monoton mit Abbremsen über 3–9 Bilder, Dauer 6–20 Bilder; Weltzoom endet mit dem Modell. Hüft-Fadenkreuz bei fast allen Typen, im Sprint weg, beim ADS-Beginn in einem Bild weg; Trefferanzeige rotes X 3,0–3,6 % H. Sprintfrequenz in keinem eigenen Clip mit 4 Zyklen belegt. Sieben Widersprüche zum Bestand gelistet, nicht entschieden. [Bericht](docs/versions/0.md#0240-glidepath--2026-10-25).
+
 ## 0.22.0 „Hipline“ – 2026-10-25
 
 - Neue Referenzanalyse [Hüftlage](docs/huefte.md) mit `data/huefte.json`: 57 Waffen aus 10 Spielen bzw. Fassungen aus 17 Videos (Zuarbeit: 19) (Codex-Mac, Ego-Bewegung Thema 1) – Mündung, hintere Visieröffnung, Griffhand, Hüllrechteck und projizierte Neigung im Ruhebild; Destiny 2 mit 28 neuen Waffen aus 16 Klassen. Acht Messzeilen in `docs/destiny2.md` › 2 (Anker `z-hl-…`), Methode 20, 17 Einträge in `data/clips.json`.
