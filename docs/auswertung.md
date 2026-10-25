@@ -273,12 +273,12 @@ Vergleich der Destiny-2-Werte aus [destiny2.md › Glidepath](destiny2.md#s-glid
 
 | Größe | Destiny 2 (0.24) | BALLON 0.9 | BALLON 0.10 | Beobachtung |
 |---|---|---|---|---|
-| Überschwingen beim Visier-Anflug | in keinem gemessenen Anflug (17 Typen, Grenze ±0,2–3 pp) | Absehen 3,3° über die Mitte und zurück | Feder für Aktionen, die im Zielen enden, voll gedämpft | 0.10 entspricht Destiny 2 |
-| Abbremsen | monoton, über die letzten 3–9 Bilder | – | – | – |
-| Dauer Hüfte → ADS | 6–7 (Seitenwaffe) bis 20 Bilder (Automatik, Impuls, MG) | – | – | BALLON-Dauer in der Übergabe nicht genannt |
+| Überschwingen beim Visier-Anflug | keins in 11 gemessenen Typen (Grenze ±0,2–3 pp); Bogen, Scharfschütze nur ±3 pp, kurze Fusion Rücklauf ≤ 4 pp nicht ausschließbar, Scout übertragen | Absehen 3,3° über die Mitte und zurück | Feder für Aktionen, die im Zielen enden, voll gedämpft | 0.10 entspricht Destiny 2 |
+| Abbremsen | in den verfolgten Fällen monoton über die letzten 3–9 Bilder; Bogen, Raketenwerfer abrupt | – | – | – |
+| Dauer Hüfte → ADS | 6–7 (Seitenwaffe, Normaltempo nicht geprüft) bis 20 Bilder (Automatik, Impuls, MG) | – | – | BALLON-Dauer in der Übergabe nicht genannt |
 | Bahn | von rechts unten bzw. rechts (Automatik 70 → 50 % B, Höhe konstant) | von 22° rechts | – | gleiche Richtung |
-| Weltzoom gegen Modell (Holo/Reflex) | beginnt mit dem Modell oder 1–2 Bilder später, endet gleichzeitig (±1 Bild) | – | – | in BALLON nicht gemessen |
-| Hüft-Fadenkreuz | ja bei fast allen Typen (Ring/Klammern 1,7–6,3 % H, lineare Fusion 12–13 % H; Scharfschütze nur Caret) | durchgehend, auch im Zielen | entfernt, nur kurze Trefferanzeige | Destiny 2 zeigt in der Hüfte ein Fadenkreuz und blendet es im Sprint und beim ADS-Beginn (1 Bild) aus |
+| Weltzoom gegen Modell (Holo/Reflex) | beginnt mit dem Modell oder 1–2 Bilder später, endet meist gleichzeitig (±1 Bild); Ausnahmen Granatwerfer (≈ 0,08 s später), Kimme/Korn-MP (5 Bilder später), Seitenwaffe ADS aus (vor dem Modell) | – | – | in BALLON nicht gemessen |
+| Hüft-Fadenkreuz | an 8 Typen gemessen (Ring/Klammern 1,7–6,3 % H, lineare Fusion 12–13 % H; Scharfschütze nur Caret), Raketenwerfer (1 Clip) keins, Rest offen/übertragen; im Sprint Automatik nur „^“, Handfeuerwaffe weg, kurze Fusion Ring bleibt; beim ADS-Beginn in 1 Bild weg (Automatik, MP) | durchgehend, auch im Zielen | entfernt, nur kurze Trefferanzeige | wo gemessen, zeigt Destiny 2 in der Hüfte ein Fadenkreuz |
 | Trefferanzeige | rotes X 3,0–3,6 % H, sofort volle Größe, Einzeltreffer 6–7 Bilder, bei Salve 15–19 Bilder; Präzision: Zahl gelb | – | kurze Trefferanzeige | – |
 | Sprint | 0.24: Frequenz in keinem eigenen Clip mit 4 Zyklen; Automatik-Modell im Scourge-Plateau ≤ 0,6 % H; Handfeuerwaffe verlässt das Bild | vertikal 6 Hz, seitlich 3 Hz, Rollen 4° | vertikal 3,16 Hz, seitlich 1,58 Hz, Rollen ±3,5° (nach REF 0.23) | Frequenz und Hub je Typ fehlen außer Automatik/Handfeuerwaffe; braucht eigenen Mitschnitt mit Eingabeanzeige |
 <!-- glidepath-ballon:end -->
