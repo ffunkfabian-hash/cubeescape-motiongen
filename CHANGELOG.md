@@ -4,6 +4,16 @@
 
 - Neue Referenzanalyse [Zielbewegung im Zielen](docs/zielbewegung.md) mit maschinenlesbarer Fassung `data/zielbewegung.json`: Rückstoß im ADS gegen einen starren Weltanker getrennt vom Visier, ruhiges Halten, Punkt im Glas und Hüfte → Zielen für 17 Waffenbeispiele aus vier Spielen (Destiny 2, Battlefield 2042, Apex, Halo Infinite), gemessen von Codex-Mac am 24.10.2026, eingepflegt und an fünf Werten nachgemessen. 15 Destiny-Messzeilen in `docs/destiny2.md` › 2 (Anker `z-zb-…`), Methode 17, acht Steckbriefe ergänzt, 27 Einträge in `data/clips.json`.
 - Befund: Im ADS wandert in den Destiny-Showcases vor allem die Welt (4–18 pp Bildhöhe), das Visier bleibt nahe der Ruhelage; Scharfschütze und lineare Fusion kehren nicht ganz zurück; Halte von 0,75–1,8 s zeigen keine Atemperiode. Neue Endmaßstäbe Imperial Needle 2,2× und Extraordinary Rendition 1,7×. [Bericht](docs/versions/0.md#0170-steadyhand--2026-10-25).
+## 0.16.0 „Kickback“ – 2026-10-25
+
+- Neue Referenzanalyse [Rückstoßmuster in Videospielen](docs/rueckstoss.md) mit maschinenlesbarer Fassung `data/rueckstoss.json`: 9 Spiele, 36 Waffen, 44 Serienfenster (Codex-Zuarbeit), Destiny 2 zuerst; Nettobahnen gegen Weltanker, Takt, Rücklauf ins ±3-pp-Band, Systemfassungen (Destiny 2023/2025, Valorant hybrid, Apex, CS2, CoD, Battlefield), Musterkatalog je Klasse und zehn Gestaltungsregeln als Vorschlag für BASIC (cubeescape-ballon). 27 Messeinträge in `data/clips.json` (einer je Messzeile).
+- Stand „nicht fertig im strengen Kontrollmessziel“: außer Bungies Abyss-Defiant-Test keine Bahn ohne Spielereingabe, kein Zufallsanteil, keine Erstschuss-Streuung. 19 Quellen per yt-dlp geprüft, sechs Stichproben nachgemessen; Titanfall-2-R-201 korrigiert (Fehltreffer des Turmankers, Spitze ≈ 9 statt 18,9 pp H). [Bericht](docs/versions/0.md#0160-kickback--2026-10-25).
+
+## 0.15.0 „Sideview“ – 2026-10-25
+
+- Neue Referenzanalyse [Waffenproportionen und Silhouetten](docs/proportionen.md) mit `data/proportionen.json`: 52 Waffen aus 6 Spielen (Destiny 2: 26, Destiny 1, Marathon, Halo Infinite, Apex je 5, Borderlands 3: 6), Verhältnisse je D2-Klasse (Gehäuse, freier Lauf, Visierhöhe/-länge, H/L), zehn Beobachtungen „was schlank macht“, 17 BASIC-Konturen und der Scout-Visierring im Zielen als BASIC-Abweichungen (Schlüsse in cubeescape-ballon).
+- Zuarbeit einer Antigravity-Sitzung [C]: alle 17 Videos per yt-dlp und alle 12 Bildseiten per Abruf bestätigt (keine weggelassen), sechs Werte am eigenen Bild nachgemessen [M], alle innerhalb der Toleranz; vier Kernmessungen in `data/clips.json`.
+- Befund: BASIC-Gehäuse sind nicht zu hoch (0,10–0,13 L gegen D2 0,16–0,25 in 3/4-Ansicht); abweichend sind der Scout-Visieraufbau (0,063 L gegen 0,02–0,04) und der Visierring im Zielen (außen/Öffnung 1,76–1,91 gegen Destiny 1,28–1,30). [Bericht](docs/versions/0.md#0150-sideview--2026-10-25).
 
 ## 0.14.0 „Eyebox“ – 2026-10-24
 
