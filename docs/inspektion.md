@@ -6,7 +6,8 @@ Gesichtet und gemessen hat eine Codex-Mac-Sitzung (`gpt-6.1-sol` high, 24.10.202
 alle Quellen per yt-dlp geprüft und fünf Werte an eigenen Downloads nachgemessen ([8](#8-nachmessung-und-zählung)). Hier stehen nur
 Beobachtungen und Messwerte. Schlüsse und Startwerte entstehen in BASIC bzw. Cube Escape. Getrennte Themen mit eigenen Versionen und Docs:
 [Visiere](visiere.md) (0.14), [Waffenproportionen](proportionen.md) (0.15), [Rückstoßmuster](rueckstoss.md) (0.16),
-[Zielbewegung](zielbewegung.md) (0.17). Maschinenlesbare Fassung: [`data/inspektion.json`](../data/inspektion.json).
+[Zielbewegung](zielbewegung.md) (0.17), [Oberflächenmuster](oberflaechen.md) (0.18), [Mündungsfeuer und Hülsenauswurf](muendung.md) (0.19).
+Maschinenlesbare Fassung: [`data/inspektion.json`](../data/inspektion.json).
 
 Destiny 2 hat Vorrang. Dort ist **kein Ego-Inspect** belegt, nur die Menüinspektion ([3](#3-destiny-2--menüinspektion-statt-ego-inspect)).
 Die vier Destiny-Messzeilen stehen nach Repo-Regel auch in der Messtabelle

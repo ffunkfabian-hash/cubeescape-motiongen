@@ -1524,6 +1524,264 @@
     "timestamps": "331,617-331,750 s · Modell zuletzt f19897 = 331,617; Scope zuerst f19898 = 331,633; Rest bis ≈ f19905 = 331,750"
   },
   {
+    "measurement": "Oberflächen: Annual Skate (D2-Grundlack), bunter Anteil und Helligkeitsabstand im Inspektionsmenü",
+    "clip": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+    "source": "Ultraclocked (YouTube), 14.02.2020, 1920 × 1080, 60 fps; REF 0.18 „Livery“ (Mac, 25.10.2026), docs/oberflaechen.md#o-m-annual-skate",
+    "timestamps": "Menü 53–56 s, Messbild 54,5 s; Maske ±2 px, Proben 12 × 12 px ±3 L*"
+  },
+  {
+    "measurement": "Oberflächen: Solemn Hymn (D2-Grundlack), bunter Anteil und Helligkeitsabstand im Inspektionsmenü",
+    "clip": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+    "source": "Ultraclocked (YouTube), 14.02.2020, 1920 × 1080, 60 fps; REF 0.18 „Livery“ (Mac, 25.10.2026), docs/oberflaechen.md#o-m-solemn-hymn",
+    "timestamps": "Menü 315–319 s, Messbild 317,0 s; Maske ±2 px, Proben 12 × 12 px ±3 L*"
+  },
+  {
+    "measurement": "Oberflächen: Bad News (D2-Grundlack), bunter Anteil und Helligkeitsabstand im Inspektionsmenü",
+    "clip": "https://www.youtube.com/watch?v=73lGCT7yOtk",
+    "source": "Ultraclocked (YouTube), 25.01.2020, 1920 × 1080, 60 fps; REF 0.18 „Livery“ (Mac, 25.10.2026), docs/oberflaechen.md#o-m-bad-news",
+    "timestamps": "Menü 0–4 s, Messbild 2,0 s; Maske ±2 px, Proben 12 × 12 px ±3 L*"
+  },
+  {
+    "measurement": "Oberflächen: Eystein-D (D2-Grundlack), bunter Anteil und Helligkeitsabstand im Inspektionsmenü",
+    "clip": "https://www.youtube.com/watch?v=73lGCT7yOtk",
+    "source": "Ultraclocked (YouTube), 25.01.2020, 1920 × 1080, 60 fps; REF 0.18 „Livery“ (Mac, 25.10.2026), docs/oberflaechen.md#o-m-eystein-d",
+    "timestamps": "Menü 220–224 s, Messbild 222,0 s; Maske ±2 px, Proben 12 × 12 px ±3 L*"
+  },
+  {
+    "measurement": "Oberflächen: Uriel's Gift (D2-Grundlack), bunter Anteil und Helligkeitsabstand im Inspektionsmenü",
+    "clip": "https://www.youtube.com/watch?v=42zdQOVBAD0",
+    "source": "Ultraclocked (YouTube), 30.01.2020, 1920 × 1080, 60 fps; REF 0.18 „Livery“ (Mac, 25.10.2026), docs/oberflaechen.md#o-m-uriels-gift",
+    "timestamps": "Menü 432–436 s, Messbild 434,0 s; Maske ±2 px, Proben 12 × 12 px ±3 L*"
+  },
+  {
+    "measurement": "Oberflächen: Death Adder (D2-Grundlack), bunter Anteil und Helligkeitsabstand im Inspektionsmenü",
+    "clip": "https://www.youtube.com/watch?v=afs_dhFDhQU",
+    "source": "Ultraclocked (YouTube), 09.02.2020, 1920 × 1080, 60 fps; REF 0.18 „Livery“ (Mac, 25.10.2026), docs/oberflaechen.md#o-m-death-adder",
+    "timestamps": "Menü 116–119 s, Messbild 117,5 s; Maske ±2 px, Proben 12 × 12 px ±3 L*"
+  },
+  {
+    "measurement": "Oberflächen: The Mornin' Comes (D2-Grundlack), bunter Anteil und Helligkeitsabstand im Inspektionsmenü",
+    "clip": "https://www.youtube.com/watch?v=42zdQOVBAD0",
+    "source": "Ultraclocked (YouTube), 30.01.2020, 1920 × 1080, 60 fps; REF 0.18 „Livery“ (Mac, 25.10.2026), docs/oberflaechen.md#o-m-mornin-comes",
+    "timestamps": "Menü 386–389 s, Messbild 387,5 s; Maske ±2 px, Proben 12 × 12 px ±3 L*"
+  },
+  {
+    "measurement": "Oberflächen: Valakadyn (D2-Grundlack), bunter Anteil und Helligkeitsabstand im Inspektionsmenü",
+    "clip": "https://www.youtube.com/watch?v=afs_dhFDhQU",
+    "source": "Ultraclocked (YouTube), 09.02.2020, 1920 × 1080, 60 fps; REF 0.18 „Livery“ (Mac, 25.10.2026), docs/oberflaechen.md#o-m-valakadyn",
+    "timestamps": "Menü 317–320 s, Messbild 318,5 s; Maske ±2 px, Proben 12 × 12 px ±3 L*"
+  },
+  {
+    "measurement": "Mündung Destiny 2: Extraordinary Rendition, ADS-Blitz und Hülse",
+    "clip": "https://www.youtube.com/watch?v=Y5OLr0nbgSg",
+    "source": "Ultraclocked (YouTube), 15.02.2021, 60 fps; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/destiny2.md#z-mf-rendition",
+    "timestamps": "40,050–40,067 s (Bilder 2403–2404); Menü 1,000"
+  },
+  {
+    "measurement": "Mündung Destiny 2: Gridskipper, ADS-Puls und Hülse",
+    "clip": "https://www.youtube.com/watch?v=DFn14wAPluA",
+    "source": "Ultraclocked (YouTube), 13.05.2021, 60 fps; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/destiny2.md#z-mf-gridskipper",
+    "timestamps": "27,117–27,133 s (Bilder 1627–1628); Menü 1,000"
+  },
+  {
+    "measurement": "Mündung Destiny 2: Chroma Rush, ADS-Puls und Hülse",
+    "clip": "https://www.youtube.com/watch?v=QxSa4m3wIEA",
+    "source": "Ultraclocked (YouTube), 15.05.2021, 60 fps; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/destiny2.md#z-mf-chroma-rush-ads",
+    "timestamps": "23,150–23,167 s (Bilder 1389–1390); Hülse ab 23,167"
+  },
+  {
+    "measurement": "Mündung Destiny 2: Far Future, Hüftblitz und Scope",
+    "clip": "https://www.youtube.com/watch?v=RXgRxHESqHQ",
+    "source": "Ultraclocked (YouTube), 18.02.2021, 60 fps; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/destiny2.md#z-mf-far-future",
+    "timestamps": "Hüfte 3,883–3,900 s; Scope 33,100–33,783 s"
+  },
+  {
+    "measurement": "Mündung Destiny 2: Threaded Needle, Entladung im ADS",
+    "clip": "https://www.youtube.com/watch?v=uoTaCBMXcFk",
+    "source": "Ultraclocked (YouTube), 20.02.2021, 60 fps; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/destiny2.md#z-mf-threaded-needle",
+    "timestamps": "34,567–34,650 s"
+  },
+  {
+    "measurement": "Mündung Destiny 2: Imperial Needle, Abgang im ADS",
+    "clip": "https://www.youtube.com/watch?v=dKNTDzi__Qo",
+    "source": "Ultraclocked (YouTube), 19.02.2021, 60 fps; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/destiny2.md#z-mf-imperial-needle",
+    "timestamps": "67,700–68,283 s"
+  },
+  {
+    "measurement": "Mündung Destiny 2: Tone Patrol, ADS-Blitz und Glasüberdeckung",
+    "clip": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+    "source": "Ultraclocked (YouTube), 14.02.2020, 60 fps; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/destiny2.md#z-mf-tone-patrol",
+    "timestamps": "389,100–389,133 s (Original); Menü 376,000"
+  },
+  {
+    "measurement": "Mündung Destiny 2: Annual Skate, Hüftschuss",
+    "clip": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+    "source": "Ultraclocked (YouTube), 14.02.2020, 60 fps; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/destiny2.md#z-mf-annual-skate",
+    "timestamps": "64,450–64,650 s (Original); Menü 54,000"
+  },
+  {
+    "measurement": "Mündung Destiny 2: Minimum Distance, Hüfte und ADS",
+    "clip": "https://www.youtube.com/watch?v=73lGCT7yOtk",
+    "source": "Ultraclocked (YouTube), 25.01.2020, 60 fps; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/destiny2.md#z-mf-minimum-distance",
+    "timestamps": "Kapitel 408–450 s; lokal Hüfte 19,033–19,067, ADS 34,950–35,083"
+  },
+  {
+    "measurement": "Mündung Destiny 2: Shattered Cipher, ADS-Puls, Glasüberdeckung, Hülse",
+    "clip": "https://www.youtube.com/watch?v=DEM-8xg66R8",
+    "source": "Ultraclocked (YouTube), 14.05.2021, 60 fps; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/destiny2.md#z-mf-shattered-cipher",
+    "timestamps": "30,633–30,650 s (Bilder 1838–1839); zweiter Puls 30,700"
+  },
+  {
+    "measurement": "Mündung Destiny 2: First In, Last Out, ADS-Stern",
+    "clip": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+    "source": "Ultraclocked (YouTube), 14.02.2020, 60 fps; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/destiny2.md#z-mf-filo",
+    "timestamps": "142,633 s ff. (Bild 8558)"
+  },
+  {
+    "measurement": "Mündung Destiny 2: New Malpais von außen (Entwickler-Portfolio)",
+    "clip": "https://www.youtube.com/watch?v=-i74Bk7Sz0c",
+    "source": "Amanda Golla (YouTube), 18.01.2026, 30 fps, Build unbekannt; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/destiny2.md#z-mf-new-malpais",
+    "timestamps": "42,000 · 42,200 · 47,800–48,567 s; keine Zeiten"
+  },
+  {
+    "measurement": "Mündung Destiny 1: Hawkmoon, ADS und Hüfte",
+    "clip": "https://www.youtube.com/watch?v=vzFORMU5J84",
+    "source": "NOIZION (YouTube), 05.09.2020, 29,97 fps; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/muendung.md#z-mf-d1-hawkmoon",
+    "timestamps": "ADS 31,431 s (f942); Hüfte 43,610 / 44,044; keine Zeiten"
+  },
+  {
+    "measurement": "Mündung Destiny 1: Thorn, ADS und Hüfte",
+    "clip": "https://www.youtube.com/watch?v=vzFORMU5J84",
+    "source": "NOIZION (YouTube), 05.09.2020, 29,97 fps; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/muendung.md#z-mf-d1-thorn",
+    "timestamps": "ADS 63,630 s (f1907); Hüfte 71,672 (f2148); keine Zeiten"
+  },
+  {
+    "measurement": "Mündung Destiny 1: Doctrine of Passing, ADS",
+    "clip": "https://www.youtube.com/watch?v=MjugMsHa_0o",
+    "source": "Great Daemon (YouTube), 23.11.2015, 30 fps; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/muendung.md#z-mf-d1-doctrine",
+    "timestamps": "8,000 s; keine Zeiten"
+  },
+  {
+    "measurement": "Mündung Destiny 1: Arminius-D, Mündungsform im Menü (kein Schuss)",
+    "clip": "https://www.youtube.com/watch?v=VNprDRKZxt8",
+    "source": "Eris Jolley (YouTube), 07.01.2016, 30 fps; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/muendung.md#z-mf-d1-arminius",
+    "timestamps": "58,000 s; nur Geometrie"
+  },
+  {
+    "measurement": "Mündung Destiny 1: MIDA Multi-Tool, Mündungsform im Menü (kein Schuss)",
+    "clip": "https://www.youtube.com/watch?v=MkkQa1OIpDk",
+    "source": "Jumping Puzzle (YouTube), 05.03.2015, 30 fps; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/muendung.md#z-mf-d1-mida",
+    "timestamps": "285,000 s; nur Geometrie"
+  },
+  {
+    "measurement": "Mündung Halo Infinite (Technical Preview 2021): MA40, Hüfte",
+    "clip": "https://www.youtube.com/watch?v=ZfNuA5r-470",
+    "source": "Abyssopelagic (YouTube), 30.07.2021, 60 fps mit Paarduplikaten; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/muendung.md#z-mf-halo-ma40",
+    "timestamps": "8,683 s; keine Dauer"
+  },
+  {
+    "measurement": "Mündung Halo Infinite (Technical Preview 2021): BR75, Hüfte",
+    "clip": "https://www.youtube.com/watch?v=ZfNuA5r-470",
+    "source": "Abyssopelagic (YouTube), 30.07.2021, 60 fps mit Paarduplikaten; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/muendung.md#z-mf-halo-br75",
+    "timestamps": "65,000 s; keine Dauer"
+  },
+  {
+    "measurement": "Mündung Halo Infinite (Technical Preview 2021): MK50 Sidekick, Hüfte",
+    "clip": "https://www.youtube.com/watch?v=ZfNuA5r-470",
+    "source": "Abyssopelagic (YouTube), 30.07.2021, 60 fps mit Paarduplikaten; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/muendung.md#z-mf-halo-mk50",
+    "timestamps": "86,067 s; keine Dauer"
+  },
+  {
+    "measurement": "Mündung Titanfall 2: Hammond P2016, ADS mit Hülse",
+    "clip": "https://www.youtube.com/watch?v=4sDwTD9U8bw",
+    "source": "Weapons From Games (YouTube), 14.03.2019, 60 fps; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/muendung.md#z-mf-tf2-p2016",
+    "timestamps": "12,250 s"
+  },
+  {
+    "measurement": "Mündung Titanfall 2: B3 Wingman, ADS-Schuss (Rauchhalo)",
+    "clip": "https://www.youtube.com/watch?v=4sDwTD9U8bw",
+    "source": "Weapons From Games (YouTube), 14.03.2019, 60 fps; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/muendung.md#z-mf-tf2-wingman",
+    "timestamps": "33,633 s (Zähler 6 → 5)"
+  },
+  {
+    "measurement": "Mündung Titanfall 2: Smart Pistol MK6, Lichtpuls und Hülse",
+    "clip": "https://www.youtube.com/watch?v=4sDwTD9U8bw",
+    "source": "Weapons From Games (YouTube), 14.03.2019, 60 fps; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/muendung.md#z-mf-tf2-smart",
+    "timestamps": "75,417 s (Zähler 12 → 11)"
+  },
+  {
+    "measurement": "Mündung Apex Legends: RE-45, Hüfte mit Hülse",
+    "clip": "https://www.youtube.com/watch?v=R-BGChzYGpo",
+    "source": "Cacek47 (YouTube), 06.02.2019, 60 fps mit Paarduplikaten; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/muendung.md#z-mf-apex-re45",
+    "timestamps": "10,000 s; keine Dauer"
+  },
+  {
+    "measurement": "Mündung Apex Legends: P2020, Hüfte mit Hülse",
+    "clip": "https://www.youtube.com/watch?v=R-BGChzYGpo",
+    "source": "Cacek47 (YouTube), 06.02.2019, 60 fps mit Paarduplikaten; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/muendung.md#z-mf-apex-p2020",
+    "timestamps": "25,383 s; keine Dauer"
+  },
+  {
+    "measurement": "Mündung Apex Legends: R-301, ADS-Flammen an der Kimme",
+    "clip": "https://www.youtube.com/watch?v=R-BGChzYGpo",
+    "source": "Cacek47 (YouTube), 06.02.2019, 60 fps mit Paarduplikaten; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/muendung.md#z-mf-apex-r301",
+    "timestamps": "50,017 s; keine Dauer"
+  },
+  {
+    "measurement": "Mündung CoD MW (2019): X16, Hüfte mit Hülsen und Rauch",
+    "clip": "https://www.youtube.com/watch?v=_KTdg4YM1fQ",
+    "source": "Tigerfield (YouTube), 26.10.2019, 60 fps; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/muendung.md#z-mf-cod-x16",
+    "timestamps": "5,867 s"
+  },
+  {
+    "measurement": "Mündung CoD MW (2019): 1911, Hüftschuss",
+    "clip": "https://www.youtube.com/watch?v=_KTdg4YM1fQ",
+    "source": "Tigerfield (YouTube), 26.10.2019, 60 fps; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/muendung.md#z-mf-cod-1911",
+    "timestamps": "33,250 s"
+  },
+  {
+    "measurement": "Mündung CoD MW (2019): .357, Hüftschuss mit Rauchpuff",
+    "clip": "https://www.youtube.com/watch?v=_KTdg4YM1fQ",
+    "source": "Tigerfield (YouTube), 26.10.2019, 60 fps; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/muendung.md#z-mf-cod-357",
+    "timestamps": "51,017 s"
+  },
+  {
+    "measurement": "Mündung Borderlands 3: Entrepreneur (Hyperion), Schuss",
+    "clip": "https://www.youtube.com/watch?v=3T2UZUYPzEc",
+    "source": "Agent Lomax (YouTube), 15.03.2020, 60 fps; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/muendung.md#z-mf-bl3-entrepreneur",
+    "timestamps": "180,567 s (Zähler 7 → 6)"
+  },
+  {
+    "measurement": "Mündung Borderlands 3: Mogul (Hyperion), Schuss",
+    "clip": "https://www.youtube.com/watch?v=3T2UZUYPzEc",
+    "source": "Agent Lomax (YouTube), 15.03.2020, 60 fps; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/muendung.md#z-mf-bl3-mogul",
+    "timestamps": "210,033 s"
+  },
+  {
+    "measurement": "Mündung Borderlands 3: Broodmother (Hyperion), Energieschuss",
+    "clip": "https://www.youtube.com/watch?v=3T2UZUYPzEc",
+    "source": "Agent Lomax (YouTube), 15.03.2020, 60 fps; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/muendung.md#z-mf-bl3-broodmother",
+    "timestamps": "270,000 s"
+  },
+  {
+    "measurement": "Mündung Battlefield 6 (Vorabbuild): B36A4, Hüfte mit Hülse",
+    "clip": "https://www.youtube.com/watch?v=ROUP1z62caA",
+    "source": "Torbis (YouTube), 17.09.2025, 60 fps; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/muendung.md#z-mf-bf6-b36a4",
+    "timestamps": "19,000–20,200 s; Raster 19,650; Form 36,000"
+  },
+  {
+    "measurement": "Mündung Battlefield 6 (Vorabbuild): AK4D, Hüfte mit Hülse",
+    "clip": "https://www.youtube.com/watch?v=ROUP1z62caA",
+    "source": "Torbis (YouTube), 17.09.2025, 60 fps; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/muendung.md#z-mf-bf6-ak4d",
+    "timestamps": "43,000–44,200 s; Raster 43,733; Form 56,000"
+  },
+  {
+    "measurement": "Mündung Battlefield 6 (Vorabbuild): A-545, ADS mit Hülse",
+    "clip": "https://www.youtube.com/watch?v=ROUP1z62caA",
+    "source": "Torbis (YouTube), 17.09.2025, 60 fps; Codex-Mac 24.10.2026, REF 0.19 „Flashpan“ (Mac, 25.10.2026), docs/muendung.md#z-mf-bf6-a545",
+    "timestamps": "67,000–68,200 s; Raster 67,033; Form 79,000"
+  },
+  {
     "measurement": "Inspektion Destiny 2: Conditional Finality, Menüinspektion mit Drehung (seit 7.1.0)",
     "clip": "https://www.youtube.com/watch?v=kWUViHovz1E",
     "source": "Destiny 2 (YouTube, offiziell), 17.05.2023, 60 fps; Codex-Mac 24.10.2026, REF 0.20 „Lookover“ (Mac, 25.10.2026), docs/inspektion.md",

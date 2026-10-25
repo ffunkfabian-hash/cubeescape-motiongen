@@ -13,4 +13,8 @@
 - Rückstoß aus fremden Aufnahmen ist Netto aus Spiel und Spielereingabe; ohne belegten Nullinput keine Rückstoßkonstante, keinen Zufallsanteil und keine Rückführzeit daraus ableiten ([rueckstoss](rueckstoss.md#7-offen-und-nicht-messbar)).
 - Rückstoß im Zielen gegen einen starren Weltanker getrennt vom Visier verfolgen; Spuren mit Overlay, Blitz oder Formwechsel (NCC deutlich < 0,85) verwerfen statt sie als Null oder Spitze zu melden ([zielbewegung](zielbewegung.md#1-methode-und-genauigkeit)).
 - Halte unter 2 s tragen keine Atemperiode; „innerhalb ±3 pp“ ist eine Auflösungsgrenze, kein Nachweis für Null-Sway ([zielbewegung](zielbewegung.md#7-nicht-messbar--offen)).
+- Zuarbeit nicht nur an der Quelle prüfen, sondern jedes Beispiel zum Zeitstempel am Bild: echte Video-IDs trugen in 0.18 falsche Waffen und erfundene Farbbeschreibungen ([oberflaechen](oberflaechen.md#1-quellen-und-methode)).
+- Farbanteile aus Menübildern nur mit genannter Buntheitsschwelle angeben (gedämpfte Tarnfarben kippen zwischen C* 15 und 25) und als gerenderte Pixel, nie als Albedo ([oberflaechen](oberflaechen.md#4-nachmessung-m)).
+- Blitzgröße nur mit Definition nennen: getrennte Flammenteile (Glaskegel, Seitenzungen) ergeben verschiedene Hüllrechtecke – Gridskipper 13–16 % H gegen 38 % H mit Kegel ([muendung](muendung.md#1-methode-und-genauigkeit)).
+- Entwickler-Portfolios belegen Form, keinen Retailstand, und können andere Feuermodi zeigen (New Malpais: Granatschuss); Quelle und Modus getrennt nennen ([muendung](muendung.md#2-quellen)).
 - Inspect- und Animationsdauern aus Showcases sind Quellmedienzeit; die Marker-Definition mitnennen – „erste Bewegung → Hüftlage“ und „Ruhe → Ruhe“ unterscheiden sich um 0,2–0,4 s ([inspektion](inspektion.md#1-methode-und-genauigkeit)).
