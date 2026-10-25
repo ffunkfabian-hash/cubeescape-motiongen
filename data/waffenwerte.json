@@ -83,7 +83,7 @@
    "title": "D2Foundry Oracle Engine weapon_formulas.json (Patch 8.2.6)",
    "url": "https://github.com/d2foundry/oracle_engine/blob/dcd0c7d302b056ffbb532edcb711d724a17ca8c1/build_resources/weapon_formulas.json",
    "date": "2025-05-07",
-   "check": "Dateihistorie per GitHub-API bestätigt"
+   "check": "Dateihistorie per GitHub-API bestätigt; Inhalt nicht live geladen, gegen Kopie der Zuarbeit geprüft"
   },
   {
    "id": "S3",
@@ -5830,7 +5830,7 @@
   {
    "id": "VAL-PHANTOM",
    "decision": "uebernommen",
-   "bestand": "ergaenzt: docs/visiere.md (Stinger / Phantom Kimme: Bildmaßstab 1,43–1,44 = Winkelzoom 1,25); Kadenz, Magazin, Schaden neu",
+   "bestand": "ergaenzt: docs/visiere.md (Stinger / Phantom Kimme: Bildmaßstab 1,43–1,44; Winkelzoom 1,25 laut data/visiere.json); Kadenz, Magazin, Schaden neu",
    "note": ""
   },
   {
