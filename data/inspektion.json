@@ -12,7 +12,7 @@
     "longest_side": "am längsten gezeigte Seite, nur wo unterscheidbar",
     "sight_closeup": "Visier in Großaufnahme (Blick durch die Optik); in keinem Beispiel",
     "media_window": "Codex-Marker in nativen Bildindizes: erste sichtbare Inspect-Bewegung → Hüftlage erreicht (±1–2 Bilder je Marker)",
-    "recheck_0_20": "Nachmessung dieser Version an eigenem Download; rest_frame = Ruhe nach dem Nachschwingen (Ruhe-zu-Ruhe)"
+    "recheck_0_20": "Nachmessung dieser Version an eigenem Download: start_frame = erste Bewegung aus der ruhigen Hüfte, hip_frame = Hüftlage erreicht, rest_frame = Ruhe nach dem Nachschwingen; seconds_start_to_hip = start_frame → hip_frame, seconds_rest_to_rest = start_frame → rest_frame, codex_seconds = Codex-Fenster aus media_window"
   },
   "status": {
     "M": "gemessen (Hüllrechteck bzw. native Medienmarker)",
@@ -794,8 +794,9 @@
         "start_frame": 151,
         "hip_frame": 388,
         "rest_frame": 397,
-        "seconds_marker": 3.95,
+        "seconds_start_to_hip": 3.95,
         "seconds_rest_to_rest": 4.1,
+        "codex_seconds": 3.93,
         "verdict": "bestätigt (+1 Bild)",
         "note": "linke Hand erscheint f151; Pistole aufrecht in Hüfte f388, Nachschwingen bis f397"
       }
@@ -1043,8 +1044,9 @@
         "start_frame": 58,
         "hip_frame": 415,
         "rest_frame": 416,
-        "seconds_marker": 5.95,
+        "seconds_start_to_hip": 5.95,
         "seconds_rest_to_rest": 5.97,
+        "codex_seconds": 5.88,
         "verdict": "bestätigt (+4 Bilder)",
         "note": "erste Drehung f57–59 (Codex f62); linke Hand löst sich f412–413, Hüfte f413–416"
       }
@@ -1366,8 +1368,9 @@
         "start_frame": 40,
         "hip_frame": 213,
         "rest_frame": 221,
-        "seconds_marker": 2.84,
+        "seconds_start_to_hip": 2.89,
         "seconds_rest_to_rest": 3.02,
+        "codex_seconds": 2.84,
         "verdict": "Marker bestätigt, Ruhe-zu-Ruhe +0,18 s",
         "note": "erste Bewegung f40 (Codex f43); Hüftlage f213, Ruhe f221"
       }
@@ -1575,8 +1578,9 @@
         "start_frame": 16,
         "hip_frame": 334,
         "rest_frame": 348,
-        "seconds_marker": 5.17,
+        "seconds_start_to_hip": 5.31,
         "seconds_rest_to_rest": 5.54,
+        "codex_seconds": 5.17,
         "verdict": "Marker bestätigt, Ruhe-zu-Ruhe +0,37 s",
         "note": "Anlauf ab f16, linke Hand sichtbar f24 (= Codex-Start); Waffe auf Hüfthöhe f334 (= Codex-Ende), linke Hand zurück und Ruhe f348; ab f350 folgt die Drehvariante"
       }

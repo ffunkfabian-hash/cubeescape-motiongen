@@ -18,8 +18,8 @@ das Beispiel einer Waffe** in einer Aufnahme mit unbekanntem FOV, Skin und Spiel
 ## 1. Methode und Genauigkeit
 
 - **Zeitbasis: Quellmedienzeit.** Alle Dauern sind Zeiten in der Videodatei, gezählt in nativen Bildern. Sie sind **keine
-  nachgewiesenen Spielechtzeiten**, denn keine Quelle hat einen positiven Normaltempoanker (Zeitlupenbeschriftung fehlt, ein
-  Gegenbeweis aber auch). `inspect_total_s` bleibt deshalb in allen 41 Einträgen `null`. Dauern nur aus 60/s- bzw. 59,94/s-Dateien.
+  nachgewiesenen Spielechtzeiten**, denn keine Quelle hat einen positiven Normaltempoanker (keine Zeitlupenbeschriftung, aber
+  auch kein Beleg für Normaltempo). `inspect_total_s` bleibt deshalb in allen 41 Einträgen `null`. Dauern nur aus 60/s- bzw. 59,94/s-Dateien.
   Apex (29,97/s) und der Battlefield-Showcase von Destroyerfield51 (29,97/s geladen) liefern nur Form, Fläche und Reihenfolge.
 - **Marker (Codex):** Start = erste sichtbare Inspect-Bewegung, Ende = Hüftlage wieder erreicht; weiche Bewegungsgrenzen ±1–2 Bilder
   je Marker, Differenzen ±2–4 Bilder. Innere Phasengrenzen sind gröber abgelesen. „Hüftlage erreicht“ heißt nicht Stillstand und nicht
@@ -266,8 +266,8 @@ Ruhelage und Sichtprüfung der Markerbilder:
 |---|---|---|---|
 | MW2019 X16 | f152 → f388, 3,93 s | linke Hand erscheint f151, Hüfte f388 (3,95 s); Nachschwingen bis f397 (4,10 s) | bestätigt |
 | BO6 9mm PM | f62 → f415, 5,88 s | erste Drehung f57–59, Hand löst sich f412–413, Hüfte f413–416 (≈ 5,95 s) | bestätigt (Start +4 Bilder früher) |
-| CS2 Desert Eagle | f24 → f334, 5,17 s | Anlauf ab f16, linke Hand f24; Waffe auf Hüfthöhe f334, linke Hand zurück und Ruhe f348 (5,54 s) | Marker bestätigt; Ruhe-zu-Ruhe +0,37 s |
-| Valorant Classic | f43 → f213, 2,84 s | erste Bewegung f40, Hüftlage f213, Ruhe f221 (3,02 s) | Marker bestätigt; Ruhe-zu-Ruhe +0,18 s |
+| CS2 Desert Eagle | f24 → f334, 5,17 s | Anlauf ab f16, linke Hand f24; Waffe auf Hüfthöhe f334 (ab Anlauf 5,31 s), linke Hand zurück und Ruhe f348 (5,54 s) | Marker bestätigt; Ruhe-zu-Ruhe +0,37 s |
+| Valorant Classic | f43 → f213, 2,84 s | erste Bewegung f40, Hüftlage f213 (ab erster Bewegung 2,89 s), Ruhe f221 (3,02 s) | Marker bestätigt; Ruhe-zu-Ruhe +0,18 s |
 | Destiny 2 Conditional Finality, Fläche | ≈ 50 % | Hüllrechteck am 5-%-Raster ≈ 43 % (f540: x 0,26–0,975, y 0,355–0,955; f150 ≈ 39 %) | innerhalb ±6–10, Codex-Wert eher obere Grenze |
 
 **Zählung (Codex):** 41 Waffenmodelle aus 9 Spielen bzw. Fassungen (MW2019 und BO6 getrennt), 16 Videos (15 mit Waffeneinträgen),
