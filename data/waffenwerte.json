@@ -16,8 +16,8 @@
   "adopted": 122,
   "corrected": 3,
   "dropped": 0,
-  "new_examples": 8,
-  "extended_examples": 3,
+  "new_examples": 7,
+  "extended_examples": 4,
   "timestate_examples": 1,
   "videos": 3,
   "videos_confirmed": 3,
@@ -65,7 +65,7 @@
    "channel": "Skovos",
    "upload_date": "2020-04-18",
    "title": "Valorant: Weapons and Guns Guide + Alternate Fire [Explained in Detail]",
-   "fps": 29.97,
+   "fps": "30000/1001",
    "duration_s": 484,
    "resolution": "1920x1080"
   }
@@ -90,14 +90,14 @@
    "title": "Oracle Engine build.rs (Präzisionsfaktor 1,5 + Wert/51, Salvenzeit Wert/30)",
    "url": "https://github.com/d2foundry/oracle_engine/blob/dcd0c7d302b056ffbb532edcb711d724a17ca8c1/build.rs",
    "date": "Code 2026-05-20",
-   "check": "gegen Zahlen geprüft"
+   "check": "gegen Zahlen geprüft; Quelltext nicht live geladen, Kopie der Zuarbeit"
   },
   {
    "id": "S4",
    "title": "Oracle Engine stat_calc.rs (Handling, Nachladen, Reichweite)",
    "url": "https://github.com/d2foundry/oracle_engine/blob/dcd0c7d302b056ffbb532edcb711d724a17ca8c1/src/weapons/stat_calc.rs",
    "date": "Code 2026-05-20",
-   "check": "gegen 8 Familien geprüft"
+   "check": "gegen 8 Familien geprüft; Quelltext nicht live geladen, Kopie der Zuarbeit"
   },
   {
    "id": "S5",
@@ -5606,7 +5606,8 @@
    "zoom_x": 1.25,
    "zoom_kind": "Winkelzoom (API)",
    "ads_rpm": 594.0,
-   "ttk_origin": "Rechnung aus API-Bändern, 150 HP, nachgerechnet"
+   "ttk_origin": "Rechnung aus API-Bändern, 150 HP, nachgerechnet",
+   "bestand_zoom_scale": 1.43
   },
   {
    "id": "VAL-GUARDIAN",
@@ -5829,7 +5830,7 @@
   {
    "id": "VAL-PHANTOM",
    "decision": "uebernommen",
-   "bestand": "neu",
+   "bestand": "ergaenzt: docs/visiere.md (Stinger / Phantom Kimme: Bildmaßstab 1,43–1,44 = Winkelzoom 1,25); Kadenz, Magazin, Schaden neu",
    "note": ""
   },
   {
