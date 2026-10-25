@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.19.0 „Flashpan“ – 2026-10-25
+
+- Neue Referenzanalyse [Mündungsfeuer und Hülsenauswurf](docs/muendung.md) mit maschinenlesbarer Fassung `data/muendung.json`: Blitzdauer, Blitzgröße (Hüllrechteck), Überdeckung der Visieröffnung, Hülsen (erste Sichtbarkeit, Richtung) und Mündungsform für 35 Waffenmodelle aus acht Spielen (Destiny 2: 12, Destiny 1: 5, Halo Infinite, Titanfall 2, Apex, CoD MW 2019, Borderlands 3, Battlefield 6 je 3), gemessen von Codex-Mac am 24.10.2026. Zwölf Destiny-Messzeilen in `docs/destiny2.md` › 2 (Anker `z-mf-…`), Methode 18, elf Steckbriefe ergänzt, 33 Einträge in `data/clips.json`.
+- Alle 20 Quellen per yt-dlp bestätigt, New-Malpais-Entwicklerquelle über ArtStation geprüft; fünf Werte nachgemessen, Gridskipper-Blitzhöhe korrigiert (Seitenzungen 13–16 statt 25 % H). Befund: wo Zeiten belegt sind, 1–2 Bilder Blitz; ADS-Überdeckung 5 % bis ≈ 100 %; goldene Hülsen im ersten oder zweiten Blitzbild. [Bericht](docs/versions/0.md#0190-flashpan--2026-10-25).
+
 ## 0.17.0 „Steadyhand“ – 2026-10-25
 
 - Neue Referenzanalyse [Zielbewegung im Zielen](docs/zielbewegung.md) mit maschinenlesbarer Fassung `data/zielbewegung.json`: Rückstoß im ADS gegen einen starren Weltanker getrennt vom Visier, ruhiges Halten, Punkt im Glas und Hüfte → Zielen für 17 Waffenbeispiele aus vier Spielen (Destiny 2, Battlefield 2042, Apex, Halo Infinite), gemessen von Codex-Mac am 24.10.2026, eingepflegt und an fünf Werten nachgemessen. 15 Destiny-Messzeilen in `docs/destiny2.md` › 2 (Anker `z-zb-…`), Methode 17, acht Steckbriefe ergänzt, 27 Einträge in `data/clips.json`.
