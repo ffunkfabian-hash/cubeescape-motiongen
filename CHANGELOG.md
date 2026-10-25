@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.16.0 „Kickback“ – 2026-10-25
+
+- Neue Referenzanalyse [Rückstoßmuster in Videospielen](docs/rueckstoss.md) mit maschinenlesbarer Fassung `data/rueckstoss.json`: 9 Spiele, 36 Waffen, 44 Serienfenster (Codex-Zuarbeit), Destiny 2 zuerst; Nettobahnen gegen Weltanker, Takt, Rücklauf ins ±3-pp-Band, Systemfassungen (Destiny 2023/2025, Valorant hybrid, Apex, CS2, CoD, Battlefield), Musterkatalog je Klasse und zehn Gestaltungsregeln als Vorschlag für BASIC (cubeescape-ballon). 27 Messeinträge in `data/clips.json` (einer je Messzeile).
+- Stand „nicht fertig im strengen Kontrollmessziel“: außer Bungies Abyss-Defiant-Test keine Bahn ohne Spielereingabe, kein Zufallsanteil, keine Erstschuss-Streuung. 19 Quellen per yt-dlp geprüft, sechs Stichproben nachgemessen; Titanfall-2-R-201 korrigiert (Fehltreffer des Turmankers, Spitze ≈ 9 statt 18,9 pp H). [Bericht](docs/versions/0.md#0160-kickback--2026-10-25).
+
 ## 0.15.0 „Sideview“ – 2026-10-25
 
 - Neue Referenzanalyse [Waffenproportionen und Silhouetten](docs/proportionen.md) mit `data/proportionen.json`: 52 Waffen aus 6 Spielen (Destiny 2: 26, Destiny 1, Marathon, Halo Infinite, Apex je 5, Borderlands 3: 6), Verhältnisse je D2-Klasse (Gehäuse, freier Lauf, Visierhöhe/-länge, H/L), zehn Beobachtungen „was schlank macht“, 17 BASIC-Konturen und der Scout-Visierring im Zielen als BASIC-Abweichungen (Schlüsse in cubeescape-ballon).

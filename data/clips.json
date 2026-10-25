@@ -1198,5 +1198,167 @@
     "clip": "https://www.youtube.com/watch?v=ernPc3eEBdQ",
     "source": "Bolt Gaming (YouTube), 05.10.2021, Abruf 1920 × 1080, 30 fps; REF 0.15 „Sideview“ (Mac, 25.10.2026), docs/proportionen.md › 6; Zahl der Antigravity-Zuarbeit nachgemessen",
     "timestamps": "Waffenbank 160 s; Kanten ±3 px"
+  },
+  {
+    "measurement": "Rückstoß Destiny 2: Chroma Rush, 12er-Hüftstoß – Nettobahn, Takt, Rücklauf (docs/rueckstoss.md › 2)",
+    "clip": "https://www.youtube.com/watch?v=QxSa4m3wIEA",
+    "source": "Ultraclocked (YouTube), 15.05.2021, 1920 × 1080, 60 fps; Codex-Messung 24.10.2026, nachgemessen in REF 0.16 „Kickback“ (Mac, 25.10.2026), docs/rueckstoss.md",
+    "timestamps": "Stoß 5,55–7,20 s; Schüsse 5,667 … 6,583 im Abstand 5 Bilder; Band ±3 pp ab 6,984; ±1 Bild, Lage ±3 Prozentpunkte"
+  },
+  {
+    "measurement": "Rückstoß Destiny 2: Abyss Defiant, drei Magazine ohne Gegensteuern (Bungie-Test, RD 86)",
+    "clip": "https://www.youtube.com/watch?v=rw_6lS0pBf0",
+    "source": "Destiny 2 / Bungie (YouTube), 11.09.2023, 30 fps; Codex-Messung 24.10.2026, Zählung nachgeprüft in REF 0.16 „Kickback“ (Mac, 25.10.2026), docs/rueckstoss.md",
+    "timestamps": "Magazine 2,467–8,333 · 11,533–17,400 · 20,467–26,333 s (HUD 36 → 0); nur Form/Lage, keine 60-Hz-Zeiten"
+  },
+  {
+    "measurement": "Rückstoß Destiny 2: Gridskipper, drei Dreiersalven",
+    "clip": "https://www.youtube.com/watch?v=DFn14wAPluA",
+    "source": "Ultraclocked (YouTube), 13.05.2021, 60 fps; Codex-Messung 24.10.2026; REF 0.16 „Kickback“ (Mac, 25.10.2026), docs/rueckstoss.md",
+    "timestamps": "29,70–32,30 s; Salven ab Bild 1785 / 1853 / 1877, intern 4 Bilder; ±1 Bild"
+  },
+  {
+    "measurement": "Rückstoß Destiny 2: Tone Patrol (Scout), fünf getaktete Schüsse",
+    "clip": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+    "source": "Ultraclocked (YouTube), 14.02.2020, 60 fps, Normaltempo; Codex-Messung 24.10.2026; REF 0.16 „Kickback“ (Mac, 25.10.2026), docs/rueckstoss.md",
+    "timestamps": "Schüsse 388,750 · 389,100 · 389,450 · 389,783 · 390,117 s; Band ±3 pp 23 Bilder nach dem letzten"
+  },
+  {
+    "measurement": "Rückstoß Destiny 2: Annual Skate (Handfeuerwaffe), fünf ADS-Schüsse",
+    "clip": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+    "source": "Ultraclocked (YouTube), 14.02.2020, 60 fps, Normaltempo; Codex-Messung 24.10.2026; REF 0.16 „Kickback“ (Mac, 25.10.2026), docs/rueckstoss.md",
+    "timestamps": "Schüsse 83,833 · 85,267 · 86,200 · 86,750 · 87,317 s"
+  },
+  {
+    "measurement": "Rückstoß Destiny 2: Shattered Cipher (MG), Hüfte und ADS",
+    "clip": "https://www.youtube.com/watch?v=DEM-8xg66R8",
+    "source": "Ultraclocked (YouTube), 14.05.2021, 60 fps; Codex-Messung 24.10.2026; REF 0.16 „Kickback“ (Mac, 25.10.2026), docs/rueckstoss.md",
+    "timestamps": "Hüfte 7,00–8,70 s · ADS 30,30–36,90 s"
+  },
+  {
+    "measurement": "Rückstoß Destiny 2: Threaded Needle (lineare Fusion), vier Schüsse ohne Rücklauf",
+    "clip": "https://www.youtube.com/watch?v=uoTaCBMXcFk",
+    "source": "Ultraclocked (YouTube), 20.02.2021, 60 fps; Codex-Messung 24.10.2026, nachgemessen in REF 0.16 „Kickback“ (Mac, 25.10.2026), docs/rueckstoss.md",
+    "timestamps": "Schüsse ≈ 34,567 · 36,817 · 39,033 · 41,133 s; Rest vor Schuss 2/3/4 bei 36,80 · 39,00 · 41,10"
+  },
+  {
+    "measurement": "Rückstoß CS2: AK-47-Spray, Weltanker-Netto",
+    "clip": "https://www.youtube.com/watch?v=wSZA073GUw8",
+    "source": "Moskri (YouTube), 25.03.2023, 60 fps, Montage 1280 × 546; Codex-Messung 24.10.2026; REF 0.16 „Kickback“ (Mac, 25.10.2026), docs/rueckstoss.md",
+    "timestamps": "12,600–16,000 s (Bilder 756–960)"
+  },
+  {
+    "measurement": "Rückstoß Apex Legends: HAVOC, 29 Schüsse im 4x-Visier, Weltanker-Netto",
+    "clip": "https://www.youtube.com/watch?v=8QQJAwUaRi0",
+    "source": "Do_ASAP (YouTube), 28.01.2026, 59,94 fps, Lehrvideo mit Standbildern; Codex-Messung 24.10.2026; REF 0.16 „Kickback“ (Mac, 25.10.2026), docs/rueckstoss.md",
+    "timestamps": "vor Feuer 200,004 s · Endbild 204,509 s; keine Zeiten (Standbilder)"
+  },
+  {
+    "measurement": "Rückstoß Battlefield 6: B36A4, 18 Schüsse (Vorveröffentlichung)",
+    "clip": "https://www.youtube.com/watch?v=ROUP1z62caA",
+    "source": "Torbis (YouTube), 17.09.2025, 60 fps; Codex-Messung 24.10.2026, nachgemessen in REF 0.16 „Kickback“ (Mac, 25.10.2026), docs/rueckstoss.md",
+    "timestamps": "Schüsse 21,100 … 22,517 s im Abstand 5 Bilder (HUD 19 → 1); ±1 Bild"
+  },
+  {
+    "measurement": "Rückstoß Battlefield 2042: M5A3, Wandserie fast senkrecht",
+    "clip": "https://www.youtube.com/watch?v=enyEjb4dXU8",
+    "source": "SammyBoiii: FPS (YouTube), 17.02.2022, 60 fps; Codex-Messung 24.10.2026; REF 0.16 „Kickback“ (Mac, 25.10.2026), docs/rueckstoss.md",
+    "timestamps": "Serie 41,041–43,343 s · Trefferbild 44,900 s"
+  },
+  {
+    "measurement": "Rückstoß Battlefield 2042: AK-24, Wandserie",
+    "clip": "https://www.youtube.com/watch?v=0Rq3rypcIQo",
+    "source": "SammyBoiii: FPS (YouTube), 21.03.2022, ausgewertet 30 fps (360p); Codex-Messung 24.10.2026; REF 0.16 „Kickback“ (Mac, 25.10.2026), docs/rueckstoss.md",
+    "timestamps": "Serie 154,087–156,823 s · Trefferbild 159,000 s; keine Zeiten"
+  },
+  {
+    "measurement": "Rückstoß Battlefield 2042: K30, zwei Wandserien",
+    "clip": "https://www.youtube.com/watch?v=L6BiTz_3teo",
+    "source": "SammyBoiii: FPS (YouTube), 16.05.2022, ausgewertet 30 fps (360p); Codex-Messung 24.10.2026; REF 0.16 „Kickback“ (Mac, 25.10.2026), docs/rueckstoss.md",
+    "timestamps": "Serien 167,167–168,669 und 176,009–178,512 s · Trefferbild 170,500 s; keine Zeiten"
+  },
+  {
+    "measurement": "Rückstoß CoD MW2019: Kilo 141 / M4A1 / AK-47, je drei Wandserien ohne Aufsätze (Form)",
+    "clip": "https://www.youtube.com/watch?v=nBsmMfQfd_M",
+    "source": "Ghostjobs (YouTube), 04.08.2020, 24 fps, Splitbild; Codex-Sichtung 24.10.2026; REF 0.16 „Kickback“ (Mac, 25.10.2026), docs/rueckstoss.md",
+    "timestamps": "Kilo 10,5–28 s · M4A1 62–79 s · AK-47 113–126 s; Ergebnisbilder 46–49 · 99–103 · 157–161 s"
+  },
+  {
+    "measurement": "Rückstoß Titanfall 2: C.A.R. / R-201 / Hemlok, Weltanker-Netto (R-201 korrigiert)",
+    "clip": "https://www.youtube.com/watch?v=4sDwTD9U8bw",
+    "source": "Weapons From Games (YouTube), 14.03.2019, 60 fps; Codex-Messung 24.10.2026, R-201 und Hemlok nachgemessen in REF 0.16 „Kickback“ (Mac, 25.10.2026), docs/rueckstoss.md",
+    "timestamps": "C.A.R. 96,600–101,483 s · R-201 171,300–175,433 s (HUD 29 → 0) · Hemlok 207,300–212,833 s"
+  },
+  {
+    "measurement": "Rückstoß Destiny 2: Swift Ride (Impuls), drei Salven – Bahn verworfen [O]",
+    "clip": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+    "source": "Ultraclocked (YouTube), 14.02.2020, 60 fps, Normaltempo; Codex-Sichtung 24.10.2026; REF 0.16 „Kickback“ (Mac, 25.10.2026), docs/rueckstoss.md",
+    "timestamps": "362,00–363,90 s; ADS aus ab 364 s"
+  },
+  {
+    "measurement": "Rückstoß Destiny 2: Dead Man Walking (Seitenwaffe), ADS-Folgen",
+    "clip": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+    "source": "Ultraclocked (YouTube), 14.02.2020, 60 fps, Normaltempo; Codex-Messung 24.10.2026; REF 0.16 „Kickback“ (Mac, 25.10.2026), docs/rueckstoss.md",
+    "timestamps": "121,00–124,60 s; Schusszahl ohne HUD nicht gesichert"
+  },
+  {
+    "measurement": "Rückstoß Destiny 2: Foggy Notion (MP), Hüftstöße",
+    "clip": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
+    "source": "Ultraclocked (YouTube), 14.02.2020, 60 fps, Normaltempo; Codex-Messung 24.10.2026; REF 0.16 „Kickback“ (Mac, 25.10.2026), docs/rueckstoss.md",
+    "timestamps": "184,50–190,00 s; Fenster endet im Feuer"
+  },
+  {
+    "measurement": "Rückstoß Destiny 2: Extraordinary Rendition (MP), ADS-Stoß – Bahn verworfen [O]",
+    "clip": "https://www.youtube.com/watch?v=Y5OLr0nbgSg",
+    "source": "Ultraclocked (YouTube), 15.02.2021, 60 fps; Codex-Sichtung 24.10.2026; REF 0.16 „Kickback“ (Mac, 25.10.2026), docs/rueckstoss.md",
+    "timestamps": "43,20–44,55 s"
+  },
+  {
+    "measurement": "Rückstoß CS2: M4A1-S, laufende Serie, Weltanker-Netto",
+    "clip": "https://www.youtube.com/watch?v=wSZA073GUw8",
+    "source": "Moskri (YouTube), 25.03.2023, 60 fps, Montage 1280 × 546; Codex-Messung 24.10.2026; REF 0.16 „Kickback“ (Mac, 25.10.2026), docs/rueckstoss.md",
+    "timestamps": "0,000–2,000 s (Bilder 0–120); Serie bei Videobeginn schon im Gang"
+  },
+  {
+    "measurement": "Rückstoß CS2: M4A4-Spray, Weltanker-Netto",
+    "clip": "https://www.youtube.com/watch?v=wSZA073GUw8",
+    "source": "Moskri (YouTube), 25.03.2023, 60 fps, Montage 1280 × 546; Codex-Messung 24.10.2026; REF 0.16 „Kickback“ (Mac, 25.10.2026), docs/rueckstoss.md",
+    "timestamps": "5,700–8,350 s (Bilder 342–501)"
+  },
+  {
+    "measurement": "Rückstoß Valorant: Phantom / Vandal / Spectre, Trefferhüllen im kompensierten Lehrbeispiel",
+    "clip": "https://www.youtube.com/watch?v=vaqlrCzy3PM",
+    "source": "SC Valorant Guides (YouTube), 27.11.2020, 30 fps, Digitalzoom; Codex-Messung 24.10.2026; REF 0.16 „Kickback“ (Mac, 25.10.2026), docs/rueckstoss.md",
+    "timestamps": "Phantom 110,511 s · Vandal 231,709 s · Spectre 349,510 s (Einzelbilder); keine Zeiten"
+  },
+  {
+    "measurement": "Rückstoß Apex Legends: R-301 und VK-47 Flatline, Trefferhüllen im 4x-Visier",
+    "clip": "https://www.youtube.com/watch?v=8QQJAwUaRi0",
+    "source": "Do_ASAP (YouTube), 28.01.2026, 59,94 fps, Lehrvideo mit Standbildern; Codex-Messung 24.10.2026; REF 0.16 „Kickback“ (Mac, 25.10.2026), docs/rueckstoss.md",
+    "timestamps": "R-301 127,804–131,508 s (HUD 31 → 0) · Flatline 162,003–166,858 s (HUD 29 → 0); keine Zeiten"
+  },
+  {
+    "measurement": "Rückstoß Battlefield 6: AK4D, zwei Teilstöße 8 + 5 Schüsse (Vorveröffentlichung)",
+    "clip": "https://www.youtube.com/watch?v=ROUP1z62caA",
+    "source": "Torbis (YouTube), 17.09.2025, 60 fps; Codex-Messung 24.10.2026; REF 0.16 „Kickback“ (Mac, 25.10.2026), docs/rueckstoss.md",
+    "timestamps": "49,950–51,583 s; Schüsse Bild 2997 … 3046 und 3068 … 3095; ±1 Bild"
+  },
+  {
+    "measurement": "Rückstoß Battlefield 6: M433, 15 Schüsse (Vorveröffentlichung)",
+    "clip": "https://www.youtube.com/watch?v=ROUP1z62caA",
+    "source": "Torbis (YouTube), 17.09.2025, 60 fps; Codex-Messung 24.10.2026; REF 0.16 „Kickback“ (Mac, 25.10.2026), docs/rueckstoss.md",
+    "timestamps": "113,117–114,117 s; Schüsse Bild 6787 … 6847; ±1 Bild"
+  },
+  {
+    "measurement": "Rückstoß Halo Infinite (Technical Preview): MA40 / BR75 / Mk50, Weltanker-Netto am Zähler",
+    "clip": "https://www.youtube.com/watch?v=ZfNuA5r-470",
+    "source": "Abyssopelagic (YouTube), 30.07.2021, 60 fps (Inhalt ≈ 30/s); Codex-Messung 24.10.2026; REF 0.16 „Kickback“ (Mac, 25.10.2026), docs/rueckstoss.md",
+    "timestamps": "MA40 11,800–13,233 s (17 → 0) · BR75 52,633–55,250 s (24 → 6) · Mk50 85,567–88,167 s (12 → 3); keine 60-Hz-Zeiten"
+  },
+  {
+    "measurement": "Rückstoß Halo Infinite: VK78 Commando, 20 Wand-Taps",
+    "clip": "https://www.youtube.com/watch?v=9TdIttKuOgE",
+    "source": "AznSlickSlaya (YouTube), 04.10.2021, 60 fps, oberes Spielbild 608 × 342; Codex-Messung 24.10.2026; REF 0.16 „Kickback“ (Mac, 25.10.2026), docs/rueckstoss.md",
+    "timestamps": "7,500–13,333 s (20 → 0)"
   }
 ]

@@ -3,7 +3,7 @@
 Referenzanalyse REF 0.16 „Kickback“ (25.10.2026) für die Waffenreihe **BASIC** (Projekt `cubeescape-ballon`). Nur Videospiele.
 Hier stehen Beobachtungen und Messwerte. Der Abschnitt [Gestaltungsregeln für BASIC](#6-gestaltungsregeln-für-basic-vorschlag)
 ist ein **Vorschlag**; entschieden wird in BASIC. Maschinenlesbare Fassung: [`data/rueckstoss.json`](../data/rueckstoss.json).
-Getrennte Themen: Visiere in `docs/visiere.md` (REF 0.14), Einzelschuss-Kick und Bloom einzelner Destiny-Waffen in
+Getrennte Themen: Visiere in [visiere.md](visiere.md) (REF 0.14), Waffenproportionen in [proportionen.md](proportionen.md) (REF 0.15), Einzelschuss-Kick und Bloom einzelner Destiny-Waffen in
 [destiny2.md](destiny2.md#2-messungen-an-60-fps-aufnahmen-ab-16-oktober-2026--m).
 
 **Stand: nicht fertig im strengen Kontrollmessziel.** Bis auf Bungies eigenen Test (Abyss Defiant) ist bei keiner Aufnahme belegt, dass der
