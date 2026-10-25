@@ -135,16 +135,16 @@ auch die Stabilität, Neuzielen zwischen Gruppen – kein Beleg für eine Stat�
 
 Formen sind den genannten Clips zugeordnet; Prozentwerte unterschiedlicher Spiele werden nicht gemittelt.
 
-| Klasse | Destiny | Vergleich | Form in Worten |
+| Klasse | Destiny | Vergleich | Form in den gemessenen Clips (Netto, Eingabe unbekannt) |
 |---|---|---|---|
 | Automatik | Chroma Rush: gleichmäßige Rampe, ≈ 1 pp H je Schuss, seitlich kaum; Abyss: lange Säule mit kleinen Seitenwechseln, dreimal gleiche Form | CS2: Stamm mit seitlicher Kappe; MW2019: Diagonale / Bogen / Säule je Waffe; Apex: Haken, S, Schleife; BF: fast senkrecht | in den Destiny-Clips senkrecht mit leichtem Wackeln, keine markante Figur; die markanten Figuren der CS2/MW2019/Apex-Clips liegen in der Seitenform |
-| Impuls | Gridskipper: Stufe je Salve, Erholung zwischen den Salven | Halo BR75 fast ruhig; Hemlok steigt über die Salven | Salve = ein Paket, Pause = Teil-Rücklauf |
-| Scout | Tone Patrol: kräftiger Einzelimpuls, wachsender Rest bei schnellem Takt | VK78 (getaktete Taps) | Impuls groß, Rücklauf fast vollständig, Rest summiert sich nur bei Takt am Limit |
+| Impuls | Gridskipper: Stufe je Salve, Erholung zwischen den Salven | Halo BR75 fast ruhig; Hemlok steigt über die Salven | Gridskipper: jede Salve eine Stufe, in der Pause teilweise zurück |
+| Scout | Tone Patrol: kräftiger Einzelimpuls, wachsender Rest vor den Folgeschüssen | VK78 (getaktete Taps) | im Tone-Patrol-Clip wächst die Netto-Restlage vor den Folgeschüssen (−1,7 → −3,3 pp H); nach dem letzten Schuss 23 Bilder bis ins ±3-pp-Band |
 | Handfeuerwaffe | Annual Skate: großer Hochimpuls, deutliches Kippen des Modells, Rest klein | kein gleichwertiger Vergleich | in diesem Clip großer Einzelimpuls; das Modell kippt sichtbar stärker, als die Welt wandert |
 | Seitenwaffe | Dead Man Walking: Hochimpulse bis ≈ 10 pp H | Halo Mk50 klein | – |
 | MP | Foggy Notion: steigende Nettobahn ≈ 9 pp H, seitlich wenig | BF2042 K30 schmal senkrecht; C.A.R. mit Seitenwechseln | – |
-| MG | Shattered Cipher: im ADS deutlich mehr Bildweg als in der Hüfte | kein Vergleich | – |
-| Lineare Fusion | Threaded Needle: ≈ 6,5 pp H je Schuss, netto **kein Rücklauf** zwischen Schüssen | kein Vergleich | Stufe je Schuss, die stehen bleibt |
+| MG | Shattered Cipher: ADS-Fenster bis 12,4 pp H, Hüftfenster 2,8 pp H (anderer Bildmaßstab, kein Quotient) | kein Vergleich | – |
+| Lineare Fusion | Threaded Needle: ≈ 6,5 pp H je Schuss, netto **kein Rücklauf** zwischen Schüssen | kein Vergleich | im Clip eine Stufe je Schuss, die bis zum nächsten Schuss stehen bleibt |
 
 **Rücklauf:** gemessen nur als Netto der Quelle – Chroma Rush 24 Bilder (0,40 s) nach 12 Schüssen, Tone Patrol 23 Bilder, Gridskipper
 12 Bilder. Threaded Needle bleibt oben. Ob der Rücklauf vom Spiel oder vom Spieler kommt, ist offen.
