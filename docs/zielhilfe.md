@@ -20,15 +20,20 @@ relative Angaben für den genannten Stand, keine aktuellen Absolutwerte und kein
 - **Zeitstände getrennt:** Destiny 2021 (Hand-Cannon-Kegel), 2022 (Autoaim, Friction), 2023 (Season 21/22), 2024 (Totzonen 7.3.5), 2025 (Temporal AA); Halo 2022 gegen die heutige Hilfeseite; Apex 2024 relativ; CoD MW2019 (2019), BO6 (2024), BO7 (2025). Nie einen Stand auf einen anderen übertragen.
 
 ### Videos
-- **V1** [Drewsky – Accuracy, Aim Assist & Range Explained In-Depth | Destiny 2 Shadowkeep](https://www.youtube.com/watch?v=qrJv7mj7Ab4) – 2020-02-15; .
-- **V2** [jephXS – M&K VS CONTROLLER (Aim Assist, Accuracy, AE, recoil/stability)](https://www.youtube.com/watch?v=wwXYJcIwgkk) – 2022-11-02; .
-- **V3** [hecksmith – Rotational Aim Assist in COD: Modern Warfare 2019 - Demos](https://www.youtube.com/watch?v=ufw8bnIfG7E) – 2022-04-23; .
-- **V4** [Girthworm Jim – Halo Infinite Sniper Aim Assist Test](https://www.youtube.com/watch?v=GIBTUjd5YIY) – 2022-01-05; .
-- **V5** [hecksmith – UNSEEN Aim Assist: Basics to Extremes (Rotational RETESTED)](https://www.youtube.com/watch?v=frjx63T5FQU) – 2022-11-10; .
+
+- **V1** [Drewsky – Accuracy, Aim Assist & Range Explained In-Depth | Destiny 2 Shadowkeep](https://www.youtube.com/watch?v=qrJv7mj7Ab4) – 2020-02-15; Abschnitt 1 (yt-dlp).
+- **V2** [jephXS – M&K VS CONTROLLER (Aim Assist, Accuracy, AE, recoil/stability)](https://www.youtube.com/watch?v=wwXYJcIwgkk) – 2022-11-02; Abschnitt 1 (yt-dlp).
+- **V3** [hecksmith – Rotational Aim Assist in COD: Modern Warfare 2019 - Demos](https://www.youtube.com/watch?v=ufw8bnIfG7E) – 2022-04-23; Abschnitt 1 (yt-dlp).
+- **V4** [Girthworm Jim – Halo Infinite Sniper Aim Assist Test](https://www.youtube.com/watch?v=GIBTUjd5YIY) – 2022-01-05; Abschnitt 1 (yt-dlp).
+- **V5** [hecksmith – UNSEEN Aim Assist: Basics to Extremes (Rotational RETESTED)](https://www.youtube.com/watch?v=frjx63T5FQU) – 2022-11-10; Abschnitt 1 (yt-dlp).
+
 ### Datenquellen
+
 - **S1** [Bungie DestinyStatDefinition: Aim Assistance, Hash 1345609583](https://www.bungie.net/common/destiny2_content/json/en/DestinyStatDefinition-e677f6ea-2a1e-48d4-a8c8-700a39a62585.json) – Abruf 2026-10-25; 3 von 3 Hashes gegen die Manifestkopie der Zuarbeit bestätigt; Seite nicht erneut von Bungie geladen.
 - **S2** [SCUF – Apex Legends Tips & Tricks for Beginners](https://scufgaming.com/gaming/games/apex-legends/tips-and-tricks-for-beginners/) – ohne absolutes Datum; Abruf 2026-10-25; nicht aufgerufen.
+
 ### Entwickler
+
 - **B1** [Bungie – TWAB 05.05.2022](https://www.bungie.net/7/en/News/article/51319) – 2022-05-05; bestätigt, nur über Wayback-Archiv.
 - **B2** [Bungie / Chris Proctor – TWAB 29.04.2021](https://www.bungie.net/7/ru/News/article/50287) – 2021-04-29; bestätigt, nur über Wayback-Archiv.
 - **B3** [Bungie – Dev Insights: Season 22 Weapons Preview](https://www.bungie.net/7/en/News/article/season-22-weapons-preview) – 2023-08-16; bestätigt, nur über Wayback-Archiv.
@@ -50,7 +55,9 @@ relative Angaben für den genannten Stand, keine aktuellen Absolutwerte und kein
 - **B19** [Xbox Wire – Valorant Console Open Beta; Interview mit Riot](https://news.xbox.com/en-us/2024/07/26/valorant-console-open-beta-xbox-series-x-s/) – 2024-07-26; bestätigt, direkt abgerufen.
 - **B20** [Riot – VALORANT Patch Notes 3.07](https://playvalorant.com/en-us/news/game-updates/valorant-patch-notes-3-07/) – 2021-10-05; bestätigt, direkt abgerufen.
 - **B21** [Riot – VALORANT Patch Notes 9.06](https://playvalorant.com/en-gb/news/game-updates/valorant-patch-notes-906/) – 2024-09-24; bestätigt, direkt abgerufen.
+
 ### Spielerstimmen
+
 - **C1** [Bungie-Forum – Toggle aim assist; Memento_Mori und Antworten](https://www.bungie.net/en/Forums/Post/260758709) – 2022-03-15 bis 2022-03-16; Beitrag nicht prüfbar (Bungie-Forum, JavaScript-Seite).
 - **C2** [Bungie-Forum – Response Curve; halunke27](https://www.bungie.net/en/Forums/Post/260100378?page=0) – 2021-11-25; Beitrag nicht prüfbar (Bungie-Forum, JavaScript-Seite).
 - **C3** [Reddit r/halo – Mouse and keyboard feels viable now!](https://www.reddit.com/r/halo/comments/zelmsh/) – 2022-12-06 / Antworten 2022-12-07; Beitrag bestätigt (Pullpush: Subreddit, Titel, Datum, Thema), Kommentare nicht gelesen.
