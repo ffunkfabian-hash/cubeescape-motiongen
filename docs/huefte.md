@@ -179,7 +179,8 @@ Valorant Bulldog (Skovos, 5:53,286) bleibt **offen**: Kamera dreht, Waffe schwin
 - **Griffhand:** sichtbar in 14 von 57 Beispielen, fast nur bei kompakten Waffen und Bögen (Ausnahmen: Marathon-Schrotflinte WSTR,
   Glefe Lubrae's Ruin); bei Schrot, MP und langen Waffen verdeckt sonst das Gehäuse die rechte Hand, sichtbar ist die linke Stützhand.
 - **Sonderformen:** Bögen liegen quer im unteren Bild (x 5–100 × y 69–100 %), Mündung und Lauf n. a.; Glefen bleiben Ego, die Spitze ist
-  kein Mündungsersatz; Schwerter wechseln in die dritte Person.
+  kein Mündungsersatz; Schwerter wechseln in die dritte Person. Glefen-Hüfte nachgemessen, Schuss, Schlag und Schild in
+  [nahkampf.md › 6](nahkampf.md#6-destiny-glefe-in-der-ego-sicht) (0.29; Nezarec-Rand 83 gilt mit Ärmel, Waffe allein ≈ 77).
 - **Vergleichsspiele:** Mündungen x 54–61 / y 58–67 % (Titanfall, Halo, BF6, Finals). CoD-MW2019- und Valorant-Pistolen liegen am tiefsten
   (Körper ab y 59–74 %), die CoD-Pistolen zugleich am mittigsten (x 49–60 %). Halo BR75 reicht bis y 38 %, MA40 bis 51 %.
 

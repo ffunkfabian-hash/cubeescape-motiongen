@@ -2458,5 +2458,35 @@
     "clip": "https://www.youtube.com/watch?v=frjx63T5FQU",
     "source": "hecksmith (YouTube), 10.11.2022, 60 fps; Codex-Mac 25.10.2026, REF 0.28 „Pullzone“ (Mac, 25.10.2026), docs/zielhilfe.md",
     "timestamps": "C01 03:23 / 03:25 / 03:27"
+  },
+  {
+    "measurement": "Schwert in der Schulteransicht (Unspoken Promise): Figur 42 % H links der Mitte, Spitze unter dem Mittenkreuz; leichte Folge 54 Bilder, schwerer Angriff 50 Bilder",
+    "clip": "https://www.youtube.com/watch?v=afs_dhFDhQU",
+    "source": "Ultraclocked (YouTube), 09.02.2020, „All Io Legendary Weapons … w/ Slow-Motion“, 1920 × 1080, 60 fps",
+    "timestamps": "Ruhe 296,800/300,000 s; leicht 290,667 → 291,567 s (f17440 → f17494); schwer 295,567 → 296,400 s (f17734 → f17784)"
+  },
+  {
+    "measurement": "Schwert (Lightweight, 2026): Drehschlag 58 Bilder, Block mit Schutzkuppel ≤ 9 Bilder",
+    "clip": "https://www.youtube.com/watch?v=tTjwM26ilgo",
+    "source": "Ultraclocked (YouTube), 21.04.2026, „Destiny 2 vs Warframe - Sword Animations“, 1920 × 1080, 60 fps",
+    "timestamps": "leicht 0,500 → 1,467 s (f30 → f88); Block 196,800 → 196,950 s (f11808 → f11817), gehalten 198,5–200,0 s"
+  },
+  {
+    "measurement": "Schwert: Ausstieg aus der Schulteransicht in 6 Bildern",
+    "clip": "https://twitch.tv/aztecross/clip/OpenNeighborlyScallionBCWarrior-3dlnXDdiG0r-2y-K",
+    "source": "Aztecross (Twitch), Clip von Cobrachaos96, 05.07.2024, „CAUGHT IN 4K“, 1280 × 720, 60 fps",
+    "timestamps": "Kamerafahrt 44,333 → 44,433 s (f2660 → f2666)"
+  },
+  {
+    "measurement": "Glefe (Lubrae's Ruin): Hüfte, Schuss, Rückstoß, Kadenz, Schlag, Schild, Nachladen in Ego",
+    "clip": "https://www.youtube.com/watch?v=O9QEU2RzB28",
+    "source": "Boosh Ninja (YouTube), 18.11.2022, „Vow of the Disciple | Legendary Weapon Sound and Visual Showcase (Destiny 2)“, 1920 × 1080, 59,94 fps",
+    "timestamps": "Hüfte 143,010; Schuss 151,468; Schlag 175,292–179,096; Schild 165,682–166,600; Nachladen 156,306–159,393 s (Originalzeit)"
+  },
+  {
+    "measurement": "Glefe (Nezarec's Whisper): Hüfte, Kadenz, Nachladen in Ego",
+    "clip": "https://www.youtube.com/watch?v=1pH6zS-lj5g",
+    "source": "Boosh Ninja (YouTube), 14.03.2023, „Season of The Haunted | Legendary Weapon Sound and Visual Showcase (Destiny 2)“, 1920 × 1080, 59,94 fps",
+    "timestamps": "Hüfte 234,000; Kadenz 244,961–259,576; Nachladen 250,467–253,970 s (Originalzeit)"
   }
 ]

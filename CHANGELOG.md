@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.29.0 „Bladework“ – 2026-10-28
+
+- Neue Referenzanalyse [Schwert und Glefe](docs/nahkampf.md) mit `data/nahkampf.json` für BALLON Paket 7: Form an 17 Destiny-Manifestbildern (8 Schwerter: Klinge 0,64–0,76 L, H/L 0,07–0,10 schlank bzw. 0,21–0,33 breit; 9 Glefen mit gemeinsamem Gerüst: Kragen 0,30 L, Kopf ab 0,52–0,55 L, H/L 0,09–0,12), Destiny-Schulteransicht (Einstieg 9 + 20 Bilder, Ausstieg 6 Bilder, Figur 42 % H links der Mitte, Angriffe 14–58 Bilder, Block ≤ 9 Bilder), Ego-Schwerter in Dark Messiah, Chivalry 2, Halo Infinite und Ghostrunner (Ruhe rechts/unten, Mitte 1–4 Bilder verdeckt) und die Glefe in Ego (Hüfte, Schuss mit Projektil an der Bildmitte, Kadenz 51–63 Bilder, Schlag 8 + 10 Bilder, Schild ein 10–11 Bilder, Nachladen 3,07–3,50 s, kein ADS). Fünf Messzeilen (`z-nk-…`) und Methode 27 in destiny2.md, fünf Einträge in `data/clips.json`, Datentest.
+- Befund (Beobachtung, entschieden wird in BALLON): Bungie begründet die Schulteransicht der Schwerter mit Schlägen außerhalb des Ego-Sichtfelds und hält die Glefe bewusst in Ego (Developer Insights, 14.02.2022); Entscheidungsvorlage A/B/C mit Empfehlung **B** (Schwert in Ego nach Vorbildern).
+- Abnahme: drei Unteragenten (zwei Opus, ein Sonnet; Nutzerwunsch über Sightline), 8/8 nachgemessene Zahlen bestätigt, 3/3 Stimmen-URLs, Vexcalibur-Bestand bestätigt; offen u. a. Skyrim ohne Mods, Winkel-FOV der Schulterkamera, Glefen-Fadenkreuzlage. [Bericht](docs/versions/0.md#0290-bladework--2026-10-28).
+
 ## 0.28.0 „Pullzone“ – 2026-10-25
 
 - Neue Referenzanalyse [Zielhilfe und Eingabe](docs/zielhilfe.md) mit `data/zielhilfe.json`: 35 Beispiele aus fünf Spielen (Destiny 2 14, Halo Infinite 6, Apex Legends 7, Call of Duty 5, VALORANT 3; sechs Video- und 29 Dokumentarbefunde) aus fünf Videos und 21 Entwicklerquellen (Codex-Mac, Ego-Bewegung R2, Thema Zielhilfe). Eine Messzeile in `docs/destiny2.md` › 2 (Anker `z-zh-drewsky`), Methode 26, fünf Einträge in `data/clips.json`, Querverweis in waffenwerte.md.
