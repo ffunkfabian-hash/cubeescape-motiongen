@@ -646,7 +646,7 @@
     71
    ],
    "blade_angle_deg": 0,
-   "notes": "stehend; Schwert senkrecht rechts neben der Figur, Spitze direkt unter dem Mittenkreuz; Figurhöhe 42 % H"
+   "notes": "stehend; Schwert senkrecht rechts neben der Figur, Spitze direkt unter dem Mittenkreuz; Figurhöhe 42 % H; Hülle ohne Schwert (f17808), f18000 43–52 % B, mit Schwert bis 52 % B; Körpermitte 44–48 % B"
   },
   {
    "game": "Destiny 2",
@@ -1707,11 +1707,17 @@
    "audience": "PvE/Übersicht; PvP fordert Beschränkung",
    "player_opinion": {
     "summary": "Third-Person-Modus gewünscht, 3-Peeking kritisiert",
-    "recurrence": "wiederkehrend (≥ 5 bzw. 3 Threads)",
+    "recurrence": "wiederkehrend: Third-Person-Modus 5 Threads, 3-Peeking 3 Threads",
     "sources": [
+     "https://www.bungie.net/en/Forums/Post/252397152",
+     "https://steamcommunity.com/app/1085660/discussions/0/4042608198329991312",
+     "https://steamcommunity.com/app/1085660/discussions/0/4299320215882183471",
+     "https://steamcommunity.com/app/1085660/discussions/0/4631485178655632889",
+     "https://steamcommunity.com/app/1085660/discussions/0/673972930559987754",
      "https://www.bungie.net/en/Forums/Post/257215736",
-     "https://www.bungie.net/en/Forums/Post/253398475",
-     "https://www.bungie.net/en/Forums/Post/252397152"
+     "https://www.bungie.net/en/Forums/Post/256491031",
+     "https://www.bungie.net/en-us/Forums/Post/239292077",
+     "https://www.bungie.net/en/Forums/Post/253398475"
     ],
     "counter": "„es ist ein Ego-Shooter“"
    },
@@ -1724,24 +1730,37 @@
   {
    "game": "Destiny 2",
    "subject": "Glefe in Ego",
-   "good": "eine Perspektive für Schuss, Schild und Schlag",
+   "good": "eine Perspektive für Schuss, Schild und Schlag; Schild 97,5 % Schadensminderung PvE, 75 % PvP (TWAB 21.04.2022)",
    "bad": "Schild-Verzögerung/Desync, Projektilinkonsistenz, Perks greifen nicht auf Nahkampf, Effektdichte",
    "audience": "PvE-Nahkampf",
    "player_opinion": {
     "summary": "Perk-Frust und Trefferinkonsistenz",
-    "recurrence": "wiederkehrend (≥ 4 bzw. 3 Quellen)",
+    "recurrence": "wiederkehrend: Perk-Frust 3 Spielerquellen, Trefferinkonsistenz 3",
     "sources": [
      "https://www.bungie.net/en/Forums/Post/260767505",
+     "https://steamcommunity.com/app/1085660/discussions/0/3364775865378444067",
+     "https://steamcommunity.com/app/1085660/discussions/0/3266807987598689550",
+     "https://steamcommunity.com/app/1085660/discussions/0/3271314133306549689/",
+     "https://www.bungie.net/en/Forums/Post/264602271",
+     "https://www.bungie.net/hi/Forums/Post/264549926",
      "https://www.bungie.net/en/Forums/Post/261160090",
-     "https://steamcommunity.com/app/1085660/discussions/0/3271314133306549689/"
+     "https://www.bungie.net/en/Forums/Post/264761879"
     ],
     "counter": "„Glefen sind in Ordnung“, Buffs „enorm“"
    },
-   "dev_reference": {
-    "summary": "gerichtete Stangenwaffe bleibt in Ego wegen Unmittelbarkeit; Nahkampf bewusst einfacher Schlag, Lunge schon lang",
-    "url": "https://destiny.bungie.org/bwu/409",
-    "date": "2022-04-21"
-   }
+   "dev_reference": [
+    {
+     "summary": "gerichtete Stangenwaffe bleibt in Ego wegen Unmittelbarkeit",
+     "url": "https://www.youtube.com/watch?v=6-26SH5jSwQ",
+     "date": "2022-02-14"
+    },
+    {
+     "summary": "Nahkampf bewusst einfacher Schlag, Lunge schon lang, Schildverbrauch −30 %, Schild 97,5 %/75 % Schadensminderung",
+     "url": "https://destiny.bungie.org/bwu/409",
+     "date": "2022-04-21",
+     "speaker": "Chris Proctor"
+    }
+   ]
   },
   {
    "game": "Dark Messiah of Might and Magic",
@@ -1764,6 +1783,25 @@
    }
   },
   {
+   "game": "The Elder Scrolls V: Skyrim",
+   "subject": "Ego-Nahkampf",
+   "good": "Schild und Zweihand-System, Stagger",
+   "bad": "Fuchteln ohne Gewicht, Tastenhämmern",
+   "audience": "Magie/Bogen-Spieler, Nahkampf meist mit Mods",
+   "player_opinion": {
+    "summary": "Spieler-Threads nur Suchauszug",
+    "recurrence": null,
+    "sources": [],
+    "counter": null
+   },
+   "dev_reference": {
+    "summary": "Kampf greifbarer machen (Todd Howard)",
+    "url": "https://gameinformer.com/b/features/archive/2011/01/24/skyrim-building-better-combat.aspx",
+    "date": "2011-01-24"
+   },
+   "press": "https://kotaku.com/five-disappointing-things-about-the-elder-scrolls-v-sk-5858474"
+  },
+  {
    "game": "Chivalry 2 / Mordhau",
    "subject": "Ego gegen Third Person",
    "good": "Ego für Duelle und Stiche",
@@ -1771,8 +1809,12 @@
    "audience": "Duelle gegen Massenschlacht",
    "player_opinion": {
     "summary": "uneins, welche Kamera Reichweite lesbarer macht",
-    "recurrence": "wiederkehrend (≥ 7 Threads)",
-    "sources": [],
+    "recurrence": "wiederkehrend (7 Threads in der Zuarbeit, 3 verlinkt)",
+    "sources": [
+     "https://steamcommunity.com/app/629760/discussions/0/1643164649207550435/",
+     "https://steamcommunity.com/app/629760/discussions/0/1643164558917088382/",
+     "https://steamcommunity.com/app/1824220/discussions/0/3414305949100931803/"
+    ],
     "counter": "Third Person verdeckt Animationen"
    },
    "dev_reference": null
@@ -1780,7 +1822,7 @@
   {
    "game": "Halo Infinite",
    "subject": "Energieschwert",
-   "good": "Fadenkreuz zeigt Lunge-Reichweite",
+   "good": "Fadenkreuz zeigt Lunge-Reichweite (Halopedia)",
    "bad": "Gegenspiel schwach",
    "audience": "Kurzstrecken-PvP",
    "player_opinion": {
@@ -1791,18 +1833,22 @@
     ],
     "counter": null
    },
-   "dev_reference": null
+   "dev_reference": null,
+   "source_wiki": "https://www.halopedia.org/Type-1_energy_sword/Gameplay"
   },
   {
    "game": "Ghostrunner",
    "subject": "Katana in Ego",
-   "good": "Ein-Treffer-Tod, lesbare Parade",
-   "bad": "Ziele überschießen, Übersicht, Übelkeit",
+   "good": "Ein-Treffer-Tod, Parade befriedigend",
+   "bad": "Steuerung rutschig, Schwierigkeit frustrierend; Kampf bremst das Tempo",
    "audience": "reaktionsstarke Spieler",
    "player_opinion": {
     "summary": "Rezensionen gemischt",
-    "recurrence": "wiederkehrend (4 Rezensionen)",
-    "sources": [],
+    "recurrence": "2 verlinkte Rezensionen",
+    "sources": [
+     "https://www.nme.com/reviews/game-reviews/ghostrunner-review-a-deadly-cyberpunk-first-person-slasher-that-tests-your-patience-2803103",
+     "https://www.windowscentral.com/ghostrunner-review-thrilling-parkour-platformer-marred-combat"
+    ],
     "counter": null
    },
    "dev_reference": {
@@ -1840,7 +1886,7 @@
     0.1
    ],
    "h_to_l_wide": [
-    0.2,
+    0.21,
     0.33
    ],
    "ego_idle_examples": {
@@ -1918,7 +1964,8 @@
      2.8,
      2.1,
      1.6
-    ]
+    ],
+    "note": "stehend Io f17808/f18000; Ultraclocked 2026 Block f11940 46 % H (Kamera näher)"
    }
   },
   "glaive": {
@@ -2077,7 +2124,8 @@
     ],
     "note": "eine HUD-Quelle, tiefe Lage offen"
    },
-   "ads": false
+   "ads": false,
+   "front_grip_note": "Refusal of the Call 0,31–0,35"
   }
  },
  "sword_decision": {

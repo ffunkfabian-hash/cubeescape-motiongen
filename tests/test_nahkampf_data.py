@@ -33,8 +33,7 @@ class ShapeTests(unittest.TestCase):
     def test_header_names_version_doc_and_status_legend(self):
         self.assertEqual(DATA["doc"], "docs/nahkampf.md")
         self.assertTrue((ROOT / DATA["doc"]).exists())
-        self.assertLessEqual(STATUS, set(DATA["status"]) | STATUS)
-        self.assertTrue(set(DATA["status"]) <= STATUS)
+        self.assertEqual(set(DATA["status"]), STATUS)
 
     def test_every_example_has_the_standard_fields(self):
         for where, entry in examples():
@@ -86,6 +85,18 @@ class ProportionTests(unittest.TestCase):
 
 
 class SummaryTests(unittest.TestCase):
+    def test_summary_ranges_match_the_measured_weapons(self):
+        def span(cls, key):
+            values = [p[key] for p in DATA["proportions"] if p["class"] == cls and not p["cut_off"]]
+            return [round(min(values), 2), round(max(values), 2)]
+
+        sword, glaive = DATA["ballon_summary"]["sword"], DATA["ballon_summary"]["glaive"]
+        for key in ("blade_len", "grip_len", "pommel_len", "guard_len"):
+            self.assertEqual(sword[key], span("Schwert", key), key)
+        self.assertEqual([sword["h_to_l_slim"][0], sword["h_to_l_wide"][1]], span("Schwert", "h_to_l"))
+        for key in ("shaft_len", "head_len", "emitter_len", "blade_len", "h_to_l"):
+            self.assertEqual(glaive[key], span("Glefe", key), key)
+
     def test_ballon_summary_and_open_points_exist(self):
         self.assertTrue(DATA["ballon_summary"])
         self.assertTrue(DATA["open"])
