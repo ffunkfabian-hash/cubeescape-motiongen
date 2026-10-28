@@ -1,5 +1,7 @@
-__pycache__/
-*.mp4
 *.jpg
+*.mp4
 *.png
+__pycache__/
 error.log
+report*.diff
+report.md

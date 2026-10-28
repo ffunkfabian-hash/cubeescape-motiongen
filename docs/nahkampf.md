@@ -144,7 +144,7 @@ Lunge-Fahrt, Dark Messiah über lange Lade- und Haltephasen. Im Vergleich zur De
 
 Gemessen von einem Opus-Unteragenten an Lubrae's Ruin und Nezarec's Whisper (beide Adaptive) und dem Vexcalibur-Bestand; vier Zahlen am
 eigenen Bild nachgemessen und bestätigt ([11](#11-prüfung-und-zählung)). In allen Messfenstern echte 60/s (Ausnahme Lubrae-Schuss 3:
-fünf Doppelbilder, ±2). FOV unbekannt, Schießstand ohne HUD (außer Fadenkreuz). **Normaltempo nicht belegt:** die Kadenz läuft bis ≈ 22 % schneller als im Manifest, alle Zeiten sind Medienzeit.
+fünf Doppelbilder, ±2). FOV unbekannt, Schießstand ohne HUD (außer Fadenkreuz). **Normaltempo nicht belegt:** die Schussabstände sind bis ≈ 22 % kürzer als im Manifest, alle Zeiten sind Medienzeit.
 
 | Vorgang | Quelle, Zeit | Messung |
 |---|---|---|
