@@ -1,0 +1,2373 @@
+{
+ "version": "0.30.0",
+ "version_name": "Blueprint",
+ "topic": "Designansätze für Ausrüstung und Spielfiguren",
+ "source": "Recherche REF 0.30 „Blueprint“ (28.10.2026): drei Sonnet-Unteragenten (Web Ausrüstung, Web Figuren, YouTube), Koordinator Opus prüft Erreichbarkeit und Stichproben im Wortlaut",
+ "notes": "Quellenliste ohne Messungen; Kernaussagen in eigenen Worten. Regeln, Abgleich und Entscheidungen stehen in docs/design-ausruestung.md und docs/design-figuren.md.",
+ "counts": {
+  "total": 85,
+  "ausruestung": 38,
+  "figuren": 47,
+  "primary": 51,
+  "not_loaded": 4
+ },
+ "sources": [
+  {
+   "id": "A01",
+   "goal": "ausruestung",
+   "kind": "text",
+   "title": "How the VALORANT Arsenal was built",
+   "author": "Sean \"Oniram\" Marino (VALORANT Art Lead)",
+   "studio": "Riot Games",
+   "date": "2020-05-12",
+   "url": "https://playvalorant.com/en-us/news/dev/how-the-valorant-arsenal-was-built/",
+   "url2": null,
+   "type": "Artikel",
+   "credibility": "Primär",
+   "loaded": true,
+   "topics": [
+    "silhouette",
+    "formsprache",
+    "lesbarkeit_ego",
+    "funktion_zeigen",
+    "stilisierung"
+   ],
+   "findings": [
+    "Vier Säulen für alle Waffen: geerdet/identifizierbar (Bezug zu realer oder genretypischer Waffe), ballistisch (Kugeln statt Laser, Mündungsfeuer und Animation passen dazu), taktisch (Animation zeigt Absicht und Präzision), kohärent (keine gemischten Fraktionen mit widersprüchlicher Formsprache).",
+    "Jede Waffe braucht eine eigene Silhouette, damit keine mit einer anderen verwechselt wird; zusätzlich mindestens ein Erkennungsmerkmal (z. B. Magazinlage, Spannhebel-Form).",
+    "Das Erkennungsmerkmal muss in Ego- und Außenansicht funktionieren; auch Mündungsfeuer und Nachlade-/Zieh-Rhythmus sind pro Waffe unterscheidbar und zeigen den Waffenzustand.",
+    "Anbauteile bleiben optisch minimal, damit sie die Waffe nicht überladen (Hologramm-Rotpunkt statt sperrigerer Optiken)."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "A02",
+   "goal": "ausruestung",
+   "kind": "text",
+   "title": "The Craft and Fantasy of VALORANT Weapon Skins",
+   "author": "Preeti Khanolkar (Producer), Sean \"Oniram\" Marino (Art Lead)",
+   "studio": "Riot Games",
+   "date": "2020-05-18",
+   "url": "https://playvalorant.com/en-us/news/dev/the-craft-and-fantasy-of-valorant-weapon-skins/",
+   "url2": null,
+   "type": "Artikel",
+   "credibility": "Primär",
+   "loaded": true,
+   "topics": [
+    "silhouette",
+    "lesbarkeit_ego",
+    "bildanteil",
+    "materialzonen",
+    "stilisierung"
+   ],
+   "findings": [
+    "Ein Skin-Modell muss die Silhouette der Basiswaffe in Ego- und Außenansicht treffen und auch als abgelegte Waffe am Boden erkennbar bleiben.",
+    "Ein Skin darf auf dem Bildschirm weder weniger noch mehr Platz einnehmen als die Basiswaffe; Ausnahmen sind extrem selten und brauchen Design-Freigabe.",
+    "Mündungsfeuer behält Form und Größe der Basiswaffe, Fadenkreuz/Visier bleiben beim Zielen sauber lesbar.",
+    "Vor dem Modellieren muss ein Konzept drei Prüfungen bestehen: gewünschte Fantasie, baubar, passt in die Spielvorgaben; Ideenfindung fragt u. a. nach den Materialien der Waffe."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "A03",
+   "goal": "ausruestung",
+   "kind": "text",
+   "title": "Artists, Engineers, and the tech behind Spline",
+   "author": "Chris Stone (Weapon Artist), Brandon Wang (Software Engineer)",
+   "studio": "Riot Games",
+   "date": "2020-09-17",
+   "url": "https://playvalorant.com/en-us/news/dev/artists-engineers-and-the-tech-behind-spline/",
+   "url2": null,
+   "type": "Artikel",
+   "credibility": "Primär",
+   "loaded": true,
+   "topics": [
+    "budgets",
+    "materialzonen",
+    "stilisierung"
+   ],
+   "findings": [
+    "Shader-Effekte für Waffenskins werden als künstlerfreundlich einstellbare Bausteine gebaut und müssen in Leistungs- und Shaderbudgets passen, auch auf schwachen Rechnern.",
+    "Ein Effekt (Nebula) nutzte nur eine Cubemap-Fläche, horizontal kachelnd, plus eine Detailtextur; Texturen entstanden in Substance Designer.",
+    "Künstler schwächten einen Effekt ab, um Übelkeit/Bewegungsunruhe in der Ego-Ansicht zu vermeiden, und testeten das im Playtest."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "A04",
+   "goal": "ausruestung",
+   "kind": "text",
+   "title": "How Riot Games Animates VALORANT Weapon Skins with Autodesk Maya",
+   "author": "Brendan Russert (Senior Animator, Riot Games), SIGGRAPH-2026-Vortrag; Blog von Autodesk",
+   "studio": "Riot Games / Autodesk",
+   "date": "2026-10-20",
+   "url": "https://blogs.autodesk.com/media-and-entertainment/2026/10/20/riot-games-animates-valorant-with-autodesk-maya/",
+   "url2": null,
+   "type": "Artikel",
+   "credibility": "Primär",
+   "loaded": true,
+   "topics": [
+    "lesbarkeit_ego",
+    "funktion_zeigen",
+    "silhouette"
+   ],
+   "findings": [
+    "Ego-Animation läuft mit 60 Bildern/s und muss sofort lesbar sein und die Spielbeats treffen; fünf Kernaktionen: Equip, Fast Equip, Fire, Reload, Inspect.",
+    "Eine Waffenart hat feste Beats (Gewehr-Reload: Magazin raus, Munition zurücksetzen, feuerbereit); ein Skin darf andere Silhouette/Modell/Textur haben, übernimmt aber das Bewegungsfundament der Archetyp-Waffe.",
+    "Kleine Timing-Änderungen (2 Bilder kürzer beim Schwert, 3 Bilder mehr beim Hammer) ändern den Eindruck von Tempo und Gewicht, ohne die Bewegungsgeschwindigkeit zu ändern.",
+    "Ein Drachen-Skin machte den Feuerbereit-Moment zunächst nicht klar genug; Lehre: Spielinformation innerhalb der Fantasie lesbarer machen statt abschwächen. Keine Poly- oder Rigbudgets genannt."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "A05",
+   "goal": "ausruestung",
+   "kind": "text",
+   "title": "Weapon Production: Building, Texturing, Lighting",
+   "author": "Patrick Sutton (Interview: Kirill Tokarev)",
+   "studio": "343 Industries (Halo 5), Artist dort Environment Artist",
+   "date": "2019-01-24",
+   "url": "https://80.lv/articles/001agt-weapon-production-building-texturing-lighting",
+   "url2": null,
+   "type": "Interview",
+   "credibility": "Primär",
+   "loaded": true,
+   "topics": [
+    "budgets",
+    "silhouette",
+    "materialzonen",
+    "abnutzung",
+    "texeldichte"
+   ],
+   "findings": [
+    "Obergrenze für eine Ego-Waffe: etwa 30.000 Dreiecke, Zielwert etwa 20.000; weniger kann für Plattform-Effizienz oder zusätzliche Anbauteile nötig sein.",
+    "Dreiecke und Texel dorthin legen, wo der Spieler hinsieht (Kimme bei Zielen, runde Visiere ohne sichtbare Facetten, Lauf-Silhouette ggf. mit doppelter Dreieckszahl); gleichmäßige Texeldichte, außer bei tiefen Innenteilen.",
+    "Viele unterschiedliche Materialien für Material-Aufbruch; Rauigkeit über das Modell variieren und bei ähnlicher Rauigkeit unterschiedliche Muster verwenden (raue Gussmetalle vs. glatterer Kunststoff).",
+    "Overlays vor allem auf die Rauigkeit; Kantenabnutzung und Schmutz über Generatoren mit eigenem Grime."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "A06",
+   "goal": "ausruestung",
+   "kind": "text",
+   "title": "Breakdown: How to Make a Weapon Look Realistic and Eye-Catching",
+   "author": "Andrew Stokaliuk",
+   "studio": "Team from Earth (Lead Weapon Artist)",
+   "date": "2026-07-30",
+   "url": "https://80.lv/articles/breakdown-how-to-make-a-weapon-look-realistic-and-eye-catching",
+   "url2": null,
+   "type": "Breakdown",
+   "credibility": "Primär",
+   "loaded": true,
+   "topics": [
+    "silhouette",
+    "fasen",
+    "texeldichte",
+    "abnutzung",
+    "materialzonen",
+    "lesbarkeit_ego"
+   ],
+   "findings": [
+    "Silhouette und große Fugen bleiben echte Geometrie; Gewinde, Griffmuster und kleine Schrauben gehen in die Normal Map.",
+    "Zieltexeldichte 120-170 px/cm; ein Teil bei 165 px/cm auf 4096x2048 lag im Rahmen, dasselbe Teil auf quadratischem 4K kam auf 234 px/cm und sprengte das Budget. 12 Texture Sets in diesem Projekt.",
+    "Kleine Teile bekommen ein dünneres Bevel als große/mittlere (getrennte Materialien 'base' und 'small_det'); Bevel-Baking spart etwa 1 Tag bei kleiner Waffe, etwa 4 Tage bei komplexem Gewehr. Verdeckte Hülsen auf 50 % skaliert, kurz sichtbare auf 30 %.",
+    "Lesbarkeitsprüfung in 3 m (Silhouette, Materialkontrast, Hell/Dunkel-Balance) und 5 m (kleines Rauschen soll verschwinden); Abnutzung in fester Reihenfolge: Werksbasis, Lack, Kratzer, Staub, Öl, Fingerabdrücke, Kantenschäden, grober Schmutz."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "A07",
+   "goal": "ausruestung",
+   "kind": "text",
+   "title": "Building Guns for DOOM",
+   "author": "Gregor Kopka (Interview: Kirill Tokarev)",
+   "studio": "Waffen für id Software (DOOM); zuvor Crytek",
+   "date": "2017-05-09",
+   "url": "https://80.lv/articles/building-guns-for-doom",
+   "url2": null,
+   "type": "Interview",
+   "credibility": "Primär",
+   "loaded": true,
+   "topics": [
+    "formsprache",
+    "lesbarkeit_ego",
+    "silhouette",
+    "funktion_zeigen",
+    "primaer_sekundaer"
+   ],
+   "findings": [
+    "Erst große, markante Formen bauen, dann zu kleineren Details herunterarbeiten.",
+    "Das Modell wird für die Spielersicht gebaut, nicht für einen Außenbetrachter: die Seitenansicht ist zweitrangig, es zählt die gestreckte Ego-Perspektive; Waffe früh in die Engine bringen und den Kamerawinkel prüfen.",
+    "DOOM-Waffen sind deutlich größer in der Form und vermitteln Wucht und Brutalität; die Mechanik muss glaubwürdig und kraftvoll wirken, besonders bei Sci-Fi.",
+    "Animation, VFX, Sound und Design früh einbeziehen."
+   ],
+   "quote": "nobody cares about the side view—it's all about the stretched FP perspective",
+   "check": null
+  },
+  {
+   "id": "A08",
+   "goal": "ausruestung",
+   "kind": "text",
+   "title": "Production of 3D Weapons for Video Games",
+   "author": "Ethan Hiley (Interview: Kirill Tokarev)",
+   "studio": "Treyarch (zuvor Raven Software)",
+   "date": "2017-07-19",
+   "url": "https://80.lv/articles/production-of-3d-weapons-for-video-games",
+   "url2": null,
+   "type": "Interview",
+   "credibility": "Primär",
+   "loaded": true,
+   "topics": [
+    "silhouette",
+    "budgets",
+    "lod",
+    "texeldichte",
+    "funktion_zeigen",
+    "abnutzung"
+   ],
+   "findings": [
+    "Blockout aus einfachen Formen legt Silhouette und bewegliche Teile fest; früh ins Spiel bringen, um Maßstab und Handgefühl zu prüfen. Bei fiktiven Waffen ist das die Schlüsselphase.",
+    "Jede Waffe hat ein Ego-Modell (dichte Geometrie, feines Detail) und ein reduziertes Weltmodell; LODs reduzieren Detail mit Abstand.",
+    "Texturspeicher ist die Hauptgrenze: Zahl und Größe der Materialien pro Waffe kontrollieren, UV-Layout so, dass die Texeldichte dort am höchsten ist, wo es zählt.",
+    "Metallfinish und Abnutzung variieren, um Teile zu trennen; Kantenabnutzung leicht halten, Glanz- und Farbwechsel an Flächenkanten weich; bewegte Teile (Fire, Reload) einplanen, Geometrie hinter beweglichen Teilen mitmodellieren, Hände nicht verdecken."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "A09",
+   "goal": "ausruestung",
+   "kind": "text",
+   "title": "Weapon Art: Modeling Workflow in Fusion 360, Blender, and ZBrush",
+   "author": "Moritz Mayer (Interview: Arti Sergeev)",
+   "studio": "FlowFire Games (Berlin); Projekt privat (Sabre Assault Rifle)",
+   "date": "2020-08-24",
+   "url": "https://80.lv/articles/weapon-art-modeling-workflow-in-fusion-360-blender-and-zbrush",
+   "url2": null,
+   "type": "Breakdown",
+   "credibility": "Primär",
+   "loaded": true,
+   "topics": [
+    "silhouette",
+    "primaer_sekundaer",
+    "fasen",
+    "panel_lines",
+    "budgets",
+    "abnutzung"
+   ],
+   "findings": [
+    "Mehrere Silhouetten skizzieren, eine wählen, im Blockout die Proportionen anpassen; Gewichtsausgleich (z. B. Riemen gegen schweres Zielfernrohr).",
+    "Formhierarchie: Hauptkörper aus Profil-Skizze, dann subtrahierende Schnitte, dann kleinere Teile wie Halterungen und Schraubdome.",
+    "Der Körper hat kleinere Kantenfasen als der Gummigriff, damit beide Materialien unterscheidbar wirken (Fasenbreite als Materialsignal); harte Kanten liegen dort, wo Nähte schwer zu sehen sind, UV-Nähte entlang harter Kanten.",
+    "Low-Poly etwa 80k Dreiecke, laut Autor mehr als für Ego-Waffen nötig (Portfolio); Abnutzung geschichtet: eloxierte Deckschicht, Oxidschicht, blankes Metall; Triplanar-Maske hilft über UV-Nähte."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "A10",
+   "goal": "ausruestung",
+   "kind": "text",
+   "title": "Weapon Production: Modeling and Rendering Tips",
+   "author": "Daulet Bekishev (Interview: Ellie Harisova)",
+   "studio": "keines (Privatprojekt, CZ-75)",
+   "date": "2019-11-20",
+   "url": "https://80.lv/articles/001agt-002mrs-003qxl-004adk-weapon-production-modeling-and-rendering-tips",
+   "url2": null,
+   "type": "Interview",
+   "credibility": "Primär",
+   "loaded": true,
+   "topics": [
+    "fasen",
+    "panel_lines",
+    "budgets",
+    "abnutzung",
+    "silhouette"
+   ],
+   "findings": [
+    "Fasen/Fillets/weiche Kanten nur dort setzen, wo sie Form oder Silhouette tragen; erst ohne Fasen bauen, später hinzufügen ist leichter als entfernen. Weiche Kanten für das High-Poly in ZBrush ergänzen, nicht am Low-Poly.",
+    "Nur wirklich formgebende Schnitte modellieren; kleine Details bleiben der Textur (Substance Painter) überlassen.",
+    "Zahlen: High-Poly pro Detail etwa 6 Mio. Polygone (Dynamesh), Low-Poly etwa 39k Polygone ohne festes Limit; vor dem Abwickeln triangulieren; Smoothing Groups pro UV-Insel.",
+    "Abnutzungsreihenfolge: Stahl, Schutzlack, Kratzer, Staub, Öl/Fett/Fingerabdrücke, Kantenschäden, grober Schmutz, Beschriftung; Abnutzung dort, wo Referenzen sie zeigen."
+   ],
+   "quote": "Only very necessary form-creating cuts should be made.",
+   "check": null
+  },
+  {
+   "id": "A11",
+   "goal": "ausruestung",
+   "kind": "text",
+   "title": "Weapon Art Tips: High Poly, UVs, Texturing",
+   "author": "Ohle Mathiebe (Interview: Kirill Tokarev)",
+   "studio": "elite3d",
+   "date": "2019-10-11",
+   "url": "https://80.lv/articles/weapon-art-tips-high-poly-uvs-texturing",
+   "url2": null,
+   "type": "Interview",
+   "credibility": "Primär",
+   "loaded": true,
+   "topics": [
+    "fasen",
+    "abnutzung",
+    "panel_lines"
+   ],
+   "findings": [
+    "Grobe Fasen erzeugen ungleichmäßige Kurven und stören das Baking; jede Fase und Kante bewusst setzen. Keine festen Breiten genannt.",
+    "Details auf ebenen Flächen flach halten, damit sie sauber backen; Lochinnenseiten abschrägen, Schraubenkanten fasen, damit sie Licht fangen.",
+    "UVs nicht im 90-Grad-Winkel schneiden, Inseln möglichst zusammenhalten.",
+    "Abnutzung zeigt die Wartungsgeschichte: Fingerabdrücke, Ölschmierer, Zweischicht-Abnutzung mit Untergrundlack, Schmieröl nur in Teilbereichen."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "A12",
+   "goal": "ausruestung",
+   "kind": "text",
+   "title": "3D Weapon Art Workflow",
+   "author": "Malte Resenberger-Loosmann (Interview: Kirill Tokarev)",
+   "studio": "Freelance (keine Studioangabe)",
+   "date": "2018-08-29",
+   "url": "https://80.lv/articles/3d-weapon-art-workflow",
+   "url2": null,
+   "type": "Interview",
+   "credibility": "Primär",
+   "loaded": true,
+   "topics": [
+    "kitbashing",
+    "fasen",
+    "budgets",
+    "texeldichte",
+    "materialzonen"
+   ],
+   "findings": [
+    "Eigene Kitbash-Grundformen (Würfel, Plane usw.) als wiederverwendbarer Satz; Low-Poly, High-Poly und Konzeptreferenz auf getrennten Ebenen halten.",
+    "Auf dem High-Poly breitere Fasen, damit Kanten glatt bleiben und später kein Aliasing entsteht; enge Fasen über das ganze High-Poly vermeiden.",
+    "Heute seien Polygone nicht der Engpass, sondern Texturraum (Speicher): Testpacks bei 512, Endpacking gespiegelter Teile bei 2048, Arbeitsauflösung 2K/4K je Shader; Innenteile und Kappen kleiner skaliert.",
+    "Materialien als Schichten von der Basis: Grundfarbe, Farb-/Rauigkeitsvariation, Rauschdetail, Metallkanten, kleine Schäden, Kratzer/Schmutz, AO; Materialnamen entsprechen Waffenteilen."
+   ],
+   "quote": "these days polygons are not the bottleneck but texture space (memory) is",
+   "check": null
+  },
+  {
+   "id": "A13",
+   "goal": "ausruestung",
+   "kind": "text",
+   "title": "Weapon Art: Tips for Design, Texturing and Presentation",
+   "author": "Patrick Sutton (Interview: Arti Sergeev)",
+   "studio": "C77 Entertainment (Lead Vehicle/Weapon Artist)",
+   "date": "2020-08-10",
+   "url": "https://80.lv/articles/weapon-art-tips-for-design-texturing-and-presentation",
+   "url2": null,
+   "type": "Interview",
+   "credibility": "Primär",
+   "loaded": true,
+   "topics": [
+    "silhouette",
+    "primaer_sekundaer",
+    "fasen",
+    "kitbashing",
+    "abnutzung"
+   ],
+   "findings": [
+    "Silhouette-Komplexität erhöhen, aber nur an ein bis zwei Stellen, damit sie auffallen.",
+    "Lichtakzente als Hierarchie aus einem großen, einem mittleren und einem kleinen Bereich mit 70-20-10-Verteilung (Hauptfläche, Nebenfläche, Rim-Licht).",
+    "Workflow: hochaufgelöster Blockout, daraus High-Poly mit Chamfers und Face Weighted Normals; Low-Poly durch Reduktion des Blockouts (Bevel-Span-Anpassung in MESHmachine); Booleans halten Formen lange editierbar.",
+    "Eigene Materialien und Grunge bauen, Kantenabnutzung pro Material maskieren, keine einheitlichen Unvollkommenheiten."
+   ],
+   "quote": "having one or two things pop can be really nice",
+   "check": null
+  },
+  {
+   "id": "A14",
+   "goal": "ausruestung",
+   "kind": "text",
+   "title": "Experimenting with Weapon Design",
+   "author": "Christopher Stone (Interview: Kirill Tokarev)",
+   "studio": "Riot Games",
+   "date": "2018-10-02",
+   "url": "https://80.lv/articles/experimenting-with-weapon-design/",
+   "url2": null,
+   "type": "Interview",
+   "credibility": "Primär",
+   "loaded": true,
+   "topics": [
+    "fasen",
+    "funktion_zeigen",
+    "abnutzung",
+    "silhouette"
+   ],
+   "findings": [
+    "Konzepte früh als Blockout in 3D testen und das Design ändern, wo es nicht übersetzbar oder funktional ist; die Designabsicht bleibt, auch wenn das Modell vom Konzept abweicht.",
+    "High-Poly mit Blick auf das Low-Poly bauen: Modifier erzeugen Stützschleifen und werden am Ende entfernt.",
+    "Floaters (schwebende Zusatzgeometrie) auf Produktionsassets, wenn sie dasselbe leisten wie modellierte Geometrie.",
+    "Materialien aus getrennten Abnutzungsschichten, jede einzeln abgestimmt."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "A15",
+   "goal": "ausruestung",
+   "kind": "text",
+   "title": "Apex Legends – Texturing the Battle Royale Phenomenon of 2019",
+   "author": "Brian Burrell, Patrick Yeung, Wonjae Kim (Senior Artist Waffen)",
+   "studio": "Respawn Entertainment",
+   "date": "2019-05-29",
+   "url": "https://www.adobe.com/products/substance3d/magazine/apex-legends-texturing-battle-royale-phenomenon-2019.html",
+   "url2": null,
+   "type": "Interview",
+   "credibility": "Primär",
+   "loaded": true,
+   "topics": [
+    "lesbarkeit_ego",
+    "materialzonen",
+    "abnutzung",
+    "farbblockung",
+    "stilisierung"
+   ],
+   "findings": [
+    "Jede Waffe beginnt mit einem Konzept, das mindestens eine orthografische Profilansicht und eine Ego-Perspektiven-Ansicht enthält; Modellierung liefert High-Poly und ein voll abgewickeltes Viewmodel.",
+    "Je Teil ein Basismaterial, dessen Füllung Bumpiness oder Filter bekommt, damit es unterscheidbar bleibt; Materialbeschreibung weit genug treiben, damit die Waffe im Spiel nicht zu simpel wirkt.",
+    "Nach den Basismaterialien: Decals, Verschleiß, Verwitterung, Schrauben; Kombination aus Generatormasken und Handmalerei.",
+    "Das PBR-Leitfaden erlaubte für schwarze Nichtmetall-Albedo bei Waffen und Charakteren einen dunkleren Bereich als bei Umgebung für mehr Kontrast; Abnutzung trennt auffällige Legendary-Waffen von schmutzigeren Basisversionen."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "A16",
+   "goal": "ausruestung",
+   "kind": "text",
+   "title": "Gunfire Reborn's Dragonchaser Reimagined as Painterly 3D Asset in Wayfinder's Style",
+   "author": "Max Osta (Interview: Amber Rutherford)",
+   "studio": "Hard-Surface-Artist, bisher Bungie (Destiny 2), Meta, jetzt Respawn; Projekt privat",
+   "date": "2026-10-19",
+   "url": "https://80.lv/articles/gunfire-reborn-s-dragonchaser-reimagined-as-painterly-3d-asset-in-wayfinder-s-style",
+   "url2": null,
+   "type": "Breakdown",
+   "credibility": "Primär",
+   "loaded": true,
+   "topics": [
+    "stilisierung",
+    "farbblockung",
+    "materialzonen",
+    "abnutzung",
+    "fasen"
+   ],
+   "findings": [
+    "Materialzonen mit erzählerischem Grund (Holz vorn am Lauf, Stein am Körper, Jade/Gold als Akzente); Farbblockung vor dem Detail über ID-Map oder manuelle Polygon-Maskierung.",
+    "Stilisierte Abnutzung: Blur-Slope und Paint-Blur-Quantize-Stapel; Quantize auf AO/Curvature erzeugt gestufte Töne. Niedrige Metallizität, wo Reflexionen zu realistisch wirken (Jade etwa 0,2-0,4, Gold 0,6).",
+    "Ziel 'stilisiert, aber mit PBR-ähnlichem Eindruck'; Glanz an einzelnen Lichtern abschalten, damit Treffer nicht überglänzen.",
+    "Low-Poly: überwiegend N-Gons, Triangulation per Modifier, Weighted Normals wo nötig; Kantendetail nur dort, wo neue Kantenebenen es brauchen. Keine Dreieckszahl und keine feste Fasenbreite genannt."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "A17",
+   "goal": "ausruestung",
+   "kind": "text",
+   "title": "The Staples of Hard Surface Material Design",
+   "author": "Arthur Rodriguez",
+   "studio": "unabhängig (Soldier-76-Gewehr im Overwatch-Stil)",
+   "date": "2016-03-08",
+   "url": "https://80.lv/articles/the-staples-of-hard-surface-material-design",
+   "url2": null,
+   "type": "Interview",
+   "credibility": "Primär",
+   "loaded": true,
+   "topics": [
+    "materialzonen",
+    "farbblockung",
+    "abnutzung",
+    "stilisierung"
+   ],
+   "findings": [
+    "UVs vorab so geplant, dass Teile gleicher Materialart zusammenliegen und als Zonen getrennt texturiert werden können.",
+    "Feste Farben mit minimalem Verschleiß: Ziel war ein 'leicht gebrauchtes, aber sauberes' Gewehr; Farbkombinationen wurden durchprobiert und zur Waffenrolle passend gewählt.",
+    "Zuerst die Basis-Maps (Albedo, Metallic, Rauigkeit, Normal), dann Masken und Filter, zuletzt handgemalte Absplitterungen; Schrauben modelliert, Embleme als Height-only-Stempel."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "A18",
+   "goal": "ausruestung",
+   "kind": "text",
+   "title": "Relic Weapon (GamesArtist Breakdown)",
+   "author": "Lucas Mania",
+   "studio": "S4G School for Games (Studentenprojekt, Valorant/Overwatch-inspiriert)",
+   "date": "2022-04-28",
+   "url": "https://gamesartist.co.uk/relic-weapon-prop-lucas-mania/",
+   "url2": null,
+   "type": "Breakdown",
+   "credibility": "Primär",
+   "loaded": true,
+   "topics": [
+    "materialzonen",
+    "farbblockung",
+    "stilisierung",
+    "abnutzung",
+    "fasen",
+    "budgets"
+   ],
+   "findings": [
+    "Material-ID-Map backen und per Farbauswahl je Materialzone eine Maske erzeugen; Basismaterialien früh auf das ganze Mesh legen, damit sie gegeneinander abgewogen werden.",
+    "Jede harte Kante braucht eine UV-Naht, jede UV-Insel eine eigene Smoothing Group; Kantenglanzlichter entstehen beim Texturieren.",
+    "Gradient-Remap für Hauptmaterial (Messing): Lichter golden, verdeckte Bereiche ins gealterte Grünliche, Rauigkeit dort niedriger; Absplitterungen mit variierter Größe und Abstand statt großer Splitter überall.",
+    "Alle Bakes in 4K, 16 Bit gebacken, 8 Bit mit Dithering exportiert; keine Dreieckszahl genannt, Low-Poly entfernt Geometrie, die die Silhouette nicht beeinflusst."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "A19",
+   "goal": "ausruestung",
+   "kind": "text",
+   "title": "Studying Overwatch Style",
+   "author": "Joe Maleski (Interview: Kirill Tokarev)",
+   "studio": "unabhängig (Studie des Overwatch-Stils)",
+   "date": "2017-08-16",
+   "url": "https://80.lv/articles/studying-overwatch-style",
+   "url2": null,
+   "type": "Interview",
+   "credibility": "Sekundär",
+   "loaded": true,
+   "topics": [
+    "stilisierung",
+    "formsprache",
+    "silhouette",
+    "farbblockung",
+    "abnutzung"
+   ],
+   "findings": [
+    "Overwatch-Stil: große, interessante Formen übertreiben, damit die Waffe über die Silhouette lesbar ist; Meshes arm an Feindetail.",
+    "Basisfarbe an konvexen Kanten aufhellen, damit Kanten hervortreten (Basisschicht duplizieren, aufhellen, mit Scratch-Maske maskieren).",
+    "Wenig Oberflächentextur; Metall-Effekte (Rost, gebürstet) gezielt maskieren; Rauigkeit nicht zu glänzend."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "A20",
+   "goal": "ausruestung",
+   "kind": "text",
+   "title": "Apex Legends dev reveals original weapon concepts for R-301, R-99, more",
+   "author": "Dexerto (zitiert Ryan Lastimosa, 3D Art Director Respawn)",
+   "studio": "Respawn Entertainment",
+   "date": "2020-04-25",
+   "url": "https://www.dexerto.com/apex-legends/apex-legends-dev-reveals-original-weapon-concepts-for-r-301-r-99-more-1357761/",
+   "url2": "https://x.com/brockhaurd/status/1252045712558194689",
+   "type": "Artikel",
+   "credibility": "Sekundär",
+   "loaded": true,
+   "topics": [
+    "silhouette",
+    "funktion_zeigen",
+    "lesbarkeit_ego"
+   ],
+   "findings": [
+    "Neue Waffen beginnen als Silhouetten, die Form festlegen, plus Arbeitsteile, die die Funktion andeuten.",
+    "Ziel ist der 'Snap Read': Spieler erkennen die Waffe auf Distanz und passen ihre Taktik an. (Original ist ein Tweet von Lastimosa; der X-Link lieferte beim Abruf HTTP 402, der Inhalt stammt aus Dexerto.)"
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "A21",
+   "goal": "ausruestung",
+   "kind": "text",
+   "title": "3D Weapon Art for Games: The AAA Production Pipeline Explained",
+   "author": "Denys Zadoienyi",
+   "studio": "Nasty Rodent (Dienstleister, Tallinn)",
+   "date": "2026-05-22",
+   "url": "https://nastyrodent.com/3d-weapon-art-for-games/",
+   "url2": null,
+   "type": "Guide",
+   "credibility": "Sekundär",
+   "loaded": true,
+   "topics": [
+    "budgets",
+    "lod",
+    "texeldichte",
+    "lesbarkeit_ego",
+    "materialzonen"
+   ],
+   "findings": [
+    "Genannte Budgets für eine Ego-Haupt-Waffe: High-Poly 60.000-100.000 Dreiecke, Low-Poly 8.000-20.000 (Hauptgewehr 12.000-18.000, Seitenwaffen 6.000-10.000); 2K-4K-Texturen; Texeldichte 512-1.024 px/m bei 2K-Sets. Vorsicht: Dienstleister-Seite, Quellen der Zahlen nicht belegt, Gegenprobe mit A05 (30k Obergrenze).",
+    "Effektives Ego-FOV 35-55 Grad angegeben; Silhouette und Abzugsbügel müssen beim Ziel-FOV lesbar bleiben, nicht in einer 90-Grad-Vorschau.",
+    "3-4 LODs je Waffe, LOD1 etwa 50 % der Dreiecke von LOD0 und noch als konkrete Waffe erkennbar.",
+    "PBR-Zielwerte: bearbeitetes Metall metallic 0,9-1,0 / roughness 0,2-0,5; Phosphatierung 0,8-0,9 / 0,5-0,7; Polymer metallic 0,0 / roughness 0,6-0,8."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "A22",
+   "goal": "ausruestung",
+   "kind": "text",
+   "title": "Unreal Engine - Render First-Person Meshes with a Separate FOV (Viewmodel/First-Person/Weapon FOV)",
+   "author": "Sahil Dhanju",
+   "studio": "unabhängig (Entwickler-Blog)",
+   "date": "2021-06-20",
+   "url": "https://sahildhanju.com/posts/render-first-person-fov/",
+   "url2": null,
+   "type": "Artikel",
+   "credibility": "Sekundär",
+   "loaded": true,
+   "topics": [
+    "lesbarkeit_ego",
+    "fov",
+    "bildanteil"
+   ],
+   "findings": [
+    "Viele Ego-Spiele trennen Welt-FOV und Viewmodel-FOV, damit Animationen und Waffenansicht nicht bei jeder FOV-Änderung neu abgestimmt werden müssen.",
+    "Eine bei FOV 60 gebaute Animation sieht bei FOV 120 sehr anders aus; im Test passte Viewmodel-FOV 60 bei Welt-FOV 120 besser zu Welt-FOV 80 als Viewmodel-FOV 80.",
+    "Anbauteile und Partikel am Viewmodel müssen gleich skaliert werden, sonst wirken sie verschoben; oft wird das Viewmodel in einem eigenen Durchgang über der Welt gezeichnet."
+   ],
+   "quote": "will look very different at a FOV of 120",
+   "check": null
+  },
+  {
+   "id": "A23",
+   "goal": "ausruestung",
+   "kind": "text",
+   "title": "Riot Games' process of creating VALORANT guns and gun skins",
+   "author": "Parkes Ousley (Inven Global)",
+   "studio": "Berichterstattung über Riot Games",
+   "date": "2020-05-18",
+   "url": "https://www.invenglobal.com/articles/11213/riot-games-process-of-creating-valorant-guns-and-gun-skins",
+   "url2": null,
+   "type": "Artikel",
+   "credibility": "Sekundär",
+   "loaded": true,
+   "topics": [
+    "silhouette",
+    "bildanteil",
+    "lesbarkeit_ego"
+   ],
+   "findings": [
+    "Fasst A01/A02 zusammen: jede Waffe erkennbar und optisch eigen, mit eigener Nachlade-Animation und konsistenten Audiohinweisen für den Waffenzustand.",
+    "Skin-Modelle, Effekte und Animationen sind nur in der Ego-Ansicht sichtbar; andere sehen nur das Modell; ein Skin belegt dieselbe Bildschirmfläche wie die Basiswaffe.",
+    "Keine Aussagen zu Silhouetten-Details oder Polygonbudgets (Hinweis: Datum aus Artikelkopf der Fassung, Riot-Original am 12./18.05.2020)."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "A24",
+   "goal": "ausruestung",
+   "kind": "text",
+   "title": "Valorant's art director reveals the one utterly modern question Riot Games had to ask itself",
+   "author": "Tomas Franzese (Inverse), Interview mit Moby Francke (Art Director VALORANT)",
+   "studio": "Riot Games (Berichterstattung)",
+   "date": "2020-11-06",
+   "url": "https://www.inverse.com/gaming/valorant-art-style-interview-moby-francke",
+   "url2": null,
+   "type": "Interview",
+   "credibility": "Sekundär",
+   "loaded": true,
+   "topics": [
+    "stilisierung",
+    "lesbarkeit_ego",
+    "formsprache"
+   ],
+   "findings": [
+    "Stil als 'illustrative visual design': scharfe Linien, saubere Verläufe, ansprechende Winkel; Mischung aus Realismus und Cel-Shading; einfacher und lebendiger, damit die Kunst das Gameplay stützt.",
+    "Waffen müssen gut sichtbar sein; deshalb vergrößerte das Team die Hände, die sie halten, damit die Waffe als Grafik klarer wirkt.",
+    "Beleuchtung, Charaktere, Waffen und Fähigkeiten müssen auf jeder Hardware klar bleiben (Zielhardware auch schwach)."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "A25",
+   "goal": "ausruestung",
+   "kind": "text",
+   "title": "Blender Manual: Bevel Modifier und Weighted Normal Modifier",
+   "author": "Blender Documentation Team",
+   "studio": "Blender Foundation",
+   "date": "unbekannt",
+   "url": "https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/bevel.html",
+   "url2": "https://docs.blender.org/manual/en/latest/modeling/modifiers/normals/weighted_normal.html",
+   "type": "Wiki",
+   "credibility": "Sekundär",
+   "loaded": true,
+   "topics": [
+    "fasen",
+    "werkzeug_blender"
+   ],
+   "findings": [
+    "Bevel-Modifier: Breitenarten Offset, Width, Depth, Percent (Anteil der Nachbarkante) und Absolute; Limit-Methode None/Angle/Weight/Vertex Group, Angle fast nur scharfe Kanten; Segments setzt Anzahl der Kantenschleifen in der Fase; Profil per Superellipse oder eigener Kurve.",
+    "Harden Normals gleicht Fasenflächen an die Nachbarn an und lässt diese flach; Face Strength vergibt Stärkewerte (None/New/Affected/All) für einen nachfolgenden Weighted-Normal-Modifier.",
+    "Weighted Normal: Modi Face Area, Corner Angle (Standard) und Kombination; Face Influence nutzt Stärkegewichte (weak/medium/strong), die stärkste Fläche bestimmt die Normale am Vertex; Keep Sharp erhält scharfe Kanten. Diese Kombination entspricht dem Face-Weighted-Normals-Verfahren mit wenigen Eckpunkten."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "A26",
+   "goal": "ausruestung",
+   "kind": "text",
+   "title": "Face weighted normals (Polycount Wiki)",
+   "author": "Polycount Community (Admin Eric Chadwick verweist darauf)",
+   "studio": "Polycount",
+   "date": "unbekannt",
+   "url": "http://wiki.polycount.com/wiki/Face_weighted_normals",
+   "url2": null,
+   "type": "Wiki",
+   "credibility": "Sekundär",
+   "loaded": true,
+   "topics": [
+    "fasen",
+    "mid_poly"
+   ],
+   "findings": [
+    "Face weighted normals: Fasen hinzufügen und die Eckpunkt-Normalen senkrecht auf die großen ebenen Flächen stellen; die Schattierung verläuft dann nur über die kleinen Fasenflächen statt über das ganze Modell.",
+    "Nachteil: Fasen erzeugen lange dünne Dreiecke, die die Renderleistung spürbar mindern können.",
+    "Werkzeuge: Blender Weighted-Normal-Modifier, 3ds Max Weighted Normals Modifier."
+   ],
+   "quote": null,
+   "check": "Koordinator: Wiki per http gelesen (28.10.2026), Suchauszug durch Seiteninhalt ersetzt"
+  },
+  {
+   "id": "A27",
+   "goal": "ausruestung",
+   "kind": "text",
+   "title": "Translating Art into Technology: Physically Inspired Shading in 'Destiny 2'",
+   "author": "Alexis Haraux, Nate Hawbaker",
+   "studio": "Bungie",
+   "date": "2018",
+   "url": "https://gdcvault.com/play/1025382/Translating-Art-into-Technology-Physically",
+   "url2": null,
+   "type": "Vortrag",
+   "credibility": "Primär",
+   "loaded": false,
+   "topics": [
+    "materialzonen",
+    "stilisierung"
+   ],
+   "findings": [
+    "Nur aus Suchauszug bekannt (GDC-Vault leitete auf die Wartungsseite https://gdconf.com/gdc-vault-maintenance/ um): GDC-2018-Vortrag über die physikalisch inspirierte Shading- und Beleuchtungs-Pipeline von Destiny 2.",
+    "Beschreibung erwähnt Waffen nicht ausdrücklich; Relevanz für Materialrollen und PBR-Vorgaben, Inhalt nicht geprüft."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "A28",
+   "goal": "ausruestung",
+   "kind": "text",
+   "title": "Valve zoomed in Half-Life 2's FOV from the gold standard 90 so you could see all those pretty Source engine faces better",
+   "author": "PC Gamer (zitiert Valve-Entwickler Kerry Davis, 20th-Anniversary-Kommentar)",
+   "studio": "Valve (Berichterstattung)",
+   "date": "unbekannt",
+   "url": "https://www.pcgamer.com/games/fps/valve-zoomed-in-half-life-2s-fov-from-the-gold-standard-90-so-you-could-see-all-those-pretty-source-engine-faces-better/",
+   "url2": null,
+   "type": "Artikel",
+   "credibility": "Sekundär",
+   "loaded": false,
+   "topics": [
+    "fov",
+    "lesbarkeit_ego",
+    "viewmodel"
+   ],
+   "findings": [
+    "Nur aus Suchauszug bekannt (beim Abruf kam nur die Überschrift, kein Text): Half-Life 1 nutzte 90 Grad FOV, Half-Life 2 wechselte auf 75 Grad, damit Gesichts- und Körperanimationen besser zur Geltung kommen.",
+    "Dafür war ein getrenntes Viewmodel-FOV nötig: die für 90 Grad gebauten Viewmodels wirkten bei 75 Grad verzerrt."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "A29",
+   "goal": "ausruestung",
+   "kind": "text",
+   "title": "Destiny 2: The Final Shape – game art 10 years in the making",
+   "author": "Jess Kinghorn (Interview mit Michael Climer, Lead Hard Surface Art, u. a.)",
+   "studio": "Bungie / Creative Bloq",
+   "date": "2024",
+   "url": "https://www.creativebloq.com/entertainment/games/the-art-of-destiny-2-the-final-shape",
+   "url2": null,
+   "type": "Interview",
+   "credibility": "Primär",
+   "loaded": true,
+   "topics": [
+    "primaer_sekundaer",
+    "massstab",
+    "funktion_zeigen"
+   ],
+   "findings": [
+    "Waffen entstehen bei Bungie in einem 15-köpfigen Hard-Surface-Team; es gibt eine feste Zahl von Waffenarchetypen, Varianten je Saison.",
+    "Nach dem Konzept folgt ein Blockout als grober Prototyp, der im Spiel auf die Größe geprüft wird (‚nicht zu groß, nicht zu klein‘).",
+    "Waffen werden mit Umgebung, Geschichte und Art-Direction verknüpft (Motiv, Hintergrund), nicht nur als ‚cool aussehende Waffe‘ entworfen; Blender ist im Team zunehmend verbreitet, die Software ist frei wählbar."
+   ],
+   "quote": "not too big, it's not too small",
+   "check": "Koordinator: selbst gefunden und per curl gelesen (28.10.2026)"
+  },
+  {
+   "id": "F01",
+   "goal": "figuren",
+   "kind": "text",
+   "title": "Illustrative Rendering in Team Fortress 2",
+   "author": "Jason Mitchell, Moby Francke, Dhabih Eng",
+   "studio": "Valve",
+   "date": "2007",
+   "url": "https://www.yumpu.com/en/document/view/11265082/illustrative-rendering-in-team-fortress-2-pdf-valve",
+   "url2": "https://steamcdn-a.akamaihd.net/apps/valve/2007/NPAR07_IllustrativeRenderingInTeamFortress2.pdf",
+   "type": "Paper",
+   "credibility": "Primär",
+   "loaded": true,
+   "topics": [
+    "silhouette",
+    "lesbarkeit",
+    "farbe"
+   ],
+   "findings": [
+    "Stilvorbild waren Illustratoren des frühen 20. Jh. mit starken, unterscheidbaren Silhouetten; Kanten werden über Rim-Licht statt dunkler Umrisslinien betont.",
+    "Schattierung soll die Klassen unter wechselnden Lichtbedingungen lesbar halten; Luminanz- und Farbtonvariation vermittelt die Form schnell.",
+    "Rim-Licht (aus Irradiance-Volume) hält Figuren auch fern von lokalen Lichtern definiert - Kantenlicht ersetzt Outline."
+   ],
+   "quote": "strong, distinctive silhouettes",
+   "check": null
+  },
+  {
+   "id": "F02",
+   "goal": "figuren",
+   "kind": "text",
+   "title": "Illustrative Rendering in Team Fortress 2 (Wiki-Seite mit Videotranskript)",
+   "author": "Official TF2 Wiki",
+   "studio": "Valve (Wiki)",
+   "date": "unbekannt",
+   "url": "https://wiki.teamfortress.com/wiki/Illustrative_Rendering_in_Team_Fortress_2",
+   "url2": null,
+   "type": "Wiki",
+   "credibility": "Sekundär",
+   "loaded": true,
+   "topics": [
+    "silhouette",
+    "lesbarkeit",
+    "farbe",
+    "formsprache"
+   ],
+   "findings": [
+    "Charaktere sind so gebaut, dass sie auch ohne Lichthinweise an der Silhouette erkennbar sind; Proportionen, Waffen und Silhouettenlinien machen jede Klasse einzigartig.",
+    "Kleiderfalten im Schatten wiederholen die äußeren Silhouettenformen (Hierarchie: erst Umriss, dann Innenform).",
+    "Team-Paletten: gedämpfte Farben dominieren, kleine gesättigte Akzente; RED wirkt warm/kantig, BLU kühl/orthogonal.",
+    "Visuelles Rauschen der Welt wird minimiert (impressionistischer Look)."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "F03",
+   "goal": "figuren",
+   "kind": "text",
+   "title": "VALORANT Shaders and Gameplay Clarity",
+   "author": "Brandon 'mochi' Wang",
+   "studio": "Riot Games",
+   "date": "2020-06-30",
+   "url": "https://www.riotgames.com/en/news/valorant-shaders-and-gameplay-clarity",
+   "url2": null,
+   "type": "Artikel",
+   "credibility": "Primär",
+   "loaded": true,
+   "topics": [
+    "lesbarkeit",
+    "silhouette",
+    "farbe"
+   ],
+   "findings": [
+    "Figuren müssen sich immer von der Umgebung abheben; mit Entfernung brechen Details weg, daher werden entfernte Figuren aufgehellt.",
+    "Zusätzliches Licht auf streifenden Winkeln (Fresnel) erzeugt einen Silhouetteneffekt, betont auf der Oberkörperseite (Licht von oben).",
+    "Team-Lesbarkeit per Fresnel-Farbe: Gegner rot, Verbündete neutral blau; bei Distanz werden Gegner-Fresnels größer, aber begrenzt (Clamping).",
+    "Glanz (Specular) ist für die Lesbarkeit entbehrlich und wird auf niedrigen Einstellungen entfernt."
+   ],
+   "quote": "characters need to always stand out from their environment",
+   "check": null
+  },
+  {
+   "id": "F04",
+   "goal": "figuren",
+   "kind": "text",
+   "title": "Clarity in League",
+   "author": "bananaband1t",
+   "studio": "Riot Games",
+   "date": "2021-03-12",
+   "url": "https://www.leagueoflegends.com/en-us/news/dev/clarity-in-league/",
+   "url2": null,
+   "type": "Artikel",
+   "credibility": "Primär",
+   "loaded": true,
+   "topics": [
+    "silhouette",
+    "lesbarkeit",
+    "proportion"
+   ],
+   "findings": [
+    "Silhouette wird in primäre, sekundäre und tertiäre Merkmale gegliedert; das primäre Merkmal (z. B. Waffe) darf auch in Skins nie entfernt oder stark verändert werden.",
+    "Die Größe der Silhouette signalisiert Spielstil: große, gepanzerte Figuren lesen sich als Tanks/Kämpfer, sehr kleine nicht.",
+    "Aus der Silhouette allein muss die Blickrichtung erkennbar sein (kommt sie auf mich zu oder geht sie weg).",
+    "Figuren, die vor allem über Animation erkannt werden, sind schwerer variierbar."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "F05",
+   "goal": "figuren",
+   "kind": "text",
+   "title": "What's It Like to Art Direct a Major Video Game?",
+   "author": "Giaco Furino (Interview mit Bill Petras)",
+   "studio": "Blizzard Entertainment / Vice",
+   "date": "2016-06-21",
+   "url": "https://www.vice.com/en/article/heres-what-its-like-to-art-direct-overwatch/",
+   "url2": null,
+   "type": "Interview",
+   "credibility": "Primär",
+   "loaded": true,
+   "topics": [
+    "silhouette",
+    "proportion",
+    "formsprache",
+    "farbe"
+   ],
+   "findings": [
+    "Overwatch-Art-Direktor Bill Petras nennt große, kräftige Silhouetten als Leitprinzip (Vergleich mit World of Warcraft).",
+    "Dynamische Proportionen und Formen stehen im Mittelpunkt des Charakterdesigns.",
+    "Gesamtziel: kräftige, bunte, optimistische Optik."
+   ],
+   "quote": "big, bold silhouettes on characters",
+   "check": null
+  },
+  {
+   "id": "F06",
+   "goal": "figuren",
+   "kind": "text",
+   "title": "What it's like to work on Overwatch as a concept artist",
+   "author": "Overwatch-Konzeptkünstler (u. a. Daryl Tan, Qiu Fang)",
+   "studio": "Blizzard Entertainment",
+   "date": "unbekannt",
+   "url": "https://overwatch.blizzard.com/en-gb/news/23537427/what-it-s-like-to-work-on-overwatch-as-a-concept-artist/",
+   "url2": null,
+   "type": "Artikel",
+   "credibility": "Primär",
+   "loaded": true,
+   "topics": [
+    "silhouette",
+    "formsprache",
+    "lesbarkeit",
+    "gelenke"
+   ],
+   "findings": [
+    "Große Formen liegen oben an der Figur, damit sie aus der Ferne lesbar sind; feine Details erst aus der Nähe.",
+    "Quadrate lesen sich als stabil, Kreise als harmlos (keine scharfen Kanten) - Grundformen transportieren Charakter.",
+    "Die Bewegung von Pharah und Reinhardt folgt den mechanischen Gelenken ihrer Rüstung; ein Skin darf die Silhouette nicht radikal ändern.",
+    "Eine frühe Talon-Figur scheiterte im Playtest, weil ihre Silhouette nicht identifizierbar war."
+   ],
+   "quote": "big shapes tend to appear near the top of characters",
+   "check": null
+  },
+  {
+   "id": "F07",
+   "goal": "figuren",
+   "kind": "text",
+   "title": "Designing Overwatch",
+   "author": "Arjan Terpstra",
+   "studio": "Cook and Becker (über Blizzard-GDC-Vortrag 2017)",
+   "date": "2022-10-24",
+   "url": "https://www.cookandbecker.com/en/article/378/designing-overwatch.html",
+   "url2": null,
+   "type": "Artikel",
+   "credibility": "Sekundär",
+   "loaded": true,
+   "topics": [
+    "silhouette",
+    "proportion",
+    "lesbarkeit",
+    "farbe"
+   ],
+   "findings": [
+    "Erste Säule: Vielfalt auch bei Körperproportionen und Designsprache; Reinhardt hat bewusst überlebensgroße Proportionen und große Schulterpanzer.",
+    "Lesbarkeit mitten im Kampf war laut Petras/Tsang der Kern; geprüft wurde, ob eine Silhouette einer vorhandenen zu ähnlich ist.",
+    "Jeder Held bekam eine eigene Farbpalette; helle Palette bewusst als Gegenpol zu düsteren Sci-Fi-Shootern."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "F08",
+   "goal": "figuren",
+   "kind": "text",
+   "title": "The Art of 'Overwatch': Evolving a Legacy",
+   "author": "Bill Petras, Arnold Tsang",
+   "studio": "Blizzard Entertainment",
+   "date": "2017",
+   "url": "https://www.gdcvault.com/play/1024268",
+   "url2": null,
+   "type": "Vortrag",
+   "credibility": "Primär",
+   "loaded": false,
+   "topics": [
+    "silhouette",
+    "proportion",
+    "formsprache"
+   ],
+   "findings": [
+    "Vortrag der Art Director/Assistant Art Director über frühe Art-Direction-Pfeiler (Vielfalt, hoffnungsvolle Zukunft, lebendige Welt) und das Design einzelner Helden/Karten.",
+    "Stoßrichtung laut Sekundärquellen: Heldenlesbarkeit im Kampf als Grundlage, Silhouettenabgleich gegen bestehende Figuren (siehe F07)."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "F09",
+   "goal": "figuren",
+   "kind": "text",
+   "title": "How Riot Games designs a new agent in Valorant",
+   "author": "Wanzi Koh (mit John Goscicki, Riot)",
+   "studio": "ONE Esports / Riot Games",
+   "date": "2022-11-25",
+   "url": "https://www.oneesports.gg/valorant/valorant-agent-design-neon-riot-games/",
+   "url2": null,
+   "type": "Interview",
+   "credibility": "Sekundär",
+   "loaded": true,
+   "topics": [
+    "silhouette",
+    "lesbarkeit",
+    "farbe"
+   ],
+   "findings": [
+    "Vorproduktion bis ca. 2 Monate mit einem Proxy-Modell: Farben und Formen werden früh vor einer Wand und an Deckungen auf Sichtbarkeit getestet.",
+    "Beispiel Neon: geprüft wurde, ob ihre Haarknoten über Kisten hinausragen (Sichtbarkeit über Deckung).",
+    "Gesamtdauer eines Agenten 10-14 Monate; Produktion 3-4 Monate."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "F10",
+   "goal": "figuren",
+   "kind": "text",
+   "title": "How Valorant's Agent Characters Are Designed With Gameplay In Mind",
+   "author": "Camden Jones",
+   "studio": "Screen Rant / Riot Games",
+   "date": "2021-08-25",
+   "url": "https://screenrant.com/valorant-agents-character-design-gameplay-riot-games-interview/",
+   "url2": null,
+   "type": "Interview",
+   "credibility": "Sekundär",
+   "loaded": true,
+   "topics": [
+    "silhouette",
+    "lesbarkeit"
+   ],
+   "findings": [
+    "Fairness im Wettbewerb prägt Kleiderfarbe und Körperform; Konzepte werden verworfen, wenn die Silhouette das Spiel unfair macht.",
+    "Alle Agenten müssen kampfglaubwürdig wirken (Taschen, Gurte) - Funktion vor Stil."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "F11",
+   "goal": "figuren",
+   "kind": "text",
+   "title": "Q&A: Titanfall lead artist Joel Emslie",
+   "author": "Joel Emslie (Interview)",
+   "studio": "Respawn Entertainment / CG Channel",
+   "date": "2014-04-29",
+   "url": "https://www.cgchannel.com/2014/04/qa-titanfall-lead-artist-joel-emslie/",
+   "url2": null,
+   "type": "Interview",
+   "credibility": "Primär",
+   "loaded": true,
+   "topics": [
+    "massstab",
+    "proportion",
+    "lowpoly"
+   ],
+   "findings": [
+    "Titan-Entwurf begann mit einer Kitbash-Maquette; neben einer Actionfigur gestellt las sie sich als ca. 6 m (20 ft) großer Mech - der Maßstab Pilot zu Titan wurde früh fixiert, weil die Welt darum gebaut wurde.",
+    "Maquetten (Ogre kitbash, Atlas Scratchbuild) auf Drahtarmatur im Maßstab 1:6 mit realen Teilen; Realteile erden das Design.",
+    "Entwürfe wurden überarbeitet, damit Animation und Design die Bewegung glaubwürdig umsetzen konnten.",
+    "Leitmotiv David gegen Goliath: Pilot gegen Titan."
+   ],
+   "quote": null,
+   "check": "Koordinator: 20-foot-Stelle und Maßstab 1:6 im Wortlaut bestätigt"
+  },
+  {
+   "id": "F12",
+   "goal": "figuren",
+   "kind": "text",
+   "title": "Titanfall 2 interview: Talking single-player, eSports, and bonding with your titan",
+   "author": "Fenix Bazaar Staff (Joel Emslie)",
+   "studio": "Respawn Entertainment / Fenix Bazaar",
+   "date": "2016-08-23",
+   "url": "https://fenixbazaar.com/2016/08/23/titanfall-2-full-interview/",
+   "url2": null,
+   "type": "Interview",
+   "credibility": "Primär",
+   "loaded": true,
+   "topics": [
+    "silhouette",
+    "lesbarkeit",
+    "rig",
+    "proportion"
+   ],
+   "findings": [
+    "Visuelle Sprache ist laut Art Director Säule neben der Spielsprache: jeder Titan soll einen 'Flash Read' der Kernfähigkeiten liefern.",
+    "Für Titanfall 2 kamen zwei neue Rigs (Skelette) hinzu: einer für einen flinken Titan mit langen, baumelnden Gliedern, einer für einen langen, stelzigen Körperbau - Proportion wird über das Skelett gesteuert.",
+    "Spieler sollen Rüstungstyp, Fähigkeiten und Persönlichkeit an der Form ablesen."
+   ],
+   "quote": "visual language is a huge pillar for me",
+   "check": null
+  },
+  {
+   "id": "F13",
+   "goal": "figuren",
+   "kind": "text",
+   "title": "The making of Horizon Zero Dawn's machines, as told by Guerrilla Games",
+   "author": "Gillen McAllister",
+   "studio": "Guerrilla Games / PlayStation Blog",
+   "date": "2017-02-24",
+   "url": "https://blog.playstation.com/archive/2017/02/24/the-making-of-horizon-zero-dawns-machines-as-told-by-guerrilla-games/",
+   "url2": null,
+   "type": "Interview",
+   "credibility": "Primär",
+   "loaded": true,
+   "topics": [
+    "silhouette",
+    "lesbarkeit",
+    "formsprache"
+   ],
+   "findings": [
+    "Skorpion-artige Maschinen wurden verworfen, weil dünne Beine kaum Trefferfläche boten; große Flächen und sichtbare mechanische Teile erlauben mehrlagige Designs mit abschießbaren Komponenten.",
+    "Maschinen kombinieren Tiermerkmale statt ein Tier zu kopieren; frühe grobe Modelle und Mockups testen die Richtung.",
+    "Schwachstellen sind am Körper ablesbar (Augen, Panzerplatten) - Form kommuniziert Spielregeln."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "F14",
+   "goal": "figuren",
+   "kind": "text",
+   "title": "Making Horizon Zero Dawn's Machines feel like living creatures",
+   "author": "Game Developer Staff",
+   "studio": "Guerrilla Games / Game Developer",
+   "date": "2017-04-21",
+   "url": "https://www.gamedeveloper.com/design/making-i-horizon-zero-dawn-i-s-machines-feel-like-living-creatures",
+   "url2": null,
+   "type": "Artikel",
+   "credibility": "Sekundär",
+   "loaded": true,
+   "topics": [
+    "rig",
+    "lesbarkeit",
+    "lowpoly"
+   ],
+   "findings": [
+    "Maschinen als Exoskelett (Metallrahmen außen, weiches Inneres als Schwachstelle) statt innerem Skelett.",
+    "Unpolierte ZBrush-Modelle mit Skelett gingen früh ins Spiel; Thunderjaw: ca. 5 Modellierer über 8 Monate, 18 Monate von Skizze bis spielbar.",
+    "'Christmas-Tree-Problem': zu viele Lichter/Farben stören die Lesbarkeit; Gewicht großer Maschinen entsteht durch langsames Drehen, Ton, Partikel, Kamerawackeln."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "F15",
+   "goal": "figuren",
+   "kind": "text",
+   "title": "Building Customizable Characters - GDC Summary and Review (Destiny)",
+   "author": "Datto (Forenbeitrag zum Vortrag von Scott Shepard, Bungie)",
+   "studio": "Bungie (GDC 2013, Zusammenfassung)",
+   "date": "2014-04-08",
+   "url": "https://www.bungie.net/en/Forums/Post/64332998?page=0",
+   "url2": null,
+   "type": "Artikel",
+   "credibility": "Sekundär",
+   "loaded": true,
+   "topics": [
+    "silhouette",
+    "gelenke",
+    "farbe",
+    "lowpoly"
+   ],
+   "findings": [
+    "Klassen-Silhouetten: Titan schwer gepanzert (Ritterrüstung, Wappenrock), Hunter leicht und zusammengewürfelt, Warlock Gelehrter; Anteil Panzer/Stoff je Klasse verschieden.",
+    "Basisslots Kopf/Brust/Arm/Bein plus ein klassenspezifischer fünfter Slot (Hunter-Umhang, Titan-Abzeichen, Warlock-Armband).",
+    "Speicherbudget je Körperteil verteilt (Titan mehr für Arme/Brust, Warlock weniger Arme), gleiche Gesamtsumme je Klasse; Farbkanäle für Panzer, Stoff und Anzug.",
+    "'Mash Up': wiederverwendbare Teile ('Lego'); Basisteil einmal gebaut, Korrektur wirkt auf alle Sets; Betrachter prüft Clipping zwischen Teilen."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "F16",
+   "goal": "figuren",
+   "kind": "text",
+   "title": "Take a gander at how Valve designs the look and feel of Dota 2 heroes",
+   "author": "Alissa McAloon",
+   "studio": "Valve / Game Developer",
+   "date": "2017-10-06",
+   "url": "https://www.gamedeveloper.com/design/take-a-gander-at-how-valve-designs-the-look-and-feel-of-i-dota-2-i-heroes",
+   "url2": null,
+   "type": "Artikel",
+   "credibility": "Sekundär",
+   "loaded": true,
+   "topics": [
+    "silhouette",
+    "farbe",
+    "lesbarkeit"
+   ],
+   "findings": [
+    "Valves Charakter-Leitfaden gliedert sich in Silhouette, Wertverlauf (Value Gradient), Wertmuster, Farbe/Sättigung, Farbschemata, Ruheflächen und Direktionalität.",
+    "Ziel: unverwechselbarer Look auf dem Schlachtfeld, der die Identität schnell vermittelt."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "F17",
+   "goal": "figuren",
+   "kind": "text",
+   "title": "Dota 2 Workshop - Character Art Guide / Item Model Requirements",
+   "author": "Valve",
+   "studio": "Valve",
+   "date": "unbekannt",
+   "url": "https://support.steampowered.com/kb/9334-YDXV-8590/dota-2-workshop-character-art-guide",
+   "url2": "https://support.steampowered.com/kb/9814-QSHK-8085/dota-2-workshop-item-model-requirements",
+   "type": "Guide",
+   "credibility": "Primär",
+   "loaded": false,
+   "topics": [
+    "silhouette",
+    "farbe",
+    "lesbarkeit",
+    "lowpoly"
+   ],
+   "findings": [
+    "Aus Suchauszug (Seitentext lud nicht, nur Titel 'Steam Support :: Dota 2 Workshop - Character Art Guide'): Silhouette muss auf den ersten Blick identifizierbar sein; Value (Hell/Dunkel) zählt mehr als Farbe.",
+    "Detailreiche Bereiche sollen ein kleiner Anteil sein und dort konzentriert, wo sie zählen; Sättigung unten niedriger, oben höher.",
+    "Budgets in Dreiecken; Polygondichte als Gradient (niedrig an Füßen/Unterkörper, hoch an Kopf/Oberkörper); jedes Polygon soll Silhouette oder Verformung dienen. Konkrete Zahlen je Held auf dota2.com/workshop/requirements nicht auswertbar."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "F18",
+   "goal": "figuren",
+   "kind": "text",
+   "title": "Gears of War: Judgment - Epic's Art Director Discusses The Look",
+   "author": "Dan Ryckert (Interview mit Chris Perna)",
+   "studio": "Epic Games / Game Informer",
+   "date": "2012-06-18",
+   "url": "https://gameinformer.com/games/gears_of_war_judgment/b/xbox360/archive/2012/06/18/chris-perna-interview.aspx",
+   "url2": null,
+   "type": "Interview",
+   "credibility": "Primär",
+   "loaded": true,
+   "topics": [
+    "silhouette",
+    "proportion",
+    "farbe"
+   ],
+   "findings": [
+    "Erkennbarkeit bei Neudesigns bleibt durch das kreisförmige Brustpanzer-Motiv erhalten - ein einzelnes Leitmotiv trägt die Marke.",
+    "'Dinosaur chart': Gegner in klein/mittel/riesig gestaffelt für Variation der Größenklassen im Kampf.",
+    "Palette bewusst von entsättigt (Gears 1) zu kräftig (Gears 3) verschoben, passend zu besserer Beleuchtung."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "F19",
+   "goal": "figuren",
+   "kind": "text",
+   "title": "What the armor says: Gear of War",
+   "author": "Brad BradNicholson (zitiert Cliff Bleszinski)",
+   "studio": "Epic Games / Destructoid",
+   "date": "2009-08-10",
+   "url": "https://www.destructoid.com/what-the-armor-says-gear-of-war/",
+   "url2": null,
+   "type": "Artikel",
+   "credibility": "Sekundär",
+   "loaded": true,
+   "topics": [
+    "proportion",
+    "formsprache"
+   ],
+   "findings": [
+    "Rüstung bewusst schwer und bauchig (rundes Brustteil, blau emissiv); Ziel: Figuren fühlen sich 'schwer' an, Deckung nehmen soll sich wie das Pressen eines Massekörpers anfühlen.",
+    "Design der Rüstung als Spielgefühl-Werkzeug: Volumen und Masse verstärken Feedback."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "F20",
+   "goal": "figuren",
+   "kind": "text",
+   "title": "Researcher Robot: Learning Hard-Surface Techniques",
+   "author": "Evgeny Romanov (Interview: Arti Sergeev)",
+   "studio": "80.lv (Einzelkünstler)",
+   "date": "2020-06-30",
+   "url": "https://80.lv/articles/researcher-robot-learning-hard-surface-techniques",
+   "url2": null,
+   "type": "Breakdown",
+   "credibility": "Primär",
+   "loaded": true,
+   "topics": [
+    "rig",
+    "gelenke",
+    "silhouette"
+   ],
+   "findings": [
+    "Roboter mit funktionierender Mechanik (Rücken und Kopf bewegen sich zusammen); Silhouette per Anatomiereferenz mit S-Kurve angelegt.",
+    "Das Rigging durch einen Dritten enthüllte Modellierfehler; extreme Posen sind nötig, um zu sehen, wie Mechanismen zusammenarbeiten.",
+    "Aufteilung in 7 UV-Teile; Ngons/Dreiecke unkritisch, wenn das Shading stimmt."
+   ],
+   "quote": "put in quite extreme poses and watch how everything works",
+   "check": null
+  },
+  {
+   "id": "F21",
+   "goal": "figuren",
+   "kind": "text",
+   "title": "How to Auto Rig Cyborgs with Character Creator AccuRIG - Part 2",
+   "author": "José Antonio Tijerín",
+   "studio": "Reallusion Magazine",
+   "date": "2023-04-10",
+   "url": "https://magazine.reallusion.com/2023/04/10/how-to-auto-rig-cyborgs-with-character-creator-accurig-part-2/",
+   "url2": null,
+   "type": "Guide",
+   "credibility": "Sekundär",
+   "loaded": true,
+   "topics": [
+    "rig",
+    "gelenke"
+   ],
+   "findings": [
+    "Starre Roboter ('rigid system') gelten als aufwendigste Rigart, da keine elastischen Verformungen nutzbar sind; das System beruht auf Kugeln als Gelenken.",
+    "Hydraulikrohre: untere Polygone an Hüfte, obere an Brust gebunden, dadurch scheinbar gleitend/sich dehnend.",
+    "Starre Teile besser als Teile des Modells belassen; bei vielen überlappenden Teilen drohen Durchdringungen."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "F22",
+   "goal": "figuren",
+   "kind": "text",
+   "title": "How to Auto Rig Cyborgs With Character Creator AccuRIG",
+   "author": "José Tijerín",
+   "studio": "80.lv",
+   "date": "2023-05-05",
+   "url": "https://80.lv/articles/how-to-auto-rig-cyborgs-with-character-creator-accurig",
+   "url2": null,
+   "type": "Guide",
+   "credibility": "Sekundär",
+   "loaded": true,
+   "topics": [
+    "rig",
+    "gelenke"
+   ],
+   "findings": [
+    "Starre Rüstungsteile (Beintaschen, Unterarmschienen) werden über Attach an Knochen gehängt; Helm mit mehreren Teilen besser als Prop mit eigenen Knochen.",
+    "Einteiliger Brustpanzer schränkt ein: obere Wirbelsäulenknochen nicht animieren, Arme nicht über 180 Grad heben.",
+    "Gemischte Struktur aus starren Teilen auf flexiblen Teilen spart Polygone; Überschneidungen sofort in der Geometrie beheben."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "F23",
+   "goal": "figuren",
+   "kind": "text",
+   "title": "Elbow Topology Explained for Character Modeling",
+   "author": "CG Typhoon",
+   "studio": "CG Typhoon",
+   "date": "unbekannt",
+   "url": "https://cgtyphoon.com/topology/elbow-topology-explained-for-character-modeling/",
+   "url2": null,
+   "type": "Guide",
+   "credibility": "Sekundär",
+   "loaded": true,
+   "topics": [
+    "topologie",
+    "gelenke"
+   ],
+   "findings": [
+    "Schleifenzahl am Ellbogen: Mobile 3-4, normale Spielfigur 4-6, Heldenfigur 6-8, Cinematic 8+.",
+    "Mehrere gleichmäßig verteilte Schleifen statt einer Scharnierschleife; Pole nicht auf die Biegelinie legen (Einschnüren, Shading-Fehler); bevorzugt Quads, Dreiecke nur abseits der Biegezone.",
+    "Testen bei ca. 45 Grad (frühes Einschnüren) und 90 Grad (Dicke bleibt) sowie am Extrem (gestreckte Seite, Silhouette)."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "F24",
+   "goal": "figuren",
+   "kind": "text",
+   "title": "Topology (inkl. Unterseite Limb Topology)",
+   "author": "Polycount-Community",
+   "studio": "Polycount",
+   "date": "unbekannt",
+   "url": "http://wiki.polycount.com/wiki/Topology",
+   "url2": null,
+   "type": "Wiki",
+   "credibility": "Sekundär",
+   "loaded": true,
+   "topics": [
+    "topologie",
+    "gelenke",
+    "lowpoly"
+   ],
+   "findings": [
+    "Topologie zählt am meisten, wo am stärksten verformt wird: Hüfte/Gesäß, Schultern/Achseln, Mundwinkel, Knie, Ellbogen, Hände/Finger.",
+    "Für ein Low-Poly-Spielmodell sind Dreiecke erlaubt, aber jede Kante braucht einen Grund; Spielmodelle auf gute Silhouette, Kantenloops für Verformung, ruhige Vertex-Normalen und gute UV-Nähte optimieren."
+   ],
+   "quote": null,
+   "check": "Koordinator: Wiki per http gelesen (28.10.2026); Unterseite Limb Topology enthält nur Bildbeispiele, die Aussage zu Knie-Dreiecken aus dem Suchauszug ist gestrichen"
+  },
+  {
+   "id": "F25",
+   "goal": "figuren",
+   "kind": "text",
+   "title": "Topology for Game and Game-Based Characters",
+   "author": "Ellie Harisova (Interviews mit Evgeny Pyrch, Massimiliano Bianchini)",
+   "studio": "80.lv",
+   "date": "2020-07-11",
+   "url": "https://80.lv/articles/topology-for-game-and-game-based-characters",
+   "url2": null,
+   "type": "Artikel",
+   "credibility": "Sekundär",
+   "loaded": true,
+   "topics": [
+    "topologie",
+    "gelenke"
+   ],
+   "findings": [
+    "Kantenfluss entlang von Anatomie- bzw. Kleidungslinien anlegen; Gelenke brauchen besondere Aufmerksamkeit für Rig und Animation.",
+    "Technische Vorgaben und Polygonlimit einhalten; gute Topologie erlaubt mehr Detail mit weniger Polygonen."
+   ],
+   "quote": "The joints require extra attention to look good when it's getting rigged and animated.",
+   "check": null
+  },
+  {
+   "id": "F26",
+   "goal": "figuren",
+   "kind": "text",
+   "title": "The Soul of Low Poly Characters",
+   "author": "Danette Beatty (Interview: Kirill Tokarev)",
+   "studio": "80.lv (Einzelkünstlerin)",
+   "date": "2016-11-23",
+   "url": "https://80.lv/articles/the-soul-of-low-poly-characters",
+   "url2": null,
+   "type": "Interview",
+   "credibility": "Primär",
+   "loaded": true,
+   "topics": [
+    "lowpoly",
+    "proportion",
+    "silhouette",
+    "farbe"
+   ],
+   "findings": [
+    "Proportionen aus einfachen Primitiven aufbauen; Form und Proportion zuerst, Details später.",
+    "Jedes Polygon muss relevant sein, aber es braucht genug Polygone für eine saubere Silhouette; Kantenfluss beim Retopologisieren darauf ausrichten.",
+    "Flache Farben per Vertex-Painting (keine UVs nötig)."
+   ],
+   "quote": "Working with so few polygons means that each one needs to be relevant.",
+   "check": null
+  },
+  {
+   "id": "F27",
+   "goal": "figuren",
+   "kind": "text",
+   "title": "Implementing Low Poly Style in Game Dev",
+   "author": "Maciej Szymaś (Interview: Kirill Tokarev)",
+   "studio": "80.lv (Einzelkünstler)",
+   "date": "2019-04-15",
+   "url": "https://80.lv/articles/implementing-low-poly-style-in-game-dev",
+   "url2": null,
+   "type": "Interview",
+   "credibility": "Primär",
+   "loaded": true,
+   "topics": [
+    "lowpoly",
+    "proportion"
+   ],
+   "findings": [
+    "Vier Stufen: Grundform, optimiertes Modell, Stilisierung mit Detail, Oberflächendetail.",
+    "Proportion und richtige Form tragen das Modell; als Budget-Beispiel wird ein Limit von 1000 Dreiecken pro Modell genannt (Hinweis: Artikel behandelt Assets allgemein, nicht gezielt Charaktere).",
+    "Geglättete Normalen/Sharp-Marks geben Sculpt-Look ohne mehr Dreiecke."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "F28",
+   "goal": "figuren",
+   "kind": "text",
+   "title": "Design Tips for In-Game Character Proportions",
+   "author": "Kongregate Developers Blog",
+   "studio": "Kongregate",
+   "date": "2016-05-19",
+   "url": "https://kongregatedev.ghost.io/design-tips-for-in-game-character-proportions/",
+   "url2": null,
+   "type": "Artikel",
+   "credibility": "Sekundär",
+   "loaded": true,
+   "topics": [
+    "proportion",
+    "massstab"
+   ],
+   "findings": [
+    "Reale Erwachsene ca. 7-8 Kopfhöhen; ab 8 Köpfen beginnt 'Superhelden-Gebiet'; Zeichentrick meist 2-6 Köpfe.",
+    "Bei 8 Köpfen nimmt der Körper mehr Bildfläche ein, Gesichtsdetails werden schwerer lesbar; ein breiterer Kopf überdeckt mehr Körper.",
+    "In Draufsicht verdeckt ein großer Kopf den Körper - Körper ggf. länger machen."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "F29",
+   "goal": "figuren",
+   "kind": "text",
+   "title": "What Is Shape Language? A Guide for Character Designers",
+   "author": "Nazanin Shahbazi",
+   "studio": "Pixune",
+   "date": "2026-08-16",
+   "url": "https://pixune.com/blog/shape-language-technique/",
+   "url2": null,
+   "type": "Artikel",
+   "credibility": "Sekundär",
+   "loaded": true,
+   "topics": [
+    "formsprache"
+   ],
+   "findings": [
+    "Kreis = freundlich/sicher, Quadrat = Stärke/Stabilität/Autorität (Helden, Beschützer), Dreieck = Gefahr/Tempo/Unberechenbarkeit (Schurken, Monster).",
+    "Beispiele: Baymax/Kirby rund, Superman/Captain America quadratisch, Scar/Maleficent dreieckig. Mischung der Grundformen ist üblich."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "F30",
+   "goal": "figuren",
+   "kind": "text",
+   "title": "The Ultimate Guide to Creating Memorable Character Color Palettes",
+   "author": "unbekannt",
+   "studio": "Pixflow",
+   "date": "2026-03-12",
+   "url": "https://pixflow.net/blog/the-ultimate-guide-to-creating-memorable-character-color-palettes/",
+   "url2": null,
+   "type": "Guide",
+   "credibility": "Meinung",
+   "loaded": true,
+   "topics": [
+    "farbe"
+   ],
+   "findings": [
+    "60-30-10 für Figuren: 60 % Grundfarbe (Identität), 30 % Zweitfarbe (Kontrast/Tiefe), 10 % Akzent.",
+    "Geringer Kontrast lässt Figuren im Hintergrund verschwinden; Palette gegen verschiedene Hintergründe testen."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "F31",
+   "goal": "figuren",
+   "kind": "text",
+   "title": "Collections: The Problem with Sci-Fi Body Armor",
+   "author": "Bret Devereaux",
+   "studio": "A Collection of Unmitigated Pedantry",
+   "date": "2024-11-29",
+   "url": "https://acoup.blog/2024/11/29/collections-the-problem-with-sci-fi-body-armor/",
+   "url2": null,
+   "type": "Artikel",
+   "credibility": "Meinung",
+   "loaded": true,
+   "topics": [
+    "gelenke"
+   ],
+   "findings": [
+    "Auf dem Oberarm sitzende Schulterpanzer und ein an Gurten hängendes Brustteil stoßen bei erhobenen Armen an den Hals; große Lücke zwischen Kragen und Schulter.",
+    "Historische Lösungen: segmentierte Schulterplatten für hebbare Arme, Brustpanzer endet an der natürlichen Taille, teleskopierende Lamellen am Hüftschutz.",
+    "Beispiel Mass Effect N7: Bauchplatten gleiten nicht übereinander, die Rüstung biegt sich nur."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "F32",
+   "goal": "figuren",
+   "kind": "text",
+   "title": "Help with a pauldron rig",
+   "author": "grant.r.brown, digitvisions (Forum)",
+   "studio": "Blender Artists Community",
+   "date": "2024-08-30",
+   "url": "https://blenderartists.org/t/help-with-a-pauldron-rig/1546417",
+   "url2": null,
+   "type": "Wiki",
+   "credibility": "Meinung",
+   "loaded": true,
+   "topics": [
+    "rig",
+    "gelenke"
+   ],
+   "findings": [
+    "Schulterpanzer müssen sich relativ zum Arm verschieben: Extra-Knochen mit Armature-Constraint statt direkter Elternschaft am Oberarm.",
+    "Constraint-Einfluss per Driver an die Armhöhe koppeln (ca. 0,195 Arm unten, ca. 0,595 Arm oben), Scharnierposition am Panzer nachjustieren."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "F33",
+   "goal": "figuren",
+   "kind": "text",
+   "title": "Mecha armor rigging guide (Mecha-Pilot)",
+   "author": "Threedium",
+   "studio": "Threedium",
+   "date": "unbekannt",
+   "url": "https://threedium.io/create/3d-models/character/anime/mecha-pilot",
+   "url2": null,
+   "type": "Guide",
+   "credibility": "Meinung",
+   "loaded": true,
+   "topics": [
+    "rig",
+    "gelenke"
+   ],
+   "findings": [
+    "Doppeltes Skelett: organische Knochen für Wirbelsäule/Gliedmaßen plus separate mechanische Knochen für Rüstungsteile (Schulterpanzer, Brustplatten, Hüftschutz).",
+    "Gewichte für Mecha-Teile nur 0,0 oder 1,0 (starr); als Abstand zwischen Rüstungsplatten werden 1-3 mm genannt.",
+    "Pole-Vector-Constraints steuern Beugerichtung von Ellbogen und Knie."
+   ],
+   "quote": null,
+   "check": null
+  },
+  {
+   "id": "YA01",
+   "goal": "ausruestung",
+   "kind": "video",
+   "title": "The Art of Destiny's First-Person Animation",
+   "author": "David Helsby (Senior Animator, Bungie)",
+   "channel": "GDC Festival of Gaming",
+   "studio": "Bungie",
+   "date": "2017-03-19",
+   "url": "https://www.youtube.com/watch?v=CXFLu8cityA",
+   "duration_s": 3641,
+   "fps": 30,
+   "type": "Vortrag",
+   "credibility": "Primär",
+   "loaded": true,
+   "ytdlp": "GDC Festival of Gaming|20170319|The Art of Destiny's First-Person Animation|3641|30",
+   "topics": [
+    "Ego-Viewmodel",
+    "Bildraum",
+    "Waffenlage",
+    "Perspektive",
+    "Lesbarkeit"
+   ],
+   "findings": [
+    "Das Reticle sitzt bei Bungie seit Halo 2 unter der Bildmitte; das schafft Peripherie oben und seitlich, die die Welt weiter wirken lässt. (09:14)",
+    "Alle Linien von Waffe und Armen sollen auf den Fluchtpunkt der Einpunktperspektive zulaufen, sonst wirkt das Viewmodel wie ein aufgesetztes Fenster-Dekor statt wie Teil der Welt. (10:14)",
+    "Der Animationsraum im Ego-Bild ist eine kleine, durch extremes FOV verzerrte Box; außerhalb davon zählt nichts. Seitliche und obere Randzone sowie der mittlere 'Combat Corridor' sollen nicht mit Posen oder Waffenteilen zugestellt werden (ein Nachladen, das die Sicht verdeckt, wird als Designfehler benannt). (14:55)",
+    "Das Auge wandert radial um das Reticle; Daumen/Zeigefinger oder Waffenteile können diesen Bereich rahmen und so die Aufmerksamkeit lenken. (16:27)",
+    "Das Viewmodel besteht aus Armen, Kamera, einem Stützobjekt und der Waffe, abgeleitet vom Third-Person-Rig; alles oberhalb der Hüfte ist aus der Ego-Kamera nicht sichtbar. (07:39)"
+   ],
+   "quote": null,
+   "check": "yt-dlp und Untertitel 09:18, 10:19, 15:38 vom Koordinator nachgeprüft"
+  },
+  {
+   "id": "YA02",
+   "goal": "ausruestung",
+   "kind": "video",
+   "title": "Riot Artist Designs a Greek Gods’ VALORANT Skin - Super Art Power Hour Ep. 12",
+   "author": "Denis Lakhanov (Senior Concept Artist, VALORANT)",
+   "channel": "Riot Games",
+   "studio": "Riot Games",
+   "date": "2026-02-27",
+   "url": "https://www.youtube.com/watch?v=KMFHILAsXzo",
+   "duration_s": 3448,
+   "fps": 24,
+   "type": "Breakdown",
+   "credibility": "Primär",
+   "loaded": true,
+   "ytdlp": "Riot Games|20260227|Riot Artist Designs a Greek Gods’ VALORANT Skin - Super Art Power Hour Ep. 12|3448|24",
+   "topics": [
+    "Waffen-Silhouette",
+    "Proportionen",
+    "Charakterlinie",
+    "Formensprache",
+    "Lesbarkeit in Ego-Sicht",
+    "Materialzonen",
+    "Bewegliche Teile"
+   ],
+   "findings": [
+    "Im kompetitiven Spiel darf jedes Detail, das vom Spielgeschehen ablenkt, nicht stören; Skin-Linien arbeiten deshalb mit vielen Einschränkungen. (04:35)",
+    "Proportionen bestimmen den Rest der Waffe; Vandal und Phantom sind schon über wenige Großformen (Magazin, Gasrohr, Kolbenende bzw. gerade Hauptlinie) erkennbar, der Rest kann sich ändern, ohne dass es auffällt. (07:38)",
+    "Eine durchgehende 'Charakter-/Schulterlinie' (aus dem Automobildesign) und eine untere Linie legen die Silhouette fest; weitere Linien müssen irgendwohin laufen und einen lesbaren Fluss bilden, weil das Gehirn Beziehungen zwischen Linien gern liest. (09:10)",
+    "Dynamik gegen Statik: Dreiecke und Schrägen wirken dynamisch, Rechtecke statisch; Kiki-Bouba-Effekt steuert, wie aggressiv eine Silhouette wirkt. (12:18)",
+    "Die interessantesten Teile gehören auf die kameranahe Seite, weil dort die Verzerrung am geringsten ist; die Waffenfront wird von der Kamera am stärksten verzerrt, dort wirken zwei dicht beieinanderliegende Aussparungen wie eine Linie, also keine feinen Details. (15:24)",
+    "Funktionale Elemente (Knöpfe, Regler) bringen Glaubwürdigkeit und Persönlichkeit und zeigen, wie man die Waffe bedient. (16:57)",
+    "Material-Splits (z. B. weicher Gummischaft an der Schulter) und bewegliche Teile (Lüfter) sind Plan für spätere Inspect-Animationen; ein statisches Objekt erlaubt nur Hand-Animation. (27:49)"
+   ],
+   "quote": null,
+   "check": "yt-dlp und Untertitel 13:17, 15:38 vom Koordinator nachgeprüft"
+  },
+  {
+   "id": "YA03",
+   "goal": "ausruestung",
+   "kind": "video",
+   "title": "How to Create Weapons for AAAs | #SpeakEasy E14 with Ryan Lastimosa",
+   "author": "Ryan Lastimosa (ex-Creative Director, Respawn; Call of Duty 4, Titanfall, Apex)",
+   "channel": "Devoted Talks",
+   "studio": "Respawn Entertainment (Interview)",
+   "date": "2023-03-14",
+   "url": "https://www.youtube.com/watch?v=lNH48I-TebA",
+   "duration_s": 1827,
+   "fps": 30,
+   "type": "Vortrag",
+   "credibility": "Primär",
+   "loaded": true,
+   "ytdlp": "Devoted Talks|20230314|How to Create Weapons for AAAs | #SpeakEasy E14 with Ryan Lastimosa|1827|30",
+   "topics": [
+    "Funktion vor Form",
+    "Waffenarchetypen",
+    "Wiedererkennung",
+    "Ergonomie",
+    "Tactile Referencing",
+    "Ego-Bedienbarkeit"
+   ],
+   "findings": [
+    "Waffenartisten müssen verstehen, wie Waffen funktionieren; Ergonomie und Mechanik entstehen aus Jahrhunderten Feuerwaffenentwicklung, erst auf dieser Basis darf die Form verspielter werden. (06:17)",
+    "Spielwaffen lehnen sich an bekannte reale Plattformen an (AK, M14, M4), damit Spieler sie unbewusst als funktionsfähig lesen; Science-Fiction soll so geerdet sein, dass jedes Teil eine erkennbare Funktion hat. (03:06)",
+    "'Tactile Referencing': Wie bei Handy oder Kühlschrank soll man Bedienelemente ohne Hinsehen finden; das gilt für Ego-Waffen, weil der Spieler auf Gegner statt auf die Waffe schaut. (11:24)",
+    "Archetypen werden gezielt gebaut (R-101 bis R-301 als kleinkalibrige schnelle Plattform, Flatline als großkalibrige langsame), weil jede Waffe ein Problem im Spiel lösen soll. (14:27)",
+    "Bei Rarity-Varianten (Legendary, Heirloom) dürfen Aufbauten übertrieben sein, bleiben aber nur glaubwürdig, wenn die Grundfunktion stimmt. (08:20)"
+   ],
+   "quote": "form will always follow function",
+   "check": "yt-dlp vom Koordinator nachgeprüft"
+  },
+  {
+   "id": "YA04",
+   "goal": "ausruestung",
+   "kind": "video",
+   "title": "The Artists of Destiny",
+   "author": "Bungie-Künstler (Namen nicht in den Metadaten)",
+   "channel": "Bungie",
+   "studio": "Bungie",
+   "date": "2016-05-18",
+   "url": "https://www.youtube.com/watch?v=y4GxZ0pjNds",
+   "duration_s": 4870,
+   "fps": 30,
+   "type": "ViDoc",
+   "credibility": "Primär",
+   "loaded": true,
+   "ytdlp": "Bungie|20160518|The Artists of Destiny|4870|30",
+   "topics": [
+    "Weapon Brands",
+    "Industrial Design",
+    "Idealisierte Realität",
+    "Ego-Lesbarkeit",
+    "Formensprache"
+   ],
+   "findings": [
+    "Leitprinzip 'idealisierte Realität': reale Vorbilder werden analysiert und das, was sie spannend macht, stark überhöht, statt Realismus um des Realismus willen zu bauen. (05:05)",
+    "Waffenmarke Suros: 'weniger ist mehr', Vorbild ist Formel-1-Industriedesign (Formel 1 der Hersteller), zusätzlich Braun/Dieter Rams; Leitsatz 'Eleganz inmitten von Brutalität'. (39:57)",
+    "Weil Waffen zu 99 % in Ego-Sicht gesehen werden, wurde ein Konzeptdetail verschoben, damit es im Ego-Bild besser lesbar ist; Konzeptkünstler müssen sich selbst gegenüber Gameplay-Realitäten prüfen. (40:58)",
+    "Embleme und Icons bestehen aus primitiven Formen derselben Formensprache und sollen nicht überdesignt sein, weil sie als Muster dauernd auftauchen. (37:51)"
+   ],
+   "quote": null,
+   "check": "Untertitel 41:33 vom Koordinator nachgeprüft"
+  },
+  {
+   "id": "YA05",
+   "goal": "ausruestung",
+   "kind": "video",
+   "title": "How Gearbox Designs New Weapons in Borderlands 4 | Exclusive",
+   "author": "Graeme Timmins, Grant Kao (Gearbox), Randy Pitchford",
+   "channel": "Game Informer",
+   "studio": "Gearbox Software (Interview)",
+   "date": "2025-06-27",
+   "url": "https://www.youtube.com/watch?v=XuyRbrk07eU",
+   "duration_s": 834,
+   "fps": 60,
+   "type": "ViDoc",
+   "credibility": "Primär",
+   "loaded": true,
+   "ytdlp": "Game Informer|20250627|How Gearbox Designs New Weapons in Borderlands 4 | Exclusive|834|60",
+   "topics": [
+    "Prozedurale Waffen",
+    "Teilekatalog",
+    "Hersteller-Identität",
+    "Modularität"
+   ],
+   "findings": [
+    "Gearbox erzeugt Waffen seit 2008 prozedural aus Komponenten, Materialien und weiteren Variablen; ein einzelnes Ego-Modell von Hand zu bauen, skaliert nicht auf Hunderte oder Milliarden. (01:35)",
+    "Jede Herstellermarke bekommt eine eigene Verhaltens- und Gestaltungsidentität; in Borderlands 4 wurden die Teile in feste Kategorien gegliedert, damit Spieler (und Kunstproduktion) eine Rolle pro Teil klar zuordnen können. (05:07)",
+    "Design-'Lanes' sollen verhindern, dass eine Waffe alles kann; Marken-Eigenheiten werden isoliert, um die Kunstproduktion nicht zu überlasten. (04:36)"
+   ],
+   "quote": null,
+   "check": "yt-dlp-Zeile vom Unteragenten; Kernaussagen aus automatischen Untertiteln (nicht einzeln nachgeprüft)"
+  },
+  {
+   "id": "YA06",
+   "goal": "ausruestung",
+   "kind": "video",
+   "title": "How Overwatch Conveys Character in First Person",
+   "author": "Daniel Floyd (Animator; mit Matt Boehm, Blizzard, als Quelle)",
+   "channel": "New Frame Plus",
+   "studio": "New Frame Plus (Analyse zu Overwatch)",
+   "date": "2018-06-25",
+   "url": "https://www.youtube.com/watch?v=7Dga-UqdBR8",
+   "duration_s": 931,
+   "fps": 60,
+   "type": "Breakdown",
+   "credibility": "Sekundär",
+   "loaded": true,
+   "ytdlp": "New Frame Plus|20180625|How Overwatch Conveys Character in First Person|931|60",
+   "topics": [
+    "Waffen-Persönlichkeit",
+    "Ego-Animation",
+    "Abnutzung",
+    "Lesbarkeit"
+   ],
+   "findings": [
+    "Overwatch hält Hände und Waffe fast immer im Bild, damit das Waffendesign auf einen Blick zeigt, wen man spielt. (03:05)",
+    "Zustand der Waffe erzählt über den Besitzer: Soldier 76 präzise und gepflegt, Junkrats Werfer klappert und ist notdürftig zusammengebaut, Bastions Teile sitzen locker. (03:05)",
+    "Jede Figur hat eigenen Idle-, Atem- und Gehrhythmus; Waffensway und Nachziehen beim Kameraschwenk unterscheiden sich je Waffengewicht. (05:06)",
+    "Charakterisierung geht nie auf Kosten der Spielfunktion (z. B. Kameraneigung statt voller Rolle beim Dodge). (12:16)"
+   ],
+   "quote": null,
+   "check": "yt-dlp-Zeile vom Unteragenten; Kernaussagen aus automatischen Untertiteln (nicht einzeln nachgeprüft)"
+  },
+  {
+   "id": "YA07",
+   "goal": "ausruestung",
+   "kind": "video",
+   "title": "Primary, Secondary And Tertiary Shapes",
+   "author": "Neil Blevins",
+   "channel": "ArtOfSoulburn",
+   "studio": "ArtOfSoulburn",
+   "date": "2020-08-07",
+   "url": "https://www.youtube.com/watch?v=6IojuePYIHo",
+   "duration_s": 832,
+   "fps": 30,
+   "type": "Tutorial",
+   "credibility": "Sekundär",
+   "loaded": true,
+   "ytdlp": "ArtOfSoulburn|20200807|Primary, Secondary And Tertiary Shapes|832|30",
+   "topics": [
+    "Primär/Sekundär/Tertiär",
+    "70/30-Regel",
+    "Detailverteilung",
+    "Squint-Test"
+   ],
+   "findings": [
+    "Ein Bild sollte große, mittlere und kleine Formen haben; beim Zusammenkneifen der Augen bleiben nur die Primärformen. (01:31)",
+    "70/30-Regel: Teilt man eine Form in zwei, wirkt 70:30 besser als zwei gleich große Hälften; das gilt auch eine Stufe tiefer für Tertiärdetails. (04:33)",
+    "Details nicht gleichmäßig verteilen oder gleich groß machen; es braucht Cluster und fast detailfreie Ruhezonen. Prozedurales Rauschen hat nur Tertiärdetail und wirkt langweilig. (06:03)",
+    "Manchmal reichen drei Stufen nicht; Blevins nutzt vier 'Reads' (1. bis 4. Blick), z. B. beim schwebenden Loader-Roboter. (11:14)"
+   ],
+   "quote": null,
+   "check": "yt-dlp und Untertitel 01:09 vom Koordinator nachgeprüft"
+  },
+  {
+   "id": "YA08",
+   "goal": "ausruestung",
+   "kind": "video",
+   "title": "10 Weapon Design Tips for 3d Artists",
+   "author": "Tosmo",
+   "channel": "Tosmo",
+   "studio": "Tosmo (3D-Künstler)",
+   "date": "2020-10-19",
+   "url": "https://www.youtube.com/watch?v=yvC5Xq3jjBM",
+   "duration_s": 1265,
+   "fps": 30,
+   "type": "Tutorial",
+   "credibility": "Sekundär",
+   "loaded": true,
+   "ytdlp": "Tosmo|20201019|10 Weapon Design Tips for 3d Artists|1265|30",
+   "topics": [
+    "Waffenfunktion",
+    "Blockout",
+    "High-to-Low",
+    "Materialreferenz",
+    "Animation/Skins"
+   ],
+   "findings": [
+    "Vor dem Modellieren klären: Wer nutzt die Waffe, wo, wer hat sie gebaut, welche Munition. (01:31)",
+    "Mit flachen 2D-Ebenen die Waffensilhouette ausschneiden, dann extrudieren und von einfachen Formen aus verfeinern. (14:55)",
+    "High-to-Low-Workflow, N-Gons vermeiden, LODs mit weniger Geometrie bei Entfernung; Triangulierung muss zwischen Exporten gleich bleiben, sonst bricht der Bake. (16:04)",
+    "Verschmutzung und Korrosion nur dort, wo sie logisch entstehen; Waffen müssen für Rückstoß- und Nachlade-Animation, Anbauteile und Skins vorbereitet sein. (18:06)"
+   ],
+   "quote": null,
+   "check": "yt-dlp-Zeile vom Unteragenten; Kernaussagen aus automatischen Untertiteln (nicht einzeln nachgeprüft)"
+  },
+  {
+   "id": "YA09",
+   "goal": "ausruestung",
+   "kind": "video",
+   "title": "Hard Surface Modeling 101: Beginner's Guide",
+   "author": "Mesh Labz",
+   "channel": "Mesh Labz",
+   "studio": "Mesh Labz",
+   "date": "2025-01-02",
+   "url": "https://www.youtube.com/watch?v=Y-DtNmlRZf8",
+   "duration_s": 296,
+   "fps": 30,
+   "type": "Tutorial",
+   "credibility": "Sekundär",
+   "loaded": true,
+   "ytdlp": "Mesh Labz|20250102|Hard Surface Modeling 101: Beginner's Guide|296|30",
+   "topics": [
+    "Bevels",
+    "Topologie",
+    "Edge Flow",
+    "Hard Surface"
+   ],
+   "findings": [
+    "Hard Surface bedeutet scharf definierte Kanten und präzise Winkel (Maschinen, Waffen, Fahrzeuge); sauberer Edge Flow wirkt auf Glanzlichter und Subdivision. (00:34)",
+    "Jede reale Kante hat eine Fase; Fasen fangen Licht und machen Objekte greifbar. (03:09)",
+    "Für Spielmodelle genügt oft ein einziger Bevel-Durchgang, während High-Poly-Modelle mehr Segmente erlauben. (04:09)"
+   ],
+   "quote": null,
+   "check": "yt-dlp-Zeile vom Unteragenten; Kernaussagen aus automatischen Untertiteln (nicht einzeln nachgeprüft)"
+  },
+  {
+   "id": "YB01",
+   "goal": "figuren",
+   "kind": "video",
+   "title": "A No-Nonsense Approach to Designing Horizon Zero Dawn's Robot Dinosaurs",
+   "author": "Jan-Bart van Beek (Art Director, Guerrilla)",
+   "channel": "GDC Festival of Gaming",
+   "studio": "Guerrilla Games",
+   "date": "2020-10-29",
+   "url": "https://www.youtube.com/watch?v=iDqDPsjrz94",
+   "duration_s": 3657,
+   "fps": 30,
+   "type": "Vortrag",
+   "credibility": "Primär",
+   "loaded": true,
+   "ytdlp": "GDC Festival of Gaming|20201029|A No-Nonsense Approach to Designing Horizon Zero Dawn's Robot Dinosaurs|3657|30",
+   "topics": [
+    "Roboterdesign",
+    "Biomimetik",
+    "Lesbarkeit",
+    "Verhalten",
+    "Formensprache"
+   ],
+   "findings": [
+    "Die ersten Maschinenentwürfe nach dem Muster militärischer Industriedesigns (Kriegsmaschine, Killzone-Stil) verfehlten den emotionalen Kern (Jäger statt Soldat) und wirkten nicht wie Lebewesen; alles wurde verworfen. (35:18)",
+    "Roboter-Dinosaurier funktionieren, weil bekannte Formen (T-Rex) sofort Gefahr signalisieren, ohne dass Animation oder Hintergrund es erklären müssen. (37:22)",
+    "Biomimetik: Maschinen folgen den Lösungen der Natur (Exoskelett statt innerem Skelett, künstliche Muskeln, algorithmisch erzeugte Verstärkungen), beraten von Robotiker:innen der TU Delft. (41:03)",
+    "Form folgt der ökologischen Nische und Funktion (Watcher als 'Alarmglocke'); die Gestalt darf stark variieren, entscheidend ist, dass das Verhalten stimmt, damit man sie als Lebewesen liest. (42:04)"
+   ],
+   "quote": null,
+   "check": "Untertitel 41:47 vom Koordinator nachgeprüft"
+  },
+  {
+   "id": "YB02",
+   "goal": "figuren",
+   "kind": "video",
+   "title": "Building Machines for a Better Future in 'Horizon'",
+   "author": "Maxim Fleury, Lennart Franken (Guerrilla Games)",
+   "channel": "GDC Festival of Gaming",
+   "studio": "Guerrilla Games",
+   "date": "2022-12-27",
+   "url": "https://www.youtube.com/watch?v=dr17S0I_h78",
+   "duration_s": 3642,
+   "fps": 30,
+   "type": "Vortrag",
+   "credibility": "Primär",
+   "loaded": true,
+   "ytdlp": "GDC Festival of Gaming|20221227|Building Machines for a Better Future in 'Horizon'|3642|30",
+   "topics": [
+    "Maschinen-Pipeline",
+    "Formregeln",
+    "Farblesbarkeit",
+    "Teilebibliothek",
+    "Outsourcing"
+   ],
+   "findings": [
+    "Pipeline einer Maschine: Designdokument, 3D-Konzept (direkt in 3D per Kitbash), Rig, Detailmodell, Outsourcing für Spielmesh, Texturierung; ein Jahr pro Maschine ist der Ausgangswert, den Parallelisierung drücken muss. (05:43)",
+    "Stilregeln: keine Kolben, Schrauben oder harten Kanten, nichts Menschengemachtes, keine 90-Grad-Winkel; Rahmen und Muskeln als organisches 3D-gedrucktes Gerüst mit Platten darüber. (11:52)",
+    "Interaktive Teile (Platten, Antennen, Waffen) sind heller, der Körper dunkler, damit abschießbare Komponenten klar als getrennte Teile lesen. (12:23)",
+    "Eine Bibliothek älterer Maschinenteile wird neu skulptiert wiederverwendet; subjektive Arbeit (Detail, Farbe) bleibt intern, objektive (UV, LOD, Bake) geht an Dienstleister, etwa 80/20. (19:06)"
+   ],
+   "quote": null,
+   "check": "Untertitel 18:21 vom Koordinator nachgeprüft"
+  },
+  {
+   "id": "YB03",
+   "goal": "figuren",
+   "kind": "video",
+   "title": "Creating the Characters and Machines of Horizon Forbidden West -Guerrilla Games- 2023 ZBrush Summit",
+   "author": "Arno Schmitz, Lennart Franken (Guerrilla Games)",
+   "channel": "Maxon ZBrush",
+   "studio": "Guerrilla Games",
+   "date": "2023-10-25",
+   "url": "https://www.youtube.com/watch?v=MKkI8DWHwm4",
+   "duration_s": 5597,
+   "fps": 30,
+   "type": "Breakdown",
+   "credibility": "Primär",
+   "loaded": true,
+   "ytdlp": "Maxon ZBrush|20231025|Creating the Characters and Machines of Horizon Forbidden West -Guerrilla Games- 2023 ZBrush Summit|5597|30",
+   "topics": [
+    "Maschinenplatten",
+    "Primär/Sekundär/Tertiär",
+    "Silhouette",
+    "Teilebibliothek"
+   ],
+   "findings": [
+    "Insert-Mesh- und Alpha-Pinsel-Bibliothek aus früheren Maschinen sichert einheitlichen Look; bewährte Platten werden verformt wiederverwendet, auch an Kostümen. (50:51)",
+    "Silhouette wird mit Insets, Extrusionen und geschichteten Kantendetails aufgebrochen; Detailmaßstab über alle Maschinen gleich halten. (62:20)",
+    "Jede Maschine besteht aus primären, sekundären und tertiären Formen; regelmäßige Verteilung wirkt künstlich, es braucht Ruhezonen und Gruppierung (Clumping). (68:07)"
+   ],
+   "quote": null,
+   "check": "yt-dlp-Zeile vom Unteragenten; Kernaussagen aus automatischen Untertiteln (nicht einzeln nachgeprüft)"
+  },
+  {
+   "id": "YB04",
+   "goal": "figuren",
+   "kind": "video",
+   "title": "Building Customizable Characters for Destiny",
+   "author": "Scott Shepard (Bungie)",
+   "channel": "GDC Festival of Gaming",
+   "studio": "Bungie",
+   "date": "2017-02-16",
+   "url": "https://www.youtube.com/watch?v=WS-2-Q7RWLk",
+   "duration_s": 3335,
+   "fps": 30,
+   "type": "Vortrag",
+   "credibility": "Primär",
+   "loaded": true,
+   "ytdlp": "GDC Festival of Gaming|20170216|Building Customizable Characters for Destiny|3335|30",
+   "topics": [
+    "Modulare Panzerung",
+    "Klassensilhouetten",
+    "Budgets",
+    "Skinning",
+    "Farbsystem"
+   ],
+   "findings": [
+    "Figuren werden in unabhängige Bausteine ('Bits': Schnallen, Schulterplatten, Visiere) zerlegt und per Assembler zu Arrangements zusammengesetzt; ein Fix am Bit wirkt auf alle Teile, die es verwenden. (12:48)",
+    "Drei Materialfamilien über 'Dyes' (Armor, Cloth, Suit) steuern Farbe, Glanz und Detailkarten; Bits können je als in Ego-Sicht sichtbar oder unsichtbar markiert werden. (13:52)",
+    "Klassen bekommen einfache Basissilhouetten für Lesbarkeit: Titan schwer (Metallplatten über Gummianzug, große Schulterpads), Hunter leicht (Hartschale über flexiblem Mittelteil), Warlock Mäntel/Roben. (04:08)",
+    "Bits werden starr gebunden (Ein-Klick-Skinning) oder von Riggern individuell gewichtet; stark überlappende Teile wurden wegen technischen Aufwands vereinfacht. (16:24)",
+    "Pro Spieler und Slot gibt es feste Budgets (Titan-Arm 1024x512 und ca. 170k Geometriespeicher, Warlock-Arm 512x512 und ca. 110k). (19:36)"
+   ],
+   "quote": null,
+   "check": "yt-dlp und Untertitel 19:41 vom Koordinator nachgeprüft"
+  },
+  {
+   "id": "YB05",
+   "goal": "figuren",
+   "kind": "video",
+   "title": "GDC 2008 - Stylization with a Purpose: The Illustrative World of Team Fortress 2",
+   "author": "nicht in den Metadaten genannt (GDC-2008-Vortrag von Valve; Re-Upload mit Audio und Folien)",
+   "channel": "iiboharz",
+   "studio": "Valve (Re-Upload durch Dritte)",
+   "date": "2023-06-04",
+   "url": "https://www.youtube.com/watch?v=SRFmHNzwbME",
+   "duration_s": 3072,
+   "fps": 30,
+   "type": "Vortrag",
+   "credibility": "Primär",
+   "loaded": true,
+   "ytdlp": "iiboharz|20230604|GDC 2008 - Stylization with a Purpose: The Illustrative World of Team Fortress 2|3072|30",
+   "topics": [
+    "Silhouette",
+    "Lesehierarchie",
+    "Farbe vor Klasse vor Waffe",
+    "Kontrast auf Brusthöhe",
+    "Rim-Light"
+   ],
+   "findings": [
+    "Dreistufige Lesehierarchie: erst Farbe (Team), dann Silhouette (Klasse), zuletzt die Waffe. (05:34)",
+    "Silhouetten unterscheiden sich über Körperproportionen, Hüte, Schuhe und Faltenwurf; sie sollen auch unter Drehung wirken. (07:06)",
+    "Hohe Kontraste und Details liegen auf Brusthöhe (Abzeichen, Gurte, Westen), unten dunkel zu oben hell, damit der Blick zur Waffe geführt wird. (07:36)",
+    "Prozess: Silhouette zuerst, dann Innenformen/Schattenformen, Modellblatt, Modell; Ambient Occlusion nur als Malhilfe. Rim-Highlights ersetzen dunkle Konturlinien. (14:45)"
+   ],
+   "quote": null,
+   "check": "yt-dlp und Untertitel 07:58 vom Koordinator nachgeprüft; Re-Upload eines Dritten (Kanal iiboharz) mit Valve-Folien, Sprecher nicht in den Metadaten"
+  },
+  {
+   "id": "YB06",
+   "goal": "figuren",
+   "kind": "video",
+   "title": "Designing The Titans of Titanfall",
+   "author": "Joel Emslie (Lead Artist, Respawn)",
+   "channel": "Game Informer",
+   "studio": "Respawn Entertainment (Game Informer)",
+   "date": "2013-06-28",
+   "url": "https://www.youtube.com/watch?v=PWgByQiDhpE",
+   "duration_s": 349,
+   "fps": 30,
+   "type": "ViDoc",
+   "credibility": "Primär",
+   "loaded": true,
+   "ytdlp": "Game Informer|20130628|Designing The Titans of Titanfall|349|30",
+   "topics": [
+    "Titan-Design",
+    "Kitbash-Maquette",
+    "Gelenke/Hände",
+    "Lesbarkeit"
+   ],
+   "findings": [
+    "Titans entstehen als physische Kitbash-Maquette; man sieht sofort Schwerpunkt und Balance, und sie dient in Meetings als Action-Figur zur Spielprüfung. (01:03)",
+    "Designziele: glaubwürdig, geerdet, militärisch, mit Platz für den Piloten; Mocap auf Titan-Rig skaliert, um organischere Bewegung zu bekommen. (02:05)",
+    "Hände statt Kanonenarme ermöglichen Interaktionen wie Greifen und Werfen; Überdesign vermeiden, jedes Element soll auf den ersten Blick lesbar sein. (03:05)"
+   ],
+   "quote": null,
+   "check": "yt-dlp-Zeile vom Unteragenten; Kernaussagen aus automatischen Untertiteln (nicht einzeln nachgeprüft)"
+  },
+  {
+   "id": "YB07",
+   "goal": "figuren",
+   "kind": "video",
+   "title": "Titanfall 2 Inside Development: Pilot + Titan Design",
+   "author": "Joel Emslie und Team (Respawn)",
+   "channel": "Titanfall Official",
+   "studio": "Respawn Entertainment",
+   "date": "2016-12-16",
+   "url": "https://www.youtube.com/watch?v=zs41dFUx0Po",
+   "duration_s": 225,
+   "fps": 30,
+   "type": "ViDoc",
+   "credibility": "Primär",
+   "loaded": true,
+   "ytdlp": "Titanfall Official|20161216|Titanfall 2 Inside Development: Pilot + Titan Design|225|30",
+   "topics": [
+    "Kitbash-Maquette",
+    "Imperfektion",
+    "Titan/Pilot-Design"
+   ],
+   "findings": [
+    "Praktische Maquetten halten das Design ehrlich, weil reale Teile nie perfekt sind (leicht schief, ungleiche Proportionen) und so Glaubwürdigkeit erzeugen. (00:05)",
+    "Die erste Maquette (ein Tauchanzug) war Auslöser für die Titans: Ein kleiner Charakter im Anzug führte zur Idee der großen Roboter. (01:07)"
+   ],
+   "quote": "Real world objects are never perfect.",
+   "check": "yt-dlp-Zeile vom Unteragenten; Kernaussagen aus automatischen Untertiteln (nicht einzeln nachgeprüft)"
+  },
+  {
+   "id": "YB08",
+   "goal": "figuren",
+   "kind": "video",
+   "title": "3D Character Art & Skin Creation - Super Art Power Hour Ep 3",
+   "author": "Annie Kwon (Character Artist, Riot)",
+   "channel": "Riot Games",
+   "studio": "Riot Games",
+   "date": "2022-08-15",
+   "url": "https://www.youtube.com/watch?v=AY-6Ny8VArA",
+   "duration_s": 3540,
+   "fps": 24,
+   "type": "Breakdown",
+   "credibility": "Primär",
+   "loaded": true,
+   "ytdlp": "Riot Games|20220815|3D Character Art & Skin Creation - Super Art Power Hour Ep 3|3540|24",
+   "topics": [
+    "First Read",
+    "Form Shadows",
+    "Topologie für Deformation",
+    "Lesbarkeit bei kleiner Größe"
+   ],
+   "findings": [
+    "Der 'First Read' aus Entfernung (zusammengekniffene Augen) muss die Figur schon identifizieren; nicht zu früh an Gesicht oder Detail heranzoomen. (10:21)",
+    "Konvexe und konkave Formschatten/AO werden bewusst überbetont, damit die 3D-Form auch ohne Drehung lesbar bleibt; Farbe wird neben der Spielkarte geprüft. (09:20)",
+    "Low-Poly muss deformieren: Ellbogen müssen sauber falten, Rigger- und Pipeline-Bedürfnisse im Austausch klären. (12:56)"
+   ],
+   "quote": null,
+   "check": "yt-dlp-Zeile vom Unteragenten; Kernaussagen aus automatischen Untertiteln (nicht einzeln nachgeprüft)"
+  },
+  {
+   "id": "YB09",
+   "goal": "figuren",
+   "kind": "video",
+   "title": "SGC20: Walking trough the character creation process of Overwatch - The future of game tech",
+   "author": "Bruce Wilkie (Engine Programmer, Blizzard)",
+   "channel": "Sweden Game Arena",
+   "studio": "Blizzard Entertainment",
+   "date": "2020-10-30",
+   "url": "https://www.youtube.com/watch?v=0S8hi1wp4uc",
+   "duration_s": 4511,
+   "fps": 25,
+   "type": "Vortrag",
+   "credibility": "Primär",
+   "loaded": true,
+   "ytdlp": "Sweden Game Arena|20201030|SGC20: Walking trough the character creation process of Overwatch - The future of game tech|4511|25",
+   "topics": [
+    "Hero-Pipeline",
+    "Budgets",
+    "Bones",
+    "Silhouette im Blockout",
+    "Viewmodel-Tiefenpuffer"
+   ],
+   "findings": [
+    "Im Prototyp zählt zuerst die Silhouette: der Held muss im Kampf auffallen, das 2D-Konzept muss ins 3D übertragbar, riggbar und animierbar sein. (05:45)",
+    "Budgets bei Overwatch: ca. 30.000 Dreiecke je Held, ca. 15.000 für Waffen und Zubehör, rund 30 MB Texturen nach Kompression. (11:53)",
+    "Skelett: harte Obergrenze 1024 Bones, Ziel unter 500 Simulations-Bones; Cloth-Bones sind billig, physikalische Gelenke teuer. (15:59)",
+    "Ego-Viewmodels bekommen rund 10 % des Tiefenpuffers, damit sie nicht in die Welt clippen. (16:59)"
+   ],
+   "quote": null,
+   "check": "yt-dlp und Untertitel 12:20, 17:10 vom Koordinator nachgeprüft"
+  },
+  {
+   "id": "YB10",
+   "goal": "figuren",
+   "kind": "video",
+   "title": "Animation Bootcamp: Bringing Life to the Machines of Horizon Zero Dawn",
+   "author": "Richard Oud (Animator, Guerrilla Games)",
+   "channel": "GDC Festival of Gaming",
+   "studio": "Guerrilla Games",
+   "date": "2019-11-27",
+   "url": "https://www.youtube.com/watch?v=50mIKB-NACU",
+   "duration_s": 3485,
+   "fps": 30,
+   "type": "Vortrag",
+   "credibility": "Primär",
+   "loaded": true,
+   "ytdlp": "GDC Festival of Gaming|20191127|Animation Bootcamp: Bringing Life to the Machines of Horizon Zero Dawn|3485|30",
+   "topics": [
+    "Maschinenbewegung",
+    "Referenz",
+    "Mechanisch vs. organisch"
+   ],
+   "findings": [
+    "Mechanisch ruckelnde Bewegung ließ sich bei höherem Tempo nicht halten; die Animation wanderte zu realistischen Tierbewegungen mit gelegentlichem Jitter. (09:49)",
+    "Roboterhafte Bewegung blieb nur der Ancient-Klasse (z. B. Deathbringer) vorbehalten, weil sie zum Design passt; ansonsten Tierreferenzen (Emu, Seelöwe, Roter Panda) für ein unterscheidendes Merkmal. (12:24)"
+   ],
+   "quote": null,
+   "check": "yt-dlp-Zeile vom Unteragenten; Kernaussagen aus automatischen Untertiteln (nicht einzeln nachgeprüft)"
+  },
+  {
+   "id": "YB11",
+   "goal": "figuren",
+   "kind": "video",
+   "title": "Overwatch: How A Hero is Mei'd",
+   "author": "David Gibson (Animator, Blizzard)",
+   "channel": "GDC Festival of Gaming",
+   "studio": "Blizzard Entertainment",
+   "date": "2016-06-06",
+   "url": "https://www.youtube.com/watch?v=lHevkQIZL2M",
+   "duration_s": 3222,
+   "fps": 30,
+   "type": "Vortrag",
+   "credibility": "Primär",
+   "loaded": true,
+   "ytdlp": "GDC Festival of Gaming|20160606|Overwatch: How A Hero is Mei'd|3222|30",
+   "topics": [
+    "Hero-Entwurf",
+    "Designeinschränkungen",
+    "Rig"
+   ],
+   "findings": [
+    "Neue Helden entstehen im Gespräch von Konzeptkünstlern, Art Director, Designern und Autor; der Animator holt zusätzlich informell Wünsche aller Disziplinen ein. (18:45)",
+    "Gameplay-Einschränkungen ergeben sich aus dem Design: Der Schlauch von Mei's Waffe zum Rucksack hält eine Hand an der Waffe und begrenzt Bewegungen. (22:22)"
+   ],
+   "quote": null,
+   "check": "yt-dlp-Zeile vom Unteragenten; Kernaussagen aus automatischen Untertiteln (nicht einzeln nachgeprüft)"
+  },
+  {
+   "id": "YB12",
+   "goal": "figuren",
+   "kind": "video",
+   "title": "The Evolution of Destiny's Art",
+   "author": "Art Director von Destiny (laut Beschreibung, Name nicht genannt)",
+   "channel": "Game Informer",
+   "studio": "Bungie (Game Informer)",
+   "date": "2013-12-07",
+   "url": "https://www.youtube.com/watch?v=XBCoq9yrBdk",
+   "duration_s": 366,
+   "fps": 30,
+   "type": "ViDoc",
+   "credibility": "Primär",
+   "loaded": true,
+   "ytdlp": "Game Informer|20131207|The Evolution of Destiny's Art|366|30",
+   "topics": [
+    "Rüstungsvielfalt",
+    "Mix and Match",
+    "Art Direction"
+   ],
+   "findings": [
+    "Man definiert zuerst ein Ziel, das sofort cool wirkt, und füllt den Rest darum; bei Rüstung wiegt man Einheitlichkeit gegen Vielfalt ab, nicht perfekt passende Teile vermitteln den Eindruck gesammelter Beute. (04:06)"
+   ],
+   "quote": null,
+   "check": "yt-dlp-Zeile vom Unteragenten; Kernaussagen aus automatischen Untertiteln (nicht einzeln nachgeprüft)"
+  },
+  {
+   "id": "YB13",
+   "goal": "figuren",
+   "kind": "video",
+   "title": "Animating Mech tutorial part 2/3 - Skinning in MayaLT",
+   "author": "Kubold",
+   "channel": "Kubold",
+   "studio": "Kubold",
+   "date": "2016-11-22",
+   "url": "https://www.youtube.com/watch?v=VmEhsielvLU",
+   "duration_s": 624,
+   "fps": 30,
+   "type": "Tutorial",
+   "credibility": "Sekundär",
+   "loaded": true,
+   "ytdlp": "Kubold|20161122|Animating Mech tutorial part 2/3 - Skinning in MayaLT|624|30",
+   "topics": [
+    "Rigid Skinning",
+    "Hard-Surface-Mech",
+    "Gewichte",
+    "Spiegeln"
+   ],
+   "findings": [
+    "Bei einem Hard-Surface-Mech wird jedes Vertex auf genau einen Knochen begrenzt (Max Influences 1, statt 4 bei biegsamen Figuren). (03:07)",
+    "Gewichte mit dem Solid-Pinsel auf Wert 1 malen und links auf rechts spiegeln; das Ergebnis mit Test-Keyframes prüfen. (04:11)"
+   ],
+   "quote": null,
+   "check": "Untertitel 03:00 vom Koordinator nachgeprüft"
+  },
+  {
+   "id": "YB14",
+   "goal": "figuren",
+   "kind": "video",
+   "title": "Animating and Rigging Robots in Blender 3D",
+   "author": "SouthernShotty",
+   "channel": "SouthernShotty",
+   "studio": "SouthernShotty",
+   "date": "2023-12-05",
+   "url": "https://www.youtube.com/watch?v=ZkAk-GYpcvs",
+   "duration_s": 969,
+   "fps": 60,
+   "type": "Tutorial",
+   "credibility": "Sekundär",
+   "loaded": true,
+   "ytdlp": "SouthernShotty|20231205|Animating and Rigging Robots in Blender 3D|969|60",
+   "topics": [
+    "Mech-Rig",
+    "IK",
+    "Vertex-Gruppen mit Gewicht 1"
+   ],
+   "findings": [
+    "Teile werden mit 'Empty Groups' statt Automatic Weights gebunden, weil automatische Gewichte den Mech weich und biegsam machen; Vertex-Gruppen mit Gewicht 1 weisen jedes Teil einem Knochen zu. (07:40)",
+    "IK-Kette mit Zwischenknochen und separatem Fuß-Kontrollknochen, benannt .L/.R und per Symmetrize gespiegelt. (04:37)"
+   ],
+   "quote": null,
+   "check": "yt-dlp-Zeile vom Unteragenten; Kernaussagen aus automatischen Untertiteln (nicht einzeln nachgeprüft)"
+  }
+ ]
+}

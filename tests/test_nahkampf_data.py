@@ -1,4 +1,4 @@
-"""data/nahkampf.json (REF 0.29 "Bladework") keeps the shape the BALLON prototype reads: every example names game, subject,
+"""data/nahkampf.json (REF 0.31 "Bladework") keeps the shape the BALLON prototype reads: every example names game, subject,
 status, source and notes; image positions are percentages; proportions of one weapon add up to its own length."""
 import json
 import unittest

@@ -1,10 +1,16 @@
 # Changelog
 
-## 0.29.0 „Bladework“ – 2026-10-28
+## 0.31.0 „Bladework“ – 2026-10-28
 
 - Neue Referenzanalyse [Schwert und Glefe](docs/nahkampf.md) mit `data/nahkampf.json` für BALLON Paket 7: Form an 17 Destiny-Manifestbildern (8 Schwerter: Klinge 0,64–0,76 L, H/L 0,07–0,10 schlank bzw. 0,21–0,33 breit; 9 Glefen mit gemeinsamem Gerüst: Kragen 0,30 L, Kopf ab 0,52–0,55 L, H/L 0,09–0,12), Destiny-Schulteransicht (Einstieg 9 + 20 Bilder, Ausstieg 6 Bilder, Figur 42 % H links der Mitte, Angriffe 14–58 Bilder, Block ≤ 9 Bilder), Ego-Schwerter in Dark Messiah, Chivalry 2, Halo Infinite und Ghostrunner (Ruhe rechts/unten, Mitte 1–4 Bilder verdeckt) und die Glefe in Ego (Hüfte, Schuss mit Projektil an der Bildmitte, Kadenz 51–63 Bilder, Schlag 8 + 10 Bilder, Schild ein 10–11 Bilder, Nachladen 3,07–3,50 s, kein ADS). Fünf Messzeilen (`z-nk-…`) und Methode 27 in destiny2.md, fünf Einträge in `data/clips.json`, Datentest.
 - Befund (Beobachtung, entschieden wird in BALLON): Bungie begründet die Schulteransicht der Schwerter mit Schlägen außerhalb des Ego-Sichtfelds und hält die Glefe bewusst in Ego (Developer Insights, 14.02.2022); Entscheidungsvorlage A/B/C mit Empfehlung **B** (Schwert in Ego nach Vorbildern).
-- Abnahme: drei Unteragenten (zwei Opus, ein Sonnet; Nutzerwunsch über Sightline), 8/8 nachgemessene Zahlen bestätigt, 3/3 Stimmen-URLs, Vexcalibur-Bestand bestätigt; offen u. a. Skyrim ohne Mods, Winkel-FOV der Schulterkamera, Glefen-Fadenkreuzlage. [Bericht](docs/versions/0.md#0290-bladework--2026-10-28).
+- Abnahme: drei Unteragenten (zwei Opus, ein Sonnet; Nutzerwunsch über Sightline), 8/8 nachgemessene Zahlen bestätigt, 3/3 Stimmen-URLs, Vexcalibur-Bestand bestätigt; offen u. a. Skyrim ohne Mods, Winkel-FOV der Schulterkamera, Glefen-Fadenkreuzlage. [Bericht](docs/versions/0.md#0310-bladework--2026-10-28).
+
+## 0.30.0 „Blueprint“ – 2026-10-28
+
+- Zwei neue Recherche-Docs (keine Messung): [Gestaltung von Ausrüstung](docs/design-ausruestung.md) mit 38 Quellen (29 Texte, 9 Videos; 25 Primär) und 24 Regeln, [Gestaltung von Spielfiguren](docs/design-figuren.md) mit 47 Quellen (33 Texte, 14 Videos; 26 Primär) und 21 Regeln; je Doc Abgleich mit BALLON Stil v2.1 (abgedeckt/fehlt/widerspricht) und eine Entscheidungsliste (9 + 9 Fragen, nicht entschieden). Quellen strukturiert in `data/design_quellen.json`.
+- Befund (Quellenaussagen, Schlüsse in BALLON/Cube Escape): Detail gehört auf die kameranahe Seite, die Waffenfront verzerrt in Ego-Sicht am stärksten (Riot); Bungie hält Kampfkorridor und Ränder frei und setzt das Absehen unter die Bildmitte; Ego-Waffen 20 000–30 000 Dreiecke (Halo-5-Künstler), Overwatch 30 000 je Held und 15 000 für Waffen; Panzerteile starr je ein Knochen; reale Erwachsene 7–8 Kopfhöhen. Spannungen zu BALLON: Mündungsdetail, BASIC-01/-15 über 30 000 Dreiecke, Kopf +10 % gegen das schlanke Zielbild.
+- Prüfung: alle Text-Links per curl, 20 Aussagen im Wortlaut, 7 yt-dlp-Zeilen und 14 Untertitelstellen nachgeprüft; nicht ladbar 4 (GDC Vault in Wartung, Steam-Hilfe, PC Gamer). [Bericht](docs/versions/0.md#0300-blueprint--2026-10-28).
 
 ## 0.28.0 „Pullzone“ – 2026-10-25
 

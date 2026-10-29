@@ -1,6 +1,6 @@
 # Schwert und Glefe – Form, Schulteransicht und Ego-Vorbilder
 
-Referenzanalyse REF 0.29 „Bladework“ (28.10.2026) für **BALLON Paket 7** (Projekt `cubeescape-ballon`: BASIC-16 Schwert „Klingenlauf“,
+Referenzanalyse REF 0.31 „Bladework“ (28.10.2026) für **BALLON Paket 7** (Projekt `cubeescape-ballon`: BASIC-16 Schwert „Klingenlauf“,
 BASIC-17 Glefe „Schildwacht“, Stil v2.1, Ego-Prototyp in Unity). Zwei Hauptziele: **(1) Schwert** – Form an Destiny-Manifestbildern, die
 Schulteransicht von Destiny und Ego-Vorbilder anderer Spiele mit einer Entscheidungsvorlage A/B/C; **(2) Glefe** – Form und Ego-Ablauf
 (Hüfte, Schuss, Schlag, Schild, Nachladen, Fadenkreuz). Hier stehen Beobachtungen und Zahlen; entschieden wird in BALLON. Maschinenlesbar:
