@@ -406,6 +406,8 @@ Grundlage: [Stilhandbuch v2.1](https://github.com/ffunkfabian-hash/cubeescape-ba
 
 ## 5. Entscheidungsliste
 
+**Beantwortet am 29.10.2026** (Nutzer im Sightline-Chat, weitergegeben über das Postfach): „Alle wie empfohlen“ – A1–A7 A, **A8 B**, A9 A. Umsetzung in BALLON bzw. Cube Escape; dieses Doc hält nur die Antworten fest.
+
 Nur Fragen; entschieden wird in BALLON (Waffen, Werkzeuge) bzw. Cube Escape (Laufzeit). Format wie die
 [Entscheidungsliste Motiongen](https://github.com/ffunkfabian-hash/cubeescape-ballon/blob/main/docs/entscheidungsliste-motiongen.md).
 Einstufung: **Pflicht** = sonst bricht eine bestehende Regel · **Stil** = empfohlen · **optional**. Aufwand **S** Daten/Prüfung, **M** Patch
@@ -416,56 +418,56 @@ mit Render, **L** eigene Version.
   Ego-Hüftbild als zweites Silhouettenbild.
 - **B:** Nur Sichtung im Ego-Bild, ohne Zahlengrenze.
 - **C:** So lassen (Seitensilhouette im gleichen Maßstab, nur Sichtung).
-- Antwort: offen
+- Antwort (Nutzer im Sightline-Chat, 29.10.2026, Postfach cubeescape-nexogen#16 Kommentar 6489554081): „Alle wie empfohlen“ → **A** (Empfehlung)
 
 <a id="frage-a2"></a>**Frage A2 – Dreiecksbudget je Waffe?** (A-R24, W2; Stil, S)
 - **A (Empfehlung):** Ziel 20 000, Obergrenze 30 000 Dreiecke für Ego-Waffen als **Warnung** in `./check`; BASIC-01 und -15 bei der nächsten
   Überarbeitung unter 30 000.
 - **B:** Toolgen-Budgets übernehmen, sobald BASIC nach Unity/Toolgen geht.
 - **C:** Weiter ohne Budget (Stand 24.10.2026).
-- Antwort: offen
+- Antwort (Nutzer im Sightline-Chat, 29.10.2026, Postfach cubeescape-nexogen#16 Kommentar 6489554081): „Alle wie empfohlen“ → **A** (Empfehlung)
 
 <a id="frage-a3"></a>**Frage A3 – Wo sitzen die feinen Akzente?** (A-R8, W1; Stil, M)
 - **A (Empfehlung):** Feine Akzente vorrangig an kameranahen Teilen (Visier, Verschluss, Bedienseite links), die Mündung bleibt mehrstufig,
   aber mit Abständen ≥ 4 px im Ego-Hüftbild (zwei Schlitze statt vier, breitere Rändel).
 - **B:** Wie heute (Mechanik, Visier und Mündung gleichrangig).
 - **C:** Mündung in Ego-Sicht bewusst schlicht, Mehrstufigkeit nur in der Produktansicht.
-- Antwort: offen
+- Antwort (Nutzer im Sightline-Chat, 29.10.2026, Postfach cubeescape-nexogen#16 Kommentar 6489554081): „Alle wie empfohlen“ → **A** (Empfehlung)
 
 <a id="frage-a4"></a>**Frage A4 – Freihaltezonen im Ego-Bild als Regel?** (A-R9; Stil, S)
 - **A (Empfehlung):** Ja: im Hüftbild bleibt ein mittlerer Streifen (±10 % B um die Absehen-Spalte, obere zwei Drittel) frei von Waffe und
   Händen; Prüfung als Maske im Ego-Still.
 - **B:** Nur als Sichtungspunkt, ohne Maske.
 - **C:** Nein, Haltung bleibt Sache der Motiongen-Messungen.
-- Antwort: offen
+- Antwort (Nutzer im Sightline-Chat, 29.10.2026, Postfach cubeescape-nexogen#16 Kommentar 6489554081): „Alle wie empfohlen“ → **A** (Empfehlung)
 
 <a id="frage-a5"></a>**Frage A5 – Fasen als Materialsignal?** (A-R12, W4; optional, M)
 - **A (Empfehlung):** Griffzonen (`rubber`) eine Stufe breiter als der harte Träger (neue Stufe R_SOFT 6,5 mm nur für Griffpolster).
 - **B:** Stufen nur nach Teilgröße wie heute.
-- Antwort: offen
+- Antwort (Nutzer im Sightline-Chat, 29.10.2026, Postfach cubeescape-nexogen#16 Kommentar 6489554081): „Alle wie empfohlen“ → **A** (Empfehlung)
 
 <a id="frage-a6"></a>**Frage A6 – Gewichtete Normalen im Generator?** (A-R13; Stil, S–M)
 - **A (Empfehlung):** `Bevel` mit `harden_normals` und danach `Weighted Normal` je Teil als Standard, damit der Export nach Unity ohne
   Normal-Map ruhig schattiert; Wirkung an einer Waffe vorher/nachher sichten.
 - **B:** So lassen (erst prüfen, was der Generator heute tut).
-- Antwort: offen
+- Antwort (Nutzer im Sightline-Chat, 29.10.2026, Postfach cubeescape-nexogen#16 Kommentar 6489554081): „Alle wie empfohlen“ → **A** (Empfehlung)
 
 <a id="frage-a7"></a>**Frage A7 – Distanzansichten in der Sichtung?** (A-R10, A-R1; optional, S)
 - **A (Empfehlung):** Neue Ansicht `far` (Hauptansicht in 3 m und 5 m Abstand bei gleicher Brennweite) in der ersten Sichtungsrunde.
 - **B:** Nein, Hauptansicht und Ego-Bild reichen.
-- Antwort: offen
+- Antwort (Nutzer im Sightline-Chat, 29.10.2026, Postfach cubeescape-nexogen#16 Kommentar 6489554081): „Alle wie empfohlen“ → **A** (Empfehlung)
 
 <a id="frage-a8"></a>**Frage A8 – Teilungsverhältnisse festschreiben?** (A-R4, W5; optional, S)
 - **A:** Ja: Hauptblöcke (Schale/Unterbau, Haube/Gehäuse, Zweiton) nicht im Verhältnis 0,4–0,6 teilen; Prüfung am Spec.
 - **B (Empfehlung):** Nur als Sichtungspunkt in §3 der Formsprache-Checkliste; viele Klassen haben funktional vorgegebene Teilungen.
-- Antwort: offen
+- Antwort (Nutzer im Sightline-Chat, 29.10.2026, Postfach cubeescape-nexogen#16 Kommentar 6489554081): „Alle wie empfohlen“ → **B** (Empfehlung)
 
 <a id="frage-a9"></a>**Frage A9 – Eigener Bildwinkel für die Waffe in Cube Escape/Unity?** (A-R11; Laufzeit, Abnehmer Cube Escape, M)
 - **A (Empfehlung):** Ja: Waffe und Arme immer mit dem Bezugsbildwinkel von Visier-Standard 3 (75° h) zeichnen, unabhängig vom Welt-FOV,
   plus eigener Tiefenbereich gegen Wandclipping.
 - **B:** Waffe folgt dem Welt-FOV.
 - **C:** Später in Cube Escape entscheiden.
-- Antwort: offen
+- Antwort (Nutzer im Sightline-Chat, 29.10.2026, Postfach cubeescape-nexogen#16 Kommentar 6489554081): „Alle wie empfohlen“ → **A** (Empfehlung)
 
 ## 6. Offen und nicht belegt
 

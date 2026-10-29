@@ -1,5 +1,9 @@
 # Changelog
 
+## Patch „blueprint-antworten“ – 2026-10-29
+
+- Antworten des Nutzers (Sightline-Chat, 29.10.2026: „Alle wie empfohlen“) in die Entscheidungslisten von [design-ausruestung.md](docs/design-ausruestung.md#5-entscheidungsliste) (A1–A7 A, A8 B, A9 A) und [design-figuren.md](docs/design-figuren.md#5-entscheidungsliste) (F1–F9 A) eingetragen; Umsetzung in BALLON/Cube Escape.
+
 ## 0.30.0 „Blueprint“ – 2026-10-28
 
 - Zwei neue Recherche-Docs (keine Messung): [Gestaltung von Ausrüstung](docs/design-ausruestung.md) mit 38 Quellen (29 Texte, 9 Videos; 25 Primär) und 24 Regeln, [Gestaltung von Spielfiguren](docs/design-figuren.md) mit 47 Quellen (33 Texte, 14 Videos; 26 Primär) und 21 Regeln; je Doc Abgleich mit BALLON Stil v2.1 (abgedeckt/fehlt/widerspricht) und eine Entscheidungsliste (9 + 9 Fragen, nicht entschieden). Quellen strukturiert in `data/design_quellen.json`.
