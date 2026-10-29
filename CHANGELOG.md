@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.30.0 „Blueprint“ – 2026-10-28
+
+- Zwei neue Recherche-Docs (keine Messung): [Gestaltung von Ausrüstung](docs/design-ausruestung.md) mit 38 Quellen (29 Texte, 9 Videos; 25 Primär) und 24 Regeln, [Gestaltung von Spielfiguren](docs/design-figuren.md) mit 47 Quellen (33 Texte, 14 Videos; 26 Primär) und 21 Regeln; je Doc Abgleich mit BALLON Stil v2.1 (abgedeckt/fehlt/widerspricht) und eine Entscheidungsliste (9 + 9 Fragen, nicht entschieden). Quellen strukturiert in `data/design_quellen.json`.
+- Befund (Quellenaussagen, Schlüsse in BALLON/Cube Escape): Detail gehört auf die kameranahe Seite, die Waffenfront verzerrt in Ego-Sicht am stärksten (Riot); Bungie hält Kampfkorridor und Ränder frei und setzt das Absehen unter die Bildmitte; Ego-Waffen 20 000–30 000 Dreiecke (Halo-5-Künstler), Overwatch 30 000 je Held und 15 000 für Waffen; Panzerteile starr je ein Knochen; reale Erwachsene 7–8 Kopfhöhen. Spannungen zu BALLON: Mündungsdetail, BASIC-01/-15 über 30 000 Dreiecke, Kopf +10 % gegen das schlanke Zielbild.
+- Prüfung: alle Text-Links per curl, 20 Aussagen im Wortlaut, 7 yt-dlp-Zeilen und 14 Untertitelstellen nachgeprüft; nicht ladbar 4 (GDC Vault in Wartung, Steam-Hilfe, PC Gamer). [Bericht](docs/versions/0.md#0300-blueprint--2026-10-28).
+
 ## 0.28.0 „Pullzone“ – 2026-10-25
 
 - Neue Referenzanalyse [Zielhilfe und Eingabe](docs/zielhilfe.md) mit `data/zielhilfe.json`: 35 Beispiele aus fünf Spielen (Destiny 2 14, Halo Infinite 6, Apex Legends 7, Call of Duty 5, VALORANT 3; sechs Video- und 29 Dokumentarbefunde) aus fünf Videos und 21 Entwicklerquellen (Codex-Mac, Ego-Bewegung R2, Thema Zielhilfe). Eine Messzeile in `docs/destiny2.md` › 2 (Anker `z-zh-drewsky`), Methode 26, fünf Einträge in `data/clips.json`, Querverweis in waffenwerte.md.
