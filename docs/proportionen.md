@@ -80,7 +80,7 @@ Gewehre, Bögen und Stangenwaffen bilden.
 | **Granatwerfer** <a id="p-d2-gl"></a> | 1/1 | 0,21 | 0,36 | 0,25 | 0,09 | 0,72 | Flash and Thunder, stark frontal – kein Formmaß |
 | **Raketenwerfer** <a id="p-d2-rl"></a> | 1/2 | 0,36 | – | – | – | 0,60 | Gjallarhorn (Künstler-Render [S]); Eyes of Tomorrow beschnitten [O] |
 | **Maschinengewehr** <a id="p-d2-mg"></a> | 1/1 | 0,13 | 0,10 | 0,06 | 0,09 | 0,30 | Shattered Cipher, H enthält Zweibein |
-| **Glefe** <a id="p-d2-glefe"></a> | 0/2 | – | – | – | – | (0,12) | Lubrae's Ruin beschnitten [O]; 0,12 nur Highpoly Forthcoming Deviance [S], nicht Spielmodell |
+| **Glefe** <a id="p-d2-glefe"></a> | 0/2 | – | – | – | – | (0,12) | Lubrae's Ruin beschnitten [O]; 0,12 nur Highpoly Forthcoming Deviance [S], nicht Spielmodell; **neun Glefen und acht Schwerter an Manifestbildern 0.31: [nahkampf.md › 2–3](nahkampf.md#3-form-destiny-glefen-manifestbilder)** (H/L 0,09–0,12) |
 
 **Vergleichsanker außerhalb Destiny 2** (je ein Beispiel; ganze Liste in `data/proportionen.json`):
 
@@ -230,7 +230,7 @@ Achse und Kanten selbst gesetzt, nicht aus den Antigravity-Markierungen übernom
 ## 7. Offen und nicht messbar
 
 - **Glefe:** Lubrae's Ruin ohne L (Stangenende abgeschnitten), Forthcoming Deviance nur als Highpoly; für einen Spielwert fehlt eine
-  vollständige Seitenansicht. Ebenso beschnitten: Imperial Needle (oben), Eyes of Tomorrow (hinten).
+  vollständige Seitenansicht (0.31: Manifestbilder in 3/4-Ansicht schließen die Lücke als Größenordnung, [nahkampf.md](nahkampf.md#3-form-destiny-glefen-manifestbilder)). Ebenso beschnitten: Imperial Needle (oben), Eyes of Tomorrow (hinten).
 - **Stichprobe:** D1 nur Scouts (drei SR3-Verwandte), Apex nur kurze Waffen, Marathon nur Season 1, Halo nur die frühe Waffenbank
   (05.10.2021) – keine Reihe ist für ihr Spiel repräsentativ.
 - **Farb- und Detailmaße:** Akzentanteile nicht segmentiert (überall `null`); Schrauben, Rillen, Leuchtteile, Paneele und `blocks`
