@@ -1,0 +1,2166 @@
+{
+ "version": "0.31.0",
+ "name": "Bladework",
+ "date": "2026-10-28",
+ "doc": "docs/nahkampf.md",
+ "consumer": "BALLON Paket 7 (BASIC-16 Schwert, BASIC-17 Glefe, Ego-Prototyp in Unity)",
+ "units": "Bildlagen in Prozent der Bildbreite/-höhe [x, y], Ursprung oben links, 50/50 = Zielpunkt; bbox [x0, x1, y0, y1]; Proportionen als Anteil der sichtbaren Länge L = 1 entlang der projizierten Achse; Zeiten in Bildern der Quellrate (60/s bzw. 59,94/s); null = unbekannt",
+ "status": {
+  "M": "am eigenen Einzelbild gemessen (Manifestbild oder 60/s-Bild mit Raster)",
+  "O": "Sichtung ohne belastbare Zahl",
+  "C": "Spielerstimme oder Zuarbeit, nicht vollständig nachgeprüft",
+  "S": "Sekundär-/Fachquelle",
+  "B": "Entwickler"
+ },
+ "accuracy": "Lagen ±3 pp; Marker ±1 Bild, Differenzen ±2 Bilder (aus 30/s-Bögen ±2 Bilder); Proportionsgrenzen ±0,02 L, Breiten ±0,01 L; Manifestbilder sind 3/4-Ansichten (nur Größenordnung gegen orthografische BASIC-Maße)",
+ "manifest": {
+  "version": "245114.26.10.13.2000-1-bnet.66137",
+  "retrieved": "2026-10-28",
+  "image": "DestinyInventoryItemDefinition.screenshot"
+ },
+ "sources": {
+  "afs_dhFDhQU": {
+   "channel": "Ultraclocked",
+   "upload_date": "2020-02-09",
+   "title": "Destiny 2 - All Io Legendary Weapons - Animations & Sounds w/ Slow-Motion | VEIST Weapons",
+   "duration_s": 429,
+   "fps": 60,
+   "url": "https://www.youtube.com/watch?v=afs_dhFDhQU",
+   "verified": "yt-dlp 28.10.2026 (Koordinator)"
+  },
+  "tTjwM26ilgo": {
+   "channel": "Ultraclocked",
+   "upload_date": "2026-04-21",
+   "title": "Destiny 2 vs Warframe - Sword Animations",
+   "duration_s": 210,
+   "fps": 60,
+   "url": "https://www.youtube.com/watch?v=tTjwM26ilgo",
+   "verified": "yt-dlp 28.10.2026 (Koordinator)"
+  },
+  "aztecross-OpenNeighborlyScallionBCWarrior": {
+   "channel": "Aztecross",
+   "clip_creator": "Cobrachaos96",
+   "upload_date": "2024-07-05",
+   "title": "CAUGHT IN 4K",
+   "duration_s": 48,
+   "fps": 60,
+   "url": "https://twitch.tv/aztecross/clip/OpenNeighborlyScallionBCWarrior-3dlnXDdiG0r-2y-K",
+   "verified": "yt-dlp 28.10.2026 (Koordinator), 1280 × 720"
+  },
+  "O9QEU2RzB28": {
+   "channel": "Boosh Ninja",
+   "upload_date": "2022-11-18",
+   "title": "Vow of the Disciple | Legendary Weapon Sound and Visual Showcase (Destiny 2)",
+   "duration_s": 704,
+   "fps": 59.94,
+   "url": "https://www.youtube.com/watch?v=O9QEU2RzB28",
+   "verified": "yt-dlp 28.10.2026 (Koordinator); Abschnitt 141–260 s, Versatz +141,008 s am Originalstream"
+  },
+  "1pH6zS-lj5g": {
+   "channel": "Boosh Ninja",
+   "upload_date": "2023-03-14",
+   "title": "Season of The Haunted | Legendary Weapon Sound and Visual Showcase (Destiny 2)",
+   "duration_s": 941,
+   "fps": 59.94,
+   "url": "https://www.youtube.com/watch?v=1pH6zS-lj5g",
+   "verified": "yt-dlp 28.10.2026 (Koordinator); Abschnitt 232–383 s, Versatz +232,015 s"
+  },
+  "BqVfcsg3nYU": {
+   "channel": "Ultraclocked",
+   "upload_date": "2024-11-26",
+   "title": "Galatine Protocol - Weapon Ornament for Vexcalibur (Exotic Glaive)",
+   "fps": 60,
+   "url": "https://www.youtube.com/watch?v=BqVfcsg3nYU",
+   "verified": "yt-dlp 28.10.2026 (Unteragent)"
+  },
+  "QOQsRsqwekg": {
+   "channel": "CoolGuy",
+   "upload_date": "2022-05-23",
+   "title": "Destiny 2: The fully crafted Lubrae's Ruin is AWESOME! (Raid Glaive)",
+   "duration_s": 642,
+   "fps": 60,
+   "url": "https://www.youtube.com/watch?v=QOQsRsqwekg",
+   "verified": "yt-dlp 28.10.2026 (Unteragent)"
+  },
+  "6-26SH5jSwQ": {
+   "channel": "Destiny 2",
+   "upload_date": "2022-02-14",
+   "title": "Destiny 2: The Witch Queen - The Glaive - Developer Insights",
+   "duration_s": 225,
+   "url": "https://www.youtube.com/watch?v=6-26SH5jSwQ",
+   "verified": "yt-dlp 28.10.2026 (Koordinator), Untertitel 2:05–2:33 gelesen"
+  },
+  "hLR0jFXRIjc": {
+   "channel": "Pauleh",
+   "upload_date": "2015-09-30",
+   "title": "Dark Messiah - E01 'Of Might & Magic' [60fps]",
+   "duration_s": 1372,
+   "fps": 60,
+   "url": "https://www.youtube.com/watch?v=hLR0jFXRIjc",
+   "verified": "yt-dlp 28.10.2026 (Unteragent)"
+  },
+  "DCn-SfNQwQI": {
+   "channel": "Najius Maximus",
+   "upload_date": "2022-02-22",
+   "title": "Chivalry 2 - 1st Person Longsword Gameplay",
+   "duration_s": 143,
+   "fps": 60,
+   "url": "https://www.youtube.com/watch?v=DCn-SfNQwQI",
+   "verified": "yt-dlp 28.10.2026 (Unteragent)"
+  },
+  "ICqehEtHVdg": {
+   "channel": "Hamo clips",
+   "upload_date": "2021-11-21",
+   "title": "Halo Infinite energy sword is GREAT (Gameplay No commentary)",
+   "duration_s": 488,
+   "fps": 60,
+   "url": "https://www.youtube.com/watch?v=ICqehEtHVdg",
+   "verified": "yt-dlp 28.10.2026 (Unteragent)"
+  },
+  "-9LfAI3_Vlo": {
+   "channel": "VideoGamesTV",
+   "upload_date": "2021-05-08",
+   "title": "Ghostrunner Kill Run - Gameplay [PC ULTRA 60FPS]",
+   "duration_s": 1226,
+   "fps": 60,
+   "url": "https://www.youtube.com/watch?v=-9LfAI3_Vlo",
+   "verified": "yt-dlp 28.10.2026 (Unteragent)"
+  }
+ },
+ "proportions": [
+  {
+   "game": "Destiny 2",
+   "subject": "Unspoken Promise",
+   "class": "Schwert",
+   "frame": "Adaptive Frame",
+   "tier": "Legendary",
+   "status": "M",
+   "measure_kind": "manifest_screenshot_3q",
+   "source_url": "https://www.bungie.net/common/destiny2_content/screenshots/287042894.jpg",
+   "timestamp": null,
+   "manifest_hash": 287042894,
+   "axis_deg": -20.0,
+   "L_px": 1361,
+   "pommel_len": 0.07,
+   "grip_len": 0.25,
+   "guard_len": 0.05,
+   "blade_len": 0.7,
+   "guard_span": 0.056,
+   "grip_w": 0.044,
+   "blade_w_med": 0.053,
+   "blade_w_max": 0.068,
+   "h_to_l": 0.068,
+   "cut_off": false,
+   "notes": "Kragen statt Parierstück; Klingenblock 0,30–0,45; Griff = Knauf bis Parierstück-/Kragenbeginn, Klinge = Parierstückende bis Spitze; Breiten = projizierte Hülle quer zur Achse (3/4-Ansicht)"
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Negative Space",
+   "class": "Schwert",
+   "frame": "Adaptive Frame",
+   "tier": "Legendary",
+   "status": "M",
+   "measure_kind": "manifest_screenshot_3q",
+   "source_url": "https://www.bungie.net/common/destiny2_content/screenshots/3629968765.jpg",
+   "timestamp": null,
+   "manifest_hash": 3629968765,
+   "axis_deg": -18.8,
+   "L_px": 1312,
+   "pommel_len": 0.09,
+   "grip_len": 0.25,
+   "guard_len": 0.05,
+   "blade_len": 0.7,
+   "guard_span": 0.046,
+   "grip_w": 0.041,
+   "blade_w_med": 0.073,
+   "blade_w_max": 0.08,
+   "h_to_l": 0.088,
+   "cut_off": false,
+   "notes": "Kragen; Haken an der Klingenwurzel 0,33; Griff = Knauf bis Parierstück-/Kragenbeginn, Klinge = Parierstückende bis Spitze; Breiten = projizierte Hülle quer zur Achse (3/4-Ansicht)"
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Crown-Splitter",
+   "class": "Schwert",
+   "frame": "Aggressive Frame",
+   "tier": "Legendary",
+   "status": "M",
+   "measure_kind": "manifest_screenshot_3q",
+   "source_url": "https://www.bungie.net/common/destiny2_content/screenshots/2782325302.jpg",
+   "timestamp": null,
+   "manifest_hash": 2782325302,
+   "axis_deg": -20.3,
+   "L_px": 1619,
+   "pommel_len": 0.05,
+   "grip_len": 0.3,
+   "guard_len": 0.05,
+   "blade_len": 0.65,
+   "guard_span": 0.205,
+   "grip_w": 0.036,
+   "blade_w_med": 0.064,
+   "blade_w_max": 0.09,
+   "h_to_l": 0.212,
+   "cut_off": false,
+   "notes": "Flügel-Parierstück, Fehlschärfe 0,30–0,38; Griff = Knauf bis Parierstück-/Kragenbeginn, Klinge = Parierstückende bis Spitze; Breiten = projizierte Hülle quer zur Achse (3/4-Ansicht)"
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Quickfang",
+   "class": "Schwert",
+   "frame": "Lightweight Frame",
+   "tier": "Legendary",
+   "status": "M",
+   "measure_kind": "manifest_screenshot_3q",
+   "source_url": "https://www.bungie.net/common/destiny2_content/screenshots/2782325300.jpg",
+   "timestamp": null,
+   "manifest_hash": 2782325300,
+   "axis_deg": -21.8,
+   "L_px": 1169,
+   "pommel_len": 0.03,
+   "grip_len": 0.27,
+   "guard_len": 0.06,
+   "blade_len": 0.67,
+   "guard_span": 0.078,
+   "grip_w": 0.056,
+   "blade_w_med": 0.049,
+   "blade_w_max": 0.059,
+   "h_to_l": 0.103,
+   "cut_off": false,
+   "notes": "Griffgehäuse mit Block-Parierstück; gekrümmte Klinge; Griff = Knauf bis Parierstück-/Kragenbeginn, Klinge = Parierstückende bis Spitze; Breiten = projizierte Hülle quer zur Achse (3/4-Ansicht)"
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Goldtusk",
+   "class": "Schwert",
+   "frame": "Lightweight Frame",
+   "tier": "Legendary",
+   "status": "M",
+   "measure_kind": "manifest_screenshot_3q",
+   "source_url": "https://www.bungie.net/common/destiny2_content/screenshots/3371413057.jpg",
+   "timestamp": null,
+   "manifest_hash": 3371413057,
+   "axis_deg": -21.7,
+   "L_px": 1170,
+   "pommel_len": 0.04,
+   "grip_len": 0.28,
+   "guard_len": 0.06,
+   "blade_len": 0.66,
+   "guard_span": 0.087,
+   "grip_w": 0.054,
+   "blade_w_med": 0.049,
+   "blade_w_max": 0.061,
+   "h_to_l": 0.103,
+   "cut_off": false,
+   "notes": "Griffgehäuse mit Block-Parierstück; gekrümmte Klinge; Griff = Knauf bis Parierstück-/Kragenbeginn, Klinge = Parierstückende bis Spitze; Breiten = projizierte Hülle quer zur Achse (3/4-Ansicht)"
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Temptation's Hook",
+   "class": "Schwert",
+   "frame": "Caster Frame",
+   "tier": "Legendary",
+   "status": "M",
+   "measure_kind": "manifest_screenshot_3q",
+   "source_url": "https://www.bungie.net/common/destiny2_content/screenshots/35794111.jpg",
+   "timestamp": null,
+   "manifest_hash": 35794111,
+   "axis_deg": -17.5,
+   "L_px": 1357,
+   "pommel_len": 0.03,
+   "grip_len": 0.22,
+   "guard_len": 0.02,
+   "blade_len": 0.76,
+   "guard_span": 0.121,
+   "grip_w": 0.041,
+   "blade_w_med": 0.085,
+   "blade_w_max": 0.186,
+   "h_to_l": 0.229,
+   "cut_off": false,
+   "notes": "kein Parierstück, Klinge beginnt mit breitem Gehäuseblock 0,24–0,45; gebogen; Griff = Knauf bis Parierstück-/Kragenbeginn, Klinge = Parierstückende bis Spitze; Breiten = projizierte Hülle quer zur Achse (3/4-Ansicht)"
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Falling Guillotine",
+   "class": "Schwert",
+   "frame": "Vortex Frame",
+   "tier": "Legendary",
+   "status": "M",
+   "measure_kind": "manifest_screenshot_3q",
+   "source_url": "https://www.bungie.net/common/destiny2_content/screenshots/614426548.jpg",
+   "timestamp": null,
+   "manifest_hash": 614426548,
+   "axis_deg": -21.1,
+   "L_px": 1402,
+   "pommel_len": 0.04,
+   "grip_len": 0.3,
+   "guard_len": 0.06,
+   "blade_len": 0.64,
+   "guard_span": 0.198,
+   "grip_w": 0.041,
+   "blade_w_med": 0.203,
+   "blade_w_max": 0.237,
+   "h_to_l": 0.248,
+   "cut_off": false,
+   "notes": "Hackmesser, Klingenblock fast so hoch wie das Parierstück; Griff = Knauf bis Parierstück-/Kragenbeginn, Klinge = Parierstückende bis Spitze; Breiten = projizierte Hülle quer zur Achse (3/4-Ansicht)"
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Abyssal Edge",
+   "class": "Schwert",
+   "frame": "Wave Sword Frame",
+   "tier": "Legendary",
+   "status": "M",
+   "measure_kind": "manifest_screenshot_3q",
+   "source_url": "https://www.bungie.net/common/destiny2_content/screenshots/547165496.jpg",
+   "timestamp": null,
+   "manifest_hash": 547165496,
+   "axis_deg": -19.9,
+   "L_px": 1499,
+   "pommel_len": 0.04,
+   "grip_len": 0.22,
+   "guard_len": 0.08,
+   "blade_len": 0.7,
+   "guard_span": 0.32,
+   "grip_w": 0.04,
+   "blade_w_med": 0.039,
+   "blade_w_max": 0.22,
+   "h_to_l": 0.332,
+   "cut_off": false,
+   "notes": "Kreuz-Parierstück schräg (3/4), Fehlschärfe bis 0,40; Klinge gezahnt; Griff = Knauf bis Parierstück-/Kragenbeginn, Klinge = Parierstückende bis Spitze; Breiten = projizierte Hülle quer zur Achse (3/4-Ansicht)"
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "The Enigma",
+   "class": "Glefe",
+   "frame": "Adaptive Glaive",
+   "tier": "Legendary",
+   "status": "M",
+   "measure_kind": "manifest_screenshot_3q",
+   "source_url": "https://www.bungie.net/common/destiny2_content/screenshots/2595497736.jpg",
+   "timestamp": null,
+   "manifest_hash": 2595497736,
+   "axis_deg": -27.8,
+   "L_px": 1776,
+   "shaft_len": 0.55,
+   "head_len": 0.45,
+   "emitter_len": 0.15,
+   "blade_len": 0.3,
+   "collar_pos": 0.3,
+   "front_grip": [
+    0.37,
+    0.55
+   ],
+   "shaft_w": 0.036,
+   "front_grip_w": 0.023,
+   "head_w_max": 0.077,
+   "blade_w_med": 0.044,
+   "butt_w": 0.099,
+   "h_to_l": 0.099,
+   "cut_off": false,
+   "notes": "Ring-Familie (Abzugsring am Kopf); Schaft = Endkappe bis Kopfbeginn (erstes Gehäuse breiter als der Schaft), Emitter = Kopfgehäuse bis Schneidenbeginn; Breiten = projizierte Hülle (3/4-Ansicht, Anbauteile wie Clips und Ringe eingeschlossen)"
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Backfang",
+   "class": "Glefe",
+   "frame": "Rapid-Fire Glaive",
+   "tier": "Legendary",
+   "status": "M",
+   "measure_kind": "manifest_screenshot_3q",
+   "source_url": "https://www.bungie.net/common/destiny2_content/screenshots/267672635.jpg",
+   "timestamp": null,
+   "manifest_hash": 267672635,
+   "axis_deg": -28.0,
+   "L_px": 1783,
+   "shaft_len": 0.55,
+   "head_len": 0.45,
+   "emitter_len": 0.14,
+   "blade_len": 0.31,
+   "collar_pos": 0.3,
+   "front_grip": [
+    0.38,
+    0.55
+   ],
+   "shaft_w": 0.035,
+   "front_grip_w": 0.024,
+   "head_w_max": 0.075,
+   "blade_w_med": 0.045,
+   "butt_w": 0.098,
+   "h_to_l": 0.098,
+   "cut_off": false,
+   "notes": "Ring-Familie, gleiche Gliederung wie The Enigma; Schaft = Endkappe bis Kopfbeginn (erstes Gehäuse breiter als der Schaft), Emitter = Kopfgehäuse bis Schneidenbeginn; Breiten = projizierte Hülle (3/4-Ansicht, Anbauteile wie Clips und Ringe eingeschlossen)"
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Nezarec's Whisper",
+   "class": "Glefe",
+   "frame": "Adaptive Glaive",
+   "tier": "Legendary",
+   "status": "M",
+   "measure_kind": "manifest_screenshot_3q",
+   "source_url": "https://www.bungie.net/common/destiny2_content/screenshots/254636484.jpg",
+   "timestamp": null,
+   "manifest_hash": 254636484,
+   "axis_deg": -27.5,
+   "L_px": 1803,
+   "shaft_len": 0.55,
+   "head_len": 0.45,
+   "emitter_len": 0.13,
+   "blade_len": 0.32,
+   "collar_pos": 0.3,
+   "front_grip": [
+    0.37,
+    0.55
+   ],
+   "shaft_w": 0.036,
+   "front_grip_w": 0.024,
+   "head_w_max": 0.11,
+   "blade_w_med": 0.044,
+   "butt_w": 0.098,
+   "h_to_l": 0.12,
+   "cut_off": false,
+   "notes": "Ring-Familie; Schaft = Endkappe bis Kopfbeginn (erstes Gehäuse breiter als der Schaft), Emitter = Kopfgehäuse bis Schneidenbeginn; Breiten = projizierte Hülle (3/4-Ansicht, Anbauteile wie Clips und Ringe eingeschlossen)"
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Forthcoming Deviance",
+   "class": "Glefe",
+   "frame": "Rapid-Fire Glaive",
+   "tier": "Legendary",
+   "status": "M",
+   "measure_kind": "manifest_screenshot_3q",
+   "source_url": "https://www.bungie.net/common/destiny2_content/screenshots/535198113.jpg",
+   "timestamp": null,
+   "manifest_hash": 535198113,
+   "axis_deg": -28.8,
+   "L_px": 1794,
+   "shaft_len": 0.53,
+   "head_len": 0.47,
+   "emitter_len": 0.13,
+   "blade_len": 0.34,
+   "collar_pos": 0.3,
+   "front_grip": [
+    0.36,
+    0.53
+   ],
+   "shaft_w": 0.033,
+   "front_grip_w": 0.027,
+   "head_w_max": 0.109,
+   "blade_w_med": 0.091,
+   "butt_w": 0.098,
+   "h_to_l": 0.117,
+   "cut_off": false,
+   "notes": "Haken unter dem Kopf; Klinge gewellt; Schaft = Endkappe bis Kopfbeginn (erstes Gehäuse breiter als der Schaft), Emitter = Kopfgehäuse bis Schneidenbeginn; Breiten = projizierte Hülle (3/4-Ansicht, Anbauteile wie Clips und Ringe eingeschlossen)"
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Refusal of the Call",
+   "class": "Glefe",
+   "frame": "Adaptive Glaive",
+   "tier": "Legendary",
+   "status": "M",
+   "measure_kind": "manifest_screenshot_3q",
+   "source_url": "https://www.bungie.net/common/destiny2_content/screenshots/3269398063.jpg",
+   "timestamp": null,
+   "manifest_hash": 3269398063,
+   "axis_deg": -27.7,
+   "L_px": 1872,
+   "shaft_len": 0.52,
+   "head_len": 0.48,
+   "emitter_len": 0.16,
+   "blade_len": 0.32,
+   "collar_pos": 0.3,
+   "front_grip": [
+    0.31,
+    0.35
+   ],
+   "shaft_w": 0.034,
+   "front_grip_w": 0.016,
+   "head_w_max": 0.098,
+   "blade_w_med": 0.06,
+   "butt_w": 0.071,
+   "h_to_l": 0.111,
+   "cut_off": false,
+   "notes": "kurze Wicklung am Kragen, vorderer Schaft glatt; Knochenklinge; Schaft = Endkappe bis Kopfbeginn (erstes Gehäuse breiter als der Schaft), Emitter = Kopfgehäuse bis Schneidenbeginn; Breiten = projizierte Hülle (3/4-Ansicht, Anbauteile wie Clips und Ringe eingeschlossen)"
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Rake Angle",
+   "class": "Glefe",
+   "frame": "Aggressive Glaive",
+   "tier": "Legendary",
+   "status": "M",
+   "measure_kind": "manifest_screenshot_3q",
+   "source_url": "https://www.bungie.net/common/destiny2_content/screenshots/2298039571.jpg",
+   "timestamp": null,
+   "manifest_hash": 2298039571,
+   "axis_deg": -27.2,
+   "L_px": 1770,
+   "shaft_len": 0.52,
+   "head_len": 0.48,
+   "emitter_len": 0.13,
+   "blade_len": 0.35,
+   "collar_pos": 0.3,
+   "front_grip": [
+    0.36,
+    0.53
+   ],
+   "shaft_w": 0.033,
+   "front_grip_w": 0.029,
+   "head_w_max": 0.107,
+   "blade_w_med": 0.076,
+   "butt_w": 0.075,
+   "h_to_l": 0.114,
+   "cut_off": false,
+   "notes": "Optik-Familie (Visierblock mit Laser am Kopfbeginn); Schaft = Endkappe bis Kopfbeginn (erstes Gehäuse breiter als der Schaft), Emitter = Kopfgehäuse bis Schneidenbeginn; Breiten = projizierte Hülle (3/4-Ansicht, Anbauteile wie Clips und Ringe eingeschlossen)"
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Albedo Wing",
+   "class": "Glefe",
+   "frame": "Aggressive Glaive",
+   "tier": "Legendary",
+   "status": "M",
+   "measure_kind": "manifest_screenshot_3q",
+   "source_url": "https://www.bungie.net/common/destiny2_content/screenshots/2680976411.jpg",
+   "timestamp": null,
+   "manifest_hash": 2680976411,
+   "axis_deg": -27.8,
+   "L_px": 1773,
+   "shaft_len": 0.52,
+   "head_len": 0.48,
+   "emitter_len": 0.13,
+   "blade_len": 0.35,
+   "collar_pos": 0.3,
+   "front_grip": [
+    0.35,
+    0.52
+   ],
+   "shaft_w": 0.035,
+   "front_grip_w": 0.025,
+   "head_w_max": 0.08,
+   "blade_w_med": 0.077,
+   "butt_w": 0.074,
+   "h_to_l": 0.09,
+   "cut_off": false,
+   "notes": "Optik-Familie; Schaft = Endkappe bis Kopfbeginn (erstes Gehäuse breiter als der Schaft), Emitter = Kopfgehäuse bis Schneidenbeginn; Breiten = projizierte Hülle (3/4-Ansicht, Anbauteile wie Clips und Ringe eingeschlossen)"
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Judgment of Kelgorath",
+   "class": "Glefe",
+   "frame": "Aggressive Glaive",
+   "tier": "Legendary",
+   "status": "M",
+   "measure_kind": "manifest_screenshot_3q",
+   "source_url": "https://www.bungie.net/common/destiny2_content/screenshots/2978226043.jpg",
+   "timestamp": null,
+   "manifest_hash": 2978226043,
+   "axis_deg": -27.6,
+   "L_px": 1768,
+   "shaft_len": 0.53,
+   "head_len": 0.47,
+   "emitter_len": 0.12,
+   "blade_len": 0.35,
+   "collar_pos": 0.3,
+   "front_grip": [
+    0.36,
+    0.53
+   ],
+   "shaft_w": 0.032,
+   "front_grip_w": 0.022,
+   "head_w_max": 0.101,
+   "blade_w_med": 0.066,
+   "butt_w": 0.061,
+   "h_to_l": 0.109,
+   "cut_off": false,
+   "notes": "Optik-Familie; Schaft = Endkappe bis Kopfbeginn (erstes Gehäuse breiter als der Schaft), Emitter = Kopfgehäuse bis Schneidenbeginn; Breiten = projizierte Hülle (3/4-Ansicht, Anbauteile wie Clips und Ringe eingeschlossen)"
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Edge of Intent",
+   "class": "Glefe",
+   "frame": "Edge of Intent",
+   "tier": "Exotic",
+   "status": "M",
+   "measure_kind": "manifest_screenshot_3q",
+   "source_url": "https://www.bungie.net/common/destiny2_content/screenshots/14194600.jpg",
+   "timestamp": null,
+   "manifest_hash": 14194600,
+   "axis_deg": -30.4,
+   "L_px": 1708,
+   "shaft_len": 0.55,
+   "head_len": 0.45,
+   "emitter_len": 0.11,
+   "blade_len": 0.34,
+   "collar_pos": 0.31,
+   "front_grip": [
+    0.38,
+    0.55
+   ],
+   "shaft_w": 0.036,
+   "front_grip_w": 0.019,
+   "head_w_max": 0.094,
+   "blade_w_med": 0.068,
+   "butt_w": 0.063,
+   "h_to_l": 0.107,
+   "cut_off": false,
+   "notes": "Exotic; Axtklinge, Perlenkragen 0,31–0,36; Schaft = Endkappe bis Kopfbeginn (erstes Gehäuse breiter als der Schaft), Emitter = Kopfgehäuse bis Schneidenbeginn; Breiten = projizierte Hülle (3/4-Ansicht, Anbauteile wie Clips und Ringe eingeschlossen)"
+  }
+ ],
+ "third_person": [
+  {
+   "game": "Destiny 2",
+   "subject": "Unspoken Promise (Adaptive)",
+   "action": "enter",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=afs_dhFDhQU",
+   "timestamp": "289,450–289,933 s (f17367–f17396)",
+   "frames": 29,
+   "empty_frames": 9,
+   "pullback_frames": 20,
+   "media_time_only": true,
+   "notes": "Menüschnitt f17367; 9 Bilder Ego ohne Waffe (f17367–f17375), ab f17376 Figur bildfüllend links, Kamerarückzug 20 Bilder bis f17396; danach folgt die Kamera mit Verzug (290,5 s Füße unter dem Rand)"
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Unspoken Promise (Adaptive)",
+   "action": "idle",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=afs_dhFDhQU",
+   "timestamp": "296,800 s (f17808); 300,000 s (f18000)",
+   "frames": null,
+   "figure_bbox": [
+    39,
+    48,
+    55,
+    97
+   ],
+   "body_height_pct_h": 42,
+   "tip_xy": [
+    50,
+    51
+   ],
+   "hilt_xy": [
+    49.5,
+    71
+   ],
+   "blade_angle_deg": 0,
+   "notes": "stehend; Schwert senkrecht rechts neben der Figur, Spitze direkt unter dem Mittenkreuz; Figurhöhe 42 % H; Hülle ohne Schwert (f17808), f18000 43–52 % B, mit Schwert bis 52 % B; Körpermitte 44–48 % B"
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Lightweight-Schwert (Ultraclocked 2026)",
+   "action": "idle",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=tTjwM26ilgo",
+   "timestamp": "0,400 s (f24)",
+   "frames": null,
+   "figure_bbox": [
+    32,
+    43,
+    53,
+    100
+   ],
+   "tip_xy": [
+    56,
+    95
+   ],
+   "hilt_xy": [
+    40,
+    87
+   ],
+   "notes": "Klinge tief nach vorn-rechts; Füße unter dem Bildrand (Figur > 47 % H), Kamera näher als im Io-Video"
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Unspoken Promise (Adaptive)",
+   "action": "light_chain",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=afs_dhFDhQU",
+   "timestamp": "290,667–291,567 s (f17440–f17494)",
+   "frames": 54,
+   "first_strike_frames": 14,
+   "tip_xy": [
+    53,
+    51
+   ],
+   "media_time_only": true,
+   "notes": "erste Bewegung f17440, über Kopf f17442, erste Bahn bis f17452 (≈ 14 Bilder, Spitze bis ≈ (52–55, 50–52)), zweite Bahn f17454–f17466 seitlich tief (y 60–65 %), Ausfallschritt nach vorn; Ruhe ≈ f17494; 2–3 Schläge im 2-Bild-Bogen"
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Lightweight-Schwert (Ultraclocked 2026)",
+   "action": "light",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=tTjwM26ilgo",
+   "timestamp": "0,500–1,467 s (f30–f88)",
+   "frames": 58,
+   "to_trail_frames": 18,
+   "bbox": [
+    30,
+    45,
+    72,
+    80
+   ],
+   "media_time_only": true,
+   "notes": "Drehschlag: Start f30, Klinge waagrecht rechts f32, Drehung f34–f46, Schlagspur f48–f52 links (x 30–45, y 72–80 %), Rückkehr bis f88"
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Unspoken Promise (Adaptive)",
+   "action": "heavy",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=afs_dhFDhQU",
+   "timestamp": "295,567–296,400 s (f17734–f17784)",
+   "frames": 50,
+   "windup_frames": 14,
+   "flash_frames": 9,
+   "media_time_only": true,
+   "notes": "Ducken mit Klinge tief hinten f17734–f17738, Aufwärtsbahn f17740–f17746, Weißblitz f17748–f17756 (9 Bilder, ganzes Bild), blauer Effekt bis f17762, Rückkehr bis ≈ f17784"
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Schwert (Ultraclocked 2026, Block-Kapitel)",
+   "action": "guard",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=tTjwM26ilgo",
+   "timestamp": "196,800–196,950 s (f11808–f11817); 198,5–200,0 s",
+   "frames": 9,
+   "figure_bbox": [
+    44,
+    52,
+    52,
+    98
+   ],
+   "shield_bbox": [
+    35,
+    60,
+    46,
+    95
+   ],
+   "hold_min_frames": 90,
+   "notes": "Klinge vor die Brust, Schutzkuppel ≤ 9 Bilder nach f11808 sichtbar (Bogen jedes 3. Bild); Kuppel-Oberkante an der Bildmitte; gehalten ≥ 90 Bilder mit Trefferaufblitzen; Ablegen nicht im Material"
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Schwert (Aztecross, Juli 2024)",
+   "action": "exit",
+   "status": "M",
+   "source_url": "https://twitch.tv/aztecross/clip/OpenNeighborlyScallionBCWarrior-3dlnXDdiG0r-2y-K",
+   "timestamp": "44,333–44,433 s (f2660–f2666)",
+   "frames": 6,
+   "media_time_only": false,
+   "notes": "Kamera fährt in 6 Bildern auf die Figur zu (Figur wächst über den rechten Rand), ab f2666 Ego-Hände unten rechts; neue Waffe in Hüfte ≈ 45,5–45,8 s, durch Spielerbewegung nicht isoliert; Clip von Cobrachaos96 auf dem Kanal Aztecross, 1280 × 720"
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Unspoken Promise (Adaptive)",
+   "action": "sprint",
+   "status": "O",
+   "source_url": "https://www.youtube.com/watch?v=afs_dhFDhQU",
+   "timestamp": "307,4–308,6 s",
+   "frames": null,
+   "notes": "Figur läuft vom Betrachter weg, Schwert nicht abgegrenzt – kein Wert"
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Unspoken Promise (Adaptive)",
+   "action": "world_scale",
+   "status": "O",
+   "source_url": "https://www.youtube.com/watch?v=afs_dhFDhQU",
+   "timestamp": "f17370 (Ego) → f17430 (Schulter)",
+   "frames": null,
+   "scale": [
+    0.59,
+    0.76
+   ],
+   "notes": "Hintergrund-Maßstab 0,59–0,76 je nach Tiefe (Vorlagensuche, Korrelation 0,70–0,88): Parallaxe des Rückzugs, kein FOV-Maß"
+  }
+ ],
+ "ego_references": [
+  {
+   "game": "Dark Messiah of Might and Magic",
+   "subject": "Schwert aus dem Prolog (Startwaffe, Name nicht eingeblendet)",
+   "action": "idle",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=hLR0jFXRIjc",
+   "timestamp": "242.100 s",
+   "channel": "Pauleh",
+   "upload_date": "20150930",
+   "fps_real": 60,
+   "frames": null,
+   "tip_xy": [
+    69,
+    42
+   ],
+   "hilt_xy": null,
+   "bbox": [
+    68,
+    74,
+    41,
+    100
+   ],
+   "blade_angle_deg": -7,
+   "camera_motion": "keine",
+   "fov": null,
+   "notes": "Klinge steht fast senkrecht rechts der Mitte, Heft unter dem Bildrand; zweites Ruhebild 245.150: Spitze 71/38, gleiche Lage. Quelle: frames/dm1_pick.jpg, frames/dm1_pick2.jpg"
+  },
+  {
+   "game": "Dark Messiah of Might and Magic",
+   "subject": "Schwert aus dem Prolog",
+   "action": "windup",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=hLR0jFXRIjc",
+   "timestamp": "242.133–242.600 s",
+   "channel": "Pauleh",
+   "upload_date": "20150930",
+   "fps_real": 60,
+   "frames": 28,
+   "tip_xy": [
+    45,
+    0
+   ],
+   "hilt_xy": [
+    72,
+    12
+   ],
+   "bbox": [
+    40,
+    100,
+    0,
+    60
+   ],
+   "blade_angle_deg": -78,
+   "camera_motion": "keine sichtbar",
+   "fov": null,
+   "notes": "Kraftschlag (Taste halten, Einblendung 'Power Strike'). Ausholen = erste Bewegung aus Ruhe bis Schwert über der rechten Schulter steht. Durchgang: 242.450 Klinge senkrecht bei x 57, Parierstange 58/50 knapp rechts unter dem Fadenkreuz. Danach Halten/Aufladen 242.600-243.317 (43 Bilder, Eingabe). Lage gilt für 242.650. Bogen: sheets/dm1_2421-2437_30fps.jpg (30/s-Auszug aus 60/s), frames/dm1_pick.jpg"
+  },
+  {
+   "game": "Dark Messiah of Might and Magic",
+   "subject": "Schwert aus dem Prolog",
+   "action": "strike",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=hLR0jFXRIjc",
+   "timestamp": "243.333–243.600 s",
+   "channel": "Pauleh",
+   "upload_date": "20150930",
+   "fps_real": 60,
+   "frames": 16,
+   "tip_xy": null,
+   "hilt_xy": [
+    57,
+    52
+   ],
+   "bbox": [
+    20,
+    100,
+    0,
+    100
+   ],
+   "blade_angle_deg": null,
+   "camera_motion": "keine sichtbar",
+   "fov": null,
+   "notes": "Schlag = erste Bewegung aus der Halteposition bis Klinge aus dem Bild. Schnelle Bahn mit Lichtspur 243.433-243.583 (~10 Bilder) diagonal von rechts oben nach links unten; Heft kreuzt das Fadenkreuz 243.433-243.483 (3-4 Bilder verdeckt). Danach Schwert 243.633-243.883 ausserhalb des Bildes (~15 Bilder). Lage Heft aus 243.450."
+  },
+  {
+   "game": "Dark Messiah of Might and Magic",
+   "subject": "Schwert aus dem Prolog",
+   "action": "recover",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=hLR0jFXRIjc",
+   "timestamp": "244.900–245.000 s",
+   "channel": "Pauleh",
+   "upload_date": "20150930",
+   "fps_real": 60,
+   "frames": 6,
+   "tip_xy": [
+    70,
+    45
+   ],
+   "hilt_xy": null,
+   "bbox": [
+    68,
+    74,
+    44,
+    100
+   ],
+   "blade_angle_deg": -5,
+   "camera_motion": "Blickschwenk nach rechts (Spieler)",
+   "fov": null,
+   "notes": "Kein sauberer Rückweg nach dem Schlag: ab 243.900 folgt eine zweite Ladehaltung (Klinge flach von links unten 40/90 nach rechts oben 98/25, +56 Grad, 243.900-244.900). Gemessen ist der Wechsel dieser Haltung in Ruhe: 244.900 -> 245.000 = 6 Bilder (Ruhe ±3 pp). Bogen sheets/dm1_2436-2452_30fps.jpg"
+  },
+  {
+   "game": "Dark Messiah of Might and Magic",
+   "subject": "Schwert aus dem Prolog",
+   "action": "block",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=hLR0jFXRIjc",
+   "timestamp": "251.033–251.417 s",
+   "channel": "Pauleh",
+   "upload_date": "20150930",
+   "fps_real": 60,
+   "frames": 23,
+   "tip_xy": null,
+   "hilt_xy": [
+    83,
+    45
+   ],
+   "bbox": [
+    70,
+    100,
+    0,
+    75
+   ],
+   "blade_angle_deg": 0,
+   "camera_motion": "keine",
+   "fov": null,
+   "notes": "Block ein = erste Bewegung aus Ruhe bis Endlage; Weg: 251.183-251.217 Klinge senkrecht bei x 55-57, Parierstange 57/53 (50-64 x 44-58) knapp rechts unter dem Fadenkreuz, dann nach rechts und näher bis Endlage ab 251.417 (Klinge x 80-86, Parierstange-Sichel 70-92 x 28-60, Hand 75-85/55-75). Gehalten 251.417-253.333. Block aus: 253.350 erste Bewegung, 253.483 Klinge diagonal unten (geht direkt in den nächsten Schlag über), also >= 8 Bilder. Bogen sheets/dm1_2510-2515_60fps.jpg, sheets/dm1_2532-2535_60fps.jpg, frames/dm1_pick2.jpg"
+  },
+  {
+   "game": "Chivalry 2",
+   "subject": "Langschwert (Longsword)",
+   "action": "idle",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=DCn-SfNQwQI",
+   "timestamp": "22.400 s",
+   "channel": "Najius Maximus",
+   "upload_date": "20220222",
+   "fps_real": 60,
+   "frames": null,
+   "tip_xy": [
+    63,
+    0
+   ],
+   "hilt_xy": [
+    64,
+    72
+   ],
+   "bbox": [
+    61,
+    69,
+    0,
+    100
+   ],
+   "blade_angle_deg": -2,
+   "camera_motion": "Gehen",
+   "fov": null,
+   "notes": "Klinge senkrecht rechts der Mitte, Spitze über den oberen Bildrand, Parierstange 60-68 x 70-74, Hände 66/80-95; linke Panzerhand links unten 12-32/70-85. Ego-Modus des Spiels (wahlweise, Standard ist 3rd Person). Bild frames/c2_slash_pick.jpg"
+  },
+  {
+   "game": "Chivalry 2",
+   "subject": "Langschwert",
+   "action": "windup",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=DCn-SfNQwQI",
+   "timestamp": "22.517–22.733 s",
+   "channel": "Najius Maximus",
+   "upload_date": "20220222",
+   "fps_real": 60,
+   "frames": 13,
+   "tip_xy": null,
+   "hilt_xy": [
+    92,
+    68
+   ],
+   "bbox": [
+    75,
+    100,
+    60,
+    80
+   ],
+   "blade_angle_deg": null,
+   "camera_motion": "keine sichtbar",
+   "fov": null,
+   "notes": "Ausholen zum Waagerechtschlag = erste Bewegung bis Schwert unten rechts am tiefsten Punkt/teils aus dem Bild. Lage aus 22.650. Bogen sheets/c2_2240-2310_60fps.jpg"
+  },
+  {
+   "game": "Chivalry 2",
+   "subject": "Langschwert",
+   "action": "strike",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=DCn-SfNQwQI",
+   "timestamp": "22.750–22.867 s",
+   "channel": "Najius Maximus",
+   "upload_date": "20220222",
+   "fps_real": 60,
+   "frames": 7,
+   "tip_xy": null,
+   "hilt_xy": null,
+   "bbox": [
+    50,
+    100,
+    55,
+    61
+   ],
+   "blade_angle_deg": -90,
+   "camera_motion": "keine sichtbar",
+   "fov": null,
+   "notes": "Waagerechtschlag rechts -> links als Bewegungsspur (Klinge selbst unscharf), Bahn bei y 56-60, also 6-10 pp unter dem Fadenkreuz; Fadenkreuz nicht verdeckt. Treffer (Blut) 22.817. Kein Rückweg in Ruhe: ab 22.983 holt der Spieler zum nächsten Schlag aus (Kette). Bild frames/c2_slash_pick.jpg (22.767, 22.817)"
+  },
+  {
+   "game": "Chivalry 2",
+   "subject": "Langschwert",
+   "action": "strike",
+   "status": "O",
+   "source_url": "https://www.youtube.com/watch?v=DCn-SfNQwQI",
+   "timestamp": "23.550–24.383 s",
+   "channel": "Najius Maximus",
+   "upload_date": "20220222",
+   "fps_real": 60,
+   "frames": 50,
+   "tip_xy": null,
+   "hilt_xy": null,
+   "bbox": [
+    0,
+    100,
+    0,
+    100
+   ],
+   "blade_angle_deg": null,
+   "camera_motion": "keine sichtbar",
+   "fov": null,
+   "notes": "Zweiter Schlag der Kette (Art unsicher, vermutlich Rückhand-/Überkopfschlag): Arme und Klinge kreuzen die obere Bildhälfte 23.617-23.783 (~11 Bilder Fadenkreuz verdeckt), Waffe 23.850-24.233 aus dem Bild (~23 Bilder), kommt 24.250 von rechts oben herab, Treffer 24.383. Eingabe unbekannt, deshalb nur Sichtung. Bogen sheets/c2_2355-2455_30fps.jpg"
+  },
+  {
+   "game": "Chivalry 2",
+   "subject": "Langschwert",
+   "action": "block",
+   "status": "O",
+   "source_url": "https://www.youtube.com/watch?v=DCn-SfNQwQI",
+   "timestamp": "65.983–66.233 s",
+   "channel": "Najius Maximus",
+   "upload_date": "20220222",
+   "fps_real": 60,
+   "frames": 15,
+   "tip_xy": null,
+   "hilt_xy": [
+    82,
+    58
+   ],
+   "bbox": [
+    55,
+    100,
+    20,
+    100
+   ],
+   "blade_angle_deg": 49,
+   "camera_motion": "Gehen",
+   "fov": null,
+   "notes": "Haltungswechsel aus der Ruhe (65.800: Spitze 57/22, Parierstange 66/68, -19 Grad) in eine Schräghaltung quer über die rechte Bildhälfte (Arm von 55/100 zur Hand 80/60, Klinge nach rechts oben aus dem Bild), gehalten bis mindestens 68.0. Ob Parade/Block oder Ladeschlag, ist ohne Eingabespur nicht belegt - nur Sichtung; Lagen gemessen an 67.000. Bogen sheets/c2_6585-6645_60fps.jpg, frames/c2_pick_block.jpg"
+  },
+  {
+   "game": "Halo Infinite",
+   "subject": "Energieschwert",
+   "action": "idle",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=ICqehEtHVdg",
+   "timestamp": "276.200 s",
+   "channel": "Hamo clips",
+   "upload_date": "20211121",
+   "fps_real": 60,
+   "frames": null,
+   "tip_xy": [
+    50,
+    61
+   ],
+   "hilt_xy": [
+    78,
+    80
+   ],
+   "bbox": [
+    50,
+    92,
+    40,
+    100
+   ],
+   "blade_angle_deg": -69,
+   "camera_motion": "keine",
+   "fov": null,
+   "notes": "Zweizinkige Klinge zeigt von rechts unten zur Bildmitte, Spitze der unteren Zinke ~11 pp unter dem Fadenkreuz, obere Zinke knickt bei 70/42; linke Hand offen links unten 25-45/65-100. Zweites Ruhebild 279.500: Spitze 59/56, Heft 82/77. Bild frames/halo2_idle_sprint_pick.jpg"
+  },
+  {
+   "game": "Halo Infinite",
+   "subject": "Energieschwert",
+   "action": "sprint",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=ICqehEtHVdg",
+   "timestamp": "277.400 s",
+   "channel": "Hamo clips",
+   "upload_date": "20211121",
+   "fps_real": 60,
+   "frames": null,
+   "tip_xy": [
+    52,
+    80
+   ],
+   "hilt_xy": null,
+   "bbox": [
+    50,
+    100,
+    78,
+    100
+   ],
+   "blade_angle_deg": -75,
+   "camera_motion": "Lauf",
+   "fov": null,
+   "notes": "Schwert gesenkt flach am unteren rechten Rand, Hand unter dem Bildrand; nur Lage. Bild frames/halo2_idle_sprint_pick.jpg"
+  },
+  {
+   "game": "Halo Infinite",
+   "subject": "Energieschwert",
+   "action": "windup",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=ICqehEtHVdg",
+   "timestamp": "278.067–278.117 s",
+   "channel": "Hamo clips",
+   "upload_date": "20211121",
+   "fps_real": 60,
+   "frames": 3,
+   "tip_xy": [
+    60,
+    63
+   ],
+   "hilt_xy": [
+    85,
+    90
+   ],
+   "bbox": [
+    55,
+    100,
+    55,
+    100
+   ],
+   "blade_angle_deg": -60,
+   "camera_motion": "Ausfallschritt (Lunge): Kamera fährt 277.967-278.083 auf das Ziel zu, Ziel wächst von ~30 % H auf > 100 % H",
+   "fov": null,
+   "notes": "Ausholen = Schwert zurück nach rechts unten (278.083 fast ganz aus dem Bild) bis Beginn der schnellen Bahn; kurz, <= 3 Bilder. Lage aus 278.100. Bild frames/halo2_strike_pick2.jpg; Masken-Schwerpunkte frames/halo2_cyan.txt"
+  },
+  {
+   "game": "Halo Infinite",
+   "subject": "Energieschwert",
+   "action": "strike",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=ICqehEtHVdg",
+   "timestamp": "278.117–278.167 s",
+   "channel": "Hamo clips",
+   "upload_date": "20211121",
+   "fps_real": 60,
+   "frames": 3,
+   "tip_xy": [
+    25,
+    20
+   ],
+   "hilt_xy": [
+    52,
+    52
+   ],
+   "bbox": [
+    15,
+    100,
+    15,
+    100
+   ],
+   "blade_angle_deg": -52,
+   "camera_motion": "Lunge-Ende, keine Neigung sichtbar",
+   "fov": null,
+   "notes": "Schnelle Bahn rechts unten -> links oben, Schwerpunkt der Klingenmaske 62/68 -> 45/55 -> 25/39; Heft auf dem Fadenkreuz bei 278.133 (1 Bild). Danach Durchschwung links gehalten 278.167-278.750 (~35 Bilder, Schwerpunkt ~24/52, Unterarm verdeckt das Fadenkreuz ~278.2). Lage aus 278.133. Bild frames/halo2_strike_pick2.jpg, frames/halo2_idle_sprint_pick.jpg"
+  },
+  {
+   "game": "Halo Infinite",
+   "subject": "Energieschwert",
+   "action": "recover",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=ICqehEtHVdg",
+   "timestamp": "278.767–279.150 s",
+   "channel": "Hamo clips",
+   "upload_date": "20211121",
+   "fps_real": 60,
+   "frames": 23,
+   "tip_xy": [
+    59,
+    56
+   ],
+   "hilt_xy": [
+    82,
+    77
+   ],
+   "bbox": [
+    50,
+    95,
+    38,
+    100
+   ],
+   "blade_angle_deg": -65,
+   "camera_motion": "Blickschwenk (Spieler)",
+   "fov": null,
+   "notes": "Rückkehr = Schwert verlässt links unten das Bild (278.767-278.800), 278.800-278.950 nicht im Bild (~10 Bilder), tritt 278.967 rechts unten ein, Ruhe ±3 pp ab ~279.150. Bogen sheets/halo2_27875-27935_60fps.jpg"
+  },
+  {
+   "game": "Ghostrunner",
+   "subject": "Katana",
+   "action": "idle",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=-9LfAI3_Vlo",
+   "timestamp": "58.100 s",
+   "channel": "VideoGamesTV",
+   "upload_date": "20210508",
+   "fps_real": 60,
+   "frames": null,
+   "tip_xy": [
+    45,
+    87
+   ],
+   "hilt_xy": [
+    90,
+    88
+   ],
+   "bbox": [
+    45,
+    96,
+    80,
+    95
+   ],
+   "blade_angle_deg": -88,
+   "camera_motion": "Lauf",
+   "fov": null,
+   "notes": "Klinge liegt fast waagerecht am unteren Bildrand, Hand rechts unten; Fadenkreuz frei. Zweites Bild 66.500 (rot leuchtende Klinge): von 0/82 zur Hand 62/77. Kill-Run-Modus (Update 2021). Bild frames/gr_pick.jpg"
+  },
+  {
+   "game": "Ghostrunner",
+   "subject": "Katana",
+   "action": "strike",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=-9LfAI3_Vlo",
+   "timestamp": "57.100–57.217 s",
+   "channel": "VideoGamesTV",
+   "upload_date": "20210508",
+   "fps_real": 60,
+   "frames": 7,
+   "tip_xy": null,
+   "hilt_xy": [
+    45,
+    70
+   ],
+   "bbox": [
+    0,
+    60,
+    0,
+    100
+   ],
+   "blade_angle_deg": null,
+   "camera_motion": "Dash davor (Bewegungsunschärfe 57.050-57.083), Blitz/Effekt verdeckt das Bild 57.200-57.333",
+   "fov": null,
+   "notes": "Arm mit Klinge kommt hoch links ins Bild (Hand ~15/25 bei 57.117) und schwingt diagonal nach rechts unten (Hand ~45/70 bei 57.183, ~55/90 bei 57.217); kreuzt die Bildmitte ~57.183. Ausholen nicht sichtbar (liegt im Dash). Zweiter Schlag 54.600-54.933 nur als Unschärfe, Klinge danach rechts unten 73/97 -> 96/62 (+55 Grad, 55.100). Bogen sheets/gr_5705-5745_60fps.jpg, sheets/gr_5445-5505_60fps.jpg"
+  }
+ ],
+ "glaive_ego": [
+  {
+   "game": "Destiny 2",
+   "subject": "Lubrae's Ruin",
+   "action": "hip",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=O9QEU2RzB28",
+   "timestamp": "143.010 s",
+   "channel": "Boosh Ninja",
+   "upload_date": "20221118",
+   "fps_real": 59.94,
+   "frames": null,
+   "points": {
+    "tip": [
+     63.2,
+     45.5
+    ],
+    "head_base": [
+     60.0,
+     69.2
+    ],
+    "shaft_end": [
+     77.0,
+     100.0
+    ],
+    "hand": [
+     72.9,
+     90.8
+    ]
+   },
+   "bbox": [
+    46.3,
+    77.0,
+    45.5,
+    100.0
+   ],
+   "angle_deg": 39,
+   "notes": "Datei f120 (+141,008 s). Spitze = oberer Dorn; Seitenklinge 46,3/69,0; Schaft verschwindet in der rechten Hand (68,6/81,7), shaft_end = Bildkante unter der Hand (verdeckt). Bestand Griff 73/92,4 → −0,1/−1,6 pp; Hülle rechts +2,5 pp (Handschuh). Bildmitte frei."
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Nezarec's Whisper",
+   "action": "hip",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=1pH6zS-lj5g",
+   "timestamp": "234.000 s",
+   "channel": "Boosh Ninja",
+   "upload_date": "20230314",
+   "fps_real": 59.94,
+   "frames": null,
+   "points": {
+    "tip": [
+     68.6,
+     50.3
+    ],
+    "head_base": [
+     60.0,
+     69.4
+    ],
+    "shaft_end": [
+     77.0,
+     100.0
+    ],
+    "hand": [
+     68.0,
+     73.0
+    ]
+   },
+   "bbox": [
+    52.5,
+    77.0,
+    50.3,
+    100.0
+   ],
+   "angle_deg": 46,
+   "notes": "Datei f119 (+232,015 s). Rosa Hakenklinge; Hülle nur Waffe – mit rechtem Ärmel bis ≈ 83 (Bestand 52,3–83 × 50–100). Hand = greifende Finger unter dem Kopf; linker Unterarm 40–60/86–100."
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Lubrae's Ruin",
+   "action": "shot",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=O9QEU2RzB28",
+   "timestamp": "151.468–152.085 s",
+   "channel": "Boosh Ninja",
+   "upload_date": "20221118",
+   "fps_real": 59.94,
+   "frames": 37,
+   "points": {
+    "tip": [
+     66.6,
+     37.2
+    ],
+    "head_base": null,
+    "shaft_end": null,
+    "hand": null
+   },
+   "bbox": [
+    44.0,
+    83.0,
+    50.0,
+    100.0
+   ],
+   "angle_deg": null,
+   "notes": "Schuss 1 (Datei f627). Projektil ab f629 (+2 Bilder) bei ≈ 46/50 (Flammenzunge), Schuss 2 weißglühende Kugel ≈ 3 pp Ø bei 48,2/42,9. Waffe glüht f630–636. Dornspitze 63,1/45,6 → max 66,6/37,2 (+8,4 pp hoch) f644–648 → ±3 pp f660 (33 Bilder) → Ruhe f664 (37). bbox = Glühkörper bei f631. Kamerakick (Weltanker, 2 Anker, NCC ≥ 0,92): Kamera hoch 9,6–13,1 pp H über 8 Schüsse, Spitze 4–6 Bilder, ≤ 3 pp nach 16–21, Rest −1,5…−1,9 pp; Netto mit Spielereingabe."
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Lubrae's Ruin",
+   "action": "shot",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=O9QEU2RzB28",
+   "timestamp": "149.616–155.455 s",
+   "channel": "Boosh Ninja",
+   "upload_date": "20221118",
+   "fps_real": 59.94,
+   "frames": 350,
+   "points": {
+    "tip": null,
+    "head_base": null,
+    "shaft_end": null,
+    "hand": null
+   },
+   "bbox": null,
+   "angle_deg": null,
+   "notes": "Kadenz: 6 Schüsse je Magazin (zweimal), dann Nachladen. Weltkick-Beginn f630/685/741/803/866 → Abstände 55/56/62/63 Bilder (0,918–1,051 s); aus dem Schild 52. Manifest Adaptive 55/min = 65,4 Bilder – Normaltempo nicht belegt. Schuss 3 mit 5 Bildwiederholungen (±2 Bilder)."
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Nezarec's Whisper",
+   "action": "shot",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=1pH6zS-lj5g",
+   "timestamp": "244.961–259.576 s",
+   "channel": "Boosh Ninja",
+   "upload_date": "20230314",
+   "fps_real": 59.94,
+   "frames": 876,
+   "points": {
+    "tip": null,
+    "head_base": null,
+    "shaft_end": null,
+    "hand": null
+   },
+   "bbox": null,
+   "angle_deg": null,
+   "notes": "Kadenz: je 6 Schüsse; Blitz-Beginn-Abstände 60/51/54/56/54 und 52/55/56/53/56 (+ 60/57/57 bei 286,8–289,7 s) Bilder = 0,85–1,00 s. Projektil weißblaue Kugel bei 49/46 (Datei f887). Kamerakick nicht getrennt."
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Lubrae's Ruin",
+   "action": "melee",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=O9QEU2RzB28",
+   "timestamp": "175.292–175.609 s",
+   "channel": "Boosh Ninja",
+   "upload_date": "20221118",
+   "fps_real": 59.94,
+   "frames": 19,
+   "points": {
+    "tip": [
+     34.4,
+     38.9
+    ],
+    "head_base": null,
+    "shaft_end": null,
+    "hand": null
+   },
+   "bbox": null,
+   "angle_deg": null,
+   "notes": "Schlag 1 aus der Hüfte: Beginn f2055; Ausholen nach rechts unten bis Umkehr f2063 (8 Bilder, Klingenspitze 47,5/59,3; 45,6/71,6 bei f2057); schnelle Bahn rechts→links f2064–f2074 (10 Bilder), Kopf auf Mitte 50/52 bei f2066, tip = führende Klingenspitze bei f2066 (7,3/33,8 bei f2069); Fadenkreuz verdeckt f2065–2067 (3 Bilder). Luftschlag, kein Ziel."
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Lubrae's Ruin",
+   "action": "melee",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=O9QEU2RzB28",
+   "timestamp": "175.292–179.096 s",
+   "channel": "Boosh Ninja",
+   "upload_date": "20221118",
+   "fps_real": 59.94,
+   "frames": 228,
+   "points": {
+    "tip": null,
+    "head_base": null,
+    "shaft_end": null,
+    "hand": null
+   },
+   "bbox": null,
+   "angle_deg": null,
+   "notes": "Kombo: 5 Schläge rechts→links, Mittendurchgänge f2066/2105/2148/2185/(2224) → 39/43/37/39 Bilder; Mitte je 2–3 Bilder verdeckt (4 von 5). Waffe zwischen den Schlägen außerhalb des Bilds; Hüfte ±3 pp f2283 (59 Bilder nach letztem Schlag)."
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Lubrae's Ruin",
+   "action": "shield",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=O9QEU2RzB28",
+   "timestamp": "165.682–165.866 s",
+   "channel": "Boosh Ninja",
+   "upload_date": "20221118",
+   "fps_real": 59.94,
+   "frames": 11,
+   "points": {
+    "tip": null,
+    "head_base": null,
+    "shaft_end": null,
+    "hand": null
+   },
+   "bbox": null,
+   "angle_deg": null,
+   "notes": "Ein: erste Bewegung f1479 → Schildpose ±1 pp f1490 (11 Bilder); zweites Beispiel f240 → f250 (10 Bilder). Schildeffekt nur schwache Vollbild-Verzerrung, Beginn nicht bildgenau."
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Lubrae's Ruin",
+   "action": "shield",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=O9QEU2RzB28",
+   "timestamp": "166.600 s",
+   "channel": "Boosh Ninja",
+   "upload_date": "20221118",
+   "fps_real": 59.94,
+   "frames": null,
+   "points": {
+    "tip": [
+     59.2,
+     35.9
+    ],
+    "head_base": [
+     63.9,
+     62.9
+    ],
+    "shaft_end": null,
+    "hand": [
+     82.3,
+     80.3
+    ]
+   },
+   "bbox": [
+    51.5,
+    100.0,
+    35.9,
+    100.0
+   ],
+   "angle_deg": 25,
+   "notes": "Gehalten (Datei f1534): Klinge senkrecht 70° (untere Spitze 51,5/74,4), Schaftwinkel 25°. Bildmitte frei (Klinge 4 pp rechts). Schildeffekt ≈ ganzes Bild, nicht deckend, kein Rechteck. Weltmaßstab 1,05× gegen Hüfte (corr 0,93; Kontrolle 1,00× bei 0,999) – Zoom oder Verzerrung nicht trennbar."
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Lubrae's Ruin",
+   "action": "shield",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=O9QEU2RzB28",
+   "timestamp": "149.566–149.616 s",
+   "channel": "Boosh Ninja",
+   "upload_date": "20221118",
+   "fps_real": 59.94,
+   "frames": 3,
+   "points": {
+    "tip": null,
+    "head_base": null,
+    "shaft_end": null,
+    "hand": null
+   },
+   "bbox": null,
+   "angle_deg": null,
+   "notes": "Aus: beide Male durch Schuss – letzte Schildpose f513 → Hüfte ±3 pp f516 (3 Bilder), ruhig f520; zweites Beispiel f3476 → Schuss f3484 → Hüfte f3489 (13 Bilder), ruhig f3492. Reines Loslassen nicht im Material."
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Lubrae's Ruin",
+   "action": "reload",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=O9QEU2RzB28",
+   "timestamp": "156.306–159.393 s",
+   "channel": "Boosh Ninja",
+   "upload_date": "20221118",
+   "fps_real": 59.94,
+   "frames": 185,
+   "points": {
+    "tip": null,
+    "head_base": null,
+    "shaft_end": null,
+    "hand": null
+   },
+   "bbox": null,
+   "angle_deg": null,
+   "notes": "Nachladen 1 aus der Hüfte: Beginn f917; erste Hüftpassage f1088 (171, 2,853 s); Überschwingen 7,0 pp hoch; Hüfte ±3 pp f1098 (181, 3,020 s); ruhig f1102 (185, 3,086 s). Kein HUD. Modell 2025 Typwert 2,625 s."
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Lubrae's Ruin",
+   "action": "reload",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=O9QEU2RzB28",
+   "timestamp": "171.405–174.474 s",
+   "channel": "Boosh Ninja",
+   "upload_date": "20221118",
+   "fps_real": 59.94,
+   "frames": 184,
+   "points": {
+    "tip": null,
+    "head_base": null,
+    "shaft_end": null,
+    "hand": null
+   },
+   "bbox": null,
+   "angle_deg": null,
+   "notes": "Nachladen 2 direkt nach dem 6. Schuss aus dem Schild: Beginn f1822; erste Hüftpassage f1987 (165, 2,753 s); Überschwingen 7,4 pp; ±3 pp f2000 (178, 2,970 s); ruhig f2006 (184, 3,070 s)."
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Nezarec's Whisper",
+   "action": "reload",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=1pH6zS-lj5g",
+   "timestamp": "250.467–253.970 s",
+   "channel": "Boosh Ninja",
+   "upload_date": "20230314",
+   "fps_real": 59.94,
+   "frames": 210,
+   "points": {
+    "tip": null,
+    "head_base": null,
+    "shaft_end": null,
+    "hand": null
+   },
+   "bbox": null,
+   "angle_deg": null,
+   "notes": "Beginn f1106; Hüfte ±3 pp f1304 (198, 3,303 s, ±2 Bilder, NCC 0,5–0,6 wegen Glühen); stabil ±1,5 pp f1316 (210, 3,504 s); NCC ≥ 0,92 f1352. Kein HUD."
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Vexcalibur",
+   "action": "reload",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=BqVfcsg3nYU",
+   "timestamp": "9.300–11.583 s",
+   "channel": "Ultraclocked",
+   "upload_date": "20241126",
+   "fps_real": 60.0,
+   "frames": 137,
+   "points": {
+    "tip": null,
+    "head_base": null,
+    "shaft_end": null,
+    "hand": null
+   },
+   "bbox": null,
+   "angle_deg": null,
+   "notes": "Bestandsprüfung z-glefe-vexcalibur (geteiltes Bild, links): Beginn 9,300 bestätigt; erste Hüftpassage 11,367 (124 Bilder, 2,067 s); Überschwingen 7,8 pp hoch 11,433–11,450; ±3 pp 11,517 (133, 2,217 s); ruhig 11,567–11,583 – Bestand 2,283 s = Beginn → Ruhe."
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Lubrae's Ruin",
+   "action": "crosshair",
+   "status": "M",
+   "source_url": "https://www.youtube.com/watch?v=QOQsRsqwekg",
+   "timestamp": "129.000 s",
+   "channel": "CoolGuy",
+   "upload_date": "20220523",
+   "fps_real": 60.0,
+   "frames": null,
+   "points": {
+    "tip": null,
+    "head_base": null,
+    "shaft_end": null,
+    "hand": null
+   },
+   "bbox": [
+    47.1,
+    52.9,
+    54.3,
+    62.8
+   ],
+   "angle_deg": null,
+   "notes": "CoolGuy-Spielclip mit HUD (Abschnitt 120–180 s, Datei 9,000). Kreis Ø 3,4 % H, Mitte 50,0/57,5 (7,5 pp unter Bildmitte, vier Bilder 57,4–58,0); Strich oben 54,3–55,0; Bogenanzeige Ø 10,3 % H. Kein ADS: Zieltaste = Schild (kein Visier, Weltmaßstab 1,05×). Herkunft der tiefen Lage (Glefe/Plattform/Einstellung) offen."
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Lubrae's Ruin",
+   "action": "sprint",
+   "status": "O",
+   "source_url": "https://www.youtube.com/watch?v=O9QEU2RzB28",
+   "timestamp": null,
+   "channel": "Boosh Ninja",
+   "upload_date": "20221118",
+   "fps_real": 59.94,
+   "frames": null,
+   "points": {
+    "tip": null,
+    "head_base": null,
+    "shaft_end": null,
+    "hand": null
+   },
+   "bbox": null,
+   "angle_deg": null,
+   "notes": "Nicht im Material: Showcase-Schießstand ohne Sprint (Haltung 4,1–8,6 s Datei ist Schild). CoolGuy-Spielclip nicht darauf ausgewertet."
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Lubrae's Ruin",
+   "action": "reload",
+   "status": "O",
+   "source_url": "https://www.youtube.com/watch?v=O9QEU2RzB28",
+   "timestamp": null,
+   "channel": "Boosh Ninja",
+   "upload_date": "20221118",
+   "fps_real": 59.94,
+   "frames": null,
+   "points": {
+    "tip": null,
+    "head_base": null,
+    "shaft_end": null,
+    "hand": null
+   },
+   "bbox": null,
+   "angle_deg": null,
+   "notes": "HUD-Zunahme beim Nachladen offen: Showcases ohne HUD; CoolGuy-Nachladen aus 0 (Datei 31,5–32,5 s) liegt über Tod/Schnitt."
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Lubrae's Ruin",
+   "action": "shield",
+   "status": "O",
+   "source_url": "https://www.youtube.com/watch?v=O9QEU2RzB28",
+   "timestamp": null,
+   "channel": "Boosh Ninja",
+   "upload_date": "20221118",
+   "fps_real": 59.94,
+   "frames": null,
+   "points": {
+    "tip": null,
+    "head_base": null,
+    "shaft_end": null,
+    "hand": null
+   },
+   "bbox": null,
+   "angle_deg": null,
+   "notes": "Treffer am Schild und Schild-Rechteck offen: im Schießstand kein Beschuss, Effekt nur Vollbild-Verzerrung."
+  }
+ ],
+ "evaluation": [
+  {
+   "game": "Destiny 2",
+   "subject": "Schwert in der Schulteransicht",
+   "good": "Übersicht und Rundumsicht, eigene Schlagbahn am Körper lesbar",
+   "bad": "3-Peeking in PvP; Wunsch nach Ego-Schwert; Guard vor 2020 fast sinnlos",
+   "audience": "PvE/Übersicht; PvP fordert Beschränkung",
+   "player_opinion": {
+    "summary": "Third-Person-Modus gewünscht, 3-Peeking kritisiert",
+    "recurrence": "wiederkehrend: Third-Person-Modus 5 Threads, 3-Peeking 3 Threads",
+    "sources": [
+     "https://www.bungie.net/en/Forums/Post/252397152",
+     "https://steamcommunity.com/app/1085660/discussions/0/4042608198329991312",
+     "https://steamcommunity.com/app/1085660/discussions/0/4299320215882183471",
+     "https://steamcommunity.com/app/1085660/discussions/0/4631485178655632889",
+     "https://steamcommunity.com/app/1085660/discussions/0/673972930559987754",
+     "https://www.bungie.net/en/Forums/Post/257215736",
+     "https://www.bungie.net/en/Forums/Post/256491031",
+     "https://www.bungie.net/en-us/Forums/Post/239292077",
+     "https://www.bungie.net/en/Forums/Post/253398475"
+    ],
+    "counter": "„es ist ein Ego-Shooter“"
+   },
+   "dev_reference": {
+    "summary": "Schwerter ziehen die Kamera heraus, weil große Schläge außerhalb des Ego-Sichtfelds treffen",
+    "url": "https://www.youtube.com/watch?v=6-26SH5jSwQ",
+    "date": "2022-02-14"
+   }
+  },
+  {
+   "game": "Destiny 2",
+   "subject": "Glefe in Ego",
+   "good": "eine Perspektive für Schuss, Schild und Schlag; Schild 97,5 % Schadensminderung PvE, 75 % PvP (TWAB 21.04.2022)",
+   "bad": "Schild-Verzögerung/Desync, Projektilinkonsistenz, Perks greifen nicht auf Nahkampf, Effektdichte",
+   "audience": "PvE-Nahkampf",
+   "player_opinion": {
+    "summary": "Perk-Frust und Trefferinkonsistenz",
+    "recurrence": "wiederkehrend: Perk-Frust 3 Spielerquellen, Trefferinkonsistenz 3",
+    "sources": [
+     "https://www.bungie.net/en/Forums/Post/260767505",
+     "https://steamcommunity.com/app/1085660/discussions/0/3364775865378444067",
+     "https://steamcommunity.com/app/1085660/discussions/0/3266807987598689550",
+     "https://steamcommunity.com/app/1085660/discussions/0/3271314133306549689/",
+     "https://www.bungie.net/en/Forums/Post/264602271",
+     "https://www.bungie.net/hi/Forums/Post/264549926",
+     "https://www.bungie.net/en/Forums/Post/261160090",
+     "https://www.bungie.net/en/Forums/Post/264761879"
+    ],
+    "counter": "„Glefen sind in Ordnung“, Buffs „enorm“"
+   },
+   "dev_reference": [
+    {
+     "summary": "gerichtete Stangenwaffe bleibt in Ego wegen Unmittelbarkeit",
+     "url": "https://www.youtube.com/watch?v=6-26SH5jSwQ",
+     "date": "2022-02-14"
+    },
+    {
+     "summary": "Nahkampf bewusst einfacher Schlag, Lunge schon lang, Schildverbrauch −30 %, Schild 97,5 %/75 % Schadensminderung",
+     "url": "https://destiny.bungie.org/bwu/409",
+     "date": "2022-04-21",
+     "speaker": "Chris Proctor"
+    }
+   ]
+  },
+  {
+   "game": "Dark Messiah of Might and Magic",
+   "subject": "Ego-Schwert",
+   "good": "Gewicht, Timing, Tritt",
+   "bad": "Entfernung schwer zu schätzen; Tritt zu stark",
+   "audience": "Umgebungs-Kills",
+   "player_opinion": {
+    "summary": "bestes Ego-Nahkampfsystem",
+    "recurrence": "wiederkehrend (3 Quellen)",
+    "sources": [
+     "https://steamcommunity.com/app/2100/discussions/0/882957625837028722/"
+    ],
+    "counter": "Chivalry, Mount & Blade"
+   },
+   "dev_reference": {
+    "summary": "Entfernung schätzen nie vollständig gelöst, größere Trefferzone",
+    "url": "https://www.gamedeveloper.com/game-platforms/gdc-arkane-s-colantonio-takes-on-first-person-melee",
+    "date": "2007-03-07"
+   }
+  },
+  {
+   "game": "The Elder Scrolls V: Skyrim",
+   "subject": "Ego-Nahkampf",
+   "good": "Schild und Zweihand-System, Stagger",
+   "bad": "Fuchteln ohne Gewicht, Tastenhämmern",
+   "audience": "Magie/Bogen-Spieler, Nahkampf meist mit Mods",
+   "player_opinion": {
+    "summary": "Spieler-Threads nur Suchauszug",
+    "recurrence": null,
+    "sources": [],
+    "counter": null
+   },
+   "dev_reference": {
+    "summary": "Kampf greifbarer machen (Todd Howard)",
+    "url": "https://gameinformer.com/b/features/archive/2011/01/24/skyrim-building-better-combat.aspx",
+    "date": "2011-01-24"
+   },
+   "press": "https://kotaku.com/five-disappointing-things-about-the-elder-scrolls-v-sk-5858474"
+  },
+  {
+   "game": "Chivalry 2 / Mordhau",
+   "subject": "Ego gegen Third Person",
+   "good": "Ego für Duelle und Stiche",
+   "bad": "Tiefenwahrnehmung der Reichweite",
+   "audience": "Duelle gegen Massenschlacht",
+   "player_opinion": {
+    "summary": "uneins, welche Kamera Reichweite lesbarer macht",
+    "recurrence": "wiederkehrend (7 Threads in der Zuarbeit, 3 verlinkt)",
+    "sources": [
+     "https://steamcommunity.com/app/629760/discussions/0/1643164649207550435/",
+     "https://steamcommunity.com/app/629760/discussions/0/1643164558917088382/",
+     "https://steamcommunity.com/app/1824220/discussions/0/3414305949100931803/"
+    ],
+    "counter": "Third Person verdeckt Animationen"
+   },
+   "dev_reference": null
+  },
+  {
+   "game": "Halo Infinite",
+   "subject": "Energieschwert",
+   "good": "Fadenkreuz zeigt Lunge-Reichweite (Halopedia)",
+   "bad": "Gegenspiel schwach",
+   "audience": "Kurzstrecken-PvP",
+   "player_opinion": {
+    "summary": "billige Taktik, wenig Konter",
+    "recurrence": "Einzelstimmen",
+    "sources": [
+     "https://steamcommunity.com/app/1240440/discussions/0/3195862975798039670"
+    ],
+    "counter": null
+   },
+   "dev_reference": null,
+   "source_wiki": "https://www.halopedia.org/Type-1_energy_sword/Gameplay"
+  },
+  {
+   "game": "Ghostrunner",
+   "subject": "Katana in Ego",
+   "good": "Ein-Treffer-Tod, Parade befriedigend",
+   "bad": "Steuerung rutschig, Schwierigkeit frustrierend; Kampf bremst das Tempo",
+   "audience": "reaktionsstarke Spieler",
+   "player_opinion": {
+    "summary": "Rezensionen gemischt",
+    "recurrence": "2 verlinkte Rezensionen",
+    "sources": [
+     "https://www.nme.com/reviews/game-reviews/ghostrunner-review-a-deadly-cyberpunk-first-person-slasher-that-tests-your-patience-2803103",
+     "https://www.windowscentral.com/ghostrunner-review-thrilling-parkour-platformer-marred-combat"
+    ],
+    "counter": null
+   },
+   "dev_reference": {
+    "summary": "Distanz schwer, deshalb Heranziehen an den Gegner",
+    "url": "https://gamingbolt.com/ghostrunner-interview-combat-setting-and-more",
+    "date": "2019-10-02"
+   }
+  }
+ ],
+ "ballon_summary": {
+  "sword": {
+   "blade_len": [
+    0.64,
+    0.76
+   ],
+   "grip_len": [
+    0.22,
+    0.3
+   ],
+   "pommel_len": [
+    0.03,
+    0.09
+   ],
+   "guard_len": [
+    0.02,
+    0.08
+   ],
+   "grip_w": 0.04,
+   "blade_w": [
+    0.04,
+    0.08
+   ],
+   "h_to_l_slim": [
+    0.07,
+    0.1
+   ],
+   "h_to_l_wide": [
+    0.21,
+    0.33
+   ],
+   "ego_idle_examples": {
+    "Dark Messiah": {
+     "tip_xy": [
+      69,
+      42
+     ]
+    },
+    "Halo Infinite": {
+     "tip_xy": [
+      50,
+      61
+     ],
+     "hilt_xy": [
+      78,
+      80
+     ]
+    },
+    "Ghostrunner": {
+     "tip_xy": [
+      45,
+      87
+     ]
+    }
+   },
+   "ego_frames": {
+    "windup": [
+     3,
+     28
+    ],
+    "strike": [
+     3,
+     16
+    ],
+    "centre_covered": [
+     1,
+     4
+    ],
+    "recover_halo": 23,
+    "block_in_dark_messiah": 23,
+    "lunge_halo": 7
+   },
+   "destiny_frames": {
+    "enter_empty": 9,
+    "enter_pullback": 20,
+    "exit_pushin": 6,
+    "light_first": 14,
+    "light_chain_to_rest": [
+     54,
+     58
+    ],
+    "heavy_windup": 14,
+    "heavy_total": 50,
+    "guard_in_max": 9
+   },
+   "destiny_camera": {
+    "body_height_pct_h": [
+     42,
+     43
+    ],
+    "body_centre_x_pct": [
+     44,
+     48
+    ],
+    "head_top_below_centre_pp": [
+     3,
+     5
+    ],
+    "lateral_offset_kh": [
+     0.13,
+     0.25
+    ],
+    "distance_kh_for_hfov_74_90_105": [
+     2.8,
+     2.1,
+     1.6
+    ],
+    "note": "stehend Io f17808/f18000; Ultraclocked 2026 Block f11940 46 % H (Kamera näher)"
+   }
+  },
+  "glaive": {
+   "shaft_len": [
+    0.52,
+    0.55
+   ],
+   "head_len": [
+    0.45,
+    0.48
+   ],
+   "emitter_len": [
+    0.11,
+    0.16
+   ],
+   "blade_len": [
+    0.3,
+    0.35
+   ],
+   "collar_pos": 0.3,
+   "front_grip": [
+    0.35,
+    0.55
+   ],
+   "shaft_w": [
+    0.03,
+    0.04
+   ],
+   "head_w_max": [
+    0.08,
+    0.11
+   ],
+   "h_to_l": [
+    0.09,
+    0.12
+   ],
+   "hip": {
+    "tip_xy": [
+     [
+      63.2,
+      45.5
+     ],
+     [
+      68.6,
+      50.3
+     ]
+    ],
+    "head_base_xy": [
+     60,
+     69
+    ],
+    "hand_xy": [
+     72.9,
+     90.8
+    ],
+    "bbox": [
+     46.3,
+     77,
+     45.5,
+     100
+    ],
+    "shaft_angle_deg": [
+     39,
+     46
+    ]
+   },
+   "shot": {
+    "projectile_after_frames": 2,
+    "projectile_xy": [
+     [
+      46,
+      50
+     ],
+     [
+      48,
+      43
+     ],
+     [
+      49,
+      46
+     ]
+    ],
+    "glow_frames": 7,
+    "weapon_kick_pp": 8.4,
+    "weapon_peak_frames": [
+     17,
+     21
+    ],
+    "weapon_return_frames": 33,
+    "camera_kick_pp_h": [
+     9.6,
+     13.1
+    ],
+    "camera_peak_frames": [
+     4,
+     6
+    ],
+    "camera_settle_frames": [
+     22,
+     31
+    ],
+    "interval_frames": [
+     51,
+     63
+    ],
+    "magazine": 6
+   },
+   "melee": {
+    "windup_frames": 8,
+    "strike_frames": 10,
+    "centre_covered_frames": 3,
+    "combo_interval_frames": [
+     37,
+     43
+    ],
+    "return_to_hip_frames": 59
+   },
+   "shield": {
+    "in_frames": [
+     10,
+     11
+    ],
+    "tip_xy": [
+     59.2,
+     35.9
+    ],
+    "bbox": [
+     51.5,
+     100,
+     35.9,
+     100
+    ],
+    "out_by_shot_frames": [
+     3,
+     13
+    ],
+    "effect": "Vollbild-Verzerrung, kein Rechteck"
+   },
+   "reload_s": {
+    "lubraes_ruin": [
+     3.07,
+     3.086
+    ],
+    "nezarecs_whisper": 3.504,
+    "vexcalibur": 2.283,
+    "overshoot_pp": [
+     7.0,
+     7.8
+    ]
+   },
+   "crosshair": {
+    "diameter_pct_h": 3.4,
+    "centre_xy": [
+     50.0,
+     57.5
+    ],
+    "note": "eine HUD-Quelle, tiefe Lage offen"
+   },
+   "ads": false,
+   "front_grip_note": "Refusal of the Call 0,31–0,35"
+  }
+ },
+ "sword_decision": {
+  "recommendation": "B",
+  "options": [
+   {
+    "option": "A",
+    "label": "wie Destiny: Wechsel in die Schulteransicht",
+    "effort": "hoch",
+    "notes": "ganze Spielerfigur mit Animationssatz, Schulterkamera mit Kollision, Ein-/Ausfahrt 9+20 / 6 Bilder"
+   },
+   {
+    "option": "B",
+    "label": "Ego nach Vorbildern (Dark Messiah, Halo, Chivalry 2, Ghostrunner)",
+    "effort": "niedrig bis mittel",
+    "notes": "Arme + Schwert, 5–7 Clips, Reichweitensignal oder Lunge nötig; gleiche Technik wie die Glefe"
+   },
+   {
+    "option": "C",
+    "label": "Mischform: Ego, kurzer Kamerarückzug nur beim schweren Angriff",
+    "effort": "mittel bis hoch",
+    "notes": "alles aus B plus sichtbare Figur für einen Vorgang"
+   }
+  ]
+ },
+ "open": [
+  "Winkel-FOV und Kameraabstand in Metern der Schulteransicht",
+  "Normaltempo der Destiny-Schwertabläufe",
+  "Block ablegen und Sprint mit Schwert (Destiny)",
+  "Skyrim ohne Mods, Mordhau, Titanfall 2 als Ego-Vorbilder",
+  "Kamera-Kick beim Ego-Schlag quantifizieren",
+  "Glefe: Nachladen mit HUD-Zunahme, Treffer am Schild, Schild loslassen ohne Schuss, Sprint",
+  "Glefe: Kadenz 51–56 statt 65,4 Bilder (Manifest 55/min)",
+  "Glefe: tiefe Fadenkreuzlage 57,5 % H mit zweiter HUD-Quelle prüfen",
+  "Glefe der Optik-Familie (Aggressive) in Ego",
+  "orthografische Seitenansicht statt 3/4-Manifestbild"
+ ]
+}
