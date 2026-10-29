@@ -1,5 +1,9 @@
 # Changelog
 
+## Patch „blueprint-antworten“ – 2026-10-29
+
+- Antworten des Nutzers (Sightline-Chat, 29.10.2026: „Alle wie empfohlen“) in die Entscheidungslisten von [design-ausruestung.md](docs/design-ausruestung.md#5-entscheidungsliste) (A1–A7 A, A8 B, A9 A) und [design-figuren.md](docs/design-figuren.md#5-entscheidungsliste) (F1–F9 A) eingetragen; Umsetzung in BALLON/Cube Escape.
+
 ## 0.31.0 „Bladework“ – 2026-10-28
 
 - Neue Referenzanalyse [Schwert und Glefe](docs/nahkampf.md) mit `data/nahkampf.json` für BALLON Paket 7: Form an 17 Destiny-Manifestbildern (8 Schwerter: Klinge 0,64–0,76 L, H/L 0,07–0,10 schlank bzw. 0,21–0,33 breit; 9 Glefen mit gemeinsamem Gerüst: Kragen 0,30 L, Kopf ab 0,52–0,55 L, H/L 0,09–0,12), Destiny-Schulteransicht (Einstieg 9 + 20 Bilder, Ausstieg 6 Bilder, Figur 42 % H links der Mitte, Angriffe 14–58 Bilder, Block ≤ 9 Bilder), Ego-Schwerter in Dark Messiah, Chivalry 2, Halo Infinite und Ghostrunner (Ruhe rechts/unten, Mitte 1–4 Bilder verdeckt) und die Glefe in Ego (Hüfte, Schuss mit Projektil an der Bildmitte, Kadenz 51–63 Bilder, Schlag 8 + 10 Bilder, Schild ein 10–11 Bilder, Nachladen 3,07–3,50 s, kein ADS). Fünf Messzeilen (`z-nk-…`) und Methode 27 in destiny2.md, fünf Einträge in `data/clips.json`, Datentest.

@@ -388,6 +388,8 @@ des Nutzers) und `basic/arms/robot_figure.py` (Roboter v2, „keine Spielfigur�
 
 ## 5. Entscheidungsliste
 
+**Beantwortet am 29.10.2026** (Nutzer im Sightline-Chat, weitergegeben über das Postfach): „Alle wie empfohlen“ – F1–F9 A. Umsetzung in BALLON bzw. Cube Escape; dieses Doc hält nur die Antworten fest.
+
 Nur Fragen; entschieden wird in BALLON (Roboter-Spielfigur, Ego-Arme) bzw. Cube Escape (Spielfigur, NPCs, Laufzeit). Format wie die
 [Entscheidungsliste Motiongen](https://github.com/ffunkfabian-hash/cubeescape-ballon/blob/main/docs/entscheidungsliste-motiongen.md).
 Einstufung und Aufwand wie in [design-ausruestung.md › 5](design-ausruestung.md#5-entscheidungsliste).
@@ -396,53 +398,53 @@ Einstufung und Aufwand wie in [design-ausruestung.md › 5](design-ausruestung.m
 - **A (Empfehlung):** Schlank nach dem Zielbild: etwa 7,5 Kopfhöhen (Helm gemessen), lange Beine, Kopf **nicht** vergrößern; Kennzahl im Spec.
 - **B:** Heldenproportion 8 und mehr (breitere Schultern, längere Beine).
 - **C:** Kompakt wie Roboter v2 (≈ 6,4 Segmentlängen) mit Kopf +10 % nach der Übergabe.
-- Antwort: offen
+- Antwort (Nutzer im Sightline-Chat, 29.10.2026, Postfach cubeescape-nexogen#16 Kommentar 6489554081): „Alle wie empfohlen“ → **A** (Empfehlung)
 
 <a id="frage-f2"></a>**Frage F2 – Formsprache je Rolle?** (F-R7; Stil, S)
 - **A (Empfehlung):** Spielerfigur Quadrat mit Kreis-Akzenten (stabil, verlässlich; Medaillons), M-4 und freundliche NPCs kreisdominiert,
   Gegner mit Dreiecken und Schrägen; Grundform je Figur im Modulkopf.
 - **B:** Eine Formfamilie für alle Figuren, Unterscheidung nur über Farbe und Größe.
-- Antwort: offen
+- Antwort (Nutzer im Sightline-Chat, 29.10.2026, Postfach cubeescape-nexogen#16 Kommentar 6489554081): „Alle wie empfohlen“ → **A** (Empfehlung)
 
 <a id="frage-f3"></a>**Frage F3 – Posensatz und Durchdringungsprüfung?** (F-R17, F-R18; Pflicht, sobald Spielfigur; M)
 - **A (Empfehlung):** Fünf Posen (Arm oben, Arm vor der Brust, tiefe Hocke, Ausfallschritt, Rumpfdrehung ±45°) mit BVH-Prüfung je
   Teilpaar in `./check`, Plattenabstand ≥ 1 mm in Grundhaltung.
 - **B:** Nur Grundhaltung ohne Lücke (Stand Übergabe 0.5).
-- Antwort: offen
+- Antwort (Nutzer im Sightline-Chat, 29.10.2026, Postfach cubeescape-nexogen#16 Kommentar 6489554081): „Alle wie empfohlen“ → **A** (Empfehlung)
 
 <a id="frage-f4"></a>**Frage F4 – Schulterpanzer und Brustpanzer?** (F-R16, F-R17; Stil, M)
 - **A (Empfehlung):** Schale starr je Segment, Schulterpanzer an einem Hilfsknochen mit Einfluss nach Armhöhe, Brustpanzer endet an der
   Taille, Bauch zweigeteilt.
 - **B:** Schulterpanzer fest am Oberarm, einteiliger Rumpf (einfacher, Arme nicht über Schulterhöhe).
-- Antwort: offen
+- Antwort (Nutzer im Sightline-Chat, 29.10.2026, Postfach cubeescape-nexogen#16 Kommentar 6489554081): „Alle wie empfohlen“ → **A** (Empfehlung)
 
 <a id="frage-f5"></a>**Frage F5 – Hände der Figur gegenüber der Ego-Hand?** (F-R11, W2; Stil, S–M)
 - **A (Empfehlung):** Ein Handmaß für beide Ansichten (Ego-Arm v3), Änderungen am Ego-Arm wirken auf die Figur; Griffbreite 30 mm der
   Familie bleibt Bezug.
 - **B:** Hand der Außenansicht 10–15 % größer (Valorant-Ansatz), Ego-Hand unverändert.
 - **C:** Getrennt entscheiden, wenn die Figur Spielfigur wird.
-- Antwort: offen
+- Antwort (Nutzer im Sightline-Chat, 29.10.2026, Postfach cubeescape-nexogen#16 Kommentar 6489554081): „Alle wie empfohlen“ → **A** (Empfehlung)
 
 <a id="frage-f6"></a>**Frage F6 – Budget der Spielfigur?** (F-R15, W3; Stil, S)
 - **A (Empfehlung):** Figur höchstens 30 000 Dreiecke, Ausrüstung getrennt gezählt, Knochen ≤ 100 (ohne Simulation); Warnung in `./check`.
 - **B:** Ohne Budget, bis die Figur nach Unity geht.
-- Antwort: offen
+- Antwort (Nutzer im Sightline-Chat, 29.10.2026, Postfach cubeescape-nexogen#16 Kommentar 6489554081): „Alle wie empfohlen“ → **A** (Empfehlung)
 
 <a id="frage-f7"></a>**Frage F7 – Größenklassen für NPCs und Gegner in Cube Escape?** (F-R9, F-R13; Abnehmer Cube Escape, S)
 - **A (Empfehlung):** Drei Klassen als Vielfaches der Spielerfigur (klein ≈ 0,6, mittel ≈ 1,0, groß ≥ 1,6), Schwachstellen hell auf dunklem Körper.
 - **B:** Alle in Spielergröße, Unterscheidung über Form.
 - **C:** In Cube Escape entscheiden.
-- Antwort: offen
+- Antwort (Nutzer im Sightline-Chat, 29.10.2026, Postfach cubeescape-nexogen#16 Kommentar 6489554081): „Alle wie empfohlen“ → **A** (Empfehlung)
 
 <a id="frage-f8"></a>**Frage F8 – Kantenlicht zur Lesbarkeit?** (F-R6; Laufzeit, Abnehmer Cube Escape, M)
 - **A (Empfehlung):** Fresnel-Kantenlicht für Figuren in Unity, betont oben, Gegner farbig; keine Umrisslinie.
 - **B:** Nur Szenenlicht.
-- Antwort: offen
+- Antwort (Nutzer im Sightline-Chat, 29.10.2026, Postfach cubeescape-nexogen#16 Kommentar 6489554081): „Alle wie empfohlen“ → **A** (Empfehlung)
 
 <a id="frage-f9"></a>**Frage F9 – Vorn/Hinten im Umriss?** (F-R5; Stil, S)
 - **A (Empfehlung):** Rückenmodul (Kühl- oder Energieblock) gibt der Rückseite einen eigenen Umriss; vorn Visier und Brustsensor.
 - **B:** Nur Visier vorn, Rücken glatt.
-- Antwort: offen
+- Antwort (Nutzer im Sightline-Chat, 29.10.2026, Postfach cubeescape-nexogen#16 Kommentar 6489554081): „Alle wie empfohlen“ → **A** (Empfehlung)
 
 ## 6. Offen und nicht belegt
 
