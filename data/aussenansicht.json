@@ -164,7 +164,7 @@
       "channel": "patofiestahd",
       "upload_date": "2026-10-23",
       "fps_real": 59.94,
-      "timestamp": "19.953–23.123 s",
+      "timestamp": "19.953–23.123 s (Schwarz), Cockpit ab 23.423 s",
       "frames": 190,
       "kh_px": null,
       "step_hz": null,
@@ -185,7 +185,7 @@
       "normal_speed": true,
       "speed_evidence": "HUD-Spieluhr sichtbar im Third-Person-Bild",
       "camera": "Skriptkamera hinter dem Piloten, dann frontal auf den Titan",
-      "notes": "Phasengrenzen ±3 Bilder (Sichtung jedes 6. Bildes), Gesamtdauer ±2 Bilder",
+      "notes": "Phasengrenzen ±3 Bilder (Sichtung jedes 6. Bildes), Gesamtdauer ±2 Bilder | Phasengrenzen ±3 Bilder (Summe der Phasen ≠ 190); 190 Bilder = Griff n 1196 bis Schwarz n 1386",
       "contributor": "Unteragent titanfall2"
     },
     {
@@ -262,16 +262,17 @@
       "cycle_frames": 118,
       "cycles": 3,
       "stride_kh": null,
-      "bob_kh": 0.007,
+      "bob_kh": null,
       "sway_kh": 0.01,
       "arm_swing": "keiner (Arme hängen leicht abgespreizt)",
       "phases": null,
       "normal_speed": true,
       "speed_evidence": "Live-Devstream, Menübedienung in Echtzeit",
       "camera": "feste Arsenalkamera (Boden 0,4 px)",
-      "notes": "vorläufig: NCC 0,64-0,84 < 0,85; Atemperiode ≈ 1,97 s, seitliches Pendeln ≈ halbe Frequenz (≈ 230 Bilder); Hub unter Rasterauflösung",
+      "notes": "vorläufig: NCC 0,64-0,84 < 0,85; Atemperiode ≈ 1,97 s, seitliches Pendeln ≈ halbe Frequenz (≈ 230 Bilder); Hub unter Rasterauflösung | Richter R1: Hub ≈ 5 px liegt unter der Längenauflösung (±8 px) → nur Obergrenze ≤ ≈ 0,01 KH, kein Messwert; Periode vorläufig",
       "contributor": "Unteragent warframe",
-      "provisional": true
+      "provisional": true,
+      "bob_kh_max": 0.01
     },
     {
       "game": "The Division 2",
@@ -388,7 +389,7 @@
     },
     {
       "game": "Destiny 2",
-      "subject": "andere Hüter im Turm (4 Abstände)",
+      "subject": "andere Hüter im Turm (5 Abstände)",
       "weapon_class": null,
       "action": "readability",
       "status": "M",
@@ -435,7 +436,7 @@
       "aim_offset_deg": null,
       "holster": "Rücken diagonal, rechte Schulter -> linke Hüfte, ~40 Grad gegen die Senkrechte",
       "normal_speed": true,
-      "notes": "Arme beim Emote über dem Kopf; Waffe ruht ohne sichtbares Pendeln (+-1 pp) | Korrektur Koordinator: Destiny zeigt genau eine (die zuletzt geführte) Waffe am Körper, nie mehrere (Spielerstimmen Q1, Q2, Q4) – nicht „nie“",
+      "notes": "Arme beim Emote über dem Kopf; Waffe ruht ohne sichtbares Pendeln (+-1 pp) | Korrektur Koordinator: in keinem gesichteten Clip mehr als eine Waffe am Körper [O]; Spieler wünschen alle sichtbar (Q4) – nicht „nie“",
       "contributor": "Unteragent destiny2"
     },
     {
@@ -451,7 +452,7 @@
       "timestamp": "3.500",
       "frames": 1,
       "figure_h_pct": 70.5,
-      "weapon_len_kh": ">=0.69",
+      "weapon_len_kh": 0.69,
       "hand_len_kh": 0.068,
       "hand_to_weapon": "<=0.10",
       "hand_to_head": 0.54,
@@ -459,7 +460,8 @@
       "holster": null,
       "normal_speed": null,
       "notes": "Hand +-8 px (+-0,013 KH); Waffe vom Inventar verdeckt, daher Obergrenze; 3/4-Perspektive; Ego-Gegenstück nicht messbar",
-      "contributor": "Unteragent destiny2"
+      "contributor": "Unteragent destiny2",
+      "weapon_len_kh_bound": "min"
     },
     {
       "game": "Destiny 2",
@@ -611,7 +613,6 @@
       "fps_real": 60,
       "timestamp": "1.000–1.000 s",
       "frames": 1,
-      "figure_h_pct": 66,
       "weapon_len_kh": null,
       "hand_len_kh": 0.1,
       "hand_to_weapon": null,
@@ -620,7 +621,9 @@
       "holster": null,
       "normal_speed": null,
       "notes": "Hand 70 px, Helm ohne Kamm 112 px, KH 713 px; ±10 px. Keine Waffe in der Hand.",
-      "contributor": "Unteragent warframe"
+      "contributor": "Unteragent warframe",
+      "figure_h_pct_stream": 66,
+      "figure_h_pct": null
     },
     {
       "game": "Warframe",
@@ -634,7 +637,6 @@
       "fps_real": 60,
       "timestamp": "4.000–4.000 s",
       "frames": 1,
-      "figure_h_pct": 68,
       "weapon_len_kh": null,
       "hand_len_kh": null,
       "hand_to_weapon": null,
@@ -643,7 +645,9 @@
       "holster": "längliche Waffe an der rechten Hüfte schräg nach unten-vorn",
       "normal_speed": null,
       "notes": "Gewehr quer vor dem Bauch, Mündung (61,5 % B, 44 % H) schräg in die Tiefe; sichtbare Länge ≥ 0,27 KH, verkürzt",
-      "contributor": "Unteragent warframe"
+      "contributor": "Unteragent warframe",
+      "figure_h_pct_stream": 68,
+      "figure_h_pct": null
     },
     {
       "game": "Warframe",
@@ -680,7 +684,6 @@
       "fps_real": 60,
       "timestamp": "10.000–10.000 s",
       "frames": 1,
-      "figure_h_pct": 76,
       "weapon_len_kh": null,
       "hand_len_kh": null,
       "hand_to_weapon": null,
@@ -689,7 +692,9 @@
       "holster": "Javlok schräg über dem Rücken, oberes Ende über der linken Schulter",
       "normal_speed": null,
       "notes": "KH mit Kopfkamm",
-      "contributor": "Unteragent warframe"
+      "contributor": "Unteragent warframe",
+      "figure_h_pct_stream": 76,
+      "figure_h_pct": null
     },
     {
       "game": "Warframe",
@@ -846,11 +851,16 @@
       "hand_len_kh": null,
       "hand_to_weapon": null,
       "hand_to_head": null,
-      "aim_offset_deg": 18,
+      "aim_offset_deg": 0,
       "holster": null,
       "normal_speed": true,
-      "notes": "Tief-Sprint -> angelegt 9 Bilder (f926-f935); Lauf mit angelegter Waffe f938-f947: Neigung 15-20 Grad unter Laufrichtung, Gierversatz ~0; ab f948 wieder tief",
-      "contributor": "Unteragent deckung"
+      "notes": "Tief-Sprint -> angelegt 9 Bilder (f926-f935); Lauf mit angelegter Waffe f938-f947: Neigung 15-20 Grad unter Laufrichtung, Gierversatz ~0; ab f948 wieder tief | Richter R1: aim_offset_deg = Gierversatz Beine ↔ Waffe (≈ 0 ± 10°), Neigung getrennt in aim_pitch_deg",
+      "contributor": "Unteragent deckung",
+      "aim_pitch_deg": [
+        15,
+        20
+      ],
+      "aim_offset_tolerance_deg": 10
     },
     {
       "game": "Gears 5",
@@ -970,7 +980,7 @@
     {
       "game": "Destiny 2",
       "subject": "Waffe am Körper",
-      "good": "Schwert-Rahmen mit eigener Halteanimation geschätzt; Rückenwinkel korrigiert",
+      "good": "Schwert-Rahmen mit eigener Halteanimation geschätzt; Rückenwinkel laut Spielerbeobachtung still korrigiert (Q2, [C])",
       "bad": "Rückenwaffe fast waagrecht, Arme durchdringen, nur eine Waffe sichtbar; dritte Person im PvP verschafft Sichtvorteil",
       "audience": "PvP (Fairness), Kosmetikspieler",
       "player_opinion": {
@@ -1002,7 +1012,8 @@
         "sources": [
           "https://www.reddit.com/r/titanfall/comments/1kpf4ts/tf2_vs_tf1_titans/",
           "https://www.reddit.com/r/titanfall/comments/7447yf/",
-          "https://www.well-played.com.au/titanfall-2-falling-short/"
+          "https://www.well-played.com.au/titanfall-2-falling-short/",
+          "https://www.reddit.com/r/titanfall/comments/nbm1w7/"
         ],
         "counter": "TF1 clunky (https://www.reddit.com/r/titanfall/comments/nbm1w7/)"
       },
@@ -1634,7 +1645,7 @@
       "date": "2021-02-01",
       "claim": "Bungie kennt die 3-Peeking-Kritik, prüft Optionen; erwähnt mögliche künftige Waffen in dritter Person",
       "quote_lt15": null,
-      "status": "B"
+      "status": "S/B"
     },
     {
       "game": "Warframe",
@@ -1711,16 +1722,14 @@
     "walk_steps_per_s_light": 1.72,
     "walk_provisional": true,
     "breathing_period_s_heavy": 1.97,
-    "breathing_bob_kh": [
-      0.007,
-      0.008
-    ],
     "idle_loop_s": 18.0,
     "titanfall_fall_frames": 8,
     "titanfall_shield_after_frames": 2,
     "embark_third_person_s": 3.04,
     "turn_to_aim_frames": 9,
-    "turn_legs_frames": 12
+    "turn_legs_frames": 12,
+    "breathing_bob_kh_max": 0.01,
+    "breathing_provisional": true
   },
   "ballon_summary": {
     "hand_kh": [
@@ -1734,8 +1743,9 @@
     "heavy_on_shoulder_deg_from_vertical": 24,
     "back_holster_deg_from_vertical": 40,
     "rest_pose": "tiefe Bereitschaft",
-    "readable_long_gun_from_pct_h": 9.5,
-    "class_readable": false
+    "class_readable": false,
+    "long_gun_readable_example_pct_h": 9.5,
+    "readability_note": "ein Beispiel (Division 2, V-DZ f1260), keine Schwelle"
   },
   "open": [
     "Schrittfrequenz nach 4-Zyklen-Regel, Schrittlänge, Hub, Sprint, Sprung, Landung zu Fuß, Fallen (alle Spiele)",
@@ -1747,22 +1757,185 @@
     "Warframe-Animationssets Noble/Agile im Vergleich"
   ],
   "youtube_followup": [
-    "Zb_IHDN-YJs",
-    "VpoyL3nZcGA",
-    "CybLkZ5jhi4",
-    "IcXGMpYi1ps",
-    "9l4O0VvfsQk",
-    "wmo_Fd9O-ps",
-    "g-ONoIEX48M",
-    "7N1WL8eu38I",
-    "HCI6oocEksk",
-    "gABu34ErU88",
-    "LoG8BimP61E",
-    "-KCBlBbeSO4",
-    "I7pTinIl0vg",
-    "Pi1-s4NYdOk",
-    "W4bsMcsp_P0",
-    "vHMvNFzeC0g",
-    "NOeeQJrEbDk"
+    {
+      "id": "Zb_IHDN-YJs",
+      "fps": 60,
+      "note": "Warframe vs Duet Night Abyss – Movement"
+    },
+    {
+      "id": "VpoyL3nZcGA",
+      "fps": 60,
+      "note": "Necramech"
+    },
+    {
+      "id": "CybLkZ5jhi4",
+      "fps": 60,
+      "note": "Warframe Animation Database"
+    },
+    {
+      "id": "IcXGMpYi1ps",
+      "fps": 60,
+      "note": "Titanfall 2 dritte Person (Mod)"
+    },
+    {
+      "id": "nemPqWMIMK4",
+      "fps": 60,
+      "note": "Titanfall 2 thirdperson above"
+    },
+    {
+      "id": "wmo_Fd9O-ps",
+      "fps": 60,
+      "note": "Titanfall 2 Nachladen dritte Person"
+    },
+    {
+      "id": "9l4O0VvfsQk",
+      "fps": 60,
+      "note": "Titanfall 2 Kampagne dritte Person"
+    },
+    {
+      "id": "B8TtmPF2nDk",
+      "fps": 60,
+      "note": "Titanfall 2 Tech-Test, vor Release"
+    },
+    {
+      "id": "pBbcRhDCbcM",
+      "fps": 60,
+      "note": "Titanfall 2 Animation Showcase"
+    },
+    {
+      "id": "g-ONoIEX48M",
+      "fps": 60,
+      "note": "Titanfall 2 Kapitel 2 BT"
+    },
+    {
+      "id": "Db8b4EmYiVw",
+      "fps": 30,
+      "note": "nur Form"
+    },
+    {
+      "id": "RBxR-JD1a9g",
+      "fps": 30,
+      "note": "nur Form"
+    },
+    {
+      "id": "JgAplNlSH9w",
+      "fps": 30,
+      "note": "nur Form"
+    },
+    {
+      "id": "7N1WL8eu38I",
+      "fps": 60,
+      "note": "Destiny 2 Third-Person-Glitch"
+    },
+    {
+      "id": "HCI6oocEksk",
+      "fps": 60,
+      "note": "Destiny 2 dritte Person (IGN 2017)"
+    },
+    {
+      "id": "gABu34ErU88",
+      "fps": 60,
+      "note": "Destiny 2 Snowball-Glitch, Schießen"
+    },
+    {
+      "id": "9lKym3DMboc",
+      "fps": 60,
+      "note": "Destiny 2 dritte Person"
+    },
+    {
+      "id": "Sg1lY2epEFc",
+      "fps": 60,
+      "note": "Destiny 2 dritte Person"
+    },
+    {
+      "id": "Lpmv5cEQDQE",
+      "fps": 60,
+      "note": "Destiny 2 dritte Person PvP"
+    },
+    {
+      "id": "a5QXxK9r1_A",
+      "fps": 60,
+      "note": "Mod-Client prüfen"
+    },
+    {
+      "id": "cGCwARvHGX0",
+      "fps": 60,
+      "note": "Destiny 2 Weird Walking Animation"
+    },
+    {
+      "id": "RMLZqmCW4q4",
+      "fps": 60,
+      "note": "Destiny 2 vs Warframe Abilities"
+    },
+    {
+      "id": "SbdFtaovF98",
+      "fps": 60,
+      "note": "Destiny 2 Skimmer vs K-Drive"
+    },
+    {
+      "id": "3aTFDd8regs",
+      "fps": 30,
+      "note": "nur Form"
+    },
+    {
+      "id": "LK06ySvC4os",
+      "fps": 30,
+      "note": "nur Form"
+    },
+    {
+      "id": "9pxr9Ys5NGI",
+      "fps": 30,
+      "note": "nur Form"
+    },
+    {
+      "id": "5Mrnz-hC4wM",
+      "fps": 30,
+      "note": "nur Form"
+    },
+    {
+      "id": "tyaeI_vF-Ww",
+      "fps": 30,
+      "note": "nur Form"
+    },
+    {
+      "id": "fFRqOJsNYx4",
+      "fps": 30,
+      "note": "Destiny 1, ausschließen"
+    },
+    {
+      "id": "LoG8BimP61E",
+      "fps": 60,
+      "note": "Gears"
+    },
+    {
+      "id": "-KCBlBbeSO4",
+      "fps": 60,
+      "note": "Gears"
+    },
+    {
+      "id": "I7pTinIl0vg",
+      "fps": 60,
+      "note": "Gears"
+    },
+    {
+      "id": "Pi1-s4NYdOk",
+      "fps": null,
+      "note": "Division Nachladen/Wechsel"
+    },
+    {
+      "id": "W4bsMcsp_P0",
+      "fps": null,
+      "note": "Division Nachladen/Wechsel"
+    },
+    {
+      "id": "vHMvNFzeC0g",
+      "fps": null,
+      "note": "Division Nachladen/Wechsel"
+    },
+    {
+      "id": "NOeeQJrEbDk",
+      "fps": null,
+      "note": "Division Nachladen/Wechsel"
+    }
   ]
 }

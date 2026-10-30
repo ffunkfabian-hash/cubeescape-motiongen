@@ -45,6 +45,7 @@ class ShapeTests(unittest.TestCase):
     def test_sizes_are_body_heights_and_percentages(self):
         for where, entry in examples():
             for key in ("stride_kh", "bob_kh", "sway_kh", "weapon_len_kh", "hand_len_kh", "kh_ratio"):
+                self.assertNotIsInstance(entry.get(key), str, f"{where}.{key}: Zahl erwartet")
                 for value in numbers(entry.get(key)):
                     self.assertTrue(0 <= value <= 2, f"{where}.{key}: {value} KH")
             for value in numbers(entry.get("figure_h_pct")):

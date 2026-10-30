@@ -18,7 +18,7 @@ der stehenden Figur am selben Bild; Bildlagen in % B/H (Ursprung oben links, 50/
 lückenhaft: Gehtakt (Warframe), Atmen und Leerlauf (Warframe, Titanfall 2), Titanfall-Aufsatz, Einstieg in den Titan und eine Wende mit
 Anschlag (Division 2) sind gemessen; **Schrittfrequenz nach der 4-Zyklen-Regel, Schrittlänge, Hub im Gehen, Sprint, Sprung und Fallen sind
 für kein Spiel belegt** – YouTube war in dieser Cloud-Sitzung nach 20 Minuten gesperrt, die Twitch-Clips zeigen Figuren fast nie
-lange genug quer zur Kamera ([7](#7-offen-und-nicht-messbar)). Destiny 2 zeigt die eigene Figur im Kampf nicht von außen – nur im sozialen
+lange genug quer zur Kamera ([7](#7-offen-und-nicht-messbar)). Destiny 2 zeigt die eigene Figur beim Schießen mit Primär-, Spezial- und schwerer Waffe nie von außen – nur im sozialen
 Raum, im Emote, im Super, mit Schwert und beim Tragen von Gegenständen.
 
 ## 1. Quellen und Methode
@@ -72,12 +72,12 @@ Warframe 4, Division/Gears 13 (Liste in den Arbeitsordnern). **Suchweg Destiny (
 | Vorgang | Quelle, Zeit (Bilder) | Messung |
 |---|---|---|
 | **Gehen, leicht (Warframe)** [M, vorläufig] <a id="a-wf-gehen"></a> | W-TR, 6,80–11,57 s (f408 → f694) | Takt über das orange Leuchtteil der Sekundärwaffe in der rechten Hand (Farbmaske, feste Bildstelle 41–42 % B / 70–71 % H): Spitzen f408, f478, f547, f617 (f694 im beginnenden Kameraschwenk) → **69,7 Bilder je Zyklus (1,16 s) = 1,72 Schritte/s**; mit f694 71,5 Bilder = 1,68 Schritte/s. Halbphase: Hand vorn f478, hinten-außen f512 (34 Bilder). Annahme Armzyklus = Gangzyklus; Füße unter dem Stream-Overlay → **Fußaufsatz, Schrittlänge, Hub nicht messbar** |
-| **Atmen, schwer (Warframe Rhino, Noble-Set)** [M, vorläufig] <a id="a-wf-atmen"></a> | W-RH, 0–8,3 s (f0 → f500) | Feste Arsenalkamera (Boden 0,4 px Gesamtbewegung). Brust-Hochpunkte f97, f214, f329, f452 → **Periode ≈ 118 Bilder (1,97 s)**, Hub **≈ 5 px ≈ 0,007 KH**; seitliches Pendeln 6–8 px mit etwa halber Frequenz (≈ 230 Bilder). NCC nur 0,64–0,84 (Glanzlichter) → Größenordnung |
+| **Atmen, schwer (Warframe Rhino, Noble-Set)** [M, vorläufig] <a id="a-wf-atmen"></a> | W-RH, 0–8,3 s (f0 → f500) | Feste Arsenalkamera (Boden 0,4 px Gesamtbewegung). Brust-Hochpunkte f97, f214, f329, f452 → **Periode ≈ 118 Bilder (1,97 s)**, Hub **≤ ≈ 0,01 KH** (≈ 5 px, unter der Längenauflösung ±8 px – kein Messwert, nur Obergrenze); seitliches Pendeln 6–8 px mit etwa halber Frequenz (≈ 230 Bilder). NCC nur 0,64–0,84 (Glanzlichter) → Größenordnung |
 | **Leerlauf, leicht (Titanfall-Pilot, Lobby)** [M] <a id="a-tf-leerlauf"></a> | T1, n 200–2520 (3,3–42,0 s) | Leerlauf ist eine **Schleife von 1080 Bildern = 18,00 s** (feste Helmvorlage, Bestwert bei Verschiebung 1080, zwei volle Durchläufe); Kopf vertikal **≈ 7 px ≈ 0,008 KH** – Atmen kaum sichtbar, Leben kommt aus Kopfdrehungen und Gewichtsverlagerung. Haltung: tiefe Bereitschaft, Gewehr quer vor dem Körper |
 | **Titanfall-Abwurf und Aufsatz (schwer)** [M] <a id="a-tf-landung"></a> | T2, n 1136–1149 (18,952–19,169 s) | Titan im Bild ab n 1136, **Fall 8 Bilder** (Arme gespreizt, Beine gestreckt), **Aufsatz in kompakter Hocke n 1144 ±1**, Kuppelschild ab n 1146 (+2 Bilder), Staub ab n 1149; Aufrichten verdeckt. Normaltempo über die HUD-Uhr belegt |
 | **Einstieg Pilot → Titan, dritte Person (schwer)** [M] <a id="a-tf-einstieg"></a> | T2, n 1196–1404 (19,953–23,423 s) | Ego-Griff n 1196, Überblendung n 1201–1205, **dritte Person 182 Bilder (3,04 s)**: Pilot springt an den knienden Titan (n 1206–1236), Luke schließt bis ≈ n 1284, Titan richtet sich auf und dreht ≈ 180° (n 1290–1380), Schwarz n 1386; Griff bis Schwarz **3,17 s** ±2 Bilder |
 | **Stand mit Gesten, BT-7274 (schwer)** [M]/[O] | T3, n 0–144, Bezugsbild n 102 | Untersicht: KH 640 px mit Antenne (59 % H). BT geht in diesem Fenster **nicht**; Gewichtsverlagerung, Arme pendeln, hebt die Waffe einhändig quer (n 27–36) [O] |
-| **Richtungswechsel 180° mit Anschlag (Division 2)** [M] <a id="a-dv-wende"></a> | V-DZ, f926 → f938 (15,43 → 15,63 s) | Fremder Agent: Sprint nach links mit tiefer Waffe → frontal (f929) → **Waffe waagrecht nach rechts angelegt f935: 9 Bilder (0,15 s)**; Silhouette steht **f930–f933 (4 Bilder)**; Beine im Laufschritt nach rechts f938: **12 Bilder (0,20 s)** ±1 |
+| **Richtungswechsel 180° mit Anschlag (Division 2)** [M] <a id="a-dv-wende"></a> | V-DZ, f926 → f938 (15,43 → 15,63 s) | Fremder Agent: Sprint nach links mit tiefer Waffe → frontal (f929) → **Waffe waagrecht nach rechts angelegt f935: 9 Bilder (0,15 s)**; Silhouette steht **f930–f933 (4 Bilder)**; Beine im Laufschritt nach rechts f938: **12 Bilder (0,20 s)** ±1 (Zuarbeit; Koordinator am Bogen jedes 3. Bilds ±3 nachgeprüft) |
 | **Sprint mit Waffe, seitlich (Division 2)** [M] | V-DZ, f886–f926 | Gewehr **tief vor dem Bauch, Mündung 30–45° unter der Waagrechten**, Oberkörper vorgeneigt; Figur läuft schräg auf die Kamera zu (21 → 28 % H) → keine Schrittlänge, Kopfvorlage NCC 0,31–0,69 → **keine Frequenz** |
 | **Ducken in Deckung (Gears 5)** [M Lage] | G-GL, f510 (8,50 s) | Kopfoberkante **52 % H** hinter der Deckungskante (≈ 50 % H), Figur 35–50 % B. Roadie Run 0,5–2,3 s: Bewegungsunschärfe, Füße unter dem Rand → keine Frequenz [O] |
 | **Start Gehen, Turm (Destiny 2)** [O] | D-SW1, 45,4–46,0 s | Warlock mit schwerer Waffe dreht und läuft an; Clip endet nach **0,6 s** → keine Phase, keine Frequenz |
@@ -86,7 +86,7 @@ Warframe 4, Division/Gears 13 (Liste in den Arbeitsordnern). **Suchweg Destiny (
 
 **Muster Ziel 1 (Beobachtung):** Leicht gegen schwer ist in dieser Auswahl nur am **Ereignis**, nicht am Gang belegt: der Titan wirkt schwer
 über Aufsatz in tiefer Hocke (8 Bilder Fall, Schild 2 Bilder danach) und eine 3-s-Einstiegssequenz mit Aufrichten und Drehen; beim Atmen
-bewegen sich leichte wie schwere Figuren kaum (0,007–0,008 KH). Der Warframe-Gang (1,7 Schritte/s) liegt deutlich unter dem Destiny-Sprint-Wippen
+bewegen sich leichte wie schwere Figuren kaum (≤ ≈ 0,01 KH, an der Auflösungsgrenze). Der Warframe-Gang (1,7 Schritte/s) liegt deutlich unter dem Destiny-Sprint-Wippen
 in Ego (3,16 Hz, [Methode 21](destiny2.md#methode-21)) – verschiedene Vorgänge (Gehen außen gegen Sprint in Ego), nicht vergleichen.
 
 ## 3. Ziel 2 – Waffe am Körper von außen
@@ -138,10 +138,10 @@ die Pilotenhand relativ zur KH, Einschätzung ohne Perspektivkorrektur). Das st�
 Ansichten), ist aber kein Ego-Vergleich.
 
 **Muster Ziel 2 (Beobachtung):** (1) **Tiefe Bereitschaft** ist die Ruhehaltung in drei Spielen (Titanfall-Pilot, Warframe, Division:
-Gewehr quer bzw. schräg tief vor dem Körper); Destiny-Hüter im Turm halten nichts in der Hand. (2) **Nicht gehaltene Waffen:** Division
+Gewehr quer bzw. schräg tief vor dem Körper); andere Destiny-Hüter im Turm halten nichts in der Hand. (2) **Nicht gehaltene Waffen:** Division
 und Warframe zeigen Langwaffen am Rücken (senkrecht, Mündung oben, teils über den Kopf hinaus), Destiny zeigt nur die zuletzt geführte – sie wandert im Emote diagonal auf den Rücken bzw. liegt schwer auf der Schulter. (3) **Schulterkameras** setzen die Figur links der Mitte
 mit dem Kopf knapp unter der Bildmitte (Destiny-Schwert, Division) oder näher heran (Gears beim Zielen); das Zielkreuz bleibt rechts neben
-dem Kopf frei. (4) **Lesbarkeit:** ab ≈ 10 % H ist „Langwaffe“ lesbar, die Klasse nicht; Destiny-Hüter ohne gehaltene Waffe sind auch bei
+dem Kopf frei. (4) **Lesbarkeit:** bei 9,5 % H (ein Beispiel, Division) ist „Langwaffe“ noch lesbar, die Klasse nicht – keine Schwelle; Destiny-Hüter ohne gehaltene Waffe sind auch bei
 26–38 % H waffenlos.
 
 ## 4. Muster je Spiel
@@ -152,21 +152,21 @@ dem Kopf frei. (4) **Lesbarkeit:** ab ≈ 10 % H ist „Langwaffe“ lesbar, die
 - **Titanfall 2:** Pilot ruht in tiefer Bereitschaft, Leerlauf 18-s-Schleife; Titan als schwere Figur über Abwurf (8 Bilder Fall, Hocke),
   Einstieg 3,0 s in dritter Person, Legion mit Kanone auf Hüfthöhe. Dauer-Fortbewegung des Titanen von außen nur in Mod-Videos (YouTube).
 - **Warframe:** dauerhafte dritte Person; Gehtakt 1,7 Schritte/s; Animationssets (Noble/Agile) als Menüposten; Primär senkrecht oder diagonal
-  am Rücken; schwerer Rahmen (Rhino) atmet mit 2-s-Periode und 0,007 KH Hub; Necramech hält die Waffe erhoben.
+  am Rücken; schwerer Rahmen (Rhino) atmet mit ≈ 2-s-Periode (vorläufig) und Hub ≤ ≈ 0,01 KH; Necramech hält die Waffe erhoben.
 - **The Division 2:** Gewehr tief vor dem Körper, Langwaffen senkrecht am Rucksack (Kopf überragt), Pistole am Oberschenkel; Wende mit
   Anschlag 9 Bilder; Zielen im Laufen ohne Gierversatz in diesem Clip.
 - **Gears 5:** Zielkamera sehr nah (Kopf/Schulter füllen ein Drittel der Breite), Ducken in Deckung; Roadie Run nicht messbar.
 
 ## 5. Bewertung: gut, nicht so gut, für wen
 
-Spielerquellen: 41 (Ziel 1: 27, Ziel 2: 15, eine für beide; drei nur Suchauszug), Fachquellen: 22 (Ziel 1: 15, Ziel 2: 9). Reddit lädt per curl
+Spielerquellen: 41 (Ziel 1: 27, Ziel 2: 15, eine für beide; drei nur Suchauszug), Fachquellen: 22 (Ziel 1: 15, Ziel 2: 9, davon W6/W7 dieselben Quellen wie B1/B11). Reddit lädt per curl
 nicht (403); die Fäden sind über das Archiv Arctic Shift geprüft – **Punktzahlen sind Archivstand**, nicht heute. Kurzzeichen der Quellen
-in [5.1](#51-quellen-der-bewertung). Eigene Einschätzungen sind als solche markiert.
+in [5.1](#51-quellen-der-bewertung); die Spalte „Belege“ aus Standard › 6 E steckt in den Kurzzeichen der Spalten „Gut“/„Nicht so gut“. Eigene Einschätzungen sind als solche markiert.
 
 | Spiel | Gegenstand | Gut (warum) | Nicht so gut (warum) | Für wen | Spielerstimmen | Entwickler/Fach |
 |---|---|---|---|---|---|---|
 | **Destiny 2** <a id="a-e-d2-koerper"></a> | Körper von außen (Turm, Emote, Schwert) | Dritte Person in Sozialräumen gefällt, Wunsch nach mehr (P7, 446 P.) | Emotes und Ganzkörper steifer als in Destiny 1 (P5, P6); starres Stehen im Turm (P11, Suchauszug); Gehtempo (P8) | PvE-Sozialräume, Mode-Spieler (P10) | wiederkehrend „steif“ (2 Fäden); Gegenstimme: Mocap ist nicht steif (P5-Kommentare) | Bungie-Animationssystem (B5 GDC, B6 SIGGRAPH); Kotaku zu Ego (B15) |
-| Destiny 2 <a id="a-e-d2-waffe"></a> | Waffe am Körper | Schwert-Rahmen mit eigener Halte-/Laufanimation geschätzt (Q9); Bungie korrigierte den Rückenwinkel (Q2) | Rückenholster: Waffe fast waagrecht, Arme durchdringen, nur eine Waffe sichtbar (Q1, Q2, Q4); dritte Person im PvP verschafft Sichtvorteil („3-Peeking“, Q6, 1276 P.) | PvP (Fairness), Kosmetikspieler | wiederkehrend Holster (3 Fäden); Gegenstimme: Clipping-Grenze akzeptiert (Q4) | Hand folgt Waffe / Waffe folgt Hand (W3, GDC 2015); Bungie zu 3-Peeking (W4) |
+| Destiny 2 <a id="a-e-d2-waffe"></a> | Waffe am Körper | Schwert-Rahmen mit eigener Halte-/Laufanimation geschätzt (Q9); Rückenwinkel laut Spielerbeobachtung still korrigiert (Q2, [C], nicht von Bungie bestätigt) | Rückenholster: Waffe fast waagrecht, Arme durchdringen, nur eine Waffe sichtbar (Q1, Q2, Q4); dritte Person im PvP verschafft Sichtvorteil („3-Peeking“, Q6, 1276 P.) | PvP (Fairness), Kosmetikspieler | wiederkehrend Holster (3 Fäden); Gegenstimme: Clipping-Grenze akzeptiert (Q4) | Hand folgt Waffe / Waffe folgt Hand (W3, GDC 2015); Bungie zu 3-Peeking (W4) |
 | **Titanfall 2** <a id="a-e-tf"></a> | leicht gegen schwer | Kontrast schneller Pilot / träger Titan als Absicht wahrgenommen (P4); Titankampf über Entscheidungen statt „mushy“ (B3) | Titanen wirken leichter als in Titanfall 1, weniger Masse (P1 2855 P., P2); im Tech-Test zu langsam – Respawn beschleunigte Dash und Ion/Scorch (B8–B10) | Mech-Fans (Gewicht), PvP-Profis (Tempo) | wiederkehrend „TF1 schwerer“ (4 Quellen); Gegenstimme: TF1 „clunky“ (P3) | B3 (GDC 2017), B8–B10 (geändert nach Kritik) |
 | **Warframe** <a id="a-e-wf"></a> | Körper von außen | Laufanimation transportiert Tempo (P16 4141 P., P17); Set-Idles beliebt (P12, 448 P.) | Animationssets wirken nur im Stand, in Bewegung „schnappt“ die Figur in den Standardlauf (P12–P15, B14); Necramech mit Zwangspausen und langsamem Dash (P19, P20, B13) | Fashion-Spieler; Mech-Spieler | wiederkehrend (5 Quellen); Gegenstimme: Aufwand je Rahmen | B13, B14 (Wiki mit Update-Historie) |
 | Warframe | Waffe am Körper | Holster-Stile als Kosmetik (W5), kreative Lagen gewünscht (Q11) | zu wenige Lagen für sperrige Primärwaffen (Q11, Q12) | Fashion-Spieler | wiederkehrend (3) | W5 (Update 32) |
@@ -180,7 +180,7 @@ in [5.1](#51-quellen-der-bewertung). Eigene Einschätzungen sind als solche mark
 
 - **Übernehmen:** Gewicht über **Ereignisse und Übergänge** statt über langsames Grundtempo – Titan-Aufsatz in tiefer Hocke (8 Bilder Fall,
   [Landung](#a-tf-landung)), Impuls beim Stopp (B11), Inertialization (B4); Titanfall beschleunigte nach Kritik (B8–B10).
-- **Übernehmen:** Ruhe als **lange Schleife mit sehr kleinem Atemhub** (≈ 0,01 KH; Titanfall 18 s, Warframe-Rhino ≈ 2 s Atemperiode) und
+- **Übernehmen:** Ruhe als **lange Schleife mit sehr kleinem Atemhub** (≈ 0,01 KH; Titanfall 18 s, Warframe-Rhino ≈ 2 s Atemperiode, vorläufig) und
   Leben über Kopf- und Gewichtswechsel ([Leerlauf](#a-tf-leerlauf), [Atmen](#a-wf-atmen)).
 - **Übernehmen:** Schrittlänge an die zurückgelegte Strecke koppeln (B2 GDC 2014: Fuß rutscht nie), damit Füße bei der Isometrie-Kamera nicht gleiten.
 - **Vermeiden:** einen Ruhestil, den die Bewegung nicht fortsetzt (Warframe-„Zurückschnappen“, P12–P15); feste Zwangspausen schwerer Figuren
@@ -197,8 +197,8 @@ in [5.1](#51-quellen-der-bewertung). Eigene Einschätzungen sind als solche mark
 - **Vermeiden:** Rucksackwaffen, die den Kopf überragen (Division ≥ 15 pp H, [Holster](#a-dv-holster)) – Einschätzung: verdirbt die
   Robotersilhouette und kollidiert mit dem Rückenmodul (F9 A).
 - **Testen:** Handgröße außen 0,06–0,10 KH bzw. 0,4–0,6 Kopfhöhen ([3.3](#33-handgröße-außen-gegen-ego-frage-f5)) gegen den Ego-Arm v3 im
-  Modell (orthografisch) prüfen – F5 A bleibt tragfähig; Waffenklasse auf Distanz über eine eigene Silhouette je Klasse (Q14, A01), weil ab
-  ≈ 10 % H nur „Langwaffe“ lesbar ist.
+  Modell (orthografisch) prüfen – F5 A bleibt tragfähig; Waffenklasse auf Distanz über eine eigene Silhouette je Klasse (Q14, A01), weil im
+  einzigen Beispiel bei 9,5 % H nur „Langwaffe“ lesbar war.
 
 ### 5.1 Quellen der Bewertung
 
@@ -256,7 +256,7 @@ Vollständige Liste mit Datum, Sprecher, Zustimmung und Gegenstimmen in `data/au
 <a id="frage-s3"></a>**Frage S3 – Ruhehaltung mit Waffe außen?** (Abnehmer Critic; Stil, S)
 - **A (Empfehlung):** tiefe Bereitschaft – Waffe quer bzw. schräg tief vor dem Körper, beide Hände an der Waffe (Titanfall-Pilot,
   Warframe, Division); Atemhub sehr klein (≈ 0,01 KH), Leben über Kopf- und Gewichtswechsel in langer Schleife (Titanfall 18 s).
-- **B:** Waffe hängt an einer Hand, Arme locker (Destiny-Hüter im Turm halten nichts) – entspannter, liest sich aber nicht als bewaffnet.
+- **B:** Waffe hängt an einer Hand, Arme locker (andere Destiny-Hüter im Turm halten nichts) – entspannter, liest sich aber nicht als bewaffnet.
 - Antwort (Nutzer im Sitzungschat, 30.10.2026): „Alle wie empfohlen“ → **A** (Empfehlung)
 
 ## 7. Offen und nicht messbar
@@ -264,7 +264,7 @@ Vollständige Liste mit Datum, Sprecher, Zustimmung und Gegenstimmen in `data/au
 - **Schrittfrequenz nach 4-Zyklen-Regel, Schrittlänge in KH, Hub und Pendeln im Gehen/Laufen/Sprint, Start/Stopp, Drehen auf der Stelle,
   Sprung, Landung zu Fuß, Fallen:** in keinem Spiel belegt. Gründe: YouTube ab ≈ 12:20–12:35 gesperrt (Bot-Prüfung/403); Twitch-Clips zeigen
   Figuren laufend fast nur von hinten oder schräg (keine Seitenansicht, kein Weltmaßstab), Overlays verdecken Füße (Warframe-Devstreams),
-  Destiny zeigt die eigene Figur nie im Kampf von außen, Gears-Roadie-Run ist bewegungsunscharf. Nicht erneut aus denselben Twitch-Kanälen
+  Destiny zeigt die eigene Figur beim Schießen mit Primär-, Spezial- und schwerer Waffe nie von außen (nur Super, Schwert, Emote, Sozialraum, Tragen), Gears-Roadie-Run ist bewegungsunscharf. Nicht erneut aus denselben Twitch-Kanälen
   versuchen (Suchweg in [1](#1-quellen-und-methode) und in den Arbeitsordnern).
 - **Leicht gegen schwer im Gang** (Pilot/Titan, Warframe/Necramech): nur am Ereignis belegt (Abwurf, Einstieg, Atmen). Kandidaten: Titanfall
   `IcXGMpYi1ps`, `9l4O0VvfsQk`, `g-ONoIEX48M`; Warframe `VpoyL3nZcGA`, `CybLkZ5jhi4`, `Zb_IHDN-YJs`; Twitch-Kampagnen-VODs 2913345452,
@@ -290,12 +290,12 @@ Vollständige Liste mit Datum, Sprecher, Zustimmung und Gegenstimmen in `data/au
 - **Nachmessung durch den Koordinator: 12 Zahlen, 11 bestätigt, 1 teilweise** – Warframe-Gang (Spitzen f409/478/547/618 gegen
   f408/478/547/617; f694 nicht als Spitze gefunden → 3 sichere Zyklen, Zeile „vorläufig“), Rhino-KH 713 px (% gelten fürs Streambild),
   Rhino-Hand 0,10 KH; Titanfall-Leerlaufschleife 1080 Bilder (Gesamtbild-Differenz, Minimum bei 1080), Aufsatz n 1144, Helmoberkante 14,5 % H,
-  Faust/Kopf ±10 px; Division-KH ≈ 700 gegen 690 px, Wende f935; Destiny schwere Waffe (41/46) → (33/80), Hüter 40/29/18 gegen 38/26/18 % H;
+  Faust/Kopf ±10 px; Division-KH ≈ 700 gegen 690 px, Wende f935 (Bogen jedes 3. Bild, ±3); Destiny schwere Waffe (41/46) → (33/80), Hüter 40/29/18 gegen 38/26/18 % H;
   **teilweise:** Destiny-Scheitel der eigenen Figur verdeckt → KH als Spanne 41–46,5 % H übernommen.
-- **Quellen:** 15 gemessene bzw. gesichtete Twitch-Clips mit yt-dlp-Metadaten (Kanal, Ersteller, Datum) in [1](#1-quellen-und-methode);
+- **Quellen:** 22 Twitch-Clips (14 gemessen und in `clips.json`, 8 nur gesichtet; 60/s, T2 59,94/s) mit yt-dlp-Metadaten (Kanal, Ersteller, Datum) in [1](#1-quellen-und-methode);
   6 von 6 Fach-/Presse-URLs per curl (HTTP 200), 3 von 3 Reddit-Fäden über das Archiv (Titel und Punktzahl wie im Bericht).
-- **Übernommen / nicht übernommen:** übernommen 37 Mess- und Sichtzeilen der Zuarbeiten (21 [M], 16 [O]; Destiny 12, Titanfall 7, Warframe 9, Division/Gears 9); **korrigiert 3** (Warframe-Gang 4 → 3 sichere
+- **Übernommen / nicht übernommen:** übernommen 37 Mess- und Sichtzeilen der Zuarbeiten (21 [M], 16 [O]; Destiny 12, Titanfall 7, Warframe 9, Division/Gears 9; im JSON zusammengefasst zu 34 Einträgen in `body_motion`/`weapon_body` und 5 in `hand_size`); **korrigiert 3** (Warframe-Gang 4 → 3 sichere
   Zyklen und „vorläufig“; Destiny-KH als Spanne; Destiny-Holster: „nie am Körper“ → nur die geführte Waffe, Q1/Q2/Q4); nicht übernommen:
   Zeitangaben aus 10/s-Bögen (Titan-Exekution 3,9 s, nur [O]) und alle Bewertungstexte ohne Quelle.
-- **Zählung:** 5 Spiele (Destiny 2, Titanfall 2, Warframe, The Division 2, Gears 5; Fortnite nur Stimme), 15 Clips, 41 Spieler- und
-  22 Fachquellen, ≈ 30 vermessene Einzelbilder; 36 YouTube-Kandidaten für die Folgesitzung.
+- **Zählung:** 5 Spiele (Destiny 2, Titanfall 2, Warframe, The Division 2, Gears 5; Fortnite nur Stimme), 22 Clips (14 gemessen, 8 gesichtet), 41 Spieler- und
+  22 Fachquellen (Ziel 2: 9, davon W6/W7 = B1/B11), ≈ 30 vermessene Einzelbilder; 36 YouTube-Kandidaten für die Folgesitzung.
