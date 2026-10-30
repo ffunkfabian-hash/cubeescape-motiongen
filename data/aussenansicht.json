@@ -1012,8 +1012,7 @@
         "sources": [
           "https://www.reddit.com/r/titanfall/comments/1kpf4ts/tf2_vs_tf1_titans/",
           "https://www.reddit.com/r/titanfall/comments/7447yf/",
-          "https://www.well-played.com.au/titanfall-2-falling-short/",
-          "https://www.reddit.com/r/titanfall/comments/nbm1w7/"
+          "https://www.well-played.com.au/titanfall-2-falling-short/"
         ],
         "counter": "TF1 clunky (https://www.reddit.com/r/titanfall/comments/nbm1w7/)"
       },
@@ -1423,6 +1422,18 @@
       ],
       "counter": "Gerätevielfalt, reale Vorbilder",
       "date": "2024-01-03 (Kapitel 5 Saison 1)",
+      "status": "C"
+    },
+    {
+      "game": "Titanfall 2",
+      "goal": 1,
+      "summary": "Titanfall-1-Titanen wirken schwerfälliger („clunky“) als die aus Titanfall 2 – Gegenstimme zu „TF1 schwerer“",
+      "recurrence": "Einzelstimme",
+      "sources": [
+        "https://www.reddit.com/r/titanfall/comments/nbm1w7/"
+      ],
+      "counter": "TF1-Titanen schwerer (P1, P2)",
+      "date": null,
       "status": "C"
     }
   ],
