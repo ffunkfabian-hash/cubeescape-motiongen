@@ -1,0 +1,1952 @@
+{
+  "version": "0.32.0",
+  "name": "Spectator",
+  "date": "2026-10-30",
+  "doc": "docs/aussenansicht.md",
+  "consumer": "Critic (Roboter-Ganzkörper, three.js), BALLON (Waffe am Körper von außen), später Cube Escape (Isometrie-Kamera)",
+  "units": "Körperhöhen KH (stehende Figur = 1,0, am selben Bild); Bildlagen in Prozent der Bildbreite/-höhe [x, y], Ursprung oben links; Zeiten in Bildern der Quellrate (60/s bzw. 59,94/s); Takt in Schritten/s; null = unbekannt",
+  "status": {
+    "M": "am eigenen Einzelbild gemessen (60/s-Bild mit Raster oder Vorlagensuche)",
+    "O": "Sichtung ohne belastbare Zahl",
+    "C": "Spielerstimme oder Zuarbeit, nicht vollständig nachgeprüft",
+    "S": "Sekundär-/Fachquelle",
+    "B": "Entwickler"
+  },
+  "accuracy": "Marker ±1 Bild, Differenzen ±2 Bilder; Lagen ±3 pp; Längen ±8–15 px; projizierte Längen im 3/4-Blick verkürzt (Größenordnung); Streambilder mit verkleinertem Spielfenster: nur KH-Verhältnisse",
+  "body_motion": [
+    {
+      "game": "Destiny 2",
+      "subject": "Warlock (roter Helm), eigene Figur, Turm",
+      "action": "start",
+      "weight": "light",
+      "status": "O",
+      "source_url": "https://twitch.tv/sweatcicle/clip/WittyColdbloodedDootKeepo",
+      "channel": "Sweatcicle (Clip: iamburgie24)",
+      "upload_date": "2020-11-20",
+      "fps_real": 60,
+      "timestamp": "45.400-46.000",
+      "frames": 36,
+      "kh_px": null,
+      "step_hz": null,
+      "cycle_frames": null,
+      "cycles": 0,
+      "stride_kh": null,
+      "bob_kh": null,
+      "sway_kh": null,
+      "arm_swing": "schwere Waffe auf der Schulter, Arme nicht frei",
+      "phases": null,
+      "normal_speed": true,
+      "speed_evidence": "Live-Mitschnitt Twitch mit Facecam",
+      "camera": "folgt hinter der Figur",
+      "notes": "Clip endet 0,6 s nach Laufbeginn im Menü; keine Frequenz",
+      "contributor": "Unteragent destiny2"
+    },
+    {
+      "game": "Destiny 2",
+      "subject": "eigene Figur trägt Batterie (Onslaught)",
+      "action": "run",
+      "weight": "light",
+      "status": "O",
+      "source_url": "https://twitch.tv/mactics/clip/NastyTolerantLettuceDoubleRainbow-l5T5zCw4kfvBWORM",
+      "channel": "Mactics (Clip: hockeystar3920)",
+      "upload_date": "2024-04-20",
+      "fps_real": 60,
+      "timestamp": "47.5-49.0; 50.0-51.5; 53.0-54.25; 55.5-56.75",
+      "frames": null,
+      "kh_px": null,
+      "step_hz": null,
+      "cycle_frames": null,
+      "cycles": null,
+      "stride_kh": null,
+      "bob_kh": null,
+      "sway_kh": null,
+      "arm_swing": "keiner (Gegenstand vor der Brust)",
+      "phases": null,
+      "normal_speed": true,
+      "speed_evidence": "Live-Mitschnitt",
+      "camera": "dritte Person nur beim Tragen, sonst Ego",
+      "notes": "Abschnitte <= 1,5 s, weniger als 4 Zyklen",
+      "contributor": "Unteragent destiny2"
+    },
+    {
+      "game": "Destiny 2",
+      "subject": "Warlock mit Schwert (Schulteransicht)",
+      "action": "run",
+      "weight": "light",
+      "status": "O",
+      "source_url": "https://twitch.tv/ehroar/clip/InventiveCuriousLemurNerfBlueBlaster",
+      "channel": "Ehroar (Clip: magicman457)",
+      "upload_date": "2020-02-06",
+      "fps_real": 60,
+      "timestamp": "33.0-36.2",
+      "frames": 192,
+      "kh_px": null,
+      "step_hz": null,
+      "cycle_frames": null,
+      "cycles": null,
+      "stride_kh": null,
+      "bob_kh": null,
+      "sway_kh": null,
+      "arm_swing": null,
+      "phases": null,
+      "normal_speed": true,
+      "speed_evidence": "Live-Mitschnitt",
+      "camera": "Schulterkamera, schwenkt",
+      "notes": "Robe verdeckt Beine; Schwert-Schulteransicht sonst nahkampf.md 4",
+      "contributor": "Unteragent destiny2"
+    },
+    {
+      "game": "Titanfall 2",
+      "subject": "Pilot (Mehrspieler-Lobby, Gewehr), eigene Figur im Menü",
+      "action": "idle",
+      "weight": "light",
+      "status": "M",
+      "source_url": "https://clips.twitch.tv/DoubtfulMushyPlumHassanChop-p1Qs91lrN9CV1HB5",
+      "channel": "CDawg",
+      "upload_date": "2025-09-14",
+      "fps_real": 60,
+      "timestamp": "3.333–42.000 s",
+      "frames": 2320,
+      "kh_px": 922,
+      "step_hz": null,
+      "cycle_frames": 1080,
+      "cycles": 2,
+      "stride_kh": null,
+      "bob_kh": 0.008,
+      "sway_kh": 0.025,
+      "arm_swing": "keiner, Gewehr in tiefer Bereitschaft",
+      "phases": {
+        "idle_loop": 1080
+      },
+      "normal_speed": true,
+      "speed_evidence": "Live-Clip, Menü in Echtzeit; Schleife zweimal gleich lang (1080 Bilder)",
+      "camera": "Menükamera fest, frontal, leicht von unten",
+      "notes": "KH ist Untergrenze (Sohlen am Bildrand); sway_kh = seitlicher Kopfweg 23 px / 922 px inkl. Kopfdrehung; Atmen kaum sichtbar",
+      "contributor": "Unteragent titanfall2"
+    },
+    {
+      "game": "Titanfall 2",
+      "subject": "Northstar-Titan, eigener Titan (Abwurf)",
+      "action": "land",
+      "weight": "heavy",
+      "status": "M",
+      "source_url": "https://clips.twitch.tv/FamousFaintChickpeaMVGame-7MC1YQEz0gMmtZFc",
+      "channel": "patofiestahd",
+      "upload_date": "2026-10-23",
+      "fps_real": 59.94,
+      "timestamp": "18.952–19.169 s",
+      "frames": 13,
+      "kh_px": null,
+      "step_hz": null,
+      "cycle_frames": null,
+      "cycles": null,
+      "stride_kh": null,
+      "bob_kh": null,
+      "sway_kh": null,
+      "arm_swing": "Arme im Fall gespreizt",
+      "phases": {
+        "fall_visible": 8,
+        "impact_to_dome": 2
+      },
+      "normal_speed": true,
+      "speed_evidence": "HUD-Spieluhr: 1 s je 60 Bilder ±1 über n 1140–1335",
+      "camera": "Pilot Ego, Titan in 10–20 % H",
+      "notes": "Aufsatz in kompakter Hocke n 1144 ±1; Aufrichten durch Staub verdeckt",
+      "contributor": "Unteragent titanfall2"
+    },
+    {
+      "game": "Titanfall 2",
+      "subject": "Pilot steigt in Northstar-Titan (Embark, dritte Person)",
+      "action": "start",
+      "weight": "heavy",
+      "status": "M",
+      "source_url": "https://clips.twitch.tv/FamousFaintChickpeaMVGame-7MC1YQEz0gMmtZFc",
+      "channel": "patofiestahd",
+      "upload_date": "2026-10-23",
+      "fps_real": 59.94,
+      "timestamp": "19.953–23.123 s (Schwarz), Cockpit ab 23.423 s",
+      "frames": 190,
+      "kh_px": null,
+      "step_hz": null,
+      "cycle_frames": null,
+      "cycles": null,
+      "stride_kh": null,
+      "bob_kh": null,
+      "sway_kh": null,
+      "arm_swing": null,
+      "phases": {
+        "ego_grab": 5,
+        "crossfade": 5,
+        "climb": 32,
+        "hatch": 48,
+        "rise_turn": 96,
+        "fade_black": 10
+      },
+      "normal_speed": true,
+      "speed_evidence": "HUD-Spieluhr sichtbar im Third-Person-Bild",
+      "camera": "Skriptkamera hinter dem Piloten, dann frontal auf den Titan",
+      "notes": "Phasengrenzen ±3 Bilder (Sichtung jedes 6. Bildes), Gesamtdauer ±2 Bilder | Phasengrenzen ±3 Bilder (Summe der Phasen ≠ 190); 190 Bilder = Griff n 1196 bis Schwarz n 1386",
+      "contributor": "Unteragent titanfall2"
+    },
+    {
+      "game": "Titanfall 2",
+      "subject": "BT-7274 (Kampagne, Begleiter)",
+      "action": "idle",
+      "weight": "heavy",
+      "status": "M",
+      "source_url": "https://clips.twitch.tv/TacitSpoopyBaboonTF2John-i8CDQvlZx5Fo8R3Y",
+      "channel": "LIRIK",
+      "upload_date": "2023-09-09",
+      "fps_real": 60,
+      "timestamp": "0.000–2.400 s",
+      "frames": 144,
+      "kh_px": 640,
+      "step_hz": null,
+      "cycle_frames": null,
+      "cycles": 0,
+      "stride_kh": null,
+      "bob_kh": null,
+      "sway_kh": null,
+      "arm_swing": "Arme pendeln breit vom Körper, Waffe einhändig angehoben n 27–36",
+      "phases": null,
+      "normal_speed": null,
+      "speed_evidence": "Spielclip mit Untertiteln, Tempo nicht gesondert geprüft (keine Zeitwerte verwendet)",
+      "camera": "Pilot Ego, Untersicht",
+      "notes": "kein Gehen im Fenster; KH mit Antenne, ohne 515 px",
+      "contributor": "Unteragent titanfall2"
+    },
+    {
+      "game": "Warframe",
+      "subject": "Warframe mit Hut (Name nicht eingeblendet), eigene Figur, Kamera hinten",
+      "action": "walk",
+      "weight": "light",
+      "status": "M",
+      "source_url": "https://clips.twitch.tv/EnthusiasticAgileBunnyBudStar",
+      "channel": "Warframe (Clip: Travission)",
+      "upload_date": "2019-03-01",
+      "fps_real": 60,
+      "timestamp": "6.800–11.570 s",
+      "frames": 286,
+      "kh_px": null,
+      "step_hz": 1.72,
+      "cycle_frames": 69.7,
+      "cycles": 3,
+      "stride_kh": null,
+      "bob_kh": null,
+      "sway_kh": null,
+      "arm_swing": "rechte Hand mit Sekundärwaffe schwingt von vorn an der Hüfte (f478) nach hinten-außen (f512); Zyklusmarker Leuchtteil der Waffe",
+      "phases": {
+        "hand_vorn_bis_hinten": 34
+      },
+      "normal_speed": true,
+      "speed_evidence": "Live-Devstream mit Sprecherbild in Echtzeit",
+      "camera": "Folgekamera hinten, Beine unter dem Stream-Overlay",
+      "notes": "Ein Armzyklus als Gangzyklus angenommen; ohne letzten Zyklus 69,7 Bilder (1,72 Hz). Fußaufsatz nicht sichtbar. | Koordinator 30.10.2026: Spitzen f409/478/547/618 bestätigt, f694 (Kameraschwenk) nicht → 3 sichere Zyklen, vorläufig nach 4-Zyklen-Regel; mit f694 1,68 Schritte/s",
+      "contributor": "Unteragent warframe",
+      "provisional": true
+    },
+    {
+      "game": "Warframe",
+      "subject": "Rhino Prime (Heirloom-Haut), Noble Animation Set, Arsenal",
+      "action": "idle",
+      "weight": "heavy",
+      "status": "M",
+      "source_url": "https://clips.twitch.tv/DullFurtiveShrimpCoolCat-Ks2nqD6u4_Mms-Ay",
+      "channel": "Warframe (Clip: Warframe)",
+      "upload_date": "2025-01-31",
+      "fps_real": 60,
+      "timestamp": "0.000–8.330 s",
+      "frames": 500,
+      "kh_px": 713,
+      "step_hz": null,
+      "cycle_frames": 118,
+      "cycles": 3,
+      "stride_kh": null,
+      "bob_kh": null,
+      "sway_kh": 0.01,
+      "arm_swing": "keiner (Arme hängen leicht abgespreizt)",
+      "phases": null,
+      "normal_speed": true,
+      "speed_evidence": "Live-Devstream, Menübedienung in Echtzeit",
+      "camera": "feste Arsenalkamera (Boden 0,4 px)",
+      "notes": "vorläufig: NCC 0,64-0,84 < 0,85; Atemperiode ≈ 1,97 s, seitliches Pendeln ≈ halbe Frequenz (≈ 230 Bilder); Hub unter Rasterauflösung | Richter R1: Hub ≈ 5 px liegt unter der Längenauflösung (±8 px) → nur Obergrenze ≤ ≈ 0,01 KH, kein Messwert; Periode vorläufig",
+      "contributor": "Unteragent warframe",
+      "provisional": true,
+      "bob_kh_max": 0.01
+    },
+    {
+      "game": "The Division 2",
+      "subject": "Agent, anderer Spieler (Rogue), Langgewehr",
+      "action": "sprint",
+      "weight": "light",
+      "status": "M/O",
+      "source_url": "https://clips.twitch.tv/ProductiveDirtyFalconYouWHY",
+      "channel": "MarcoStyle (Clip: Craban)",
+      "upload_date": "2019-03-16",
+      "fps_real": 60,
+      "timestamp": "14.77-15.43 (Clipzeit, f886-f926)",
+      "frames": 40,
+      "kh_px": null,
+      "step_hz": null,
+      "cycle_frames": null,
+      "cycles": null,
+      "stride_kh": null,
+      "bob_kh": null,
+      "sway_kh": null,
+      "arm_swing": "keiner, beide Hände an der tief getragenen Waffe",
+      "phases": null,
+      "normal_speed": true,
+      "speed_evidence": "Livestream-Clip mit Facecam, 0 Doppelbilder f880-f960",
+      "camera": "Kamera des gefallenen Spielers ruhig (Zaun/Schild fest)",
+      "notes": "Figur 21-28 % H, läuft schräg auf die Kamera zu: keine Schrittlänge; Fußaufsätze bei dieser Größe nicht bildgenau (Kopfvorlage NCC 0,31-0,69 < 0,85 verworfen)",
+      "contributor": "Unteragent deckung"
+    },
+    {
+      "game": "The Division 2",
+      "subject": "Agent, anderer Spieler (Rogue), Langgewehr",
+      "action": "direction_change",
+      "weight": "light",
+      "status": "M",
+      "source_url": "https://clips.twitch.tv/ProductiveDirtyFalconYouWHY",
+      "channel": "MarcoStyle (Clip: Craban)",
+      "upload_date": "2019-03-16",
+      "fps_real": 60,
+      "timestamp": "15.43-15.63 (f926-f938)",
+      "frames": 12,
+      "kh_px": null,
+      "step_hz": null,
+      "cycle_frames": null,
+      "cycles": null,
+      "stride_kh": null,
+      "bob_kh": null,
+      "sway_kh": null,
+      "arm_swing": null,
+      "phases": {
+        "Sprint links bis Stillstand": 4,
+        "Stillstand Silhouette": 4,
+        "Anlauf rechts bis Laufschritt": 4
+      },
+      "normal_speed": true,
+      "speed_evidence": "Livestream-Clip",
+      "camera": "ruhig",
+      "notes": "Stillstand des Silhouetten-Mittelpunkts f930-f933 (Differenzbild gegen f976); Waffe gleichzeitig vom Tief-Sprint in den Anschlag (9 Bilder)",
+      "contributor": "Unteragent deckung"
+    },
+    {
+      "game": "Gears 5",
+      "subject": "COG (Spielfigur, Entwickler-Stream), Lancer GL",
+      "action": "sprint",
+      "weight": "heavy",
+      "status": "O",
+      "source_url": "https://clips.twitch.tv/FriendlyBillowingBillBrainSlug",
+      "channel": "Gears of War (Clip: lHybr1dl)",
+      "upload_date": "2019-07-16",
+      "fps_real": 60,
+      "timestamp": "0.5-2.3 (Clipzeit)",
+      "frames": 108,
+      "kh_px": null,
+      "step_hz": null,
+      "cycle_frames": null,
+      "cycles": null,
+      "stride_kh": null,
+      "bob_kh": null,
+      "sway_kh": null,
+      "arm_swing": "Lancer vor der Brust, Arme ohne Schwung",
+      "phases": null,
+      "normal_speed": true,
+      "speed_evidence": "Live-Entwicklerstream mit Studiokamera, 0 Doppelbilder f30-f140",
+      "camera": "folgt tief und wackelnd (Roadie-Run-Kamera), Figur von hinten, Füße oft abgeschnitten",
+      "notes": "Roadie Run; Frequenz nicht messbar (Unschärfe, Füße außerhalb, Kamera dreht)",
+      "contributor": "Unteragent deckung"
+    }
+  ],
+  "weapon_body": [
+    {
+      "game": "Destiny 2",
+      "subject": "eigene Figur (Titan), Turm",
+      "weapon_class": "heavy",
+      "action": "carry",
+      "status": "M",
+      "source_url": "https://www.twitch.tv/datto/clip/SpookyCovertPoxJKanStyle",
+      "channel": "Datto (Clip: iamwat_)",
+      "upload_date": "2020-06-06",
+      "fps_real": 60,
+      "timestamp": "1.000",
+      "frames": 1,
+      "figure_h_pct": [
+        41,
+        46.5
+      ],
+      "weapon_len_kh": 0.8,
+      "hand_len_kh": null,
+      "hand_to_weapon": null,
+      "hand_to_head": null,
+      "aim_offset_deg": null,
+      "holster": "gehalten auf der linken Schulter, diagonal ~24 Grad",
+      "normal_speed": null,
+      "notes": "Länge projiziert, +-0,1 KH | Koordinator: Scheitel hinter Waffe/Schulterpanzer verdeckt → KH 41–46,5 % H (Spanne), Waffe ≈ 0,8–0,9 KH",
+      "contributor": "Unteragent destiny2"
+    },
+    {
+      "game": "Destiny 2",
+      "subject": "andere Hüter im Turm (5 Abstände)",
+      "weapon_class": null,
+      "action": "readability",
+      "status": "M",
+      "source_url": "https://www.twitch.tv/datto/clip/SpookyCovertPoxJKanStyle",
+      "channel": "Datto (Clip: iamwat_)",
+      "upload_date": "2020-06-06",
+      "fps_real": 60,
+      "timestamp": "1.000",
+      "frames": 1,
+      "figure_h_pct": [
+        38,
+        26,
+        18,
+        5,
+        2
+      ],
+      "weapon_len_kh": null,
+      "hand_len_kh": null,
+      "hand_to_weapon": null,
+      "hand_to_head": null,
+      "aim_offset_deg": null,
+      "holster": null,
+      "normal_speed": null,
+      "notes": "bei 38 und 26 % H keine gehaltene Waffe sicher erkennbar; Lesbarkeit [O]",
+      "contributor": "Unteragent destiny2"
+    },
+    {
+      "game": "Destiny 2",
+      "subject": "eigene Figur (Jäger) im Emote, Hangar",
+      "weapon_class": "special",
+      "action": "holster",
+      "status": "M",
+      "source_url": "https://www.twitch.tv/teawrex/clip/AmusedJollyKuduHoneyBadger-sAmR78fXAZd_9zsr",
+      "channel": "Teawrex (Clip: Basandra)",
+      "upload_date": "2021-12-01",
+      "fps_real": 60,
+      "timestamp": "0.3; 3.0; 9.0; 14.5",
+      "frames": 4,
+      "figure_h_pct": null,
+      "weapon_len_kh": null,
+      "hand_len_kh": null,
+      "hand_to_weapon": null,
+      "hand_to_head": null,
+      "aim_offset_deg": null,
+      "holster": "Rücken diagonal, rechte Schulter -> linke Hüfte, ~40 Grad gegen die Senkrechte",
+      "normal_speed": true,
+      "notes": "Arme beim Emote über dem Kopf; Waffe ruht ohne sichtbares Pendeln (+-1 pp) | Korrektur Koordinator: in keinem gesichteten Clip mehr als eine Waffe am Körper [O]; Spieler wünschen alle sichtbar (Q4) – nicht „nie“",
+      "contributor": "Unteragent destiny2"
+    },
+    {
+      "game": "Destiny 2",
+      "subject": "Warlock im Charakterbild (Menüpose)",
+      "weapon_class": "special",
+      "action": "hand_size",
+      "status": "M",
+      "source_url": "https://twitch.tv/ehroar/clip/InventiveCuriousLemurNerfBlueBlaster",
+      "channel": "Ehroar (Clip: magicman457)",
+      "upload_date": "2020-02-06",
+      "fps_real": 60,
+      "timestamp": "3.500",
+      "frames": 1,
+      "figure_h_pct": 70.5,
+      "weapon_len_kh": 0.69,
+      "hand_len_kh": 0.068,
+      "hand_to_weapon": "<=0.10",
+      "hand_to_head": 0.54,
+      "aim_offset_deg": null,
+      "holster": null,
+      "normal_speed": null,
+      "notes": "Hand +-8 px (+-0,013 KH); Waffe vom Inventar verdeckt, daher Obergrenze; 3/4-Perspektive; Ego-Gegenstück nicht messbar",
+      "contributor": "Unteragent destiny2",
+      "weapon_len_kh_bound": "min"
+    },
+    {
+      "game": "Destiny 2",
+      "subject": "anderer Hüter (Jäger), private Arena",
+      "weapon_class": null,
+      "action": "carry",
+      "status": "O",
+      "source_url": "https://www.twitch.tv/sweatcicle/clip/ThankfulCourteousGazellePanicBasket",
+      "channel": "Sweatcicle (Clip: iamburgie24)",
+      "upload_date": "2020-12-12",
+      "fps_real": 60,
+      "timestamp": "15.000",
+      "frames": 1,
+      "figure_h_pct": 23,
+      "weapon_len_kh": null,
+      "hand_len_kh": null,
+      "hand_to_weapon": null,
+      "hand_to_head": null,
+      "aim_offset_deg": null,
+      "holster": null,
+      "normal_speed": null,
+      "notes": "gebückt; Waffe 0,78 der gebückten Figurhöhe, Mündung ~22 Grad unter Waagrechte; Klasse unklar",
+      "contributor": "Unteragent destiny2"
+    },
+    {
+      "game": "Destiny 2",
+      "subject": "anderer Hüter (Toaster), Hangar",
+      "weapon_class": "sidearm",
+      "action": "carry",
+      "status": "O",
+      "source_url": "https://www.twitch.tv/teawrex/clip/AmusedJollyKuduHoneyBadger-sAmR78fXAZd_9zsr",
+      "channel": "Teawrex (Clip: Basandra)",
+      "upload_date": "2021-12-01",
+      "fps_real": 60,
+      "timestamp": "6.000",
+      "frames": 1,
+      "figure_h_pct": 25.5,
+      "weapon_len_kh": null,
+      "hand_len_kh": null,
+      "hand_to_weapon": null,
+      "hand_to_head": null,
+      "aim_offset_deg": null,
+      "holster": null,
+      "normal_speed": null,
+      "notes": "kurze Waffe mündungsoben an der rechten Schulter; Klasse am Bild nicht sicher",
+      "contributor": "Unteragent destiny2"
+    },
+    {
+      "game": "Titanfall 2",
+      "subject": "Pilot (Lobby)",
+      "weapon_class": "primary",
+      "action": "hand_size",
+      "status": "M",
+      "source_url": "https://clips.twitch.tv/DoubtfulMushyPlumHassanChop-p1Qs91lrN9CV1HB5",
+      "channel": "CDawg",
+      "upload_date": "2025-09-14",
+      "fps_real": 60,
+      "timestamp": "15.0",
+      "frames": 1,
+      "figure_h_pct": 85,
+      "weapon_len_kh": 0.47,
+      "hand_len_kh": 0.065,
+      "hand_to_weapon": 0.135,
+      "hand_to_head": 0.43,
+      "aim_offset_deg": null,
+      "holster": null,
+      "normal_speed": null,
+      "notes": "Faust gebeugt, ±15 %; Waffe projiziert und verkürzt; KH Untergrenze → hand_len_kh/weapon_len_kh Obergrenzen; Ego-Gegenwert an derselben Waffe nicht gemessen",
+      "contributor": "Unteragent titanfall2"
+    },
+    {
+      "game": "Titanfall 2",
+      "subject": "Pilot (Lobby)",
+      "weapon_class": "primary",
+      "action": "carry",
+      "status": "M",
+      "source_url": "https://clips.twitch.tv/DoubtfulMushyPlumHassanChop-p1Qs91lrN9CV1HB5",
+      "channel": "CDawg",
+      "upload_date": "2025-09-14",
+      "fps_real": 60,
+      "timestamp": "3.333–42.000 s",
+      "frames": 2320,
+      "figure_h_pct": 85,
+      "weapon_len_kh": 0.47,
+      "hand_len_kh": null,
+      "hand_to_weapon": null,
+      "hand_to_head": null,
+      "aim_offset_deg": null,
+      "holster": null,
+      "normal_speed": true,
+      "notes": "tiefe Bereitschaft, Gewehr quer vor dem Bauch, Mündung links unten",
+      "contributor": "Unteragent titanfall2"
+    },
+    {
+      "game": "Titanfall 2",
+      "subject": "BT-7274",
+      "weapon_class": "primary",
+      "action": "hand_size",
+      "status": "O",
+      "source_url": "https://clips.twitch.tv/TacitSpoopyBaboonTF2John-i8CDQvlZx5Fo8R3Y",
+      "channel": "LIRIK",
+      "upload_date": "2023-09-09",
+      "fps_real": 60,
+      "timestamp": "1.7",
+      "frames": 1,
+      "figure_h_pct": 59,
+      "weapon_len_kh": null,
+      "hand_len_kh": 0.16,
+      "hand_to_weapon": null,
+      "hand_to_head": null,
+      "aim_offset_deg": null,
+      "holster": null,
+      "normal_speed": null,
+      "notes": "Untersicht vergrößert die vordere Faust; nur Größenordnung",
+      "contributor": "Unteragent titanfall2"
+    },
+    {
+      "game": "Titanfall 2",
+      "subject": "Legion-Titan, anderer Spieler",
+      "weapon_class": "heavy",
+      "action": "hip",
+      "status": "O",
+      "source_url": "https://clips.twitch.tv/TrappedShinyPrariedogAllenHuhu-BqCC13iVq5e17q0Z",
+      "channel": "WoolieVersus",
+      "upload_date": "2023-09-22",
+      "fps_real": 60,
+      "timestamp": "10.2",
+      "frames": 1,
+      "figure_h_pct": 48,
+      "weapon_len_kh": null,
+      "hand_len_kh": null,
+      "hand_to_weapon": null,
+      "hand_to_head": null,
+      "aim_offset_deg": null,
+      "holster": null,
+      "normal_speed": null,
+      "notes": "Rotorkanone auf Hüfthöhe im Ausfallschritt; stehende KH nicht im Bild",
+      "contributor": "Unteragent titanfall2"
+    },
+    {
+      "game": "Warframe",
+      "subject": "Rhino Prime (Heirloom), Arsenal",
+      "weapon_class": null,
+      "action": "hand_size",
+      "status": "M",
+      "source_url": "https://clips.twitch.tv/DullFurtiveShrimpCoolCat-Ks2nqD6u4_Mms-Ay",
+      "channel": "Warframe",
+      "upload_date": "2025-01-31",
+      "fps_real": 60,
+      "timestamp": "1.000–1.000 s",
+      "frames": 1,
+      "weapon_len_kh": null,
+      "hand_len_kh": 0.1,
+      "hand_to_weapon": null,
+      "hand_to_head": 0.6,
+      "aim_offset_deg": null,
+      "holster": null,
+      "normal_speed": null,
+      "notes": "Hand 70 px, Helm ohne Kamm 112 px, KH 713 px; ±10 px. Keine Waffe in der Hand.",
+      "contributor": "Unteragent warframe",
+      "figure_h_pct_stream": 66,
+      "figure_h_pct": null
+    },
+    {
+      "game": "Warframe",
+      "subject": "leichter Warframe (weiß/gold), Spiel, Kamera vorn",
+      "weapon_class": "primary",
+      "action": "carry",
+      "status": "O",
+      "source_url": "https://clips.twitch.tv/KawaiiCautiousGoshawkCharlietheUnicorn",
+      "channel": "Warframe (Clip: de_taylor)",
+      "upload_date": "2019-05-24",
+      "fps_real": 60,
+      "timestamp": "4.000–4.000 s",
+      "frames": 1,
+      "weapon_len_kh": null,
+      "hand_len_kh": null,
+      "hand_to_weapon": null,
+      "hand_to_head": null,
+      "aim_offset_deg": null,
+      "holster": "längliche Waffe an der rechten Hüfte schräg nach unten-vorn",
+      "normal_speed": null,
+      "notes": "Gewehr quer vor dem Bauch, Mündung (61,5 % B, 44 % H) schräg in die Tiefe; sichtbare Länge ≥ 0,27 KH, verkürzt",
+      "contributor": "Unteragent warframe",
+      "figure_h_pct_stream": 68,
+      "figure_h_pct": null
+    },
+    {
+      "game": "Warframe",
+      "subject": "derselbe Warframe im Lauf, Kamera hinten",
+      "weapon_class": "primary",
+      "action": "holster",
+      "status": "O",
+      "source_url": "https://clips.twitch.tv/YummyQuaintCoffeeTriHard",
+      "channel": "Warframe (Clip: de_taylor)",
+      "upload_date": "2019-05-24",
+      "fps_real": 60,
+      "timestamp": "4.000–4.000 s",
+      "frames": 1,
+      "figure_h_pct": null,
+      "weapon_len_kh": null,
+      "hand_len_kh": null,
+      "hand_to_weapon": null,
+      "hand_to_head": null,
+      "aim_offset_deg": null,
+      "holster": "Primär senkrecht hinter der rechten Schulter, Mündung oben auf Kopfhöhe; zweiter Stab links",
+      "normal_speed": true,
+      "notes": "Arme im Lauf angewinkelt, Hände leer",
+      "contributor": "Unteragent warframe"
+    },
+    {
+      "game": "Warframe",
+      "subject": "Zephyr Prime (Deluxe), Arsenal",
+      "weapon_class": "primary",
+      "action": "holster",
+      "status": "O",
+      "source_url": "https://clips.twitch.tv/CrackySpicyGoatAMPEnergyCherry",
+      "channel": "Warframe",
+      "upload_date": "2021-01-29",
+      "fps_real": 60,
+      "timestamp": "10.000–10.000 s",
+      "frames": 1,
+      "weapon_len_kh": null,
+      "hand_len_kh": null,
+      "hand_to_weapon": null,
+      "hand_to_head": null,
+      "aim_offset_deg": null,
+      "holster": "Javlok schräg über dem Rücken, oberes Ende über der linken Schulter",
+      "normal_speed": null,
+      "notes": "KH mit Kopfkamm",
+      "contributor": "Unteragent warframe",
+      "figure_h_pct_stream": 76,
+      "figure_h_pct": null
+    },
+    {
+      "game": "Warframe",
+      "subject": "Cyte-09 mit Reconifex, Schulterkamera",
+      "weapon_class": "primary",
+      "action": "aim",
+      "status": "O",
+      "source_url": "https://clips.twitch.tv/SolidLaconicKleeHoneyBadger-jyx_2whFuKu837p8",
+      "channel": "Warframe",
+      "upload_date": "2024-11-29",
+      "fps_real": 60,
+      "timestamp": "1.500–3.830 s",
+      "frames": null,
+      "figure_h_pct": null,
+      "weapon_len_kh": null,
+      "hand_len_kh": null,
+      "hand_to_weapon": null,
+      "hand_to_head": null,
+      "aim_offset_deg": null,
+      "holster": null,
+      "normal_speed": true,
+      "notes": "Figur links der Mitte, Kopf 33 % H, Fadenkreuz (58 %, 45 %) rechts neben dem Kopf; Zoom rückt über die rechte Schulter; Beine nicht im Bild",
+      "contributor": "Unteragent warframe"
+    },
+    {
+      "game": "Warframe",
+      "subject": "Necramech Voidrig (Karnolyth), Arsenal",
+      "weapon_class": "heavy",
+      "action": "carry",
+      "status": "O",
+      "source_url": "https://clips.twitch.tv/KitschyNastyHippoNomNom-JreAN-R0_xF63ueS",
+      "channel": "Warframe",
+      "upload_date": "2021-08-27",
+      "fps_real": 60,
+      "timestamp": "40.330–40.330 s",
+      "frames": 1,
+      "figure_h_pct": null,
+      "weapon_len_kh": null,
+      "hand_len_kh": null,
+      "hand_to_weapon": null,
+      "hand_to_head": null,
+      "aim_offset_deg": null,
+      "holster": null,
+      "normal_speed": null,
+      "notes": "Waffe erhoben in der rechten Hand, Mündung oben; Beine unter dem Fensterrand",
+      "contributor": "Unteragent warframe"
+    },
+    {
+      "game": "The Division 2",
+      "subject": "Agent (Spielfigur, Inventar-Vorschau)",
+      "weapon_class": "primary",
+      "action": "carry",
+      "status": "M",
+      "source_url": "https://clips.twitch.tv/ProductiveDirtyFalconYouWHY",
+      "channel": "MarcoStyle (Clip: Craban)",
+      "upload_date": "2019-03-16",
+      "fps_real": 60,
+      "timestamp": "3.00 (f180)",
+      "frames": 1,
+      "figure_h_pct": 77,
+      "weapon_len_kh": 0.58,
+      "hand_len_kh": null,
+      "hand_to_weapon": null,
+      "hand_to_head": null,
+      "aim_offset_deg": null,
+      "holster": null,
+      "normal_speed": null,
+      "notes": "Gewehr tief vor dem Körper, Mündung unten-vorn; Länge projiziert/verkürzt; Kopf 0,15 KH",
+      "contributor": "Unteragent deckung"
+    },
+    {
+      "game": "The Division 2",
+      "subject": "Agent (Spielfigur, Inventar-Vorschau)",
+      "weapon_class": "special",
+      "action": "hand_size",
+      "status": "M",
+      "source_url": "https://clips.twitch.tv/HyperPeacefulClipsmomImGlitch",
+      "channel": "Chappie (Clip: Karenius)",
+      "upload_date": "2020-03-11",
+      "fps_real": 60,
+      "timestamp": "1.00 (f60)",
+      "frames": 1,
+      "figure_h_pct": 75,
+      "weapon_len_kh": 0.82,
+      "hand_len_kh": null,
+      "hand_to_weapon": 0.1,
+      "hand_to_head": 0.56,
+      "aim_offset_deg": null,
+      "holster": null,
+      "normal_speed": null,
+      "notes": "Präzisionsgewehr mit Dämpfer, fast seitlich; Hand = Handbreite der Vorderhand entlang der Waffe (0,084 KH), nicht Handlänge; Kopf inkl. Helm",
+      "contributor": "Unteragent deckung"
+    },
+    {
+      "game": "The Division 2",
+      "subject": "Agent (eigene Figur) und anderer Agent auf Distanz",
+      "weapon_class": "primary",
+      "action": "readability",
+      "status": "M/O",
+      "source_url": "https://clips.twitch.tv/ProductiveDirtyFalconYouWHY",
+      "channel": "MarcoStyle (Clip: Craban)",
+      "upload_date": "2019-03-16",
+      "fps_real": 60,
+      "timestamp": "21.00 (f1260)",
+      "frames": 1,
+      "figure_h_pct": 9.5,
+      "weapon_len_kh": null,
+      "hand_len_kh": null,
+      "hand_to_weapon": null,
+      "hand_to_head": null,
+      "aim_offset_deg": null,
+      "holster": null,
+      "normal_speed": null,
+      "notes": "eigene Figur: Kopf 49 % H, Füße unter dem Rand, Körpermitte 38-48 % B; fremder Agent 9,5 % H: Langwaffe erkennbar, Klasse nicht",
+      "contributor": "Unteragent deckung"
+    },
+    {
+      "game": "The Division 2",
+      "subject": "Agent (eigene Figur und Rogue)",
+      "weapon_class": "primary",
+      "action": "holster",
+      "status": "M",
+      "source_url": "https://clips.twitch.tv/ProductiveDirtyFalconYouWHY",
+      "channel": "MarcoStyle (Clip: Craban)",
+      "upload_date": "2019-03-16",
+      "fps_real": 60,
+      "timestamp": "21.00 (f1260); KR 3.00",
+      "frames": 1,
+      "figure_h_pct": null,
+      "weapon_len_kh": null,
+      "hand_len_kh": null,
+      "hand_to_weapon": null,
+      "hand_to_head": null,
+      "aim_offset_deg": null,
+      "holster": "zwei Langwaffen am Rucksack, senkrecht bis steil schräg, Mündung oben, überragen den Kopf um >= 15 pp H (KR, kein KH-Wert); Pistole am Oberschenkel [O]",
+      "normal_speed": null,
+      "notes": "zweite Quelle KR: https://clips.twitch.tv/AbnegateBlatantReindeerOMGScoots (077602/뉴비환불제조기, 2019-06-19)",
+      "contributor": "Unteragent deckung"
+    },
+    {
+      "game": "The Division 2",
+      "subject": "Agent, anderer Spieler (Rogue)",
+      "weapon_class": "special",
+      "action": "aim_offset",
+      "status": "M",
+      "source_url": "https://clips.twitch.tv/ProductiveDirtyFalconYouWHY",
+      "channel": "MarcoStyle (Clip: Craban)",
+      "upload_date": "2019-03-16",
+      "fps_real": 60,
+      "timestamp": "15.43-15.78 (f926-f947)",
+      "frames": 21,
+      "figure_h_pct": 31,
+      "weapon_len_kh": null,
+      "hand_len_kh": null,
+      "hand_to_weapon": null,
+      "hand_to_head": null,
+      "aim_offset_deg": 0,
+      "holster": null,
+      "normal_speed": true,
+      "notes": "Tief-Sprint -> angelegt 9 Bilder (f926-f935); Lauf mit angelegter Waffe f938-f947: Neigung 15-20 Grad unter Laufrichtung, Gierversatz ~0; ab f948 wieder tief | Richter R1: aim_offset_deg = Gierversatz Beine ↔ Waffe (≈ 0 ± 10°), Neigung getrennt in aim_pitch_deg",
+      "contributor": "Unteragent deckung",
+      "aim_pitch_deg": [
+        15,
+        20
+      ],
+      "aim_offset_tolerance_deg": 10
+    },
+    {
+      "game": "Gears 5",
+      "subject": "COG (Spielfigur, Entwickler-Stream)",
+      "weapon_class": "primary",
+      "action": "aim",
+      "status": "M",
+      "source_url": "https://clips.twitch.tv/FriendlyBillowingBillBrainSlug",
+      "channel": "Gears of War (Clip: lHybr1dl)",
+      "upload_date": "2019-07-16",
+      "fps_real": 60,
+      "timestamp": "4.50 (f270); 8.50 (f510)",
+      "frames": 1,
+      "figure_h_pct": null,
+      "weapon_len_kh": null,
+      "hand_len_kh": null,
+      "hand_to_weapon": null,
+      "hand_to_head": null,
+      "aim_offset_deg": null,
+      "holster": null,
+      "normal_speed": true,
+      "notes": "Zielkamera dicht über der rechten Schulter: Kopf/Schulter 0-33 % B, Kopf ab 22 % H, Lancer 8-35 % B / 55-75 % H; geduckt in Deckung Kopf 52 % H",
+      "contributor": "Unteragent deckung"
+    }
+  ],
+  "hand_size": [
+    {
+      "game": "Destiny 2",
+      "figure": "Warlock, Charakterbild",
+      "hand_kh": 0.068,
+      "hand_to_head": 0.54,
+      "hand_to_weapon_max": 0.1,
+      "measure": "Handlänge",
+      "status": "M",
+      "source_url": "https://twitch.tv/ehroar/clip/InventiveCuriousLemurNerfBlueBlaster",
+      "timestamp": "3.500 s (f210)"
+    },
+    {
+      "game": "Titanfall 2",
+      "figure": "Pilot, Lobby",
+      "hand_kh": [
+        0.06,
+        0.07
+      ],
+      "hand_to_head": [
+        0.41,
+        0.45
+      ],
+      "hand_to_weapon": [
+        0.13,
+        0.14
+      ],
+      "measure": "Faust",
+      "status": "M",
+      "source_url": "https://clips.twitch.tv/DoubtfulMushyPlumHassanChop-p1Qs91lrN9CV1HB5",
+      "timestamp": "15.000 s (n 900)"
+    },
+    {
+      "game": "Warframe",
+      "figure": "Rhino Prime, Arsenal",
+      "hand_kh": 0.1,
+      "hand_to_head": 0.6,
+      "hand_to_weapon": null,
+      "measure": "Handlänge",
+      "status": "M",
+      "source_url": "https://clips.twitch.tv/DullFurtiveShrimpCoolCat-Ks2nqD6u4_Mms-Ay",
+      "timestamp": "1.000 s (f60)"
+    },
+    {
+      "game": "The Division 2",
+      "figure": "Agent, Präzisionsgewehr",
+      "hand_kh": 0.084,
+      "hand_to_head": 0.56,
+      "hand_to_weapon": 0.1,
+      "measure": "Handbreite",
+      "status": "M",
+      "source_url": "https://clips.twitch.tv/HyperPeacefulClipsmomImGlitch",
+      "timestamp": "1.000 s (f60)"
+    },
+    {
+      "game": "Titanfall 2",
+      "figure": "BT-7274, Untersicht",
+      "hand_kh": [
+        0.16,
+        0.19
+      ],
+      "hand_to_head": null,
+      "hand_to_weapon": null,
+      "measure": "Faust, perspektivisch vergrößert",
+      "status": "O",
+      "source_url": "https://clips.twitch.tv/TacitSpoopyBaboonTF2John-i8CDQvlZx5Fo8R3Y",
+      "timestamp": "1.700 s (n 102)"
+    }
+  ],
+  "evaluation": [
+    {
+      "game": "Destiny 2",
+      "subject": "Körper von außen",
+      "good": "Dritte Person in Sozialräumen gefällt (446 P.)",
+      "bad": "Emotes/Ganzkörper steifer als in Destiny 1; starres Stehen im Turm",
+      "audience": "PvE-Sozialräume, Mode-Spieler",
+      "player_opinion": {
+        "summary": "steif, aber dritte Person erwünscht",
+        "recurrence": "wiederkehrend (2 Fäden steif, 1 Faden dritte Person)",
+        "sources": [
+          "https://www.reddit.com/r/DestinyTheGame/comments/a7ecvt/",
+          "https://www.reddit.com/r/DestinyTheGame/comments/rdvjd1/"
+        ],
+        "counter": "Mocap sei nicht steif"
+      },
+      "dev_reference": {
+        "summary": "Bungie-Charakteranimationssystem",
+        "url": "https://history.siggraph.org/?p=59754",
+        "date": null
+      }
+    },
+    {
+      "game": "Destiny 2",
+      "subject": "Waffe am Körper",
+      "good": "Schwert-Rahmen mit eigener Halteanimation geschätzt; Rückenwinkel laut Spielerbeobachtung still korrigiert (Q2, [C])",
+      "bad": "Rückenwaffe fast waagrecht, Arme durchdringen, nur eine Waffe sichtbar; dritte Person im PvP verschafft Sichtvorteil",
+      "audience": "PvP (Fairness), Kosmetikspieler",
+      "player_opinion": {
+        "summary": "Holsterlage und Clipping kritisiert, 3-Peeking unfair",
+        "recurrence": "wiederkehrend (3 Holster-Fäden; 3-Peeking 1276 P.)",
+        "sources": [
+          "https://www.reddit.com/r/DestinyTheGame/comments/779ohp/",
+          "https://www.reddit.com/r/DestinyTheGame/comments/73dcpz/",
+          "https://www.reddit.com/r/DestinyTheGame/comments/9ly2cs/",
+          "https://www.reddit.com/r/DestinyTheGame/comments/gtaazh/"
+        ],
+        "counter": "Clipping-Grenze akzeptiert"
+      },
+      "dev_reference": {
+        "summary": "Hand folgt Waffe / Waffe folgt Hand (GDC 2015)",
+        "url": "https://www.youtube.com/watch?v=U_4u0kbf-JE",
+        "date": "2015"
+      }
+    },
+    {
+      "game": "Titanfall 2",
+      "subject": "leicht gegen schwer",
+      "good": "Kontrast schneller Pilot / träger Titan als Absicht wahrgenommen",
+      "bad": "Titanen wirken leichter als in Titanfall 1; Tech-Test zu langsam, Respawn beschleunigte",
+      "audience": "Mech-Fans, PvP-Profis",
+      "player_opinion": {
+        "summary": "TF1-Titanen schwerer",
+        "recurrence": "wiederkehrend (4 Quellen)",
+        "sources": [
+          "https://www.reddit.com/r/titanfall/comments/1kpf4ts/tf2_vs_tf1_titans/",
+          "https://www.reddit.com/r/titanfall/comments/7447yf/",
+          "https://www.well-played.com.au/titanfall-2-falling-short/"
+        ],
+        "counter": "TF1 clunky (https://www.reddit.com/r/titanfall/comments/nbm1w7/)"
+      },
+      "dev_reference": {
+        "summary": "Respawn ändert nach Tech-Test Wandlauf und Titan-Dash",
+        "url": "https://gameinformer.com/b/news/archive/2016/08/24/respawn-is-making-changes-to-titanfall-2-based-on-player-concerns",
+        "date": "2016-08-24"
+      }
+    },
+    {
+      "game": "Warframe",
+      "subject": "Körper von außen",
+      "good": "Laufanimation transportiert Tempo; Set-Idles beliebt",
+      "bad": "Animationssets wirken nur im Stand; Necramech mit Zwangspausen",
+      "audience": "Fashion-Spieler, Mech-Spieler",
+      "player_opinion": {
+        "summary": "Sets schnappen in Bewegung zurück",
+        "recurrence": "wiederkehrend (5 Quellen)",
+        "sources": [
+          "https://www.reddit.com/r/Warframe/comments/7wfha3/",
+          "https://www.reddit.com/r/Warframe/comments/8h8ezu/",
+          "https://www.reddit.com/r/Warframe/comments/mxsjji/",
+          "https://www.reddit.com/r/Warframe/comments/1adlj74/"
+        ],
+        "counter": "Aufwand je Rahmen"
+      },
+      "dev_reference": {
+        "summary": "Animation Set und Necramech-Updatehistorie",
+        "url": "https://wiki.warframe.com/w/Animation_Set",
+        "date": null
+      }
+    },
+    {
+      "game": "Warframe",
+      "subject": "Waffe am Körper",
+      "good": "Holster-Stile als Kosmetik",
+      "bad": "zu wenige Lagen für sperrige Primärwaffen",
+      "audience": "Fashion-Spieler",
+      "player_opinion": {
+        "summary": "mehr Holsterlagen gewünscht",
+        "recurrence": "wiederkehrend (3)",
+        "sources": [
+          "https://www.reddit.com/r/Warframe/comments/uxdf44/",
+          "https://www.reddit.com/r/Warframe/comments/1o2ksgt/"
+        ],
+        "counter": null
+      },
+      "dev_reference": {
+        "summary": "Holster Styles (Update 32)",
+        "url": "https://wiki.warframe.com/w/Holster",
+        "date": null
+      }
+    },
+    {
+      "game": "The Division 2",
+      "subject": "Körper und Waffe von außen",
+      "good": "Deckungswechsel beliebt; Rucksackwaffen machen Ausrüstung lesbar (Einschätzung)",
+      "bad": "E3-Sprint unnatürlich, Beta clunky; Pistole schwebt neben dem Holster; Rucksackwaffe überragt den Kopf [M]",
+      "audience": "Deckungsshooter, PvE, Kosmetik",
+      "player_opinion": {
+        "summary": "Laufanimation kritisiert, Deckung gelobt",
+        "recurrence": "wiederkehrend",
+        "sources": [
+          "https://mein-mmo.de/the-division-2-spieler-amuesieren-sich-ueber-seltsame-lauf-animationen/",
+          "https://www.reddit.com/r/thedivision/comments/by6dut/",
+          "https://www.reddit.com/r/thedivision/comments/1lk53hi/"
+        ],
+        "counter": "Gewicht der Ausrüstung"
+      },
+      "dev_reference": {
+        "summary": "keine Massive-Quelle gefunden",
+        "url": null,
+        "date": null
+      }
+    },
+    {
+      "game": "Gears 5",
+      "subject": "Körper von außen",
+      "good": "Gewicht über Impuls statt Sofortstopp; Inertialization",
+      "bad": "geduckter Roadie Run im Mehrspieler; Wallbouncing gegen schwere Figuren",
+      "audience": "PvP-Profis, Kampagnenspieler",
+      "player_opinion": {
+        "summary": "gespalten",
+        "recurrence": "wiederkehrend",
+        "sources": [
+          "https://www.reddit.com/r/GearsOfWar/comments/1u073t7/",
+          "https://www.reddit.com/r/GearsOfWar/comments/1lbzgdt/"
+        ],
+        "counter": "Wallbouncing gewünscht"
+      },
+      "dev_reference": {
+        "summary": "Inertialization (GDC 2018); E-Day: kein Sofortstopp",
+        "url": "https://www.youtube.com/watch?v=BYyv4KTegJI",
+        "date": "2018"
+      }
+    },
+    {
+      "game": "Fortnite",
+      "subject": "Lesbarkeit der Waffe",
+      "good": null,
+      "bad": "Waffenklasse am Modell nicht erkennbar",
+      "audience": "alle, kleine Bildschirme",
+      "player_opinion": {
+        "summary": "Lesbarkeit schlecht",
+        "recurrence": "wiederkehrend im großen Faden",
+        "sources": [
+          "https://www.reddit.com/r/FortNiteBR/comments/18xi1xf/"
+        ],
+        "counter": "Gerätevielfalt"
+      },
+      "dev_reference": {
+        "summary": "eigenes Merkmal je Waffe in Ego und außen (A01)",
+        "url": null,
+        "date": null
+      }
+    }
+  ],
+  "player_voices": [
+    {
+      "game": "Destiny 2",
+      "goal": 1,
+      "summary": "Emotes/Ganzkörperbewegung in D2 steifer als in D1, Glieder einzeln statt ganzer Körper; D1-Emotes nach TTK 'rubbery', gewichtslos",
+      "recurrence": "wiederkehrend, 2 Fäden (D1 2015, D2 2018)",
+      "sources": [
+        "https://www.reddit.com/r/DestinyTheGame/comments/a7ecvt/",
+        "https://www.reddit.com/r/DestinyTheGame/comments/3qdgh5/"
+      ],
+      "counter": "Mocap- vs. Keyframe-Erklärung; 'no pleasing some people'",
+      "date": "2015-10-27 / 2018-12-18",
+      "status": "C"
+    },
+    {
+      "game": "Destiny 2",
+      "goal": 1,
+      "summary": "Dritte Person (Turm, Xur-Hort, Türen) gefällt; Wunsch nach Modus in dritter Person",
+      "recurrence": "Einzelfaden, breite Zustimmung",
+      "sources": [
+        "https://www.reddit.com/r/DestinyTheGame/comments/rdvjd1/"
+      ],
+      "counter": "Steam 2024: braucht neue Animationen, Rüstung clippt, PvP-3-Peeking",
+      "date": "2021-12-11",
+      "status": "C"
+    },
+    {
+      "game": "Destiny 2",
+      "goal": 1,
+      "summary": "Go-Fast-Update hob Gehtempo kaum, Sprint nicht; Spieler fühlen sich nicht schneller",
+      "recurrence": "wiederkehrend (laut Kommentar seit D1 häufigste Kritik)",
+      "sources": [
+        "https://www.reddit.com/r/DestinyTheGame/comments/87yjx7/"
+      ],
+      "counter": "Lob für Sprung/Strafe",
+      "date": "2018-03-29 (Update 1.1.4)",
+      "status": "C"
+    },
+    {
+      "game": "Destiny 2",
+      "goal": 1,
+      "summary": "Hüter steht im Turm starr; Wunsch nach klassenspezifischen Idle-Aktionen",
+      "recurrence": "Einzelstimme",
+      "sources": [
+        "https://www.bungie.net/PL/Forums/Post/165680825?page=4"
+      ],
+      "counter": null,
+      "date": null,
+      "status": "C (Suchauszug)"
+    },
+    {
+      "game": "Destiny 1",
+      "goal": 1,
+      "summary": "Eigene Treppen-Gehanimation in Rise of Iron wird bemerkt",
+      "recurrence": "Einzelstimme",
+      "sources": [
+        "https://www.reddit.com/r/DestinyTheGame/comments/4oa6mo/"
+      ],
+      "counter": null,
+      "date": "2016-06-15",
+      "status": "C"
+    },
+    {
+      "game": "Titanfall 2",
+      "goal": 1,
+      "summary": "TF1-Titanen wirkten schwerer (Rutschen, Masse, Momentum); TF2-Titanen leichter, schneller, 'reaper-sized stryder'",
+      "recurrence": "wiederkehrend, 3 Reddit-Fäden + 1 Presse",
+      "sources": [
+        "https://www.reddit.com/r/titanfall/comments/1kpf4ts/tf2_vs_tf1_titans/",
+        "https://www.reddit.com/r/titanfall/comments/7447yf/",
+        "https://www.well-played.com.au/titanfall-2-falling-short/"
+      ],
+      "counter": "https://www.reddit.com/r/titanfall/comments/nbm1w7/ – TF1 'clunky' (154 P.), aber Antworten: 'realistic', Schwanken wirkt echt",
+      "date": "2016-08-30 bis 2025-05-18",
+      "status": "C"
+    },
+    {
+      "game": "Warframe",
+      "goal": 1,
+      "summary": "Animationssets ändern nur das Stehen; beim Gehen schnappt die Figur in Standardlauf zurück; Wunsch nach Geh-/Lauf-/Ausweichstilen",
+      "recurrence": "wiederkehrend, 4 Reddit + 1 Steam (2018–2022)",
+      "sources": [
+        "https://www.reddit.com/r/Warframe/comments/7wfha3/",
+        "https://www.reddit.com/r/Warframe/comments/8h8ezu/",
+        "https://www.reddit.com/r/Warframe/comments/set56m/",
+        "https://steamcommunity.com/app/230410/discussions/0/1651045226219383516"
+      ],
+      "counter": "Aufwand (2 Stile × 34 Frames); DE: Bewegung gehört zum Frame (Hörensagen); wurde angekündigt",
+      "date": "2018-02-09 bis 2022-01-28",
+      "status": "C"
+    },
+    {
+      "game": "Warframe",
+      "goal": 1,
+      "summary": "Laufanimation trägt Tempo-Gefühl (Gauss); Volts mit Tempo skalierende Laufanimation wird zurückgewünscht",
+      "recurrence": "wiederkehrend, 2 Fäden",
+      "sources": [
+        "https://www.reddit.com/r/Warframe/comments/mxsjji/",
+        "https://www.reddit.com/r/Warframe/comments/10y20xs/"
+      ],
+      "counter": null,
+      "date": "2021-04-24 / 2023-02-09",
+      "status": "C"
+    },
+    {
+      "game": "Warframe",
+      "goal": 1,
+      "summary": "Operator-Gehen wirkt albern (kleine Stampfer)",
+      "recurrence": "Einzelfaden",
+      "sources": [
+        "https://www.reddit.com/r/Warframe/comments/1pjp6p8/"
+      ],
+      "counter": null,
+      "date": "2025-12-11",
+      "status": "C"
+    },
+    {
+      "game": "Warframe",
+      "goal": 1,
+      "summary": "Necramech schwer gewollt, aber Zwangspausen (2-s-Erholung nach Slide/Slam), langsamer Dash, schlechtes Drehen",
+      "recurrence": "wiederkehrend, Reddit + Forum",
+      "sources": [
+        "https://www.reddit.com/r/Warframe/comments/1adlj74/",
+        "https://forums.warframe.com/topic/1241282-necramech-movement-improvement-ideas/"
+      ],
+      "counter": "Klobigkeit unterscheidet Mech vom Warframe (Forum, Suchauszug)",
+      "date": "2024-01-29; Forum unbekannt",
+      "status": "C (Forum Suchauszug)"
+    },
+    {
+      "game": "The Division 2",
+      "goal": 1,
+      "summary": "E3-Sprint 'unnatürlich', Block zwischen den Beinen; Beta-Bewegung clunky, Bilder fehlen",
+      "recurrence": "wiederkehrend, Presse + Forum",
+      "sources": [
+        "https://mein-mmo.de/the-division-2-spieler-amuesieren-sich-ueber-seltsame-lauf-animationen/",
+        "https://forums.overclockers.co.uk/posts/32492627/"
+      ],
+      "counter": "realistisch wegen Ausrüstungsgewicht; nur etwas schwerer als Division 1",
+      "date": "2018-06-27 (E3-Alpha) / 2019-02-07 (Beta)",
+      "status": "C"
+    },
+    {
+      "game": "The Division 2",
+      "goal": 1,
+      "summary": "Deckung-zu-Deckung-Bewegung beliebt; schnelleres Laufen bester Teil der Saison",
+      "recurrence": "wiederkehrend, 2 Fäden",
+      "sources": [
+        "https://www.reddit.com/r/thedivision/comments/by6dut/",
+        "https://www.reddit.com/r/thedivision/comments/1j06rtb/"
+      ],
+      "counter": "Saisonbeginn 'sluggish'",
+      "date": "2019-06-08 / 2025-02-28",
+      "status": "C"
+    },
+    {
+      "game": "Gears 5 / E-Day",
+      "goal": 1,
+      "summary": "Geduckter Roadie Run wirkt unsinnig; aufrechter Lauf gewünscht und in E-Day gelobt",
+      "recurrence": "wiederkehrend, 2 Fäden",
+      "sources": [
+        "https://www.reddit.com/r/GearsOfWar/comments/1037tfp/",
+        "https://www.reddit.com/r/GearsOfWar/comments/1u073t7/"
+      ],
+      "counter": "geduckt schützt Kopf (Entwickler verwarfen angeblich normalen Lauf); E-Day-Figuren wirken weniger massig",
+      "date": "2023-01-04 / 2026-06-08",
+      "status": "C"
+    },
+    {
+      "game": "Gears 5",
+      "goal": 1,
+      "summary": "Wunsch nach schweren Figuren wie früher statt Wallbouncing – Gegenmeme: Gears 2/3 hüpften auch",
+      "recurrence": "wiederkehrend (Meme antwortet auf verbreitete Meinung)",
+      "sources": [
+        "https://www.reddit.com/r/GearsOfWar/comments/1lbzgdt/"
+      ],
+      "counter": "Wallbouncing ist Kern von Gears",
+      "date": "2025-06-15",
+      "status": "C"
+    },
+    {
+      "game": "Destiny 2",
+      "goal": 2,
+      "summary": "Rückenholster in dritter Person schlecht: Schwerter fast waagerecht, Arme durchdringen Rückenwaffe (später still korrigiert); nur eine Waffe sichtbar",
+      "recurrence": "wiederkehrend, 3 Fäden 2017/2018",
+      "sources": [
+        "https://www.reddit.com/r/DestinyTheGame/comments/779ohp/",
+        "https://www.reddit.com/r/DestinyTheGame/comments/73dcpz/",
+        "https://www.reddit.com/r/DestinyTheGame/comments/9ly2cs/"
+      ],
+      "counter": "alle Waffen teilen denselben Rückenplatz und würden clippen",
+      "date": "2017-09-30 bis 2018-10-06",
+      "status": "C"
+    },
+    {
+      "game": "Destiny 1",
+      "goal": 2,
+      "summary": "Große bunte Rückenwaffe stört das Farbschema; Ausblenden gewünscht",
+      "recurrence": "Einzelstimme",
+      "sources": [
+        "https://www.reddit.com/r/DestinyTheGame/comments/4ad2ps/"
+      ],
+      "counter": "Handfeuerwaffe ausrüsten",
+      "date": "2016-03-14",
+      "status": "C"
+    },
+    {
+      "game": "Destiny 2",
+      "goal": 2,
+      "summary": "Schwere Waffe in dritter Person wie Halo-Minigun tragen",
+      "recurrence": "Einzelfaden, hohe Zustimmung",
+      "sources": [
+        "https://www.reddit.com/r/DestinyTheGame/comments/hc8xhi/"
+      ],
+      "counter": "verdeckt die Sicht",
+      "date": "2020-06-19",
+      "status": "C"
+    },
+    {
+      "game": "Destiny 2",
+      "goal": 2,
+      "summary": "Dritte Person in PvP unfair (3-Peeking mit Schwert/Emote)",
+      "recurrence": "wiederkehrend; Bungie reagierte 2021",
+      "sources": [
+        "https://www.reddit.com/r/DestinyTheGame/comments/gtaazh/"
+      ],
+      "counter": "Emote-Sperre statt Schwert-Regel",
+      "date": "2020-05-30",
+      "status": "C"
+    },
+    {
+      "game": "Destiny 2",
+      "goal": 2,
+      "summary": "Schwert-Lauf- und Halteanimationen je Rahmen geschätzt; Wünsche nach Hüftscheide/Schulterlage; Lichtschwert-Lauf wie Großschwert",
+      "recurrence": "wiederkehrend, 4 Fäden 2017–2026, geringe Reichweite",
+      "sources": [
+        "https://www.reddit.com/r/DestinyTheGame/comments/1jeh1kn/",
+        "https://www.reddit.com/r/DestinyTheGame/comments/1oofqt9/",
+        "https://www.reddit.com/r/DestinyTheGame/comments/1wnazlv/"
+      ],
+      "counter": "'People complain about anything'",
+      "date": "2025-03-18 bis 2026-09-22",
+      "status": "C"
+    },
+    {
+      "game": "Destiny 2",
+      "goal": 2,
+      "summary": "Waffen und Kosmetik sieht man fast nur von außen (andere Spieler, Emote, Schwert)",
+      "recurrence": "mehrere Antwortende in einem Faden",
+      "sources": [
+        "https://steamcommunity.com/app/1085660/discussions/0/4299320215882183471"
+      ],
+      "counter": "dritte Person würde Spiel zu sehr ändern",
+      "date": "2024-03-04",
+      "status": "C"
+    },
+    {
+      "game": "Warframe",
+      "goal": 2,
+      "summary": "Holsterlagen sind Mode und werden aktiv gewünscht (Daishō, Tenet getragen, Koffer in der Hand); Primärwaffe als 'Rucksack'",
+      "recurrence": "wiederkehrend, 3 Fäden 2022–2025",
+      "sources": [
+        "https://www.reddit.com/r/Warframe/comments/1o2ksgt/",
+        "https://www.reddit.com/r/Warframe/comments/11pyepl/",
+        "https://www.reddit.com/r/Warframe/comments/uxdf44/"
+      ],
+      "counter": "nur bei einhändigen Aktionen machbar",
+      "date": "2022-05-25 bis 2025-10-09",
+      "status": "C"
+    },
+    {
+      "game": "The Division 2",
+      "goal": 2,
+      "summary": "Pistole schwebt neben dem Holster, Beil clippt",
+      "recurrence": "Einzelfaden",
+      "sources": [
+        "https://www.reddit.com/r/thedivision/comments/1lk53hi/"
+      ],
+      "counter": null,
+      "date": "2025-06-25",
+      "status": "C"
+    },
+    {
+      "game": "Fortnite",
+      "goal": 2,
+      "summary": "Waffenklasse am Modell nicht erkennbar (AR mit Trommel wie Auto-Schrotflinte)",
+      "recurrence": "wiederkehrend in großem Faden (263 Komm.)",
+      "sources": [
+        "https://www.reddit.com/r/FortNiteBR/comments/18xi1xf/"
+      ],
+      "counter": "Gerätevielfalt, reale Vorbilder",
+      "date": "2024-01-03 (Kapitel 5 Saison 1)",
+      "status": "C"
+    },
+    {
+      "game": "Titanfall 2",
+      "goal": 1,
+      "summary": "Titanfall-1-Titanen wirken schwerfälliger („clunky“) als die aus Titanfall 2 – Gegenstimme zu „TF1 schwerer“",
+      "recurrence": "Einzelstimme",
+      "sources": [
+        "https://www.reddit.com/r/titanfall/comments/nbm1w7/"
+      ],
+      "counter": "TF1-Titanen schwerer (P1, P2)",
+      "date": "2021-05-13",
+      "status": "C"
+    }
+  ],
+  "dev_sources": [
+    {
+      "game": "For Honor",
+      "goal": 1,
+      "speaker": "Kristjan Zadziuk (Ubisoft Toronto)",
+      "title": "GDC 2016 - Motion Matching, The Future of Games Animation... Today",
+      "url": "https://www.youtube.com/watch?v=KSTn3ePDt50",
+      "date": "2016 (Upload 2016-12-25)",
+      "claim": "Gewichtsverlagerung beim Richtungswechsel ist in Zustandsmaschinen kaum responsiv lösbar; Motion Matching liefert Gewichtstransfer, Beschleunigung/Abbremsen, kaum Fußrutschen (03:25, 12:55)",
+      "quote_lt15": "foot sliding is still minimal … we get proper weight transfer",
+      "status": "B"
+    },
+    {
+      "game": "For Honor",
+      "goal": 2,
+      "speaker": "Kristjan Zadziuk",
+      "title": "dto., Abschnitt 'second person movement'",
+      "url": "https://www.youtube.com/watch?v=KSTn3ePDt50",
+      "date": "2016",
+      "claim": "Strafen mit Kamera hinter der Figur aufgenommen ergibt Fußkreuzungen und Rumpfdrehung ohne eigene Übergänge (13:22–14:03)",
+      "quote_lt15": null,
+      "status": "B"
+    },
+    {
+      "game": "Overgrowth",
+      "goal": 1,
+      "speaker": "David Rosen (Wolfire Games)",
+      "title": "Animation Bootcamp: An Indie Approach to Procedural Animation",
+      "url": "https://www.youtube.com/watch?v=LNidsMesxSE",
+      "date": "GDC 2014 (Upload 2017-10-21)",
+      "claim": "Zwei Lauf-Schlüsselposen per 'Messrad' an zurückgelegte Strecke gekoppelt, Schrittlänge zwischen Gehen/Laufen überblendet, Federdämpfer statt linearer Übergänge (05:29–08:11)",
+      "quote_lt15": "no matter how fast or how slow he's moving he never floats",
+      "status": "B"
+    },
+    {
+      "game": "Titanfall 2",
+      "goal": 1,
+      "speaker": "Carlos Pineda (Respawn)",
+      "title": "Solving Titan-Sized Problems: Evolving Titan Combat in Titanfall 2",
+      "url": "https://www.youtube.com/watch?v=5kFqrI11xTc",
+      "date": "GDC 2017 (Upload 2017-03-23)",
+      "claim": "Intern galt TF1-Titankampf als 'mushy'; TF2 baute ihn um Entscheidungen (Dash, Block, langsame Projektile) um; zu schwache Titanen fühlten sich 'disposable' an (04:34, 35:05)",
+      "quote_lt15": "Titan gameplay was largely seen as boring or lacking depth",
+      "status": "B"
+    },
+    {
+      "game": "Titanfall 2",
+      "goal": 1,
+      "speaker": "Respawn (über Game Informer, Mike Futter)",
+      "title": "Respawn Is Making Changes To Titanfall 2 Based On Player Concerns",
+      "url": "https://gameinformer.com/b/news/archive/2016/08/24/respawn-is-making-changes-to-titanfall-2-based-on-player-concerns",
+      "date": "2016-08-24",
+      "claim": "Nach Tech-Test: Pilotentempo war bewusst gesenkt; ungewolltes Abbremsen beim Wandlauf wird behoben; Ion und Scorch wirkten zu langsam",
+      "quote_lt15": "Ion and Scorch have been dinged for feeling too slow",
+      "status": "B"
+    },
+    {
+      "game": "Titanfall 2",
+      "goal": 1,
+      "speaker": "Respawn (über Windows Central, Jez Corden)",
+      "title": "Respawn Entertainment addresses feedback from Titanfall 2's recent tech test",
+      "url": "https://www.windowscentral.com/respawn-entertainment-addresses-feedback-titanfall-2s-recent-tech-test",
+      "date": "2016-08-24",
+      "claim": "Luft- und Wandlauftempo schneller, Tempo beim Verketten bleibt erhalten, Titan-Dash lädt schneller; Verlangsamung sollte Kampf berechenbarer machen",
+      "quote_lt15": "Titan dashes will recharge faster.",
+      "status": "B"
+    },
+    {
+      "game": "Titanfall 2",
+      "goal": 1,
+      "speaker": "Respawn",
+      "title": "Tech Test and Feedback (EA-Blog 2016)",
+      "url": "https://www.ea.com/games/titanfall/titanfall-2/news/tech-test-and-feedback",
+      "date": "2016-08",
+      "claim": "Originalbeitrag zu B8/B9; heute Weiterleitung auf Shopseite",
+      "quote_lt15": null,
+      "status": "B (Suchauszug)"
+    },
+    {
+      "game": "Gears of War 4",
+      "goal": 1,
+      "speaker": "David Bollo (The Coalition/Microsoft)",
+      "title": "Inertialization: High-Performance Animation Transitions in Gears of War",
+      "url": "https://www.youtube.com/watch?v=BYyv4KTegJI",
+      "date": "GDC 2018 (Upload 2020-06-17)",
+      "claim": "Statt Überblenden ein impulserhaltender Übergang; Überblenden lässt periodische Bewegung durchscheinen und wirkt unnatürlich (05:42, 28:31)",
+      "quote_lt15": "we don't blend … we do this kind of momentum preserving transition",
+      "status": "B"
+    },
+    {
+      "game": "Gears of War: E-Day",
+      "goal": 1,
+      "speaker": "The Coalition",
+      "title": "Gears of War: E-Day Gameplay Updates",
+      "url": "https://www.gearsofwar.com/en-au/news/e-day-gameplay-updates/",
+      "date": "2026-07-31",
+      "claim": "Schweres Gefühl der gepanzerten Figur behalten, Gewicht über konsistente Impulsübertragung; kein sofortiges Stoppen/Wenden mehr; Sprint beginnt mit Roadie-Run-Ducken; schwere Waffen bremsen",
+      "quote_lt15": "No more stopping immediately and changing direction instantaneously.",
+      "status": "B"
+    },
+    {
+      "game": "Gears of War",
+      "goal": 1,
+      "speaker": "Rod Fergusson (Epic, über Engadget)",
+      "title": "Epic talks post update roadie run",
+      "url": "https://www.engadget.com/2007/04/15/epic-talks-post-update-roadie-run/",
+      "date": "2007-04-15",
+      "claim": "Roadie Run liest nach Patch die Absicht (Deckung in Stickrichtung); da nicht alle zufrieden, Mischversion aus alt und neu angekündigt",
+      "quote_lt15": null,
+      "status": "B"
+    },
+    {
+      "game": "Destiny",
+      "goal": 1,
+      "speaker": "Yongjoon Lee, Tam Armstrong, Joe Spataro (Bungie)",
+      "title": "Destiny Character-Animation System and Lessons Learned",
+      "url": "https://history.siggraph.org/?p=59754",
+      "date": "SIGGRAPH 2014",
+      "claim": "Forschungs-Fortbewegung an Spielpipeline angepasst; responsive Figurenanimation als Grundlage des Spiels, unter Netz- und CPU-Budget",
+      "quote_lt15": "responsive character animation as a foundation for core game play",
+      "status": "B"
+    },
+    {
+      "game": "Destiny",
+      "goal": 1,
+      "speaker": "Jami Jeffcoat (Bungie)",
+      "title": "The Missing Link - Bungie's Technical Designers in Animation",
+      "url": "https://www.youtube.com/watch?v=RmeEAFuE_2Q",
+      "date": "GDC 2015 (Upload 2018-06-07)",
+      "claim": "Animatoren wollen lesbare Silhouetten und klare Kommunikation; Technik und Design zwingen zum Abwägen von Antizipation, Übertreibung, Squash & Stretch (07:00–07:34)",
+      "quote_lt15": "readable silhouettes clear communication to the player",
+      "status": "B"
+    },
+    {
+      "game": "For Honor",
+      "goal": 1,
+      "speaker": "Simon Clavet (Ubisoft Montreal)",
+      "title": "Motion Matching and The Road to Next-Gen Animation",
+      "url": "https://gdcvault.com/play/1023280/Motion-Matching-and-The-Road",
+      "date": "GDC 2016",
+      "claim": "Vortrag zur Methode (nur Vault-Beschreibung gelesen)",
+      "quote_lt15": null,
+      "status": "B"
+    },
+    {
+      "game": "Warframe",
+      "goal": 1,
+      "speaker": "Warframe-Wiki / Digital Extremes (Hotfix 29.5.3)",
+      "title": "Necramech",
+      "url": "https://wiki.warframe.com/w/Necramech",
+      "date": "Abruf 2026-10-30 (Hotfix Dez. 2020)",
+      "claim": "Slide endet mit ~2 s erzwungenem Erholungsstampfer; DE änderte Schweben/Rammen-Tasten am Controller nach Spielerfeedback",
+      "quote_lt15": "Player feedback provided insight that pressing and holding hover …",
+      "status": "S/B"
+    },
+    {
+      "game": "Warframe",
+      "goal": 1,
+      "speaker": "Warframe-Wiki",
+      "title": "Animation Set",
+      "url": "https://wiki.warframe.com/w/Animation_Set",
+      "date": "Abruf 2026-10-30",
+      "claim": "Fremde Animationssets übernehmen keine eigenen Geh-, Lauf- und Rollanimationen",
+      "quote_lt15": null,
+      "status": "S"
+    },
+    {
+      "game": "Destiny 2",
+      "goal": 1,
+      "speaker": "Heather Alexandra (Kotaku)",
+      "title": "What Destiny 2 And Overwatch Animations Tell Us About …",
+      "url": "https://kotaku.com/what-destiny-2-and-overwatch-animations-tell-us-about-t-1819716453",
+      "date": "2017-10-20",
+      "claim": "Nahkampfanimation (~1 s, ~20 Bilder) trägt Klassencharakter; Titan mit Wucht (Ego-Sicht, Fachanalyse)",
+      "quote_lt15": "Guardians strike fast, hold their animations for dramatic effect.",
+      "status": "S"
+    },
+    {
+      "game": "allgemein (Unreal)",
+      "goal": 2,
+      "speaker": "Epic Games",
+      "title": "Aim Offset in Unreal Engine (UE 5.8)",
+      "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/aim-offset-in-unreal-engine",
+      "date": "ohne Datum, Abruf 2026-10-30",
+      "claim": "Zielen als additiver Blend Space (Mesh Space) über Grundpose, 5×3 Posen; weites Seitwärtszielen beim Laufen kann falsch aussehen → auf Stand beschränken",
+      "quote_lt15": "designed to be additively applied to an existing base animation",
+      "status": "S"
+    },
+    {
+      "game": "Overwatch",
+      "goal": 2,
+      "speaker": "Matt Boehm (Blizzard)",
+      "title": "Animation Bootcamp: The First Person Animation of Overwatch",
+      "url": "https://www.youtube.com/watch?v=7t0hLZd_8Z4",
+      "date": "GDC 2017 (Upload 2017-04-28)",
+      "claim": "Getrennte Animatoren für dritte und erste Person; Ego-Rig ist ausgedünntes Außen-Rig; Ego-Waffe beim Schuss gestreckt und Lauf vergrößert; Außen-Lauf gab Ego-Lauf den Charakter (05:57, 15:32, 26:13, 26:59)",
+      "quote_lt15": "forward with the gun barrel scaled up",
+      "status": "B"
+    },
+    {
+      "game": "Destiny",
+      "goal": 2,
+      "speaker": "David Hunt, Forrest Söderlind (Bungie)",
+      "title": "Tools-Based Rigging in Bungie's Destiny",
+      "url": "https://www.youtube.com/watch?v=U_4u0kbf-JE",
+      "date": "GDC 2015 (Upload 2018-06-03)",
+      "claim": "Werkzeug schaltet, ob Hände der Waffe folgen oder Waffe den Händen; Klassen unterscheiden sich in der Silhouette (Umhang/Robe) (16:51, 43:03)",
+      "quote_lt15": "whether hands are following the gun or the guns are following the hand",
+      "status": "B"
+    },
+    {
+      "game": "Destiny 2",
+      "goal": 2,
+      "speaker": "Cozmo (Bungie, über MeinMMO/Forbes)",
+      "title": "Destiny 2 spricht über Fix für nerviges PvP-Phänomen",
+      "url": "https://mein-mmo.de/destiny-2-three-peeking-deutet-neue-3-person-waffen-an/",
+      "date": "2021-02-01",
+      "claim": "Bungie kennt die 3-Peeking-Kritik, prüft Optionen; erwähnt mögliche künftige Waffen in dritter Person",
+      "quote_lt15": null,
+      "status": "S/B"
+    },
+    {
+      "game": "Warframe",
+      "goal": 2,
+      "speaker": "Warframe-Wiki / Digital Extremes",
+      "title": "Holster (Holster Styles, Update 32) + Hotfix 18.6.3",
+      "url": "https://wiki.warframe.com/w/Holster",
+      "date": "Abruf 2026-10-30",
+      "claim": "Nahkampf-Holster-Stile (Hüfte links/rechts, oberer/unterer Rücken) je 20 Platin; Wechsel Primär/Sekundär ~0,3 s, mit Update 32 stark beschleunigt; Hotfix 18.6.3 korrigierte Holsterlagen",
+      "quote_lt15": "dramatically increase the swapping speed between Primary and Secondary",
+      "status": "S/B"
+    },
+    {
+      "game": "allgemein (Source)",
+      "goal": 2,
+      "speaker": "Valve Developer Community",
+      "title": "Viewmodel",
+      "url": "https://developer.valvesoftware.com/wiki/Viewmodel",
+      "date": null,
+      "claim": "Ego-Waffe ist eigenes Modell; Streckung bei Viewmodels üblich (F5)",
+      "quote_lt15": null,
+      "status": "S (Suchauszug)"
+    },
+    {
+      "game": "Natural Selection 2",
+      "goal": 2,
+      "speaker": "Unknown Worlds",
+      "title": "Anatomy of a Feature",
+      "url": "https://unknownworlds.com/futureperfect/?p=317",
+      "date": null,
+      "claim": "Ego-Hände sind eigenes Modell mit eigenem FOV (F5)",
+      "quote_lt15": null,
+      "status": "B (Suchauszug, 404)"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "S1",
+      "question": "Wie wird Ziel 1 belegt?",
+      "recommendation": "A",
+      "options": [
+        "A Folgesitzung am Mac mit YouTube",
+        "B Startwerte aus Fachquellen",
+        "C eigene Mitschnitte"
+      ],
+      "answer": "A",
+      "answer_source": "Nutzer im Sitzungschat, 30.10.2026: „Alle wie empfohlen“"
+    },
+    {
+      "id": "S2",
+      "question": "Welche Waffen trägt der Roboter sichtbar?",
+      "recommendation": "A",
+      "options": [
+        "A nur die geführte (Rücken ≈ 40°, schwer Schulter ≈ 24°)",
+        "B alle ausgerüsteten (Rücken/Oberschenkel)",
+        "C in Cube Escape entscheiden"
+      ],
+      "answer": "A",
+      "answer_source": "Nutzer im Sitzungschat, 30.10.2026: „Alle wie empfohlen“"
+    },
+    {
+      "id": "S3",
+      "question": "Ruhehaltung mit Waffe außen?",
+      "recommendation": "A",
+      "options": [
+        "A tiefe Bereitschaft",
+        "B Waffe an einer Hand, Arme locker"
+      ],
+      "answer": "A",
+      "answer_source": "Nutzer im Sitzungschat, 30.10.2026: „Alle wie empfohlen“"
+    }
+  ],
+  "critic_summary": {
+    "walk_steps_per_s_light": 1.72,
+    "walk_provisional": true,
+    "breathing_period_s_heavy": 1.97,
+    "idle_loop_s": 18.0,
+    "titanfall_fall_frames": 8,
+    "titanfall_shield_after_frames": 2,
+    "embark_third_person_s": 3.04,
+    "turn_to_aim_frames": 9,
+    "turn_legs_frames": 12,
+    "breathing_bob_kh_max": 0.01,
+    "breathing_provisional": true
+  },
+  "ballon_summary": {
+    "hand_kh": [
+      0.06,
+      0.1
+    ],
+    "hand_to_head": [
+      0.41,
+      0.6
+    ],
+    "heavy_on_shoulder_deg_from_vertical": 24,
+    "back_holster_deg_from_vertical": 40,
+    "rest_pose": "tiefe Bereitschaft",
+    "class_readable": false,
+    "long_gun_readable_example_pct_h": 9.5,
+    "readability_note": "ein Beispiel (Division 2, V-DZ f1260), keine Schwelle"
+  },
+  "open": [
+    "Schrittfrequenz nach 4-Zyklen-Regel, Schrittlänge, Hub, Sprint, Sprung, Landung zu Fuß, Fallen (alle Spiele)",
+    "Leicht gegen schwer im Gang (Pilot/Titan, Warframe/Necramech)",
+    "Aim-Offset als Gierwinkel",
+    "Feuern mit Rückstoß, Nachladen, Wechsel von außen",
+    "Ego-Gegenwert der Hand an derselben Waffe (nur aus Modellmaßen)",
+    "Erkennbarkeitsschwelle der Waffenklasse in % H",
+    "Warframe-Animationssets Noble/Agile im Vergleich"
+  ],
+  "youtube_followup": [
+    {
+      "id": "Zb_IHDN-YJs",
+      "fps": 60,
+      "note": "Warframe vs Duet Night Abyss – Movement"
+    },
+    {
+      "id": "VpoyL3nZcGA",
+      "fps": 60,
+      "note": "Necramech"
+    },
+    {
+      "id": "CybLkZ5jhi4",
+      "fps": 60,
+      "note": "Warframe Animation Database"
+    },
+    {
+      "id": "IcXGMpYi1ps",
+      "fps": 60,
+      "note": "Titanfall 2 dritte Person (Mod)"
+    },
+    {
+      "id": "nemPqWMIMK4",
+      "fps": 60,
+      "note": "Titanfall 2 thirdperson above"
+    },
+    {
+      "id": "wmo_Fd9O-ps",
+      "fps": 60,
+      "note": "Titanfall 2 Nachladen dritte Person"
+    },
+    {
+      "id": "9l4O0VvfsQk",
+      "fps": 60,
+      "note": "Titanfall 2 Kampagne dritte Person"
+    },
+    {
+      "id": "B8TtmPF2nDk",
+      "fps": 60,
+      "note": "Titanfall 2 Tech-Test, vor Release"
+    },
+    {
+      "id": "pBbcRhDCbcM",
+      "fps": 60,
+      "note": "Titanfall 2 Animation Showcase"
+    },
+    {
+      "id": "g-ONoIEX48M",
+      "fps": 60,
+      "note": "Titanfall 2 Kapitel 2 BT"
+    },
+    {
+      "id": "Db8b4EmYiVw",
+      "fps": 30,
+      "note": "nur Form"
+    },
+    {
+      "id": "RBxR-JD1a9g",
+      "fps": 30,
+      "note": "nur Form"
+    },
+    {
+      "id": "JgAplNlSH9w",
+      "fps": 30,
+      "note": "nur Form"
+    },
+    {
+      "id": "7N1WL8eu38I",
+      "fps": 60,
+      "note": "Destiny 2 Third-Person-Glitch"
+    },
+    {
+      "id": "HCI6oocEksk",
+      "fps": 60,
+      "note": "Destiny 2 dritte Person (IGN 2017)"
+    },
+    {
+      "id": "gABu34ErU88",
+      "fps": 60,
+      "note": "Destiny 2 Snowball-Glitch, Schießen"
+    },
+    {
+      "id": "9lKym3DMboc",
+      "fps": 60,
+      "note": "Destiny 2 dritte Person"
+    },
+    {
+      "id": "Sg1lY2epEFc",
+      "fps": 60,
+      "note": "Destiny 2 dritte Person"
+    },
+    {
+      "id": "Lpmv5cEQDQE",
+      "fps": 60,
+      "note": "Destiny 2 dritte Person PvP"
+    },
+    {
+      "id": "a5QXxK9r1_A",
+      "fps": 60,
+      "note": "Mod-Client prüfen"
+    },
+    {
+      "id": "cGCwARvHGX0",
+      "fps": 60,
+      "note": "Destiny 2 Weird Walking Animation"
+    },
+    {
+      "id": "RMLZqmCW4q4",
+      "fps": 60,
+      "note": "Destiny 2 vs Warframe Abilities"
+    },
+    {
+      "id": "SbdFtaovF98",
+      "fps": 60,
+      "note": "Destiny 2 Skimmer vs K-Drive"
+    },
+    {
+      "id": "3aTFDd8regs",
+      "fps": 30,
+      "note": "nur Form"
+    },
+    {
+      "id": "LK06ySvC4os",
+      "fps": 30,
+      "note": "nur Form"
+    },
+    {
+      "id": "9pxr9Ys5NGI",
+      "fps": 30,
+      "note": "nur Form"
+    },
+    {
+      "id": "5Mrnz-hC4wM",
+      "fps": 30,
+      "note": "nur Form"
+    },
+    {
+      "id": "tyaeI_vF-Ww",
+      "fps": 30,
+      "note": "nur Form"
+    },
+    {
+      "id": "fFRqOJsNYx4",
+      "fps": 30,
+      "note": "Destiny 1, ausschließen"
+    },
+    {
+      "id": "LoG8BimP61E",
+      "fps": 60,
+      "note": "Gears"
+    },
+    {
+      "id": "-KCBlBbeSO4",
+      "fps": 60,
+      "note": "Gears"
+    },
+    {
+      "id": "I7pTinIl0vg",
+      "fps": 60,
+      "note": "Gears"
+    },
+    {
+      "id": "Pi1-s4NYdOk",
+      "fps": null,
+      "note": "Division Nachladen/Wechsel"
+    },
+    {
+      "id": "W4bsMcsp_P0",
+      "fps": null,
+      "note": "Division Nachladen/Wechsel"
+    },
+    {
+      "id": "vHMvNFzeC0g",
+      "fps": null,
+      "note": "Division Nachladen/Wechsel"
+    },
+    {
+      "id": "NOeeQJrEbDk",
+      "fps": null,
+      "note": "Division Nachladen/Wechsel"
+    }
+  ]
+}
