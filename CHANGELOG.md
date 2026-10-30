@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.32.0 „Spectator“ – 2026-10-30
+
+- Neue Referenzanalyse [Außenansicht – Körperbewegung und Waffe am Körper](docs/aussenansicht.md) mit `data/aussenansicht.json` für Critic (Roboter-Ganzkörper), BALLON (Waffe am Körper von außen) und später Cube Escape (Isometrie-Kamera): fünf Spiele (Destiny 2, Titanfall 2, Warframe, The Division 2, Gears 5), 15 Twitch-Clips mit 60/s, 41 Spieler- und 22 Fachquellen. Drei Messzeilen in `docs/destiny2.md` › 2 (Anker `z-aa-…`) und Methode 28, zwei in `docs/titanfall2.md` › 2, 13 Einträge in `data/clips.json`, Datentest.
+- Befund (Beobachtung, Schlüsse in Critic/BALLON): Ziel 2 in vier Spielen belegt – tiefe Bereitschaft als Ruhehaltung (Titanfall-Pilot, Warframe, Division), Destiny zeigt nur die geführte Waffe (schwer auf der Schulter 24°, im Emote diagonal auf dem Rücken 40°), Division/Warframe Langwaffen senkrecht am Rücken; Außenhände 0,06–0,10 KH bzw. 0,4–0,6 Kopfhöhen, keine sichtbare Vergrößerung (stützt F5 A); ab ≈ 10 % H ist „Langwaffe“ lesbar, die Klasse nicht. Ziel 1 nur lückenhaft: Warframe-Gang 1,72 Schritte/s (vorläufig, 3 Zyklen), Atmen 0,007–0,008 KH, Titanfall-Leerlauf 18-s-Schleife, Titan-Aufsatz nach 8 Bildern Fall, Einstieg 3,04 s, Division-Wende mit Anschlag 9 Bilder. Entscheidungsvorlage S1–S3 (Empfehlung je A).
+- Abnahme: fünf Unteragenten, 12 Zahlen vom Koordinator nachgemessen (11 bestätigt, 1 teilweise), 6/6 Fach-URLs, 3/3 Reddit-Fäden über Archiv; **korrigiert 3** (Warframe-Gang 4 → 3 sichere Zyklen, Destiny-KH als Spanne, Destiny-Holster „nie“ → eine Waffe). YouTube lud in der Cloud nur ≈ 20 min, dann Bot-Prüfung/403 – Gang, Sprint, Sprung offen, 36 Kandidaten für eine Folgesitzung am Mac. [Bericht](docs/versions/0.md#0320-spectator--2026-10-30).
+
 ## Patch „blueprint-antworten“ – 2026-10-29
 
 - Antworten des Nutzers (Sightline-Chat, 29.10.2026: „Alle wie empfohlen“) in die Entscheidungslisten von [design-ausruestung.md](docs/design-ausruestung.md#5-entscheidungsliste) (A1–A7 A, A8 B, A9 A) und [design-figuren.md](docs/design-figuren.md#5-entscheidungsliste) (F1–F9 A) eingetragen; Umsetzung in BALLON/Cube Escape.
