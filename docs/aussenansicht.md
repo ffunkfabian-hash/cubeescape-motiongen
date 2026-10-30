@@ -243,6 +243,7 @@ Vollständige Liste mit Datum, Sprecher, Zustimmung und Gegenstimmen in `data/au
   `HCI6oocEksk` (Third-Person-Glitch) – je Vorgang ≥ 4 Zyklen, Retail gegen Mod/Glitch kennzeichnen. Liefert Hz, KH-Schrittlänge, Hub, leicht/schwer.
 - **B:** Critic setzt Startwerte aus Fachquellen und eigener Einschätzung, Motiongen misst später nach.
 - **C:** Eigene Mitschnitte (Warframe frei spielbar) mit fester Seitenkamera – sauberste Messung, aber Aufnahmeaufwand beim Nutzer.
+- Antwort (Nutzer im Sitzungschat, 30.10.2026): „Alle wie empfohlen“ → **A** (Empfehlung)
 
 <a id="frage-s2"></a>**Frage S2 – Welche Waffen trägt der Roboter sichtbar am Körper?** (Abnehmer BALLON/Critic/Cube Escape; Stil, S)
 - **A (Empfehlung):** nur die geführte Waffe sichtbar (Destiny-Ansatz); im Leerlauf/Emote wandert sie auf Rücken (≈ 40°) bzw. die schwere
@@ -250,11 +251,13 @@ Vollständige Liste mit Datum, Sprecher, Zustimmung und Gegenstimmen in `data/au
 - **B:** alle ausgerüsteten Waffen sichtbar (Warframe/Division): Langwaffe senkrecht am Rücken, Handwaffe am Oberschenkel – mehr Lesbarkeit
   der Ausrüstung, aber „Antenne“ über dem Kopf und Kollision mit dem Rückenmodul (F9 A).
 - **C:** später in Cube Escape entscheiden, wenn die Isometrie-Kamera steht.
+- Antwort (Nutzer im Sitzungschat, 30.10.2026): „Alle wie empfohlen“ → **A** (Empfehlung)
 
 <a id="frage-s3"></a>**Frage S3 – Ruhehaltung mit Waffe außen?** (Abnehmer Critic; Stil, S)
 - **A (Empfehlung):** tiefe Bereitschaft – Waffe quer bzw. schräg tief vor dem Körper, beide Hände an der Waffe (Titanfall-Pilot,
   Warframe, Division); Atemhub sehr klein (≈ 0,01 KH), Leben über Kopf- und Gewichtswechsel in langer Schleife (Titanfall 18 s).
 - **B:** Waffe hängt an einer Hand, Arme locker (Destiny-Hüter im Turm halten nichts) – entspannter, liest sich aber nicht als bewaffnet.
+- Antwort (Nutzer im Sitzungschat, 30.10.2026): „Alle wie empfohlen“ → **A** (Empfehlung)
 
 ## 7. Offen und nicht messbar
 

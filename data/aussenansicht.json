@@ -1679,7 +1679,9 @@
         "A Folgesitzung am Mac mit YouTube",
         "B Startwerte aus Fachquellen",
         "C eigene Mitschnitte"
-      ]
+      ],
+      "answer": "A",
+      "answer_source": "Nutzer im Sitzungschat, 30.10.2026: „Alle wie empfohlen“"
     },
     {
       "id": "S2",
@@ -1689,7 +1691,9 @@
         "A nur die geführte (Rücken ≈ 40°, schwer Schulter ≈ 24°)",
         "B alle ausgerüsteten (Rücken/Oberschenkel)",
         "C in Cube Escape entscheiden"
-      ]
+      ],
+      "answer": "A",
+      "answer_source": "Nutzer im Sitzungschat, 30.10.2026: „Alle wie empfohlen“"
     },
     {
       "id": "S3",
@@ -1698,7 +1702,9 @@
       "options": [
         "A tiefe Bereitschaft",
         "B Waffe an einer Hand, Arme locker"
-      ]
+      ],
+      "answer": "A",
+      "answer_source": "Nutzer im Sitzungschat, 30.10.2026: „Alle wie empfohlen“"
     }
   ],
   "critic_summary": {
