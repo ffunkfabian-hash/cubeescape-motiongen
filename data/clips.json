@@ -2572,5 +2572,65 @@
     "clip": "https://clips.twitch.tv/AbnegateBlatantReindeerOMGScoots",
     "source": "077602 (Twitch, Clip: 뉴비환불제조기), 19.06.2019, 60 fps",
     "timestamps": "f180 (3,00 s)"
+  },
+  {
+    "measurement": "Außenansicht Warframe: Laufen 3,81 Schritte/s (4 Zyklen), Sprint 4,09 und Schleichen 3,64 (vorläufig), harte Landung 1,00 s bis Ruhe",
+    "clip": "https://www.youtube.com/watch?v=Zb_IHDN-YJs",
+    "source": "Ultraclocked (YouTube), 25.02.2026, „Warframe vs Duet Night Abyss - Movement Comparison“, 1920 × 1080, 60 fps (linke Hälfte, showcase)",
+    "timestamps": "f68–f194, f260–f348, f527–f626, f2024–f2084"
+  },
+  {
+    "measurement": "Außenansicht Titanfall 2: Nachladen R-201 von außen 128 Bilder bis Ausgangslage",
+    "clip": "https://www.youtube.com/watch?v=wmo_Fd9O-ps",
+    "source": "EyelessRook (YouTube), 04.10.2020, „Titanfall 2 All Weapons Reload Animations In Third Person“, 1920 × 1080, 60 fps",
+    "timestamps": "n 370–505 (6,167–8,417 s)"
+  },
+  {
+    "measurement": "Außenansicht Titanfall 2: Abschnittsversatz und Normaltempo per Speedrun-Timer (kein Gang messbar)",
+    "clip": "https://www.youtube.com/watch?v=9l4O0VvfsQk",
+    "source": "Taskinoz (YouTube), 25.11.2017, „Titanfall 2 - 3rd Person % 2:12.10“, 144p-Scan, Abschnitte 1280 × 720 (echt 27–55 fps)",
+    "timestamps": "655–715 s, 1088–1148 s"
+  },
+  {
+    "measurement": "Außenansicht Destiny 2 (Glitch): Lauf von hinten ≈ 3,2–3,3 Schritte/s (vorläufig), Normaltempo per HUD-Countdown",
+    "clip": "https://www.youtube.com/watch?v=7N1WL8eu38I",
+    "source": "Jarv (YouTube), 31.12.2020, „Destiny 2 | THIRD PERSON GLITCH!“, 1920 × 1080, 60 fps (echt 57,8)",
+    "timestamps": "f11840–f12900 (197,33–215,00 s)"
+  },
+  {
+    "measurement": "Außenansicht Destiny 2 (Glitch): Rückstoß von außen – Kamerakick 2,4–3,5 pp, Körper ≈ 0,03 KH",
+    "clip": "https://www.youtube.com/watch?v=HCI6oocEksk",
+    "source": "IGN (YouTube), 24.12.2017, „How to Play Destiny 2 in Third Person“, 1920 × 1080, 59,94 fps (echt 53,1)",
+    "timestamps": "f3618–f4056 (60,36–67,67 s)"
+  },
+  {
+    "measurement": "Außenansicht Destiny 2 (Glitch): Normaltempo per HUD „Time Remaining“, Dauerfeuer [O]",
+    "clip": "https://www.youtube.com/watch?v=gABu34ErU88",
+    "source": "xHOUNDISHx (YouTube), 24.12.2017, „Destiny 2 | THIRD PERSON GUN GLITCH!“, 1920 × 1080, 60 fps (echt 59,2)",
+    "timestamps": "f6599–f7315 (109,98–121,92 s)"
+  },
+  {
+    "measurement": "Außenansicht Gears 5: Gehen 3,00 Schritte/s (8 Zyklen), Roadie Run 4,17 (vorläufig), Ausweichrolle 21/46 Bilder; Gears 4 Gehen 3,01",
+    "clip": "https://www.youtube.com/watch?v=I7pTinIl0vg",
+    "source": "Shiro Tsuki (YouTube), 01.02.2020, „Gears of War 4 vs Gears 5 - Movement comparison“, 1920 × 1080, 59,659 fps (echt 56–57)",
+    "timestamps": "n 70–420, 740–1130, 2250–2320"
+  },
+  {
+    "measurement": "Außenansicht Gears 5: Lancer-Nachladen 146 Bilder bis ruhig, HUD voll 0,2–0,3 s vorher",
+    "clip": "https://www.youtube.com/watch?v=LoG8BimP61E",
+    "source": "PC Gaming Videos (YouTube), 13.09.2019, „GEARS 5 ALL Weapons & Reload Animations Showcase“, 1920 × 1080, 59,94 fps",
+    "timestamps": "n 7390–7560 (123,29–126,13 s)"
+  },
+  {
+    "measurement": "Außenansicht Gears 5: Gnasher-Schuss – Kamerakick ≥ 7,6 pp, ruhig nach 50 Bildern",
+    "clip": "https://www.youtube.com/watch?v=-KCBlBbeSO4",
+    "source": "Weapons From Games (YouTube), 06.09.2019, „GEARS 5 - All Weapons“, 1920 × 1080, 60 fps (echt ≈ 51)",
+    "timestamps": "n 10630–10686 (177,17–178,10 s)"
+  },
+  {
+    "measurement": "Außenansicht The Division 2: Wechsel Gewehr → Revolver ≥ 18 Bilder bis Anschlag, Ausweichrolle 22/38 Bilder",
+    "clip": "https://www.youtube.com/watch?v=NOeeQJrEbDk",
+    "source": "Dan Silverhound (YouTube), 26.06.2019, „The Division 2 - Gunslinger / Bullfighter Weapon Swap Fun“, 1920 × 1080, 59,94 fps (echt 53–58)",
+    "timestamps": "n 2518–2556, 2925–2947"
   }
 ]
