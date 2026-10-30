@@ -21,6 +21,16 @@ für kein Spiel belegt** – YouTube war in dieser Cloud-Sitzung nach 20 Minuten
 lange genug quer zur Kamera ([7](#7-offen-und-nicht-messbar)). Destiny 2 zeigt die eigene Figur beim Schießen mit Primär-, Spezial- und schwerer Waffe nie von außen – nur im sozialen
 Raum, im Emote, im Super, mit Schwert und beim Tragen von Gegenständen.
 
+**Kurzbefund REF 0.33 „Gaitline“ (Mac, 30.10.2026; 19 YouTube-Quellen aus [7](#7-offen-und-nicht-messbar) und eine eigene Suche, [2.1](#21-gang-von-außen--ref-033),
+[3.4](#34-feuern-nachladen-und-wechsel-von-außen--ref-033)).** Gangtakt nach der 4-Zyklen-Regel jetzt in zwei Spielen: **Warframe Laufen 3,81
+Schritte/s** (leicht) und **Gears 5 Gehen 3,00 Schritte/s** (schwer gepanzerte Figur, 8 Zyklen); Sprint/Roadie Run 4,09 bzw. 4,17 Schritte/s
+(vorläufig), Destiny-Warlock von hinten ≈ 3,2–3,3 (vorläufig, Glitch-Kamera). Der Takt kommt aus **Posengleichheit**, nicht aus Fußaufsätzen:
+in keiner Quelle steht eine ganze Figur quer zur Kamera bei echten 60/s – **Fußaufsatz ±1 Bild, Schrittlänge und Hub in KH bleiben offen**,
+ebenso **Pilot ↔ Titan und Warframe ↔ Necramech im Gang** (kein Titan-/Mech-Gang über ≥ 4 Zyklen). Neu für Ziel 2: Nachladen von außen
+(Titanfall R-201 128 Bilder bis Ausgangslage, Gears Lancer 146 Bilder bis ruhig), Wechsel in Division 2 (≥ 18 Bilder bis Anschlag), Rückstoß von außen als
+**Kamerakick** (Destiny-Glitch 2,4–3,5 pp, Gears Gnasher ≥ 7,6 pp) bei kleinem Körperausschlag (≈ 0,03 KH). Ein Gierversatz Beine ↔ Oberkörper
+kommt in keinem der 20 Videos vor.
+
 ## 1. Quellen und Methode
 
 - **Videos [M]:** Twitch-Clips (1080p/900p, echte 60/s – Doppelbilder per Bilddifferenz geprüft), ganz geladen; **Clipzeit = Originalzeit**,
@@ -67,6 +77,38 @@ Gesichtet ohne Messung: Destiny 2 neun weitere Clips (Vorschaubild zeigte Außen
 Warframe 4, Division/Gears 13 (Liste in den Arbeitsordnern). **Suchweg Destiny (nicht wiederholen):** Top-100-Clips von 16 Destiny-Kanälen
 (1475 Einträge, 868 Vorschaubilder als Kontaktbögen) – **Twitch-Vorschaubilder sind kein Filter für Außenansicht** (9 von 14 Treffern trogen).
 
+### 1.1 Quellen REF 0.33 (YouTube, Mac)
+
+yt-dlp 2026.10.21 mit Deno und `yt-dlp-ejs`, **nacheinander** geladen (ein Lader, keine parallelen Abrufe aus Unteragenten; keine Bot-Prüfung
+in ≈ 1,5 h), Format 299/303 (1080p60) bzw. 298 (720p60). Kanal, Datum und Titel je ID per `yt-dlp -J` am 30.10.2026; **echte Bildrate** je
+Video über den Anteil wiederholter Bilder (mittlere Bilddifferenz < 0,5) an mehreren Stellen. `capture`: **retail** · **showcase** (Retail,
+für ein Video geschnitten) · **glitch** (Destiny Third-Person-Glitch) · **mod** (Northstar-/Konsolenkamera) – Kamera und Animationszustände
+weichen bei glitch/mod ab. Zeiten nur bei echten ≈ 60/s; Bildindex n = Zeit × Containerrate.
+
+| Kürzel | ID | Kanal \| Datum \| Titel (gekürzt) | Bild, echte Rate | capture | hier |
+|---|---|---|---|---|---|
+| <a id="a-q-ultraclocked"></a>**W-UC** | [`Zb_IHDN-YJs`](https://www.youtube.com/watch?v=Zb_IHDN-YJs) | Ultraclocked \| 25.02.2026 \| Warframe vs Duet Night Abyss - Movement Comparison | 1080p, 60/s (Standbild 7,4–8,3 s), linke Hälfte = Warframe | showcase | Laufen, Sprint, Schleichen, Landung |
+| W-DB | [`CybLkZ5jhi4`](https://www.youtube.com/watch?v=CybLkZ5jhi4) | Drunk Bear \| 22.07.2017 \| Warframe Animation Database: Default | 1080p, **6–18/s** | showcase | nur Form |
+| W-NM, W-VR | [`VpoyL3nZcGA`](https://www.youtube.com/watch?v=VpoyL3nZcGA), [`GvseUKgOreM`](https://www.youtube.com/watch?v=GvseUKgOreM) | DizzyBones \| 21.09.2020 \| Necramech max movement speed; Mactics \| 11.09.2024 \| I FINALLY Got The VOIDRIG | 720p, 29/s; 720p, 52–53/s | retail | Necramech: unscharf bzw. nie zu Fuß |
+| <a id="a-q-eyelessrook"></a>**T-ER** | [`wmo_Fd9O-ps`](https://www.youtube.com/watch?v=wmo_Fd9O-ps) | EyelessRook \| 04.10.2020 \| All Weapons Reload Animations In Third Person | 1080p, 60/s | retail (Ego eines zweiten Spielers auf den Piloten) | Nachladen von außen |
+| T-FG1, T-FG2 | [`IcXGMpYi1ps`](https://www.youtube.com/watch?v=IcXGMpYi1ps), [`nemPqWMIMK4`](https://www.youtube.com/watch?v=nemPqWMIMK4) | Froggygun \| 08.01.2023 / 20.02.2023 \| 3rd person / thirdperson above | 720p, 60/s; 720p, **17–54/s** | mod (Northstar-Konsole im Bild) | Pilot/Titan nur [O] |
+| T-TK | [`9l4O0VvfsQk`](https://www.youtube.com/watch?v=9l4O0VvfsQk) | Taskinoz \| 25.11.2017 \| 3rd Person % 2:12.10 | 144p-Scan; Abschnitte 720p **27–55/s** | mod (vermutet, Konsole nicht sichtbar) | Normaltempo per Timer, kein Gang |
+| T-GO | [`g-ONoIEX48M`](https://www.youtube.com/watch?v=g-ONoIEX48M) | Game Over \| 14.01.2022 \| Chapter 2 - BT 7274 | 720p, 31–60/s | retail | BT nie gehend neben dem Piloten |
+| <a id="a-q-jarv"></a>**D-JV** | [`7N1WL8eu38I`](https://www.youtube.com/watch?v=7N1WL8eu38I) | Jarv \| 31.12.2020 \| THIRD PERSON GLITCH! (Beyond Light, Season 12) | 1080p, 57,8/s | glitch | Lauf von hinten, Normaltempo |
+| <a id="a-q-ign"></a>**D-IGN** | [`HCI6oocEksk`](https://www.youtube.com/watch?v=HCI6oocEksk) | IGN \| 24.12.2017 \| How to Play Destiny 2 in Third Person (Dawning 2017) | 1080p, 53,1/s | glitch | Rückstoß von außen |
+| D-HD, D-ZS | [`gABu34ErU88`](https://www.youtube.com/watch?v=gABu34ErU88), [`cGCwARvHGX0`](https://www.youtube.com/watch?v=cGCwARvHGX0) | xHOUNDISHx \| 24.12.2017 \| THIRD PERSON GUN GLITCH; Zer0 SP \| 16.01.2021 \| Weird Walking Animation | 1080p, 59,2/s; 59,9/s | glitch; retail (Ego) | Dauerfeuer [O]; Fehlerbild [O] |
+| <a id="a-q-shiro"></a>**G-ST** | [`I7pTinIl0vg`](https://www.youtube.com/watch?v=I7pTinIl0vg) | Shiro Tsuki \| 01.02.2020 \| Gears of War 4 vs Gears 5 - Movement comparison | 1080p, 59,659/s Container, echt 56–57/s | retail (geteiltes Bild) | Gehen, Roadie Run, Rolle |
+| <a id="a-q-pcgv"></a>**G-PC** | [`LoG8BimP61E`](https://www.youtube.com/watch?v=LoG8BimP61E) | PC Gaming Videos \| 13.09.2019 \| GEARS 5 ALL Weapons & Reload Animations Showcase | 1080p, 56–58/s | showcase | Lancer-Nachladen |
+| G-WG | [`-KCBlBbeSO4`](https://www.youtube.com/watch?v=-KCBlBbeSO4) | Weapons From Games \| 06.09.2019 \| GEARS 5 - All Weapons | 1080p, 51–55/s | showcase | Gnasher-Schuss |
+| <a id="a-q-silverhound"></a>**V-DS** | [`NOeeQJrEbDk`](https://www.youtube.com/watch?v=NOeeQJrEbDk) | Dan Silverhound \| 26.06.2019 \| Gunslinger / Bullfighter Weapon Swap Fun | 1080p, 50–59/s | retail | Wechsel, Rolle |
+| V-SL, V-DR, V-MB | [`Pi1-s4NYdOk`](https://www.youtube.com/watch?v=Pi1-s4NYdOk), [`W4bsMcsp_P0`](https://www.youtube.com/watch?v=W4bsMcsp_P0), [`vHMvNFzeC0g`](https://www.youtube.com/watch?v=vHMvNFzeC0g) | Slash2x \| 09.03.2019 (Open Beta); Dod-Regnbue \| 21.10.2023; Microwaved Banana Split \| 31.03.2019 | **10–26/s**; bis 14/s; 11–40/s | retail | nur Form bzw. nicht gemessen |
+
+**Takt ohne Fußaufsatz:** Wo Füße unter dem Bildrand, unter Roben oder in Bewegungsunschärfe liegen, ist der Takt der Abstand **gleicher
+Posen** (feste Figurvorlage bzw. Selbstähnlichkeit des Figurenausschnitts, ±1 Bild) mit einer zweiten Spur zur Gegenprobe (Farbmaske,
+Kopf-Tiefpunkte); ein voller Zyklus wird von der halben Periode (Spiegelpose) über die Ähnlichkeitshöhe getrennt. **Abschnitte** wurden
+per Bildvergleich gegen die 144p-Gesamtkopie verortet (Taskinoz +1088,000 / +655,000 s, ±0,033 s – kein Versatz wie in
+[nahkampf.md › 10](nahkampf.md#10-offen-und-nicht-messbar)).
+
 ## 2. Ziel 1 – Körperbewegung von außen
 
 | Vorgang | Quelle, Zeit (Bilder) | Messung |
@@ -88,6 +130,31 @@ Warframe 4, Division/Gears 13 (Liste in den Arbeitsordnern). **Suchweg Destiny (
 über Aufsatz in tiefer Hocke (8 Bilder Fall, Schild 2 Bilder danach) und eine 3-s-Einstiegssequenz mit Aufrichten und Drehen; beim Atmen
 bewegen sich leichte wie schwere Figuren kaum (≤ ≈ 0,01 KH, an der Auflösungsgrenze). Der Warframe-Gang (1,7 Schritte/s) liegt deutlich unter dem Destiny-Sprint-Wippen
 in Ego (3,16 Hz, [Methode 21](destiny2.md#methode-21)) – verschiedene Vorgänge (Gehen außen gegen Sprint in Ego), nicht vergleichen.
+
+### 2.1 Gang von außen – REF 0.33
+
+Quellen in [1.1](#11-quellen-ref-033-youtube-mac). Schritte/s = 2 ÷ Zyklusdauer; „Pose“ = Takt aus Posengleichheit, nicht aus Fußaufsätzen.
+
+| Vorgang | Quelle, Zeit (Bilder) | Messung |
+|---|---|---|
+| **Laufen, leicht (Warframe, Standardset)** [M] <a id="a-g-wf-lauf"></a> | W-UC, 1,133–3,233 s (f68 → f194) | Pose gleich **f68, f100, f131, f162, f194** (Figurenausschnitt, NCC gegen f100) → **4 Zyklen, 31,5 Bilder je Zyklus (0,525 s) = 3,81 Schritte/s**; Spiegelpose dazwischen (f82/113/145/177). Von hinten, Füße unter dem Bildrand → keine Fußaufsätze; Rückenhub nur [O] ≈ 3,5–4 pp H, zwei je Zyklus (NCC 0,50). Normaltempo offen (Video geschnitten, Standbild 7,4–8,3 s) |
+| Sprint, leicht (Warframe) [M, vorläufig] <a id="a-g-wf-sprint"></a> | W-UC, f260 → f348 | Pose gleich f260, 289, 319, 348 → **3 Zyklen, 29,3 Bilder = 4,09 Schritte/s**; zwischen zwei Überblendungen. Stärker vorgeneigt, Arme angewinkelt hinter dem Körper [O] |
+| Schleichgang geduckt, leicht (Warframe) [M, vorläufig] | W-UC, f527 → f626 | Pose gleich f527, 560, 593, 626 → **3 Zyklen, 33,0 Bilder = 3,64 Schritte/s**; Füße sichtbar, Aufsatz bei mitlaufender Kamera nur grob (rechts ≈ f536, links ≈ f553) [O] |
+| **Harte Landung nach langem Fall (Warframe)** [M] <a id="a-g-wf-landung"></a> | W-UC, f2024 → f2084 | **Aufsatz f2024 ±2** (Draufsicht), tiefe Hocke ab f2028 (+4), gehalten bis f2074, Aufrichten f2075–2083 (9 Bilder), ruhig ab f2084 → **Aufsatz bis Ruhe 60 Bilder (1,00 s)**; Landung mit Abrollen ≈ 0,7 s bis aufrecht [O] |
+| **Gehen, schwer gepanzert (Gears 5, Kait)** [M] <a id="a-g-gears-gehen"></a> | G-ST, n 70–420 (Gears-5-Hälfte) | Kopf-Tiefpunkte n 82, 103, 122, …, 281 (10 Schritte in 199 Bildern) und Seitenmaxima der blauen Handschuhmarke n 78, 120, 160, …, 398 (**8 Zyklen, 40,0 Bilder = 0,670 s**) → **3,00 Schritte/s** (Container 59,659/s); Gears 4 dieselbe Figur **3,01 Schritte/s**. Amplitude verworfen (Kopfvorlage NCC-Median 0,79), Füße unter dem Bildrand. Normaltempo offen |
+| Roadie Run (Gears 5) [M, vorläufig] <a id="a-g-gears-roadie"></a> | G-ST, n 740–1130 | Feste Vorlage auf dem Lancer am Rücken: Bildgleich-Maxima n 756 … 1128 → **13 Zyklen, 28,6 Bilder (0,480 s) = 4,17 Schritte/s**; Seitenmaxima bestätigen (28,8). Vorläufig, weil die NCC zwischen den Maxima auf 0,53–0,6 fällt; Füße unscharf |
+| **Ausweichrolle bis Anschlag (Gears 5 / Division 2)** [M] <a id="a-g-rolle"></a> | G-ST n 2250–2320; V-DS n 2518–2556 | Gears: erste Bewegung n 2250 → **Schulter am Boden +21 Bilder** → Hocke mit Waffe im Anschlag **+46 Bilder (0,77 s)** → erster Schuss +70 (Spielereingabe). Division: **+22 Bilder** bis Boden, **+38 Bilder (0,63 s)** bis Hocke hinter der Kiste (ohne Anschlag) |
+| Lauf von hinten, Warlock (Destiny 2, Glitch) [M, vorläufig] <a id="a-g-d2-lauf"></a> | D-JV, f12760–f12900 | Robe verdeckt die Beine → Takt über die Silhouettenhöhe: Hochpunkte f12763, 12784, 12805, 12821, 12839, 12857, 12873 → 18,3 Bilder je Schritt ≈ **3,3 Schritte/s**; seitliche Lage des Unterkörpers wiederholt sich alle 37 Bilder (r = 0,41) → **3,2 Schritte/s**; nur 3–3,8 Zyklen, Lauf/Sprint nicht trennbar. Figur 15–23 % H, läuft vom Betrachter weg. **Normaltempo belegt:** HUD-Countdown: Übergang auf 0:35 bei f11840, auf 0:18 bei f12842 → 17 Spielsekunden in 1002 Bildern (58,9 Bilder je Spielsekunde) |
+| Gleiten (Destiny 2, Warlock, Glitch) [O] | D-JV, f12576–12636, f12905–12946 | Figur schwebt mit hängenden Beinen, Silhouette sinkt langsam; Absprung und Landung nicht getrennt |
+| Pilot und Titan (Titanfall 2) [O] <a id="a-g-tf"></a> | T-FG1 13–15,5 s, 97–101 s, 1126–1133 s; T-FG2; T-TK 655–715 s, 1088–1148 s; T-GO | **Keine Gangzahl:** Pilot nur von hinten auf dunklem Gitterrost (Kopfvorlage NCC meist < 0,85), Titan mit Füßen unter dem Bildrand oder unter Rauch/HUD; T-FG2 nur 17–54/s; Taskinoz-Abschnitte 27–55/s, BT steht 5–34 s und kämpft danach, Pilot springt nach 2,4 s in Parkour; T-GO zeigt BT nur in Nahsicht. Normaltempo der Taskinoz-Abschnitte per Speedrun-Timer belegt (50,000 s Timer in 50,000 s Video) |
+| Necramech (Warframe) [O] | W-NM 0–18,5 s; W-VR ganz | 29/s und bewegungsunscharf, kein Takt; Voidrig-Video: Mech nie zu Fuß (nur Arsenal ≈ 786 s), 182 Schnitte |
+
+**Muster 2.1 (Beobachtung):** (1) Der Takt steigt mit dem Tempo **wenig**: Warframe Schleichen 3,64 → Laufen 3,81 → Sprint 4,09 Schritte/s,
+Gears Gehen 3,00 → Roadie Run 4,17 – Tempo kommt vor allem über die Schrittlänge (nicht gemessen) und die Haltung (Vorlage, Arme hinten).
+(2) Die schwer gepanzerte Gears-Figur geht mit 3,0 Schritten/s – nicht langsam im Takt; das Gewicht liegt in Haltung, Rolle (Boden nach 21 Bildern,
+Anschlag nach 46) und Landung, wie in 0.32 beim Titan. (3) Der Warframe-Gehtakt aus 0.32 (1,72 Schritte/s, [Gehen](#a-wf-gehen)) ist ein
+anderer Vorgang (Gehen im Devstream) und bleibt vorläufig; Laufen außen (3,81) liegt nahe am Ego-Sprint-Wippen von Destiny (3,16 Hz vertikal
+= ein Ausschlag je Schritt) – verschiedene Spiele und Vorgänge, nicht gleichsetzen.
 
 ## 3. Ziel 2 – Waffe am Körper von außen
 
@@ -144,6 +211,28 @@ mit dem Kopf knapp unter der Bildmitte (Destiny-Schwert, Division) oder näher h
 dem Kopf frei. (4) **Lesbarkeit:** bei 9,5 % H (ein Beispiel, Division) ist „Langwaffe“ noch lesbar, die Klasse nicht – keine Schwelle; Destiny-Hüter ohne gehaltene Waffe sind auch bei
 26–38 % H waffenlos.
 
+### 3.4 Feuern, Nachladen und Wechsel von außen – REF 0.33
+
+Marker wie in [nachladen.md](nachladen.md#2-messtabelle): erste Bewegung → Waffe wieder in der Ausgangslage („Anschlag“) → ruhig; HUD-Ereignisse
+getrennt genannt. Quellen in [1.1](#11-quellen-ref-033-youtube-mac).
+
+| Vorgang | Quelle, Zeit (Bilder) | Messung |
+|---|---|---|
+| **Nachladen R-201 von außen (Titanfall 2)** [M] <a id="a-r-tf-r201"></a> | T-ER, n 370 → 505 (6,167–8,417 s), 60/s | Waffe kippt ab **n 370** (davor ruhig), wieder in Ausgangslage **n 498 ±2 → 128 Bilder (2,13 s)**, ruhig n 505 ±3 (135 Bilder). Ablauf [O]: Mündung kippt nach außen-oben, linke Hand zweimal zur Hüfte (n ≈ 414–423, 474–490), Rumpf und Beine stehen. Figur ≈ 49 % H. Normaltempo nicht belegt |
+| **Nachladen Lancer von außen (Gears 5)** [M] <a id="a-r-gears-lancer"></a> | G-PC, n 7414 → 7560 (123,69–126,13 s) | erste Bewegung **n 7414 ±2** → ruhig in Hüftbereitschaft **n 7560 ±2: 146 Bilder (2,44 s)**; Ablauf: Waffe steil vor die Schulter, linke Hand hinter den Rücken (n 7428–7456), Waffe senkrecht, flach gedreht, zurück. **HUD:** Active-Reload-Leiste n 7411–7532, Magazinbalken voll zwischen n 7541 und 7548 – **0,2–0,3 s vor „ruhig“** (wie in [LESSONS](LESSONS.md): HUD vor Körper). Feuerrate am Zähler 7,2 Schuss/s (Prüfgröße, Sollwert offen) |
+| **Wechsel Gewehr → Revolver (Division 2)** [M, Untergrenze] <a id="a-r-dv-wechsel"></a> | V-DS, n 2925 → 2947 (48,80–49,17 s), echt 53/s | Langwaffe schwingt ab **n 2925** ab, Revolver in der Hand n 2937 (12 Bilder), **Arm im Anschlag n 2943 (18 Bilder, 0,30 s)**, ruhig n 2947 (22 Bilder); Hüftschuss dazwischen n 2941. Anfang beim Verlassen der Deckung evtl. verdeckt → Untergrenze, ±2 Bilder |
+| **Schuss Gnasher (Gears 5, JD): Kamera und Waffe** [M] <a id="a-r-gears-gnasher"></a> | G-WG, n 10630 → 10686 (177,17–178,10 s), echt ≈ 51/s | Zwei Weltanker (Kran, Geländer): Welt springt **≥ 7,6 pp H nach unten** (Kamera nickt hoch; n 10631–10641 verworfen, NCC < 0,85), Rücklauf monoton ohne Überschwingen, **ruhig ab n 10680 (50 Bilder)**, Endlage = Ausgangslage (Δ 0,04 pp). Waffe wechselt beim Pumpen die Form (NCC 0,2–0,4) → Ausschlag nicht messbar; **Waffe zurück in Ausgangspose n 10685 (55 Bilder)**. Zeiten Medienzeit (Wiederholbilder) |
+| **Rückstoß von außen, Einzelschüsse (Destiny 2, Glitch)** [M] Lage, [O] Zeiten <a id="a-r-d2-kick"></a> | D-IGN, Schüsse f3618, 3762, 3872, 3957, 4056 | Warlock mit dem Rücken zur Kamera (KH ≈ 39 % H), Waffe in Glitch-Haltung senkrecht auf der Schulter. **Kamerakick:** Welt springt je Schuss **2,4–3,5 pp H** nach unten (Spind 2,4–2,6, Deckenpaneel 3,5 – Orbit-Kamera mit Parallaxe, daher Spanne), **Spitze +6–7 Bilder**, zurück nach **28–39 Bildern**. **Figur gegen Welt:** Rücken steigt 1,27–1,34 pp H nach oben (≈ 0,033 KH) und rückt 0,6–0,85 pp B nach rechts, Spitze +5–7, Ruhe nach 28–34 Bildern (drei Schüsse mit NCC ≥ 0,85). Waffe/Hand verworfen (Mündungsblitz, NCC 0,35–0,8). Echte Rate 53/s, Normaltempo nicht belegt |
+| Dauerfeuer von außen (Destiny 2, Glitch) [O] | D-HD f6600–6647; D-IGN f4113–4133 | Leuchtspuren alle 5–7 Bilder (≈ 9–10 Schuss/s), Waffe hoch vor der rechten Schulter; Normaltempo in D-HD per HUD belegt (12 s in 716 Bildern). D-IGN: Magazin 39 → 34 in 5 Containerbildern je Schuss |
+| Zielen und Haltung (Gears 5, Warframe, Division Open Beta) [O]/[M Lage] | G-PC f7313, f250; W-DB f719; V-SL f3960 | Gears-Schulterkamera: Figur 22–48 % B, Kopfoberkante 53–55 % H, zweite Langwaffe senkrecht am Rücken; Warframe Primär waagrecht in Schulterhöhe (Arsenal); Division-Agent frontal, Gewehr senkrecht vor der Brust beim Nachladen |
+
+**Muster 3.4 (Beobachtung):** (1) **Nachladen von außen ist ein Arm- und Waffenvorgang:** Rumpf und Beine bleiben stehen (R-201, Lancer);
+R-201 128 Bilder (2,13 s) bis zur Ausgangslage (135 bis ruhig), Lancer 146 Bilder (2,44 s) bis ruhig in Hüftbereitschaft –
+zwei Sturmgewehre, Endmarker verschieden. (2) **Rückstoß liest sich von außen vor allem als Kamerakick**, der Körper bewegt
+sich wenig (Destiny ≈ 0,03 KH); Gnasher (Schrot) kickt die Kamera mindestens doppelt so weit wie die Destiny-Kinetikwaffe (≥ 7,6 gegen 2,4–3,5 pp) – zwei Beispiele,
+keine Klassenwerte. (3) **Aim-Offset als Gierwinkel** (Beine quer, Oberkörper zum Ziel) kommt in keinem der 20 Videos vor; die gemessenen
+Figuren schießen mit Beinen und Brust in Schussrichtung oder in Glitch-Haltung ([7](#7-offen-und-nicht-messbar)).
+
 ## 4. Muster je Spiel
 
 - **Destiny 2:** Außenansicht nur in sozialen Räumen, Emote, Super, Schwert, Tragen von Gegenständen und Missionsende. Schwere Waffe auf der
@@ -156,6 +245,15 @@ dem Kopf frei. (4) **Lesbarkeit:** bei 9,5 % H (ein Beispiel, Division) ist „L
 - **The Division 2:** Gewehr tief vor dem Körper, Langwaffen senkrecht am Rucksack (Kopf überragt), Pistole am Oberschenkel; Wende mit
   Anschlag 9 Bilder; Zielen im Laufen ohne Gierversatz in diesem Clip.
 - **Gears 5:** Zielkamera sehr nah (Kopf/Schulter füllen ein Drittel der Breite), Ducken in Deckung; Roadie Run nicht messbar.
+
+**Ergänzt in 0.33 ([2.1](#21-gang-von-außen--ref-033), [3.4](#34-feuern-nachladen-und-wechsel-von-außen--ref-033)):**
+- **Destiny 2:** Glitch-Kamera zeigt den Warlock von hinten mit ≈ 3,2–3,3 Schritten/s (vorläufig) und die Primärwaffe **auf der Schulter wie eine
+  schwere** – Glitch-Haltung, nicht als Retail übernehmen; Rückstoß von außen = Kamerakick 2,4–3,5 pp, Körper ≈ 0,03 KH. Die Klasse ist in allen
+  Glitch-Quellen Warlock (der Glitch setzt ihn voraus), die Rasse bleibt unter dem Helm unbestimmt – ein Exo ist nicht belegt.
+- **Titanfall 2:** Nachladen von außen 128 Bilder (R-201); Third-Person-Videos sind Northstar-Mods; Pilot- und Titan-Gang nicht messbar.
+- **Warframe:** Laufen 3,81, Sprint 4,09 (vorläufig), Schleichen 3,64 Schritte/s; harte Landung 1,00 s bis Ruhe; Necramech-Gang ohne 60/s-Quelle.
+- **The Division 2:** Wechsel Gewehr → Revolver ≥ 18 Bilder bis Anschlag; Ausweichrolle 22 Bilder bis Boden, 38 bis Hocke.
+- **Gears 5:** Gehen 3,00 Schritte/s (8 Zyklen), Roadie Run 4,17 (vorläufig), Rolle 21/46 Bilder, Lancer-Nachladen 146 Bilder, Gnasher-Kamerakick ≥ 7,6 pp.
 
 ## 5. Bewertung: gut, nicht so gut, für wen
 
@@ -176,6 +274,12 @@ in [5.1](#51-quellen-der-bewertung); die Spalte „Belege“ aus Standard › 6 
 | **Fortnite** | Lesbarkeit der Waffe | – | Waffenklasse am Modell nicht erkennbar (Q14) | alle, besonders kleine Bildschirme | wiederkehrend im großen Faden | A01 per ID ([design-ausruestung](design-ausruestung.md#2-quellen)) |
 | allgemein | Ego gegen außen (F5) | getrennte Modelle/Animatoren für Ego und außen, Ego-Waffe gestreckt und vergrößert (W2 Overwatch, GDC 2017) | keine Quelle nennt eine Zahl für Hand außen gegen Ego | Art-Direktion | – | W2, W8 (Valve-Wiki, Suchauszug), W9 (Suchauszug) |
 
+**Neue Belege 0.33 zu dieser Tabelle** (keine neuen Spielerstimmen – die neuen Zahlen ändern keine Bewertung, sie belegen sie):
+Warframe „Laufanimation transportiert Tempo“ (P16) – gemessen steigt der Takt vom Laufen zum Sprint nur um 7 % (3,81 → 4,09, [Sprint](#a-g-wf-sprint)),
+das Tempo kommt also über Haltung und Schrittlänge [M]/Einschätzung. Gears „Gewicht über Impuls“ (B11) – die Rolle braucht 46 Bilder bis zum
+Anschlag gegen 38 Bilder ohne Anschlag in Division ([Rolle](#a-g-rolle)) [M]. Destiny „nur eine Waffe sichtbar“ (Q1, Q2, Q4) – die
+Glitch-Ansicht legt auch die Primärwaffe beim Laufen auf die Schulter ([Lauf](#a-g-d2-lauf)); das ist ein Kamerafehler, kein Retail-Beleg.
+
 ### E2 – Lehren für Critic (Vorschlag, dort entscheiden)
 
 - **Übernehmen:** Gewicht über **Ereignisse und Übergänge** statt über langsames Grundtempo – Titan-Aufsatz in tiefer Hocke (8 Bilder Fall,
@@ -185,8 +289,12 @@ in [5.1](#51-quellen-der-bewertung); die Spalte „Belege“ aus Standard › 6 
 - **Übernehmen:** Schrittlänge an die zurückgelegte Strecke koppeln (B2 GDC 2014: Fuß rutscht nie), damit Füße bei der Isometrie-Kamera nicht gleiten.
 - **Vermeiden:** einen Ruhestil, den die Bewegung nicht fortsetzt (Warframe-„Zurückschnappen“, P12–P15); feste Zwangspausen schwerer Figuren
   ohne Abbruch (Necramech, P19, B13).
-- **Testen:** Gangtakt leicht ≈ 1,7 Schritte/s ([Warframe](#a-wf-gehen), vorläufig) als Startwert, schwer langsamer – Zahl für schwer fehlt
+- **Testen (Stand 0.32, durch den Punkt „Testen (0.33)“ ersetzt):** Gangtakt leicht ≈ 1,7 Schritte/s ([Warframe](#a-wf-gehen), vorläufig) als Startwert, schwer langsamer – Zahl für schwer fehlte
   ([7](#7-offen-und-nicht-messbar)); Wende mit Anschlag ≈ 9–12 Bilder ([Division](#a-dv-wende)).
+- **Testen (0.33):** Laufen ≈ 3,8 Schritte/s, Sprint ≈ 4,1 (vorläufig) als Startwerte für eine leichte Figur ([Warframe](#a-g-wf-lauf)); für eine
+  schwere Figur **nicht** langsamer takten, sondern Gehen ≈ 3,0 Schritte/s wie die schwer gepanzerte Gears-Figur ([Gears](#a-g-gears-gehen)) und
+  Gewicht über Rolle/Landung zeigen (Rolle bis Anschlag 46 Bilder, harte Landung 1,0 s bis Ruhe, [Rolle](#a-g-rolle), [Landung](#a-g-wf-landung)).
+  Schrittlänge und Hub fehlen weiter – an der eigenen Isometrie-Kamera aus der Strecke ableiten (B2).
 
 ### E2 – Lehren für BALLON (Vorschlag, dort entscheiden)
 
@@ -199,6 +307,9 @@ in [5.1](#51-quellen-der-bewertung); die Spalte „Belege“ aus Standard › 6 
 - **Testen:** Handgröße außen 0,06–0,10 KH bzw. 0,4–0,6 Kopfhöhen ([3.3](#33-handgröße-außen-gegen-ego-frage-f5)) gegen den Ego-Arm v3 im
   Modell (orthografisch) prüfen – F5 A bleibt tragfähig; Waffenklasse auf Distanz über eine eigene Silhouette je Klasse (Q14, A01), weil im
   einzigen Beispiel bei 9,5 % H nur „Langwaffe“ lesbar war.
+- **Testen (0.33):** Nachladen von außen als reiner Arm-/Waffenvorgang (Rumpf und Beine stehen) mit R-201 2,13 s bis zur Ausgangslage bzw. Lancer 2,44 s bis ruhig an je einem
+  Sturmgewehr ([R-201](#a-r-tf-r201), [Lancer](#a-r-gears-lancer)); Wechsel ≥ 18 Bilder bis Anschlag ([Division](#a-r-dv-wechsel)). Rückstoß von
+  außen zeigt sich vor allem in der Kamera – am Körper reicht ein kleiner Ausschlag (≈ 0,03 KH, [Kick](#a-r-d2-kick)).
 
 ### 5.1 Quellen der Bewertung
 
@@ -261,6 +372,26 @@ Vollständige Liste mit Datum, Sprecher, Zustimmung und Gegenstimmen in `data/au
 
 ## 7. Offen und nicht messbar
 
+**Stand nach REF 0.33 „Gaitline“** (die Punkte darunter sind der Stand 0.32 und bleiben als Begründung stehen):
+- **Erledigt:** Schrittfrequenz nach der 4-Zyklen-Regel für Warframe (Laufen) und Gears 5 (Gehen) ([2.1](#21-gang-von-außen--ref-033));
+  Nachladen, Wechsel und Feuern mit Rückstoß von außen je mit mindestens einem Beispiel ([3.4](#34-feuern-nachladen-und-wechsel-von-außen--ref-033)).
+- **Teilweise:** Sprint/Roadie Run, Schleichen und Destiny-Lauf nur vorläufig bzw. mit verworfener Amplitude; Landung (Warframe) und Rolle
+  (Gears, Division) gemessen, Sprung mit Absprung und Fallen zu Fuß nicht.
+- **Weiter offen, mit Grund – nicht mit denselben Quellen wiederholen:**
+  - **Fußaufsatz ±1 Bild, Schrittlänge und Hub/Pendeln in KH, Start/Stopp, Drehen auf der Stelle:** keine der 20 Quellen zeigt eine ganze
+    Figur quer zur Kamera bei echten 60/s (Füße unter dem Bildrand: W-UC, G-ST; Robe: D-JV; Gitterrost/Rauch: T-FG1; Schnitte: W-UC, W-VR).
+    Kandidat: Gears „Wall cover walk“ (G-ST n ≈ 1200–1640, Seitschritt vor einer Wand als Weltanker) – nur Seitschritt, kein Vorwärtsgang.
+  - **Pilot ↔ Titan, Warframe ↔ Necramech im Gang:** T-FG1/T-FG2/T-TK/T-GO und W-NM/W-VR geprüft, kein Titan- oder Mech-Gang über ≥ 4 Zyklen;
+    T-TK-Abschnitte und T-FG2 haben nur 17–55 echte Bilder/s. Weg: eigener Mitschnitt mit fester Seitenkamera (Antwort C zu [S1](#frage-s1))
+    oder eine Northstar-Seitenkamera bei echten 60/s.
+  - **Aim-Offset als Gierwinkel:** in keinem der 20 Videos (Division-Kandidaten V-SL nur 10–26/s, V-DR Figur am Bildrand; Destiny-Glitch
+    entkoppelt Waffe und Ziel).
+  - **Erkennbarkeit der Waffenklasse in mehreren Abständen:** alle Showcases zeigen die Figur in fester Nahkamera.
+  - **Normaltempo** für Warframe- und Gears-Showcases nicht belegt (keine Uhr, kein Ton im Videostream); belegt nur Destiny D-JV/D-HD (HUD)
+    und Taskinoz (Speedrun-Timer).
+  - Destiny-Hüter von außen nach **Klasse und Rasse**: Klasse in allen Glitch-Quellen Warlock (die Third-Person-Glitches setzen ihn voraus),
+    Rasse unter dem Helm unbestimmt – Titan, Jäger und ein sicher erkennbarer Exo fehlen.
+
 - **Schrittfrequenz nach 4-Zyklen-Regel, Schrittlänge in KH, Hub und Pendeln im Gehen/Laufen/Sprint, Start/Stopp, Drehen auf der Stelle,
   Sprung, Landung zu Fuß, Fallen:** in keinem Spiel belegt. Gründe: YouTube ab ≈ 12:20–12:35 gesperrt (Bot-Prüfung/403); Twitch-Clips zeigen
   Figuren laufend fast nur von hinten oder schräg (keine Seitenansicht, kein Weltmaßstab), Overlays verdecken Füße (Warframe-Devstreams),
@@ -299,3 +430,20 @@ Vollständige Liste mit Datum, Sprecher, Zustimmung und Gegenstimmen in `data/au
   Zeitangaben aus 10/s-Bögen (Titan-Exekution 3,9 s, nur [O]) und alle Bewertungstexte ohne Quelle.
 - **Zählung:** 5 Spiele (Destiny 2, Titanfall 2, Warframe, The Division 2, Gears 5; Fortnite nur Stimme), 22 Clips (14 gemessen, 8 gesichtet), 41 Spieler- und
   22 Fachquellen (Ziel 2: 9, davon W6/W7 = B1/B11), ≈ 30 vermessene Einzelbilder; 36 YouTube-Kandidaten für die Folgesitzung.
+
+**Prüfung REF 0.33 „Gaitline“ (30.10.2026):**
+- **Unteragenten:** vier Messagenten (Warframe, Titanfall 2, Destiny 2, Gears 5/Division 2; Opus, high), je eigener Ordner unter
+  `~/Library/Caches/CubeEscape/reference/aussenansicht-gang/`; keiner schrieb ins Repo oder lud selbst – ein Lader für alle Downloads
+  (nacheinander; ein kurzer Doppelabruf von etwa 2 min beim Neustart, danach getrennt), Abschnitte über eine Warteschlange.
+- **Nachmessung durch den Koordinator: 8 Zahlen, 8 bestätigt** (eigene Spuren oder Bögen, nicht die CSV der Agenten): Warframe-Laufen
+  (Selbstähnlichkeit: f68/100/131/162/193 → 3,84 gegen 3,81 Schritte/s), Warframe-Landung (Aufsatz f2024–2026, Ruhe ≈ f2084), Destiny-Countdown
+  (0:35 ab **f11840** statt f11838 – übernommen 1002 statt 1004 Bilder, Normaltempo ±2 %), Destiny-Kamerakick (eigener Anker Deckenpaneel:
+  Spitze +6, Ruhe ≈ 35 Bilder; Betrag 3,5 statt 2,4–2,6 pp → als Spanne übernommen), Gears-Gehen (eigene Handschuh-Farbmaske: 8 Zyklen,
+  39,9 Bilder → 2,99 Schritte/s), Lancer-Nachladen (f7413–7414 → f7560–7562), Gears-Rolle (2250/2271/2296 im Rahmen ±3), R-201-Nachladen
+  (n 370–371 → 495–498). **Korrigiert 2** (Destiny-Marker, Kick-Betrag als Spanne), **nicht übernommen:** Statusangaben „nicht messbar“ als
+  Messwert (als [O] mit Grund geführt), Zeiten aus Quellen unter ≈ 50 echten Bildern/s (nur Form).
+- **Quellen:** 19 Kandidaten-IDs plus eine eigene Suche (Necramech: `GvseUKgOreM`; `btEXSl9CcyY`, `2SpdpXuBd4o` nur 30/s, verworfen), alle per
+  yt-dlp geprüft; Kanal, Datum, Titel in [1.1](#11-quellen-ref-033-youtube-mac). Keine neuen Spieler- oder Fachquellen (Standard › 4: nur zu neuen
+  Bewertungsbefunden; die neuen Zahlen belegen bestehende).
+- **Zählung:** 5 Spiele (plus Gears of War 4 als Vergleichsseite), 20 Videos geprüft, 10 davon gemessen; 35 neue JSON-Einträge (body_motion
+  23: 11 [M], 12 [O]; weapon_body 12: 6 [M] bzw. [M/O], 6 [O]); Gangtakt nach 4-Zyklen-Regel in 2 Spielen, vorläufig in 3 weiteren Vorgängen.

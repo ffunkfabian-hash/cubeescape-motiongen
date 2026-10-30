@@ -1,4 +1,4 @@
-"""data/aussenansicht.json (REF 0.32 "Spectator") keeps the shape Critic and BALLON read: every example names game, subject,
+"""data/aussenansicht.json (REF 0.32 "Spectator", REF 0.33 "Gaitline") keeps the shape Critic and BALLON read: every example names game, subject,
 status, source and notes; body sizes are body heights (KH), image positions percentages, frame counts whole pictures."""
 import json
 import unittest
@@ -73,6 +73,24 @@ class ShapeTests(unittest.TestCase):
             devs = [d for d in DATA["dev_sources"] if goal in (d["goal"] if isinstance(d["goal"], list) else [d["goal"]])]
             self.assertGreaterEqual(sum(len(v["sources"]) for v in voices), 5, f"Ziel {goal}: Spielerquellen")
             self.assertGreaterEqual(len(devs), 2, f"Ziel {goal}: Fachquellen")
+
+    def test_capture_names_how_the_view_came_about(self):
+        for where, entry in examples():
+            if "capture" in entry:
+                self.assertIn(entry["capture"], DATA["capture"], where)
+            elif entry.get("version") == "0.33.0":
+                self.fail(f"{where}: capture fehlt")
+
+    def test_a_measured_step_rate_has_four_cycles_or_is_provisional(self):
+        for where, entry in examples():
+            if entry.get("step_hz") is None or "M" not in entry["status"].split("/"):
+                continue
+            if entry.get("provisional") or entry.get("walk_provisional"):
+                continue
+            cycles = entry.get("cycles")
+            self.assertTrue(cycles is None or cycles >= 4, f"{where}: {cycles} Zyklen ohne provisional")
+            if entry.get("version") == "0.33.0":
+                self.assertIsNotNone(cycles, f"{where}: Zyklen fehlen")
 
 
 if __name__ == "__main__":
