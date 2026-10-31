@@ -297,11 +297,30 @@
    ],
    "werte": {
     "dauer_s": {
-     "Hoosegow": 3.03,
-     "Blue Shift": 3.05,
-     "Mos Epoch III": 2.7,
-     "Crux Celeritas IV": 2.6
+     "Hoosegow": 3.0,
+     "Blue Shift": 3.03,
+     "Mos Epoch III": 2.73,
+     "Crux Celeritas IV": 2.58
     },
+    "marker_bild": {
+     "Hoosegow": [
+      14460,
+      14640
+     ],
+     "Blue Shift": [
+      5424,
+      5606
+     ],
+     "Mos Epoch III": [
+      5964,
+      6128
+     ],
+     "Crux Celeritas IV": [
+      1563,
+      1718
+     ]
+    },
+    "bildrate": 60,
     "normaltempo_belegt": {
      "Hoosegow": true,
      "Blue Shift": false,
@@ -570,6 +589,11 @@
       53
      ]
     },
+    "achse_y_bei_x50_spannen_spanne_2020_21": [
+     57,
+     59
+    ],
+    "achse_y_hinweis": "null = nicht einzeln berechnet (Ruhe: Achse fast senkrecht); Spannen 2020/21 nur als Spanne 57–59",
     "achse_grad": {
      "Imperial Needle": [
       82,
@@ -681,6 +705,15 @@
       -17
      ]
     },
+    "huelle_untergrenze": {
+     "Cerridius-Bogen (Wolftone Draw)": [
+      true,
+      true,
+      false,
+      false
+     ]
+    },
+    "bedeckte_flaeche_prozent": null,
     "ganz_im_bild": false,
     "wippfrequenz_hz": null,
     "fov": null
@@ -761,6 +794,10 @@
       50,
       72
      ],
+     "Wish-Ender": [
+      50,
+      71
+     ],
      "Le Monarque": [
       50,
       71
@@ -836,6 +873,8 @@
     "kippen_grad": {
      "Annual Skate": 55
     },
+    "kippen_toleranz_grad": 10,
+    "kippen_status": "M (Handablesung f3515 → f3529); Bad News 53–58 nur O",
     "ads": null,
     "exotics": null
    },
@@ -1381,8 +1420,9 @@
  ],
  "pruefung": {
   "videos_ytdlp": "alle 27 Videozeilen vom Koordinator per yt-dlp bestätigt",
-  "nachgemessen_koordinator": 13,
-  "verworfen": "Hubbeträge Handfeuerwaffe des Unteragenten (nachgeführte Vorlage sprang)"
+  "nachgemessen_koordinator": 12,
+  "verworfen": "Hubbeträge Handfeuerwaffe des Unteragenten (nachgeführte Vorlage sprang)",
+  "richter": "Opus, Runde 1 Nachbessern (Nachladedauer gegen Marker, Bestandszeile 0.7.0), behoben"
  },
  "ballon_uebernahme": [
   {
