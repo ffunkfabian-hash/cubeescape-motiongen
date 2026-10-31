@@ -7,6 +7,7 @@
   "Jede Zeile gilt für die genannte Waffe (Beispiel, kein Klassenmittel); Entfernung und FOV unbekannt.",
   "Bildindizes bei 60/s (t = Index/60), Marker ±1 Bild, Dauern ±2 Bilder; Größen in % Bildbreite/Bildhöhe ±3 pp.",
   "Meterfelder bleiben null: aus Bildern ohne Entfernung nicht ableitbar.",
+  "Farben gelten je Waffe; eine Zuordnung zu Elementen ist nicht gemessen.",
   "belegstaerke M = am Einzelbild gemessen, O = Sichtung; null = nicht messbar, nie 0."
  ],
  "videos": {
@@ -48,6 +49,14 @@
    "datum": "2020-01-30",
    "titel": "Destiny 2 - All Nessus Legendary Weapons - Animations & Sounds w/ Slow-Motion | Omolon Weapons",
    "dauer_s": 499,
+   "format": "1920x1080 60/s"
+  },
+  "73lGCT7yOtk": {
+   "spiel": "Destiny 2",
+   "kanal": "Ultraclocked",
+   "datum": "2020-01-25",
+   "titel": "Destiny 2 - All EDZ Legendary Weapons - Animations & Sounds w/ Slow-Motion | Häkke Weapons",
+   "dauer_s": 605,
    "format": "1920x1080 60/s"
   },
   "RXgRxHESqHQ": {
@@ -286,7 +295,7 @@
    "klasse": "auto_rifle",
    "art": "loch",
    "video": "IG-GZ72Vbi0",
-   "zeit_s": 342.9,
+   "zeit_s": 341.9,
    "bilder": {
     "dauerfeuer": [
      20514,
@@ -328,10 +337,13 @@
    "wert": {
     "spur": null,
     "einschlag": null,
-    "decal": false
+    "decal": false,
+    "weitere_videos": [
+     "73lGCT7yOtk"
+    ]
    },
    "belegstaerke": "O",
-   "notiz": "Minimum Distance in 73lGCT7yOtk 440,58 s; nichts sichtbar ist kein Nullwert"
+   "notiz": "Minimum Distance in 73lGCT7yOtk ab 440,58 s; nichts sichtbar ist kein Nullwert"
   },
   {
    "id": "z-im-far-future",
@@ -370,7 +382,7 @@
     "decal": false
    },
    "belegstaerke": "M",
-   "notiz": "Einschlag im ersten freien Bild nach 2 Blitzbildern"
+   "notiz": "Einschlag im ersten freien Bild nach 2 Blitzbildern; Entfernung nah, nicht gemessen"
   },
   {
    "id": "z-im-threaded-needle",
@@ -379,7 +391,7 @@
    "klasse": "linear_fusion_rifle",
    "art": "strahl",
    "video": "uoTaCBMXcFk",
-   "zeit_s": 8.033,
+   "zeit_s": 7.85,
    "bilder": {
     "aufladung": [
      471,
@@ -450,7 +462,7 @@
     "puls_bilder": 5
    },
    "belegstaerke": "M",
-   "notiz": "Boden etwa 3 m"
+   "notiz": "Boden nah (Schätzung, nicht gemessen)"
   },
   {
    "id": "z-im-horseman",
@@ -835,7 +847,7 @@
     "flug_bilder": 35,
     "flug_toleranz": 3,
     "blitz_bilder": 7,
-    "ring_pct_b": 17,
+    "ring_pct_b_sicht_O": 17,
     "ring_bilder": 6,
     "feuerball_pct_b_h": [
      11,
@@ -1192,14 +1204,15 @@
    "kind": "hitscan",
    "spur": null,
    "decal": false,
-   "impact": "Funken in Elementfarbe + dunkle Säule",
+   "impact": "Beton: violettes Leuchten 1-2 Bilder, orange Funken 8-12 Bilder [O]",
    "belege": [
     "z-im-solemn-hymn"
    ],
    "speed_mps": null,
    "radius_m": null,
    "width_m": null,
-   "length_m": null
+   "length_m": null,
+   "size_m": null
   },
   "submachine_gun": {
    "kind": "hitscan",
@@ -1214,27 +1227,32 @@
     0.3
    ],
    "dust_color": "#150F0D",
-   "glow_color": "#9FC4FF",
+   "ring_farbe_ikelos": "#9FC4FF",
    "belege": [
     "z-im-ikelos"
    ],
    "speed_mps": null,
    "radius_m": null,
    "width_m": null,
-   "length_m": null
+   "length_m": null,
+   "size_m": null
   },
   "pulse_rifle": {
    "kind": "hitscan",
    "spur": null,
    "decal": false,
-   "glow_color": "#FF5A28",
+   "funken_farbe_outbreak": [
+    "#FF5A28",
+    "#FF9A50"
+   ],
    "belege": [
     "z-im-outbreak"
    ],
    "speed_mps": null,
    "radius_m": null,
    "width_m": null,
-   "length_m": null
+   "length_m": null,
+   "size_m": null
   },
   "scout_rifle": {
    "kind": "hitscan",
@@ -1247,7 +1265,8 @@
    "speed_mps": null,
    "radius_m": null,
    "width_m": null,
-   "length_m": null
+   "length_m": null,
+   "size_m": null
   },
   "sniper_rifle": {
    "kind": "hitscan",
@@ -1261,7 +1280,8 @@
    "speed_mps": null,
    "radius_m": null,
    "width_m": null,
-   "length_m": null
+   "length_m": null,
+   "size_m": null
   },
   "linear_fusion_rifle": {
    "kind": "rail",
@@ -1278,7 +1298,8 @@
    "speed_mps": null,
    "radius_m": null,
    "width_m": null,
-   "length_m": null
+   "length_m": null,
+   "size_m": null
   },
   "trace_rifle": {
    "kind": "beam",
@@ -1292,7 +1313,8 @@
    "speed_mps": null,
    "radius_m": null,
    "width_m": null,
-   "length_m": null
+   "length_m": null,
+   "size_m": null
   },
   "shotgun": {
    "kind": "pellets",
@@ -1307,7 +1329,8 @@
    "speed_mps": null,
    "radius_m": null,
    "width_m": null,
-   "length_m": null
+   "length_m": null,
+   "size_m": null
   },
   "fusion_rifle": {
    "kind": null,
@@ -1319,7 +1342,8 @@
    "speed_mps": null,
    "radius_m": null,
    "width_m": null,
-   "length_m": null
+   "length_m": null,
+   "size_m": null
   },
   "combat_bow": {
    "kind": "arrow",
@@ -1331,7 +1355,8 @@
    "speed_mps": null,
    "radius_m": null,
    "width_m": null,
-   "length_m": null
+   "length_m": null,
+   "size_m": null
   },
   "grenade_launcher": {
    "kind": "projectile",
@@ -1340,7 +1365,7 @@
     0.17,
     0.22
    ],
-   "flash_s": [
+   "kern_s": [
     0.12,
     0.13
    ],
@@ -1358,7 +1383,8 @@
    "speed_mps": null,
    "radius_m": null,
    "width_m": null,
-   "length_m": null
+   "length_m": null,
+   "size_m": null
   },
   "rocket_launcher": {
    "kind": "projectile",
@@ -1403,7 +1429,8 @@
    "speed_mps": null,
    "radius_m": null,
    "width_m": null,
-   "length_m": null
+   "length_m": null,
+   "size_m": null
   }
  }
 }

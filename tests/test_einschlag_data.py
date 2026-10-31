@@ -50,7 +50,7 @@ class ShapeTests(unittest.TestCase):
         row_ids = {row["id"] for row in DATA["rows"]}
         for key, entry in DATA["ballon_uebernahme"].items():
             self.assertIn(key, CLASSES, key)
-            for metre in ("speed_mps", "radius_m", "width_m", "length_m"):
+            for metre in ("speed_mps", "radius_m", "width_m", "length_m", "size_m"):
                 self.assertIsNone(entry.get(metre), f"{key}.{metre}: aus Bildern nicht ableitbar")
             for ref in entry["belege"]:
                 self.assertIn(ref, row_ids, f"{key}: {ref}")
@@ -66,6 +66,16 @@ class ShapeTests(unittest.TestCase):
         for row in DATA["rows"]:
             for name, value in (row.get("bilder") or {}).items():
                 walk(value, f"{row['id']}.{name}")
+
+    def test_time_matches_first_frame(self):
+        for row in DATA["rows"]:
+            fmt = DATA["videos"][row["video"]]["format"]
+            fps = 29.97 if "29,97" in fmt else 59.94 if "59,94" in fmt else 60.0
+            values = list((row.get("bilder") or {}).values())
+            if not values:
+                continue
+            first = values[0][0] if isinstance(values[0], list) else values[0]
+            self.assertAlmostEqual(row["zeit_s"], first / fps, delta=0.05, msg=row["id"])
 
     def test_videos_are_youtube_ids_listed_in_clips_json(self):
         clips = json.loads((ROOT / "data/clips.json").read_text(encoding="utf-8"))

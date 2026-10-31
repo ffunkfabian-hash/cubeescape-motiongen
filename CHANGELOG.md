@@ -2,8 +2,8 @@
 
 ## 0.36.0 „Impact“ – 2026-10-31
 
-- Neue Referenzanalyse [Vom Schuss zum Einschlag](docs/einschlag.md) mit `data/einschlag.json` (29 Zeilen, Übernahmetabelle in den BALLON-Feldnamen, Datentest) für BALLON 0.34 „Payload“: Destiny 2 je Klasse (20 Messzeilen `z-im-…` und Methode „Impact“ in destiny2.md › 2), Vergleich Halo Infinite, Titanfall 2, Apex; 31 Text- und Datenquellen, 13 Spielerstimmen. Nachtrag aus Nexxoss-Gaming-Reviews auf Hinweis des Nutzers.
-- Befund (Beobachtung, Schlüsse in BALLON): Destiny-Kugelwaffen ohne Leuchtspur und ohne Einschusslöcher (8 Beispiele), Treffer = Elementfunken + schmale dunkle Säule 15–25 Bilder; Schrot ein Einschlag je Schuss; Projektile ohne Rauchschweif; Flugzeiten nah Granaten 10–13, Raketen 19–39 Bilder; Raketenexplosion in Stufen (Blitz 1–2, Kern 7–13, Ring 4–8, Feuerball 30–60, Rauch 45–70 Bilder); Elementgranaten ohne Feuerball. **Keine m/s** (Entfernung nirgends belegt).
+- Neue Referenzanalyse [Vom Schuss zum Einschlag](docs/einschlag.md) mit `data/einschlag.json` (29 Zeilen, Übernahmetabelle in den BALLON-Feldnamen, Datentest) für BALLON 0.34 „Payload“: Destiny 2 je Klasse (21 Messzeilen `z-im-…`, davon 2 [O], und Methode „Impact“ in destiny2.md › 2), Vergleich Halo Infinite, Titanfall 2, Apex; 31 Text- und Datenquellen, 13 Spielerstimmen. Nachtrag aus Nexxoss-Gaming-Reviews auf Hinweis des Nutzers.
+- Befund (Beobachtung, Schlüsse in BALLON): Destiny-Kugelwaffen ohne Leuchtspur und ohne Einschusslöcher (7 Beispiele, davon 2 [O]), Treffer = Funken in der Leuchtfarbe der Waffe + schmale dunkle Säule 15–25 Bilder; Schrot ein Einschlag je Schuss; Projektile ohne Rauchschweif; Flugzeiten nah Granaten 10–13, Raketen 19–39 Bilder; Raketenexplosion in Stufen (Blitz 1–2, Kern 7–13, Ring 4–8, Feuerball 30–60, Rauch 45–70 Bilder); Elementgranaten ohne Feuerball. **Keine m/s** (Entfernung nirgends belegt).
 - [Versionsbericht](docs/versions/0.md#0360-impact--2026-10-31).
 
 ## 0.34.0 „Gapfill“ – 2026-10-31

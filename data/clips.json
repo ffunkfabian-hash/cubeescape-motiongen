@@ -2733,7 +2733,7 @@
     "measurement": "REF 0.36 Impact: Solemn Hymn (legendär) (loch, M, z-im-solemn-hymn); Annual Skate (Handfeuerwaffe), Minimum Distance (Seitenwaffe) (spur, O, z-im-hc-sidearm); Hoosegow (legendär) (explosion, M, z-im-hoosegow)",
     "clip": "https://www.youtube.com/watch?v=IG-GZ72Vbi0",
     "source": "Ultraclocked (YouTube), 2020-02-14, „Destiny 2 - All Titan Legendary Weapons - Animations & Sounds w/ Slow-Motion | SUROS Weapons“, 1920x1080 60/s",
-    "timestamps": "z-im-solemn-hymn ab 342.9 s; z-im-hc-sidearm ab 82.2 s; z-im-hoosegow ab 226.65 s"
+    "timestamps": "z-im-solemn-hymn ab 341.9 s; z-im-hc-sidearm ab 82.2 s; z-im-hoosegow ab 226.65 s"
   },
   {
     "measurement": "REF 0.36 Impact: Blue Shift (legendär) (explosion, M, z-im-blue-shift)",
@@ -2757,7 +2757,7 @@
     "measurement": "REF 0.36 Impact: Threaded Needle (legendär) (strahl, M, z-im-threaded-needle)",
     "clip": "https://www.youtube.com/watch?v=uoTaCBMXcFk",
     "source": "Ultraclocked (YouTube), 2021-02-20, „Destiny 2 - Threaded Needle (Legendary Linear Fusion Rifle) - Weapon Animations & Sounds“, 1920x1080 60/s",
-    "timestamps": "z-im-threaded-needle ab 8.033 s"
+    "timestamps": "z-im-threaded-needle ab 7.85 s"
   },
   {
     "measurement": "REF 0.36 Impact: Ager's Scepter (exotisch) (strahl, M, z-im-agers)",
@@ -2860,5 +2860,11 @@
     "clip": "https://www.youtube.com/watch?v=R-BGChzYGpo",
     "source": "Cacek47 (YouTube), 2019-02-06, „Apex Legends @ ALL Weapons Look and Sound Showcase @ FHD 60fps“, 1920x1080 60-Container, 50-55 echte/s",
     "timestamps": "i-apex-thermit ab 345.73 s"
+  },
+  {
+    "measurement": "REF 0.36 Impact: Minimum Distance (Seitenwaffe; spur, O, z-im-hc-sidearm)",
+    "clip": "https://www.youtube.com/watch?v=73lGCT7yOtk",
+    "source": "Ultraclocked (YouTube), 2020-01-25, „Destiny 2 - All EDZ Legendary Weapons - Animations & Sounds w/ Slow-Motion | Häkke Weapons“, 1920x1080 60/s",
+    "timestamps": "z-im-hc-sidearm (Minimum Distance) ab 440.58 s, Blitz f26435–f26438"
   }
 ]
