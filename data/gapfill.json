@@ -8,7 +8,9 @@
   "Bildindizes bei 60/s (t = Index/60), Marker ±1 Bild, Dauern ±2 Bilder.",
   "Weltzoom ist ein Bildmaßstab, kein FOV in Grad.",
   "Normaltempo je Zeile im Feld normaltempo; keine Bild- oder Videodateien im Repo.",
-  "Zeilen stammen von Sonnet-Unteragenten; Zweitprüfung durch den Koordinator siehe pruefung."
+  "Zeilen stammen von Sonnet-Unteragenten; Zweitprüfung durch den Koordinator siehe pruefung.",
+  "Dauern sind Quellmedienzeit; Normaltempo je Zeile im Feld normaltempo (bei der Hälfte der Videos nicht unabhängig belegt).",
+  "art: adsEin, adsAus, ziehen, weltzoom, sprint, gehen, huefte, schuss, inspect, nachladenRueckkehr; belegstaerke \"-\" = Fehlanzeige (nicht im Video / nicht belegt), nie M."
  ],
  "videos": {
   "2PtNLNYrp88": {
@@ -462,7 +464,7 @@
    "waffe": "Lorentz Driver (Exotic, Lineares Fusionsgewehr)",
    "typ": "Lineares Fusionsgewehr",
    "video": "GdOubfEOLKI",
-   "art": "gehen",
+   "art": "huefte",
    "fenster_s": [
     35.1,
     35.13
@@ -915,8 +917,9 @@
    "normaltempo": "belegt: kein 0.5x",
    "hinweis": "Keine Messung moeglich.",
    "agent": "horseman",
-   "belegstaerke": "M",
-   "pruefung": "Bogen, native Bilder"
+   "belegstaerke": "-",
+   "pruefung": "Bogen, native Bilder",
+   "ergebnis": "nicht im Video / nicht belegt"
   },
   {
    "id": "z-g34-horseman-sprint2",
@@ -938,8 +941,9 @@
    "normaltempo": "belegt: kein 0.5x",
    "hinweis": "Triage-Eintrag 'sprint 109-109,5' ist die Nachladehaltung zu Beginn eines Nachladens (dunkle Waffe, Eis).",
    "agent": "horseman",
-   "belegstaerke": "M",
-   "pruefung": "Bogen 6270-6659"
+   "belegstaerke": "-",
+   "pruefung": "Bogen 6270-6659",
+   "ergebnis": "nicht im Video / nicht belegt"
   },
   {
    "id": "z-g34-horseman-ziehen1",
@@ -1069,8 +1073,9 @@
    "normaltempo": "belegt: kein 0.5x",
    "hinweis": "",
    "agent": "horseman",
-   "belegstaerke": "M",
-   "pruefung": "Bogen 6270-6659"
+   "belegstaerke": "-",
+   "pruefung": "Bogen 6270-6659",
+   "ergebnis": "nicht im Video / nicht belegt"
   },
   {
    "id": "z-g34-wh-ziehen",
@@ -1142,8 +1147,9 @@
    "normaltempo": "belegt: kein 0.5x-Label in diesen Fenstern; Bilddifferenzen in Bewegung >0,3",
    "hinweis": "Vorsichtung 'Ziehen/Wegstecken 85-87 s' war Nachladen.",
    "agent": "witherhoard",
-   "belegstaerke": "M",
-   "pruefung": "Bögen f4740-f5340 (alle 4-6 Bilder), Fenster f4986-f5030 einzeln, Fenster f3900-f4140 Bogen"
+   "belegstaerke": "-",
+   "pruefung": "Bögen f4740-f5340 (alle 4-6 Bilder), Fenster f4986-f5030 einzeln, Fenster f3900-f4140 Bogen",
+   "ergebnis": "nicht im Video / nicht belegt"
   },
   {
    "id": "z-g34-wh-ads",
@@ -1165,8 +1171,9 @@
    "normaltempo": "nicht relevant",
    "hinweis": "Showcase zeigt nur Huefte, Schuss, Nachladen, Spielclip; Zielen wuerde Fremdquelle brauchen.",
    "agent": "witherhoard",
-   "belegstaerke": "M",
-   "pruefung": "alle sechs Kontaktbögen (2/s) und Bögen nativer Bilder 3,3-4,1 s, 65-82 s, 79-89 s angesehen: Waffe bleibt in Huefte/Nachladen/Inspektion, Visier nie mittig; kein Zoomwechsel, keine Vignette"
+   "belegstaerke": "-",
+   "pruefung": "alle sechs Kontaktbögen (2/s) und Bögen nativer Bilder 3,3-4,1 s, 65-82 s, 79-89 s angesehen: Waffe bleibt in Huefte/Nachladen/Inspektion, Visier nie mittig; kein Zoomwechsel, keine Vignette",
+   "ergebnis": "nicht im Video / nicht belegt"
   },
   {
    "id": "z-g34-wh-sprint",
@@ -1204,15 +1211,16 @@
    "normaltempo": "belegt: kein 0.5x-Label; Standbildphasen als solche genannt",
    "hinweis": "Bestaetigt 'Showcases zeigen keinen Sprint'.",
    "agent": "witherhoard",
-   "belegstaerke": "O",
-   "pruefung": "Bögen f4740-f5340 und f3900-f4140, Einzelbilder f4862/f4912 (zwei Bilder uebereinander), Diff-Reihe f4850-f4925"
+   "belegstaerke": "-",
+   "pruefung": "Bögen f4740-f5340 und f3900-f4140, Einzelbilder f4862/f4912 (zwei Bilder uebereinander), Diff-Reihe f4850-f4925",
+   "ergebnis": "nicht im Video / nicht belegt"
   },
   {
    "id": "z-g34-wh-huefte",
    "waffe": "Witherhoard (exotisch)",
    "typ": "Granatwerfer",
    "video": "yRTm3U5NhVc",
-   "art": "gehen",
+   "art": "huefte",
    "fenster_s": [
     2.4,
     89.0
@@ -1833,7 +1841,7 @@
    "typ": "Spurgewehr (Trace Rifle)",
    "video": "WtnYTQO2eJs",
    "id": "z-g34-agers-inspect-15s",
-   "art": "ziehen",
+   "art": "inspect",
    "fenster_s": [
     15.0,
     17.3
@@ -1864,7 +1872,7 @@
    "typ": "Spurgewehr (Trace Rifle)",
    "video": "WtnYTQO2eJs",
    "id": "z-g34-agers-inspect-26s",
-   "art": "ziehen",
+   "art": "inspect",
    "fenster_s": [
     25.7,
     29.5
@@ -1891,7 +1899,7 @@
    "typ": "Spurgewehr (Trace Rifle)",
    "video": "WtnYTQO2eJs",
    "id": "z-g34-agers-hand-42s",
-   "art": "ziehen",
+   "art": "inspect",
    "fenster_s": [
     42.3,
     43.2
@@ -1919,7 +1927,7 @@
    "typ": "Spurgewehr (Trace Rifle)",
    "video": "WtnYTQO2eJs",
    "id": "z-g34-agers-hand-45s",
-   "art": "ziehen",
+   "art": "inspect",
    "fenster_s": [
     44.7,
     46.6
@@ -1946,7 +1954,7 @@
    "typ": "Spurgewehr (Trace Rifle)",
    "video": "WtnYTQO2eJs",
    "id": "z-g34-agers-hand-60s",
-   "art": "ziehen",
+   "art": "inspect",
    "fenster_s": [
     59.7,
     61.0
@@ -1974,7 +1982,7 @@
    "typ": "Spurgewehr (Trace Rifle)",
    "video": "WtnYTQO2eJs",
    "id": "z-g34-agers-hand-86s",
-   "art": "ziehen",
+   "art": "inspect",
    "fenster_s": [
     86.1,
     87.2
@@ -2043,8 +2051,9 @@
    "normaltempo": "belegt für 85-88 s: kein Label; 35-39 s: kein Label",
    "hinweis": "Gehzyklen gegen festen Anker: keine ≥ 4 Zyklen. Einziger Hinweis: in der Kampfszene 3901-4003 (65,0-66,7 s) schwingt das Waffen-Gem-Bild periodisch (y-Spitzen 3914 / 3940 / 3964 / 3989, Periode ca. 25 Bilder = 0,42 s) mit NCC nur 0,5-0,65 (Strahlblitz): 3 Perioden, NCC < 0,85 -> verworfen, Gehen nicht belegt (auch Schussrhythmus möglich).",
    "agent": "agers",
-   "belegstaerke": "O",
-   "pruefung": "Montagen 2100-2328 jedes 8. Bild, 5164-5320 jedes 6. Bild; Bilddifferenzen aller Fenster"
+   "belegstaerke": "-",
+   "pruefung": "Montagen 2100-2328 jedes 8. Bild, 5164-5320 jedes 6. Bild; Bilddifferenzen aller Fenster",
+   "ergebnis": "nicht im Video / nicht belegt"
   },
   {
    "waffe": "Ager's Scepter (exotisch)",
@@ -2065,8 +2074,9 @@
    "normaltempo": "nicht geprüft",
    "hinweis": "Nach Brief: Sprintfrequenz aus Showcases nicht wiederholt.",
    "agent": "agers",
-   "belegstaerke": "O",
-   "pruefung": "alle sieben Kontaktbögen und Schnittliste (Szenenschnitte bei 2,77 / 32,5 / 62,05 / 63,6 / 65,0 / 66,7 / 68,95 / 101,9 / 102,6 / 103,0 s)"
+   "belegstaerke": "-",
+   "pruefung": "alle sieben Kontaktbögen und Schnittliste (Szenenschnitte bei 2,77 / 32,5 / 62,05 / 63,6 / 65,0 / 66,7 / 68,95 / 101,9 / 102,6 / 103,0 s)",
+   "ergebnis": "nicht im Video / nicht belegt"
   },
   {
    "id": "z-g34-kf-yas-ziehen",
@@ -2636,9 +2646,9 @@
    },
    "unsicherheit": "± 0,05 (Spanne über Patches/Bildpaare); Patch klein (Fels der Wolkenszene) – Wolken ändern sich zwischen den Bildern",
    "normaltempo": "nicht geprüft (keine 0,5x/0,25x-Einblendung in den Bögen; Bildabstands-Differenzen > 0 bei Bewegung, nur Einzel-Doppelbilder; Echtzeit nicht unabhängig belegt)",
-   "hinweis": "Weltzoom = Bildmaßstab des Hintergrunds (Hüfte → ADS), nie FOV in Grad. Zweites Bild-Merkmal: dunkler Wolkenkörper und Felsgruppe links stimmen im Maßstab überein. Zoomzentrum nicht gleich Bildmitte (Blickwinkel ADS ≠ Hüfte), deshalb freie Verschiebung zugelassen.",
+   "hinweis": "Weltzoom = Bildmaßstab des Hintergrunds (Hüfte → ADS), nie FOV in Grad. Zweites Bild-Merkmal: dunkler Wolkenkörper und Felsgruppe links stimmen im Maßstab überein. Zoomzentrum nicht gleich Bildmitte (Blickwinkel ADS ≠ Hüfte), deshalb freie Verschiebung zugelassen. Herabgestuft (Koordinator, Richterbefund 10): ein Felspatch NCC 0,87, größere Patches 1,52–1,58 bei NCC 0,70–0,80, SIFT-Gegenprobe ohne tragfähige Treffer (5 Inlier) – Spanne 1,5–1,6.",
    "agent": "kingsfall",
-   "belegstaerke": "M",
+   "belegstaerke": "O",
    "pruefung": "Mehrskalensuche mit dem Felsen („Spitzfels“) links oben als Vorlage (Hüfte) im ADS-Bild; Fels im ADS-Bild am Bild gemessen ≈ 1,5 × (Breite 55 → 85 px, Höhe 60 → 90 px bei 960); Hüfte/ADS in der gleichen Wolkenszene, ADS-Fenster 3437–3469 ohne Überblendung (Differenz ≈ 0,0), Fels wandert in der Ansicht stark nach unten (ADS blickt höher)"
   },
   {
@@ -4108,7 +4118,7 @@
    "video": "eWptY1OjNbo",
    "normaltempo": "nicht geprüft (keine 0.5x-Einblendung, keine Doppelbilder – kleinste Bilddifferenz in Bewegung > 0,4 –, aber kein externer Tempobeweis)",
    "id": "z-g34-cs-inspekt-1",
-   "art": "ziehen",
+   "art": "inspect",
    "fenster_s": [
     11.1,
     14.5
@@ -4145,7 +4155,7 @@
    "video": "eWptY1OjNbo",
    "normaltempo": "nicht geprüft (keine 0.5x-Einblendung, keine Doppelbilder – kleinste Bilddifferenz in Bewegung > 0,4 –, aber kein externer Tempobeweis)",
    "id": "z-g34-cs-inspekt-2",
-   "art": "ziehen",
+   "art": "inspect",
    "fenster_s": [
     34.0,
     38.2
@@ -4354,8 +4364,9 @@
    "unsicherheit": "–",
    "hinweis": "Kein Sprint im Video.",
    "agent": "cloudstrike",
-   "belegstaerke": "O",
-   "pruefung": "Bögen f630–900 und f2030–2325"
+   "belegstaerke": "-",
+   "pruefung": "Bögen f630–900 und f2030–2325",
+   "ergebnis": "nicht im Video / nicht belegt"
   },
   {
    "id": "z-g34-tl-adsein",
@@ -4640,8 +4651,9 @@
    "normaltempo": "nicht geprüft",
    "hinweis": "38-40,5 s Drittperson, Waffe auf dem Rücken (Standard und Ornament nebeneinander), anschließend Ausblenden ins Schwarz. 41 s: kein Ziehen, Waffe schon in Hüftlage nach Einblendung aus Schwarz (40,4-40,9 s).",
    "agent": "ornamente",
-   "belegstaerke": "O",
-   "pruefung": "Bögen 38-41 s angesehen"
+   "belegstaerke": "-",
+   "pruefung": "Bögen 38-41 s angesehen",
+   "ergebnis": "nicht im Video / nicht belegt"
   },
   {
    "id": "z-g34-gj-adsein",
@@ -4964,7 +4976,7 @@
    },
    "unsicherheit": "Marker ±1 Bild, Dauern ±2; Amplituden ±1 pp (Farbmaske, keine NCC-Spur, weil sich die Waffenansicht ändert); Waffe liegt bis 143 unterhalb des Bildrands (nur Spitze sichtbar), Bahn erst ab 144 messbar",
    "normaltempo": "belegt: keine 0.5x-Einblendung (2,9 s Kontrollausschnitt), Bilddifferenz in der Bewegung 1,6–5,5 (kein Doppelbild); Waffe wird bei 60/s Bild für Bild bewegt",
-   "hinweis": "Ziehen = Menü → Spiel (Schnitt), Waffenmodell kommt von unten ohne Bewegung des Hintergrunds. Gesamtdauer 48 Bilder ist gleich der Jötunn-Messung (48), also wahrscheinlich gleiche Standard-Zieh-Animationslänge (nur zwei Beispiele).",
+   "hinweis": "Ziehen = Menü → Spiel (Schnitt), Waffenmodell kommt von unten ohne Bewegung des Hintergrunds. Gesamtdauer 48 Bilder ist gleich der Jötunn-Messung (48), also wahrscheinlich gleiche Standard-Zieh-Animationslänge (nur zwei Beispiele). Dauer f140 -> f187 = 47 Bilder; 48 ab dem letzten waffenfreien Bild (f139).",
    "agent": "outbreak",
    "belegstaerke": "M",
    "pruefung": "Menüschnitt 134→135 (Bilddifferenz 91,6); Bögen 134–249 von Hand; Farbmaske gegen NCC-Spur und Rasterbilder; Kantenbild 140–143 am Bildrand (Horn bei 140: 283 Pixel > 40 gegen 139: 6)"
@@ -4994,8 +5006,9 @@
    "normaltempo": "nicht geprüft für 69–72 s: Bilddifferenzen zeigen ein regelmäßiges Muster 4,2 / 4,0 / 2,4 (Periode 3 Bilder) in 4163–4300, also möglicherweise 40/s-Quelle; nicht zu Zeiten verwendet",
    "hinweis": "Vorsichtung „Sprint, Waffe tief, Slowmo?“ ist falsch gedeutet: keine Ego-Sprinthaltung, kein Slowmo.",
    "agent": "outbreak",
-   "belegstaerke": "O",
-   "pruefung": "Bögen 4110–4294 alle 8 Bilder, Voll­bilder 4200 und 4280 gelesen; Hintergrundabbildung per SIFT"
+   "belegstaerke": "-",
+   "pruefung": "Bögen 4110–4294 alle 8 Bilder, Voll­bilder 4200 und 4280 gelesen; Hintergrundabbildung per SIFT",
+   "ergebnis": "nicht im Video / nicht belegt"
   },
   {
    "waffe": "Symmetry",
@@ -5258,8 +5271,9 @@
    "normaltempo": "nicht relevant",
    "hinweis": "Weder Sprint noch Gehen als Ego-Haltung zu sehen. Lücke 'Sprint-Haltung Scout' bleibt offen.",
    "agent": "symmetry",
-   "belegstaerke": "O",
-   "pruefung": "Bögen 0-6 (93 s) gesehen: Hüfthaltung statisch (Bilddifferenz 0.1-0.3), 3-13 s Idle in wechselnden Szenen, Waffe gekippt/Griffwechsel (Inspect oder Nachladen, nicht eingeordnet) bei 10-11.5, 21.5-22.5, 24-24.5, 33-34, 45-45.5, 48-48.5 s, ab 56 s dunkel, 60-93 s nur Vergleich/Modellansicht/Abspann"
+   "belegstaerke": "-",
+   "pruefung": "Bögen 0-6 (93 s) gesehen: Hüfthaltung statisch (Bilddifferenz 0.1-0.3), 3-13 s Idle in wechselnden Szenen, Waffe gekippt/Griffwechsel (Inspect oder Nachladen, nicht eingeordnet) bei 10-11.5, 21.5-22.5, 24-24.5, 33-34, 45-45.5, 48-48.5 s, ab 56 s dunkel, 60-93 s nur Vergleich/Modellansicht/Abspann",
+   "ergebnis": "nicht im Video / nicht belegt"
   },
   {
    "id": "z-g34-twotailed-adsaus",
@@ -5327,7 +5341,7 @@
    "normaltempo": "nicht geprüft (keine 0.5x-Einblendung gefunden; keine Doppelbilder bei Bewegung, einmal 2695; kein Beleg durch Eigenmessung gegen Spielzeit)",
    "hinweis": "Es gibt KEIN Hüftruhebild im Video: das Absenken führt direkt in die Nachladepose (Hände kommen ins Bild), nicht in eine Hüftlage. Hier gemessen = Zielhaltung verlassen bis Tiefpunkt der Absenkung, nicht ‚ADS aus bis Hüftruhe‘. Das Standard-Ego-ADS-Aus (Hüfte) kommt nicht vor.",
    "agent": "twotailed",
-   "belegstaerke": "M",
+   "belegstaerke": "O",
    "pruefung": "Kontaktbögen jedes nativen Bildes 2538–2621 und 408–473 angesehen; Schirm-Vorlage kettenweise per TM_CCOEFF_NORMED mit Parabel-Subpixel (Radius 40–60 px bei 960 px Breite)"
   },
   {
@@ -5335,7 +5349,7 @@
    "waffe": "Two-Tailed Fox (Exotic-Raketenwerfer, Standard-Skin)",
    "typ": "Raketenwerfer",
    "video": "ajHYZZFQBWk",
-   "art": "adsEin",
+   "art": "nachladenRueckkehr",
    "fenster_s": [
     45.7,
     46.7
@@ -5404,7 +5418,7 @@
    "normaltempo": "nicht geprüft (siehe adsAus)",
    "hinweis": "Das ist die Rückkehr der Waffe in die Zielhaltung am Ende des Nachladens (Hände verlassen die Waffe, sie steigt von unten ins Bild), kein ADS-Ein aus einer Hüftlage; ein Hüftbild existiert im Video nicht. Reload Gesamtdauer (erste Absenkbewegung 2589 bis Ruhe ±0,5pp 2779) = 190 Bilder = 3,17 s im Video (Normaltempo nicht belegt). Im Showcase wird die Ornament-Version derselben Szene per Überblendung (2815–2830) aus der Standard-Aufnahme erzeugt und läuft in Absenkung und Anhebung bildgleich mit (Bahn 2849–2859 = 2589–2599 auf 0,1 pp), zählt also nicht als eigene Stichprobe.",
    "agent": "twotailed",
-   "belegstaerke": "M",
+   "belegstaerke": "O",
    "pruefung": "Kontaktbögen 2742–2801, 558–635, 1224–1288 angesehen; Ruhe-Schirm per kettenweisem NCC-Tracking von hinten nach vorn"
   },
   {
@@ -5491,7 +5505,8 @@
    }
   ],
   "marker_blind_api": "ca. 50 Marker (Sonnet, Bogen nativer Bilder ohne Kenntnis der Messwerte): erstes Modellbild beim Ziehen in 14 von 17 Fällen <= 1 Bild, 15 <= 2 (Ausreißer MG King's Fall 4, Cloudstrike 6); ADS-Ruhe in 18 von 28 <= 3, in 27 von 28 <= 7 Bilder (Maximum 9, Cloudstrike-Overlay); Beginn gleitender Übergänge nur auf wenige Bilder bestimmbar",
-  "vorsichtung_api": "Kontaktbögen 2/s per ./ce api ask --image (Sonnet) nur als Hinweis; verwechselte Inspect, Nachladehaltung, Hüftschüsse und Standbilder mit ADS, Ziehen und Sprint – nie als Messwert übernommen"
+  "vorsichtung_api": "Kontaktbögen 2/s per ./ce api ask --image (Sonnet) nur als Hinweis; verwechselte Inspect, Nachladehaltung, Hüftschüsse und Standbilder mit ADS, Ziehen und Sprint – nie als Messwert übernommen",
+  "richter": "Opus-Richter (Codex-Kontingent 3 %): Befunde 2, 10, 11 behoben; MG-Weltzoom auf O herabgestuft; art-Felder bereinigt; 14 Einträge in data/clips.json"
  },
  "ballon_uebernahme": [
   {
@@ -5539,8 +5554,8 @@
   {
    "typ": "Maschinengewehr",
    "groesse": "Weltzoom im Zielen",
-   "wert": "≈ 1,6 (Qullim's Terminus)",
-   "belegstaerke": "M mit Vorbehalt",
+   "wert": "1,5–1,6 (Qullim's Terminus; Felspatch NCC 0,87, SIFT ohne Treffer)",
+   "belegstaerke": "O",
    "anker": "z-g34-kingsfall"
   },
   {
@@ -5581,7 +5596,7 @@
   {
    "typ": "Scharfschütze",
    "groesse": "Ziehen bis ruhig (Bilder)",
-   "wert": "41 (Defiance of Yasmin); 53 (Cloudstrike), Scope-Overlay erscheint nicht",
+   "wert": "41 (Defiance of Yasmin); 47–53 (Cloudstrike, erstes Modellbild f182–188), Scope-Overlay erscheint nicht",
    "belegstaerke": "M",
    "anker": "z-g34-kingsfall, z-g34-cloudstrike"
   },

@@ -2,7 +2,7 @@
 
 ## 0.34.0 „Gapfill“ – 2026-10-31
 
-- Neue Destiny-2-Messungen für die Lücken von BALLON 0.33 „Armory“ ([destiny2.md](docs/destiny2.md#s-gapfill), Methode 29, 14 Messzeilen `z-g34-…`, `data/gapfill.json`): Weltzoom lineare Fusion 3,0 / 2,65–2,69, kurze Fusion 1,43, Spurgewehr 1,84, Schrotflinte 1,29, Impuls 1,975, Granatwerfer 1,35, MG ≈ 1,6; Zielen aus Granatwerfer 25 Bilder; Ziehen Scharfschütze, kurze Fusion, Spurgewehr, Granatwerfer u. a.
+- Neue Destiny-2-Messungen für die Lücken von BALLON 0.33 „Armory“ ([destiny2.md](docs/destiny2.md#s-gapfill), Methode 29, 14 Messzeilen `z-g34-…`, `data/gapfill.json`): Weltzoom lineare Fusion 3,0 / 2,65–2,69, kurze Fusion 1,43, Spurgewehr 1,84, Schrotflinte 1,29, Impuls 1,975, Granatwerfer 1,35, MG nur 1,5–1,6 [O]; Zielen aus Granatwerfer 25 Bilder; Ziehen Scharfschütze, kurze Fusion, Spurgewehr, Granatwerfer u. a.
 - Nicht belegt: Sprint-Haltung und Gehen (kein Ego-Sprint in 14 Showcases), Weltzoom Scout/Scharfschütze/Raketenwerfer, Raketenwerfer Zielen aus/Ziehen. API-Sichtung nur als Hinweis, Marker blind per API nachgelesen.
 - [Versionsbericht](docs/versions/0.md#0340-gapfill--2026-10-31).
 

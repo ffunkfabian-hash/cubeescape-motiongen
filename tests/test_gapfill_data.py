@@ -1,5 +1,6 @@
-"""data/gapfill.json (REF 0.34 "Gapfill") keeps the shape BALLON reads: unique row ids, every row names a known video and a
-frame-based marker or a reason, every `z-g34-` anchor used by the BALLON list exists in docs/destiny2.md."""
+"""data/gapfill.json (REF 0.34 "Gapfill") keeps the shape BALLON reads: unique row ids, every row names a known video, rows that
+say "not in the video" never carry the strength M, every `z-g34-` anchor used by the BALLON list exists in docs/destiny2.md, and
+the new clips are listed in data/clips.json."""
 import json
 import re
 import unittest
@@ -8,7 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DATA = json.loads((ROOT / "data/gapfill.json").read_text(encoding="utf-8"))
 DOC = (ROOT / "docs/destiny2.md").read_text(encoding="utf-8")
-ARTS = {"adsEin", "adsAus", "ziehen", "weltzoom", "sprint", "gehen", "schuss", "huefte"}
+ARTS = {"adsEin", "adsAus", "ziehen", "weltzoom", "sprint", "gehen", "schuss", "huefte", "inspect", "nachladenRueckkehr"}
 REQUIRED = ("id", "waffe", "typ", "video", "art", "belegstaerke")
 
 
@@ -27,6 +28,20 @@ class ShapeTests(unittest.TestCase):
             self.assertTrue(row["id"].startswith("z-g34-"), row["id"])
             self.assertIn(row["art"], ARTS, row["id"])
             self.assertIn(row["video"], DATA["videos"], row["id"])
+
+    def test_negative_rows_never_claim_a_measurement(self):
+        for row in DATA["rows"]:
+            if row["art"] in ("sprint", "gehen") or row.get("ergebnis"):
+                self.assertEqual(row["belegstaerke"], "-", row["id"])
+            if row["art"] in ("inspect", "nachladenRueckkehr"):
+                self.assertIn(row["belegstaerke"], ("M", "O"), row["id"])
+            self.assertIn(row["belegstaerke"], ("M", "O", "-"), row["id"])
+
+    def test_every_video_is_listed_in_clips_json(self):
+        clips = json.loads((ROOT / "data/clips.json").read_text(encoding="utf-8"))
+        urls = {entry["clip"] for entry in clips}
+        for vid in DATA["videos"]:
+            self.assertIn(f"https://www.youtube.com/watch?v={vid}", urls, vid)
 
     def test_videos_are_1080p60_youtube_ids(self):
         for vid, info in DATA["videos"].items():
