@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.34.0 „Gapfill“ – 2026-10-31
+
+- Neue Destiny-2-Messungen für die Lücken von BALLON 0.33 „Armory“ ([destiny2.md](docs/destiny2.md#s-gapfill), Methode 29, 14 Messzeilen `z-g34-…`, `data/gapfill.json`): Weltzoom lineare Fusion 3,0 / 2,65–2,69, kurze Fusion 1,43, Spurgewehr 1,84, Schrotflinte 1,29, Impuls 1,975, Granatwerfer 1,35, MG ≈ 1,6; Zielen aus Granatwerfer 25 Bilder; Ziehen Scharfschütze, kurze Fusion, Spurgewehr, Granatwerfer u. a.
+- Nicht belegt: Sprint-Haltung und Gehen (kein Ego-Sprint in 14 Showcases), Weltzoom Scout/Scharfschütze/Raketenwerfer, Raketenwerfer Zielen aus/Ziehen. API-Sichtung nur als Hinweis, Marker blind per API nachgelesen.
+- [Versionsbericht](docs/versions/0.md#0340-gapfill--2026-10-31).
+
 ## 0.33.0 „Gaitline“ – 2026-10-30
 
 - [Außenansicht](docs/aussenansicht.md) fortgeschrieben (neue Abschnitte [1.1](docs/aussenansicht.md#11-quellen-ref-033-youtube-mac), [2.1](docs/aussenansicht.md#21-gang-von-außen--ref-033), [3.4](docs/aussenansicht.md#34-feuern-nachladen-und-wechsel-von-außen--ref-033), Stand in › 7, Prüfung in › 8) aus 19 YouTube-Kandidaten der Folgeliste plus einer eigenen Suche, am Mac in 1080p60/720p60 nacheinander geladen; echte Bildrate je Video geprüft, `capture` (retail/showcase/glitch/mod) je Eintrag. 35 neue Einträge in `data/aussenansicht.json` (Datentest um `capture` und die 4-Zyklen-Regel erweitert), zwei Messzeilen in `docs/destiny2.md` › 2 (Anker `z-ag-…`, Methode 28 ergänzt), eine in `docs/titanfall2.md` › 2, zehn Einträge in `data/clips.json`.
