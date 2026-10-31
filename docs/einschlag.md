@@ -1,6 +1,6 @@
 # Vom Schuss zum Einschlag – Projektil, Leuchtspur, Strahl, Einschlag, Explosion und Rauch je Waffenklasse
 
-Referenzanalyse REF 0.36 „Impact“ (31.10.2026, Mac) für BALLON 0.34 „Payload“ (Projekt `cubeescape-ballon`, baut die Wirkung der Waffen) und
+Referenzanalyse REF 0.36 „Impact“ (31.10.2026, Mac; Nachtrag REF 0.38 „Aftermath“ in [11](#11-nachtrag-aftermath)) für BALLON 0.34 „Payload“ (Projekt `cubeescape-ballon`, baut die Wirkung der Waffen) und
 Cube Escape: was zwischen Abzug und Ziel sichtbar ist (sofortiger Treffer oder Projektil, Leuchtspur, Flugzeit, Bahn, Strahl, Schrotbild) und
 was danach bleibt (Einschlag je Untergrund, Einschusslöcher, Explosion, Rauch, Laufeffekt). **Destiny 2 zuerst**, Vergleich mit Halo Infinite,
 Titanfall 2 und Apex Legends. Hier stehen Beobachtungen und Zahlen; Schlüsse und Startwerte entstehen in BALLON bzw. Cube Escape.
@@ -119,7 +119,7 @@ steht deshalb nur mit [S]-Werten in [5](#5-text--und-datenwerte-s--b).
 ## 4. Muster (Beobachtung, keine Gestaltungsregel)
 
 - **Destiny 2 zeigt keine Leuchtspuren bei Kugelwaffen** (MP, Impuls, Automatik, Scout, Handfeuerwaffe, Seitenwaffe, Scharfschütze in
-  7 Beispielen, davon Handfeuerwaffe und Seitenwaffe nur [O]) und **keine Einschusslöcher** (Beton nach 3 s Dauerfeuer, Fliesenwand, Erde, Sand). **Schrot ist ein einziger Einschlag**
+  7 Beispielen, davon Handfeuerwaffe und Seitenwaffe nur [O]) und **keine Einschusslöcher** auf Beton (3 s Dauerfeuer), Fliesenwand, Erde und Sand – **Ausnahme Schrot auf Blech: bleibende Löcher** ([11](#11-nachtrag-aftermath)). **Schrot ist ein einziger Einschlag**
   (Funkenball an der Wand, Springbrunnen am Boden, Rauchball beim Horseman) – Einzelkugeln sind in Destiny vor 6.3.0 nicht zu sehen. Am Gegner:
   Treffermarke und Lebensleiste im Blitzbild, Trefferleuchten ≈ 6 Bilder, Schadenszahl danach. Der Treffer ist ein **kurzer Einschlag am Zielpunkt**: elementfarbene Funken
   oder Ring je Waffe (IKELOS blau-weiß, Outbreak orange-rot, Sauerstoff SG3 violett-rosa – eine Zuordnung zu Elementen ist nicht gemessen) plus eine **schmale, hohe dunkle Rauchsäule** (Breite : Höhe ≈ 1 : 3–4) von etwa
@@ -176,7 +176,7 @@ GDC-Vorträge zu Destiny- oder Respawn-Waffeneffekten und ein GMTK-Beitrag zu so
 
 - **Übernehmen:** Kugelwaffen ohne Leuchtspur und ohne bleibendes Loch nach Destiny-Vorbild ist belegt (7 Beispiele: 5 [M] + 2 [O]) – der Treffer
   ist ein kurzer Einschlag (Funken in der Leuchtfarbe der Waffe 1–6 Bilder, dunkle schmale Säule 15–25 Bilder). Die bisherigen Decals (5 cm, 80 Stück) wären
-  eine bewusste Abweichung; wenn Decals, dann eher kurz als ewig.
+  eine bewusste Abweichung; wenn Decals, dann eher kurz als ewig. **Ausnahme Schrot auf Blech nach 6.3.0:** bleibende Lochgruppe ([11](#11-nachtrag-aftermath)).
 - **Übernehmen:** Explosion in Stufen nach den Raketenwerten: Blitz 1–2 Bilder bildweit → Kern 7–13 → Ring/Kuppel 4–8 (violett-rosa, schwach) →
   Feuerball 30–60 → Rauch 45–70 Bilder; bei Elementgranaten Feuer und Rauch durch Elementfarbe ersetzen.
 - **Übernehmen:** Projektile als **Leuchtpunkt ohne Rauchschweif** (Rakete 3–12 % B schrumpfend, Granate ≤ 1,5 % B), Lichtpfütze am Boden bei Nacht.
@@ -200,12 +200,13 @@ Geschwindigkeiten in m/s nur aus [5](#5-text--und-datenwerte-s--b), für Destiny
 | `trace_rifle` | `beam`, durchgehend, keilförmig | Punkt pulsiert 12/s | Puls 5 Bilder | #D0D8FF / #5060E0 | z-im-agers |
 | `fusion_rifle` | Bolzen im Bild nicht sichtbar ([S]: 5–9 je Salve, sofort) | kein Wandeinschlag sichtbar | Auslöseblitz ≈ 0,07 mit Linsenstreifen | weiß, Ladering orange | z-im-tadel; Jötunn ist Explosivschuss, kein Klassenwert |
 | `shotgun` | `pellets` ([S] 12, feste Muster seit 6.3.0); Bild: **ein** Einschlag je Schuss | Funkenball dicht ≈ 0,17, Funken ≈ 0,5; Boden-Springbrunnen ≈ 0,27; Horseman-Rauchball ≈ 0,5 | Laufschwaden ≈ 0,13 (Void) | #F1EBFA / #B9B2E1; #101828 | z-im-python, z-im-horseman |
-| `combat_bow` | `arrow`, im Flug unsichtbar | (Exotic explodiert) | Flug 0,07 nah | – | z-im-ticuu (exotisch) |
+| `shotgun` (nach 6.3.0, Blech) | `pellets`; Bild: **2 Bursts** je Schuss (Glasscherben-Rosette + kleiner Burst) und **eine bleibende Lochgruppe** (Dreieck ≈ 12, Oval ≈ 9 Löcher je Muster, Loch ≈ 1,2 % B) | Bursts ≥ 0,17 (≥ 10 Bilder); Funkenbündel ≥ 0,13 (≥ 8 Bilder); Ovalgruppe ≥ 9 s sichtbar (Ende offen) | #C0BAC7 / #A497AC; #C5A98B / #936F59 | z-am-condfin-container, z-am-condfin-loecher, z-am-condfin-funken-blech |
+| `combat_bow` | `arrow`, im Flug unsichtbar; kein Pfeil im Ziel sichtbar (nur ferne Gegner) | (Exotic explodiert); Steckdauer **nicht belegt** | Flug 0,07 nah (Ticuu); ≈ 4 Bilder zu fernem Gegner (HoH) | – | z-im-ticuu, z-am-hoh-pfeil (exotisch) |
 | `grenade_launcher` | `projectile`, Leuchtpunkt ≤ 1,5 % B, kein Schweif, Bahn fällt | `kern_s` 0,12–0,13 (kein bildweiter Blitz gemessen), Elementeffekt statt Feuerball | Flug 0,17–0,22 nah; Laufeffekt 0,05–0,2; Lache ≈ 5,6 s nach letztem Einschlag | je Waffe: Velocity Baton #F0E9FE / #5743BE, Chill Inhibitor #EEFEFE / #5151BA | z-im-velocity-baton, z-im-chill-inhibitor, z-im-witherhoard, z-im-forbearance |
 | `rocket_launcher` | `projectile`, Glühpunkt 3–12 % B, kein Rauchzopf | `flash_s` 0,02–0,03 (bildweiter Blitz), getrennt davon `kern_s` 0,12–0,22; `ring_s` 0,07–0,13; Feuer 0,5–1,0; `smoke_s` ≈ 0,75–1,2; `light_s` 0,15 | Flug 0,32–0,65 | `core_color` #FCECDE, `fire_color` #E9B268 → #CA774A / #F3AF62 → #D53823, `ring_color` violett-rosa, `smoke_color` #020C08 | z-im-blue-shift, z-im-hoosegow, z-im-mos-epoch |
-| `machine_gun` | nicht gemessen | – | – | – | – |
+| `machine_gun` | Leuchtspur **nicht belegt** (violette Streifen im Schießstand beginnen nicht an der Mündung, [O]) | – | – | – | z-am-range-streifen |
 
-¹ Handfeuerwaffe und Seitenwaffe: Spur und Loch als „nicht sichtbar“ belegt [O], ein Einschlag auf Wand oder Boden fehlt noch ([10](#10-nachtrag-nexxoss-gaming)).
+¹ Handfeuerwaffe und Seitenwaffe: Spur und Loch als „nicht sichtbar“ belegt [O], ein Einschlag auf Wand oder Boden fehlt weiter ([11](#11-nachtrag-aftermath)). **Metall als Untergrund:** Funken ohne Staub und Säule ([z-am-range-metall](destiny2.md#z-am-range-metall)), Vergleich mit Fels/Beton nicht möglich.
 
 ## 8. Offen und nicht messbar
 
@@ -215,9 +216,9 @@ Damit keine Sitzung dieselben Wege erneut versucht:
   nicht den Schützen; Apex-Firing-Range-Videos nur 30/s ohne Abgangsbild). Bildbahnen enthalten Kamerabewegung (Phasenkorrelation r < 0,5).
 - **Destiny-Fusionsbolzen und Pfeilfall:** Showcases schießen Fusionen in den Himmel; Pfeile sind im Flug unsichtbar; legendäre Bögen ohne Ziel.
 - **Schrotkugelzahl am Bild:** Destiny zeigt je Schuss **einen** Einschlag (Rauchball, Funkenball an der Wand, Springbrunnen am Boden), kein
-  Einzelmuster – auch an einer glatten Wand (Python 2019); Halo-Bulldog-Spuren überlappen (≥ 6). Nach 6.3.0 nicht am Bild geprüft.
+  Einzelmuster – auch an einer glatten Wand (Python 2019); Halo-Bulldog-Spuren überlappen (≥ 6). Nach 6.3.0: [11](#11-nachtrag-aftermath) – zwei Bursts und eine Lochgruppe je Schuss auf Blech.
 - **Fusionsbolzen am Bild:** auch an einer Wand (Der Kluge Tadel 2017, 30/s) keine Bolzen und kein Einschlag sichtbar.
-- **Einschlag auf Metall** in Destiny: in keiner Quelle; **Handfeuerwaffe** auf Wand/Boden: in keiner Quelle (Showcases und Nexxoss-Guides).
+- **Einschlag auf Metall** in Destiny: nur Funken ohne Staub gesehen ([11](#11-nachtrag-aftermath)), **Vergleich mit Fels/Beton** weiter offen; **Handfeuerwaffe** auf Wand/Boden: in keiner Quelle (Showcases, Nexxoss-Guides, Schießstand 2025).
 - **Kamerastoß bei Explosionen:** in den Raketenfenstern nicht sichtbar, Phasenkorrelation scheitert am Lichtwechsel; als „nicht gemessen“ führen.
 - **Rauchaufstieg in % H/s und Decal-Dauer bei Explosionen:** Kamera schwenkt weg.
 - **Einzellache Velocity Baton:** fünf Lachen überlagert; Witherhoard-Stern über Nachladen hinaus ≥ 6 s, Ende überlagert.
@@ -266,5 +267,39 @@ nach Spielszenen mit HUD durchsucht; 9 Videos geladen, 4 tragen Zeilen. **Quelle
 | 16.06.2019 · [lR6e42dNZxw](https://www.youtube.com/watch?v=lR6e42dNZxw) · 64,43–64,73 | Schweigen (Bogen), Season of Opulence | Pfeil im Flug nicht sichtbar, Treffer-Aufblitzen am Gegner; Szene von einer Schnittblende überlagert; weiße Vollbilder im Video sind Schnittblenden | [O] |
 
 Verworfen: Handfeuerwaffen- und Bogen-Form-Guides 2018 (keine Wand-/Bodentreffer, dunkel), Mond-Waffen-Guides 2019 (andere Waffe gespielt).
-**Weiter offen:** Handfeuerwaffe auf Wand/Boden, Metall als Untergrund, Schrotmuster nach 6.3.0 am Bild, Pfeil-Steckdauer, Spurgewehr legendär,
-MG-Leuchtspur. Nächster Weg: Nexxoss-Reviews ab Dez. 2022 (nach 6.3.0) oder eigene Mitschnitte in 60/s.
+**Weiter offen (Stand 0.37):** Handfeuerwaffe auf Wand/Boden, Metall als Untergrund, Schrotmuster nach 6.3.0 am Bild, Pfeil-Steckdauer, Spurgewehr legendär,
+MG-Leuchtspur – in 0.38 bearbeitet, Ergebnis in [11](#11-nachtrag-aftermath).
+
+## 11. Nachtrag Aftermath
+
+REF 0.38 „Aftermath“ (31.10.2026, Mac, Auftrag von Sightline): die offenen Punkte aus [8](#8-offen-und-nicht-messbar) und [10](#10-nachtrag-nexxoss-gaming) an fünf neuen Videos nachgemessen
+(Nexxoss Gaming Dez. 2022 – Juni 2025, **60 echte Bilder/s**, Methode wie [Methode 31](destiny2.md#methode-31), Nachtrag [Methode 33](destiny2.md#methode-33)). Je Punkt: gemessen / nicht belegt.
+
+| Punkt | Ergebnis | Zeile / Video |
+|---|---|---|
+| **Schrotmuster nach 6.3.0** | **gemessen.** Bedingte Endgültigkeit (exotisch, Doppellauf) auf Containerblech: **2 Bursts** je Schuss (Rosette ≈ 52–72 × 37–54 %, kleiner Burst ≈ 46–53 × 52–63 %, ≥ 10 Bilder, kein Rauch). Auf Lkw-Blech **bleibende Lochgruppen**: ein Schuss = **eine Gruppe** (Oval ≈ 9, ältere Dreiecksgruppe ≈ 12 Löcher, ±1; Loch ≈ 1,2 % B), zwei verschiedene Muster; Ovalgruppe am Einzelbild ≥ 9 s sichtbar, im Kontaktbogen bis ≈ 480 s, Ende offen. Vor 6.3.0 (Python): ein Funkenball, kein Decal. Ursache der zwei Muster (Lauf/Element, Winkel, Entfernung), Rahmen und Kugelzahl je Rahmen: **nicht belegt** (Exot mit zwei Läufen) | [z-am-condfin-container](destiny2.md#z-am-condfin-container), [z-am-condfin-loecher](destiny2.md#z-am-condfin-loecher), [z-am-condfin-funken-blech](destiny2.md#z-am-condfin-funken-blech) · `3HgrGEjz4HU` |
+| **Metall als Untergrund** | **teilweise gemessen:** Riffelblech im Schießstand: viele kleine weiß-blaue Funken ≥ 12 Bilder, **kein Staub, keine Säule**; Schrot auf Blech: Funkenbündel ≥ 8 Bilder, kein Rauch. **Vergleich mit Fels/Beton nicht belegt** (kein Treffer auf Fels/Beton im Material; Ikelos-Video zeigt nur Schüsse auf Gegner) | [z-am-range-metall](destiny2.md#z-am-range-metall) · `NBUB9qubl54`; `dtVH4DbpqLE` ohne Messung |
+| **Handfeuerwaffe auf Wand und Boden** | **nicht belegt.** Handfeuerwaffe/Sidearm im Schießstand schießt nur auf ferne Ziele (Mündungsfeuer sichtbar, kein Einschlag); kein Handfeuerwaffen-Review nach 6.3.0 mit Wandtreffern gefunden | `NBUB9qubl54` |
+| **Pfeil-Steckdauer** | **nicht belegt.** Hierarchie der Ansprüche: Flugzeit ≈ 4 Bilder (±1) über unbekannte Entfernung, im Flug kein Pfeil und kein Schweif, nach dem Treffer kein Pfeil im Ziel – alle Schüsse auf ferne Gegner, keiner auf Wand/Boden/Metall | [z-am-hoh-pfeil](destiny2.md#z-am-hoh-pfeil) · `KGtGEMpka18` |
+| **Spurgewehr legendär** | **nicht belegt.** „Verlängertes Engagement“ (`HPdfLN6knaQ`) ist eine legendäre **Maschinenpistole**; im Material kein legendäres Spurgewehr; Mikrokosmos ist exotisch (Videos `hEQHYpurLkI`, `mp8ImI8UbUc` nicht geladen) | – |
+| **MG-Leuchtspur** | **nicht belegt.** Violette Streifen im Schießstand (3–6 Bilder, alle ≈ 6 Bilder) beginnen **nicht an der Mündung**, Magazin blieb konstant, Zuordnung zum Schuss unmöglich; Quelle (Spur, Querschläger, Gegnereffekt) offen [O] | [z-am-range-streifen](destiny2.md#z-am-range-streifen) · `NBUB9qubl54` |
+
+**Korrektur zu [4](#4-muster-beobachtung-keine-gestaltungsregel):** „keine Einschusslöcher“ gilt für Kugelwaffen auf Beton, Fliesen, Erde und Sand (0.36), **nicht** für Schrot auf Metall.
+
+### E3 – Vorschlag für BALLON (dort entscheiden)
+
+- **Prüfen:** Schrot auf Blech als **ein Lochmuster je Schuss** (9–12 Löcher, ≈ 1,2 % B, heller Rand) mit nachgewiesener Lebensdauer ≥ 9 s (Ende offen) statt 12 Einzeleinschläge; Funkenbündel ≥ 8 Bilder ohne Rauch. Schrot nach 6.3.0 auf Fels/Beton/Sand/Erde ist nicht belegt; Kugelwaffen dort ohne Decal (0.36); Patchstand (Python 2019 vor 6.3.0, Wand) und Material (Blech) sind im Material nicht getrennt.
+- **Ohne Beleg bleiben:** Handfeuerwaffen-Einschlag, Pfeil-Steckdauer, Spurgewehr-Strahl legendär, MG-Leuchtspur – BALLON-Werte hier nur aus den bisherigen Zeilen ([7](#7-für-ballon-034-payload--übernahmetabelle)).
+
+### Quellen, Prüfung, offen
+
+| Video (Nexxoss Gaming) | Inhalt | Verwendung |
+|---|---|---|
+| [3HgrGEjz4HU](https://www.youtube.com/watch?v=3HgrGEjz4HU) · 14.03.2023 · „Destiny 2 Lightfall: Bedingte Endgültigkeit Review“ | Schrot exotisch | 3 Messzeilen |
+| [KGtGEMpka18](https://www.youtube.com/watch?v=KGtGEMpka18) · 12.12.2022 · „Destiny 2 Hierarchie der Ansprüche Review Deutsch German“ | Bogen exotisch | 1 Messzeile |
+| [NBUB9qubl54](https://www.youtube.com/watch?v=NBUB9qubl54) · 03.06.2025 · „Destiny 2 The Edge of Fate: Schießstand/ Shooting Range“ | Schießstand, Primär/Sidearm | 1 Messzeile (2 Anker) |
+| [dtVH4DbpqLE](https://www.youtube.com/watch?v=dtVH4DbpqLE) · 14.12.2022 · „Destiny 2 Ikelos MP V1.0.3 Review Deutsch German“ | SMG, nur Gegnerschüsse | keine Messung |
+| [HPdfLN6knaQ](https://www.youtube.com/watch?v=HPdfLN6knaQ) · 15.12.2022 · „Destiny 2 Verlängertes Engagement Review Deutsch German“ | SMG (kein Spurgewehr) | keine Messung |
+
+Fünf Sonnet-Unteragenten (medium) sichteten und maßen je ein Video; der Koordinator prüfte die Belegbilder (Containerburst f26772, Tür f27913, Loch-Vorher/Nachher f27906/f27960/f28500, Schießstand f5738, Pfeil f6416/f6420) am Einzelbild und zählte die Lochgruppen selbst; Hüllrechtecke des Containerbursts sind seine Ablesung (die des Agenten wich ab). Videos im Cache, nicht im Repo.
+**Weiter offen:** Handfeuerwaffe auf Wand/Boden (ein Review nach 6.3.0 mit Wandtreffern, oder eigener Mitschnitt), Fels-/Betonvergleich zu Metall, Schrot-Muster je Rahmen (Mitschnitt mit bekanntem Rahmen), Pfeil auf Wand, legendäres Spurgewehr, ungeprüfte Fenster im Ikelos-Video (195–218, 229–243, 291–304, 371–457 s nur mit 1 Bild/s gesichtet).

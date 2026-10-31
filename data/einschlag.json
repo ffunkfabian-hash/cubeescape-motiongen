@@ -1,8 +1,8 @@
 {
- "version": "0.36.0",
- "name": "Impact",
+ "version": "0.38.0",
+ "name": "Aftermath",
  "datum": "2026-10-31",
- "zweck": "Vom Schuss zum Einschlag je Waffenklasse für BALLON 0.34 Payload (Beobachtungen; Entscheidungen in BALLON)",
+ "zweck": "Vom Schuss zum Einschlag je Waffenklasse für BALLON 0.34 Payload (Beobachtungen; Entscheidungen in BALLON) Nachtrag REF 0.38 „Aftermath“: Schrot nach 6.3.0, Metall, Pfeil, Spurgewehr, MG-Leuchtspur, Handfeuerwaffe.",
  "hinweise": [
   "Jede Zeile gilt für die genannte Waffe (Beispiel, kein Klassenmittel); Entfernung und FOV unbekannt.",
   "Bildindizes bei 60/s (t = Index/60), Marker ±1 Bild, Dauern ±2 Bilder; Größen in % Bildbreite/Bildhöhe ±3 pp.",
@@ -210,6 +210,46 @@
    "titel": "Apex Legends @ ALL Weapons Look and Sound Showcase @ FHD 60fps",
    "dauer_s": 356,
    "format": "1920x1080 60-Container, 50-55 echte/s"
+  },
+  "3HgrGEjz4HU": {
+   "spiel": "Destiny 2",
+   "kanal": "Nexxoss Gaming",
+   "datum": "2023-03-14",
+   "titel": "Destiny 2 Lightfall: Bedingte Endgültigkeit Review",
+   "dauer_s": 514,
+   "format": "1920x1080 60/s nativ (0 Doppelbilder)"
+  },
+  "KGtGEMpka18": {
+   "spiel": "Destiny 2",
+   "kanal": "Nexxoss Gaming",
+   "datum": "2022-12-12",
+   "titel": "Destiny 2 Hierarchie der Ansprüche Review Deutsch German",
+   "dauer_s": 321,
+   "format": "1920x1080 60/s nativ (0 Doppelbilder, 106,8–107,8 s)"
+  },
+  "NBUB9qubl54": {
+   "spiel": "Destiny 2",
+   "kanal": "Nexxoss Gaming",
+   "datum": "2025-06-03",
+   "titel": "Destiny 2 The Edge of Fate: Schießstand/ Shooting Range",
+   "dauer_s": 270,
+   "format": "1920x1080 60/s nativ"
+  },
+  "dtVH4DbpqLE": {
+   "spiel": "Destiny 2",
+   "kanal": "Nexxoss Gaming",
+   "datum": "2022-12-14",
+   "titel": "Destiny 2 Ikelos MP V1.0.3 Review Deutsch German",
+   "dauer_s": 464,
+   "format": "1920x1080 60/s nativ (0 Doppelbilder)"
+  },
+  "HPdfLN6knaQ": {
+   "spiel": "Destiny 2",
+   "kanal": "Nexxoss Gaming",
+   "datum": "2022-12-15",
+   "titel": "Destiny 2 Verlängertes Engagement Review Deutsch German",
+   "dauer_s": 625,
+   "format": "1920x1080 60/s"
   }
  },
  "rows": [
@@ -1198,6 +1238,176 @@
    },
    "belegstaerke": "M",
    "notiz": "Wurfgranate, Nebenbefund"
+  },
+  {
+   "id": "z-am-condfin-container",
+   "spiel": "Destiny 2",
+   "waffe": "Bedingte Endgültigkeit (exotisch, Schrotflinte, Stand 2023 nach 6.3.0)",
+   "klasse": "shotgun",
+   "art": "schrot",
+   "video": "3HgrGEjz4HU",
+   "zeit_s": 446.183,
+   "bilder": {
+    "schuss": 26771,
+    "burst_a_peak": 26772,
+    "zerfall_noch_sichtbar": 26780
+   },
+   "wert": {
+    "treffer": "sofort",
+    "bursts_je_schuss": 2,
+    "untergrund": "Containerblech",
+    "huell_pct_b_h": [
+     [
+      46,
+      72
+     ],
+     [
+      37,
+      63
+     ]
+    ],
+    "farbe_kern_b": "#C0BAC7",
+    "farbe_ring_b": "#A497AC",
+    "dauer_bilder_min": 10,
+    "rauch": false,
+    "muster_stand": "nach 6.3.0"
+   },
+   "belegstaerke": "M",
+   "notiz": "Zwei getrennte Bursts (violett-weiße Glasscherben-Rosette + kleinerer weißer); Waffe verdeckt Teile; Zuordnung Burst ↔ Lauf/Element nicht belegt"
+  },
+  {
+   "id": "z-am-condfin-loecher",
+   "spiel": "Destiny 2",
+   "waffe": "Bedingte Endgültigkeit (exotisch, Schrotflinte, Stand 2023 nach 6.3.0)",
+   "klasse": "shotgun",
+   "art": "loch",
+   "video": "3HgrGEjz4HU",
+   "zeit_s": 465.1,
+   "bilder": {
+    "vorher": 27906,
+    "nachher": 27960,
+    "kontrolle_spaeter": 28500
+   },
+   "wert": {
+    "decal": true,
+    "untergrund": "rostiger Lkw (Blech)",
+    "gruppen_nach_einem_schuss": 1,
+    "gruppe_dreieck_loecher": 12,
+    "gruppe_oval_loecher": 9,
+    "loch_pct_b": 1.2,
+    "oval_sichtbar_s_min": 9,
+    "muster_verschieden": true,
+    "ursache": null
+   },
+   "belegstaerke": "M",
+   "notiz": "Ein Schuss (Anzeige 1→0) fügt die Ovalgruppe hinzu (f27906 ohne, f27960 mit, f28500 noch da = ≥ 9 s am Einzelbild, Kontaktbogen bis ≈ 480 s, Ende nicht beobachtet); die Dreiecksgruppe entstand vor 465,1 s, Entstehung und Ende nicht beobachtet; Zählung ±1 (Überlagerung); Ursache der zwei Muster (Lauf/Element, Winkel, Entfernung) nicht belegt"
+  },
+  {
+   "id": "z-am-condfin-funken-blech",
+   "spiel": "Destiny 2",
+   "waffe": "Bedingte Endgültigkeit (exotisch, Schrotflinte, Flammen-Anzeige)",
+   "klasse": "shotgun",
+   "art": "einschlag",
+   "video": "3HgrGEjz4HU",
+   "zeit_s": 465.167,
+   "bilder": {
+    "flamme_verdeckt": 27910,
+    "peak": 27913,
+    "schwach_bis": 27919
+   },
+   "wert": {
+    "treffer": "sofort",
+    "untergrund": "Lkw-Tür (Rost, Blech)",
+    "funken": "orange Funkenbündel mit Streifen",
+    "kern": "#C5A98B",
+    "ring": "#936F59",
+    "dauer_bilder_min": 8,
+    "rauch": false,
+    "saeule": false
+   },
+   "belegstaerke": "M",
+   "notiz": "Ein Funkenbündel, keine Einzelkugeln; Hüllrechteck nur grob ≈ 47–56 % B × 65–78 % H"
+  },
+  {
+   "id": "z-am-range-metall",
+   "spiel": "Destiny 2",
+   "waffe": "Primärwaffe im Schießstand (Klasse am HUD nicht lesbar)",
+   "klasse": null,
+   "art": "einschlag",
+   "video": "NBUB9qubl54",
+   "zeit_s": 95.6,
+   "bilder": {
+    "erstes_bild": 5736,
+    "mind_sichtbar_bis": 5747
+   },
+   "wert": {
+    "untergrund": "Riffelblech (Metall)",
+    "funken": "viele kleine weiß-blaue Partikel",
+    "huell_pct_b_h": [
+     [
+      21,
+      34
+     ],
+     [
+      73,
+      83
+     ]
+    ],
+    "farbe": "#F5F4F7 / #BFC0CC",
+    "dauer_bilder_min": 12,
+    "staub": false,
+    "saeule": false
+   },
+   "belegstaerke": "M",
+   "notiz": "Ende durch Folgesalve überlagert; kein Fels-/Betonvergleich im Video, Unterschied nicht messbar"
+  },
+  {
+   "id": "z-am-range-streifen",
+   "spiel": "Destiny 2",
+   "waffe": "Primärwaffe im Schießstand (violett, Magazin 29)",
+   "klasse": null,
+   "art": "spur",
+   "video": "NBUB9qubl54",
+   "zeit_s": 95.5,
+   "bilder": {
+    "erstes_bild": 5730,
+    "letztes_gesichtet": 5808
+   },
+   "wert": {
+    "streifen_bilder": [
+     3,
+     6
+    ],
+    "neuer_streifen_alle_bilder": 6,
+    "beginnt_an_muendung": false,
+    "farbe_halo": "#5C517B",
+    "funken_am_boden": true,
+    "quelle": "unklar (Spur, Querschläger oder Gegnereffekt)"
+   },
+   "belegstaerke": "O",
+   "notiz": "keine MG-Leuchtspur belegt: Streifen beginnt nicht an der Mündung, Magazin blieb konstant 29, Zuordnung Schuss↔Streifen nicht möglich"
+  },
+  {
+   "id": "z-am-hoh-pfeil",
+   "spiel": "Destiny 2",
+   "waffe": "Hierarchie der Ansprüche (exotisch, Bogen)",
+   "klasse": "combat_bow",
+   "art": "flug",
+   "video": "KGtGEMpka18",
+   "zeit_s": 106.933,
+   "bilder": {
+    "abgang": 6416,
+    "blitz_am_ziel": 6420
+   },
+   "wert": {
+    "flugzeit_bilder": 4,
+    "pfeil_im_flug_sichtbar": false,
+    "abgang": "weißer Lichtschleier am Bogen",
+    "untergrund_treffer": "nur ferne Gegner, keine Wand/Boden/Metall",
+    "pfeil_im_ziel_sichtbar": false
+   },
+   "belegstaerke": "M",
+   "notiz": "Flugzeit ±1 Bild über unbekannte Entfernung; Steckdauer nicht belegt (kein Treffer auf Wand/Boden)"
   }
  ],
  "ballon_uebernahme": {
@@ -1325,13 +1535,29 @@
    "belege": [
     "z-im-python",
     "z-im-horseman",
-    "i-halo-bulldog"
+    "i-halo-bulldog",
+    "z-am-condfin-container",
+    "z-am-condfin-loecher",
+    "z-am-condfin-funken-blech"
    ],
    "speed_mps": null,
    "radius_m": null,
    "width_m": null,
    "length_m": null,
-   "size_m": null
+   "size_m": null,
+   "decal": {
+    "blech_nach_6_3": true,
+    "sonst": null
+   },
+   "decal_untergrund": "Blech (Lkw, Container); Schrot nach 6.3.0 auf Fels/Beton/Sand/Erde nicht belegt; Kugelwaffen dort ohne Decal (0.36)",
+   "decal_oval_sichtbar_s_min": 9,
+   "nach_6_3_blech": {
+    "bursts_je_schuss": 2,
+    "lochgruppen_je_schuss": 1,
+    "loecher_oval": 9,
+    "loecher_dreieck": 12,
+    "ursache_muster": null
+   }
   },
   "fusion_rifle": {
    "kind": null,
@@ -1351,13 +1577,18 @@
    "pfeil_im_flug_sichtbar": false,
    "belege": [
     "z-im-ticuu",
-    "z-im-schweigen"
+    "z-im-schweigen",
+    "z-am-hoh-pfeil"
    ],
    "speed_mps": null,
    "radius_m": null,
    "width_m": null,
    "length_m": null,
-   "size_m": null
+   "size_m": null,
+   "pfeil_steckt": null,
+   "steckdauer": null,
+   "flugzeit_bilder_ferne_gegner": 4,
+   "notiz": "Flug ≈ 4 Bilder über unbekannte Entfernung (ferner Gegner); kein Pfeil im Flug sichtbar; Steckdauer und Pfeil im Ziel nicht belegt (kein Treffer auf Wand/Boden)"
   },
   "grenade_launcher": {
    "kind": "projectile",
@@ -1432,6 +1663,17 @@
    "width_m": null,
    "length_m": null,
    "size_m": null
+  },
+  "machine_gun": {
+   "kind": null,
+   "leuchtspur": null,
+   "belege": [],
+   "speed_mps": null,
+   "radius_m": null,
+   "width_m": null,
+   "length_m": null,
+   "size_m": null,
+   "notiz": "nicht gemessen; MG-Leuchtspur nicht belegt, violette Streifen im Schießstand nur [O] (z-am-range-streifen, Klasse unbekannt)"
   }
  }
 }
