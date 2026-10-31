@@ -1402,9 +1402,9 @@
    "wert": {
     "flugzeit_bilder": 4,
     "pfeil_im_flug_sichtbar": false,
-    "pfeil_steckt": false,
     "abgang": "weißer Lichtschleier am Bogen",
-    "untergrund_treffer": "nur ferne Gegner, keine Wand/Boden/Metall"
+    "untergrund_treffer": "nur ferne Gegner, keine Wand/Boden/Metall",
+    "pfeil_im_ziel_sichtbar": false
    },
    "belegstaerke": "M",
    "notiz": "Flugzeit ±1 Bild über unbekannte Entfernung; Steckdauer nicht belegt (kein Treffer auf Wand/Boden)"
@@ -1530,8 +1530,8 @@
   "shotgun": {
    "kind": "pellets",
    "pellets_quelle": "[S] 12, feste Muster seit 6.3.0",
-   "pellets_bild": "nach 6.3.0 als bleibende Lochgruppe sichtbar: Dreieck ≈ 12, Oval ≈ 9 Löcher je Muster (±1, Bedingte Endgültigkeit); Ursache der zwei Muster nicht belegt",
-   "einschlaege_je_schuss_bild": "1 vor 6.3.0 (Python); 2 Bursts und 1 Lochgruppe nach 6.3.0 auf Blech (Bedingte Endgültigkeit, Doppellauf)",
+   "pellets_bild": null,
+   "einschlaege_je_schuss_bild": 1,
    "belege": [
     "z-im-python",
     "z-im-horseman",
@@ -1545,9 +1545,19 @@
    "width_m": null,
    "length_m": null,
    "size_m": null,
-   "decal": true,
+   "decal": {
+    "blech_nach_6_3": true,
+    "sonst": null
+   },
    "decal_untergrund": "Blech (Lkw, Container); Schrot nach 6.3.0 auf Fels/Beton/Sand/Erde nicht belegt; Kugelwaffen dort ohne Decal (0.36)",
-   "decal_oval_sichtbar_s_min": 9
+   "decal_oval_sichtbar_s_min": 9,
+   "nach_6_3_blech": {
+    "bursts_je_schuss": 2,
+    "lochgruppen_je_schuss": 1,
+    "loecher_oval": 9,
+    "loecher_dreieck": 12,
+    "ursache_muster": null
+   }
   },
   "fusion_rifle": {
    "kind": null,
