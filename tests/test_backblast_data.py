@@ -58,10 +58,12 @@ class ShapeTests(unittest.TestCase):
             self.assertIsNone(rl["werte"][key], key)
 
     def test_reload_durations_match_their_frame_markers(self):
-        reload = next(row for row in DATA["rows"] if row["id"] == "z-bb-rl-nachladen")["werte"]
-        rate = reload["bildrate"]
-        for weapon, (start, end) in reload["marker_bild"].items():
-            self.assertAlmostEqual(reload["dauer_s"][weapon], (end - start) / rate, delta=1.5 / rate, msg=weapon)
+        rows = [row["werte"] for row in DATA["rows"] if "marker_bild" in row["werte"]]
+        self.assertGreaterEqual(len(rows), 2)
+        for reload in rows:
+            rate = reload["bildrate"]
+            for weapon, (start, end) in reload["marker_bild"].items():
+                self.assertAlmostEqual(reload["dauer_s"][weapon], (end - start) / rate, delta=1.5 / rate, msg=weapon)
 
     def test_every_video_is_listed_in_clips_json(self):
         clips = json.loads((ROOT / "data/clips.json").read_text(encoding="utf-8"))

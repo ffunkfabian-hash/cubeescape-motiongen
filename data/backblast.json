@@ -163,6 +163,83 @@
    "titel": "Destiny 2: Schweigen Review / Waffentest (Deutsch/German)",
    "format": "1280x720 60/s"
   },
+  "5V1X5LE9igY": {
+   "kanal": "Ultraclocked",
+   "datum": "2023-02-11",
+   "dauer_s": 44,
+   "titel": "Destiny 2 - All Exotic Weapon Reloads in 44 seconds | Year 4",
+   "format": "1920x1080 60/s"
+  },
+  "a8z5jtRhmP4": {
+   "kanal": "Ultraclocked",
+   "datum": "2022-01-07",
+   "dauer_s": 84,
+   "titel": "Destiny 2 - All Exotic Weapon Reloads in 90 seconds | Year 2",
+   "format": "1920x1080 60/s"
+  },
+  "ePFqXSesP10": {
+   "kanal": "Ultraclocked",
+   "datum": "2022-03-13",
+   "dauer_s": 59,
+   "titel": "Destiny 2 - All Exotic Weapon Reloads in 1 minute | Year 3",
+   "format": "1920x1080 60/s"
+  },
+  "I-6ivmpoqWc": {
+   "kanal": "Ultraclocked",
+   "datum": "2021-08-08",
+   "dauer_s": 103,
+   "titel": "Destiny 2 - All Exotic Weapon Reloads in 2 minutes | Year 1",
+   "format": "1920x1080 60/s"
+  },
+  "kal12oig1oU": {
+   "kanal": "Ultraclocked",
+   "datum": "2026-07-16",
+   "dauer_s": 37,
+   "titel": "Destiny 2 - All Exotic Weapon Reloads in 37 seconds | Year 8/9",
+   "format": "1920x1080 60/s"
+  },
+  "y9jcFzgHSSs": {
+   "kanal": "Ultraclocked",
+   "datum": "2024-01-12",
+   "dauer_s": 47,
+   "titel": "Destiny 2 - Dying Dream - Weapon Ornament for Dragon's Breath (Exotic Rocket Launcher)",
+   "format": "1920x1080 60/s"
+  },
+  "LKZ5OZAy6jY": {
+   "kanal": "Ultraclocked",
+   "datum": "2025-01-31",
+   "dauer_s": 59,
+   "titel": "Destiny 2 - Herald of Spring - Weapon Ornament for Two-Tailed Fox (Exotic Rocket Launcher)",
+   "format": "1920x1080 60/s"
+  },
+  "ZVb0-qzyIYg": {
+   "kanal": "Nexxoss Gaming",
+   "datum": "2019-07-04",
+   "dauer_s": 503,
+   "titel": "Destiny 2: Lumina Review & Waffentest (Deutsch/German)",
+   "format": "1280x720 30/s real"
+  },
+  "oiDmXrmz91w": {
+   "kanal": "Nexxoss Gaming",
+   "datum": "2019-03-14",
+   "dauer_s": 413,
+   "titel": "Destiny 2 Forsaken: Dorn Review (Deutsch/German)",
+   "format": "1280x720 30/s real"
+  },
+  "WiObO4JN3sM": {
+   "kanal": "Ultraclocked",
+   "datum": "2021-05-18",
+   "dauer_s": 99,
+   "titel": "Destiny 2 - The Last Word - Animations & Sounds (Exotic Hand Cannon)",
+   "format": "1920x1080 60/s"
+  },
+  "F2l10BG2NCo": {
+   "kanal": "Ultraclocked",
+   "datum": "2025-04-30",
+   "dauer_s": 40,
+   "titel": "Destiny 2 - High-Rolling Lowlife - Weapon Ornament for Malfeasance (Exotic Hand Cannon)",
+   "format": "1920x1080 60/s split screen"
+  },
   "c0s1OG1AZys": {
    "kanal": "Ultraclocked",
    "datum": "2023-07-05",
@@ -881,6 +958,192 @@
    "notiz": "Zeiten aus 11 Schüssen; Beträge Handablesung am Heckvisier (Koordinator); Hubwerte des Unteragenten verworfen"
   },
   {
+   "id": "z-bb-rl-zeiten",
+   "thema": "raketenwerfer",
+   "art": "nachladen",
+   "typ": "Raketenwerfer",
+   "belegstaerke": "M",
+   "waffe": [
+    "Deathbringer",
+    "Eyes of Tomorrow",
+    "Gjallarhorn",
+    "Truth",
+    "Two-Tailed Fox",
+    "Wardcliff Coil",
+    "Whirling Ovation",
+    "Dragon's Breath",
+    "Blue Shift",
+    "Mos Epoch III"
+   ],
+   "videos": [
+    "5V1X5LE9igY",
+    "a8z5jtRhmP4",
+    "ePFqXSesP10",
+    "I-6ivmpoqWc",
+    "kal12oig1oU",
+    "y9jcFzgHSSs",
+    "LKZ5OZAy6jY",
+    "afs_dhFDhQU",
+    "42zdQOVBAD0"
+   ],
+   "werte": {
+    "dauer_s": {
+     "Deathbringer": 2.93,
+     "Eyes of Tomorrow": 3.0,
+     "Gjallarhorn": 3.15,
+     "Truth": 3.28,
+     "Two-Tailed Fox": 3.47,
+     "Wardcliff Coil": 3.58,
+     "Whirling Ovation": 3.98
+    },
+    "marker_bild": {
+     "Deathbringer": [
+      241,
+      417
+     ],
+     "Eyes of Tomorrow": [
+      1024,
+      1204
+     ],
+     "Gjallarhorn": [
+      1395,
+      1584
+     ],
+     "Truth": [
+      4240,
+      4437
+     ],
+     "Two-Tailed Fox": [
+      4487,
+      4695
+     ],
+     "Wardcliff Coil": [
+      5222,
+      5437
+     ],
+     "Whirling Ovation": [
+      1928,
+      2167
+     ]
+    },
+    "bildrate": 60,
+    "dragons_breath_s_O": 3.43,
+    "zeitlupe_verhaeltnis": [
+     1.88,
+     1.98
+    ],
+    "normaltempo_belegt": {
+     "Blue Shift": true,
+     "Mos Epoch III": true,
+     "Crux Celeritas IV": false
+    },
+    "rohrachse_huefte": null,
+    "hezen_vengeance": null
+   },
+   "notiz": "Start → ruhig; Normaltempo der Schnitte über Verhältnis zur Zeitlupen-Fassung; Hezen Vengeance ist Legendary"
+  },
+  {
+   "id": "z-bb-hc-exotics",
+   "thema": "handfeuerwaffe",
+   "art": "schuss",
+   "typ": "Handfeuerwaffe (exotisch)",
+   "belegstaerke": "M",
+   "waffe": [
+    "Lumina",
+    "Thorn",
+    "Malfeasance",
+    "The Last Word"
+   ],
+   "videos": [
+    "ZVb0-qzyIYg",
+    "oiDmXrmz91w",
+    "F2l10BG2NCo",
+    "WiObO4JN3sM"
+   ],
+   "werte": {
+    "ads_spitze_pp": {
+     "Lumina": {
+      "hoch": 10,
+      "rechts": 4
+     },
+     "Thorn": {
+      "kimme_tief": 23.5,
+      "rechts": 10
+     }
+    },
+    "ads_ruhe_bild": {
+     "Lumina": [
+      30,
+      36
+     ],
+     "Thorn": [
+      34,
+      36
+     ]
+    },
+    "ads_unterschwingen_pp": {
+     "Lumina": [
+      1.2,
+      1.4
+     ],
+     "Thorn": null
+    },
+    "kamerakick_pp_h": {
+     "Lumina": [
+      6.2,
+      6.5
+     ],
+     "Thorn": 6
+    },
+    "huefte_hub_pp_h": {
+     "Malfeasance": 32,
+     "The Last Word": null
+    },
+    "huefte_kippen_grad": {
+     "Malfeasance": 50,
+     "The Last Word": 20
+    },
+    "huefte_ruhe_bild": {
+     "Malfeasance": 40,
+     "The Last Word": 50
+    },
+    "bildrate_nexxoss_echt": 30
+   },
+   "notiz": "Nexxoss Netto aus Spiel und Eingabe, Zeiten ± 2 Bilder; Malfeasance aus Split-Screen-Halbbild (Höhe 1 : 1 angenommen); Last Word Fächeranimation ohne Hub"
+  },
+  {
+   "id": "z-bb-bogen-takt",
+   "thema": "bogen",
+   "art": "sprint",
+   "typ": "Bogen",
+   "belegstaerke": "O",
+   "waffe": [
+    "Wish-Ender"
+   ],
+   "videos": [
+    "XoznPcToX1k"
+   ],
+   "werte": {
+    "vertikal_hz": 3.16,
+    "vertikal_perioden": 6,
+    "seitlich_hz": [
+     1.55,
+     1.65
+    ],
+    "seitlich_perioden": 3,
+    "hub_griffhand_pp": {
+     "h": 6,
+     "b": [
+      10,
+      12
+     ]
+    },
+    "kamerawippen_pp": 0.3,
+    "methode": "optischer Fluss, keine feste Vorlage"
+   },
+   "notiz": "vorläufig, nicht nach Methode 21"
+  },
+  {
    "id": "z-bb-bildanteil",
    "thema": "bildanteil",
    "art": "bildanteil",
@@ -1456,6 +1719,18 @@
   {
    "punkt": "Bildanteil Waffe + Hände je Klasse",
    "anker": "z-bb-bildanteil"
+  },
+  {
+   "punkt": "Nachladedauer Raketenwerfer: Legendary 2,5–3,0 s, Exotics 2,9–4,0 s",
+   "anker": "z-bb-rl-zeiten"
+  },
+  {
+   "punkt": "Exotische Handfeuerwaffe: eigene Animation oder größerer Hub; Zielen mit sofortigem Kick",
+   "anker": "z-bb-hc-exotics"
+  },
+  {
+   "punkt": "Bogen-Sprint vorläufig im Takt der übrigen Waffen",
+   "anker": "z-bb-bogen-takt"
   }
  ]
 }
