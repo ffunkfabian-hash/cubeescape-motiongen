@@ -400,10 +400,11 @@
     "bildrate": 60,
     "normaltempo_belegt": {
      "Hoosegow": true,
-     "Blue Shift": false,
-     "Mos Epoch III": false,
+     "Blue Shift": true,
+     "Mos Epoch III": true,
      "Crux Celeritas IV": false
     },
+    "normaltempo_quelle": "Blue Shift und Mos Epoch III im Nachtrag z-bb-rl-zeiten",
     "einsetzen": "von oben in einen Schacht auf der Oberseite, Werfer quer",
     "schacht_xy": [
      44,
@@ -1029,8 +1030,23 @@
     "bildrate": 60,
     "dragons_breath_s_O": 3.43,
     "zeitlupe_verhaeltnis": [
-     1.88,
+     1.82,
      1.98
+    ],
+    "start_bis_huefte_s": {
+     "Blue Shift": [
+      2.67,
+      2.78
+     ],
+     "Mos Epoch III": [
+      2.52,
+      2.53
+     ]
+    },
+    "einsetzart_dragons_breath": "von oben in den Oberseitenschacht, Werfer quer",
+    "oben_in_schacht_von_gesamt": [
+     9,
+     12
     ],
     "normaltempo_belegt": {
      "Blue Shift": true,
@@ -1073,8 +1089,8 @@
     },
     "ads_ruhe_bild": {
      "Lumina": [
-      30,
-      36
+      28,
+      32
      ],
      "Thorn": [
       34,
@@ -1096,12 +1112,19 @@
      "Thorn": 6
     },
     "huefte_hub_pp_h": {
-     "Malfeasance": 32,
+     "Malfeasance": null,
      "The Last Word": null
     },
     "huefte_kippen_grad": {
-     "Malfeasance": 50,
-     "The Last Word": 20
+     "Malfeasance": null,
+     "The Last Word": 24
+    },
+    "malfeasance_halbbild_O": {
+     "hub_pp": 32,
+     "kippen_grad": 50,
+     "kippen_toleranz_grad": 15,
+     "status": "O",
+     "grund": "Split-Screen-Halbbild, Maßstab unbelegt"
     },
     "huefte_ruhe_bild": {
      "Malfeasance": 40,
@@ -1721,11 +1744,11 @@
    "anker": "z-bb-bildanteil"
   },
   {
-   "punkt": "Nachladedauer Raketenwerfer: Legendary 2,5–3,0 s, Exotics 2,9–4,0 s",
+   "punkt": "Nachladedauer Raketenwerfer (Start → ruhig): Legendary 2,6–3,0 s, Exotics 2,9–4,0 s",
    "anker": "z-bb-rl-zeiten"
   },
   {
-   "punkt": "Exotische Handfeuerwaffe: eigene Animation oder größerer Hub; Zielen mit sofortigem Kick",
+   "punkt": "Exotische Handfeuerwaffe: eigene Animation (Last Word); Zielen mit sofortigem Kick",
    "anker": "z-bb-hc-exotics"
   },
   {
