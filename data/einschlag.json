@@ -1,0 +1,1409 @@
+{
+ "version": "0.36.0",
+ "name": "Impact",
+ "datum": "2026-10-31",
+ "zweck": "Vom Schuss zum Einschlag je Waffenklasse für BALLON 0.34 Payload (Beobachtungen; Entscheidungen in BALLON)",
+ "hinweise": [
+  "Jede Zeile gilt für die genannte Waffe (Beispiel, kein Klassenmittel); Entfernung und FOV unbekannt.",
+  "Bildindizes bei 60/s (t = Index/60), Marker ±1 Bild, Dauern ±2 Bilder; Größen in % Bildbreite/Bildhöhe ±3 pp.",
+  "Meterfelder bleiben null: aus Bildern ohne Entfernung nicht ableitbar.",
+  "belegstaerke M = am Einzelbild gemessen, O = Sichtung; null = nicht messbar, nie 0."
+ ],
+ "videos": {
+  "fkF9GjCDG0E": {
+   "spiel": "Destiny 2",
+   "kanal": "Ultraclocked",
+   "datum": "2021-04-07",
+   "titel": "Destiny 2 - Ikelos_SMG (Legendary SMG) - Animations & Sounds",
+   "dauer_s": 52,
+   "format": "1920x1080 60/s"
+  },
+  "d4kzfq_ZRPg": {
+   "spiel": "Destiny 2",
+   "kanal": "Ultraclocked",
+   "datum": "2021-05-30",
+   "titel": "Destiny 2 - Outbreak Perfected (Exotic Pulse Rifle) - Audiovisual Showcase",
+   "dauer_s": 88,
+   "format": "1920x1080 60/s"
+  },
+  "IG-GZ72Vbi0": {
+   "spiel": "Destiny 2",
+   "kanal": "Ultraclocked",
+   "datum": "2020-02-14",
+   "titel": "Destiny 2 - All Titan Legendary Weapons - Animations & Sounds w/ Slow-Motion | SUROS Weapons",
+   "dauer_s": 425,
+   "format": "1920x1080 60/s"
+  },
+  "afs_dhFDhQU": {
+   "spiel": "Destiny 2",
+   "kanal": "Ultraclocked",
+   "datum": "2020-02-09",
+   "titel": "Destiny 2 - All Io Legendary Weapons - Animations & Sounds w/ Slow-Motion | VEIST Weapons",
+   "dauer_s": 429,
+   "format": "1920x1080 60/s"
+  },
+  "42zdQOVBAD0": {
+   "spiel": "Destiny 2",
+   "kanal": "Ultraclocked",
+   "datum": "2020-01-30",
+   "titel": "Destiny 2 - All Nessus Legendary Weapons - Animations & Sounds w/ Slow-Motion | Omolon Weapons",
+   "dauer_s": 499,
+   "format": "1920x1080 60/s"
+  },
+  "RXgRxHESqHQ": {
+   "spiel": "Destiny 2",
+   "kanal": "Ultraclocked",
+   "datum": "2021-02-18",
+   "titel": "Destiny 2 - Far Future (Legendary Sniper Rifle) - Animations & Sounds",
+   "dauer_s": 63,
+   "format": "1920x1080 60/s"
+  },
+  "uoTaCBMXcFk": {
+   "spiel": "Destiny 2",
+   "kanal": "Ultraclocked",
+   "datum": "2021-02-20",
+   "titel": "Destiny 2 - Threaded Needle (Legendary Linear Fusion Rifle) - Weapon Animations & Sounds",
+   "dauer_s": 73,
+   "format": "1920x1080 60/s"
+  },
+  "WtnYTQO2eJs": {
+   "spiel": "Destiny 2",
+   "kanal": "Ultraclocked",
+   "datum": "2021-09-26",
+   "titel": "Destiny 2 - Ager's Scepter - Audiovisual Showcase (Exotic Trace Rifle)",
+   "dauer_s": 105,
+   "format": "1920x1080 60/s"
+  },
+  "ignEBRBZ0cU": {
+   "spiel": "Destiny 2",
+   "kanal": "Ultraclocked",
+   "datum": "2021-04-10",
+   "titel": "Destiny 2 - The Fourth Horseman - Animations & Sounds (Exotic Shotgun)",
+   "dauer_s": 111,
+   "format": "1920x1080 60/s"
+  },
+  "2PtNLNYrp88": {
+   "spiel": "Destiny 2",
+   "kanal": "Ultraclocked",
+   "datum": "2021-06-10",
+   "titel": "Destiny 2 - Jötunn - Animations, Sounds & Effects (Exotic Fusion Rifle)",
+   "dauer_s": 87,
+   "format": "1920x1080 60/s"
+  },
+  "75tJThF8RhQ": {
+   "spiel": "Destiny 2",
+   "kanal": "Ultraclocked",
+   "datum": "2021-02-21",
+   "titel": "Destiny 2 - Ticuu's Divination (Exotic Bow) - Audiovisual Showcase",
+   "dauer_s": 130,
+   "format": "1920x1080 60/s"
+  },
+  "VAqIWLGMeGg": {
+   "spiel": "Destiny 2",
+   "kanal": "Ultraclocked",
+   "datum": "2024-10-20",
+   "titel": "Destiny 2 - All 'Vesper's Host' Dungeon Weapons - Audiovisual Showcase",
+   "dauer_s": 75,
+   "format": "1920x1080 60/s"
+  },
+  "nLnn5jLA0tw": {
+   "spiel": "Destiny 2",
+   "kanal": "Ultraclocked",
+   "datum": "2022-08-19",
+   "titel": "Destiny 2 - All 'Vow of the Disciple' Raid Weapons - Audiovisual Showcase",
+   "dauer_s": 95,
+   "format": "1920x1080 60/s"
+  },
+  "yRTm3U5NhVc": {
+   "spiel": "Destiny 2",
+   "kanal": "Ultraclocked",
+   "datum": "2021-06-28",
+   "titel": "Destiny 2 - Witherhoard - Audiovisual Showcase (Exotic Grenade Launcher)",
+   "dauer_s": 89,
+   "format": "1920x1080 60/s"
+  },
+  "yH6HtfktpC8": {
+   "spiel": "Destiny 2",
+   "kanal": "Nexxoss Gaming",
+   "datum": "2019-12-12",
+   "titel": "Destiny 2: Python Review / Waffentest (Deutsch/German)",
+   "dauer_s": 429,
+   "format": "1920x1080 60-Container, 30 echte/s"
+  },
+  "c5EHzSOGy4w": {
+   "spiel": "Destiny 2",
+   "kanal": "Nexxoss Gaming",
+   "datum": "2019-03-07",
+   "titel": "Destiny 2 Forsaken: Sauerstoff SG3 Review / Waffentest (Deutsch/German)",
+   "dauer_s": 305,
+   "format": "1920x1080 60-Container, 30 echte/s"
+  },
+  "7aJg4idcsI4": {
+   "spiel": "Destiny 2",
+   "kanal": "Nexxoss Gaming",
+   "datum": "2017-10-16",
+   "titel": "Destiny 2: Eisenbanner Fusionsgewehr Review \"Der Kluge Tadel\" (Deutsch/German)",
+   "dauer_s": 330,
+   "format": "1920x1080 29,97/s"
+  },
+  "lR6e42dNZxw": {
+   "spiel": "Destiny 2",
+   "kanal": "Nexxoss Gaming",
+   "datum": "2019-06-16",
+   "titel": "Destiny 2: Schweigen Review / Waffentest (Deutsch/German)",
+   "dauer_s": 322,
+   "format": "1920x1080 60-Container, 30 echte/s"
+  },
+  "wRFN8iiRvqs": {
+   "spiel": "Halo Infinite",
+   "kanal": "GamesTunnel",
+   "datum": "2021-12-01",
+   "titel": "Halo Infinite Academy Weapon Drills — Cindershot | All Drills",
+   "dauer_s": 189,
+   "format": "2560x1072 60/s"
+  },
+  "f7c6sbLyepA": {
+   "spiel": "Halo Infinite",
+   "kanal": "GamesTunnel",
+   "datum": "2021-12-01",
+   "titel": "Halo Infinite: Academy Weapon Drills — Sentinel Beam | All 3",
+   "dauer_s": 201,
+   "format": "2560x1072 60/s"
+  },
+  "zbkW5WpXAlU": {
+   "spiel": "Halo Infinite",
+   "kanal": "symphony",
+   "datum": "2021-11-18",
+   "titel": "Halo Infinite | Weapon Drills - CQS48 Bulldog 3 (3 Stars, 26k Points)",
+   "dauer_s": 57,
+   "format": "1920x1080 60/s"
+  },
+  "4WZ7kOJ9XjI": {
+   "spiel": "Titanfall 2",
+   "kanal": "Hectorlo",
+   "datum": "2016-12-08",
+   "titel": "Titanfall 2 - All Weapons, Equipment, Reload Animations and Sounds",
+   "dauer_s": 1352,
+   "format": "1920x1080 59,94-Container, 30 echte/s"
+  },
+  "4sDwTD9U8bw": {
+   "spiel": "Titanfall 2",
+   "kanal": "Weapons From Games",
+   "datum": "2019-03-14",
+   "titel": "Titanfall 2 [2019] - All Weapons Showcase After All Patches, Updates, DLC's, Fixes - PC ULTRA 1440P",
+   "dauer_s": 839,
+   "format": "60/s"
+  },
+  "R-BGChzYGpo": {
+   "spiel": "Apex Legends",
+   "kanal": "Cacek47",
+   "datum": "2019-02-06",
+   "titel": "Apex Legends @ ALL Weapons Look and Sound Showcase @ FHD 60fps",
+   "dauer_s": 356,
+   "format": "1920x1080 60-Container, 50-55 echte/s"
+  }
+ },
+ "rows": [
+  {
+   "id": "z-im-ikelos",
+   "spiel": "Destiny 2",
+   "waffe": "IKELOS_SMG (legendär)",
+   "klasse": "submachine_gun",
+   "art": "einschlag",
+   "video": "fkF9GjCDG0E",
+   "zeit_s": 5.95,
+   "bilder": {
+    "erster_schuss": 357,
+    "salvenende": 392,
+    "saeule_weg": 409
+   },
+   "wert": {
+    "treffer": "sofort",
+    "spur": null,
+    "untergrund": "Erde/Sand",
+    "saeule_pct_b_h": [
+     4.5,
+     19
+    ],
+    "saeule_farbe": [
+     "#150F0D",
+     "#2A1D1A"
+    ],
+    "ring_pct_b_h": [
+     3,
+     5
+    ],
+    "ring_farbe": "#9FC4FF",
+    "saeule_nach_letztem_schuss_bilder": [
+     15,
+     18
+    ],
+    "decal": false
+   },
+   "belegstaerke": "M",
+   "notiz": "Säulenende am Einzelbild (f402-f410); Elementfarbe Arc nur vermutet"
+  },
+  {
+   "id": "z-im-outbreak",
+   "spiel": "Destiny 2",
+   "waffe": "Outbreak Perfected (exotisch)",
+   "klasse": "pulse_rifle",
+   "art": "einschlag",
+   "video": "d4kzfq_ZRPg",
+   "zeit_s": 21.8,
+   "bilder": {
+    "blitz": [
+     1308,
+     1317,
+     1326
+    ]
+   },
+   "wert": {
+    "treffer": "sofort",
+    "spur": null,
+    "untergrund": "Erde",
+    "saeule_pct_b_h": [
+     4,
+     14
+    ],
+    "funken_pct_b_h": [
+     2,
+     8
+    ],
+    "funken_farbe": [
+     "#FF5A28",
+     "#FF9A50"
+    ],
+    "decal": false
+   },
+   "belegstaerke": "M",
+   "notiz": "Fenster liegt im Zeitlupenkapitel 21-29 s: nur Form, Größe, Farbe; keine Dauer"
+  },
+  {
+   "id": "z-im-solemn-hymn",
+   "spiel": "Destiny 2",
+   "waffe": "Solemn Hymn (legendär)",
+   "klasse": "auto_rifle",
+   "art": "loch",
+   "video": "IG-GZ72Vbi0",
+   "zeit_s": 342.9,
+   "bilder": {
+    "dauerfeuer": [
+     20514,
+     20746
+    ],
+    "wand_sauber": [
+     20787,
+     20877
+    ],
+    "schussabstand": 6
+   },
+   "wert": {
+    "untergrund": "Beton",
+    "decal": false,
+    "spur": null,
+    "zielpunkt": "violettes Leuchten 1-2 Bilder, orange Funken 8-12 Bilder [O]"
+   },
+   "belegstaerke": "M",
+   "notiz": "keine Einschusslöcher nach etwa 3 s Dauerfeuer; Zielpunkt im Visierrahmen"
+  },
+  {
+   "id": "z-im-hc-sidearm",
+   "spiel": "Destiny 2",
+   "waffe": "Annual Skate (Handfeuerwaffe), Minimum Distance (Seitenwaffe)",
+   "klasse": "hand_cannon",
+   "art": "spur",
+   "video": "IG-GZ72Vbi0",
+   "zeit_s": 82.2,
+   "bilder": {
+    "annual_skate_blitz": [
+     4933,
+     4936
+    ],
+    "minimum_distance_blitz": [
+     26435,
+     26438
+    ]
+   },
+   "wert": {
+    "spur": null,
+    "einschlag": null,
+    "decal": false
+   },
+   "belegstaerke": "O",
+   "notiz": "Minimum Distance in 73lGCT7yOtk 440,58 s; nichts sichtbar ist kein Nullwert"
+  },
+  {
+   "id": "z-im-far-future",
+   "spiel": "Destiny 2",
+   "waffe": "Far Future (legendär)",
+   "klasse": "sniper_rifle",
+   "art": "einschlag",
+   "video": "RXgRxHESqHQ",
+   "zeit_s": 3.883,
+   "bilder": {
+    "blitz": [
+     233,
+     234
+    ],
+    "einschlag_erstes": 235,
+    "saeule_ende": 258
+   },
+   "wert": {
+    "treffer": "sofort",
+    "spur": null,
+    "untergrund": "Sand",
+    "funken_pct_b_h": [
+     4,
+     4
+    ],
+    "splitter_pct_b_h": [
+     7,
+     8
+    ],
+    "funken_bilder": 6,
+    "saeule_pct_b_h": [
+     6,
+     6.5
+    ],
+    "saeule_bilder": 23,
+    "decal": false
+   },
+   "belegstaerke": "M",
+   "notiz": "Einschlag im ersten freien Bild nach 2 Blitzbildern"
+  },
+  {
+   "id": "z-im-threaded-needle",
+   "spiel": "Destiny 2",
+   "waffe": "Threaded Needle (legendär)",
+   "klasse": "linear_fusion_rifle",
+   "art": "strahl",
+   "video": "uoTaCBMXcFk",
+   "zeit_s": 8.033,
+   "bilder": {
+    "aufladung": [
+     471,
+     481
+    ],
+    "ausloesung": 482,
+    "einschlag": [
+     483,
+     507
+    ]
+   },
+   "wert": {
+    "treffer": "sofort",
+    "fester_strahl": false,
+    "schleier_bilder": 4,
+    "krone_pct_b_h": [
+     8,
+     5.5
+    ],
+    "krone_bilder": 15,
+    "saeule_pct_b_h": [
+     3,
+     11
+    ],
+    "saeule_bilder": [
+     21,
+     24
+    ],
+    "farbe": "violett-weiß"
+   },
+   "belegstaerke": "M",
+   "notiz": ""
+  },
+  {
+   "id": "z-im-agers",
+   "spiel": "Destiny 2",
+   "waffe": "Ager's Scepter (exotisch)",
+   "klasse": "trace_rifle",
+   "art": "strahl",
+   "video": "WtnYTQO2eJs",
+   "zeit_s": 4.65,
+   "bilder": {
+    "beginn": 279,
+    "gemessen": [
+     276,
+     365
+    ],
+    "puls_spitzen": [
+     279,
+     284,
+     289,
+     294,
+     299,
+     309,
+     314
+    ]
+   },
+   "wert": {
+    "durchgehend_bilder_min": 90,
+    "breite_lauf_pct_b": 5,
+    "breite_ziel_pct_h": 2,
+    "kern": "#D0D8FF",
+    "rand": "#5060E0",
+    "einschlag_pct_b_h": [
+     4,
+     7
+    ],
+    "puls_bilder": 5
+   },
+   "belegstaerke": "M",
+   "notiz": "Boden etwa 3 m"
+  },
+  {
+   "id": "z-im-horseman",
+   "spiel": "Destiny 2",
+   "waffe": "The Fourth Horseman (exotisch)",
+   "klasse": "shotgun",
+   "art": "schrot",
+   "video": "ignEBRBZ0cU",
+   "zeit_s": 9.717,
+   "bilder": {
+    "blitz": [
+     583,
+     589
+    ],
+    "einschlag": [
+     588,
+     618
+    ]
+   },
+   "wert": {
+    "rauchball_pct_b_h": [
+     10,
+     22
+    ],
+    "rauchball_bilder": 30,
+    "farbe": "#101828",
+    "splitter": 14,
+    "kugelzahl": null,
+    "laufrauch": null
+   },
+   "belegstaerke": "M",
+   "notiz": "Kugelzahl am Boden nicht auszählbar"
+  },
+  {
+   "id": "z-im-jotunn",
+   "spiel": "Destiny 2",
+   "waffe": "Jötunn (exotisch)",
+   "klasse": "fusion_rifle",
+   "art": "flug",
+   "video": "2PtNLNYrp88",
+   "zeit_s": 4.617,
+   "bilder": {
+    "blitz": [
+     277,
+     282
+    ],
+    "einschlag": 286
+   },
+   "wert": {
+    "flug_bilder": 9,
+    "ball_pct_b": [
+     2,
+     3
+    ],
+    "feuerball_pct_b_h": [
+     36,
+     39
+    ],
+    "ring_pct_b": 40,
+    "flammen_bilder_min": 47,
+    "farbe": "#FFB070"
+   },
+   "belegstaerke": "M",
+   "notiz": "Explosivschuss, kein Fusion-Standardverhalten"
+  },
+  {
+   "id": "z-im-ticuu",
+   "spiel": "Destiny 2",
+   "waffe": "Ticuu's Divination (exotisch, ungespannt)",
+   "klasse": "combat_bow",
+   "art": "flug",
+   "video": "75tJThF8RhQ",
+   "zeit_s": 4.383,
+   "bilder": {
+    "loesen": 263,
+    "einschlag": 267
+   },
+   "wert": {
+    "flug_bilder": 4,
+    "pfeil_sichtbar": false,
+    "einschlag_pct_b_h": [
+     7.5,
+     15.5
+    ],
+    "rauch_bilder": 27,
+    "funken_bilder": 39,
+    "pfeil_steckt": false
+   },
+   "belegstaerke": "M",
+   "notiz": "Exotic-Explosion, kein Maßstab für Standardbögen"
+  },
+  {
+   "id": "z-im-velocity-baton",
+   "spiel": "Destiny 2",
+   "waffe": "Velocity Baton (Area Denial, Void)",
+   "klasse": "grenade_launcher",
+   "art": "explosion",
+   "video": "VAqIWLGMeGg",
+   "zeit_s": 63.117,
+   "bilder": {
+    "schuesse": [
+     3787,
+     3795,
+     3804,
+     3811,
+     3820
+    ],
+    "einschlaege": [
+     3797,
+     3807,
+     3816,
+     3824,
+     3833
+    ],
+    "lache_weg": 4167
+   },
+   "wert": {
+    "flug_bilder": [
+     10,
+     13
+    ],
+    "granate_pct_b": [
+     0.4,
+     0.6
+    ],
+    "granate_farbe": "#CDB9FF",
+    "kern_pct_b_h": [
+     9,
+     11
+    ],
+    "kern_bilder": 7,
+    "lache_pct_b_h": [
+     19,
+     31
+    ],
+    "lache_farbe": "#5743BE",
+    "lache_s_nach_letztem": 5.6,
+    "laufwolke_bilder": 7
+   },
+   "belegstaerke": "M",
+   "notiz": "Spezial oder schwer offen (Menübild ohne Munitionsart)"
+  },
+  {
+   "id": "z-im-chill-inhibitor",
+   "spiel": "Destiny 2",
+   "waffe": "Chill Inhibitor (Area Denial, Stasis)",
+   "klasse": "grenade_launcher",
+   "art": "explosion",
+   "video": "VAqIWLGMeGg",
+   "zeit_s": 16.267,
+   "bilder": {
+    "schuss": 976,
+    "einschlag": 987,
+    "kern_weg": 995
+   },
+   "wert": {
+    "flug_bilder": 11,
+    "granate_pct_b": 1,
+    "granate_farbe": "#F198A9",
+    "kern_pct_b_h": [
+     9,
+     11
+    ],
+    "gluehen_pct_b_h": [
+     30,
+     33
+    ],
+    "gluehen_farbe": "#5151BA",
+    "kern_bilder": 8,
+    "belichtung": -0.6,
+    "erholung_bilder_min": 22,
+    "staubfleck_bilder": [
+     50,
+     75
+    ],
+    "laufeffekt_bilder": 9
+   },
+   "belegstaerke": "M",
+   "notiz": "schwerer Granatwerfer laut REF 0.34"
+  },
+  {
+   "id": "z-im-forbearance",
+   "spiel": "Destiny 2",
+   "waffe": "Forbearance (Arc)",
+   "klasse": "grenade_launcher",
+   "art": "laufrauch",
+   "video": "nLnn5jLA0tw",
+   "zeit_s": 39.233,
+   "bilder": {
+    "schuss": 2354,
+    "granate": [
+     2358,
+     2379
+    ]
+   },
+   "wert": {
+    "arc_boegen_bilder": 5,
+    "wolke_bilder": [
+     8,
+     12
+    ],
+    "wolke_farbe": [
+     "#9EABBE",
+     "#4A536E"
+    ],
+    "halo_pct_b": [
+     9.7,
+     1.7
+    ],
+    "bahn_pp_je_bild": [
+     0.5,
+     0.2
+    ]
+   },
+   "belegstaerke": "M",
+   "notiz": "Schuss in die Leere, kein Einschlag"
+  },
+  {
+   "id": "z-im-witherhoard",
+   "spiel": "Destiny 2",
+   "waffe": "Witherhoard (exotisch, Blight)",
+   "klasse": "grenade_launcher",
+   "art": "explosion",
+   "video": "yRTm3U5NhVc",
+   "zeit_s": 4.083,
+   "bilder": {
+    "schuss": 245,
+    "einschlag": 257,
+    "stern": 287
+   },
+   "wert": {
+    "flug_bilder": 12,
+    "bahn_pp_je_bild": [
+     0.7,
+     1.5
+    ],
+    "blitz_bilder": 2,
+    "blitz_strauss_bilder": 23,
+    "blitz_pct_b_h": [
+     34,
+     46
+    ],
+    "stern_pct_b_h_min": [
+     31,
+     18
+    ],
+    "laufwolke_bilder": 3
+   },
+   "belegstaerke": "M",
+   "notiz": "Stern-Ende überlagert (≥ 6 s, [O])"
+  },
+  {
+   "id": "z-im-blue-shift",
+   "spiel": "Destiny 2",
+   "waffe": "Blue Shift (legendär)",
+   "klasse": "rocket_launcher",
+   "art": "explosion",
+   "video": "afs_dhFDhQU",
+   "zeit_s": 94.033,
+   "bilder": {
+    "blitz": [
+     5642,
+     5645
+    ],
+    "explosion": 5681,
+    "kern": [
+     5681,
+     5693
+    ],
+    "kuppel": [
+     5688,
+     5692
+    ],
+    "feuer_peak": 5708
+   },
+   "wert": {
+    "flug_bilder": 39,
+    "kopf_pct_b": [
+     12,
+     3
+    ],
+    "kopf_farbe": "#DCC8A0",
+    "kern_farbe": "#FCECDE",
+    "kuppel_pct_b": [
+     22,
+     24
+    ],
+    "feuerball_pct_b_h": [
+     [
+      19,
+      31
+     ],
+     [
+      23,
+      35
+     ]
+    ],
+    "feuer_bilder": 52,
+    "feuer_farben": [
+     "#E9B268",
+     "#CA774A"
+    ],
+    "rauch_bilder": 70,
+    "rauch_farbe": "#020C08",
+    "laufrauch": null
+   },
+   "belegstaerke": "M",
+   "notiz": "zweiter Blue-Shift-Schuss; Ballista maß den Schuss bei 88,85 s"
+  },
+  {
+   "id": "z-im-hoosegow",
+   "spiel": "Destiny 2",
+   "waffe": "Hoosegow (legendär)",
+   "klasse": "rocket_launcher",
+   "art": "explosion",
+   "video": "IG-GZ72Vbi0",
+   "zeit_s": 226.65,
+   "bilder": {
+    "blitz": [
+     13599,
+     13602
+    ],
+    "explosion": 13627,
+    "schuss2_blitz": 15065,
+    "schuss2_explosion": 15084
+   },
+   "wert": {
+    "flug_bilder": [
+     28,
+     19
+    ],
+    "kopf_farbe": "#E8FCFD",
+    "kopf_pct_b": [
+     8,
+     4
+    ],
+    "licht_bilder": [
+     9,
+     10
+    ],
+    "unterbelichtung_bilder_min": 18,
+    "ring_pct_b": [
+     20,
+     36
+    ],
+    "ring_bilder": [
+     4,
+     8
+    ],
+    "feuerball_pct_b_h": [
+     [
+      17,
+      45
+     ],
+     [
+      21,
+      55
+     ]
+    ],
+    "feuer_bilder": 60,
+    "feuer_farben": [
+     "#F3AF62",
+     "#D53823"
+    ]
+   },
+   "belegstaerke": "M",
+   "notiz": "Nacht; Rauch nicht sichtbar"
+  },
+  {
+   "id": "z-im-mos-epoch",
+   "spiel": "Destiny 2",
+   "waffe": "Mos Epoch III (legendär)",
+   "klasse": "rocket_launcher",
+   "art": "explosion",
+   "video": "42zdQOVBAD0",
+   "zeit_s": 98.2,
+   "bilder": {
+    "schuss": 5892,
+    "explosion": 5927
+   },
+   "wert": {
+    "flug_bilder": 35,
+    "flug_toleranz": 3,
+    "blitz_bilder": 7,
+    "ring_pct_b": 17,
+    "ring_bilder": 6,
+    "feuerball_pct_b_h": [
+     11,
+     24
+    ],
+    "feuer_bilder": 30,
+    "brandfleck_bilder_min": 45
+   },
+   "belegstaerke": "M",
+   "notiz": "Schussbeginn ±3 Bilder; Ring als Sichtwert"
+  },
+  {
+   "id": "z-im-python",
+   "spiel": "Destiny 2",
+   "waffe": "Python (legendär, Void)",
+   "klasse": "shotgun",
+   "art": "schrot",
+   "video": "yH6HtfktpC8",
+   "zeit_s": 132.133,
+   "bilder": {
+    "schuss_wand": 7928,
+    "peak_wand": 7930,
+    "ball_ende": 7937,
+    "funken_ende": 7958,
+    "schuss_boden": 6423
+   },
+   "wert": {
+    "treffer": "sofort",
+    "einschlaege_je_schuss": 1,
+    "kugelzahl": null,
+    "wand_pct_b_h": [
+     7.5,
+     14.5
+    ],
+    "kern": "#F1EBFA",
+    "hof": "#B9B2E1",
+    "ball_bilder_60": 10,
+    "funken_bilder_60": 30,
+    "boden_pct_b_h": [
+     9,
+     28
+    ],
+    "boden_bilder_60": 16,
+    "laufschwaden_bilder_60": 8,
+    "decal": false,
+    "muster_stand": "vor 6.3.0"
+   },
+   "belegstaerke": "M",
+   "notiz": "30 echte Bilder/s; Dauern umgerechnet ±2"
+  },
+  {
+   "id": "z-im-sauerstoff",
+   "spiel": "Destiny 2",
+   "waffe": "Sauerstoff SG3 (legendär)",
+   "klasse": "scout_rifle",
+   "art": "treffer",
+   "video": "c5EHzSOGy4w",
+   "zeit_s": 53.0,
+   "bilder": {
+    "schuss": 3180,
+    "leuchten": [
+     3182,
+     3186
+    ],
+    "zahl": 3186,
+    "praezision": 3234
+   },
+   "wert": {
+    "treffer": "sofort",
+    "spur": null,
+    "leuchten_pct_b_h": [
+     3,
+     3
+    ],
+    "leuchten_farbe": "violett-rosa",
+    "leuchten_bilder_60": 6,
+    "zahl_nach_bilder_60": 6
+   },
+   "belegstaerke": "M",
+   "notiz": "Gegner Hive Thrall; 30 echte Bilder/s"
+  },
+  {
+   "id": "z-im-tadel",
+   "spiel": "Destiny 2",
+   "waffe": "Der Kluge Tadel (legendär, Eisenbanner)",
+   "klasse": "fusion_rifle",
+   "art": "strahl",
+   "video": "7aJg4idcsI4",
+   "zeit_s": 116.78,
+   "bilder": {
+    "ring": [
+     3500,
+     3505
+    ],
+    "ausloesen": [
+     3506,
+     3507
+    ],
+    "wand_bis": 3524
+   },
+   "wert": {
+    "ladering_echte_bilder": 6,
+    "ball_pct_b_h": [
+     20,
+     24
+    ],
+    "ball_bilder_60": 4,
+    "linsenstreifen": true,
+    "bolzen_sichtbar": false,
+    "wandeinschlag": null,
+    "flammen_echte_bilder": 9
+   },
+   "belegstaerke": "M",
+   "notiz": "29,97/s; zwei gleiche Schüsse"
+  },
+  {
+   "id": "z-im-schweigen",
+   "spiel": "Destiny 2",
+   "waffe": "Schweigen (legendär)",
+   "klasse": "combat_bow",
+   "art": "flug",
+   "video": "lR6e42dNZxw",
+   "zeit_s": 64.43,
+   "bilder": {
+    "spannen": [
+     3866,
+     3872
+    ],
+    "treffer": 3876
+   },
+   "wert": {
+    "pfeil_sichtbar": false
+   },
+   "belegstaerke": "O",
+   "notiz": "Schnittblende überlagert"
+  },
+  {
+   "id": "i-halo-cindershot",
+   "spiel": "Halo Infinite",
+   "waffe": "Cindershot",
+   "klasse": "grenade_launcher",
+   "art": "flug",
+   "video": "wRFN8iiRvqs",
+   "zeit_s": 164.483,
+   "bilder": {
+    "schuss": 9869,
+    "explosion": 9889
+   },
+   "wert": {
+    "flug_bilder": 20,
+    "flug_bilder_nah": 8,
+    "spur_pct_b": [
+     0.55,
+     0.95
+    ],
+    "spur_farbe": [
+     "#E9A6C0",
+     "#FDC4E2"
+    ],
+    "kern_pct_b": [
+     10,
+     21
+    ],
+    "explosion_bilder": 31,
+    "funken_farbe": "#B49DEA",
+    "rauch": null
+   },
+   "belegstaerke": "M",
+   "notiz": "Prozente auf 2560x1072"
+  },
+  {
+   "id": "i-halo-sentinel",
+   "spiel": "Halo Infinite",
+   "waffe": "Sentinel Beam",
+   "klasse": "trace_rifle",
+   "art": "strahl",
+   "video": "f7c6sbLyepA",
+   "zeit_s": 32.667,
+   "bilder": {
+    "bild": 1960
+   },
+   "wert": {
+    "kern_ziel_pct_b": 0.7,
+    "kern_muendung_pct_b": [
+     1.3,
+     1.6
+    ],
+    "kern_farbe": "#FFFAF6",
+    "saum": [
+     "#FDE2BC",
+     "#C6BEFD"
+    ],
+    "ausklingen_bilder": 0,
+    "trefferglut_bilder": 8
+   },
+   "belegstaerke": "M",
+   "notiz": "Prozente auf 2560x1072"
+  },
+  {
+   "id": "i-halo-bulldog",
+   "spiel": "Halo Infinite",
+   "waffe": "CQS48 Bulldog",
+   "klasse": "shotgun",
+   "art": "schrot",
+   "video": "zbkW5WpXAlU",
+   "zeit_s": 34.95,
+   "bilder": {
+    "blitz": 2097,
+    "rauchfaden": [
+     2104,
+     2108
+    ]
+   },
+   "wert": {
+    "treffer": "sofort",
+    "spur_je_kugel": true,
+    "spur_pct_b": [
+     0.2,
+     0.35
+    ],
+    "spur_farbe": "#FEEEB6",
+    "hell_bilder": 7,
+    "rauchfaden_bilder_min": 5,
+    "streuung_pct_b_h_min": [
+     3.5,
+     8
+    ],
+    "kugelzahl_min": 6
+   },
+   "belegstaerke": "M",
+   "notiz": "Kugelzahl nur Untergrenze [O]"
+  },
+  {
+   "id": "i-tf2-softball",
+   "spiel": "Titanfall 2",
+   "waffe": "Softball",
+   "klasse": "grenade_launcher",
+   "art": "explosion",
+   "video": "4WZ7kOJ9XjI",
+   "zeit_s": 558.27,
+   "bilder": {
+    "bild": 33463
+   },
+   "wert": {
+    "feuer_bilder_60": 16,
+    "feuerball_pct_b_h": [
+     55,
+     60
+    ],
+    "kern_farbe": "#FBE9DE",
+    "rauch_farbe": "#5F5C5C"
+   },
+   "belegstaerke": "M",
+   "notiz": "30 echte Bilder/s"
+  },
+  {
+   "id": "i-tf2-mgl",
+   "spiel": "Titanfall 2",
+   "waffe": "MGL",
+   "klasse": "grenade_launcher",
+   "art": "explosion",
+   "video": "4WZ7kOJ9XjI",
+   "zeit_s": 607.39,
+   "bilder": {
+    "bild": 36407
+   },
+   "wert": {
+    "granate_pct_b": 1,
+    "erstbild_pct_b_h": [
+     8,
+     11
+    ],
+    "blitzhof_pct_b": [
+     32,
+     53
+    ],
+    "feuer_farbe": "#BC512B"
+   },
+   "belegstaerke": "M",
+   "notiz": "30 echte Bilder/s"
+  },
+  {
+   "id": "i-tf2-charge",
+   "spiel": "Titanfall 2",
+   "waffe": "Charge Rifle",
+   "klasse": null,
+   "art": "strahl",
+   "video": "4WZ7kOJ9XjI",
+   "zeit_s": 623.92,
+   "bilder": {
+    "beginn": 37396,
+    "noch_sichtbar": 37452
+   },
+   "wert": {
+    "treffer": "sofort",
+    "breite_pct_h": [
+     1,
+     1.5
+    ],
+    "farbe": "#F9DFD5",
+    "nachspur_echte_bilder_min": 24
+   },
+   "belegstaerke": "M",
+   "notiz": "30 echte Bilder/s"
+  },
+  {
+   "id": "i-tf2-epg",
+   "spiel": "Titanfall 2",
+   "waffe": "EPG-1",
+   "klasse": null,
+   "art": "flug",
+   "video": "4sDwTD9U8bw",
+   "zeit_s": 339.0,
+   "bilder": {},
+   "wert": {
+    "hof_pct_b": [
+     2.5,
+     4
+    ],
+    "kern_pct_b_max": 2,
+    "sichtbar_bilder_min": 72
+   },
+   "belegstaerke": "M",
+   "notiz": "Einschlag im Dunst nicht sichtbar"
+  },
+  {
+   "id": "i-apex-thermit",
+   "spiel": "Apex Legends",
+   "waffe": "Thermitgranate",
+   "klasse": null,
+   "art": "explosion",
+   "video": "R-BGChzYGpo",
+   "zeit_s": 345.73,
+   "bilder": {
+    "bild": 20744
+   },
+   "wert": {
+    "wurf_bis_zuendung_bilder": 45,
+    "glimmen_bilder": 19,
+    "feuerwand_pct_b": 45,
+    "hoehe_pct_h": 13,
+    "farben": [
+     "#F0C38B",
+     "#FEE2A7"
+    ],
+    "dauer_s_min": 5.5
+   },
+   "belegstaerke": "M",
+   "notiz": "Wurfgranate, Nebenbefund"
+  }
+ ],
+ "ballon_uebernahme": {
+  "auto_rifle": {
+   "kind": "hitscan",
+   "spur": null,
+   "decal": false,
+   "impact": "Funken in Elementfarbe + dunkle Säule",
+   "belege": [
+    "z-im-solemn-hymn"
+   ],
+   "speed_mps": null,
+   "radius_m": null,
+   "width_m": null,
+   "length_m": null
+  },
+  "submachine_gun": {
+   "kind": "hitscan",
+   "spur": null,
+   "decal": false,
+   "spark_s": [
+    0.02,
+    0.1
+   ],
+   "dust_s_nach_letztem_schuss": [
+    0.25,
+    0.3
+   ],
+   "dust_color": "#150F0D",
+   "glow_color": "#9FC4FF",
+   "belege": [
+    "z-im-ikelos"
+   ],
+   "speed_mps": null,
+   "radius_m": null,
+   "width_m": null,
+   "length_m": null
+  },
+  "pulse_rifle": {
+   "kind": "hitscan",
+   "spur": null,
+   "decal": false,
+   "glow_color": "#FF5A28",
+   "belege": [
+    "z-im-outbreak"
+   ],
+   "speed_mps": null,
+   "radius_m": null,
+   "width_m": null,
+   "length_m": null
+  },
+  "scout_rifle": {
+   "kind": "hitscan",
+   "spur": null,
+   "decal": null,
+   "gegner_leuchten_s": 0.1,
+   "belege": [
+    "z-im-sauerstoff"
+   ],
+   "speed_mps": null,
+   "radius_m": null,
+   "width_m": null,
+   "length_m": null
+  },
+  "sniper_rifle": {
+   "kind": "hitscan",
+   "spur": null,
+   "decal": false,
+   "spark_s": 0.1,
+   "dust_s": 0.38,
+   "belege": [
+    "z-im-far-future"
+   ],
+   "speed_mps": null,
+   "radius_m": null,
+   "width_m": null,
+   "length_m": null
+  },
+  "linear_fusion_rifle": {
+   "kind": "rail",
+   "fester_strahl": false,
+   "beam_s": 0.07,
+   "spark_s": 0.25,
+   "dust_s": [
+    0.35,
+    0.4
+   ],
+   "belege": [
+    "z-im-threaded-needle"
+   ],
+   "speed_mps": null,
+   "radius_m": null,
+   "width_m": null,
+   "length_m": null
+  },
+  "trace_rifle": {
+   "kind": "beam",
+   "puls_s": 0.083,
+   "core_color": "#D0D8FF",
+   "rim_color": "#5060E0",
+   "belege": [
+    "z-im-agers",
+    "i-halo-sentinel"
+   ],
+   "speed_mps": null,
+   "radius_m": null,
+   "width_m": null,
+   "length_m": null
+  },
+  "shotgun": {
+   "kind": "pellets",
+   "pellets_quelle": "[S] 12, feste Muster seit 6.3.0",
+   "pellets_bild": null,
+   "einschlaege_je_schuss_bild": 1,
+   "belege": [
+    "z-im-python",
+    "z-im-horseman",
+    "i-halo-bulldog"
+   ],
+   "speed_mps": null,
+   "radius_m": null,
+   "width_m": null,
+   "length_m": null
+  },
+  "fusion_rifle": {
+   "kind": null,
+   "bolzen_quelle": "[S] 5-9 je Salve (Stand 08/2021)",
+   "bolzen_im_bild": false,
+   "belege": [
+    "z-im-tadel"
+   ],
+   "speed_mps": null,
+   "radius_m": null,
+   "width_m": null,
+   "length_m": null
+  },
+  "combat_bow": {
+   "kind": "arrow",
+   "pfeil_im_flug_sichtbar": false,
+   "belege": [
+    "z-im-ticuu",
+    "z-im-schweigen"
+   ],
+   "speed_mps": null,
+   "radius_m": null,
+   "width_m": null,
+   "length_m": null
+  },
+  "grenade_launcher": {
+   "kind": "projectile",
+   "trail": null,
+   "flight_s_nah": [
+    0.17,
+    0.22
+   ],
+   "flash_s": [
+    0.12,
+    0.13
+   ],
+   "muzzle_smoke_s": [
+    0.05,
+    0.2
+   ],
+   "feuerball": false,
+   "belege": [
+    "z-im-velocity-baton",
+    "z-im-chill-inhibitor",
+    "z-im-witherhoard",
+    "z-im-forbearance"
+   ],
+   "speed_mps": null,
+   "radius_m": null,
+   "width_m": null,
+   "length_m": null
+  },
+  "rocket_launcher": {
+   "kind": "projectile",
+   "trail": null,
+   "flight_s": [
+    0.32,
+    0.65
+   ],
+   "flash_s": [
+    0.02,
+    0.03
+   ],
+   "kern_s": [
+    0.12,
+    0.22
+   ],
+   "ring_s": [
+    0.07,
+    0.13
+   ],
+   "fire_s": [
+    0.5,
+    1.0
+   ],
+   "smoke_s": [
+    0.75,
+    1.2
+   ],
+   "light_s": 0.15,
+   "core_color": "#FCECDE",
+   "fire_color": [
+    "#E9B268",
+    "#CA774A"
+   ],
+   "smoke_color": "#020C08",
+   "muzzle_smoke_s": null,
+   "belege": [
+    "z-im-blue-shift",
+    "z-im-hoosegow",
+    "z-im-mos-epoch"
+   ],
+   "speed_mps": null,
+   "radius_m": null,
+   "width_m": null,
+   "length_m": null
+  }
+ }
+}

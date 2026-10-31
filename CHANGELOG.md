@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.36.0 „Impact“ – 2026-10-31
+
+- Neue Referenzanalyse [Vom Schuss zum Einschlag](docs/einschlag.md) mit `data/einschlag.json` (29 Zeilen, Übernahmetabelle in den BALLON-Feldnamen, Datentest) für BALLON 0.34 „Payload“: Destiny 2 je Klasse (20 Messzeilen `z-im-…` und Methode „Impact“ in destiny2.md › 2), Vergleich Halo Infinite, Titanfall 2, Apex; 31 Text- und Datenquellen, 13 Spielerstimmen. Nachtrag aus Nexxoss-Gaming-Reviews auf Hinweis des Nutzers.
+- Befund (Beobachtung, Schlüsse in BALLON): Destiny-Kugelwaffen ohne Leuchtspur und ohne Einschusslöcher (8 Beispiele), Treffer = Elementfunken + schmale dunkle Säule 15–25 Bilder; Schrot ein Einschlag je Schuss; Projektile ohne Rauchschweif; Flugzeiten nah Granaten 10–13, Raketen 19–39 Bilder; Raketenexplosion in Stufen (Blitz 1–2, Kern 7–13, Ring 4–8, Feuerball 30–60, Rauch 45–70 Bilder); Elementgranaten ohne Feuerball. **Keine m/s** (Entfernung nirgends belegt).
+- [Versionsbericht](docs/versions/0.md#0360-impact--2026-10-31).
+
 ## 0.34.0 „Gapfill“ – 2026-10-31
 
 - Neue Destiny-2-Messungen für die Lücken von BALLON 0.33 „Armory“ ([destiny2.md](docs/destiny2.md#s-gapfill), Methode 29, 14 Messzeilen `z-g34-…`, `data/gapfill.json`): Weltzoom lineare Fusion 3,0 / 2,65–2,69, kurze Fusion 1,43, Spurgewehr 1,84, Schrotflinte 1,29, Impuls 1,975, Granatwerfer 1,35, MG nur 1,5–1,6 [O]; Zielen aus Granatwerfer 25 Bilder; Ziehen Scharfschütze, kurze Fusion, Spurgewehr, Granatwerfer u. a.
