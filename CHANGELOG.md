@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.36.0 „Impact“ – 2026-10-31
+
+- Neue Referenzanalyse [Vom Schuss zum Einschlag](docs/einschlag.md) mit `data/einschlag.json` (29 Zeilen, Übernahmetabelle in den BALLON-Feldnamen, Datentest) für BALLON 0.34 „Payload“: Destiny 2 je Klasse (21 Messzeilen `z-im-…`, davon 2 [O], und Methode „Impact“ in destiny2.md › 2), Vergleich Halo Infinite, Titanfall 2, Apex; 31 Text- und Datenquellen, 13 Spielerstimmen. Nachtrag aus Nexxoss-Gaming-Reviews auf Hinweis des Nutzers.
+- Befund (Beobachtung, Schlüsse in BALLON): Destiny-Kugelwaffen ohne Leuchtspur und ohne Einschusslöcher (7 Beispiele, davon 2 [O]), Treffer = Funken in der Leuchtfarbe der Waffe + schmale dunkle Säule 15–25 Bilder; Schrot ein Einschlag je Schuss; Projektile ohne Rauchschweif; Flugzeiten nah Granaten 10–13, Raketen 19–39 Bilder; Raketenexplosion in Stufen (Blitz 1–2, Kern 7–13, Ring 4–8, Feuerball 30–60, Rauch 45–70 Bilder); Elementgranaten ohne Feuerball. **Keine m/s** (Entfernung nirgends belegt).
+- [Versionsbericht](docs/versions/0.md#0360-impact--2026-10-31).
+
 ## 0.35.0 „Backblast“ – 2026-10-31
 
 - Neue Destiny-2-Messungen für BALLON 0.35 „Stance“ ([destiny2.md](docs/destiny2.md#s-backblast), Methode 30, neun Messzeilen `z-bb-…`, `data/backblast.json` mit Schema-Test, 49 Einträge in `data/clips.json`; 27 Videos): **Raketenwerfer** in der Hüfte als Keil rechts mit der Optik zur Mitte (x 63–68 / y 48–68), Mündung und Griffhand nicht im Bild, „nach unten geneigt“ nicht belegbar; **Nachladen** bei 4 Legendary gleich – Werfer quer, linke Hand senkt die Rakete von oben in einen Schacht auf der Oberseite (Hoosegow 3,00 s, Normaltempo belegt), 8 von 11 Werfern so, Deathbringer senkrecht in die Mündung. **Laufneigung** als Fluchtpunkt der Waffenachse: Automatik ≈ 9 pp unter der Mitte, MG zeigt seine Seite (Achse quer nach links), LFR lange Diagonale, Spurgewehr ohne Klassenmuster.
