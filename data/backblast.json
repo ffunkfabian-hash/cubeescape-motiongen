@@ -1,0 +1,1421 @@
+{
+ "version": "0.35.0",
+ "name": "Backblast",
+ "datum": "2026-10-31",
+ "zweck": "Haltungen und Abläufe in Destiny 2 für BALLON 0.35 Stance (Beobachtungen; Entscheidungen in BALLON)",
+ "hinweise": [
+  "Jede Zeile gilt für die genannte Waffe (Beispiel, kein Klassenmittel).",
+  "Lage in % B/H, Ursprung oben links, Mitte 50/50, ± 3 pp; Welt-FOV aller Quellen unbekannt.",
+  "Unbekannt = null, nie 0."
+ ],
+ "videos": {
+  "IG-GZ72Vbi0": {
+   "kanal": "Ultraclocked",
+   "datum": "2020-02-14",
+   "dauer_s": 425,
+   "titel": "Destiny 2 - All Titan Legendary Weapons - Animations & Sounds w/ Slow-Motion | SUROS Weapons",
+   "format": "1920x1080 60/s"
+  },
+  "afs_dhFDhQU": {
+   "kanal": "Ultraclocked",
+   "datum": "2020-02-09",
+   "dauer_s": 429,
+   "titel": "Destiny 2 - All Io Legendary Weapons - Animations & Sounds w/ Slow-Motion | VEIST Weapons",
+   "format": "1920x1080 60/s"
+  },
+  "42zdQOVBAD0": {
+   "kanal": "Ultraclocked",
+   "datum": "2020-01-30",
+   "dauer_s": 499,
+   "titel": "Destiny 2 - All Nessus Legendary Weapons - Animations & Sounds w/ Slow-Motion | Omolon Weapons",
+   "format": "1920x1080 60/s"
+  },
+  "73lGCT7yOtk": {
+   "kanal": "Ultraclocked",
+   "datum": "2020-01-25",
+   "dauer_s": 605,
+   "titel": "Destiny 2 - All EDZ Legendary Weapons - Animations & Sounds w/ Slow-Motion | Häkke Weapons",
+   "format": "1920x1080 60/s"
+  },
+  "oauUQuhlwGs": {
+   "kanal": "Ultraclocked",
+   "datum": "2020-04-09",
+   "dauer_s": 351,
+   "titel": "Destiny 2 - All Black Armory Weapon Frames - Animations & Sounds w/ Slow-Motion",
+   "format": "1920x1080 60/s"
+  },
+  "tLsUP0dmi7M": {
+   "kanal": "Ultraclocked",
+   "datum": "2026-06-16",
+   "dauer_s": 105,
+   "titel": "Destiny 2 - All 'SRL' Weapons - Visuals & Sounds",
+   "format": "1920x1080 60/s"
+  },
+  "rBtg_sbRM7s": {
+   "kanal": "Ultraclocked",
+   "datum": "2025-12-27",
+   "dauer_s": 136,
+   "titel": "Destiny 2 - All 'Equilibrium' Dungeon Weapons - Visuals & Sounds",
+   "format": "1920x1080 60/s"
+  },
+  "Ec0ONOSToOw": {
+   "kanal": "Ultraclocked",
+   "datum": "2026-06-12",
+   "dauer_s": 107,
+   "titel": "Destiny 2 - All 'Distortions' Weapons - Visuals & Sounds",
+   "format": "1920x1080 60/s"
+  },
+  "XnWXuoZxnVA": {
+   "kanal": "Ultraclocked",
+   "datum": "2021-01-30",
+   "dauer_s": 114,
+   "titel": "Destiny 2 - Prometheus Lens (Exotic Trace Rifle) - Animations, Sounds & Effects w/ Slow-Motion",
+   "format": "1920x1080 60/s"
+  },
+  "WgBf7P6wzCE": {
+   "kanal": "Boosh Ninja",
+   "datum": "2022-10-06",
+   "dauer_s": 295,
+   "titel": "Coldheart | Exotic Weapon Sound and Visual Showcase (Destiny 2)",
+   "format": "1920x1080 59.94/s"
+  },
+  "dKNTDzi__Qo": {
+   "kanal": "Ultraclocked",
+   "datum": "2021-02-19",
+   "dauer_s": 101,
+   "titel": "Destiny 2 - Imperial Needle (Legendary Bow) - Animations & Sounds",
+   "format": "1920x1080 60/s"
+  },
+  "75tJThF8RhQ": {
+   "kanal": "Ultraclocked",
+   "datum": "2021-02-21",
+   "dauer_s": 130,
+   "titel": "Destiny 2 - Ticuu's Divination (Exotic Bow) - Audiovisual Showcase",
+   "format": "1920x1080 60/s"
+  },
+  "Brdt297Sanw": {
+   "kanal": "Cerridius",
+   "datum": "2021-08-31",
+   "dauer_s": 264,
+   "titel": "New Wolftone Draw Bow 1 Tappin' in the Crucible Pt1.",
+   "format": "1920x1080 60/s"
+  },
+  "unYtX6oI6CU": {
+   "kanal": "Steezle",
+   "datum": "2023-07-07",
+   "dauer_s": 399,
+   "titel": "The Bowslinger Perfected (Tyranny of Heaven Lightweight Bow - PvP Build Showcase)",
+   "format": "1280x720 60/s"
+  },
+  "SbCiqJ7yXxo": {
+   "kanal": "Ultraclocked",
+   "datum": "2023-04-18",
+   "dauer_s": 53,
+   "titel": "Destiny 2 - Whaler's Whim - Weapon Ornament for Wish-Ender (Exotic Bow)",
+   "format": "1920x1080 60/s"
+  },
+  "Pzk-hGjwnuY": {
+   "kanal": "Ultraclocked",
+   "datum": "2023-11-15",
+   "dauer_s": 60,
+   "titel": "Destiny 2 - Infinite Quiver - Weapon Ornament for Le Monarque (Exotic Bow)",
+   "format": "1920x1080 60/s"
+  },
+  "vYQtS7OqxbA": {
+   "kanal": "Ultraclocked",
+   "datum": "2023-11-22",
+   "dauer_s": 73,
+   "titel": "Destiny 2 - Future Past - Weapon Ornament for Hierarchy of Needs (Exotic Bow)",
+   "format": "1920x1080 60/s"
+  },
+  "nr69dmj6_pA": {
+   "kanal": "Ultraclocked",
+   "datum": "2023-01-24",
+   "dauer_s": 46,
+   "titel": "Destiny 2 - Three Glowing Dawns - Weapon Ornament for Trinity Ghoul (Exotic Bow)",
+   "format": "1920x1080 60/s"
+  },
+  "DM9rCbCv1UA": {
+   "kanal": "Ultraclocked",
+   "datum": "2024-03-26",
+   "dauer_s": 71,
+   "titel": "Destiny 2 - Spacetime Weft - Weapon Ornament for Leviathan's Breath (Exotic Bow)",
+   "format": "1920x1080 60/s"
+  },
+  "XoznPcToX1k": {
+   "kanal": "Yeehaw Jake",
+   "datum": "2026-04-24",
+   "dauer_s": 525,
+   "titel": "IS THE WISH-ENDER GOOD IN 2026!? REUNITING WITH MY OG DESTINY SQUAD! (MnK GAMEPLAY)",
+   "format": "1280x720 60/s"
+  },
+  "JiRG3qP-YbQ": {
+   "kanal": "Famous Fantom",
+   "datum": "2019-07-11",
+   "dauer_s": 376,
+   "titel": "Pinnacle Season of Opulence Gambit Legendary Bow Hush | Destiny 2",
+   "format": "1280x720 59.94/s"
+  },
+  "lR6e42dNZxw": {
+   "kanal": "Nexxoss Gaming",
+   "datum": "2019-06-16",
+   "dauer_s": 322,
+   "titel": "Destiny 2: Schweigen Review / Waffentest (Deutsch/German)",
+   "format": "1280x720 60/s"
+  },
+  "c0s1OG1AZys": {
+   "kanal": "Ultraclocked",
+   "datum": "2023-07-05",
+   "dauer_s": 79,
+   "titel": "Destiny 2 - All Exotic Weapon Reloads in Slo-Mo | Year 4",
+   "format": "1920x1080 60/s slow motion"
+  },
+  "l2wtJ8u2s8M": {
+   "kanal": "Ultraclocked",
+   "datum": "2022-02-08",
+   "dauer_s": 155,
+   "titel": "Destiny 2 - All Exotic Weapon Reloads in Slo-Mo | Year 2",
+   "format": "1920x1080 60/s slow motion"
+  },
+  "7L14HzHePoM": {
+   "kanal": "Ultraclocked",
+   "datum": "2022-07-22",
+   "dauer_s": 107,
+   "titel": "Destiny 2 - All Exotic Weapon Reloads in Slo-Mo | Year 3",
+   "format": "1920x1080 60/s slow motion"
+  },
+  "UW8D0NPRQrQ": {
+   "kanal": "Ultraclocked",
+   "datum": "2021-10-08",
+   "dauer_s": 193,
+   "titel": "Destiny 2 - All Exotic Weapon Reloads in Slo-Mo | Year 1",
+   "format": "1920x1080 60/s slow motion"
+  },
+  "rLdDtDoETj8": {
+   "kanal": "Ultraclocked",
+   "datum": "2026-07-23",
+   "dauer_s": 68,
+   "titel": "Destiny 2 - All Exotic Weapon Reloads in Slo-Mo | Year 8/9",
+   "format": "1920x1080 60/s slow motion"
+  }
+ },
+ "rows": [
+  {
+   "id": "z-bb-rl-huefte",
+   "thema": "raketenwerfer",
+   "art": "huefte",
+   "typ": "Raketenwerfer",
+   "belegstaerke": "M",
+   "waffe": [
+    "Hoosegow",
+    "Blue Shift",
+    "Mos Epoch III",
+    "Crux Celeritas IV"
+   ],
+   "videos": [
+    "IG-GZ72Vbi0",
+    "afs_dhFDhQU",
+    "42zdQOVBAD0",
+    "tLsUP0dmi7M"
+   ],
+   "werte": {
+    "optik_xy": {
+     "Hoosegow": [
+      64.7,
+      68
+     ],
+     "Blue Shift": [
+      68,
+      59
+     ],
+     "Mos Epoch III": [
+      66,
+      48
+     ],
+     "Crux Celeritas IV": [
+      63,
+      52
+     ]
+    },
+    "koerper": {
+     "Hoosegow": [
+      60,
+      0,
+      100,
+      100
+     ],
+     "Blue Shift": [
+      58,
+      17,
+      100,
+      100
+     ],
+     "Mos Epoch III": [
+      57,
+      8,
+      100,
+      100
+     ],
+     "Crux Celeritas IV": [
+      59,
+      6,
+      100,
+      100
+     ]
+    },
+    "oberkante_grad": {
+     "Hoosegow": -40,
+     "Blue Shift": -42,
+     "Mos Epoch III": -27,
+     "Crux Celeritas IV": -30
+    },
+    "toleranz_grad": 12,
+    "muendung": null,
+    "rohrende": null,
+    "griffhand": null,
+    "nach_unten_geneigt": null
+   },
+   "notiz": "Keil rechts, Optik zur Mitte; Mündung, Rohrende, Griffhand nicht im Bild; Neigung nach unten nicht entscheidbar"
+  },
+  {
+   "id": "z-bb-rl-nachladen",
+   "thema": "raketenwerfer",
+   "art": "nachladen",
+   "typ": "Raketenwerfer",
+   "belegstaerke": "M",
+   "waffe": [
+    "Hoosegow",
+    "Blue Shift",
+    "Mos Epoch III",
+    "Crux Celeritas IV"
+   ],
+   "videos": [
+    "IG-GZ72Vbi0",
+    "afs_dhFDhQU",
+    "42zdQOVBAD0",
+    "tLsUP0dmi7M"
+   ],
+   "werte": {
+    "dauer_s": {
+     "Hoosegow": 3.03,
+     "Blue Shift": 3.05,
+     "Mos Epoch III": 2.7,
+     "Crux Celeritas IV": 2.6
+    },
+    "normaltempo_belegt": {
+     "Hoosegow": true,
+     "Blue Shift": false,
+     "Mos Epoch III": false,
+     "Crux Celeritas IV": false
+    },
+    "einsetzen": "von oben in einen Schacht auf der Oberseite, Werfer quer",
+    "schacht_xy": [
+     44,
+     47,
+     53,
+     75
+    ],
+    "hand": "links",
+    "rohr_quer_grad": {
+     "Hoosegow": -14,
+     "Blue Shift": -28,
+     "Mos Epoch III": -22,
+     "Crux Celeritas IV": -17
+    }
+   },
+   "notiz": "Start → ruhig; Crux direkt aus dem ADS"
+  },
+  {
+   "id": "z-bb-rl-exotics",
+   "thema": "raketenwerfer",
+   "art": "nachladenForm",
+   "typ": "Raketenwerfer (exotisch)",
+   "belegstaerke": "O",
+   "waffe": [
+    "Eyes of Tomorrow",
+    "Gjallarhorn",
+    "Truth",
+    "Two-Tailed Fox",
+    "Deathbringer",
+    "Wardcliff Coil",
+    "Whirling Ovation"
+   ],
+   "videos": [
+    "c0s1OG1AZys",
+    "l2wtJ8u2s8M",
+    "7L14HzHePoM",
+    "UW8D0NPRQrQ",
+    "rLdDtDoETj8"
+   ],
+   "werte": {
+    "oben_in_schacht_quer": 8,
+    "senkrecht_in_muendung": 1,
+    "nicht_erkennbar": 2,
+    "gesamt": 11
+   },
+   "notiz": "Zeitlupen-Schnitte, nur Form; Zählung mit den vier Legendary"
+  },
+  {
+   "id": "z-bb-neigung",
+   "thema": "neigung",
+   "art": "huefte",
+   "typ": "Automatik, MG, lineare Fusion, Spurgewehr",
+   "belegstaerke": "M",
+   "waffe": [
+    "Solemn Hymn",
+    "Valakadyn",
+    "Hammerhead",
+    "Bitter End",
+    "Man O' War",
+    "Coldheart",
+    "Prometheus Lens"
+   ],
+   "videos": [
+    "IG-GZ72Vbi0",
+    "afs_dhFDhQU",
+    "oauUQuhlwGs",
+    "rBtg_sbRM7s",
+    "WgBf7P6wzCE",
+    "XnWXuoZxnVA"
+   ],
+   "werte": {
+    "fluchtpunkt_xy": {
+     "Solemn Hymn": [
+      44,
+      59
+     ],
+     "Valakadyn": [
+      47,
+      59
+     ],
+     "Hammerhead": [
+      -22,
+      51
+     ],
+     "Bitter End": [
+      31,
+      46
+     ],
+     "Man O' War": [
+      46,
+      56
+     ],
+     "Coldheart": [
+      48,
+      51
+     ],
+     "Prometheus Lens": [
+      51.5,
+      59
+     ]
+    },
+    "spanne": {
+     "Solemn Hymn": [
+      41,
+      58,
+      47,
+      60
+     ],
+     "Valakadyn": [
+      45,
+      58,
+      48,
+      60
+     ],
+     "Hammerhead": [
+      -56,
+      44,
+      -2,
+      55
+     ],
+     "Bitter End": [
+      18,
+      40,
+      38,
+      49
+     ],
+     "Man O' War": [
+      31,
+      47,
+      54,
+      61
+     ],
+     "Coldheart": [
+      46,
+      51,
+      50,
+      52
+     ],
+     "Prometheus Lens": [
+      48,
+      56,
+      54,
+      61
+     ]
+    }
+   },
+   "notiz": "Fluchtpunkt = Schnitt zweier Längskanten, wohin die Achse im Bild zeigt; Spanne [xmin, ymin, xmax, ymax]"
+  },
+  {
+   "id": "z-bb-bogen-huefte",
+   "thema": "bogen",
+   "art": "huefte",
+   "typ": "Bogen",
+   "belegstaerke": "M",
+   "waffe": [
+    "Imperial Needle",
+    "The Spiteful Fang",
+    "Ticuu's Divination",
+    "Wish-Ender",
+    "Le Monarque",
+    "Hierarchy of Needs",
+    "Trinity Ghoul",
+    "Leviathan's Breath",
+    "Hush"
+   ],
+   "videos": [
+    "dKNTDzi__Qo",
+    "oauUQuhlwGs",
+    "75tJThF8RhQ",
+    "SbCiqJ7yXxo",
+    "Pzk-hGjwnuY",
+    "vYQtS7OqxbA",
+    "nr69dmj6_pA",
+    "DM9rCbCv1UA",
+    "lR6e42dNZxw"
+   ],
+   "werte": {
+    "achse_x_bei_y50": {
+     "Imperial Needle": [
+      49.4,
+      48.7,
+      47.8
+     ],
+     "The Spiteful Fang": [
+      49.9,
+      48.2,
+      47.7
+     ],
+     "Ticuu's Divination": [
+      51.0,
+      49.0,
+      49.0
+     ],
+     "Wish-Ender": [
+      50.4,
+      50.2,
+      49.6
+     ],
+     "Le Monarque": [
+      50.2,
+      50.4,
+      49.4
+     ],
+     "Hierarchy of Needs": [
+      50.1,
+      49.1,
+      49.8
+     ],
+     "Trinity Ghoul": [
+      50.0,
+      50.6,
+      51.4
+     ],
+     "Leviathan's Breath": [
+      null,
+      null,
+      49.7
+     ],
+     "Hush": null
+    },
+    "achse_y_bei_x50": {
+     "Wish-Ender": [
+      45,
+      47,
+      52
+     ],
+     "Le Monarque": [
+      47,
+      48,
+      54
+     ],
+     "Hierarchy of Needs": [
+      48,
+      53,
+      51
+     ],
+     "Trinity Ghoul": [
+      50,
+      47,
+      43
+     ],
+     "Leviathan's Breath": [
+      null,
+      null,
+      51
+     ],
+     "Imperial Needle": [
+      null,
+      null,
+      58
+     ],
+     "The Spiteful Fang": [
+      null,
+      null,
+      58
+     ],
+     "Ticuu's Divination": [
+      null,
+      null,
+      53
+     ]
+    },
+    "achse_grad": {
+     "Imperial Needle": [
+      82,
+      71,
+      63
+     ],
+     "The Spiteful Fang": [
+      83,
+      71,
+      63
+     ],
+     "Ticuu's Divination": [
+      84,
+      75,
+      61
+     ],
+     "Wish-Ender": [
+      82,
+      82,
+      65
+     ],
+     "Le Monarque": [
+      81,
+      73,
+      75
+     ],
+     "Hierarchy of Needs": [
+      83,
+      63,
+      65
+     ],
+     "Trinity Ghoul": [
+      81,
+      72,
+      71
+     ],
+     "Leviathan's Breath": [
+      null,
+      null,
+      58
+     ]
+    },
+    "posen": [
+     "Ruhe",
+     "Spannen",
+     "voll"
+    ],
+    "zeigt_zur_mitte": true
+   },
+   "notiz": "Abstand Mitte–Achse 0,1–2,1 pp; Nocke und Zughand unter dem Bildrand"
+  },
+  {
+   "id": "z-bb-bogen-sprint",
+   "thema": "bogen",
+   "art": "sprint",
+   "typ": "Bogen",
+   "belegstaerke": "M",
+   "waffe": [
+    "Cerridius-Bogen (Wolftone Draw)",
+    "Tyranny of Heaven",
+    "Wish-Ender",
+    "Hush"
+   ],
+   "videos": [
+    "Brdt297Sanw",
+    "unYtX6oI6CU",
+    "XoznPcToX1k",
+    "JiRG3qP-YbQ"
+   ],
+   "werte": {
+    "huelle_prozent": {
+     "Cerridius-Bogen (Wolftone Draw)": [
+      17,
+      16,
+      13,
+      14
+     ],
+     "Tyranny of Heaven": [
+      27,
+      26
+     ],
+     "Wish-Ender": [
+      19,
+      24,
+      27
+     ],
+     "Hush": [
+      18,
+      27
+     ]
+    },
+    "achse_grad": {
+     "Cerridius-Bogen (Wolftone Draw)": [
+      -9,
+      -28,
+      -15,
+      -9
+     ],
+     "Tyranny of Heaven": [
+      -20,
+      -18
+     ],
+     "Wish-Ender": [
+      -22,
+      -24
+     ],
+     "Hush": [
+      -15,
+      -17
+     ]
+    },
+    "ganz_im_bild": false,
+    "wippfrequenz_hz": null,
+    "fov": null
+   },
+   "notiz": "Sprint nur mit Sprint-Fadenkreuz an der Mitte; Hülle ist Untergrenze, wo abgeschnitten"
+  },
+  {
+   "id": "z-bb-bogen-ads",
+   "thema": "bogen",
+   "art": "adsEin",
+   "typ": "Bogen",
+   "belegstaerke": "M",
+   "waffe": [
+    "Imperial Needle",
+    "Ticuu's Divination",
+    "Leviathan's Breath",
+    "Wish-Ender",
+    "Le Monarque",
+    "Hierarchy of Needs",
+    "Trinity Ghoul",
+    "Cerridius-Bogen (Wolftone Draw)"
+   ],
+   "videos": [
+    "dKNTDzi__Qo",
+    "75tJThF8RhQ",
+    "DM9rCbCv1UA",
+    "SbCiqJ7yXxo",
+    "Pzk-hGjwnuY",
+    "vYQtS7OqxbA",
+    "nr69dmj6_pA",
+    "Brdt297Sanw"
+   ],
+   "werte": {
+    "visierpunkt_xy": {
+     "Imperial Needle": [
+      50.0,
+      57.3
+     ],
+     "Ticuu's Divination": [
+      50.0,
+      57.5
+     ],
+     "Leviathan's Breath": [
+      50,
+      50
+     ],
+     "Wish-Ender": [
+      50,
+      49
+     ],
+     "Le Monarque": [
+      50,
+      53
+     ],
+     "Hierarchy of Needs": [
+      49.5,
+      52.4
+     ],
+     "Trinity Ghoul": [
+      50,
+      50
+     ],
+     "Cerridius-Bogen (Wolftone Draw)": [
+      50.0,
+      50.1
+     ]
+    },
+    "spitze_xy": {
+     "Imperial Needle": [
+      49.2,
+      73.8
+     ],
+     "Ticuu's Divination": [
+      49.6,
+      74
+     ],
+     "Leviathan's Breath": [
+      50,
+      72
+     ],
+     "Le Monarque": [
+      50,
+      71
+     ],
+     "Hierarchy of Needs": [
+      50,
+      70
+     ],
+     "Trinity Ghoul": [
+      50,
+      70.5
+     ],
+     "Cerridius-Bogen (Wolftone Draw)": [
+      49.5,
+      72.5
+     ]
+    },
+    "auflage_sichtbar": {
+     "Le Monarque": "O",
+     "Hierarchy of Needs": "O"
+    },
+    "spitze_ruhig_pp": 2
+   },
+   "notiz": "Visierpunkt 50/57 nur in Ultraclocked 2020/21; im Spiel mit HUD 50/50; Korrektur zu 0.7.0: auf der Mitte liegt der Visierpunkt, nicht die Spitze"
+  },
+  {
+   "id": "z-bb-hc-rueckstoss",
+   "thema": "handfeuerwaffe",
+   "art": "schuss",
+   "typ": "Handfeuerwaffe",
+   "belegstaerke": "M",
+   "waffe": [
+    "Annual Skate",
+    "Bad News",
+    "Kindled Orchid",
+    "Shattered Peace",
+    "IRONWOOD 03"
+   ],
+   "videos": [
+    "IG-GZ72Vbi0",
+    "73lGCT7yOtk",
+    "oauUQuhlwGs",
+    "42zdQOVBAD0",
+    "Ec0ONOSToOw"
+   ],
+   "werte": {
+    "bilder_nach_blitz": {
+     "hubspitze": [
+      5,
+      10
+     ],
+     "tiefpunkt": [
+      25,
+      32
+     ],
+     "rueckkehr_1pp": [
+      38,
+      47
+     ]
+    },
+    "hub_pp_h": {
+     "Annual Skate": 23,
+     "Kindled Orchid": 14
+    },
+    "hub_pp_b": {
+     "Annual Skate": 6,
+     "Kindled Orchid": 8
+    },
+    "unterschwingen_pp": {
+     "Annual Skate": 5.7,
+     "Kindled Orchid": 7.5
+    },
+    "kippen_grad": {
+     "Annual Skate": 55
+    },
+    "ads": null,
+    "exotics": null
+   },
+   "notiz": "Zeiten aus 11 Schüssen; Beträge Handablesung am Heckvisier (Koordinator); Hubwerte des Unteragenten verworfen"
+  },
+  {
+   "id": "z-bb-bildanteil",
+   "thema": "bildanteil",
+   "art": "bildanteil",
+   "typ": "alle 15 Klassen",
+   "belegstaerke": "M",
+   "waffe": [],
+   "videos": [
+    "IG-GZ72Vbi0",
+    "afs_dhFDhQU",
+    "oauUQuhlwGs",
+    "XnWXuoZxnVA"
+   ],
+   "werte": {
+    "siehe": "bildanteil"
+   },
+   "notiz": "Fläche Waffe + Hände in % der Bildfläche, Spanne eng–weit, ± 2 pp; FOV unbekannt"
+  }
+ ],
+ "bildanteil": [
+  {
+   "klasse": "Handfeuerwaffe",
+   "waffe": "Annual Skate",
+   "video": "IG-GZ72Vbi0",
+   "huefte": {
+    "zeit_s": 79.4,
+    "bild": 4764,
+    "box": [
+     56,
+     60,
+     78,
+     100
+    ],
+    "flaeche_prozent": [
+     5.3,
+     5.7
+    ],
+    "status": "M"
+   },
+   "zielen": {
+    "zeit_s": 83.55,
+    "bild": 5013,
+    "box": [
+     36,
+     60,
+     64,
+     100
+    ],
+    "flaeche_prozent": [
+     4.6,
+     4.6
+    ],
+    "status": "M"
+   }
+  },
+  {
+   "klasse": "Seitenwaffe",
+   "waffe": "Dead Man Walking",
+   "video": "IG-GZ72Vbi0",
+   "huefte": {
+    "zeit_s": 101.4,
+    "bild": 6084,
+    "box": [
+     54,
+     61,
+     79,
+     100
+    ],
+    "flaeche_prozent": [
+     6.4,
+     6.9
+    ],
+    "status": "M"
+   },
+   "zielen": {
+    "zeit_s": 122.8,
+    "bild": 7368,
+    "box": [
+     34,
+     60,
+     71,
+     100
+    ],
+    "flaeche_prozent": [
+     8.2,
+     9.5
+    ],
+    "status": "M"
+   }
+  },
+  {
+   "klasse": "Schrotflinte",
+   "waffe": "First In, Last Out",
+   "video": "IG-GZ72Vbi0",
+   "huefte": {
+    "zeit_s": 137.0,
+    "bild": 8220,
+    "box": [
+     47,
+     62,
+     88,
+     100
+    ],
+    "flaeche_prozent": [
+     9.8,
+     10.2
+    ],
+    "status": "M"
+   },
+   "zielen": {
+    "zeit_s": 142.4,
+    "bild": 8544,
+    "box": [
+     35,
+     67,
+     65,
+     100
+    ],
+    "flaeche_prozent": [
+     7.2,
+     7.4
+    ],
+    "status": "M"
+   }
+  },
+  {
+   "klasse": "Maschinenpistole",
+   "waffe": "Foggy Notion",
+   "video": "IG-GZ72Vbi0",
+   "huefte": {
+    "zeit_s": 185.2,
+    "bild": 11112,
+    "box": [
+     53,
+     61,
+     92,
+     100
+    ],
+    "flaeche_prozent": [
+     9.6,
+     10.4
+    ],
+    "status": "M"
+   },
+   "zielen": {
+    "zeit_s": 206.7,
+    "bild": 12402,
+    "box": [
+     39,
+     78,
+     61,
+     100
+    ],
+    "flaeche_prozent": [
+     3.4,
+     3.6
+    ],
+    "status": "M"
+   }
+  },
+  {
+   "klasse": "Automatikgewehr",
+   "waffe": "Solemn Hymn",
+   "video": "IG-GZ72Vbi0",
+   "huefte": {
+    "zeit_s": 322.6,
+    "bild": 19356,
+    "box": [
+     51,
+     57,
+     100,
+     100
+    ],
+    "flaeche_prozent": [
+     13.3,
+     13.8
+    ],
+    "status": "M"
+   },
+   "zielen": {
+    "zeit_s": 339.25,
+    "bild": 20355,
+    "box": [
+     42,
+     72,
+     61,
+     100
+    ],
+    "flaeche_prozent": [
+     2.7,
+     2.7
+    ],
+    "status": "M"
+   }
+  },
+  {
+   "klasse": "Impulsgewehr",
+   "waffe": "Swift Ride",
+   "video": "IG-GZ72Vbi0",
+   "huefte": {
+    "zeit_s": 357.2,
+    "bild": 21432,
+    "box": [
+     56,
+     62,
+     100,
+     100
+    ],
+    "flaeche_prozent": [
+     14.0,
+     14.0
+    ],
+    "status": "M"
+   },
+   "zielen": {
+    "zeit_s": 362.5,
+    "bild": 21750,
+    "box": [
+     32,
+     44,
+     69,
+     100
+    ],
+    "flaeche_prozent": [
+     7.6,
+     8.1
+    ],
+    "status": "M"
+   }
+  },
+  {
+   "klasse": "Scoutgewehr",
+   "waffe": "Tone Patrol",
+   "video": "IG-GZ72Vbi0",
+   "huefte": {
+    "zeit_s": 382.8,
+    "bild": 22968,
+    "box": [
+     56,
+     58,
+     100,
+     100
+    ],
+    "flaeche_prozent": [
+     15.1,
+     15.9
+    ],
+    "status": "M"
+   },
+   "zielen": {
+    "zeit_s": 391.2,
+    "bild": 23472,
+    "box": [
+     38,
+     72,
+     62,
+     100
+    ],
+    "flaeche_prozent": [
+     4.2,
+     4.2
+    ],
+    "status": "M"
+   }
+  },
+  {
+   "klasse": "Fusion (kurz)",
+   "waffe": "Nox Echo III",
+   "video": "IG-GZ72Vbi0",
+   "huefte": {
+    "zeit_s": 290.9,
+    "bild": 17454,
+    "box": [
+     58,
+     61,
+     96,
+     100
+    ],
+    "flaeche_prozent": [
+     8.4,
+     8.4
+    ],
+    "status": "M"
+   },
+   "zielen": {
+    "zeit_s": 294.0,
+    "bild": 17640,
+    "box": [
+     36,
+     66,
+     64,
+     100
+    ],
+    "flaeche_prozent": [
+     5.8,
+     5.9
+    ],
+    "status": "M"
+   }
+  },
+  {
+   "klasse": "Scharfschütze",
+   "waffe": "A Single Clap",
+   "video": "IG-GZ72Vbi0",
+   "huefte": {
+    "zeit_s": 11.2,
+    "bild": 672,
+    "box": [
+     47,
+     47,
+     100,
+     100
+    ],
+    "flaeche_prozent": [
+     14.2,
+     14.3
+    ],
+    "status": "M"
+   },
+   "zielen": {
+    "zeit_s": 30.6,
+    "bild": 1836,
+    "box": null,
+    "flaeche_prozent": null,
+    "status": "O"
+   }
+  },
+  {
+   "klasse": "Raketenwerfer",
+   "waffe": "Hoosegow",
+   "video": "IG-GZ72Vbi0",
+   "huefte": {
+    "zeit_s": 226.4,
+    "bild": 13584,
+    "box": [
+     60,
+     2,
+     100,
+     100
+    ],
+    "flaeche_prozent": [
+     28.9,
+     29.1
+    ],
+    "status": "M"
+   },
+   "zielen": {
+    "zeit_s": 238.8,
+    "bild": 14328,
+    "box": [
+     81,
+     0,
+     100,
+     100
+    ],
+    "flaeche_prozent": [
+     16.6,
+     16.8
+    ],
+    "status": "M"
+   }
+  },
+  {
+   "klasse": "Lineares Fusionsgewehr",
+   "waffe": "Man O' War",
+   "video": "afs_dhFDhQU",
+   "huefte": {
+    "zeit_s": 172.6,
+    "bild": 10356,
+    "box": [
+     56,
+     54,
+     100,
+     100
+    ],
+    "flaeche_prozent": [
+     12.7,
+     12.8
+    ],
+    "status": "M"
+   },
+   "zielen": {
+    "zeit_s": 178.1,
+    "bild": 10686,
+    "box": [
+     38,
+     48,
+     62,
+     100
+    ],
+    "flaeche_prozent": [
+     5.8,
+     5.8
+    ],
+    "status": "M"
+   }
+  },
+  {
+   "klasse": "Granatwerfer",
+   "waffe": "Berenger's Memory",
+   "video": "afs_dhFDhQU",
+   "huefte": {
+    "zeit_s": 49.0,
+    "bild": 2940,
+    "box": [
+     45,
+     56,
+     100,
+     100
+    ],
+    "flaeche_prozent": [
+     16.9,
+     19.9
+    ],
+    "status": "M"
+   },
+   "zielen": {
+    "zeit_s": 54.3,
+    "bild": 3258,
+    "box": [
+     36,
+     40,
+     63,
+     100
+    ],
+    "flaeche_prozent": [
+     5.5,
+     5.8
+    ],
+    "status": "M"
+   }
+  },
+  {
+   "klasse": "Maschinengewehr",
+   "waffe": "Hammerhead",
+   "video": "oauUQuhlwGs",
+   "huefte": {
+    "zeit_s": 56.0,
+    "bild": 3360,
+    "box": [
+     47,
+     57,
+     100,
+     100
+    ],
+    "flaeche_prozent": [
+     16.2,
+     17.2
+    ],
+    "status": "M"
+   },
+   "zielen": {
+    "zeit_s": 97.85,
+    "bild": 5871,
+    "box": [
+     39,
+     40,
+     62,
+     100
+    ],
+    "flaeche_prozent": [
+     8.1,
+     9.0
+    ],
+    "status": "M"
+   }
+  },
+  {
+   "klasse": "Bogen",
+   "waffe": "The Spiteful Fang",
+   "video": "oauUQuhlwGs",
+   "huefte": {
+    "zeit_s": 280.6,
+    "bild": 16836,
+    "box": [
+     16,
+     21,
+     100,
+     100
+    ],
+    "flaeche_prozent": [
+     11.3,
+     12.4
+    ],
+    "status": "M"
+   },
+   "zielen": {
+    "zeit_s": 327.25,
+    "bild": 19635,
+    "box": [
+     45,
+     0,
+     58,
+     100
+    ],
+    "flaeche_prozent": [
+     6.0,
+     6.8
+    ],
+    "status": "M"
+   }
+  },
+  {
+   "klasse": "Spurgewehr",
+   "waffe": "Prometheus Lens",
+   "video": "XnWXuoZxnVA",
+   "huefte": {
+    "zeit_s": 7.5,
+    "bild": 450,
+    "box": [
+     53,
+     58,
+     100,
+     100
+    ],
+    "flaeche_prozent": [
+     13.0,
+     13.3
+    ],
+    "status": "M"
+   },
+   "zielen": {
+    "zeit_s": 57.25,
+    "bild": 3435,
+    "box": [
+     40,
+     65,
+     60,
+     100
+    ],
+    "flaeche_prozent": [
+     5.8,
+     6.0
+    ],
+    "status": "M"
+   }
+  }
+ ],
+ "pruefung": {
+  "videos_ytdlp": "alle 27 Videozeilen vom Koordinator per yt-dlp bestätigt",
+  "nachgemessen_koordinator": 13,
+  "verworfen": "Hubbeträge Handfeuerwaffe des Unteragenten (nachgeführte Vorlage sprang)"
+ },
+ "ballon_uebernahme": [
+  {
+   "punkt": "Raketenwerfer Hüfte als Keil rechts, Optik zur Mitte; Neigung nach unten nicht belegt",
+   "anker": "z-bb-rl-huefte"
+  },
+  {
+   "punkt": "Raketenwerfer nachladen: quer kippen, Rakete von oben in den Oberseitenschacht",
+   "anker": "z-bb-rl-nachladen z-bb-rl-exotics"
+  },
+  {
+   "punkt": "Automatik zeigt ≈ 9 pp unter die Mitte, MG zeigt seine Seite, LFR Diagonale",
+   "anker": "z-bb-neigung"
+  },
+  {
+   "punkt": "Bogen-Pfeilachse in der Hüfte durch den Zielpunkt",
+   "anker": "z-bb-bogen-huefte"
+  },
+  {
+   "punkt": "Bogen im Sprint flach quer unten rechts",
+   "anker": "z-bb-bogen-sprint"
+  },
+  {
+   "punkt": "Bogen im ADS: Visierpunkt auf der Mitte (50/57 nur Ultraclocked 2020/21), Pfeil senkrecht darunter, meist keine Auflage",
+   "anker": "z-bb-bogen-ads"
+  },
+  {
+   "punkt": "Handfeuerwaffe: Hub mit Kippen, Unterschwingen, Rückkehr ≈ 40–45 Bilder",
+   "anker": "z-bb-hc-rueckstoss"
+  },
+  {
+   "punkt": "Bildanteil Waffe + Hände je Klasse",
+   "anker": "z-bb-bildanteil"
+  }
+ ]
+}

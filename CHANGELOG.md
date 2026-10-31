@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.35.0 „Backblast“ – 2026-10-31
+
+- Neue Destiny-2-Messungen für BALLON 0.35 „Stance“ ([destiny2.md](docs/destiny2.md#s-backblast), Methode 30, neun Messzeilen `z-bb-…`, `data/backblast.json` mit Schema-Test, 49 Einträge in `data/clips.json`; 27 Videos): **Raketenwerfer** in der Hüfte als Keil rechts mit der Optik zur Mitte (x 63–68 / y 48–68), Mündung und Griffhand nicht im Bild, „nach unten geneigt“ nicht belegbar; **Nachladen** bei 4 Legendary gleich – Werfer quer, linke Hand senkt die Rakete von oben in einen Schacht auf der Oberseite (Hoosegow 3,03 s, Normaltempo belegt), 8 von 11 Werfern so, Deathbringer senkrecht in die Mündung. **Laufneigung** als Fluchtpunkt der Waffenachse: Automatik ≈ 9 pp unter der Mitte, MG zeigt seine Seite (Achse quer nach links), LFR lange Diagonale, Spurgewehr ohne Klassenmuster.
+- **Bogen** (acht Bögen, zweite Runde mit Wish-Ender und Hush auf Wunsch des Nutzers): Pfeilachse in der Hüfte in allen 22 Posen durch die Mitte (x 47,7–51,4); im Zielen Visierpunkt im Spiel bei 50/50 (die 50/57 nur in Ultraclocked 2020/21), Pfeil senkrecht darunter, Spitze 16–22 pp tiefer, abgesetzte Auflage bei 6 von 8 nicht sichtbar; Sprint flach quer rechts unten, −9…−28°, Hülle 13–27 %. **Handfeuerwaffe**, Hüftschuss: Spitze +5…+10 Bilder (Annual Skate ≈ 23 pp H, ≈ +55° Kippen; Kindled Orchid ≈ 14 pp H), Unterschwingen +25…+32, Rückkehr +38…+47. **Bildanteil** Waffe + Hände für alle 15 Klassen (Zusatz des Nutzers über Sightline): Hüfte 5–29 %, Zielen 2,7–16,8 %, FOV unbekannt.
+- Korrektur: › 3 Bogen „Pfeilspitze auf 50/50“ (0.7.0) – auf der Mitte liegt der Visierpunkt. Offen: Rohrachse des Raketenwerfers, Exotic-Zeiten, Handfeuerwaffen-Exotics und ADS-Rückstoß, Bogen-Wippfrequenz. [Versionsbericht](docs/versions/0.md#0350-backblast--2026-10-31).
+
 ## 0.34.0 „Gapfill“ – 2026-10-31
 
 - Neue Destiny-2-Messungen für die Lücken von BALLON 0.33 „Armory“ ([destiny2.md](docs/destiny2.md#s-gapfill), Methode 29, 14 Messzeilen `z-g34-…`, `data/gapfill.json`): Weltzoom lineare Fusion 3,0 / 2,65–2,69, kurze Fusion 1,43, Spurgewehr 1,84, Schrotflinte 1,29, Impuls 1,975, Granatwerfer 1,35, MG nur 1,5–1,6 [O]; Zielen aus Granatwerfer 25 Bilder; Ziehen Scharfschütze, kurze Fusion, Spurgewehr, Granatwerfer u. a.
