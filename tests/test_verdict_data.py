@@ -76,10 +76,13 @@ class ShapeTests(unittest.TestCase):
         self.assertIsNone(rows["z-v37-sprint"]["frequenz_hz"])
         self.assertIsNone(rows["z-v37-rl-gjallarhorn"]["zielen_aus_bis_huefte"])
         self.assertIsNone(rows["z-v37-rl-todbringer"]["ads"])
+        self.assertIsNone(rows["z-v37-bewegung-o"]["takt_s"])
+        self.assertEqual(DATA["einheiten"]["unbekannt"], "null")
 
     def test_walking_is_slower_than_the_sprint_stock(self):
         sprint_step = 0.317  # destiny2.md z-st-automatik-lastwish
-        for weapon, (low, high) in DATA["rows"][0]["werte"]["periode_vertikal_s"].items():
+        walking = next(row for row in DATA["rows"] if row["id"] == "z-v37-laufen")["werte"]
+        for weapon, (low, high) in walking["periode_vertikal_s"].items():
             self.assertLessEqual(low, high, weapon)
             self.assertGreater(low, sprint_step, weapon)
 

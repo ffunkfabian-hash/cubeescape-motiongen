@@ -3312,6 +3312,30 @@
     "timestamps": "z-v37-sprint ab 262.0 s"
   },
   {
+    "measurement": "REF 0.37 Verdict: Bewegung ohne Messgüte (Scout, lineare Fusion, Granatwerfer, Spurgewehr) (O, z-v37-bewegung-o)",
+    "clip": "https://www.youtube.com/watch?v=XjHPq9Hb0rI",
+    "source": "Nexxoss Gaming (YouTube), 2017-10-13, „Destiny 2: Eisenbanner Scoutgewehr Review \"Das Führende Visier\" (Deutsch/German)“, 1920x1080 29,97/s",
+    "timestamps": "z-v37-bewegung-o ab 184.0 s"
+  },
+  {
+    "measurement": "REF 0.37 Verdict: Bewegung ohne Messgüte (Scout, lineare Fusion, Granatwerfer, Spurgewehr) (O, z-v37-bewegung-o)",
+    "clip": "https://www.youtube.com/watch?v=MRxDYInnk0g",
+    "source": "Nexxoss Gaming (YouTube), 2019-12-11, „Destiny 2: Komodo 4FR Review / Waffentest (Deutsch/German)“, 1920x1080 60-Container, 21,3 echte/s",
+    "timestamps": "z-v37-bewegung-o ab 321.5 s"
+  },
+  {
+    "measurement": "REF 0.37 Verdict: Bewegung ohne Messgüte (Scout, lineare Fusion, Granatwerfer, Spurgewehr) (O, z-v37-bewegung-o)",
+    "clip": "https://www.youtube.com/watch?v=2lpjbjC4878",
+    "source": "Nexxoss Gaming (YouTube), 2017-10-15, „Destiny 2: Eisenbanner Granatwerfer Review \"Die Wut des Tages\" (Deutsch/German)“, 1920x1080 29,97/s",
+    "timestamps": "z-v37-bewegung-o ab 46.0 s"
+  },
+  {
+    "measurement": "REF 0.37 Verdict: Bewegung ohne Messgüte (Scout, lineare Fusion, Granatwerfer, Spurgewehr) (O, z-v37-bewegung-o)",
+    "clip": "https://www.youtube.com/watch?v=cNNZdTgpM90",
+    "source": "Nexxoss Gaming (YouTube), 2021-09-15, „Destiny 2: Agers Zepter Guide / Auf den Spuren der Sterne Guide (Deutsch/German)“, 1920x1080 60-Container, 52,8 echte/s",
+    "timestamps": "z-v37-bewegung-o ab 110.0 s"
+  },
+  {
     "measurement": "REF 0.37 Verdict: Handfeuerwaffe ADS-Kick (M, z-v37-hc-kick)",
     "clip": "https://www.youtube.com/watch?v=GgcO_mG25i4",
     "source": "Nexxoss Gaming (YouTube), 2017-10-15, „Destiny 2: Eisenbanner Handfeuerwaffe Review \"Die Ruhige Hand\" (Deutsch/German)“, 1920x1080 29,97/s",

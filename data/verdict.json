@@ -8,6 +8,14 @@
   "Zeiten in Untertitelzeit [mm:ss]; Bildmessung in echten Bildern (2017 29,97/s, ab 2018 21-30 echte/s)",
   "Jede Zahl ist das Beispiel einer Waffe; unbekannt = null"
  ],
+ "einheiten": {
+  "bilder": "echte Bilder bei 30/s (BALLON FPS = 30)",
+  "lage": "% Bildbreite B / % Bildhöhe H, Ursprung oben links",
+  "huelle": "[x0, y0, x1, y1] in %",
+  "weltzoom": "Bildmaßstab Hüfte → ADS, kein FOV",
+  "periode": "s je Schritt (vertikal)",
+  "unbekannt": "null"
+ },
  "videos": {
   "MpYNiAGiyOI": {
    "kanal": "Nexxoss Gaming",
@@ -284,7 +292,7 @@
      "zeit": "01:35",
      "ergebnis": "neu",
      "bezug": "rueckstoss.md#r-d2-gridskipper",
-     "ursache": null,
+     "ursache": "relatives Urteil, kein Vergleichsmaß im Bestand",
      "nachmessung": null
     }
    ]
@@ -301,7 +309,7 @@
      "zeit": "03:03",
      "ergebnis": "widerspricht",
      "bezug": "destiny2.md#z-bb-hc-rueckstoss",
-     "ursache": "Messdefinition: stabil = Gleichmäßigkeit (Stat), gemessen = Größe; Netto aus Spiel und Eingabe",
+     "ursache": "ungeklärt; Lesarten (Einschätzung): relativ zu anderen Handfeuerwaffen oder Rückkehr gemeint, gemessen ist der Betrag; Netto aus Spiel und Eingabe; die Messung gilt",
      "nachmessung": "z-v37-hc-kick"
     },
     {
@@ -637,6 +645,55 @@
    }
   },
   {
+   "id": "z-v37-bewegung-o",
+   "thema": "Bewegung ohne Messgüte (Scout, lineare Fusion, Granatwerfer, Spurgewehr)",
+   "belegstaerke": "O",
+   "videos": [
+    "XjHPq9Hb0rI",
+    "MRxDYInnk0g",
+    "2lpjbjC4878",
+    "cNNZdTgpM90"
+   ],
+   "werte": {
+    "huelle": {
+     "scout_rifle": [
+      [
+       54,
+       54,
+       100,
+       100
+      ],
+      [
+       80,
+       48,
+       100,
+       100
+      ]
+     ],
+     "linear_fusion_rifle": [
+      45,
+      55,
+      100,
+      100
+     ],
+     "grenade_launcher": [
+      52,
+      58,
+      100,
+      100
+     ],
+     "trace_rifle": [
+      57,
+      50,
+      100,
+      100
+     ]
+    },
+    "takt_s": null,
+    "sprint_getrennt": false
+   }
+  },
+  {
    "id": "z-v37-hc-kick",
    "thema": "Handfeuerwaffe ADS-Kick",
    "belegstaerke": "M",
@@ -732,9 +789,10 @@
    ],
    "werte": {
     "weltzoom": [
-     2.9,
+     2.7,
      3.1
     ],
+    "weltzoom_median": 2.95,
     "laufen_O": 3.4,
     "direktpaar_koordinator": 3.12
    }
@@ -794,7 +852,7 @@
   },
   {
    "feld": "CLASSES['pulse_rifle'].poses.sprint",
-   "ballon_heute": null,
+   "ballon_heute": "– (Automatik)",
    "destiny": "Hülle 46-100 / 66-100, ^",
    "staerke": "M",
    "anker": "z-v37-sprint"
@@ -844,12 +902,18 @@
   {
    "feld": "CLASSES['rocket_launcher'].frames.draw",
    "ballon_heute": 14,
-   "destiny": {
-    "Gjallarhorn": 27,
-    "Todbringer": 9
-   },
+   "destiny": 27,
+   "beispiel": "Gjallarhorn",
    "staerke": "M",
    "anker": "z-v37-rl-gjallarhorn"
+  },
+  {
+   "feld": "CLASSES['rocket_launcher'].frames.draw",
+   "ballon_heute": 14,
+   "destiny": 9,
+   "beispiel": "Todbringer",
+   "staerke": "O",
+   "anker": "z-v37-rl-todbringer"
   },
   {
    "feld": "CLASSES['rocket_launcher'].frames.aim_in",
@@ -881,14 +945,21 @@
   },
   {
    "feld": "reticles.class_world_zoom('rocket_launcher')",
-   "ballon_heute": null,
+   "ballon_heute": "2,5 + Visierbonus (offen)",
    "destiny": 3.3,
    "staerke": "M",
    "anker": "z-v37-rl-gjallarhorn"
   }
  ],
+ "videozaehlung": {
+  "untertitel": 24,
+  "untertitel_unteragenten": 20,
+  "untertitel_koordinator": 4,
+  "am_bild": 17
+ },
  "pruefung": {
   "zitate_geprueft": 18,
+  "richter_runde_1": "Nachbessern 5a, 5b, 5c – behoben",
   "urteile": 289,
   "weltzoom_nachgemessen": 3,
   "takte_nachgemessen": 3,
