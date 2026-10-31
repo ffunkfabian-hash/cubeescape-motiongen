@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.38.0 „Aftermath“ – 2026-10-31
+
+- Nachmessung der offenen Einschlag-/Effektpunkte ([einschlag.md › 11](docs/einschlag.md#11-nachtrag-aftermath), Methode 33, sechs Messzeilen `z-am-…` in destiny2.md, `data/einschlag.json` um 6 Zeilen und die Übernahmetabelle ergänzt, 7 Einträge in `data/clips.json`): **Schrot auf Blech nach 6.3.0** – zwei Bursts je Schuss und **bleibende Lochgruppen** (Oval ≈ 9, Dreieck ≈ 12 Löcher, ≥ 40 s sichtbar; Korrektur zu „keine Einschusslöcher“ nur für Schrot auf Metall); **Metall**: Funken ≥ 12 Bilder ohne Staub und Säule; Bogenflug ≈ 4 Bilder.
+- Nicht belegt (mit Grund): Handfeuerwaffe auf Wand/Boden, Fels-/Metallunterschied, Pfeil-Steckdauer, legendäres Spurgewehr („Verlängertes Engagement“ ist eine Maschinenpistole), MG-Leuchtspur (violette Streifen nur [O]).
+- [Versionsbericht](docs/versions/0.md#0380-aftermath--2026-10-31).
+
 ## 0.37.0 „Verdict“ – 2026-10-31
 
 - Neue Quelle **Nexxoss Gaming** (deutsche Destiny-Reviews 2017–2025) in [standard.md › 3](docs/standard.md#3-quellen) und [destiny2.md › 1](docs/destiny2.md#1-quellen); je BALLON-Klasse ein Review (Eisenbanner-Reihe Okt. 2017 zuerst), Urteile aus den deutschen Auto-Untertiteln als Spielerstimme [C] in [destiny2.md › Verdict](docs/destiny2.md#s-verdict) und in den Bewertungen von wechsel, nachladen, rueckstoss, waffenwerte und einschlag. Abgleich je Klasse: **5 bestätigt, 2 widerspricht, 12 neu** (14 Klassen mit Urteil; Raketenwerfer ohne Urteil im Kanal, Portalkanone trifft nicht zu). Beide Widersprüche am Einzelbild nachgemessen: „Die Ruhige Hand“ ist „ganz stabil“, springt im Zielen aber ≈ 22 pp H in 0,17 s – Ursache offen, die Messung gilt ([z-v37-hc-kick](docs/destiny2.md#z-v37-hc-kick)); „Flugzeit“ der Fusion gegen „keine Bolzen sichtbar“ – Messdefinition, bei 30/s nicht messbar ([z-v37-tadel-flug](docs/destiny2.md#z-v37-tadel-flug)).

@@ -1,4 +1,4 @@
-"""data/einschlag.json (REF 0.36 "Impact") keeps the shape BALLON reads: unique row ids, every row names a known video, Destiny rows
+"""data/einschlag.json (REF 0.36 "Impact", extended in 0.38 "Aftermath") keeps the shape BALLON reads: unique row ids, every row names a known video, Destiny rows
 have their `z-im-` anchor in docs/destiny2.md and comparison rows theirs in docs/einschlag.md, the transfer table uses BALLON class keys
 and never invents metre values, and every video is listed in data/clips.json."""
 import json
@@ -18,7 +18,7 @@ REQUIRED = ("id", "spiel", "waffe", "klasse", "art", "video", "zeit_s", "wert", 
 
 class ShapeTests(unittest.TestCase):
     def test_header(self):
-        self.assertEqual(DATA["version"], "0.36.0")
+        self.assertEqual(DATA["version"], "0.38.0")
         self.assertTrue(DATA["rows"])
         self.assertTrue(DATA["ballon_uebernahme"])
 
@@ -40,7 +40,7 @@ class ShapeTests(unittest.TestCase):
         for row in DATA["rows"]:
             anchor = f'<a id="{row["id"]}"></a>'
             if row["spiel"] == "Destiny 2":
-                self.assertTrue(row["id"].startswith("z-im-"), row["id"])
+                self.assertTrue(row["id"].startswith(("z-im-", "z-am-")), row["id"])
                 self.assertIn(anchor, D2, row["id"])
             else:
                 self.assertTrue(row["id"].startswith("i-"), row["id"])

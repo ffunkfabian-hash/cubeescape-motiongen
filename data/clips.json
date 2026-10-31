@@ -3370,5 +3370,47 @@
     "clip": "https://www.youtube.com/watch?v=53v8UnJ9xDY",
     "source": "Nexxoss Gaming (YouTube), 2019-06-17, „Destiny 2: Widerruf Review / Waffentest (Deutsch/German)“, 1920x1080 60-Container",
     "timestamps": "z-v37-zoom-sniper ab 88.1 s"
+  },
+  {
+    "measurement": "REF 0.38 Aftermath: Schrot nach 6.3.0 – zwei Bursts auf Containerblech (M, z-am-condfin-container)",
+    "clip": "https://www.youtube.com/watch?v=3HgrGEjz4HU",
+    "source": "Nexxoss Gaming (YouTube), 2023-03-14, „Destiny 2 Lightfall: Bedingte Endgültigkeit Review“, 1920x1080 60/s nativ",
+    "timestamps": "z-am-condfin-container: Schuss 446,183 s (f26771), Peak f26772, Zerfall ≥ f26780"
+  },
+  {
+    "measurement": "REF 0.38 Aftermath: Schrot – bleibende Löcher auf Lkw-Blech (M, z-am-condfin-loecher)",
+    "clip": "https://www.youtube.com/watch?v=3HgrGEjz4HU",
+    "source": "Nexxoss Gaming (YouTube), 2023-03-14, „Destiny 2 Lightfall: Bedingte Endgültigkeit Review“, 1920x1080 60/s nativ",
+    "timestamps": "z-am-condfin-loecher: vorher f27906, nachher f27960, später f28500 (475,0 s); Szene ≈ 440–480 s"
+  },
+  {
+    "measurement": "REF 0.38 Aftermath: Schrot – Funkenbündel auf Lkw-Tür (M, z-am-condfin-funken-blech)",
+    "clip": "https://www.youtube.com/watch?v=3HgrGEjz4HU",
+    "source": "Nexxoss Gaming (YouTube), 2023-03-14, „Destiny 2 Lightfall: Bedingte Endgültigkeit Review“, 1920x1080 60/s nativ",
+    "timestamps": "z-am-condfin-funken-blech: 465,167 s (f27910) → f27919, Peak f27913"
+  },
+  {
+    "measurement": "REF 0.38 Aftermath: Funken auf Metallboden und violette Streifen im Schießstand (M/O, z-am-range-metall, z-am-range-streifen)",
+    "clip": "https://www.youtube.com/watch?v=NBUB9qubl54",
+    "source": "Nexxoss Gaming (YouTube), 2025-06-03, „Destiny 2 The Edge of Fate: Schießstand/ Shooting Range“, 1920x1080 60/s nativ",
+    "timestamps": "z-am-range-metall: 95,600 s (f5736) → ≥ f5747; Streifen f5730–f5808"
+  },
+  {
+    "measurement": "REF 0.38 Aftermath: Bogen Flugzeit, Pfeil steckt nicht (M, z-am-hoh-pfeil)",
+    "clip": "https://www.youtube.com/watch?v=KGtGEMpka18",
+    "source": "Nexxoss Gaming (YouTube), 2022-12-12, „Destiny 2 Hierarchie der Ansprüche Review Deutsch German“, 1920x1080 60/s nativ",
+    "timestamps": "z-am-hoh-pfeil: Abgang 106,933 s (f6416), Blitz am Ziel 107,000 s (f6420)"
+  },
+  {
+    "measurement": "REF 0.38 Aftermath: Ikelos MP – keine Messung, nur Gegnerschüsse (Sichtung)",
+    "clip": "https://www.youtube.com/watch?v=dtVH4DbpqLE",
+    "source": "Nexxoss Gaming (YouTube), 2022-12-14, „Destiny 2 Ikelos MP V1.0.3 Review Deutsch German“, 1920x1080 60/s nativ",
+    "timestamps": "keine Zeile; Sichtung der Fenster 0–12, 22,8–25,8, 348–363 s"
+  },
+  {
+    "measurement": "REF 0.38 Aftermath: Verlängertes Engagement ist eine Maschinenpistole, kein Spurgewehr (Sichtung)",
+    "clip": "https://www.youtube.com/watch?v=HPdfLN6knaQ",
+    "source": "Nexxoss Gaming (YouTube), 2022-12-15, „Destiny 2 Verlängertes Engagement Review Deutsch German“, 1920x1080 60/s",
+    "timestamps": "Menübild bei 5,000 s (f300); keine Messzeile"
   }
 ]
