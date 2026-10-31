@@ -8,7 +8,7 @@ Toolgen und das Design-Repo lesen hier; entschieden und umgesetzt wird dort.
 
 | Pfad | Inhalt |
 |---|---|
-| `docs/destiny2.md` | Messungen (Tabelle mit Clip und Zeitstempeln) und Steckbriefe je Waffentyp |
+| `docs/destiny2.md` | Messungen (Tabelle mit Clip und Zeitstempeln) und Steckbriefe je Waffentyp; Abgleich der Nexxoss-Reviews je BALLON-Klasse, Laufen/Sprint, Weltzoom (`data/verdict.json`) |
 | `docs/apex.md`, `docs/titanfall2.md` | Bewegungs-Vorbilder: Sprint, Rutschen, Sprung/Landung, Wandlauf, tiefe Hüfte (je ein Steckbrief) |
 | [docs/standard.md](docs/standard.md) | **Analyse-Standard:** verbindliche Regeln für Analysen und Zuarbeiten (Themen getrennt, Messen, Quellen, Bewertung, Unteragenten, Ergebnisaufbau); Vorlage für Aufträge in `docs/vorlagen/` |
 | [docs/visiere.md](docs/visiere.md) | Visiere in Videospielen: Darstellungsarten, Zahlen im Zielen, Form, Sitz, Absehen, Glas, Spielerstimmen, Empfehlungen für BASIC (`data/visiere.json`) |

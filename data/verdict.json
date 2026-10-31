@@ -1,0 +1,897 @@
+{
+ "version": "0.37.0",
+ "name": "Verdict",
+ "datum": "2026-10-31",
+ "zweck": "Nexxoss-Gaming-Reviews je BALLON-Klasse (Urteile [C], Abgleich mit dem Bestand) und Lücken Laufen/Sprint, Raketenwerfer, Weltzoom für BALLON 0.35 „Stance“",
+ "hinweise": [
+  "Urteile sind eine Einzelstimme aus deutschen Auto-Untertiteln, nie gegen eine [M]-Messung",
+  "Zeiten in Untertitelzeit [mm:ss]; Bildmessung in echten Bildern (2017 29,97/s, ab 2018 21-30 echte/s)",
+  "Jede Zahl ist das Beispiel einer Waffe; unbekannt = null"
+ ],
+ "videos": {
+  "MpYNiAGiyOI": {
+   "kanal": "Nexxoss Gaming",
+   "datum": "2017-10-15",
+   "titel": "Destiny 2: Eisenbanner Automatikgewehr Review \"Der Vorwärtspfad\" (Deutsch/German)",
+   "format": "1920x1080 29,97/s",
+   "bildrate_echt": 30,
+   "spielstand": "Jahr 1"
+  },
+  "uWSAd3wZ7Cs": {
+   "kanal": "Nexxoss Gaming",
+   "datum": "2017-10-16",
+   "titel": "Destiny 2: Eisenbanner Maschinenpistole Review \"Die Last des Helden\" (Deutsch/German)",
+   "format": "1920x1080 29,97/s",
+   "bildrate_echt": 30,
+   "spielstand": "Jahr 1"
+  },
+  "XjHPq9Hb0rI": {
+   "kanal": "Nexxoss Gaming",
+   "datum": "2017-10-13",
+   "titel": "Destiny 2: Eisenbanner Scoutgewehr Review \"Das Führende Visier\" (Deutsch/German)",
+   "format": "1920x1080 29,97/s",
+   "bildrate_echt": 30,
+   "spielstand": "Jahr 1"
+  },
+  "89v3B8Vpkvk": {
+   "kanal": "Nexxoss Gaming",
+   "datum": "2017-10-13",
+   "titel": "Destiny 2: Eisenbanner Impulsgewehr Review \"Die Abgenutzte Spitze\" (Deutsch/German)",
+   "format": "1920x1080 29,97/s",
+   "bildrate_echt": 30,
+   "spielstand": "Jahr 1"
+  },
+  "GgcO_mG25i4": {
+   "kanal": "Nexxoss Gaming",
+   "datum": "2017-10-15",
+   "titel": "Destiny 2: Eisenbanner Handfeuerwaffe Review \"Die Ruhige Hand\" (Deutsch/German)",
+   "format": "1920x1080 29,97/s",
+   "bildrate_echt": 30,
+   "spielstand": "Jahr 1"
+  },
+  "Gx86mSoVO98": {
+   "kanal": "Nexxoss Gaming",
+   "datum": "2017-10-16",
+   "titel": "Destiny 2: Eisenbanner Pistole Review \"Die Rettung des Narren\" (Deutsch/German)",
+   "format": "1920x1080 29,97/s",
+   "bildrate_echt": 30,
+   "spielstand": "Jahr 1"
+  },
+  "7aJg4idcsI4": {
+   "kanal": "Nexxoss Gaming",
+   "datum": "2017-10-16",
+   "titel": "Destiny 2: Eisenbanner Fusionsgewehr Review \"Der Kluge Tadel\" (Deutsch/German)",
+   "format": "1920x1080 29,97/s",
+   "bildrate_echt": 30,
+   "spielstand": "Jahr 1"
+  },
+  "2lpjbjC4878": {
+   "kanal": "Nexxoss Gaming",
+   "datum": "2017-10-15",
+   "titel": "Destiny 2: Eisenbanner Granatwerfer Review \"Die Wut des Tages\" (Deutsch/German)",
+   "format": "1920x1080 29,97/s",
+   "bildrate_echt": 30,
+   "spielstand": "Jahr 1"
+  },
+  "53v8UnJ9xDY": {
+   "kanal": "Nexxoss Gaming",
+   "datum": "2019-06-17",
+   "titel": "Destiny 2: Widerruf Review / Waffentest (Deutsch/German)",
+   "format": "1920x1080 60-Container",
+   "bildrate_echt": null,
+   "spielstand": "Season of Opulence"
+  },
+  "gH__TK1yK8Q": {
+   "kanal": "Nexxoss Gaming",
+   "datum": "2019-03-09",
+   "titel": "Destiny 2 Forsaken: 21% Delirium Review / Waffentest (Deutsch/German)",
+   "format": "1920x1080 60-Container",
+   "bildrate_echt": 22.8,
+   "spielstand": "Season of the Drifter"
+  },
+  "yH6HtfktpC8": {
+   "kanal": "Nexxoss Gaming",
+   "datum": "2019-12-12",
+   "titel": "Destiny 2: Python Review / Waffentest (Deutsch/German)",
+   "format": "1920x1080 60-Container",
+   "bildrate_echt": 30,
+   "spielstand": "Season of Dawn"
+  },
+  "MRxDYInnk0g": {
+   "kanal": "Nexxoss Gaming",
+   "datum": "2019-12-11",
+   "titel": "Destiny 2: Komodo 4FR Review / Waffentest (Deutsch/German)",
+   "format": "1920x1080 60-Container",
+   "bildrate_echt": 21.3,
+   "spielstand": "Season of Dawn"
+  },
+  "lR6e42dNZxw": {
+   "kanal": "Nexxoss Gaming",
+   "datum": "2019-06-16",
+   "titel": "Destiny 2: Schweigen Review / Waffentest (Deutsch/German)",
+   "format": "1920x1080 60-Container",
+   "bildrate_echt": 30,
+   "spielstand": "Season of Opulence"
+  },
+  "hEQHYpurLkI": {
+   "kanal": "Nexxoss Gaming",
+   "datum": "2024-05-29",
+   "titel": "Destiny 2 Final Shape Mikrokosmos Preview",
+   "format": "1920x1080 60-Container",
+   "bildrate_echt": 19.8,
+   "spielstand": "vor The Final Shape"
+  },
+  "mp8ImI8UbUc": {
+   "kanal": "Nexxoss Gaming",
+   "datum": "2024-06-13",
+   "titel": "Destiny 2 Mikrokosmos / Exotisches Spuhrgewehr Guide",
+   "format": "1920x1080",
+   "bildrate_echt": null,
+   "spielstand": "The Final Shape"
+  },
+  "cNNZdTgpM90": {
+   "kanal": "Nexxoss Gaming",
+   "datum": "2021-09-15",
+   "titel": "Destiny 2: Agers Zepter Guide / Auf den Spuren der Sterne Guide (Deutsch/German)",
+   "format": "1920x1080 60-Container",
+   "bildrate_echt": 52.8,
+   "spielstand": "Season of the Lost"
+  },
+  "QEhrBL8EIIk": {
+   "kanal": "Nexxoss Gaming",
+   "datum": "2021-12-08",
+   "titel": "Destiny 2: Gjallarhorn Guide / Alle Wölfe fliegen hoch Guide (Deutsch/German)",
+   "format": "1920x1080 60-Container",
+   "bildrate_echt": 30,
+   "spielstand": "30th Anniversary"
+  },
+  "gXeaYlexel8": {
+   "kanal": "Nexxoss Gaming",
+   "datum": "2021-12-09",
+   "titel": "Destiny 2: Gjallarhorn Katalysator Guide (Deutsch/German)",
+   "format": "1920x1080",
+   "bildrate_echt": null,
+   "spielstand": "30th Anniversary"
+  },
+  "CZVNjdPENMo": {
+   "kanal": "Nexxoss Gaming",
+   "datum": "2019-10-03",
+   "titel": "Destiny 2 Shadowkeep: Todbringer Guide (Deutsch/German)",
+   "format": "1920x1080 60-Container",
+   "bildrate_echt": 30,
+   "spielstand": "Shadowkeep"
+  },
+  "8TfdXI62aoE": {
+   "kanal": "Nexxoss Gaming",
+   "datum": "2019-06-12",
+   "titel": "Destiny 2: Wahrheit Guide / Wahrheit bekommen (Deutsch/German)",
+   "format": "1920x1080",
+   "bildrate_echt": null,
+   "spielstand": "Season of Opulence"
+  },
+  "9DjwEfcZptE": {
+   "kanal": "Nexxoss Gaming",
+   "datum": "2018-11-15",
+   "titel": "Destiny 2 Forsaken: Donnerlord Review / Waffentest (Deutsch/German)",
+   "format": "1920x1080",
+   "bildrate_echt": null,
+   "spielstand": "Season of the Forge"
+  },
+  "rGKv42_Lgyk": {
+   "kanal": "Nexxoss Gaming",
+   "datum": "2019-04-17",
+   "titel": "Destiny 2 Forsaken: Arbalest Review (Deutsch/German)",
+   "format": "1920x1080",
+   "bildrate_echt": null,
+   "spielstand": "Season of the Drifter"
+  },
+  "XVO7GZdGhQU": {
+   "kanal": "Nexxoss Gaming",
+   "datum": "2018-12-20",
+   "titel": "Destiny 2 Forsaken: Le Monarque Review / Waffentest (Deutsch/German)",
+   "format": "1920x1080",
+   "bildrate_echt": null,
+   "spielstand": "Season of the Forge"
+  },
+  "OwXPZG7Sq1g": {
+   "kanal": "Nexxoss Gaming",
+   "datum": "2019-06-22",
+   "titel": "Destiny 2: Wendigo GL3 Review / Waffentest (Deutsch/German)",
+   "format": "1920x1080",
+   "bildrate_echt": null,
+   "spielstand": "Season of Opulence"
+  }
+ },
+ "klassen": [
+  {
+   "ballon": "auto_rifle",
+   "videos": [
+    "MpYNiAGiyOI"
+   ],
+   "abgleich": [
+    {
+     "urteil": "sehr stabil",
+     "video": "MpYNiAGiyOI",
+     "zeit": "02:12",
+     "ergebnis": "bestaetigt",
+     "bezug": "rueckstoss.md#r-d2-chroma",
+     "ursache": null,
+     "nachmessung": null
+    },
+    {
+     "urteil": "Schüsse weniger zentral gebündelt",
+     "video": "MpYNiAGiyOI",
+     "zeit": "03:12",
+     "ergebnis": "neu",
+     "bezug": null,
+     "ursache": null,
+     "nachmessung": null
+    }
+   ]
+  },
+  {
+   "ballon": "submachine_gun",
+   "videos": [
+    "uWSAd3wZ7Cs"
+   ],
+   "abgleich": [
+    {
+     "urteil": "Stabilität schwierig, die Waffe zieht",
+     "video": "uWSAd3wZ7Cs",
+     "zeit": "03:39",
+     "ergebnis": "bestaetigt",
+     "bezug": "rueckstoss.md#4-musterkatalog-je-klasse--destiny-zuerst",
+     "ursache": null,
+     "nachmessung": null
+    },
+    {
+     "urteil": "Fallmagazin lädt immens schnell",
+     "video": "uWSAd3wZ7Cs",
+     "zeit": "01:12",
+     "ergebnis": "neu",
+     "bezug": null,
+     "ursache": null,
+     "nachmessung": null
+    }
+   ]
+  },
+  {
+   "ballon": "scout_rifle",
+   "videos": [
+    "XjHPq9Hb0rI"
+   ],
+   "abgleich": [
+    {
+     "urteil": "PvP durchschnittlich, Zoomvisier wie Scharfschütze",
+     "video": "XjHPq9Hb0rI",
+     "zeit": "01:02",
+     "ergebnis": "neu",
+     "bezug": null,
+     "ursache": null,
+     "nachmessung": null
+    }
+   ]
+  },
+  {
+   "ballon": "pulse_rifle",
+   "videos": [
+    "89v3B8Vpkvk"
+   ],
+   "abgleich": [
+    {
+     "urteil": "Problem mit der Stabilität",
+     "video": "89v3B8Vpkvk",
+     "zeit": "01:35",
+     "ergebnis": "neu",
+     "bezug": "rueckstoss.md#r-d2-gridskipper",
+     "ursache": null,
+     "nachmessung": null
+    }
+   ]
+  },
+  {
+   "ballon": "hand_cannon",
+   "videos": [
+    "GgcO_mG25i4"
+   ],
+   "abgleich": [
+    {
+     "urteil": "ganz stabil",
+     "video": "GgcO_mG25i4",
+     "zeit": "03:03",
+     "ergebnis": "widerspricht",
+     "bezug": "destiny2.md#z-bb-hc-rueckstoss",
+     "ursache": "Messdefinition: stabil = Gleichmäßigkeit (Stat), gemessen = Größe; Netto aus Spiel und Eingabe",
+     "nachmessung": "z-v37-hc-kick"
+    },
+    {
+     "urteil": "relativ geringe Feuerrate",
+     "video": "GgcO_mG25i4",
+     "zeit": "02:10",
+     "ergebnis": "bestaetigt",
+     "bezug": "waffenwerte.md#24-destiny-2-historisches-schadens--und-handlingmodell-patch-826-07052025",
+     "ursache": null,
+     "nachmessung": null
+    }
+   ]
+  },
+  {
+   "ballon": "sidearm",
+   "videos": [
+    "Gx86mSoVO98"
+   ],
+   "abgleich": [
+    {
+     "urteil": "zieht richtig hoch",
+     "video": "Gx86mSoVO98",
+     "zeit": "03:11",
+     "ergebnis": "bestaetigt",
+     "bezug": "rueckstoss.md#4-musterkatalog-je-klasse--destiny-zuerst",
+     "ursache": null,
+     "nachmessung": null
+    }
+   ]
+  },
+  {
+   "ballon": "sniper_rifle",
+   "videos": [
+    "53v8UnJ9xDY"
+   ],
+   "abgleich": [
+    {
+     "urteil": "moderate Handhabung, Rückstoß kontrolliert",
+     "video": "53v8UnJ9xDY",
+     "zeit": "02:28",
+     "ergebnis": "neu",
+     "bezug": "destiny2.md#s-gapfill",
+     "ursache": null,
+     "nachmessung": null
+    }
+   ]
+  },
+  {
+   "ballon": "trace_rifle",
+   "videos": [
+    "hEQHYpurLkI",
+    "mp8ImI8UbUc"
+   ],
+   "abgleich": [
+    {
+     "urteil": "gegen kleine Feinde sehr angenehm, einfach zu bedienen",
+     "video": "hEQHYpurLkI",
+     "zeit": "01:36",
+     "ergebnis": "neu",
+     "bezug": null,
+     "ursache": null,
+     "nachmessung": null
+    }
+   ]
+  },
+  {
+   "ballon": "machine_gun",
+   "videos": [
+    "gH__TK1yK8Q",
+    "9DjwEfcZptE"
+   ],
+   "abgleich": [
+    {
+     "urteil": "120er Magazin, auf Distanz kaum brauchbar",
+     "video": "gH__TK1yK8Q",
+     "zeit": "04:38",
+     "ergebnis": "neu",
+     "bezug": null,
+     "ursache": null,
+     "nachmessung": null
+    },
+    {
+     "urteil": "Donnerlord zieht zwar schon hoch",
+     "video": "9DjwEfcZptE",
+     "zeit": "02:15",
+     "ergebnis": "bestaetigt",
+     "bezug": "rueckstoss.md#r-d2-cipher",
+     "ursache": null,
+     "nachmessung": null
+    }
+   ]
+  },
+  {
+   "ballon": "shotgun",
+   "videos": [
+    "yH6HtfktpC8"
+   ],
+   "abgleich": [
+    {
+     "urteil": "PvP-Treffer töten nicht verlässlich",
+     "video": "yH6HtfktpC8",
+     "zeit": "05:02",
+     "ergebnis": "neu",
+     "bezug": "destiny2.md#z-im-python",
+     "ursache": null,
+     "nachmessung": null
+    }
+   ]
+  },
+  {
+   "ballon": "fusion_rifle",
+   "videos": [
+    "7aJg4idcsI4"
+   ],
+   "abgleich": [
+    {
+     "urteil": "Bolzen mit Flugzeit, vorhalten",
+     "video": "7aJg4idcsI4",
+     "zeit": "04:46",
+     "ergebnis": "widerspricht",
+     "bezug": "destiny2.md#z-im-tadel",
+     "ursache": "Messdefinition: im Flug nicht sichtbar (30/s) belegt keine fehlende Flugzeit",
+     "nachmessung": "z-v37-tadel-flug"
+    },
+    {
+     "urteil": "ein Schuss gegen Hexe, Ritter, Centurio",
+     "video": "7aJg4idcsI4",
+     "zeit": "02:31",
+     "ergebnis": "neu",
+     "bezug": "destiny2.md#z-im-tadel",
+     "ursache": null,
+     "nachmessung": null
+    }
+   ]
+  },
+  {
+   "ballon": "linear_fusion_rifle",
+   "videos": [
+    "MRxDYInnk0g",
+    "rGKv42_Lgyk"
+   ],
+   "abgleich": [
+    {
+     "urteil": "Ladezeit sehr kurz, großzügige Hitbox, Zucken beim Laden",
+     "video": "MRxDYInnk0g",
+     "zeit": "05:38",
+     "ergebnis": "neu",
+     "bezug": "rueckstoss.md#r-d2-needle",
+     "ursache": null,
+     "nachmessung": null
+    }
+   ]
+  },
+  {
+   "ballon": "combat_bow",
+   "videos": [
+    "lR6e42dNZxw",
+    "XVO7GZdGhQU"
+   ],
+   "abgleich": [
+    {
+     "urteil": "Ansparzeit relativ hoch, Flugzeit erschwert Hüfttreffer",
+     "video": "lR6e42dNZxw",
+     "zeit": "01:59",
+     "ergebnis": "neu",
+     "bezug": "destiny2.md#s-matrix-bogen",
+     "ursache": null,
+     "nachmessung": null
+    }
+   ]
+  },
+  {
+   "ballon": "grenade_launcher",
+   "videos": [
+    "2lpjbjC4878",
+    "OwXPZG7Sq1g"
+   ],
+   "abgleich": [
+    {
+     "urteil": "Zielen unnütz, Explosion im PvP zu klein",
+     "video": "2lpjbjC4878",
+     "zeit": "01:42",
+     "ergebnis": "neu",
+     "bezug": "destiny2.md#s-gapfill",
+     "ursache": null,
+     "nachmessung": null
+    }
+   ]
+  },
+  {
+   "ballon": "rocket_launcher",
+   "videos": [
+    "QEhrBL8EIIk",
+    "gXeaYlexel8",
+    "CZVNjdPENMo",
+    "8TfdXI62aoE"
+   ],
+   "abgleich": [
+    {
+     "urteil": null,
+     "video": null,
+     "zeit": null,
+     "ergebnis": "nicht_belegt",
+     "bezug": null,
+     "ursache": "kein Urteil im Kanal (nur Quest-Guides)",
+     "nachmessung": null
+    }
+   ]
+  },
+  {
+   "ballon": "portal_cannon",
+   "videos": [],
+   "abgleich": [
+    {
+     "urteil": null,
+     "video": null,
+     "zeit": null,
+     "ergebnis": "trifft_nicht_zu",
+     "bezug": null,
+     "ursache": "Cube-Escape-eigene Klasse ohne Destiny-Gegenstück",
+     "nachmessung": null
+    }
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "id": "z-v37-laufen",
+   "thema": "Laufen ohne Sprint",
+   "belegstaerke": "O",
+   "videos": [
+    "MpYNiAGiyOI",
+    "uWSAd3wZ7Cs",
+    "7aJg4idcsI4",
+    "gH__TK1yK8Q"
+   ],
+   "werte": {
+    "periode_vertikal_s": {
+     "auto_rifle": [
+      0.4,
+      0.41
+     ],
+     "submachine_gun": [
+      0.37,
+      0.375
+     ],
+     "fusion_rifle": [
+      0.37,
+      0.4
+     ],
+     "machine_gun": [
+      0.4,
+      0.4
+     ]
+    },
+    "hub_vertikal_pp_h": [
+     2,
+     5
+    ],
+    "fadenkreuz": "voll",
+    "periode_seitlich_s": null
+   }
+  },
+  {
+   "id": "z-v37-sprint",
+   "thema": "Sprinthaltung",
+   "belegstaerke": "M",
+   "videos": [
+    "89v3B8Vpkvk",
+    "GgcO_mG25i4",
+    "Gx86mSoVO98",
+    "gH__TK1yK8Q",
+    "yH6HtfktpC8",
+    "hEQHYpurLkI",
+    "53v8UnJ9xDY"
+   ],
+   "werte": {
+    "huelle": {
+     "pulse_rifle": [
+      46,
+      66,
+      100,
+      100
+     ],
+     "hand_cannon": [
+      57,
+      19,
+      72,
+      100
+     ],
+     "sidearm": [
+      60,
+      30,
+      75,
+      100
+     ],
+     "machine_gun": [
+      38,
+      55,
+      100,
+      100
+     ],
+     "shotgun": [
+      72,
+      85,
+      100,
+      100
+     ],
+     "trace_rifle": [
+      29,
+      60,
+      100,
+      100
+     ],
+     "sniper_rifle": [
+      56,
+      64,
+      100,
+      100
+     ]
+    },
+    "fadenkreuz": {
+     "pulse_rifle": "^",
+     "hand_cannon": null,
+     "sidearm": "^",
+     "machine_gun": "^",
+     "shotgun": "^",
+     "trace_rifle": "^",
+     "sniper_rifle": "weg"
+    },
+    "frequenz_hz": null,
+    "sniper_rifle_staerke": "O"
+   }
+  },
+  {
+   "id": "z-v37-hc-kick",
+   "thema": "Handfeuerwaffe ADS-Kick",
+   "belegstaerke": "M",
+   "videos": [
+    "GgcO_mG25i4"
+   ],
+   "werte": {
+    "bildrate": 29.97,
+    "kamerakick_pp_h": 22.0,
+    "spitze_bild": [
+     4239,
+     4244
+    ],
+    "zweiter_schuss_pp_h": [
+     15,
+     17
+    ],
+    "modell_visierlicht": [
+     [
+      51,
+      63
+     ],
+     [
+      60,
+      82
+     ],
+     [
+      54,
+      69
+     ]
+    ],
+    "netto": true
+   }
+  },
+  {
+   "id": "z-v37-tadel-flug",
+   "thema": "Fusionsbolzen im Flug",
+   "belegstaerke": "O",
+   "videos": [
+    "7aJg4idcsI4"
+   ],
+   "werte": {
+    "flugzeit_s": null,
+    "grund": "30/s und Gegnerfeuer überlagert"
+   }
+  },
+  {
+   "id": "z-v37-rl-gjallarhorn",
+   "thema": "Raketenwerfer Ziehen, ADS, Weltzoom",
+   "belegstaerke": "M",
+   "videos": [
+    "QEhrBL8EIIk"
+   ],
+   "werte": {
+    "bildrate": 30,
+    "ziehen_ruhig_s": 0.9,
+    "ziehen_hueftaehnlich_s": 0.37,
+    "ueberschwingen_pp": [
+     -11.5,
+     16.7
+    ],
+    "ads_ein_bilder": 15,
+    "ads_aus_bilder": 16,
+    "zielen_aus_bis_huefte": null,
+    "weltzoom": [
+     3.2,
+     3.4
+    ],
+    "weltzoom_aus_O": 2.8
+   }
+  },
+  {
+   "id": "z-v37-rl-todbringer",
+   "thema": "Raketenwerfer Ziehen",
+   "belegstaerke": "O",
+   "videos": [
+    "CZVNjdPENMo"
+   ],
+   "werte": {
+    "bildrate": 30,
+    "ziehen_ruhig_s": 0.3,
+    "ziehen_hueftaehnlich_s": 0.27,
+    "ueberschwingen_pp": null,
+    "ads": null
+   }
+  },
+  {
+   "id": "z-v37-zoom-scout",
+   "thema": "Weltzoom Scout",
+   "belegstaerke": "M",
+   "videos": [
+    "XjHPq9Hb0rI"
+   ],
+   "werte": {
+    "weltzoom": [
+     2.9,
+     3.1
+    ],
+    "laufen_O": 3.4,
+    "direktpaar_koordinator": 3.12
+   }
+  },
+  {
+   "id": "z-v37-zoom-sniper",
+   "thema": "Weltzoom Scharfschütze",
+   "belegstaerke": "M",
+   "videos": [
+    "53v8UnJ9xDY"
+   ],
+   "werte": {
+    "weltzoom": [
+     4.68,
+     4.75
+    ],
+    "direktpaar_koordinator": [
+     4.705,
+     4.716,
+     4.713
+    ]
+   }
+  }
+ ],
+ "zaehlung": {
+  "bestaetigt": 5,
+  "widerspricht": 2,
+  "neu": 12
+ },
+ "ballon_uebernahme": [
+  {
+   "feld": "ACTIONS['walk'].bob.period",
+   "ballon_heute": 24,
+   "destiny": [
+    22,
+    25
+   ],
+   "staerke": "O",
+   "anker": "z-v37-laufen"
+  },
+  {
+   "feld": "ACTIONS['walk'].bob.amp",
+   "ballon_heute": [
+    0.007,
+    0.004
+   ],
+   "destiny": "vertikal 2-5 pp H (0,2-0,5 des Sprinthubs)",
+   "staerke": "O",
+   "anker": "z-v37-laufen"
+  },
+  {
+   "feld": "ACTIONS['walk'].weapon",
+   "ballon_heute": "hip",
+   "destiny": "abgesenkte Hüftlage, Fadenkreuz voll",
+   "staerke": "O",
+   "anker": "z-v37-laufen"
+  },
+  {
+   "feld": "CLASSES['pulse_rifle'].poses.sprint",
+   "ballon_heute": null,
+   "destiny": "Hülle 46-100 / 66-100, ^",
+   "staerke": "M",
+   "anker": "z-v37-sprint"
+  },
+  {
+   "feld": "CLASSES['hand_cannon'].poses.sprint",
+   "ballon_heute": "Bestand",
+   "destiny": "senkrecht 57-72 / 19-100, 14-20°",
+   "staerke": "M",
+   "anker": "z-v37-sprint"
+  },
+  {
+   "feld": "CLASSES['sidearm'].poses.sprint",
+   "ballon_heute": "wie Handfeuerwaffe (E)",
+   "destiny": "senkrecht 60-75 / 30-100, 13°, ^",
+   "staerke": "M",
+   "anker": "z-v37-sprint"
+  },
+  {
+   "feld": "CLASSES['machine_gun'].poses.sprint",
+   "ballon_heute": null,
+   "destiny": "flach quer 38-100 / 55-100, 0…-2°, ^",
+   "staerke": "M",
+   "anker": "z-v37-sprint"
+  },
+  {
+   "feld": "CLASSES['shotgun'].poses.sprint",
+   "ballon_heute": null,
+   "destiny": "fast aus dem Bild, Rand ab 72 / 85, ^",
+   "staerke": "M",
+   "anker": "z-v37-sprint"
+  },
+  {
+   "feld": "CLASSES['trace_rifle'].poses.sprint",
+   "ballon_heute": null,
+   "destiny": "flach quer 29-100 / 60-100, +8-10°, ^",
+   "staerke": "M",
+   "anker": "z-v37-sprint"
+  },
+  {
+   "feld": "CLASSES['sniper_rifle'].poses.sprint",
+   "ballon_heute": null,
+   "destiny": "tief rechts 56-100 / 64-100, +22°",
+   "staerke": "O",
+   "anker": "z-v37-sprint"
+  },
+  {
+   "feld": "CLASSES['rocket_launcher'].frames.draw",
+   "ballon_heute": 14,
+   "destiny": {
+    "Gjallarhorn": 27,
+    "Todbringer": 9
+   },
+   "staerke": "M",
+   "anker": "z-v37-rl-gjallarhorn"
+  },
+  {
+   "feld": "CLASSES['rocket_launcher'].frames.aim_in",
+   "ballon_heute": 6,
+   "destiny": 15,
+   "staerke": "M",
+   "anker": "z-v37-rl-gjallarhorn"
+  },
+  {
+   "feld": "CLASSES['rocket_launcher'].frames.aim_out",
+   "ballon_heute": 5,
+   "destiny": 16,
+   "staerke": "M",
+   "anker": "z-v37-rl-gjallarhorn"
+  },
+  {
+   "feld": "reticles.class_world_zoom('scout_rifle')",
+   "ballon_heute": 2.0,
+   "destiny": 3.0,
+   "staerke": "M",
+   "anker": "z-v37-zoom-scout"
+  },
+  {
+   "feld": "reticles.class_world_zoom('sniper_rifle')",
+   "ballon_heute": 4.0,
+   "destiny": 4.7,
+   "staerke": "M",
+   "anker": "z-v37-zoom-sniper"
+  },
+  {
+   "feld": "reticles.class_world_zoom('rocket_launcher')",
+   "ballon_heute": null,
+   "destiny": 3.3,
+   "staerke": "M",
+   "anker": "z-v37-rl-gjallarhorn"
+  }
+ ],
+ "pruefung": {
+  "zitate_geprueft": 18,
+  "urteile": 289,
+  "weltzoom_nachgemessen": 3,
+  "takte_nachgemessen": 3,
+  "fadenkreuz_stellen": 15
+ }
+}

@@ -170,6 +170,8 @@ Alle Seiten am 31.10.2026 aufgerufen; Stichprobe des Koordinators 5 von 5 gelade
 Spielerstimmen: 13 gesammelt (9 Destiny, Bungie.net/Steam/Presse), Reddit für die Agenten gesperrt. Mindestmaß 5 Spieler- und 2 Fachquellen erfüllt;
 GDC-Vorträge zu Destiny- oder Respawn-Waffeneffekten und ein GMTK-Beitrag zu sofortigem Treffer gegen Projektil **nicht gefunden**.
 
+**Spielerstimme Nexxoss Gaming [C] (0.37 „Verdict“, Einzelstimme aus Auto-Untertiteln, nie gegen eine [M]-Messung; Abgleich je Klasse in [destiny2 › Verdict](destiny2.md#s-verdict)):** Wucht beschreibt der Sprecher über Kills und Treffergefühl: die Python „fühlt sich wirklich nach einer richtig starken Schrotflinte an“, im PvP überleben Gegner aber Treffer ([yH6HtfktpC8](https://www.youtube.com/watch?v=yH6HtfktpC8) [03:51], [yH6HtfktpC8](https://www.youtube.com/watch?v=yH6HtfktpC8) [05:02]); Der Kluge Tadel tötet Hexe, Ritter und Centurio mit einem Schuss ([7aJg4idcsI4](https://www.youtube.com/watch?v=7aJg4idcsI4) [02:31]) und hat „Flugzeit“ ([7aJg4idcsI4](https://www.youtube.com/watch?v=7aJg4idcsI4) [04:46]) – das widerspricht [z-im-tadel](destiny2.md#z-im-tadel) nur scheinbar: „im Flug nicht sichtbar“ bei 30/s belegt keine fehlende Flugzeit ([z-v37-tadel-flug](destiny2.md#z-v37-tadel-flug)); Granatwerfer-Explosionen sind im PvP „nicht groß genug“ ([2lpjbjC4878](https://www.youtube.com/watch?v=2lpjbjC4878) [02:41], Wendigo [OwXPZG7Sq1g](https://www.youtube.com/watch?v=OwXPZG7Sq1g) [04:56]).
+
 ### E2 – Lehren für BALLON (Vorschlag, dort entscheiden)
 
 - **Übernehmen:** Kugelwaffen ohne Leuchtspur und ohne bleibendes Loch nach Destiny-Vorbild ist belegt (7 Beispiele: 5 [M] + 2 [O]) – der Treffer
