@@ -2,7 +2,7 @@
 
 ## 0.38.0 „Aftermath“ – 2026-10-31
 
-- Nachmessung der offenen Einschlag-/Effektpunkte ([einschlag.md › 11](docs/einschlag.md#11-nachtrag-aftermath), Methode 33, sechs Messzeilen `z-am-…` in destiny2.md, `data/einschlag.json` um 6 Zeilen und die Übernahmetabelle ergänzt, 7 Einträge in `data/clips.json`): **Schrot auf Blech nach 6.3.0** – zwei Bursts je Schuss und **bleibende Lochgruppen** (Oval ≈ 9, Dreieck ≈ 12 Löcher, ≥ 40 s sichtbar; Korrektur zu „keine Einschusslöcher“ nur für Schrot auf Metall); **Metall**: Funken ≥ 12 Bilder ohne Staub und Säule; Bogenflug ≈ 4 Bilder.
+- Nachmessung der offenen Einschlag-/Effektpunkte ([einschlag.md › 11](docs/einschlag.md#11-nachtrag-aftermath), Methode 33, sechs Messzeilen `z-am-…` in destiny2.md, `data/einschlag.json` um 6 Zeilen und die Übernahmetabelle ergänzt, 7 Einträge in `data/clips.json`): **Schrot auf Blech nach 6.3.0** – zwei Bursts je Schuss und **bleibende Lochgruppen** (Oval ≈ 9, Dreieck ≈ 12 Löcher, Oval ≥ 9 s am Einzelbild sichtbar, Ende offen; Korrektur zu „keine Einschusslöcher“ nur für Schrot auf Metall); **Metall**: Funken ≥ 12 Bilder ohne Staub und Säule; Bogenflug ≈ 4 Bilder.
 - Nicht belegt (mit Grund): Handfeuerwaffe auf Wand/Boden, Fels-/Metallunterschied, Pfeil-Steckdauer, legendäres Spurgewehr („Verlängertes Engagement“ ist eine Maschinenpistole), MG-Leuchtspur (violette Streifen nur [O]).
 - [Versionsbericht](docs/versions/0.md#0380-aftermath--2026-10-31).
 

@@ -85,7 +85,7 @@ class ShapeTests(unittest.TestCase):
             self.assertIn(f"https://www.youtube.com/watch?v={vid}", urls, vid)
 
     def test_doc_links_to_rows(self):
-        for anchor in re.findall(r"\(destiny2\.md#(z-im-[a-z0-9-]+)\)", DOC):
+        for anchor in re.findall(r"\(destiny2\.md#(z-(?:im|am)-[a-z0-9-]+)\)", DOC):
             self.assertIn(f'<a id="{anchor}"></a>', D2, anchor)
 
 

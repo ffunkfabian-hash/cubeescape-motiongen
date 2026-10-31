@@ -1295,11 +1295,12 @@
     "gruppe_dreieck_loecher": 12,
     "gruppe_oval_loecher": 9,
     "loch_pct_b": 1.2,
-    "bleibt_s_min": 40,
-    "modi_unterscheiden_sich": true
+    "oval_sichtbar_s_min": 9,
+    "muster_verschieden": true,
+    "ursache": null
    },
    "belegstaerke": "M",
-   "notiz": "Ein Schuss (Anzeige 1→0) fügt die Ovalgruppe hinzu, die Dreiecksgruppe stammt aus einem früheren Schuss; Zählung ±1 (Überlagerung); Löcher bleiben über die gesamte Szene ≈ 440–480 s (Kontaktbogen), Ende nicht beobachtet; Szenenwechsel nicht gemessen"
+   "notiz": "Ein Schuss (Anzeige 1→0) fügt die Ovalgruppe hinzu (f27906 ohne, f27960 mit, f28500 noch da = ≥ 9 s am Einzelbild, Kontaktbogen bis ≈ 480 s, Ende nicht beobachtet); die Dreiecksgruppe entstand vor 465,1 s, Entstehung und Ende nicht beobachtet; Zählung ±1 (Überlagerung); Ursache der zwei Muster (Lauf/Element, Winkel, Entfernung) nicht belegt"
   },
   {
    "id": "z-am-condfin-funken-blech",
@@ -1308,7 +1309,7 @@
    "klasse": "shotgun",
    "art": "einschlag",
    "video": "3HgrGEjz4HU",
-   "zeit_s": 465.2,
+   "zeit_s": 465.167,
    "bilder": {
     "flamme_verdeckt": 27910,
     "peak": 27913,
@@ -1529,7 +1530,7 @@
   "shotgun": {
    "kind": "pellets",
    "pellets_quelle": "[S] 12, feste Muster seit 6.3.0",
-   "pellets_bild": "nach 6.3.0 als bleibende Lochgruppe sichtbar: Dreieck ≈ 12, Oval ≈ 9 Löcher je Muster (±1, Bedingte Endgültigkeit)",
+   "pellets_bild": "nach 6.3.0 als bleibende Lochgruppe sichtbar: Dreieck ≈ 12, Oval ≈ 9 Löcher je Muster (±1, Bedingte Endgültigkeit); Ursache der zwei Muster nicht belegt",
    "einschlaege_je_schuss_bild": "1 vor 6.3.0 (Python); 2 Bursts und 1 Lochgruppe nach 6.3.0 auf Blech (Bedingte Endgültigkeit, Doppellauf)",
    "belege": [
     "z-im-python",
@@ -1545,8 +1546,8 @@
    "length_m": null,
    "size_m": null,
    "decal": true,
-   "decal_bleibt_s_min": 40,
-   "decal_untergrund": "Blech (Lkw); auf Fels, Beton, Sand und Erde weiter kein Decal"
+   "decal_untergrund": "Blech (Lkw, Container); Schrot nach 6.3.0 auf Fels/Beton/Sand/Erde nicht belegt; Kugelwaffen dort ohne Decal (0.36)",
+   "decal_oval_sichtbar_s_min": 9
   },
   "fusion_rifle": {
    "kind": null,
@@ -1574,9 +1575,10 @@
    "width_m": null,
    "length_m": null,
    "size_m": null,
-   "flugzeit_bilder_nah": 4,
-   "pfeil_steckt": false,
-   "steckdauer": null
+   "pfeil_steckt": null,
+   "steckdauer": null,
+   "flugzeit_bilder_ferne_gegner": 4,
+   "notiz": "Flug ≈ 4 Bilder über unbekannte Entfernung (ferner Gegner); kein Pfeil im Flug sichtbar; Steckdauer und Pfeil im Ziel nicht belegt (kein Treffer auf Wand/Boden)"
   },
   "grenade_launcher": {
    "kind": "projectile",
@@ -1653,17 +1655,15 @@
    "size_m": null
   },
   "machine_gun": {
-   "kind": "hitscan",
+   "kind": null,
    "leuchtspur": null,
-   "belege": [
-    "z-am-range-streifen"
-   ],
+   "belege": [],
    "speed_mps": null,
    "radius_m": null,
    "width_m": null,
    "length_m": null,
    "size_m": null,
-   "notiz": "MG-Leuchtspur nicht belegt; nur Beobachtung [O]"
+   "notiz": "nicht gemessen; MG-Leuchtspur nicht belegt, violette Streifen im Schießstand nur [O] (z-am-range-streifen, Klasse unbekannt)"
   }
  }
 }
