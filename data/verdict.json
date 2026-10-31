@@ -77,8 +77,8 @@
    "kanal": "Nexxoss Gaming",
    "datum": "2017-10-15",
    "titel": "Destiny 2: Eisenbanner Granatwerfer Review \"Die Wut des Tages\" (Deutsch/German)",
-   "format": "1920x1080 29,97/s",
-   "bildrate_echt": 30,
+   "format": "1920x1080 29,97/s-Container",
+   "bildrate_echt": 25.5,
    "spielstand": "Jahr 1"
   },
   "53v8UnJ9xDY": {
@@ -959,7 +959,7 @@
  },
  "pruefung": {
   "zitate_geprueft": 18,
-  "richter_runde_1": "Nachbessern 5a, 5b, 5c – behoben",
+  "richter": "Opus (Codex-Kontingent 1 %), Runde 1 Nachbessern 5a/5b/5c, Runde 2 Nachbessern 6 – umgesetzt",
   "urteile": 289,
   "weltzoom_nachgemessen": 3,
   "takte_nachgemessen": 3,

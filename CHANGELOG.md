@@ -89,7 +89,7 @@
 
 ## 0.22.0 „Hipline“ – 2026-10-25
 
-- Neue Referenzanalyse [Hüftlage](docs/huefte.md) mit `data/huefte.json`: 57 Waffen aus 10 Spielen bzw. Fassungen aus 17 Videos (Zuarbeit: 19) (Codex-Mac, Ego-Bewegung Thema 1) – Mündung, hintere Visieröffnung, Griffhand, Hüllrechteck und projizierte Neigung im Ruhebild; Destiny 2 mit 28 neuen Waffen aus 16 Klassen. Acht Messzeilen in `docs/destiny2.md` › 2 (Anker `z-hl-…`), Methode 20, 21 Einträge in `data/clips.json`.
+- Neue Referenzanalyse [Hüftlage](docs/huefte.md) mit `data/huefte.json`: 57 Waffen aus 10 Spielen bzw. Fassungen aus 17 Videos (Zuarbeit: 19) (Codex-Mac, Ego-Bewegung Thema 1) – Mündung, hintere Visieröffnung, Griffhand, Hüllrechteck und projizierte Neigung im Ruhebild; Destiny 2 mit 28 neuen Waffen aus 16 Klassen. Acht Messzeilen in `docs/destiny2.md` › 2 (Anker `z-hl-…`), Methode 20, 17 Einträge in `data/clips.json`.
 - Abnahme: 19/19 Videos per yt-dlp, zehn Bildstichproben; übernommen 57, verworfen 7 (fünf Doppelungen zum Bestand, zwei Schwerter), offen 1. Codex-Mündung von Prometheus Lens widerlegt (Bestand gilt); Steckbrief Granatwerfer präzisiert (57 / 54 gilt für Ignition Code, Flash and Thunder ≈ 58 / 67); Titanfall-2-Showcase neben die tiefe Spielclip-Hüfte gestellt. [Bericht](docs/versions/0.md#0220-hipline--2026-10-25).
 
 ## 0.21.0 „Playbook“ – 2026-10-25
