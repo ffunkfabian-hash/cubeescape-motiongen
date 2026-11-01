@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.38.1 Patch „doku-panorama“ – veraltete Doku nach Panorama 5
+
+- `AGENTS.md`: globale Regeln aus Nexogen statt `cubeescape-rules`, „Briefkasten“ → Postfach, Versionsangaben als „seit …“, gepinnter Agent-Tools-Stand 0.22.0 statt „0.20“. Nur Markdown.
+
 ## 0.38.0 „Aftermath“ – 2026-10-31
 
 - Nachmessung der offenen Einschlag-/Effektpunkte ([einschlag.md › 11](docs/einschlag.md#11-nachtrag-aftermath), Methode 33, sechs Messzeilen `z-am-…` in destiny2.md, `data/einschlag.json` um 6 Zeilen und die Übernahmetabelle ergänzt, 7 Einträge in `data/clips.json`): **Schrot auf Blech nach 6.3.0** – zwei Bursts je Schuss und **bleibende Lochgruppen** (Oval ≈ 9, Dreieck ≈ 12 Löcher, Oval ≥ 9 s am Einzelbild sichtbar, Ende offen; Korrektur zu „keine Einschusslöcher“ nur für Schrot auf Metall); **Metall**: Funken ≥ 12 Bilder ohne Staub und Säule; Bogenflug ≈ 4 Bilder.

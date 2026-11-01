@@ -4,7 +4,7 @@ Zentraler Repo-Einstieg: [Nexogen](https://github.com/ffunkfabian-hash/cubeescap
 
 **Werkzeuge:** `./ce check` · `./ce search query "Begriff"` · `./ce session topics` · `./ce codex quota|judge` · `./ce evidence clip|sheet|still|diff` · `./ce lock unity|blender|gpu -- <Befehl>` · `./ce report --since 7d`. `./ce` ist der Lader aus ce-agent-tools: er holt genau den Stand aus `.ce-repo.json` › `tools_version` (Plugin, Cache `~/.cache/ce-agent-tools` oder Download), eine eingebettete Kopie gibt es nicht mehr (`./ce tools where` zeigt die Quelle).
 
-Gilt für alle Agenten (Claude Code, Codex, …). Globale Regeln: Repo `ffunkfabian-hash/cubeescape-rules` (`CLAUDE.md` dort).
+Gilt für alle Agenten (Claude Code, Codex, …). Globale Regeln: Repo `ffunkfabian-hash/cubeescape-nexogen` (`CLAUDE.md` dort; lokal `~/.claude/CLAUDE.md`).
 
 ## Projekt
 
@@ -41,10 +41,10 @@ keine privaten Daten, keine Bild- oder Videodateien aus fremden Aufnahmen (nur V
 ## Definition of Done
 
 Messzeile + `clips.json`-Eintrag + Steckbrief aktualisiert; `./check` grün; Abschlussbericht auf Deutsch mit Clip-Zahl, Neuem, Offenem;
-Hinweis an das abnehmende Repo (Cube Escape/Toolgen) per Briefkasten oder Übergabe, nie dort selbst schreiben.
+Hinweis an das abnehmende Repo (Cube Escape/Toolgen) per Postfach (Nexogen-Issue #16) oder Übergabe, nie dort selbst schreiben.
 
 Werkzeug-Erfahrungen: [docs/LESSONS.md](docs/LESSONS.md); die verlinkte Systemdokumentation bleibt die Langform.
 
 ## Plugins und Hooks
 
-Der gemeinsame Wächter (Agent Tools 0.12) wird über Nexogen für Codex nach `/hooks`-Vertrauen und für Antigravity auf den gemessenen Oberflächen installiert; das reversible Git-Netz ergänzt ihn für alle Clients. Die begrenzte Commit-Vorabprüfung, Einbau und Grenzen stehen zentral in [Werkzeuge und Durchsetzung](https://github.com/ffunkfabian-hash/cubeescape-nexogen/blob/main/templates/regeln-details.md#werkzeuge-und-durchsetzung). Postfach (ce-shared 0.15.1, nur Claude Code mit installiertem Plugin): Für eine reservierte Sitzung (`./ce session reserve|patch`) startet ein Stop-Hook den Wächter selbst und weckt sie bei Nachrichten; läuft keiner, hält ein zweiter Stop-Hook das Ende einmal an (höchstens alle 2 h). Versionen (ce-shared 0.16): Claude Code führt je Checkout und Worktree einen eigenen Plugin-Eintrag, den `claude plugin update` nicht sicher erreicht – nach einem Update `./ce plugins check`, bei Abweichung `./ce plugins fix --apply`; eine Sitzung mit älterem ce-shared warnt beim Start. Werkzeuge (Motiongen 0.13, Agent Tools 0.20): keine Kopie im Repo; `./ce` lädt den gepinnten Stand, der PR-Check holt ihn mit dem Schritt `ce-tools`. Neuer Stand nur mit einer Motiongen-Version: `./ce tools pin <commit>` (schreibt auch den Lader) und denselben Commit in `.github/workflows/check.yml` eintragen; ohne Netz und ohne Cache hilft `CE_TOOLS=<ce-agent-tools>/plugins/ce-shared/tools`.
+Der gemeinsame Wächter (seit Agent Tools 0.12) wird über Nexogen für Codex nach `/hooks`-Vertrauen und für Antigravity auf den gemessenen Oberflächen installiert; das reversible Git-Netz ergänzt ihn für alle Clients. Die begrenzte Commit-Vorabprüfung, Einbau und Grenzen stehen zentral in [Werkzeuge und Durchsetzung](https://github.com/ffunkfabian-hash/cubeescape-nexogen/blob/main/templates/regeln-details.md#werkzeuge-und-durchsetzung). Postfach (seit ce-shared 0.15.1, nur Claude Code mit installiertem Plugin): Für eine reservierte Sitzung (`./ce session reserve|patch`) startet ein Stop-Hook den Wächter selbst und weckt sie bei Nachrichten; läuft keiner, hält ein zweiter Stop-Hook das Ende einmal an (höchstens alle 2 h). Versionen (seit ce-shared 0.16): Claude Code führt je Checkout und Worktree einen eigenen Plugin-Eintrag, den `claude plugin update` nicht sicher erreicht – nach einem Update `./ce plugins check`, bei Abweichung `./ce plugins fix --apply`; eine Sitzung mit älterem ce-shared warnt beim Start. Werkzeuge (seit Motiongen 0.13): keine Kopie im Repo; `./ce` lädt den gepinnten Stand (`.ce-repo.json` › `tools_version`, derzeit Agent Tools 0.22.0), der PR-Check holt ihn mit dem Schritt `ce-tools`. Neuer Stand nur mit einer Motiongen-Version: `./ce tools pin <commit>` (schreibt auch den Lader) und denselben Commit in `.github/workflows/check.yml` eintragen; ohne Netz und ohne Cache hilft `CE_TOOLS=<ce-agent-tools>/plugins/ce-shared/tools`.
