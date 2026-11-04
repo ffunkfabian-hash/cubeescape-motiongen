@@ -78,6 +78,10 @@ Bewertung ist Pflicht, nicht Beiwerk. Je Spiel und untersuchtem Gegenstand:
 - **Leitplanken (weich):** Zwischenstand alle 30–45 Minuten mit „fertig/nicht fertig“ in der ersten Zeile; je Thema Abschluss nach etwa
   3 Stunden, Offenes für eine Folgesitzung notieren; Dateien über ~1,5 GB in 720p; Cache je Auftrag in einer vorher genannten Grenze.
 - **Aufräumen** nach dem Merge: eigene Downloads und Zwischendateien; Belege der aktuellen und der vorigen Version bleiben.
+  Konkret löscht die Sitzung die Videos (`*.mp4`, `*.webm`, `*.mkv`) und abgebrochene `*.part` ihres Themas; Tabellen, Belegbilder und
+  Dateien, die `data/*.json` oder ein Doc namentlich zitiert, bleiben (Quellen sind per URL neu ladbar). Rohdaten von Zuarbeitern
+  (`visiere/<name>/`) räumt der Koordinator nach dem Einpflegen ab. **Grenze 15 GB** für `reference/`: `python3 tools/cache_report.py`
+  zeigt Größe je Thema und warnt darüber (Exit 1); gelöscht wird nie automatisch.
 
 ## 6. Aufbau einer Ergebnisdatei
 
