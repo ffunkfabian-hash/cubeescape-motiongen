@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.38.2 Patch „cache-reference“ – Aufräumregel für den Cache
+
+- `docs/standard.md` › Aufräumen: Videos und `.part` nach dem Merge löschen, Grenze 15 GB; neues schreibgeschütztes `tools/cache_report.py` (Größe je Thema, Warnung über der Grenze) mit Test.
+
 ## 0.38.1 Patch „doku-panorama“ – veraltete Doku nach Panorama 5
 
 - `AGENTS.md`: globale Regeln aus Nexogen statt `cubeescape-rules`, „Briefkasten“ → Postfach, Versionsangaben als „seit …“, gepinnter Agent-Tools-Stand 0.22.0 statt „0.20“. Nur Markdown.
