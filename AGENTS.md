@@ -2,9 +2,18 @@
 
 Zentraler Repo-Einstieg: [Nexogen](https://github.com/ffunkfabian-hash/cubeescape-nexogen) – Repo-Links, Zuständigkeiten, Abhängigkeiten und Live-Status über die Status-CLI im Nexogen-Repo. Globale Regeln dort, Fachwissen und Prüfbelege hier.
 
-**Werkzeuge:** `./ce check` · `./ce search query "Begriff"` · `./ce session topics` · `./ce codex quota|judge` · `./ce evidence clip|sheet|still|diff` · `./ce lock unity|blender|gpu -- <Befehl>` · `./ce report --since 7d`. `./ce` ist der Lader aus ce-agent-tools: er holt genau den Stand aus `.ce-repo.json` › `tools_version` (Plugin, Cache `~/.cache/ce-agent-tools` oder Download), eine eingebettete Kopie gibt es nicht mehr (`./ce tools where` zeigt die Quelle).
+## Harter Kern
 
-Gilt für alle Agenten (Claude Code, Codex, …). Globale Regeln: Repo `ffunkfabian-hash/cubeescape-nexogen` (`CLAUDE.md` dort; lokal `~/.claude/CLAUDE.md`).
+Quelle: Nexogen `templates/kern.md`, nur dort ändern; gilt auch in Cloud-Sitzungen.
+
+1. Kein Commit direkt auf `main`.
+2. Kein Force-Push, keine überschriebenen Branches oder Tags.
+3. Nichts Fremdes anfassen oder löschen: andere Sitzungen, Worktrees, Stash, Haupt-Checkout.
+4. Merge nach `main` nur mit Ja des Nutzers, außer Patch bis 100 Zeilen ohne Format, Vertrag, Kernpfad bei grünem `merge-check`; Tag, Release, Repo öffentlich machen immer nur mit Ja.
+5. Tests nie löschen oder abschwächen, um grün zu werden.
+6. Keine Zugangsdaten, kein fremdes Material, keine großen Binärdaten nach außen (öffentliche Repos, fremde APIs).
+7. Formate, Verträge und IDs nur mit Migration; IDs sind ewig.
+8. Nichts als fertig melden, was nicht geprüft ist.
 
 ## Projekt
 
@@ -13,8 +22,7 @@ Vergleich mit dem Spiel. **Hier stehen Beobachtungen und Zahlen; Schlüsse, Ents
 (`Docs/FIRST_PERSON_EQUIPMENT.md`), Hände/Clips in Toolgen, Konzeptblätter im Design-Repo. Öffentliches Repo: keine Zugangsdaten,
 keine privaten Daten, keine Bild- oder Videodateien aus fremden Aufnahmen (nur Verweise, Zeitstempel und Zahlen).
 
-- **Sprache:** Antworten, Doku und Commit-Messages auf Deutsch; Code, Bezeichner, Kommentare und Testnamen auf Englisch.
-- **Version:** `.ce-repo.json` und `CHANGELOG.md`; jeder neue Auftrag Minor +1 mit englischem Namen; Bericht je Hauptversion in `docs/versions/<Haupt>.md`.
+- **Version:** `.ce-repo.json` und `CHANGELOG.md`; Bericht je Hauptversion in `docs/versions/<Haupt>.md`. Patch (bis etwa 100 Zeilen ohne Format-, Vertrags- oder Kernsystemänderung): `./ce session patch <kurzname>`, 1–3 Zeilen Changelog, kein neuer Minor. Version (alles darüber): Minor +1 mit englischem Namen, `./ce session reserve`; Regeln in Nexogen `templates/regeln-details.md`.
 
 ## Messregeln (Erfahrungen)
 
@@ -43,8 +51,6 @@ keine privaten Daten, keine Bild- oder Videodateien aus fremden Aufnahmen (nur V
 Messzeile + `clips.json`-Eintrag + Steckbrief aktualisiert; `./check` grün; Abschlussbericht auf Deutsch mit Clip-Zahl, Neuem, Offenem;
 Hinweis an das abnehmende Repo (Cube Escape/Toolgen) per Postfach (Nexogen-Issue #16) oder Übergabe, nie dort selbst schreiben.
 
-Werkzeug-Erfahrungen: [docs/LESSONS.md](docs/LESSONS.md); die verlinkte Systemdokumentation bleibt die Langform.
+## Hooks und Werkzeuge (nur Repo-Eigenes)
 
-## Plugins und Hooks
-
-Der gemeinsame Wächter (seit Agent Tools 0.12) wird über Nexogen für Codex nach `/hooks`-Vertrauen und für Antigravity auf den gemessenen Oberflächen installiert; das reversible Git-Netz ergänzt ihn für alle Clients. Die begrenzte Commit-Vorabprüfung, Einbau und Grenzen stehen zentral in [Werkzeuge und Durchsetzung](https://github.com/ffunkfabian-hash/cubeescape-nexogen/blob/main/templates/regeln-details.md#werkzeuge-und-durchsetzung). Postfach (seit ce-shared 0.15.1, nur Claude Code mit installiertem Plugin): Für eine reservierte Sitzung (`./ce session reserve|patch`) startet ein Stop-Hook den Wächter selbst und weckt sie bei Nachrichten; läuft keiner, hält ein zweiter Stop-Hook das Ende einmal an (höchstens alle 2 h). Versionen (seit ce-shared 0.16): Claude Code führt je Checkout und Worktree einen eigenen Plugin-Eintrag, den `claude plugin update` nicht sicher erreicht – nach einem Update `./ce plugins check`, bei Abweichung `./ce plugins fix --apply`; eine Sitzung mit älterem ce-shared warnt beim Start. Werkzeuge (seit Motiongen 0.13): keine Kopie im Repo; `./ce` lädt den gepinnten Stand (`.ce-repo.json` › `tools_version`, derzeit Agent Tools 0.22.0), der PR-Check holt ihn mit dem Schritt `ce-tools`. Neuer Stand nur mit einer Motiongen-Version: `./ce tools pin <commit>` (schreibt auch den Lader) und denselben Commit in `.github/workflows/check.yml` eintragen; ohne Netz und ohne Cache hilft `CE_TOOLS=<ce-agent-tools>/plugins/ce-shared/tools`.
+`./ce` lädt den in `.ce-repo.json` › `tools_version` gepinnten Stand aus ce-agent-tools; keine Kopie im Repo. Neuer Stand nur mit einer Version: `./ce tools pin <commit>` und denselben Commit in `.github/workflows/check.yml` eintragen; ohne Netz und Cache hilft `CE_TOOLS=<ce-agent-tools>/plugins/ce-shared/tools`. Globale Hooks, Git-Netz und Plugin-Pflege: Nexogen `templates/regeln-details.md` › Werkzeuge und Durchsetzung. Hier gibt es keine hookify-Dateien; Tests und `./check` sind das Netz.
