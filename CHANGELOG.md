@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.38.3 Patch „runde“ – Trimline-Runde
+
+- `AGENTS.md`: Versionszeile und Werkzeugzeile auf die globale Regel gekürzt; Agent-Tools-Pin 0.35.0 → 0.36.2 (`.ce-repo.json`, `ce`, `check.yml`). `core_paths` bleibt `[]` (laut Agent-Tools-Liste kein Vorschlag).
+
 ## 0.38.2 Patch „cache-reference“ – Aufräumregel für den Cache
 
 - `docs/standard.md` › Aufräumen: Videos und `.part` nach dem Merge löschen, Grenze 15 GB; neues schreibgeschütztes `tools/cache_report.py` (Größe je Thema, Warnung über der Grenze) mit Test.

@@ -22,7 +22,7 @@ Vergleich mit dem Spiel. **Hier stehen Beobachtungen und Zahlen; Schlüsse, Ents
 (`Docs/FIRST_PERSON_EQUIPMENT.md`), Hände/Clips in Toolgen, Konzeptblätter im Design-Repo. Öffentliches Repo: keine Zugangsdaten,
 keine privaten Daten, keine Bild- oder Videodateien aus fremden Aufnahmen (nur Verweise, Zeitstempel und Zahlen).
 
-- **Version:** `.ce-repo.json` und `CHANGELOG.md`; Bericht je Hauptversion in `docs/versions/<Haupt>.md`. Patch (bis etwa 100 Zeilen ohne Format-, Vertrags- oder Kernsystemänderung): `./ce session patch <kurzname>`, 1–3 Zeilen Changelog, kein neuer Minor. Version (alles darüber): Minor +1 mit englischem Namen, `./ce session reserve`; Regeln in Nexogen `templates/regeln-details.md`.
+- **Version:** `.ce-repo.json` und `CHANGELOG.md`; Bericht je Hauptversion in `docs/versions/<Haupt>.md`. Patch und Version nach der globalen Regel (Patch: 1–3 Zeilen Changelog, kein neuer Minor).
 
 ## Messregeln (Erfahrungen)
 
@@ -53,4 +53,4 @@ Hinweis an das abnehmende Repo (Cube Escape/Toolgen) per Postfach (Nexogen-Issue
 
 ## Hooks und Werkzeuge (nur Repo-Eigenes)
 
-`./ce` lädt den in `.ce-repo.json` › `tools_version` gepinnten Stand aus ce-agent-tools; keine Kopie im Repo. Neuer Stand nur mit einer Version: `./ce tools pin <commit>` und denselben Commit in `.github/workflows/check.yml` eintragen; ohne Netz und Cache hilft `CE_TOOLS=<ce-agent-tools>/plugins/ce-shared/tools`. Globale Hooks, Git-Netz und Plugin-Pflege: Nexogen `templates/regeln-details.md` › Werkzeuge und Durchsetzung. Hier gibt es keine hookify-Dateien; Tests und `./check` sind das Netz.
+`./ce` lädt den in `.ce-repo.json` › `tools_version` gepinnten Stand aus ce-agent-tools; keine Kopie im Repo. Pin wechseln: `./ce tools pin <commit>` und denselben Commit in `.github/workflows/check.yml` eintragen. Hier gibt es keine hookify-Dateien; Tests und `./check` sind das Netz.
