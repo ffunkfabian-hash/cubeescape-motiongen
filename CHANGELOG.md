@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.38.5 Patch „pin40“ – Pin auf Agent Tools 0.40
+
+- Agent-Tools-Pin 0.37.0 → 0.40.0 (`.ce-repo.json`, `ce`, `check.yml`). `core_paths` bleibt `[]`.
+
 ## 0.38.4 Patch „pin37“ – Pin auf Agent Tools 0.37
 
 - Agent-Tools-Pin 0.36.2 → 0.37.0 „Waybill“ (`.ce-repo.json`, `ce`, `check.yml`): Pin-Ausnahme in `merge-check` und `./ce verify`. `core_paths` bleibt `[]`.
