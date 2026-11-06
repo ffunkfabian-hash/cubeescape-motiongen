@@ -1,6 +1,9 @@
 {
   "name": "cubeescape-reference",
-  "version": "0.38.0",
+  "version": {
+    "file": "CHANGELOG.md",
+    "pattern": "(?m)^## (\\d+\\.\\d+(?:\\.\\d+)?)"
+  },
   "version_name": "Aftermath",
   "check": {
     "quick": [
@@ -40,6 +43,7 @@
     "commit": "0b67cb3f24762f466cb6f57a1c17dbe708616f1f"
   },
   "docs": {
+    "changelog": "CHANGELOG.md",
     "agent_sections": [
       "Projekt",
       "Messregeln",

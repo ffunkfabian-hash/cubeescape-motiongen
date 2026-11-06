@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.38.6 Patch „merge-check-felder“ – Version und CHANGELOG für merge-check
+
+- `.ce-repo.json`: `version` als `{file, pattern}` aus dem Changelog statt veraltetem Text (stand auf 0.38.0), `docs.changelog` ergänzt. `./ce merge-check` prüft damit Version und CHANGELOG; `core_paths` bleibt `[]`.
+
 ## 0.38.5 Patch „pin40“ – Pin auf Agent Tools 0.40
 
 - Agent-Tools-Pin 0.37.0 → 0.40.0 (`.ce-repo.json`, `ce`, `check.yml`). `core_paths` bleibt `[]`.
