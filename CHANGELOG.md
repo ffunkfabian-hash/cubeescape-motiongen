@@ -9,6 +9,7 @@
   Datentests lesen `["clips"]`. ce-agent-tools `ce_interfaces` ruft Motiongens `validate_manifest` auf und braucht keine Änderung (am Pin
   0.44.1 geprüft). BALLON, Critic und Cube Escape lesen die Dateien nicht maschinell (nur als Herkunftstext).
 - **Test:** `tests/test_schema_version.py` verlangt das Feld in jeder `data/*.json`; Regel in AGENTS.md › Messregeln, README, standard.md › 7.
+- Bericht: [versions/0.md › 0.39.0](docs/versions/0.md#0390-hallmark--2026-11-08), PR [#76](https://github.com/ffunkfabian-hash/cubeescape-motiongen/pull/76).
 
 ## 0.38.9 Patch „pin44-1“ – Pin auf Agent Tools 0.44.1
 
