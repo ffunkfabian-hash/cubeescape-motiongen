@@ -66,7 +66,7 @@ class ShapeTests(unittest.TestCase):
                 self.assertAlmostEqual(reload["dauer_s"][weapon], (end - start) / rate, delta=1.5 / rate, msg=weapon)
 
     def test_every_video_is_listed_in_clips_json(self):
-        clips = json.loads((ROOT / "data/clips.json").read_text(encoding="utf-8"))
+        clips = json.loads((ROOT / "data/clips.json").read_text(encoding="utf-8"))["clips"]
         urls = {entry["clip"] for entry in clips}
         for vid in DATA["videos"]:
             self.assertIn(f"https://www.youtube.com/watch?v={vid}", urls, vid)

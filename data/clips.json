@@ -1,4 +1,4 @@
-[
+{"schema_version": 1, "clips": [
   {
     "measurement": "ADS ein, Scharfschützengewehr",
     "clip": "https://clips.twitch.tv/InexpensiveTenaciousHawkStrawBeary-mddhkbeLsh2ABDA0",
@@ -3413,4 +3413,4 @@
     "source": "Nexxoss Gaming (YouTube), 2022-12-15, „Destiny 2 Verlängertes Engagement Review Deutsch German“, 1920x1080 60/s",
     "timestamps": "Menübild bei 5,000 s (f300); keine Messzeile"
   }
-]
+]}
