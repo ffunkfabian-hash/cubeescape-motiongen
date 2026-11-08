@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.38.9 Patch „pin44-1“ – Pin auf Agent Tools 0.44.1
+
+- Agent-Tools-Pin 0.43.1 → 0.44.1 (`d39ccd9`), Lader `ce` folgt. `core_paths` bleibt `[]`.
+
 ## 0.38.8 Patch „pin-0431“ – Pin auf Agent Tools 0.43.1
 
 - Agent-Tools-Pin 0.42.0 → 0.43.1 (`8adca7d`), Lader `ce` und `check.yml` folgen; Postfach per Label statt fest #16. `core_paths` bleibt `[]`.
