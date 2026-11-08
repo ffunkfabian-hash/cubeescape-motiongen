@@ -34,6 +34,6 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
           pip install numpy
       - name: Werkzeuge aus ce-agent-tools (tools_version)
-        uses: ffunkfabian-hash/ce-agent-tools/.github/actions/ce-tools@d39ccd9cae206e2af7856e80434ee248fe5db04c
+        uses: ffunkfabian-hash/ce-agent-tools/.github/actions/ce-tools@e5e0eb9591351180f2d451bffdbe5f68fd13f4e0
       - name: check.quick aus .ce-repo.json
         run: ./ce check

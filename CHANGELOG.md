@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.39.1 Patch „pin45“ – Pin auf Agent Tools 0.45.0
+
+- Agent-Tools-Pin 0.44.1 → 0.45.0 (`e5e0eb9`), Lader `ce` folgt. `core_paths` bleibt `[]`.
+
 ## 0.39.0 „Hallmark“ – `schema_version` in allen `data/*.json`
 
 - **Format:** alle 20 `data/*.json` tragen `schema_version: 1` als ersten Schlüssel (Version des Dateiformats; `version` bleibt die REF-Version
