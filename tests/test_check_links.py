@@ -10,26 +10,37 @@ check_links = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(check_links)
 
 
+def manifest(entries):
+    return {"schema_version": check_links.SCHEMA_VERSION, "clips": entries}
+
+
 class ManifestTests(unittest.TestCase):
     def test_valid_entry_is_collected(self):
-        errors, clips = check_links.validate_manifest([{"measurement": "ADS", "clip": "url", "source": "channel",
-                                                        "timestamps": "1s"}])
+        errors, clips = check_links.validate_manifest(manifest([{"measurement": "ADS", "clip": "url", "source": "channel",
+                                                                 "timestamps": "1s"}]))
         self.assertEqual(errors, [])
         self.assertEqual(clips, {"url"})
 
     def test_non_object_and_missing_empty_whitespace_or_wrong_type_fields_are_errors(self):
-        errors, clips = check_links.validate_manifest([
+        errors, clips = check_links.validate_manifest(manifest([
             4, {"measurement": " ", "clip": 3, "source": None, "timestamps": ""},
             {"measurement": "ok", "clip": "url", "source": "x"},
-        ])
+        ]))
         self.assertEqual(clips, set())
         self.assertEqual(len(errors), 6)
         self.assertTrue(any("muss ein Objekt" in error for error in errors))
         self.assertTrue(any("timestamps" in error for error in errors))
 
-    def test_root_must_be_a_list(self):
-        errors, _ = check_links.validate_manifest({})
-        self.assertTrue(errors)
+    def test_root_must_be_a_versioned_object(self):
+        """0.39 „Hallmark“: the bare list (format up to 0.38) and an object without version or clips are errors."""
+        entry = {"measurement": "ADS", "clip": "url", "source": "channel", "timestamps": "1s"}
+        for bad in ({}, [entry], "x", {"clips": [entry]}, {"schema_version": True, "clips": [entry]},
+                    {"schema_version": "1", "clips": [entry]}, {"schema_version": 2, "clips": [entry]},
+                    manifest([]), manifest({"a": entry})):
+            errors, clips = check_links.validate_manifest(bad)
+            self.assertEqual(len(errors), 1, bad)
+            self.assertEqual(clips, set(), bad)
+        self.assertIn("alte Liste", check_links.validate_manifest([entry])[0][0])
 
 
 class AnchorTests(unittest.TestCase):

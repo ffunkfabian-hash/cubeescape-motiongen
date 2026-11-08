@@ -78,7 +78,7 @@ class ShapeTests(unittest.TestCase):
             self.assertAlmostEqual(row["zeit_s"], first / fps, delta=0.05, msg=row["id"])
 
     def test_videos_are_youtube_ids_listed_in_clips_json(self):
-        clips = json.loads((ROOT / "data/clips.json").read_text(encoding="utf-8"))
+        clips = json.loads((ROOT / "data/clips.json").read_text(encoding="utf-8"))["clips"]
         urls = {entry["clip"] for entry in clips}
         for vid in DATA["videos"]:
             self.assertRegex(vid, r"^[A-Za-z0-9_-]{11}$")

@@ -93,7 +93,7 @@ class ShapeTests(unittest.TestCase):
             self.assertIn(weapon, BALLON_CLASSES)
 
     def test_measured_videos_are_listed_in_clips_json(self):
-        clips = json.loads((ROOT / "data/clips.json").read_text(encoding="utf-8"))
+        clips = json.loads((ROOT / "data/clips.json").read_text(encoding="utf-8"))["clips"]
         urls = {entry["clip"] for entry in clips}
         for row in DATA["rows"]:
             for vid in row["videos"]:

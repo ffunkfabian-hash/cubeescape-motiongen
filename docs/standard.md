@@ -102,7 +102,7 @@ Gilt für Zuarbeiten und als Gliederung des späteren Docs:
 ## 7. Einpflegen ins Repo
 
 - Doc `docs/<thema>.md` mit Status-Legende, Quellen und Methode, Messtabelle, Mustern, Bewertung (Abschnitt E), Vorschlägen und „offen“;
-  `data/<thema>.json`; Kernmessungen in `data/clips.json`; benannte Anker für zitierte Zeilen; Lehre in `docs/LESSONS.md`; CHANGELOG und
+  `data/<thema>.json` (Objekt, erster Schlüssel `schema_version`, siehe AGENTS.md › Messregeln); Kernmessungen in `data/clips.json` › `clips`; benannte Anker für zitierte Zeilen; Lehre in `docs/LESSONS.md`; CHANGELOG und
   Versionsbericht.
 - Prüfung: `./check`, `git diff --check`, Codex-Richter bis Freigabe; Merge nur durch Sightline nach Ja des Nutzers.
 - **Parallele Sitzungen im selben Repo:** eigene Dateien (`docs/<thema>.md`, `data/<thema>.json`) parallel bearbeiten; die gemeinsamen

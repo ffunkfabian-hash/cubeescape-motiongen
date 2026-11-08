@@ -30,8 +30,11 @@ keine privaten Daten, keine Bild- oder Videodateien aus fremden Aufnahmen (nur V
   Quellenpflicht per yt-dlp, Bewertung „gut / nicht so gut / für wen“ mit Spielerstimmen und Entwickler-Referenzen, Unteragenten je Thema bei
   großen Analysen, Prüfung jeder Zuarbeit vor dem Einpflegen. Aufträge an Codex/Antigravity aus [docs/vorlagen/auftrag-analyse.md](docs/vorlagen/auftrag-analyse.md).
 - Eine Messung = eine Zeile in der Messtabelle des Spiels (`docs/<spiel>.md` › 2) **und** ein Eintrag in `data/clips.json`
-  (Messung, Clip-URL, Quelle mit Kanal/Datum, Zeitstempel). Zahlen eines Clips sind Beispiele einer Waffe, keine Archetyp-Mittelwerte;
+  (Liste `clips`: Messung, Clip-URL, Quelle mit Kanal/Datum, Zeitstempel). Zahlen eines Clips sind Beispiele einer Waffe, keine Archetyp-Mittelwerte;
   Perks/Stats sind unbekannt – auffällig kurze Zeiten so einordnen.
+- Jede `data/*.json` ist ein Objekt mit `schema_version` (ganze Zahl, erster Schlüssel) = Version des **Dateiformats**; `version` ist die
+  REF-Version des **Inhalts**. Formänderung (Feld umbenannt/entfernt, Typ, Wurzel) → `schema_version` + 1, Migration aller Dateien und Leser im
+  selben PR (Regel 7, als Version mit Richter); neue Felder dazu brauchen keine neue Nummer. `tests/test_schema_version.py` prüft das.
 - Verweise auf Messzeilen, Methoden und Steckbriefe nur über benannte Anker (`<a id="z-…"></a>` am Ende des ersten Feldes der Zeile), nie über Zeilennummern (`#L123`):
   Einschübe verschieben sie, ohne dass ein Test es merkt. `./check` (`tools/check_links.py`) lehnt `#L…` ab und prüft, dass jeder `#anker` im Zielsatz existiert.
 - Genauigkeit: ±1 Bild bei nativer Rate (60/s = 16,7 ms), ±0,05 s bei 10/s; Lage im Bild in Prozent (Breite / Höhe, Ursprung oben links,

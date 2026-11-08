@@ -30,7 +30,7 @@ Toolgen und das Design-Repo lesen hier; entschieden und umgesetzt wird dort.
 | [docs/nahkampf.md](docs/nahkampf.md) | Schwert und Glefe: Form an 17 Destiny-Manifestbildern, Destiny-Schulteransicht (Kamera, Ein-/Ausstieg, Angriffe, Block), Ego-Schwerter in Dark Messiah, Chivalry 2, Halo Infinite, Ghostrunner, Glefe in Ego, Entscheidungsvorlage für BALLON Paket 7 (`data/nahkampf.json`) |
 | [docs/auswertung.md](docs/auswertung.md) | Gesamtauswertung: Vergleich der Vorgänge, belegte Muster, Widersprüche und offene Fragen |
 | `docs/cube-escape.md` | Cube Escape selbst, mit denselben Messgrößen vermessen (eigene 60-fps-Aufnahmen aus der Testkopie): Messungen, Steckbriefe je Gerät, Vergleich mit den Vorbildern |
-| `data/clips.json` | Clip-Verzeichnis: Messung, Clip-URL, Quelle, Zeitstempel |
+| `data/clips.json` | Clip-Verzeichnis `{"schema_version": 1, "clips": [...]}`: Messung, Clip-URL, Quelle, Zeitstempel |
 | `tools/reference_frames.py` | Werkzeug: Clips finden/laden, Kontaktbögen (2/s, 10/s, native Rate), Mittenkreuz |
 | `tests/` | Werkzeugtests (`./check`) |
 | `ce` | Einstieg in die gemeinsamen Werkzeuge (Lader aus ce-agent-tools, Stand in `.ce-repo.json` › `tools_version`; keine eingebettete Kopie) |

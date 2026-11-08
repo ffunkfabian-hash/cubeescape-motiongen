@@ -8,15 +8,26 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+# 0.39 „Hallmark“: data/clips.json is {"schema_version": 1, "clips": [...]}; up to 0.38 the root was the bare list (no version).
+SCHEMA_VERSION = 1
 
 
 def validate_manifest(manifest: object) -> tuple[list[str], set[str]]:
     errors = []
     clips = set()
-    if not isinstance(manifest, list):
-        return ["data/clips.json: Wurzel muss eine Liste sein"], clips
+    if isinstance(manifest, list):
+        return ["data/clips.json: Wurzel ist die alte Liste ohne Version – seit 0.39 "
+                '{"schema_version": 1, "clips": [...]}'], clips
+    if not isinstance(manifest, dict):
+        return ['data/clips.json: Wurzel muss ein Objekt {"schema_version", "clips"} sein'], clips
+    version = manifest.get("schema_version")
+    if type(version) is not int or version != SCHEMA_VERSION:
+        return [f"data/clips.json.schema_version: erwartet {SCHEMA_VERSION}, gefunden {version!r}"], clips
+    entries = manifest.get("clips")
+    if not isinstance(entries, list) or not entries:
+        return ["data/clips.json.clips: muss eine nichtleere Liste sein"], clips
     required = ("measurement", "clip", "source", "timestamps")
-    for index, entry in enumerate(manifest):
+    for index, entry in enumerate(entries):
         if not isinstance(entry, dict):
             errors.append(f"data/clips.json[{index}]: Eintrag muss ein Objekt sein")
             continue
@@ -87,9 +98,10 @@ def main() -> int:
         manifest = json.loads((ROOT / "data/clips.json").read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError) as exc:
         errors.append(f"data/clips.json: ungültige JSON-Datei: {exc}")
-        manifest = []
-    manifest_errors, clips = validate_manifest(manifest)
-    errors.extend(manifest_errors)
+        clips = set()
+    else:
+        manifest_errors, clips = validate_manifest(manifest)
+        errors.extend(manifest_errors)
     for page in (ROOT / "docs").glob("*.md"):
         for line in page.read_text(encoding="utf-8").splitlines():
             if not line.startswith("| **"):
