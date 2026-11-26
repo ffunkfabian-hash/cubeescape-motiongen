@@ -4,7 +4,7 @@
     "file": "CHANGELOG.md",
     "pattern": "(?m)^## (\\d+\\.\\d+(?:\\.\\d+)?)"
   },
-  "version_name": "Hallmark",
+  "version_name": "Stride",
   "check": {
     "quick": [
       [
