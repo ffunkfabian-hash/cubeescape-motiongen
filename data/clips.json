@@ -3414,9 +3414,9 @@
     "timestamps": "Menübild bei 5,000 s (f300); keine Messzeile"
   },
   {
-    "measurement": "REF 0.40 Stride: Titan-Lauf von hinten 3,42 Schritte/s (vorläufig; Autokorrelation, Zyklus 35,1 Bilder über 7 Zyklen)",
+    "measurement": "REF 0.40 Stride: Titan-Lauf von hinten mit Schwert in der Hand 3,42 Schritte/s (vorläufig; Autokorrelation, Zyklus 35,1 Bilder, Spitzen bis 3 Zyklen in einem Fenster von 7,3)",
     "clip": "https://www.youtube.com/watch?v=8dHn4G78L2o",
-    "source": "Host of Games (YouTube), 2021-12-21, „Destiny 2 Titan 3rd Person Mode Build“, 1920x1080 60/s (58,7 echt im Messfenster)",
-    "timestamps": "71,333–75,600 s (n 4280–4535); Ruckler n 4273–4279 davor; Haltung und Lage im Bild bei 71,000 s (n 4260)"
+    "source": "Host of Games (YouTube), 2021-12-21, „Destiny 2 Titan 3rd Person Mode Build“, 1920x1080 60/s (im Messfenster ohne Wiederholung)",
+    "timestamps": "71,333–75,600 s (n 4280–4535); Ruckler davor (n 4272 und 7 Wiederholungen bis n 4279); Haltung und Lage im Bild bei 71,000 s (n 4260)"
   }
 ]}

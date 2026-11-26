@@ -1309,12 +1309,12 @@
     {
       "game": "Destiny 2",
       "weight": "heavy",
-      "capture": "retail",
+      "capture": "showcase",
       "frames": 256,
       "kh_px": null,
       "step_hz": 3.42,
       "cycle_frames": 35.1,
-      "cycles": 7,
+      "cycles": 3,
       "contacts": null,
       "stride_kh": null,
       "bob_kh": null,
@@ -1331,21 +1331,21 @@
       ],
       "contributor": "Sitzung REF 0.40",
       "version": "0.40.0",
-      "subject": "Titan (Behemoth, Schwert in dritter Person), eigene Figur von hinten",
+      "subject": "Titan (Behemoth), eigene Figur von hinten, Schwert in der rechten Hand",
       "action": "run",
       "status": "M",
       "provisional": true,
       "source_url": "https://www.youtube.com/watch?v=8dHn4G78L2o",
       "channel": "Host of Games",
       "upload_date": "2021-12-21",
-      "fps_real": 58.7,
+      "fps_real": 60.0,
       "timestamp": "71.333-75.600",
-      "notes": "Autokorrelation der Bildfolge an zwei Ausschnitten (Beine: Spitzen 34.9/71.1/107.0 Bilder, Nebenspitzen 56.9/94.7; ganze Figur: 34.6/69.5) -> je Zyklus 34.6-35.7, Mittel 35.1 Bilder, 3.36-3.47 Schritte/s. Vorlaeufig: Selbstaehnlichkeit statt Posengleichheit, Lauf/Sprint nicht trennbar, Normaltempo nicht belegt; Ruckler n4273-4279 davor."
+      "notes": "Autokorrelation der Bildfolge an zwei Ausschnitten (Beine: Spitzen 34.9/71.1/107.0 Bilder, Nebenspitzen 56.9/94.7; ganze Figur: 34.6/69.5) -> je Zyklus 34.6-35.7, Mittel 35.1 Bilder, 3.36-3.47 Schritte/s. Fenster 256 Bilder = 7.3 Zyklen, Spitzen bis 3 Zyklen. Vorlaeufig: keine 4 einzeln belegten Zyklen an fester Marke, Lauf/Sprint nicht trennbar, Schwert gezogen (freier Lauf nicht belegt), Normaltempo nicht belegt. Ruckler n4272-4279 davor (58.7/s nur ueber 70.0-75.6 s)."
     },
     {
       "game": "Destiny 2",
       "weight": "heavy",
-      "capture": "retail",
+      "capture": "showcase",
       "frames": null,
       "kh_px": null,
       "step_hz": null,
@@ -1365,13 +1365,13 @@
       ],
       "contributor": "Sitzung REF 0.40",
       "version": "0.40.0",
-      "subject": "Titan (Behemoth), eigene Figur von hinten: Auf und Ab, Seitpendeln",
+      "subject": "Titan (Behemoth), Schwert in der Hand, von hinten: Auf und Ab, Seitpendeln",
       "action": "run",
       "status": "O",
       "source_url": "https://www.youtube.com/watch?v=8dHn4G78L2o",
       "channel": "Host of Games",
       "upload_date": "2021-12-21",
-      "fps_real": 58.7,
+      "fps_real": 60.0,
       "timestamp": "71.400-72.400",
       "notes": "Helmvorlage: ein senkrechter Ausschlag je Schritt (16-18 Bilder), ein seitlicher je Zyklus (ca. 35 Bilder); grob 10-20 px bzw. 15-30 px bei 300 px Figurhoehe. Kein Messwert: NCC 0.5-0.7 unter der Schwelle 0.85."
     },
@@ -1392,7 +1392,7 @@
       "phases": null,
       "normal_speed": null,
       "speed_evidence": null,
-      "camera": "dicht hinter der Figur, Bildrand auf Mitte Oberschenkel, Figur 55-60 % H",
+      "camera": "dicht hinter der Figur, Bildrand meist auf Mitte Oberschenkel",
       "evidence": [
         "stride/sheets/nemo_205_native.jpg",
         "stride/sheets/nemo_280_316.jpg"
@@ -1400,14 +1400,14 @@
       "contributor": "Sitzung REF 0.40",
       "version": "0.40.0",
       "subject": "Titan, eigene Figur im Turm von hinten (Oberkoerper)",
-      "action": "walk",
+      "action": null,
       "status": "O",
       "source_url": "https://www.youtube.com/watch?v=Ty0mkrIdu1s",
       "channel": "Nemo_0688",
       "upload_date": "2019-10-17",
       "fps_real": 29.97,
       "timestamp": "205.0-207.4",
-      "notes": "Beine nicht im Bild. Oberkoerper ruhig und aufrecht, Arme leicht gebeugt neben dem Koerper, Haende auf Huefthoehe, kleiner Armschwung. Takt nicht bestimmbar (Autokorrelation: 35/39/60/63 Bilder an vier Ausschnitten, 30/s)."
+      "notes": "Beine meist nicht im Bild (Bildrand auf Mitte Oberschenkel, sichtbarer Teil ca. 50 % H; 302-307 s bis zum Knie). Oberkoerper ruhig und aufrecht, Arme frei, leicht gebeugt neben dem Koerper, Haende auf Huefthoehe, kleiner Armschwung. Gehen oder Laufen nicht bestimmt; Takt nicht bestimmbar (Autokorrelation: 35/39/60/63 Bilder an vier Ausschnitten, 30/s)."
     }
   ],
   "weapon_body": [

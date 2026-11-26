@@ -3,8 +3,8 @@
 ## 0.40.0 „Stride“ – Titan-Gang von außen
 
 - **Neu:** [aussenansicht.md › 2.2](docs/aussenansicht.md#22-titan-gang-von-außen--ref-040) – der Destiny-Titan von außen, Anlass ist der Gang der
-  Rüstungsfigur „Bastion“ (`kybos_body`). Eine Zahl: **Lauf von hinten 3,4 Schritte/s** (vorläufig; Autokorrelation an zwei Ausschnitten über
-  7 Zyklen, Zyklus 35,1 Bilder). Auf und Ab (ein Ausschlag je Schritt) und Seitpendeln (einer je Zyklus) nur gesichtet; Oberkörper des Titans im
+  Rüstungsfigur „Bastion“ (`kybos_body`). Eine Zahl: **Lauf von hinten mit Schwert in der Hand 3,4 Schritte/s** (vorläufig; Autokorrelation an zwei
+  Ausschnitten, Spitzen bis 3 Zyklen in einem Fenster von 7,3, Zyklus 35,1 Bilder). Auf und Ab (ein Ausschlag je Schritt) und Seitpendeln (einer je Zyklus) nur gesichtet; Oberkörper des Titans im
   Turm gesichtet (ruhiger Rumpf, Arme leicht gebeugt neben dem Körper, kleiner Armschwung).
 - **Offen bleibt** (mit Grund in › 7): Titan-Gehen und die Beine im Turm (Kamera schneidet auf Mitte Oberschenkel), Schrittlänge, Fußaufsatz, Hub in
   KH, Vorlage, Lauf gegen Sprint, Normaltempo. Zwei der vier geprüften Videos zeigen keinen Titan.
