@@ -3412,5 +3412,11 @@
     "clip": "https://www.youtube.com/watch?v=HPdfLN6knaQ",
     "source": "Nexxoss Gaming (YouTube), 2022-12-15, „Destiny 2 Verlängertes Engagement Review Deutsch German“, 1920x1080 60/s",
     "timestamps": "Menübild bei 5,000 s (f300); keine Messzeile"
+  },
+  {
+    "measurement": "REF 0.40 Stride: Titan-Lauf von hinten 3,42 Schritte/s (vorläufig; Autokorrelation, Zyklus 35,1 Bilder über 7 Zyklen)",
+    "clip": "https://www.youtube.com/watch?v=8dHn4G78L2o",
+    "source": "Host of Games (YouTube), 2021-12-21, „Destiny 2 Titan 3rd Person Mode Build“, 1920x1080 60/s (58,7 echt im Messfenster)",
+    "timestamps": "71,333–75,600 s (n 4280–4535); Ruckler n 4273–4279 davor; Haltung und Lage im Bild bei 71,000 s (n 4260)"
   }
 ]}

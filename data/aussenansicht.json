@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "version": "0.33.0",
-  "name": "Gaitline",
-  "date": "2026-10-30",
+  "version": "0.40.0",
+  "name": "Stride",
+  "date": "2026-11-26",
   "doc": "docs/aussenansicht.md",
   "consumer": "Critic (Roboter-Ganzkörper, three.js), BALLON (Waffe am Körper von außen), später Cube Escape (Isometrie-Kamera)",
   "units": "Körperhöhen KH (stehende Figur = 1,0, am selben Bild); Bildlagen in Prozent der Bildbreite/-höhe [x, y], Ursprung oben links; Zeiten in Bildern der Quellrate (60/s bzw. 59,94/s); Takt in Schritten/s; null = unbekannt",
@@ -1305,6 +1305,109 @@
       ],
       "contributor": "Unteragent gears-division (0.33)",
       "version": "0.33.0"
+    },
+    {
+      "game": "Destiny 2",
+      "weight": "heavy",
+      "capture": "retail",
+      "frames": 256,
+      "kh_px": null,
+      "step_hz": 3.42,
+      "cycle_frames": 35.1,
+      "cycles": 7,
+      "contacts": null,
+      "stride_kh": null,
+      "bob_kh": null,
+      "sway_kh": null,
+      "arm_swing": null,
+      "phases": null,
+      "normal_speed": null,
+      "speed_evidence": null,
+      "camera": "hinter und über der Figur, Figur 28 % H",
+      "evidence": [
+        "stride/hg_legs.npy",
+        "stride/hg_run.npy",
+        "stride/sheets/hg_71_native.jpg"
+      ],
+      "contributor": "Sitzung REF 0.40",
+      "version": "0.40.0",
+      "subject": "Titan (Behemoth, Schwert in dritter Person), eigene Figur von hinten",
+      "action": "run",
+      "status": "M",
+      "provisional": true,
+      "source_url": "https://www.youtube.com/watch?v=8dHn4G78L2o",
+      "channel": "Host of Games",
+      "upload_date": "2021-12-21",
+      "fps_real": 58.7,
+      "timestamp": "71.333-75.600",
+      "notes": "Autokorrelation der Bildfolge an zwei Ausschnitten (Beine: Spitzen 34.9/71.1/107.0 Bilder, Nebenspitzen 56.9/94.7; ganze Figur: 34.6/69.5) -> je Zyklus 34.6-35.7, Mittel 35.1 Bilder, 3.36-3.47 Schritte/s. Vorlaeufig: Selbstaehnlichkeit statt Posengleichheit, Lauf/Sprint nicht trennbar, Normaltempo nicht belegt; Ruckler n4273-4279 davor."
+    },
+    {
+      "game": "Destiny 2",
+      "weight": "heavy",
+      "capture": "retail",
+      "frames": null,
+      "kh_px": null,
+      "step_hz": null,
+      "cycle_frames": null,
+      "cycles": null,
+      "contacts": null,
+      "stride_kh": null,
+      "bob_kh": null,
+      "sway_kh": null,
+      "arm_swing": null,
+      "phases": null,
+      "normal_speed": null,
+      "speed_evidence": null,
+      "camera": null,
+      "evidence": [
+        "stride/track_head.json"
+      ],
+      "contributor": "Sitzung REF 0.40",
+      "version": "0.40.0",
+      "subject": "Titan (Behemoth), eigene Figur von hinten: Auf und Ab, Seitpendeln",
+      "action": "run",
+      "status": "O",
+      "source_url": "https://www.youtube.com/watch?v=8dHn4G78L2o",
+      "channel": "Host of Games",
+      "upload_date": "2021-12-21",
+      "fps_real": 58.7,
+      "timestamp": "71.400-72.400",
+      "notes": "Helmvorlage: ein senkrechter Ausschlag je Schritt (16-18 Bilder), ein seitlicher je Zyklus (ca. 35 Bilder); grob 10-20 px bzw. 15-30 px bei 300 px Figurhoehe. Kein Messwert: NCC 0.5-0.7 unter der Schwelle 0.85."
+    },
+    {
+      "game": "Destiny 2",
+      "weight": "heavy",
+      "capture": "retail",
+      "frames": null,
+      "kh_px": null,
+      "step_hz": null,
+      "cycle_frames": null,
+      "cycles": null,
+      "contacts": null,
+      "stride_kh": null,
+      "bob_kh": null,
+      "sway_kh": null,
+      "arm_swing": null,
+      "phases": null,
+      "normal_speed": null,
+      "speed_evidence": null,
+      "camera": "dicht hinter der Figur, Bildrand auf Mitte Oberschenkel, Figur 55-60 % H",
+      "evidence": [
+        "stride/sheets/nemo_205_native.jpg",
+        "stride/sheets/nemo_280_316.jpg"
+      ],
+      "contributor": "Sitzung REF 0.40",
+      "version": "0.40.0",
+      "subject": "Titan, eigene Figur im Turm von hinten (Oberkoerper)",
+      "action": "walk",
+      "status": "O",
+      "source_url": "https://www.youtube.com/watch?v=Ty0mkrIdu1s",
+      "channel": "Nemo_0688",
+      "upload_date": "2019-10-17",
+      "fps_real": 29.97,
+      "timestamp": "205.0-207.4",
+      "notes": "Beine nicht im Bild. Oberkoerper ruhig und aufrecht, Arme leicht gebeugt neben dem Koerper, Haende auf Huefthoehe, kleiner Armschwung. Takt nicht bestimmbar (Autokorrelation: 35/39/60/63 Bilder an vier Ausschnitten, 30/s)."
     }
   ],
   "weapon_body": [
@@ -3109,7 +3212,8 @@
     "Erkennbarkeitsschwelle der Waffenklasse in % H (keine Figur in mehreren Abständen)",
     "Normaltempo Gears/Warframe-Showcases (kein Uhr-Beleg)",
     "Ego-Gegenwert der Hand an derselben Waffe (nur aus Modellmaßen)",
-    "Warframe-Animationssets Noble/Agile im Vergleich"
+    "Warframe-Animationssets Noble/Agile im Vergleich",
+    "Titan-Gehen und Beine im Turm (Kamera schneidet auf Mitte Oberschenkel), Schrittlänge/Hub/Vorlage des Titans – eigener Mitschnitt mit Seitenkamera nötig (0.40)"
   ],
   "youtube_followup": [
     {
@@ -3199,7 +3303,7 @@
     {
       "id": "HCI6oocEksk",
       "fps": 60,
-      "note": "Destiny 2 dritte Person (IGN 2017)",
+      "note": "Destiny 2 dritte Person (IGN 2017) – 0.40: Warlock, kein Titan",
       "checked_0_33": true
     },
     {
@@ -3235,7 +3339,7 @@
     {
       "id": "cGCwARvHGX0",
       "fps": 60,
-      "note": "Destiny 2 Weird Walking Animation",
+      "note": "Destiny 2 Weird Walking Animation – 0.40: Ego-Sicht, kein eigener Titan von außen",
       "checked_0_33": true
     },
     {
@@ -3333,6 +3437,18 @@
       "fps": 60,
       "note": "Warframe Voidrig (Mactics) – Mech nie zu Fuß, nicht wieder versuchen",
       "checked_0_33": true
+    },
+    {
+      "id": "8dHn4G78L2o",
+      "fps": 60,
+      "note": "Destiny 2 Titan mit Schwert, Lauf von hinten 68–78 s (0.40 gemessen)",
+      "checked_0_33": false
+    },
+    {
+      "id": "Ty0mkrIdu1s",
+      "fps": 30,
+      "note": "Destiny 2 Titan im Turm von hinten, nur Oberkörper, 30/s (0.40 gesichtet); frontaler zweiter Titan ≈ 284–293 s offen",
+      "checked_0_33": false
     }
   ],
   "capture": {

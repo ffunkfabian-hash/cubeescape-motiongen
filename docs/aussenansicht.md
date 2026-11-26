@@ -31,6 +31,13 @@ ebenso **Pilot ↔ Titan und Warframe ↔ Necramech im Gang** (kein Titan-/Mech-
 **Kamerakick** (Destiny-Glitch 2,4–3,5 pp, Gears Gnasher ≥ 7,6 pp) bei kleinem Körperausschlag (≈ 0,03 KH). Ein Gierversatz Beine ↔ Oberkörper
 kommt in keinem der 20 Videos vor.
 
+**Kurzbefund REF 0.40 „Stride“ (Mac, 26.11.2026; vier YouTube-Quellen, [1.2](#12-quellen-ref-040-youtube-mac), [2.2](#22-titan-gang-von-außen--ref-040)).**
+Anlass war der Gang der Rüstungsfigur „Bastion“ (Repo `kybos_body`): gefragt war der **Destiny-Titan** beim Gehen und Laufen. Belegt ist nur
+ein Vorgang: **Titan im Lauf von hinten 3,4 Schritte/s** (vorläufig; Autokorrelation über 7 Zyklen, Zyklus 35,1 Bilder), nahe am Warlock-Lauf
+aus 0.33 (3,2–3,3). Der Körper hebt und senkt sich dabei einmal je Schritt und pendelt einmal je Zyklus zur Seite – beides nur gesichtet.
+Im Turm schneidet die Kamera den Titan auf Mitte Oberschenkel ab: **Beine, Fußaufsatz, Schrittlänge, Hub in KH und Vorlage bleiben offen**;
+zu sehen ist nur der Oberkörper (ruhig, Arme leicht gebeugt neben dem Körper, kleiner Armschwung). Zwei der vier Quellen zeigen keinen Titan.
+
 ## 1. Quellen und Methode
 
 - **Videos [M]:** Twitch-Clips (1080p/900p, echte 60/s – Doppelbilder per Bilddifferenz geprüft), ganz geladen; **Clipzeit = Originalzeit**,
@@ -109,6 +116,19 @@ Kopf-Tiefpunkte); ein voller Zyklus wird von der halben Periode (Spiegelpose) ü
 per Bildvergleich gegen die 144p-Gesamtkopie verortet (Taskinoz +1088,000 / +655,000 s, ±0,033 s – kein Versatz wie in
 [nahkampf.md › 10](nahkampf.md#10-offen-und-nicht-messbar)).
 
+### 1.2 Quellen REF 0.40 (YouTube, Mac)
+
+Alle vier per `yt-dlp --print "%(channel)s|%(upload_date)s|%(title)s"` geprüft und mit `tools/reference_frames.py fetch` in den Cache
+geladen (356 MB, `~/Library/Caches/CubeEscape/reference/aussenansicht/stride/`); Bildrate aus `ffprobe`. Gemessen mit einem Arbeitsskript im
+Cache (`stride_measure.py`: Graubild-Ausschnitte in der Bildrate der Quelle, Autokorrelation der Bildfolge, Vorlagensuche per NCC).
+
+| Kürzel | ID | Kanal \| Datum \| Titel | Bild | Art | Nutzen |
+|---|---|---|---|---|---|
+| <a id="a-q-hg"></a>**D-HG** | [`8dHn4G78L2o`](https://www.youtube.com/watch?v=8dHn4G78L2o) | Host of Games \| 21.12.2021 \| Destiny 2 Titan 3rd Person Mode Build | 1080p, 60/s (58,7 echt im Messfenster) | retail (Schwert: dritte Person) | Titan (Behemoth) läuft 68–78 s von hinten durch einen Gang; danach Kampf mit Effekten |
+| <a id="a-q-nm"></a>**D-NM** | [`Ty0mkrIdu1s`](https://www.youtube.com/watch?v=Ty0mkrIdu1s) | Nemo_0688 \| 17.10.2019 \| Destiny 2 in 2019 (No HUD) Walking Around the Tower | 1080p, **29,97/s** | retail (Turm, ohne HUD) | Titan im Turm von hinten, 341 s; nur Form und Lage (30/s) |
+| D-IG | [`HCI6oocEksk`](https://www.youtube.com/watch?v=HCI6oocEksk) | IGN \| 24.12.2017 \| How to Play Destiny 2 in Third Person | 1080p, 59,94/s | glitch | **kein Titan** (Anleitung verlangt Warlock) – für diese Frage nicht verwertbar |
+| D-ZS | [`cGCwARvHGX0`](https://www.youtube.com/watch?v=cGCwARvHGX0) | Zer0 SP \| 16.01.2021 \| Destiny 2 \| Weird Walking Animation | 1080p, 59,94/s | retail | Ego-Sicht, fremde Figuren klein und dunkel – **kein eigener Titan von außen** |
+
 ## 2. Ziel 1 – Körperbewegung von außen
 
 | Vorgang | Quelle, Zeit (Bilder) | Messung |
@@ -155,6 +175,28 @@ Gears Gehen 3,00 → Roadie Run 4,17 – Tempo kommt vor allem über die Schritt
 Anschlag nach 46) und Landung, wie in 0.32 beim Titan. (3) Der Warframe-Gehtakt aus 0.32 (1,72 Schritte/s, [Gehen](#a-wf-gehen)) ist ein
 anderer Vorgang (Gehen im Devstream) und bleibt vorläufig; Laufen außen (3,81) liegt nahe am Ego-Sprint-Wippen von Destiny (3,16 Hz vertikal
 = ein Ausschlag je Schritt) – verschiedene Spiele und Vorgänge, nicht gleichsetzen.
+
+### 2.2 Titan-Gang von außen – REF 0.40
+
+Quellen in [1.2](#12-quellen-ref-040-youtube-mac). Schritte/s = 2 ÷ Zyklusdauer. Bildnummern n = Medienzeit × 60.
+
+| Vorgang | Quelle, Zeit (Bilder) | Messung |
+|---|---|---|
+| **Lauf von hinten, Titan (Destiny 2, Behemoth mit Schwert)** [M, vorläufig] <a id="a-s-titan-lauf"></a> | D-HG, 71,333–75,600 s (n 4280 → n 4535) | Autokorrelation der Bildfolge (jedes Bild gegen das um L Bilder spätere, Mittel über das Fenster) an zwei Ausschnitten: **Beine** (39–48 % B, 58–80 % H) Spitzen bei L = 34,9 / 71,1 / 107,0 Bildern (r 0,53 / 0,37 / 0,24), dazu Nebenspitzen bei 56,9 und 94,7 (r 0,32 / 0,24), die kein Vielfaches sind; der Halbzyklus (Spiegelpose, 17 Bilder) zeigt sich nur im längeren Fenster ab 70,0 s als flache Spitze (r 0,39); **ganze Figur** (37–52 % B, 33–84 % H) Spitzen bei 34,6 / 69,5 (r 0,74 / 0,60) → je Zyklus 34,9 / 35,6 / 35,7 und 34,6 / 34,8 Bilder, Mittel **35,1 Bilder (0,585 s; Spanne 34,6–35,7) = 3,42 Schritte/s** (3,36–3,47). Fenster 256 Bilder = 7,3 Zyklen. **Vorläufig**, weil der Takt aus der Selbstähnlichkeit der Folge kommt und nicht aus einzelnen gleichen Posen (Posengleichheit gegen ein Bezugsbild nur r 0,25–0,45: der Gang-Hintergrund zieht durch den Ausschnitt), weil Lauf und Sprint nicht trennbar sind (keine Eingabeanzeige) und das **Normaltempo nicht belegt** ist (keine Uhr im Bild). Davor ein Ruckler: 7 gleiche Bilder n 4273–4279 (echte Rate im Fenster 70,0–75,6 s: 58,7/s) – deshalb beginnt die Messung bei n 4280 |
+| Auf und Ab, Seitpendeln im Lauf (Titan) [O] <a id="a-s-titan-hub"></a> | D-HG, 71,4–72,4 s (n 4284 → n 4344) | Vorlagensuche am Helm (44–48,5 % B, 46,5–54 % H): Lage wechselt senkrecht mit **einem Ausschlag je Schritt** (Hochpunkte im Abstand 16–18 Bilder), seitlich mit **einem je Zyklus** (≈ 35 Bilder); Ausschlag grob 10–20 px senkrecht und 15–30 px seitlich bei 300 px Figurhöhe. **Kein Messwert:** NCC nur 0,5–0,7 (Schwelle 0,85; der Helm schillert und dreht sich), nach 60 Bildern springt die Vorlage; dazu Drift durch Kamera und Perspektive |
+| Figur im Bild und Haltung im Lauf (Titan) [M Lage]/[O] | D-HG, 71,000 s (n 4260) | Scheitel 47 % H, tiefster Fuß 75 % H → **laufende Figur 28 % H** (300 px), Körpermitte 46 % B; Kamera hinter und über der Figur. [O]: Ellbogen stark gebeugt, Unterarme pendeln vor dem Körper, Ellbogen stehen seitlich ab; der hintere Fuß schwingt mit der Sohle zur Kamera bis etwa Kniehöhe; Schultern rollen; das Schwert liegt quer auf Hüfthöhe und bleibt ruhig. Vorlage des Oberkörpers von hinten nicht messbar |
+| Oberkörper beim Gehen/Laufen im Turm (Titan) [O] <a id="a-s-titan-turm"></a> | D-NM, 205,0–207,4 s (72 Bilder bei 29,97/s), Übersicht 280–316 s | Kamera dicht hinter der Figur, **Bildrand schneidet auf Mitte Oberschenkel** (Figur grob 55–60 % H, am Bogen geschätzt) → Beine, Füße, Schrittlänge nicht sichtbar. Oberkörper ruhig und aufrecht; Arme hängen leicht gebeugt neben dem Körper, Hände auf Hüfthöhe und durch Brust und Schulterpanzer vom Körper abgehalten; **kleiner Armschwung**; Waffe am Rücken bleibt ruhig. Takt nicht bestimmbar: Autokorrelation an vier Ausschnitten aus drei Zeitfenstern (118–124, 204–209, 296–300 s) gibt vier verschiedene Perioden (35 / 39 / 60 / 63 Bilder bei 30/s), der Hintergrund überwiegt; 30/s taugt nach dem Standard ohnehin nur für Form und Lage |
+| Zweiter Titan läuft auf die Kamera zu (Turm) [O] | D-NM, ≈ 284–293 s | Ein fremder Titan (helle Rüstung) kommt frontal auf die Kamera zu, ganze Figur sichtbar; nur im 2,5/s-Bogen gesichtet, nicht vermessen – **Kandidat** für Standbreite und Armhaltung von vorn (30/s) |
+
+**Muster 2.2 (Beobachtung):** (1) Der Titan läuft im Takt wie die anderen Figuren: 3,4 Schritte/s liegt zwischen dem Destiny-Warlock (3,2–3,3,
+[0.33](#a-g-d2-lauf)) und Warframe (3,81); das Bild der schweren Klasse entsteht auch hier nicht über einen langsamen Takt. (2) Die
+Turm-Kamera zeigt vom eigenen Titan nur den Oberkörper – wer den Titan „im Turm“ als Vorbild nimmt, sieht breite Schultern, ruhigen Rumpf und
+wenig Armschwung, aber keine Beine. (3) Aus beiden Quellen zusammen: Arme gebeugt und seitlich abgehalten, nicht als gestrecktes Pendel.
+
+**Folgerungen für einen Gangzyklus einer schweren Rüstungsfigur (Vorschlag; entschieden wird im abnehmenden Repo):** Lauf mit **3,0–3,4
+Schritten/s** (Gears-Gehen 3,00 [M], Titan-Lauf 3,4 [M, vorläufig]); Gewicht über Haltung zeigen – gebeugte, seitlich abgehaltene Arme mit kleinem
+Schwung, ruhiger Rumpf, Schultern rollen leicht –, nicht über langsame Schritte; ein Ausschlag des Körpers je Schritt, klein halten (Größe nicht
+gemessen). Für Schrittlänge, Kniehub, Fußaufsatz und Vorlage gibt es weiter keine Zahl.
 
 ## 3. Ziel 2 – Waffe am Körper von außen
 
@@ -372,6 +414,14 @@ Vollständige Liste mit Datum, Sprecher, Zustimmung und Gegenstimmen in `data/au
 
 ## 7. Offen und nicht messbar
 
+**Stand nach REF 0.40 „Stride“:**
+- **Teilweise:** Titan-Lauf von hinten mit Takt, vorläufig ([2.2](#22-titan-gang-von-außen--ref-040)); Auf und Ab und Seitpendeln nur gesichtet.
+- **Weiter offen, mit Grund – nicht mit denselben Quellen wiederholen:** Titan-**Gehen** und alles an den Beinen im Turm (D-NM: Kamera
+  schneidet auf Mitte Oberschenkel, 30/s); Schrittlänge, Fußaufsatz, Hub in KH, Vorlage (D-HG: nur von hinten, Hintergrund zieht durch, Helm
+  schillert → NCC < 0,85); Lauf gegen Sprint (keine Eingabeanzeige); Normaltempo von D-HG. D-IG (Warlock) und D-ZS (Ego-Sicht) zeigen keinen
+  Titan von außen. Weg: eigener Mitschnitt im Turm mit seitlich gestellter Kamera (Emote-Kamera oder zweiter Spieler) bei echten 60/s, oder
+  der frontal laufende Titan in D-NM (≈ 284–293 s) für Standbreite und Armhaltung.
+
 **Stand nach REF 0.33 „Gaitline“** (die Punkte darunter sind der Stand 0.32 und bleiben als Begründung stehen):
 - **Erledigt:** Schrittfrequenz nach der 4-Zyklen-Regel für Warframe (Laufen) und Gears 5 (Gehen) ([2.1](#21-gang-von-außen--ref-033));
   Nachladen, Wechsel und Feuern mit Rückstoß von außen je mit mindestens einem Beispiel ([3.4](#34-feuern-nachladen-und-wechsel-von-außen--ref-033)).
@@ -447,3 +497,13 @@ Vollständige Liste mit Datum, Sprecher, Zustimmung und Gegenstimmen in `data/au
   Bewertungsbefunden; die neuen Zahlen belegen bestehende).
 - **Zählung:** 5 Spiele (plus Gears of War 4 als Vergleichsseite), 20 Videos geprüft, 10 davon gemessen; 35 neue JSON-Einträge (body_motion
   23: 11 [M], 12 [O]; weapon_body 12: 6 [M] bzw. [M/O], 6 [O]); Gangtakt nach 4-Zyklen-Regel in 2 Spielen, vorläufig in 3 weiteren Vorgängen.
+
+**Prüfung REF 0.40 „Stride“ (26.11.2026):**
+- **Unteragenten:** keine (vier Videos, ein Thema; Standard › 5: kleine Aufgabe).
+- **Gegenprobe der einen Zahl:** der Takt an zwei verschiedenen Ausschnitten (Beine, ganze Figur) und über drei bzw. zwei Vielfache der
+  Periode – 34,9 / 35,6 / 35,7 und 34,6 / 34,8 Bilder je Zyklus. **Verworfen:** ein dritter Weg über die leuchtende Sohle des gehobenen Fußes
+  (heller Boden im Ausschnitt, keine brauchbaren Spitzen) und der Helm als Vorlage für Hub und Pendeln (NCC 0,5–0,7) – beides nur als [O] geführt.
+- **Quellen:** 4 Videos per yt-dlp geprüft (Kanal, Datum, Titel in [1.2](#12-quellen-ref-040-youtube-mac)), 2 davon ohne Titan. Keine neuen Spieler-
+  oder Fachquellen (Standard › 4: nur zu neuen Bewertungsbefunden; hier keine neue Bewertung).
+- **Zählung:** 1 Spiel, 4 Videos geprüft, 2 gemessen bzw. gesichtet; 3 neue JSON-Einträge in `body_motion` (1 [M] vorläufig, 2 [O]); 8 Bögen
+  und 1 Einzelbild angesehen.
