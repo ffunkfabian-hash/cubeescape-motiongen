@@ -192,7 +192,7 @@ Quellen in [1.2](#12-quellen-ref-040-youtube-mac). Schritte/s = 2 ÷ Zyklusdauer
 3,4 Schritte/s liegt zwischen dem Destiny-Warlock (3,2–3,3, [0.33](#a-g-d2-lauf), dort mit belegtem Normaltempo) und Warframe (3,81). Mit dem
 Vorbehalt, dass Lauf, Sprint und Schwert-Lauf nicht trennbar sind und das Normaltempo hier nicht belegt ist: einen auffällig langsamen Takt der
 schweren Klasse zeigt die Aufnahme nicht. (2) Die
-Turm-Kamera zeigt vom eigenen Titan nur den Oberkörper – wer den Titan „im Turm“ als Vorbild nimmt, sieht breite Schultern, ruhigen Rumpf und
+Turm-Kamera zeigt vom eigenen Titan meist nur den Oberkörper – wer den Titan „im Turm“ als Vorbild nimmt, sieht breite Schultern, ruhigen Rumpf und
 wenig Armschwung, aber keine Beine. (3) Zur Armhaltung ohne Waffe gibt es nur die Turm-Sichtung: leicht gebeugt, neben dem Körper, kleiner Schwung; die stark gebeugten Arme im
 Lauf (D-HG) gehören zum gezogenen Schwert und sind nicht damit zusammenzulegen.
 
@@ -326,8 +326,8 @@ in [5.1](#51-quellen-der-bewertung); die Spalte „Belege“ aus Standard › 6 
 | allgemein | Ego gegen außen (F5) | getrennte Modelle/Animatoren für Ego und außen, Ego-Waffe gestreckt und vergrößert (W2 Overwatch, GDC 2017) | keine Quelle nennt eine Zahl für Hand außen gegen Ego | Art-Direktion | – | W2, W8 (Valve-Wiki, Suchauszug), W9 (Suchauszug) |
 
 **Neuer Beleg 0.40 zu dieser Tabelle** (keine neue Bewertung, keine neuen Spielerstimmen): zu Destiny „Gehtempo (P8)“ und „starres Stehen im
-Turm“ gibt es jetzt eine Sichtung des Titans im Turm ([Oberkörper](#a-s-titan-turm): ruhiger Rumpf, kleiner Armschwung) – sie passt zum Eindruck
-der Spieler, misst ihn aber nicht (Beine nicht im Bild, 30/s).
+Turm“ gibt es jetzt eine Sichtung des Titans im Turm ([Oberkörper](#a-s-titan-turm): ruhiger Rumpf, kleiner Armschwung) – Einschätzung: das passt zum
+Eindruck „starr“, misst ihn aber nicht (Beine nicht im Bild, 30/s); zum Gehtempo sagt die Sichtung nichts.
 
 **Neue Belege 0.33 zu dieser Tabelle** (keine neuen Spielerstimmen – die neuen Zahlen ändern keine Bewertung, sie belegen sie):
 Warframe „Laufanimation transportiert Tempo“ (P16) – gemessen steigt der Takt vom Laufen zum Sprint nur um 7 % (3,81 → 4,09, [Sprint](#a-g-wf-sprint)),

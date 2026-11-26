@@ -6,7 +6,7 @@
   Rüstungsfigur „Bastion“ (`kybos_body`). Eine Zahl: **Lauf von hinten mit Schwert in der Hand 3,4 Schritte/s** (vorläufig; Autokorrelation an zwei
   Ausschnitten, Spitzen bis 3 Zyklen in einem Fenster von 7,3, Zyklus 35,1 Bilder). Auf und Ab (ein Ausschlag je Schritt) und Seitpendeln (einer je Zyklus) nur gesichtet; Oberkörper des Titans im
   Turm gesichtet (ruhiger Rumpf, Arme leicht gebeugt neben dem Körper, kleiner Armschwung).
-- **Offen bleibt** (mit Grund in › 7): Titan-Gehen und die Beine im Turm (Kamera schneidet auf Mitte Oberschenkel), Schrittlänge, Fußaufsatz, Hub in
+- **Offen bleibt** (mit Grund in › 7): Titan-Gehen und die Beine im Turm (Kamera schneidet meist auf Mitte Oberschenkel), Schrittlänge, Fußaufsatz, Hub in
   KH, Vorlage, Lauf gegen Sprint, Normaltempo. Zwei der vier geprüften Videos zeigen keinen Titan.
 - **Daten:** `data/aussenansicht.json` 0.40.0 (3 Einträge in `body_motion`, 2 Kandidaten und 2 Vermerke in `youtube_followup`), `data/clips.json` + 1.
 - Bericht: [versions/0.md › 0.40.0](docs/versions/0.md#0400-stride--2026-11-26), PR [#78](https://github.com/ffunkfabian-hash/cubeescape-motiongen/pull/78).
