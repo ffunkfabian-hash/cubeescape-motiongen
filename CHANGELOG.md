@@ -9,7 +9,7 @@
 - **Offen bleibt** (mit Grund in › 7): Titan-Gehen und die Beine im Turm (Kamera schneidet auf Mitte Oberschenkel), Schrittlänge, Fußaufsatz, Hub in
   KH, Vorlage, Lauf gegen Sprint, Normaltempo. Zwei der vier geprüften Videos zeigen keinen Titan.
 - **Daten:** `data/aussenansicht.json` 0.40.0 (3 Einträge in `body_motion`, 2 Kandidaten und 2 Vermerke in `youtube_followup`), `data/clips.json` + 1.
-- Bericht: [versions/0.md › 0.40.0](docs/versions/0.md#0400-stride--2026-11-26).
+- Bericht: [versions/0.md › 0.40.0](docs/versions/0.md#0400-stride--2026-11-26), PR [#78](https://github.com/ffunkfabian-hash/cubeescape-motiongen/pull/78).
 
 ## 0.39.0 „Hallmark“ – `schema_version` in allen `data/*.json`
 
