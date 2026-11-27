@@ -3418,5 +3418,41 @@
     "clip": "https://www.youtube.com/watch?v=8dHn4G78L2o",
     "source": "Host of Games (YouTube), 2021-12-21, „Destiny 2 Titan 3rd Person Mode Build“, 1920x1080 60/s (im Messfenster ohne Wiederholung)",
     "timestamps": "71,333–75,600 s (n 4280–4535); Ruckler davor (n 4272 und 7 Wiederholungen bis n 4279); Haltung und Lage im Bild bei 71,000 s (n 4260)"
+  },
+  {
+    "measurement": "REF 0.41 Holster: zweite Langwaffe (vermutlich MG) schräg auf dem Rücken im Kampf, ≤ 0,91 KH, 59° zur Waagrechten, aktive Primärwaffe in der Hand",
+    "clip": "https://www.youtube.com/watch?v=CqamDVIIQpU",
+    "source": "CTRecon (YouTube), 2024-01-14, „Destiny 2 in 3rd person“, 1920x1080 60/s",
+    "timestamps": "141,14 s (n 8460); gleiche Lage n 4855, 7880–8066, 8352–8550"
+  },
+  {
+    "measurement": "REF 0.41 Holster: Langwaffe schräg auf dem Rücken, Titan, 0,65 KH, 54°",
+    "clip": "https://www.youtube.com/watch?v=vzcGQI-O_qc",
+    "source": "Canoecarver (YouTube), 2025-02-06, „Destiny 2 in 3rd person. (bug)“, 1920x1080 60/s",
+    "timestamps": "41,04 s (n 2460)"
+  },
+  {
+    "measurement": "REF 0.41 Holster: Nachladen Langwaffe von außen 72 Bilder letzter Schuss → Zähler voll, ≈ 78 Bilder am Körper (Waffe senkrecht neben dem Kopf); Wechsel Handfeuerwaffe → Langwaffe 21 Bilder bis erster Schuss",
+    "clip": "https://www.youtube.com/watch?v=CqamDVIIQpU",
+    "source": "CTRecon (YouTube), 2024-01-14, „Destiny 2 in 3rd person“, 1920x1080 60/s",
+    "timestamps": "Nachladen n 8341–8413 (Körper n ≈ 8350–8428); Wechsel n 8080–8101"
+  },
+  {
+    "measurement": "REF 0.41 Holster: Scout (Night Watch) von außen, Schussabstand 22/18 Bilder, Nachladen 68 Bilder (±1) letzter Schuss → Zähler voll (erstes Bild mit neuem Wert); Mündungsfeuer 40/61 % auf Kinnhöhe",
+    "clip": "https://www.youtube.com/watch?v=3fClbInDPHo",
+    "source": "Kawffee (YouTube), 2021-01-10, „Destiny 2: Third-Person (w/ Gameplay in Empire Hunt)“, 1920x1080 56–60/s",
+    "timestamps": "n 20812 (Feuern), n 20847–20955 (Zähler)"
+  },
+  {
+    "measurement": "REF 0.41 Holster: Emote Gun Flip – Langwaffe einhändig von unten am Griff, ≈ 25° über der Waagrechten, Hände 0,54 KH auseinander",
+    "clip": "https://www.youtube.com/watch?v=2DJdGSeJIqg",
+    "source": "glitchtutorial (YouTube), 2020-08-22, „Destiny 2: Gun Flip Emote Glitch | Flip Any Weapon!“, 1920x1080 60/s",
+    "timestamps": "59,0 s (n 3536); Granatwerfer senkrecht n 1019"
+  },
+  {
+    "measurement": "REF 0.41 Holster: Ego-Griff je Waffentyp – linke Hand an Gewehren Faust unter dem Handschutz oder flach mit gestreckten Fingern am Gehäuse; Handkanone/Seitenwaffe einhändig; Raketenwerfer Faust am senkrechten Vordergriff",
+    "clip": "https://www.youtube.com/watch?v=A21nc31fbQk",
+    "source": "Hayden Kellers (YouTube), 2020-10-21, „Every Reload Animation In Destiny 2“, 1920x1080 59,94/s",
+    "timestamps": "n 10, 1578, 1818, 2625, 3701, 4484, 5412, 7317, 7602"
   }
 ]}

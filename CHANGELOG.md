@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.41.0 „Holster“ – Destiny-Hüter mit Waffentypen von außen, Hände und Finger
+
+- **Neu:** [aussenansicht.md › 3.5](docs/aussenansicht.md#35-waffentypen-hände-und-aktionen-von-außen--ref-041) – Hüter von außen mit verschiedenen
+  Waffentypen in Aktion, aus Fehler-Videos 2024/25 (echter Kampf in dritter Person), Glitch-/Emote-Videos, Menü-Posen und einer Ego-Sammlung für die Hände.
+  Im Kampf hängt neben der aktiven Waffe **eine verstaute Langwaffe schräg auf dem Rücken** (58–59°, zwei Videos mit belegter aktiver Waffe); Nachladen kippt die Langwaffe senkrecht neben den
+  Kopf (≈ 78 Bilder am Körper, 72 bis Zähler voll); Wechsel ≤ 21 Bilder bis zum ersten Schuss; Feuern an der rechten Schulter.
+- **Finger:** außen im Kampf in keiner Quelle auflösbar (Hände 15–60 px); im Menü Faust am Pistolengriff, im Ego die linke Hand je Waffentyp
+  (Faust unter dem Handschutz oder flach am Gehäuse, Raketenwerfer am Vordergriff, Handkanone/Seitenwaffe einhändig).
+- **Offen** (› 7): Sprint, Rutschen, Sprung mit Waffe; Bogen, Glefe, Spurgewehr; Gewehrtypen außen.
+- **Daten:** `data/aussenansicht.json` 0.41.0 (69 Einträge in `weapon_body`, 10 Stimmen, 4 Fachquellen), `data/clips.json` + 6.
+- Bericht: [versions/0.md › 0.41.0](docs/versions/0.md#0410-holster--2026-11-27).
+
 ## 0.40.0 „Stride“ – Titan-Gang von außen
 
 - **Neu:** [aussenansicht.md › 2.2](docs/aussenansicht.md#22-titan-gang-von-außen--ref-040) – der Destiny-Titan von außen, Anlass ist der Gang der
