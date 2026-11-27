@@ -3454,5 +3454,23 @@
     "clip": "https://www.youtube.com/watch?v=A21nc31fbQk",
     "source": "Hayden Kellers (YouTube), 2020-10-21, „Every Reload Animation In Destiny 2“, 1920x1080 59,94/s",
     "timestamps": "n 10, 1578, 1818, 2625, 3701, 4484, 5412, 7317, 7602"
+  },
+  {
+    "measurement": "REF 0.42 Momentum: Lauf mit Scout in der Hand von außen – Waffe vorn an der rechten Schulter ≈ 32° über der Waagrechten (nicht gesenkt), schwere Waffe steil auf dem Rücken ≈ 77°",
+    "clip": "https://www.youtube.com/watch?v=3fClbInDPHo",
+    "source": "Kawffee (YouTube), 2021-01-10, „Destiny 2: Third-Person (w/ Gameplay in Empire Hunt)“, 1920x1080 56–60/s",
+    "timestamps": "n 29036–29168 (483,9–486,1 s), Einzelbild n 29060"
+  },
+  {
+    "measurement": "REF 0.42 Momentum: Rutschen im PvP ≈ 33 Bilder (0,55 s) vom Absenken bis aufrecht, Bein gestreckt vorn, Hand leer, Langwaffe auf dem Rücken",
+    "clip": "https://www.youtube.com/watch?v=StvGHilGzq8",
+    "source": "Notacounterterorist (YouTube), 2024-09-11, „3rd person glitch“, 1920x1080 60/s",
+    "timestamps": "n 2293–2326 (Haltung n 2314)"
+  },
+  {
+    "measurement": "REF 0.42 Momentum: Titan-Lauf von hinten 3,41 Schritte/s (vorläufig; feste Vorlage, vier Zyklen 35/35/35/36 Bilder, NCC 0,57–0,76); Landung aus Fall ohne Abfanghocke, Laufschritt 4–7 Bilder nach Aufsatz",
+    "clip": "https://www.youtube.com/watch?v=vzcGQI-O_qc",
+    "source": "Canoecarver (YouTube), 2025-02-06, „Destiny 2 in 3rd person. (bug)“, 1920x1080 60/s",
+    "timestamps": "Takt n 3530–3712; Landung Aufsatz n 3487"
   }
 ]}
