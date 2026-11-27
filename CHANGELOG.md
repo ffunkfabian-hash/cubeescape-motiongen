@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.43.0 „Repertoire“ – Posen, Bewegungsarten und Waffenaktionen von außen (Destiny 2, The Division 2)
+
+- **Neu:** [repertoire.md](docs/repertoire.md) – Katalog aller Bewegungszustände mit dem Stand „von außen belegt / nur Ego / nicht gefunden“. Destiny 2: Super-Aktivierung
+  meist 35–37 Bilder, Ausholhocke 0,68 KH, Jäger-Sprung mit Schwert 65 Bilder Luft, Sparrow; Ducken, geduckt Gehen und Klassensprünge sind von außen nicht belegt.
+  The Division 2: kein freies Ducken, Deckungshöhen 1,0 / 0,92 / 0,64 KH, Deckung zu Deckung 78 Bilder, Rolle 18–28 Bilder bis Boden, Mauersprung 66 Bilder.
+- **Waffenaktionen:** Destiny-Nachladekatalog (Ego, 64 Abschnitte, Normaltempo fünffach belegt; Dauer je Typ überlappt, Bauform trennt);
+  Division-Nachladen je Klasse in dritter Person (eine steile Grundform, MP 72 bis Gurt-LMG 186 Bilder bis HUD); Waffenhaltung je Körperpose
+  (Division: Mündung in Ruhe −45 bis −54°, in Bereitschaft +70 bis +90°; Destiny-Schwert bleibt beim Rutschen senkrecht).
+- **Daten:** `data/repertoire.json` (128 Beispiele, 37 Spielerstimmen, 9 Fachquellen), Test `tests/test_repertoire_data.py`, `data/clips.json` + 8.
+- Bericht: [versions/0.md › 0.43.0](docs/versions/0.md#0430-repertoire--2026-11-27).
+
 ## 0.42.0 „Momentum“ – Destiny-Hüter in Bewegung mit Waffe von außen
 
 - **Neu:** [aussenansicht.md › 3.6](docs/aussenansicht.md#36-bewegung-mit-waffe-von-außen--ref-042) – Lauf mit geführter Waffe (eine Szene: Scout oben an der

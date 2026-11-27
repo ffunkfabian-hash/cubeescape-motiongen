@@ -3472,5 +3472,53 @@
     "clip": "https://www.youtube.com/watch?v=vzcGQI-O_qc",
     "source": "Canoecarver (YouTube), 2025-02-06, „Destiny 2 in 3rd person. (bug)“, 1920x1080 60/s",
     "timestamps": "Takt n 3530–3712; Landung Aufsatz n 3487"
+  },
+  {
+    "measurement": "REF 0.43 Repertoire: Super-Aktivierung von außen (Destiny 2), Kamerawechsel bis Blitz 12–55 Bilder, meist 35–37; Ausholhocke Sentinel Shield 0,68 KH",
+    "clip": "https://www.youtube.com/watch?v=RMLZqmCW4q4",
+    "source": "Ultraclocked (YouTube), 2026-06-04, „Destiny 2 vs Warframe - Abilities“, 1080p 60/s",
+    "timestamps": "Sentinel n 18856–18912; übrige Supers in data/repertoire.json"
+  },
+  {
+    "measurement": "REF 0.43 Repertoire: Jäger-Sprung mit Schwert und Luftangriff 65 Bilder Luft, Landung in Kniebeuge 8 Bilder bis aufrecht",
+    "clip": "https://www.youtube.com/watch?v=tTjwM26ilgo",
+    "source": "Ultraclocked (YouTube), 2026-04-21, „Destiny 2 vs Warframe - Sword Animations“, 1080p 60/s",
+    "timestamps": "n 7524–7596"
+  },
+  {
+    "measurement": "REF 0.43 Repertoire: Sparrow aufsteigen ≈ 10–12 Bilder, absteigen 22 Bilder bis Fuß am Boden",
+    "clip": "https://www.youtube.com/watch?v=leq_6q7wcZs",
+    "source": "Ultraclocked (YouTube), 2026-11-07, „Destiny 2 Sparrow vs Warframe Atomicycle“, 1080p 54–57/s",
+    "timestamps": "n 38–48; n 8758–8794"
+  },
+  {
+    "measurement": "REF 0.43 Repertoire: Destiny-2-Nachladekatalog Ego, 64 Abschnitte (Revolver 2,47 s, Raketenwerfer 171 Bilder, MG mit Deckel 5,47 s)",
+    "clip": "https://www.youtube.com/watch?v=nis07-5BXuo",
+    "source": "Ultraclocked (YouTube), 2026-09-13, „Destiny 2 - All Weapon Reload Animations in 3 minutes 33 seconds (FINAL)“, 1080p 60/s",
+    "timestamps": "Revolver n 622–770; Raketenwerfer n 11998–12169; Abschnitte in data/repertoire.json"
+  },
+  {
+    "measurement": "REF 0.43 Repertoire: Division-2-Deckungshöhen 1,0 / 0,92 / 0,64 KH, Deckung zu Deckung 78 Bilder, geduckter Lauf Rumpf ≈ 45°",
+    "clip": "https://www.youtube.com/watch?v=VzjtHWEFrNw",
+    "source": "TerraMantis (YouTube), 2019-03-19, „10 Advanced Tips for The Division 2 You NEED To Know“, 1080p 57–60/s im Messfenster",
+    "timestamps": "n 5494, 5520, 5548–5626, 5650, 6404, 6500"
+  },
+  {
+    "measurement": "REF 0.43 Repertoire: Division-2-Ausweichrolle (Boden +18/+28, Hocke +28/+48 Bilder) und Mauersprung (Landung 66 Bilder ab Krone, +18 bzw. +48 bis aufrecht)",
+    "clip": "https://www.youtube.com/watch?v=g0iFqDZC_Qw",
+    "source": "aBL1NDnoob (YouTube), 2022-04-29, „Tips on HOW TO MOVE Efficiently in The Division 2“, 1080p 59–60/s im Messfenster",
+    "timestamps": "n 3117–3171, 3335–3391, 6487–6604"
+  },
+  {
+    "measurement": "REF 0.43 Repertoire: Division-2-Nachladen von außen, Sturmgewehr FAMAS 90 Bilder und MPs 72/83 Bilder bis HUD, Waffe steil vor der rechten Schulter",
+    "clip": "https://www.youtube.com/watch?v=-CqNxaKFcD8",
+    "source": "OrcCorp (YouTube), 2019-05-05, „The Division 2 All Basic Assault Rifles & SMGs (Showcase)“, 1440p60 als 1080p",
+    "timestamps": "Abschnitte 131–204 s n 881–976; 408–500 s n 880–956; 589–683 s n 932–1019"
+  },
+  {
+    "measurement": "REF 0.43 Repertoire: Division-2-Nachladen LMG (RPK 117 Bilder senkrecht neben dem Kopf, M60 186 Bilder waagrecht in Hüfthöhe), Pumpflinte ≈ 31 Bilder je Patrone",
+    "clip": "https://www.youtube.com/watch?v=mk3V564-iHs",
+    "source": "OrcCorp (YouTube), ≈ Mai 2019, „The Division 2 - All Basic LMGs & Shotguns (Showcase)“, 1440p60 als 1080p",
+    "timestamps": "Abschnitte 0–80 s n 1890–2027; 237–305 s n 1749–1935; 376–649 s n 1134–1228"
   }
 ]}
