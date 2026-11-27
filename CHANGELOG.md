@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.42.0 „Momentum“ – Destiny-Hüter in Bewegung mit Waffe von außen
+
+- **Neu:** [aussenansicht.md › 3.6](docs/aussenansicht.md#36-bewegung-mit-waffe-von-außen--ref-042) – Lauf mit geführter Waffe (eine Szene: Scout oben an der
+  Schulter ≈ 32°, auf einen Gegner gerichtet; Sprinthaltung nicht belegt), Rutschen im PvP ≈ 33 Bilder mit gestrecktem Bein, Landung aus dem Lauf ohne Abfanghocke (Titan 4–7 Bilder bis zum
+  nächsten Schritt), Titan-Lauf 3,41 Schritte/s aus vier Zyklen an fester Vorlage (vorläufig). In drei von vier Lauf-/Rutsch-Szenen ist die aktive
+  Waffe nicht in der Hand zu sehen.
+- **Offen** (› 7): Sprintbeginn/-ende, Lauf gegen Sprint, Ziehen am Körper, Takt mit Waffe in der Hand.
+- **Daten:** `data/aussenansicht.json` 0.42.0 (9 Einträge in `weapon_body`, 1 in `body_motion`), `data/clips.json` + 3. Baut auf 0.41 (PR #79) auf.
+- Bericht: [versions/0.md › 0.42.0](docs/versions/0.md#0420-momentum--2026-11-27).
+
 ## 0.41.0 „Holster“ – Destiny-Hüter mit Waffentypen von außen, Hände und Finger
 
 - **Neu:** [aussenansicht.md › 3.5](docs/aussenansicht.md#35-waffentypen-hände-und-aktionen-von-außen--ref-041) – Hüter von außen mit verschiedenen
