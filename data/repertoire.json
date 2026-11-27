@@ -646,9 +646,9 @@
    ],
    "duration_frames": null,
    "duration_s": null,
-   "pose": "Hocke, Gewehr vor dem Oberschenkel -54°, beidhändig",
+   "pose": "Hocke, Gewehr vor dem Oberschenkel ≈ -35°, beidhändig",
    "kh": 0.64,
-   "notes": "±0,05; Bezug n 5494",
+   "notes": "±0,05; Bezug n 5494; Winkel nach Richter-Linienfit am Einzelbild ≈ -35° (Verlauf n 5630–5670 -25 bis -38°), Agent las -54°",
    "agent": "MV"
   },
   {
@@ -1084,7 +1084,8 @@
    "kh": null,
    "notes": "Phasen ±4 Bilder (Bogen Schritt 6)",
    "body_pose": null,
-   "agent": "WD"
+   "agent": "WD",
+   "same_segment": 4
   },
   {
    "game": "Destiny 2",
@@ -1111,7 +1112,8 @@
    "kh": null,
    "notes": "Untertyp [O]",
    "body_pose": null,
-   "agent": "WD"
+   "agent": "WD",
+   "same_segment": 7
   },
   {
    "game": "Destiny 2",
@@ -1143,7 +1145,8 @@
    "kh": null,
    "notes": "Phasen ±4",
    "body_pose": null,
-   "agent": "WD"
+   "agent": "WD",
+   "same_segment": 38
   },
   {
    "game": "Destiny 2",
@@ -1174,7 +1177,8 @@
    "kh": null,
    "notes": "nur wenige Hülsen im Schnitt – Dauer keine Volladung; Bestand Hülsentakt 0,62–0,87 s",
    "body_pose": null,
-   "agent": "WD"
+   "agent": "WD",
+   "same_segment": 14
   },
   {
    "game": "Destiny 2",
@@ -1209,7 +1213,8 @@
    "kh": null,
    "notes": null,
    "body_pose": null,
-   "agent": "WD"
+   "agent": "WD",
+   "same_segment": 48
   },
   {
    "game": "Destiny 2",
@@ -1236,7 +1241,8 @@
    "kh": null,
    "notes": "Bestand Shattered Cipher 4,87 s",
    "body_pose": null,
-   "agent": "WD"
+   "agent": "WD",
+   "same_segment": 53
   },
   {
    "game": "Destiny 2",
@@ -1263,7 +1269,8 @@
    "kh": null,
    "notes": "Bestand: legendärer Trommel-GL n. g.; legendär oder Exotic nicht belegt [O]",
    "body_pose": null,
-   "agent": "WD"
+   "agent": "WD",
+   "same_segment": 57
   },
   {
    "game": "Destiny 2",
@@ -1290,7 +1297,8 @@
    "kh": null,
    "notes": "passt zu Bestand 2,58–3,03 s",
    "body_pose": null,
-   "agent": "WD"
+   "agent": "WD",
+   "same_segment": 61
   },
   {
    "game": "Destiny 2",
@@ -1994,7 +2002,8 @@
    "pose": "Revolver (Handkanone, legendär): Trommel nach links aus (≈ 652), Waffe senkrecht hoch, Auswerfen (≈ 670–694), quer vor die Brust, linke Hand mit Schnelllader an der Trommel (706–730), Trommel per Aufwärtsschwung zu (736–754), Hüfte (≈ 760–766)",
    "kh": null,
    "notes": "Marker aus Bilddifferenz (±3 Bilder): gross_ende = letztes Bild mit großer Bewegung, ruhig = 6 Bilder ruhig; Waffenname unbekannt; Typ aus Kapitel xBiUSxDcd2g",
-   "agent": "WD"
+   "agent": "WD",
+   "same_segment": 4
   },
   {
    "game": "Destiny 2",
@@ -2072,7 +2081,8 @@
    "pose": "Seitenwaffe mit großem Kastenmagazin (vermutlich Raketen-Seitenwaffe [O]): kippt, senkrecht hoch, Magazin unten links, linke Hand von links am Griff, zurück",
    "kh": null,
    "notes": "Marker aus Bilddifferenz (±3 Bilder): gross_ende = letztes Bild mit großer Bewegung, ruhig = 6 Bilder ruhig; Waffenname unbekannt; Typ aus Kapitel xBiUSxDcd2g",
-   "agent": "WD"
+   "agent": "WD",
+   "same_segment": 7
   },
   {
    "game": "Destiny 2",
@@ -2254,7 +2264,8 @@
    "pose": "Pumpflinte (Holz): Mündung ≈ 60° hoch nach rechts, linke Hand führt einzelne rote Hülsen von unten ein, zum Schluss Pumpen bei steiler Waffe (≈ 2711–2751); Hülsenzahl im Schnitt verkürzt [O]",
    "kh": null,
    "notes": "Marker aus Bilddifferenz (±3 Bilder): gross_ende = letztes Bild mit großer Bewegung, ruhig = 6 Bilder ruhig; Waffenname unbekannt; Typ aus Kapitel xBiUSxDcd2g",
-   "agent": "WD"
+   "agent": "WD",
+   "same_segment": 14
   },
   {
    "game": "Destiny 2",
@@ -2852,7 +2863,8 @@
    "pose": "Gewehr mit langem grünem Magazin: Mündung steil hoch, Magazin fällt (≈ 7164), neues von unten (≈ 7212–7228), zurück [O]",
    "kh": null,
    "notes": "Marker aus Bilddifferenz (±3 Bilder): gross_ende = letztes Bild mit großer Bewegung, ruhig = 6 Bilder ruhig; Waffenname unbekannt; Typ aus Kapitel xBiUSxDcd2g",
-   "agent": "WD"
+   "agent": "WD",
+   "same_segment": 38
   },
   {
    "game": "Destiny 2",
@@ -3112,7 +3124,8 @@
    "pose": "Scharfschütze (grünes Glas): Magazin unten heraus (≈ 9194–9210), Waffe senkrecht, neues grünes Magazin (≈ 9234–9250), zurück [O]",
    "kh": null,
    "notes": "Marker aus Bilddifferenz (±3 Bilder): gross_ende = letztes Bild mit großer Bewegung, ruhig = 6 Bilder ruhig; Waffenname unbekannt; Typ aus Kapitel xBiUSxDcd2g",
-   "agent": "WD"
+   "agent": "WD",
+   "same_segment": 48
   },
   {
    "game": "Destiny 2",
@@ -3242,7 +3255,8 @@
    "pose": "MG (legendär, Gurt): Deckel klappt senkrecht hoch, Gurt eingelegt, Deckel zu, Schlag – längster Ablauf (5,2–5,5 s)",
    "kh": null,
    "notes": "Marker aus Bilddifferenz (±3 Bilder): gross_ende = letztes Bild mit großer Bewegung, ruhig = 6 Bilder ruhig; Waffenname unbekannt; Typ aus Kapitel xBiUSxDcd2g",
-   "agent": "WD"
+   "agent": "WD",
+   "same_segment": 53
   },
   {
    "game": "Destiny 2",
@@ -3346,7 +3360,8 @@
    "pose": "Granatwerfer mit Revolvertrommel (schwer, 6 Kammern sichtbar): Trommel seitlich heraus, gedreht/gefüllt, Waffe senkrecht, Trommel zurück [O] – legendärer Trommelwerfer, im Bestand „n. g.“",
    "kh": null,
    "notes": "Marker aus Bilddifferenz (±3 Bilder): gross_ende = letztes Bild mit großer Bewegung, ruhig = 6 Bilder ruhig; Waffenname unbekannt; Typ aus Kapitel xBiUSxDcd2g",
-   "agent": "WD"
+   "agent": "WD",
+   "same_segment": 57
   },
   {
    "game": "Destiny 2",
@@ -3450,7 +3465,8 @@
    "pose": "Raketenwerfer (legendär, grünes Glas): kippt quer, linke Hand setzt Zylinder von oben ein (wie Bestand z-bb-rl-nachladen)",
    "kh": null,
    "notes": "Marker aus Bilddifferenz (±3 Bilder): gross_ende = letztes Bild mit großer Bewegung, ruhig = 6 Bilder ruhig; Waffenname unbekannt; Typ aus Kapitel xBiUSxDcd2g",
-   "agent": "WD"
+   "agent": "WD",
+   "same_segment": 61
   },
   {
    "game": "Destiny 2",

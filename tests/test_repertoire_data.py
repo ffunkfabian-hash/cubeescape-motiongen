@@ -45,6 +45,15 @@ class ShapeTests(unittest.TestCase):
             if isinstance(frames, (int, float)):
                 self.assertGreater(frames, 0, f"examples[{index}]")
 
+    def test_reload_catalog_counts_match_the_doc(self):
+        """docs/repertoire.md › 3.1 names 63 catalogue sections of nis07-5BXuo, 59 of them with a duration."""
+        catalogue = [e for e in DATA["examples"] if "nis07-Segment" in str(e.get("class_or_weapon"))]
+        self.assertEqual(len(catalogue), 63)
+        self.assertEqual(sum(1 for e in catalogue if e.get("duration_s") or e.get("duration_frames")), 59)
+        doc = (ROOT / DATA["doc"]).read_text(encoding="utf-8")
+        self.assertIn("63 Nachlade-Abschnitte", doc)
+        self.assertIn("59 mit Dauer", doc)
+
     def test_voices_and_sources_name_url_and_date(self):
         self.assertGreaterEqual(len(DATA["player_voices"]), 20)
         for voice in DATA["player_voices"]:

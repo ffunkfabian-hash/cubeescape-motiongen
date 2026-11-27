@@ -26,7 +26,7 @@ Reload-Wert sind unbekannt. Höhen in **Körperhöhen (KH)** der stehenden Figur
   Den vollständigen Katalog mit dem Stand „von außen belegt / nur Ego / nicht gefunden“ zeigt [2.1](#21-katalog-was-es-gibt-und-was-von-außen-belegt-ist).
 - **Neu gemessen (Destiny 2):**
   - [Super-Aktivierung](#r-super): meist **35–37 Bilder (≈ 0,6 s)** vom Kamerawechsel bis zum Blitz; über alle 12 Supers 12–55 Bilder.
-  - [Ausholhocke Sentinel Shield](#r-sentinel): **0,68 KH**.
+  - [Ausholhocke Sentinel Shield](#r-sentinel): **≤ 0,68 KH** (Bezug ist ein Ausfallschritt, die volle Standhöhe liegt eher höher).
   - [Jäger-Sprung mit Schwert](#r-schwertsprung): 65 Bilder Luft, danach 8 Bilder Kniebeuge.
   - [Sparrow](#r-sparrow): Aufsteigen ≈ 10–12 Bilder, Absteigen 22.
 - **Destiny 2, nicht belegt:**
@@ -39,7 +39,7 @@ Reload-Wert sind unbekannt. Höhen in **Körperhöhen (KH)** der stehenden Figur
   - **Rolle:** [18–28 Bilder bis Boden, 28–48 bis Hocke](#r-dv-rolle), je nach Start.
   - **Mauersprung:** [66 Bilder ab der Krone](#r-dv-mauer), danach Hocke (+18) oder Abrollen (+48).
   - **Akrobatik:** Rolle, Sprung und Fall laufen mit freien Händen, die Waffen bleiben am Rucksack.
-- **Nachladen Destiny 2 je Typ (Ego, 64 Abschnitte, Normaltempo fünffach belegt)** – Dauer bis ruhig ([3.1](#31-destiny-2--nachladen-je-waffentyp-ego)):
+- **Nachladen Destiny 2 je Typ (Ego, 63 Abschnitte, 59 mit Dauer, Normaltempo vierfach belegt)** – Dauer bis ruhig ([3.1](#31-destiny-2--nachladen-je-waffentyp-ego)):
 
   | Typ | Dauer bis ruhig |
   |---|---|
@@ -59,7 +59,8 @@ Reload-Wert sind unbekannt. Höhen in **Körperhöhen (KH)** der stehenden Figur
   - **Einzelpatronen:** Pumpflinte ≈ 31 Bilder je Patrone, Repetierer ≈ 41.
   - **Repetieren:** verlässt das Zielfernrohr für 66–67 Bilder.
 - **Waffenhaltung je Pose** ([3.4](#34-waffenhaltung-je-körperpose)):
-  - **Division:** In Ruhe zeigt die Mündung nach unten (Gehen −45°, Deckung −45 bis −54°, geduckter Lauf −50°), in Bereitschaft nach oben (+70 bis +90°).
+  - **Division:** In Ruhe zeigt die Mündung nach unten (Tragen −20 bis −45°, Deckung −35 bis −45°, geduckter Lauf −50°, seitlich am Pfeiler senkrecht),
+    in Bereitschaft nach oben (+70°, ein Beispiel; Vault +90° [O]).
   - **Destiny-Schwert:** bleibt beim Rutschen senkrecht in der Hand. Sprung und Landung messen nur die Klingenstellung im Jäger-Luftangriff mit Schwert:
     −11° beim Absprung, +7° bei der Landung.
   - **Sprint, Rutschen und Sprung mit Feuerwaffe:** sind von außen in keinem der beiden Spiele gemessen.
@@ -92,9 +93,10 @@ Reload-Wert sind unbekannt. Höhen in **Körperhöhen (KH)** der stehenden Figur
 | H-KW (Bestand) | [`3fClbInDPHo`](https://www.youtube.com/watch?v=3fClbInDPHo) 880–1440 s | Kawffee \| 10.01.2021 \| Destiny 2: Third-Person | 60 | glitch | erstmals durchgesehen: kein Rutschen, Ducken, keine Kante |
 | <a id="q-nis"></a>**WD-NIS** | [`nis07-5BXuo`](https://www.youtube.com/watch?v=nis07-5BXuo) | Ultraclocked \| 13.09.2026 \| Destiny 2 - All Weapon Reload Animations in 3 minutes 33 seconds (FINAL) | 60 (≈ 0,1 % Doppelbilder) | showcase / Ego, ohne HUD | 64 Nachlade-Abschnitte |
 | **WD-XBI** | [`xBiUSxDcd2g`](https://www.youtube.com/watch?v=xBiUSxDcd2g) | Ultraclocked \| 22.10.2026 \| Destiny 2 vs Warframe - Weapon Reload Animations | 60 | Destiny Ego (dieselben Aufnahmen, Kapitel je Typ), Warframe außen | Typzuordnung, Warframe-Vergleich |
+| WD-K12, WD-8UW | [`kal12oig1oU`](https://www.youtube.com/watch?v=kal12oig1oU), [`8uW8m_W8akk`](https://www.youtube.com/watch?v=8uW8m_W8akk) | Ultraclocked \| 16.07.2026 \| All Exotic Weapon Reloads in 37 seconds \| Year 8/9; Ultraclocked \| 12.07.2025 \| … in 41 seconds \| Year 7 | 60 (0–2 Doppelbilder je Vorgang) | Ego, Normaltempo im Bestand belegt | Tempoprüfung WD-NIS |
 | WD-EV | [`F7WYbe19p-U`](https://www.youtube.com/watch?v=F7WYbe19p-U) | Evelyn-8 \| 09.02.2025 \| All Destiny 2 reload animations (Revenant) | ≈ 59 | Ego | Zweitaufnahme (Tempo) |
 | WD-JB, WD-MA | `n7s9zSdDpyo`, `6YVvs3x76rY` | Just-B-You \| 13.04.2024; Mackenzie Adalaide \| 03.04.2024 (3rd-Person-Bugs) | 54–60 | bug / außen | Schwerthaltung Titan; Nachladen von Effekten verdeckt |
-| <a id="q-tm"></a>**MV-TM** | [`VzjtHWEFrNw`](https://www.youtube.com/watch?v=VzjtHWEFrNw) | TerraMantis \| 19.03.2019 \| 10 Advanced Tips for The Division 2 | 57–60 in 89–125 s | retail / außen (teils geteiltes Bild) | Deckungshöhen, Deckung zu Deckung |
+| <a id="q-tm"></a>**MV-TM** | [`VzjtHWEFrNw`](https://www.youtube.com/watch?v=VzjtHWEFrNw) | TerraMantis \| 19.03.2019 \| 10 Advanced Tips for The Division 2 | 57–60 nur in 89–97 und 105–125 s (97–105 s: 30–40) | retail / außen (teils geteiltes Bild) | Deckungshöhen, Deckung zu Deckung |
 | **MV-AB** | [`g0iFqDZC_Qw`](https://www.youtube.com/watch?v=g0iFqDZC_Qw) | aBL1NDnoob \| 29.04.2022 \| Tips on HOW TO MOVE Efficiently in The Division 2 | 59–60 nur in 17–56, 87–99, 106–113, 150–164 s | retail / außen | Rolle, Mauersprung, Takt |
 | MV-SH, MV-LG, MV-DV | `jqb7H3HV7gY` (240–840 s), `yIjip7WxhS8`, `X89yYnSbFR8` | Shirrako \| 12.03.2019 (Prolog); LugovoisesGames \| 24.01.2026 (ohne HUD); Dark Veil \| 24.03.2019 („Crouch“) | 52–60 abschnittsweise | retail / außen | Joggen, Vault, Einrasten, Gehen |
 | MV-SB, MV-AC, MV-RH, MV-NB | `JR8nS448aq8`, `FDYTVF-xP1M`, `mpTVp8KgQk8`, `bft3kqhKh-c` | ScereBro PSNU (Emotes), Acez (Schulterwechsel), Rachel H (Wiederbeleben, Bug), NothingButSkillz (Menü) | ≤ 35 bzw. Menü | retail/bug | nur Form [O] |
@@ -191,25 +193,26 @@ Reload-Wert sind unbekannt. Höhen in **Körperhöhen (KH)** der stehenden Figur
    zwischen Deckungen (0,83 KH, Rumpf ≈ 45° vor). Sprung gibt es nur an Kanten (Vault, Mauer, Geländer).
 3. **Gewicht über Übergänge:** Landungen nach Angriff (Destiny) oder hohem Sprung (Division) gehen in eine Hocke mit 8–18 Bildern bis aufrecht oder in eine
    Rolle (+48); Landungen aus dem Lauf ohne Angriff kommen ohne Abfanghocke aus (Bestand 4–7 Bilder). Die Rolle dauert je nach Start 18–28 Bilder bis zum Boden.
-4. **Zwei Hocken-Werte nahe beieinander:** Destiny-Ausholhocke 0,68 KH, Division-Deckungshocke 0,64 KH – zwei Spiele, zwei Vorgänge, keine Klassenwerte.
+4. **Zwei Hocken-Werte nahe beieinander:** Destiny-Ausholhocke ≤ 0,68 KH (Bezug Ausfallschritt), Division-Deckungshocke 0,64 KH – zwei Spiele, zwei Vorgänge, keine Klassenwerte.
 
 ## 3. Ziel 2 – Waffenaktionen und Waffenhaltung
 
 ### 3.1 Destiny 2 – Nachladen je Waffentyp (Ego)
 
-Hauptquelle [WD-NIS](#q-nis): 64 Abschnitte, 57 mit Dauer.
+Hauptquelle [WD-NIS](#q-nis): 64 Schnitte, davon 63 Nachlade-Abschnitte (einer ohne Bewegung), 59 mit Dauer (ohne: Abschnitte 0, 54, 55, 63).
 - **Typ je Abschnitt** über die Kapitel von WD-XBI (dieselben Aufnahmen, 63 von 63 per Bildvergleich wiedergefunden). Untertypen (Automatik/Impuls/Scout/MP,
   Handkanone/Seitenwaffe) sind **nicht** belegt: keine Waffennamen im Video.
-- **Normaltempo fünffach belegt:**
-  1. keine Doppelbilder in der Bewegung;
-  2. legendärer Raketenwerfer 171 Bilder gegen Bestand 2,58–3,03 s;
-  3. Zweitaufnahme WD-EV (201 gegen 203 bzw. 254 gegen 263 Bilder);
-  4. sechs Abschnitte gleich den Exotic-Reihen mit belegtem Normaltempo (≤ 3 %);
-  5. Startmarker gegen Bestand ±1.
+- **Normaltempo vierfach belegt:**
+  1. legendärer Raketenwerfer 171 Bilder gegen Bestand 2,58–3,03 s;
+  2. Zweitaufnahme WD-EV (201 gegen 203 bzw. 254 gegen 263 Bilder);
+  3. sechs Abschnitte gleich den Exotic-Reihen WD-K12/WD-8UW mit belegtem Normaltempo (≤ 3 %; Startmarker gegen Bestand ±1);
+  4. eigene Zeitlupenfassung des Kanals (`cdTDQpC6bh4`, 405 s ≈ 1,9 × 213 s) – das Hauptvideo ist die Normalfassung.
+
+  Hinweis: Dass in der Bewegung kaum Doppelbilder vorkommen, schließt nur eine Verdopplung aus, keine Zeitlupe aus einer Hochraten-Aufnahme.
 - **Marker:** „Beginn“ = erste Bewegung, „ruhig“ = 6 Bilder ohne Bewegung, ±3 Bilder.
 - **Schrotflinten:** Die Abschnitte zeigen nur 2–3 Hülsen – keine Volladung.
 
-| Typ (Kapitel) | Abschnitte | Beginn → ruhig | Bestand zum Vergleich ([nachladen.md](nachladen.md#2-messtabelle)) |
+| Typ (Kapitel) | Abschnitte | Beginn → ruhig | Bestand zum Vergleich ([nachladen.md](nachladen.md#2-messtabelle); Raketenwerfer [destiny2 › z-bb-rl-nachladen](destiny2.md#z-bb-rl-nachladen), Glefe [z-glefe-vexcalibur](destiny2.md#z-glefe-vexcalibur), [z-nk-glefe-lubrae](destiny2.md#z-nk-glefe-lubrae), übrige aus der Bestandsmatrix in destiny2.md) |
 |---|---|---|---|
 | Pistolen (Handkanone, Seitenwaffe) | 6 | 2,07–3,10 s (Median 2,41) | Seitenwaffe 1,1–1,75 s |
 | MP und Gewehre | 18 | 1,77–3,35 s (Median 2,39) | MP 2,55 s bis Hüfte, Impuls 1,65, Scout 1,7–1,85 |
@@ -220,8 +223,9 @@ Hauptquelle [WD-NIS](#q-nis): 64 Abschnitte, 57 mit Dauer.
 | Maschinengewehr | 2 | 4,23–5,47 s | Shattered Cipher 4,87 |
 | Bogen (Nachziehen) | 1 | 2,63 s (ein Showcase-Zyklus) | – |
 
-**Kein Widerspruch zum Bestand:** Alle Spannen umfassen dessen Werte desselben Typs. Das MG mit Deckel (5,47 s) liegt 0,6 s über Shattered Cipher
-(anderes Modell).
+**Abgleich mit dem Bestand:** Die Spannen überlappen mit dem Bestand. Außerhalb liegen Seitenwaffe (1,1–1,75 s), Impuls und Scout (1,65–1,85 s),
+Raketenwerfer legendär (ab 2,58 s), Prospector (4,48–4,62 s), die Glefe des Bestands (2,28–3,07 s) und das MG mit Deckel (5,47 s, 0,6 s über Shattered Cipher) –
+andere Modelle bzw. andere Endpunkte (z. B. MP „bis Hüfte“), kein Widerspruch.
 
 **Abläufe je Bauform** (Phasen aus Bögen, ±4 Bilder)
 
@@ -242,7 +246,7 @@ Hauptquelle [WD-NIS](#q-nis): 64 Abschnitte, 57 mit Dauer.
 | Bogen | WD-NIS Abschnitt 44, 45 | kein Magazin: Bogen dreht, neuer Pfeil von rechts | 2,62 / 2,63 s |
 | Glefe (Sonderform) | WD-NIS n 8066 → 8291 | Schaft hochgeworfen und gedreht, Klingenteil getauscht | 3,63 / 3,75 s (Bestand 2,28–3,07) |
 
-**Sonderformen der Exotics** zerlegen die Waffe, werfen Teile hoch oder tauschen ganze Trommeln. Einige sind kürzer als jeder Typwert (1,83 und 1,92 s) – ihre
+**Sonderformen der Exotics** zerlegen die Waffe, werfen Teile hoch oder tauschen ganze Trommeln. Einige liegen am unteren Rand ihres Typs (1,83 und 1,92 s, unter dem Gewehr-Median 2,39) – ihre
 Zeiten nicht als Typ lesen.
 
 ### 3.2 Destiny 2 – Waffenaktionen von außen
@@ -301,7 +305,7 @@ Quelle: [OrcCorp-Showcases](#q-oc), Schießstand, Basiswaffen Stufe 30, Talente 
 | Geduckter Lauf | tief zweihändig | ≈ −50° | beidhändig | [MV-TM n 6404](#r-dv-geduckt) |
 | Deckung hoch (Barrikade) | schräg vor der Hüfte | −45° | rechte am Griff, linke am Handschutz | MV-TM n 5494 |
 | Deckung hoch, seitlich am Pfeiler | senkrecht dicht am Körper | ≈ −90° | beidhändig | MV-TM n 6500 |
-| Deckung niedrig | vor dem Oberschenkel | **−54°** | beidhändig | MV-TM n 5650 |
+| Deckung niedrig | vor dem Oberschenkel | **≈ −35°** (Richter, Linienfit; Verlauf n 5630–5670 −25 bis −38°; Agent las −54°) | beidhändig | MV-TM n 5650 |
 | Deckung niedrig, Bereitschaft (Präzisionsgewehr) | steil vor Brust und Gesicht | **≈ +70°** | beidhändig | MV-AB n 9120 |
 | Vault | senkrecht in der rechten Hand | +90° [O] | rechte Hand | MV-SH n 8876 |
 | Nachladen (Magazinwaffen) | steil bis senkrecht vor der rechten Schulter | **+60 bis +85°** | rechte am Griff, linke am Schacht | 3.3 |
@@ -323,8 +327,8 @@ Bewegungsquellen meist ein Gewehr.
 2. **Division unterscheidet die Klasse über die Dauer, Destiny über die Bauform.** In Division: MP 72–83 < Sturmgewehr 90 < Gewehr 113 < Magazin-LMG 117 <
    Gurt-LMG 186 Bilder bis HUD. Destiny zeigt im Ego je Bauform einen eigenen Ablauf (Revolver, Trommel, Deckel, von oben), die Dauern überlappen stark.
    Ausnahmen in beiden Spielen: Gurt-MG flach statt steil und am längsten.
-3. **Ruhe unten, Bereitschaft oben (Division).** Die Mündung zeigt in Ruhe, Deckung und geduckt 45–54° nach unten, in Bereitschaft und beim Vault
-   70–90° nach oben. Akrobatik geschieht mit freien Händen; die Waffen bleiben am Rucksack sichtbar.
+3. **Ruhe unten, Bereitschaft oben (Division).** Die Mündung zeigt in Ruhe, Deckung und geduckt nach unten (Tragen −20 bis −45°, Deckung −35 bis −45°,
+   geduckter Lauf −50°, seitlich am Pfeiler senkrecht), in Bereitschaft nach oben (+70°, ein Beispiel; Vault +90° [O]). Akrobatik geschieht mit freien Händen; die Waffen bleiben am Rucksack sichtbar.
 4. **Destiny-Schwert bleibt in der Hand.** Beim Rutschen steht es unverändert senkrecht, beim Sprung tief rechts-hinten, bei der Landung waagrecht. Mit
    Feuerwaffen sind Sprint, Rutschen und Sprung von außen nicht belegt – in Bug-Aufnahmen ist die aktive Waffe beim Laufen oft nicht zu sehen (Bestand 0.42).
 
@@ -345,7 +349,7 @@ Bewegungsquellen meist ein Gewehr.
 | Destiny 2 | Schwerthaltung im Sprint | Quickfang-„Ninja“-Haltung beliebt (75j3e2) | Ergo Sum ohne die Leichtrahmen-Haltung (1dc7yeo, 102 P.; 1d8rsqv) | Schwertspieler | wiederkehrend | Änderung nicht gefunden |
 | Destiny 2 | Nachladeanimationen | Exotics mit eigener Animation beliebt (13v34pk, 483 P.; qeluma; ac5qm9) | wenige Rigs für Legendaries, Schrot immer Einzelpatrone (gu5age, 112 P.; zfv8zm, 214 P., 81 %; 8tzlt5, 406 P.) | Waffenliebhaber | wiederkehrend 2018 → 2022 | K4 (TWAB 21.05.2020: Reload-Stat setzt die Animationsgeschwindigkeit je Archetyp) |
 | Destiny 2 | Nachladen in dritter Person | – | Quicksilver Storm zeigte in dritter Person die Sonder-Nachladeanimation auch beim normalen Nachladen | – | Einzel (Bug) | **K5: behoben 28.11.2023** – belegt, dass Destiny eigene Nachladeanimationen für die Außenansicht hat |
-| **The Division 2** | Sprint und Laufen von außen | „schwer und realistisch“ (9z5180, Kommentar); „beste Charakteranimationen“, Rutschen über die Motorhaube in Deckung gelobt (15q4nv4, 69 P.) | „Windel-Watscheln“, 45°-Neigung (9z5180, 93 P.; cv91pu, 164 P.; apgcxl); seit 2023 Sprint → Stopp ohne Überblenden (11s4686, 42 P.), 2024 nach Spielerangabe unverändert (1bzstxx) | Realismus-Spieler (gespalten) | wiederkehrend seit der Vorabversion 2018 | – (kein Entwicklerzitat gefunden) |
+| **The Division 2** | Sprint und Laufen von außen | „schwer und realistisch“ (9z5180, Kommentar); „beste Charakteranimationen“, Rutschen über die Motorhaube in Deckung gelobt (15q4nv4, 69 P.) | „Windel-Watscheln“ (9z5180, 93 P.; cv91pu, 164 P.; apgcxl), 45°-Neigung (aom0ce, 0 P.); seit 2023 Sprint → Stopp ohne Überblenden (11s4686, 42 P.), 2024 nach Spielerangabe unverändert (1bzstxx) | Realismus-Spieler (gespalten) | wiederkehrend seit der Vorabversion 2018 | – (kein Entwicklerzitat gefunden) |
 | The Division 2 | Deckung, Klettern, Wiederbeleben | [Einschätzung] Höhenstufen klar lesbar (1,0 / 0,64 KH); Deckungs-Tipps gelobt (15tbpwv, 114 P.) | Animationssperre nach dem Klettern (1twefo9, 37 P., 2026); Hänger beim Wiederbeleben | Alle | wiederkehrend | K7 (TU4: Bewegung um runde Deckung), K8 (TU7: Wiederbeleben-Hänger behoben) |
 | The Division 2 | Nachladen | Nachladeanimation „außerordentlich schön“ (15q4nv4, Kommentar); [Einschätzung] Klasse an der Dauer lesbar | Nachladen blockiert Aufheben und Wiederbeleben (b3x5y4); RPK mit fremder Nachladeanimation (gz8w2v); Verzögerung mit Schild (j70h8n) | PvP, Waffenkenner | wiederkehrend | **K6 (TU6, 16.09.2019): M60 durchdrang die Figur beim Nachladen, behoben**; K7 (Schild-Nachladen mit falscher Animation, behoben) |
 | The Division 2 | Waffenhaltung im Sprint | „Himmelwärts“-Haltung mit Mündung oben beliebt (1c6fwcc, Kommentar) | SMG-Sprint: drei Haltungen „ohne Logik“, SMG-9 wie Pistole (1c6fwcc); Zwei-Hand-Wunsch schon in Division 1 (7ky957, D1) | MP-Spieler | wiederkehrend D1 2017 → D2 2024 | – |
@@ -355,9 +359,9 @@ Bewegungsquellen meist ein Gewehr.
 - **Übernehmen:**
   - **Eine** steile Nachladeform für alle Magazinwaffen (Waffe senkrecht neben dem Kopf). Die Klasse zeigt sich über die Dauer (Division 72–186 Bilder) und
     eine Ausnahme für Gurtwaffen. Einschätzung: von oben in der Isometrie lesbar ([3.3](#33-the-division-2--nachladen-je-waffenklasse-dritte-person)).
-  - Waffe in Ruhe mit der Mündung nach unten (−45 bis −55°), in Bereitschaft nach oben ([3.4](#34-waffenhaltung-je-körperpose)).
+  - Waffe in Ruhe mit der Mündung nach unten (Division −20 bis −50°), in Bereitschaft nach oben ([3.4](#34-waffenhaltung-je-körperpose)).
   - Fähigkeiten mit kurzer Ansage von ≈ 0,6 s ([Super](#r-super)).
-- **Übernehmen oder testen:** Hocke als Höhenstufe von ≈ 0,64–0,68 KH ([Division](#r-dv-deckung), [Destiny](#r-sentinel)). Ob der Roboter frei ducken darf oder
+- **Übernehmen oder testen:** Hocke als Höhenstufe von ≈ 0,64 KH ([Division](#r-dv-deckung)) bzw. ≤ 0,68 KH ([Destiny](#r-sentinel), Bezug Ausfallschritt). Ob der Roboter frei ducken darf oder
   nur an Deckung (Division), entscheidet Cube Escape.
 - **Testen:**
   - Akrobatik (Rolle, Sprung, Klettern) mit freien Händen und der Waffe am Rücken (Division) gegen Waffe in der Hand (Destiny-Schwert).
@@ -426,7 +430,7 @@ Mit Grund – nicht mit denselben Quellen wiederholen:
 ## 6. Prüfung und Zählung
 
 - **Unteragenten:** fünf, wie in [1](#1-quellen-und-methode); keiner schrieb ins Repo oder lud selbst.
-- **Nachmessung durch den Koordinator: 10 Stellen, 9 bestätigt, 1 teilweise** (eigene Einzelbilder bzw. Bilddifferenz):
+- **Nachmessung durch den Koordinator: 11 Stellen, 10 bestätigt, 1 teilweise** (eigene Einzelbilder bzw. Bilddifferenz):
   - Sentinel-Hocke 0,66–0,69 gegen 0,68 KH;
   - Super-Wechsel Sentinel n 18856/18892;
   - Jäger-Schwertsprung n 7520/7524/7589/7597;
@@ -448,7 +452,9 @@ Mit Grund – nicht mit denselben Quellen wiederholen:
     37 Spieler- sowie 9 Fachquellen.
   - **Korrigiert:**
     - Die Kürzel R1–R39 des Rechercheagenten waren zwischen Tabelle und Liste verschoben; hier stehen die Reddit-IDs.
-    - Die Sentinel-Vergleichspose ist ein Ausfallschritt; der Hinweis ist ergänzt.
+    - Die Sentinel-Vergleichspose ist ein Ausfallschritt; die Hocke steht als ≤ 0,68 KH.
+    - Nach dem Richter (Runde 1): Gewehrwinkel in niedriger Deckung −54° → ≈ −35° (Linienfit am Einzelbild), Ruhe-Spanne neu gefasst; 63 statt 64 Abschnitte,
+      59 statt 57 mit Dauer; Normaltempo vierfach statt fünffach; Abgleich mit dem Bestand und Sonderformen umformuliert; Zählung der Stellen; Exotic-Reihen in › 1; Eintrag für V-OC3 in `clips.json`.
   - **Nicht übernommen:**
     - Zeiten aus Quellen unter ≈ 50 echten Bildern/s, nur als Form geführt.
     - Die Warframe-Mediane aus der automatischen Segmentierung, nur [O] im JSON.
@@ -457,5 +463,7 @@ Mit Grund – nicht mit denselben Quellen wiederholen:
   - 2 Spiele, Warframe als Vergleich.
   - 43 Video-IDs eingereiht (42 geladen, 1 gescheitert), dazu weitere nur per Metadaten geprüft. Gemessen bzw. ausgewertet je Agent:
     MD 9, MV 6, WD 8, WV 4 (einzelne Videos bei zwei Agenten).
+  - `data/repertoire.json` › `examples`: 128 Einträge = 63 Katalogabschnitte des Nachladevideos, 8 Phasenzeilen zu Katalogabschnitten derselben Aufnahme
+    (Feld `same_segment`) und 57 weitere Mess- und Sichtzeilen.
   - 37 Spieler- und 9 Fachquellen.
   - ≈ 20 eigene Prüfbilder des Koordinators.

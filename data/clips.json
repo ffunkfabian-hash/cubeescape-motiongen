@@ -3474,7 +3474,7 @@
     "timestamps": "Takt n 3530–3712; Landung Aufsatz n 3487"
   },
   {
-    "measurement": "REF 0.43 Repertoire: Super-Aktivierung von außen (Destiny 2), Kamerawechsel bis Blitz 12–55 Bilder, meist 35–37; Ausholhocke Sentinel Shield 0,68 KH",
+    "measurement": "REF 0.43 Repertoire: Super-Aktivierung von außen (Destiny 2), Kamerawechsel bis Blitz 12–55 Bilder, meist 35–37; Ausholhocke Sentinel Shield ≤ 0,68 KH (Bezug Ausfallschritt)",
     "clip": "https://www.youtube.com/watch?v=RMLZqmCW4q4",
     "source": "Ultraclocked (YouTube), 2026-06-04, „Destiny 2 vs Warframe - Abilities“, 1080p 60/s",
     "timestamps": "Sentinel n 18856–18912; übrige Supers in data/repertoire.json"
@@ -3492,7 +3492,7 @@
     "timestamps": "n 38–48; n 8758–8794"
   },
   {
-    "measurement": "REF 0.43 Repertoire: Destiny-2-Nachladekatalog Ego, 64 Abschnitte (Revolver 2,47 s, Raketenwerfer 171 Bilder, MG mit Deckel 5,47 s)",
+    "measurement": "REF 0.43 Repertoire: Destiny-2-Nachladekatalog Ego, 63 Abschnitte (Revolver 2,47 s, Raketenwerfer 171 Bilder, MG mit Deckel 5,47 s)",
     "clip": "https://www.youtube.com/watch?v=nis07-5BXuo",
     "source": "Ultraclocked (YouTube), 2026-09-13, „Destiny 2 - All Weapon Reload Animations in 3 minutes 33 seconds (FINAL)“, 1080p 60/s",
     "timestamps": "Revolver n 622–770; Raketenwerfer n 11998–12169; Abschnitte in data/repertoire.json"
@@ -3520,5 +3520,11 @@
     "clip": "https://www.youtube.com/watch?v=mk3V564-iHs",
     "source": "OrcCorp (YouTube), ≈ Mai 2019, „The Division 2 - All Basic LMGs & Shotguns (Showcase)“, 1440p60 als 1080p",
     "timestamps": "Abschnitte 0–80 s n 1890–2027; 237–305 s n 1749–1935; 376–649 s n 1134–1228"
+  },
+  {
+    "measurement": "REF 0.43 Repertoire: Division-2-Nachladen Gewehr M1A 113 Bilder bis HUD (≈ 80° vor der rechten Schulter), Repetierer Model 700 ≈ 41 Bilder je Patrone, Repetieren mit Ausstieg aus dem Zielfernrohr 66–67 Bilder",
+    "clip": "https://www.youtube.com/watch?v=rb3hM7o6gxA",
+    "source": "OrcCorp (YouTube), ≈ Mai 2019, „The Division 2 All Basic Marksman Rifles & Rifles (Showcase)“, 1440p60 als 1080p",
+    "timestamps": "Abschnitte 404–542 s n 2728–2841; 13–74 s n 1183–1268, 1745–1916; 304–404 s n 744–828, 863–946"
   }
 ]}
