@@ -59,14 +59,14 @@ Fehler-Videos von 2024/25, in denen das Spiel nach einer Wiederbelebung im echte
 
 **Kurzbefund REF 0.42 „Momentum“ (Mac, 27.11.2026; vier Quellen aus 0.41, [3.6](#36-bewegung-mit-waffe-von-außen--ref-042)).** Gefragt waren Sprint,
 Rutschen, Springen und Ziehen mit der Waffe in der Hand.
-- **Laufen mit geführter Waffe:** Scoutgewehr vorn an der rechten Schulter, ≈ 32° über der Waagrechten, Mündung neben dem Kopf – die Lage wie beim Feuern,
-  **nicht gesenkt**; die schwere Waffe hängt dabei steil auf dem Rücken (≈ 77°) ([Lauf](#a-m-lauf-scout)).
+- **Laufen mit geführter Waffe (eine Szene):** Scoutgewehr vorn an der rechten Schulter, ≈ 32° über der Waagrechten, auf einen Gegner gerichtet – Gangart
+  vermutlich Lauf, eine Kampfhaltung; **über eine Sprinthaltung sagt die Szene nichts**. Die schwere Waffe hängt dabei steil auf dem Rücken (≈ 77°) ([Lauf](#a-m-lauf-scout)).
 - **Oft ist die aktive Waffe beim Laufen gar nicht zu sehen:** in drei Szenen (Warlock, Titan, PvP-Rutschen) sind die Hände leer oder die Waffe verdeckt.
-  Beim Titan hängt vermutlich die aktive Waffe selbst auf dem Rücken (Zielfernrohr wie im HUD). Das schränkt den 0.41-Befund „verstaute neben aktiver“
-  weiter auf die Szenen mit sichtbarer aktiver Waffe ein.
+  Beim Titan (H-CC) hängt vermutlich die aktive Waffe selbst auf dem Rücken (Zielfernrohr wie im HUD) [O]. Für den 0.41-Befund „verstaute Waffe neben der
+  aktiven“ trägt danach **nur H-CT** (aktive Waffe sichtbar in der Hand) und H-KW n 29060 aus 0.42; H-NC stützt ihn nur über das HUD – die Handkanone ist dort in keinem Bild zu sehen.
 - **Rutschen (PvP):** ≈ 33 Bilder (0,55 s) vom Absenken bis aufrecht; ein Bein gestreckt vorn, Rumpf aufrecht bis leicht zurück, eine Hand leer nach vorn ([Rutschen](#a-m-rutschen)).
 - **Landung:** Titan nach ≈ 80 Bildern Fall ohne sichtbare Abfanghocke, nächster Laufschritt 4–7 Bilder nach dem Aufsatz; Warlock nach dem Gleiten ≈ 8 Bilder.
-- **Takt Titan-Lauf** (Waffe auf dem Rücken): **3,41 Schritte/s** aus vier aufeinanderfolgenden Zyklen an fester Vorlage – vorläufig (NCC 0,57–0,76), deckt sich mit 0.40 (3,42).
+- **Takt Titan-Lauf** (Waffe auf dem Rücken): **3,41 Schritte/s** aus vier aufeinanderfolgenden Zyklen an fester Vorlage – vorläufig (NCC 0,57–0,76), deckt sich mit 0.40 (3,42, ebenfalls vorläufig, mit Schwert in der Hand).
 - **Nicht messbar:** Sprintbeginn und -ende (in keinem Abschnitt wechselt die Waffe im Lauf ihre Lage), Lauf gegen Sprint, Ziehen am Körper, Takt mit Waffe in der Hand.
 
 ## 1. Quellen und Methode
@@ -417,16 +417,16 @@ Ordner `~/Library/Caches/CubeEscape/reference/aussenansicht/momentum/`), Stichpr
 | **Rutschen, PvP (Handkanone laut HUD aktiv)** [M] <a id="a-m-rutschen"></a> | H-NC, Einsatz n 2293 (±2; n 2290 aufrecht), tief n 2296–2321, aufrecht n 2326 (±2) | **≈ 33 Bilder (0,55 s, ±3)** vom Absenken bis aufrecht. Haltung n 2314: Figur sitzt tief, **ein Bein gestreckt nach vorn**, das andere untergeschlagen, Rumpf aufrecht bis leicht zurück; ein Arm nach vorn gestreckt, Hand leer; die goldene Langwaffe bleibt auf dem Rücken (n 2290: 41°); die Handkanone ist in keinem Bild zu sehen. Ab n 2327 Übergang in einen Sprung. Koordinator: Folge n 2290/2296/2314/2326 angesehen |
 | Fall und Landung im Lauf, Titan [M] | H-CC, Absprung n ≈ 3405 (±5), Aufsatz **n 3487** (±1), Laufschritt n 3491–3494 | Fall ≈ 80 Bilder; im Fall ein Knie hochgezogen, Unterschenkel hängen; **keine sichtbare Abfanghocke**, nächster Laufschritt **4–7 Bilder** nach dem Aufsatz; die Rückenwaffe bleibt unverändert |
 | Gleiten und Landung, Warlock [O] | H-KW, Luft ≈ n 39350 → Aufsatz ≈ n 39521 (±3), Laufschritt ≈ n 39529 | Knie angezogen, Unterschenkel hängen, rechter Arm gebeugt vor der Brust, hält etwas vor dem Körper (Gegenlicht, Figur 8–10 % H); Laufschritt ≈ 8 Bilder nach dem Aufsatz |
-| **Takt Titan-Lauf, Waffe auf dem Rücken** [M, vorläufig] <a id="a-m-takt"></a> | H-CC, n 3530–3712, feste Vorlage aus n 3560 | Ganze Figur: Spitzen n 3560 / 3595 / 3630 / 3665 / 3701 → **35 / 35 / 35 / 36 Bilder** (vier aufeinanderfolgende Zyklen); Beine 34 / 34 / 36 / 36; Autokorrelation L = 35 / 71 / 106 → **35,1 Bilder = 3,41 Schritte/s**. Vorläufig, weil die NCC an den Spitzen nur 0,57–0,76 erreicht (Schwelle 0,85) und das Normaltempo hier nicht geprüft ist; deckt sich mit dem Titan-Lauf aus [0.40](#a-s-titan-lauf) (3,42, mit Schwert in der Hand) |
+| **Takt Titan-Lauf, Waffe auf dem Rücken** [M, vorläufig] <a id="a-m-takt"></a> | H-CC, n 3530–3712, feste Vorlage aus n 3560 | Ganze Figur: Spitzen n 3560 / 3595 / 3630 / 3665 / 3701 → **35 / 35 / 35 / 36 Bilder** (vier aufeinanderfolgende Zyklen); Beine 34 / 34 / 36 / 36; Autokorrelation L = 35 / 71 / 106 → **35,1 Bilder = 3,41 Schritte/s**. Vorläufig, weil die NCC an den Spitzen nur 0,57–0,76 erreicht (Schwelle 0,85) und das Normaltempo hier nicht geprüft ist; deckt sich mit dem Titan-Lauf aus [0.40](#a-s-titan-lauf) (3,42, ebenfalls vorläufig, mit Schwert in der Hand) |
 | Sprintbeginn / Sprintende, Lauf gegen Sprint | H-CC, H-KW, H-CT, H-NC | **nicht messbar:** in keinem gesichteten Abschnitt wechselt die Waffe im Lauf ihre Lage (H-KW n 29036–29168 bleibt oben; sonst ist die aktive Waffe nicht sichtbar); kein Sprint-Merkmal (HUD, Unschärfe) |
 | Ziehen am Körper | H-CT, H-KW | **nicht messbar:** der einzige Wechsel (H-CT n 8080) ist von einer Explosion verdeckt; Kamera in H-CT n 7700–8875 nah und dunkel |
 | Takt mit Waffe in der Hand | H-KW n 29044–29170 | **nicht messbar:** feste Vorlage gibt nur eine Wiederkehr (40 Bilder, NCC 0,87), Autokorrelation L = 34 (r 0,34) – 1–3 Zyklen, Figur dreht und schrumpft |
 | Hände | alle | nicht auflösbar (im Lauf ≤ 20 px oder verdeckt) [O] |
 
-**Muster 3.6 (Beobachtung):** (1) Wenn die geführte Waffe im Lauf sichtbar ist, liegt sie **oben an der Schulter wie beim Feuern** – eine gesenkte
-Sprinthaltung zeigt keine der vier Quellen. (2) In drei von vier Lauf-/Rutsch-Szenen ist die aktive Waffe **nicht in der Hand zu sehen**; ob die
+**Muster 3.6 (Beobachtung):** (1) In der einen Szene mit sichtbarer geführter Waffe im Lauf (H-KW) liegt sie **oben an der Schulter wie beim Feuern**,
+auf einen Gegner gerichtet; eine Sprinthaltung ist **nicht belegt**. (2) In drei von vier Lauf-/Rutsch-Szenen ist die aktive Waffe **nicht in der Hand zu sehen**; ob die
 Bug-/Glitch-Kamera die Waffe beim Laufen verstaut oder sie nur verdeckt ist, bleibt offen. (3) Landungen aus dem Lauf gehen **ohne Abfanghocke** nach
-4–8 Bildern in den nächsten Schritt über (zwei Beispiele). (4) Gesucht wurden H-CC ganz (1 Bild/s), H-KW 240–272 s und 320–880 s (Bogen alle 2 s;
+4–8 Bildern in den nächsten Schritt über (ein gemessenes Beispiel, Titan 4–7; ein beobachtetes, Warlock ≈ 8). (4) Gesucht wurden H-CC ganz (1 Bild/s), H-KW 240–272 s und 320–880 s (Bogen alle 2 s;
 880–1440 s nicht durchgesehen), H-CT 60–76 s und 128–148 s, H-NC ganz; ein Bogen alle 2 s kann ein Rutschen von 0,5 s verfehlen.
 
 ## 4. Muster je Spiel
@@ -443,7 +443,7 @@ Bug-/Glitch-Kamera die Waffe beim Laufen verstaut oder sie nur verdeckt ist, ble
 - **Gears 5:** Zielkamera sehr nah (Kopf/Schulter füllen ein Drittel der Breite), Ducken in Deckung; Roadie Run nicht messbar.
 
 **Ergänzt in 0.42 ([3.6](#36-bewegung-mit-waffe-von-außen--ref-042)):**
-- **Destiny 2:** Lauf mit geführter Waffe: Scout oben an der Schulter (≈ 32°), nicht gesenkt; oft ist die aktive Waffe beim Laufen nicht zu sehen.
+- **Destiny 2:** Lauf mit geführter Waffe (eine Szene): Scout oben an der Schulter (≈ 32°), auf einen Gegner gerichtet, Sprinthaltung nicht belegt; oft ist die aktive Waffe beim Laufen nicht zu sehen.
   Rutschen ≈ 33 Bilder mit gestrecktem Bein; Landung aus dem Lauf ohne Abfanghocke; Titan-Lauf 3,41 Schritte/s (vorläufig, vier Zyklen).
 
 **Ergänzt in 0.41 ([3.5](#35-waffentypen-hände-und-aktionen-von-außen--ref-041)):**
@@ -739,8 +739,9 @@ Vollständige Liste mit Datum, Sprecher, Zustimmung und Gegenstimmen in `data/au
 - **Nachmessung durch den Koordinator: 4 Stellen, 4 bestätigt** (eigene Einzelbilder): Lauf mit Scout H-KW n 29060 (Scout vorn an der Schulter,
   schwere Waffe steil hinten), Rückenwaffe im Lauf H-CC n 3600/3930, Rutschfolge H-NC n 2290/2296/2314/2326, Rückenlage H-KW n 14520 (eine Waffe
   links hinten; dass es die schwere ist, übernommen vom Agenten mit Gegenbild n 29060). Takt nicht selbst nachgerechnet (Spuren `takt_*.txt` im Ordner).
+- **Richter, Runde 1 (ce-judge, Opus):** Zahlen und drei Stellen am Einzelbild bestätigt; korrigiert danach: „nicht gesenkt“ nur für eine Szene mit Waffe auf einen Gegner, Sprinthaltung nicht belegt; 0.41-Rückenbefund trägt nur H-CT (H-NC nur HUD); Landung als ein gemessenes und ein beobachtetes Beispiel; Zählung der Prüfbilder; zwei JSON-Felder.
 - **Übernommen:** 16 Tabellenzeilen des Agenten, im JSON 10 Einträge (9 in `weapon_body`, der Takt in `body_motion`; die Runde-1-Zeile „Rutschen nicht gefunden“ verworfen); `capture` „bug/glitch“
   bei Sammelzeilen auf die Quelle der Hauptaussage gesetzt. **Korrigiert:** die Deutung „Langwaffe links hinten in H-KW n 14520 = aktive Waffe“
   aus Runde 1 (vom Agenten selbst in Runde 2 verworfen).
-- **Zählung:** 1 Spiel, 4 Videos (keine neuen), 16 Zeilen (7 [M], 9 [O] bzw. nicht messbar), 4 eigene Prüfbilder; keine neuen Spieler- oder Fachquellen
+- **Zählung:** 1 Spiel, 4 Videos (keine neuen), 16 Zeilen (7 [M], 9 [O] bzw. nicht messbar), 4 Stellen, 10 eigene Prüfbilder (8 Einzelbilder, 2 Bögen); keine neuen Spieler- oder Fachquellen
   (Standard › 4: keine neue Bewertung).

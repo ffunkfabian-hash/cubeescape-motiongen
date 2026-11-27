@@ -2,8 +2,8 @@
 
 ## 0.42.0 „Momentum“ – Destiny-Hüter in Bewegung mit Waffe von außen
 
-- **Neu:** [aussenansicht.md › 3.6](docs/aussenansicht.md#36-bewegung-mit-waffe-von-außen--ref-042) – Lauf mit geführter Waffe (Scout oben an der
-  Schulter ≈ 32°, nicht gesenkt), Rutschen im PvP ≈ 33 Bilder mit gestrecktem Bein, Landung aus dem Lauf ohne Abfanghocke (4–8 Bilder bis zum
+- **Neu:** [aussenansicht.md › 3.6](docs/aussenansicht.md#36-bewegung-mit-waffe-von-außen--ref-042) – Lauf mit geführter Waffe (eine Szene: Scout oben an der
+  Schulter ≈ 32°, auf einen Gegner gerichtet; Sprinthaltung nicht belegt), Rutschen im PvP ≈ 33 Bilder mit gestrecktem Bein, Landung aus dem Lauf ohne Abfanghocke (Titan 4–7 Bilder bis zum
   nächsten Schritt), Titan-Lauf 3,41 Schritte/s aus vier Zyklen an fester Vorlage (vorläufig). In drei von vier Lauf-/Rutsch-Szenen ist die aktive
   Waffe nicht in der Hand zu sehen.
 - **Offen** (› 7): Sprintbeginn/-ende, Lauf gegen Sprint, Ziehen am Körper, Takt mit Waffe in der Hand.

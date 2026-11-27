@@ -4212,7 +4212,7 @@
       "channel": "Kawffee",
       "upload_date": "2021-01-10",
       "fps_real": 60,
-      "timestamp": "4:06.3",
+      "timestamp": "4:06.6",
       "frame_index": 14796,
       "frames": null,
       "figure_h_pct": null,
@@ -4275,8 +4275,8 @@
       "status": "O",
       "capture": "glitch",
       "source_url": "https://www.youtube.com/watch?v=3fClbInDPHo",
-      "channel": null,
-      "upload_date": null,
+      "channel": "Kawffee",
+      "upload_date": "2021-01-10",
       "fps_real": null,
       "timestamp": null,
       "frame_index": null,
@@ -5474,10 +5474,11 @@
     "run_steps_per_s_titan_fixed_template": 3.41,
     "run_titan_fixed_template_provisional": true,
     "slide_frames_pvp": 33,
-    "landing_to_next_step_frames": [
+    "landing_to_next_step_frames_titan_measured": [
       4,
-      8
-    ]
+      7
+    ],
+    "landing_to_next_step_frames_warlock_observed": 8
   },
   "ballon_summary": {
     "hand_kh": [
@@ -5511,8 +5512,8 @@
       58,
       59
     ],
-    "stowed_weapon_on_back_note": "0.41: nur H-CT und H-NC mit belegter aktiver Waffe; H-CC (54°, Nav-Modus) und H-LP (48°) zeigen die Lage ohne diesen Beleg; reguläres Holster oder Bug-Bild nicht entscheidbar",
-    "run_with_weapon_note": "0.42: geführte Waffe im Lauf oben an der Schulter (Scout ≈ 32°), nicht gesenkt; in 3 von 4 Lauf-/Rutsch-Szenen aktive Waffe nicht sichtbar"
+    "stowed_weapon_on_back_note": "0.41: nur H-CT und H-NC mit belegter aktiver Waffe; H-CC (54°, Nav-Modus) und H-LP (48°) zeigen die Lage ohne diesen Beleg; reguläres Holster oder Bug-Bild nicht entscheidbar | 0.42: H-NC-Handkanone in keinem Bild sichtbar (nur HUD) → mit sichtbarer aktiver Waffe tragen nur H-CT und H-KW n 29060; H-CC-Rückenwaffe vermutlich die aktive [O]",
+    "run_with_weapon_note": "0.42: eine Szene mit geführter Waffe im Lauf (H-KW n 29060): Scout oben an der Schulter ≈ 32°, auf einen Gegner gerichtet – Sprinthaltung nicht belegt; in 3 von 4 Lauf-/Rutsch-Szenen aktive Waffe nicht sichtbar"
   },
   "open": [
     "Fußaufsatz ±1 Bild, Schrittlänge und Hub/Pendeln in KH (keine Seitenansicht mit ganzer Figur bei echten 60/s in 20 Videos)",
