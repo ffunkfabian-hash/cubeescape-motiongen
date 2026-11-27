@@ -63,7 +63,7 @@ Rutschen, Springen und Ziehen mit der Waffe in der Hand.
   vermutlich Lauf, eine Kampfhaltung; **über eine Sprinthaltung sagt die Szene nichts**. Die schwere Waffe hängt dabei steil auf dem Rücken (≈ 77°) ([Lauf](#a-m-lauf-scout)).
 - **Oft ist die aktive Waffe beim Laufen gar nicht zu sehen:** in drei Szenen (Warlock, Titan, PvP-Rutschen) sind die Hände leer oder die Waffe verdeckt.
   Beim Titan (H-CC) hängt vermutlich die aktive Waffe selbst auf dem Rücken (Zielfernrohr wie im HUD) [O]. Für den 0.41-Befund „verstaute Waffe neben der
-  aktiven“ trägt danach **nur H-CT** (aktive Waffe sichtbar in der Hand) und H-KW n 29060 aus 0.42; H-NC stützt ihn nur über das HUD – die Handkanone ist dort in keinem Bild zu sehen.
+  aktiven“ tragen danach nur **H-CT und H-KW n 29060** (aktive Waffe sichtbar in der Hand); H-NC stützt ihn nur über das HUD – die Handkanone ist dort in keinem Bild zu sehen.
 - **Rutschen (PvP):** ≈ 33 Bilder (0,55 s) vom Absenken bis aufrecht; ein Bein gestreckt vorn, Rumpf aufrecht bis leicht zurück, eine Hand leer nach vorn ([Rutschen](#a-m-rutschen)).
 - **Landung:** Titan nach ≈ 80 Bildern Fall ohne sichtbare Abfanghocke, nächster Laufschritt 4–7 Bilder nach dem Aufsatz; Warlock nach dem Gleiten ≈ 8 Bilder.
 - **Takt Titan-Lauf** (Waffe auf dem Rücken): **3,41 Schritte/s** aus vier aufeinanderfolgenden Zyklen an fester Vorlage – vorläufig (NCC 0,57–0,76), deckt sich mit 0.40 (3,42, ebenfalls vorläufig, mit Schwert in der Hand).
