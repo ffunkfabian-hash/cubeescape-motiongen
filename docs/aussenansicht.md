@@ -38,7 +38,7 @@ von 7,3 Zyklen, Zyklus 35,1 Bilder), nahe am Warlock-Lauf aus 0.33 (3,2–3,3); 
 Im Turm schneidet die Kamera den Titan in der einen Quelle meist auf Mitte Oberschenkel ab: **Beine, Fußaufsatz, Schrittlänge, Hub in KH und Vorlage bleiben offen**;
 zu sehen ist meist nur der Oberkörper (ruhig, Arme leicht gebeugt neben dem Körper, kleiner Armschwung). Zwei der vier Quellen zeigen keinen Titan.
 
-**Kurzbefund REF 0.41 „Holster“ (Mac, 27.11.2026; 24 YouTube-Quellen geprüft, 17 ausgewertet, [1.3](#13-quellen-ref-041-youtube-mac), [3.5](#35-waffentypen-hände-und-aktionen-von-außen--ref-041)).**
+**Kurzbefund REF 0.41 „Holster“ (Mac, 27.11.2026; 38 YouTube-Kandidaten geprüft, 20 ausgewertet, [1.3](#13-quellen-ref-041-youtube-mac), [3.5](#35-waffentypen-hände-und-aktionen-von-außen--ref-041)).**
 Gefragt waren Destiny-Hüter von außen mit verschiedenen Waffentypen in Aktion, ausdrücklich mit den **Fingern auf der Waffe**. Neue Quellen sind
 Fehler-Videos von 2024/25, in denen das Spiel nach einer Wiederbelebung im echten Kampf in dritter Person bleibt.
 - **Finger von außen sind in keiner Kampfaufnahme auflösbar.** Die Hände messen 15–60 px, die Kamera steht hinter der Figur, Körper und Robe
@@ -46,13 +46,13 @@ Fehler-Videos von 2024/25, in denen das Spiel nach einer Wiederbelebung im echte
   In der Ego-Ansicht ist der Griff je Waffentyp lesbar ([Hände](#a-h-finger)): Handkanone und Seitenwaffe einhändig als Faust; die linke Hand an
   Gewehren als Faust unter dem Handschutz oder **flach mit gestreckten Fingern links am Gehäuse**; Raketenwerfer mit Faust am senkrechten Vordergriff.
   Ein Zeigefinger am Abzug ist in keinem Ruhebild zu sehen.
-- **Zweite Waffe auf dem Rücken im Kampf:** In allen vier gemessenen Fehler-Videos (Warlock und Titan, PvE und PvP) hängt eine **nicht aktive
-  Langwaffe schräg über dem Rücken** (48–59° zur Waagrechten, 0,54–0,91 KH), während die aktive in der Hand ist. Bisher hieß es „nur eine
-  Waffe sichtbar“: in der Hand und auf dem Rücken sind es zwei ([Rücken](#a-h-ruecken)).
+- **Verstaute Waffe auf dem Rücken neben der aktiven:** In zwei Fehler-Videos mit belegter aktiver Waffe (H-CT per HUD und Einzelbild, H-NC per HUD)
+  hängt eine **nicht aktive Langwaffe schräg über dem Rücken** (58–59° zur Waagrechten, ≤ 0,91 KH), während die aktive in der Hand ist; H-CC und H-LP
+  zeigen dieselbe Lage (48–54°), die aktive Waffe ist dort nicht nachgewiesen. Ob das die reguläre Holster-Darstellung ist oder ein Bug-Bild, entscheiden die Clips nicht. Zu sehen ist eine verstaute Waffe hinten und die aktive in der Hand; die dritte Waffe ist unsichtbar ([Rücken](#a-h-ruecken)).
 - **Zeiten (Munitionszähler, 60/s):** Wechsel Handfeuerwaffe → Langwaffe bis zum ersten Schuss 21 Bilder (0,35 s). Nachladen: Langwaffe
-  72 Bilder vom letzten Schuss bis Zähler voll, am Körper ≈ 78 Bilder; Scout 69 Bilder bis Zähler voll ([Aktionen](#a-h-nachladen)).
-- **Haltung:** Im Kampf liegt die Waffe vorn an der rechten Schulter, das Mündungsfeuer auf Kopf-/Kinnhöhe, der rechte Ellbogen abgespreizt. Glitches
-  von 2017–2020 zeigen dagegen auch beim Schießen eine **Trage-Diagonale über der Schulter** (31–48°). Diese Haltung ist kein Kampfzustand.
+  72 Bilder vom letzten Schuss bis Zähler voll, am Körper ≈ 78 Bilder; Scout 68 Bilder bis Zähler voll ([Aktionen](#a-h-nachladen)).
+- **Haltung:** Beim Feuern liegt die Waffe vorn an der rechten Schulter, das Mündungsfeuer auf Kopf-/Kinnhöhe, der rechte Ellbogen abgespreizt (H-CT, H-KW, D-JV). Beta- und
+  30/s-Glitches (2017–2020) halten außerhalb des Feuerns eine **Trage-Diagonale über der Schulter** (31–48°); beim Schießen ist das nur ein Beispiel (H-AF, [O]).
   Im Emote „Gun Flip“ hängt jede Waffe einhändig von unten am Griff ([Emote](#a-h-emote)).
 - **Offen:** Sprint, Rutschen, Springen mit Waffe, Bogen, Glefe und Spurgewehr. Gewehrtypen (Automatik, Impuls, Scout, Fusion) sind außen an der Form
   nicht zu trennen ([7](#7-offen-und-nicht-messbar)).
@@ -150,7 +150,7 @@ Cache (`stride_measure.py`: Graubild-Ausschnitte in der Bildrate der Quelle, Aut
 
 ### 1.3 Quellen REF 0.41 (YouTube, Mac)
 
-Alle 24 Kandidaten per yt-dlp gesucht (Kanal, Datum, Titel und bestes Format am 27.11.2026); geladen mit **einem** Lader nacheinander
+38 Kandidaten per yt-dlp geprüft (Kanal, Datum, Titel und bestes Format am 27.11.2026; 2 weitere nicht verfügbar), 26 geladen; geladen mit **einem** Lader nacheinander
 (yt-dlp 2026.11.23 mit Deno, Format ≤ 1080p) in `~/Library/Caches/CubeEscape/reference/aussenansicht/holster/clips/`. Echte Bildrate je Video
 über wiederholte Bilder an mehreren Stellen. Gemessen haben vier Unteragenten (Opus, high), je eigener Ordner (`agent_bug/`, `agent_glitch/`,
 `agent_finger/`, `agent_kaw/`); Stimmen sammelte ein fünfter (Sonnet, medium; `stimmen/`). Prüfung in [8](#8-prüfung-und-zählung).
@@ -176,7 +176,7 @@ Kampf in dritter Person bleibt.
 
 **Verworfen:** `8yDEmTnyFYg` (JB3, echt 30/s, Figur ≈ 10 % H), `Co5WWqod3Ic` (Miurablade, ≈ 52/s, Sozialraum, Figur zu klein),
 `_5qNjWRIypQ` (Ambiguous Duck, fast nur Ego), `UekwmBdY39E` (MasonAd, Figur 10–15 % H). Weitere Suchtreffer ohne Download (Destiny 1, 720p30-Anleitungen)
-stehen in den Suchlisten im Arbeitsordner.
+stehen in den Suchlisten im Arbeitsordner. Geladen, aber nicht ausgewertet: `gABu34ErU88` (xHOUNDISHx, Dawning-Glitch; schon 0.33 als D-HD).
 
 ## 2. Ziel 1 – Körperbewegung von außen
 
@@ -331,19 +331,19 @@ Figuren schießen mit Beinen und Brust in Schussrichtung oder in Glitch-Haltung 
 
 ### 3.5 Waffentypen, Hände und Aktionen von außen – REF 0.41
 
-Quellen in [1.3](#13-quellen-ref-041-youtube-mac). Bildnummern n = Medienzeit × 59,94 (H-KW × 60). Waffentyp nur, wo HUD-Symbol, Inventar oder
+Quellen in [1.3](#13-quellen-ref-041-youtube-mac). Bildnummern n = Containerbild (Zeit × Containerrate; Rate je Quelle in 1.3, 30/s-Quellen × 29,97). Zählerwechsel: erstes Bild mit neuem Wert. Waffentyp nur, wo HUD-Symbol, Inventar oder
 Form ihn sichern; sonst „Langwaffe, Typ offen“. **Zustand je Zeile:** Kampf (schießt, zielt, lädt), Trage-/Glitch-Haltung, Emote, Menü, Ego.
 
 **Haltung**
 
 | Vorgang | Quelle, Zeit (Bilder) | Messung |
 |---|---|---|
-| **Zweite Langwaffe schräg auf dem Rücken, Kampf (Titan)** [M] <a id="a-h-ruecken"></a> | H-CC, 41,04 s (n 2460) | Titan steht, Arme hängen, keine Hand an der Waffe. KH 28,8 % H (311 px); Waffe von (52,0 / 37,8) bis (45,8 / 53,0) = **0,65 KH, 54° zur Waagrechten**, oberes Ende rechts über der Schulter |
+| **Langwaffe schräg auf dem Rücken, Stand im Nav-Modus (Titan)** [M] <a id="a-h-ruecken"></a> | H-CC, 41,04 s (n 2460) | Titan steht im Nav-Modus (Geist-Menü offen), Arme hängen, Hände leer – die Rückenwaffe kann die aktive sein. KH 28,8 % H (311 px); Waffe von (52,0 / 37,8) bis (45,8 / 53,0) = **0,65 KH, 54° zur Waagrechten**, oberes Ende rechts über der Schulter |
 | Schwere Waffe (vermutlich MG, Gurt sichtbar) auf dem Rücken, aktiv ist die Primärwaffe (Warlock) [M] | H-CT, 141,14 s (n 8460); gleiche Lage n 4855, 7880–8066, 8352–8550 | KH ≥ 42,6 % H (Sohle hinter dem HUD); Waffe (47,3 / 51,9) bis (36,0 / 85,0) = **≤ 0,91 KH, 59°**; die Lage bleibt beim Feuern, Nachladen und Wechseln gleich. Koordinator: am Einzelbild n 8370 bestätigt (aktive Waffe senkrecht in der rechten Hand, schwere Waffe zugleich auf dem Rücken) |
 | Langwaffe auf dem Rücken, PvE bzw. PvP [M] | H-LP n 690; H-NC n 1020 | **48°** (≤ 0,54 KH, KH Untergrenze) bzw. **≈ 58°**; bei H-NC ist laut HUD die Handfeuerwaffe aktiv |
 | **Feuern im Kampf, Langwaffe** [O]/[M Lage] <a id="a-h-feuern"></a> | H-CT n 8338–8347; H-LP n 420; H-KW n 20812 (Scout) | Waffe vorn an der rechten Schulter, Mündung zum Fadenkreuz; Mündungsfeuer auf Kopf-/Kinnhöhe der Figur (H-KW bei **40 / 61 %**, Figur links unter dem Fadenkreuz); rechter Ellbogen seitlich abgespreizt. Hände vom eigenen Körper verdeckt |
 | Laufen mit MG, fern [O] | H-KW n 15240 | Figur 16 % H; Waffe vor dem Körper an der rechten Schulter, linker Arm hängt seitlich-hinten |
-| **Trage-/Glitch-Diagonale, auch beim Schießen** [M Winkel] <a id="a-h-trage"></a> | H-RG n 1678, 1738; H-CF n 180; H-IT n 360; H-AF n 2997, 3117 (alle 30/s); D-JV n 16200 | Gehäuse auf der rechten Schulter, Lauf diagonal zur linken Hüfte bzw. nach vorn-unten: **31–48°** (Beta 2017–2020); D-JV: Rohr auf der Schulter **≈ 22° nach vorn-oben**, Hände nicht an der Waffe. H-AF: Mündungsfeuer neben dem Helm, die Waffe bleibt in der Diagonale → Kampf in Glitch-Haltung, **nicht als Retail-Anschlag übernehmen** |
+| **Trage-/Glitch-Diagonale** [M Winkel] <a id="a-h-trage"></a> | H-RG n 1678, 1738; H-CF n 180; H-IT n 360; H-AF n 2997, 3117 (alle 30/s); D-JV n 16200 | Gehäuse auf der rechten Schulter, Lauf diagonal zur linken Hüfte bzw. nach vorn-unten: **31–48°** (Beta 2017–2020); D-JV: Rohr auf der Schulter **≈ 22° nach vorn-oben**, Hände nicht an der Waffe. H-AF: Mündungsfeuer neben dem Helm, die Waffe bleibt in der Diagonale (einziges Schussbild in Diagonale, 30/s, [O]). D-JV und H-KW (ebenfalls Glitch) feuern dagegen im Schulteranschlag ([Feuern](#a-h-feuern)) → Diagonale nur außerhalb des Feuerns als Trageform lesen |
 | Scharfschütze über dem Rücken (Glitch) [M] | D-JV n 22200 | Kolben am rechten Schulterblatt, Mündung links unten, **≈ 32° unter der Waagrechten** |
 | **Emote „Gun Flip“: einhändig von unten am Griff** [M] <a id="a-h-emote"></a> | H-GF n 3536 (KH ≥ 76 % H) | Langwaffe ≈ **25° über der Waagrechten**, Arm fast gestreckt, Hand ≈ 0,19 KH vor/unter der Schulter; der andere Arm hängt ≈ 45° abgespreizt, **Hände 0,54 KH auseinander** (keine Stützhand). Koordinator am Einzelbild bestätigt. Granatwerfer (Witherhoard) **senkrecht**, Faust am Griff (n 1019); Rohrwaffe beim Drehen fast senkrecht vor dem Körper (n 779) |
 | Menü-Pose Charakterbildschirm [M] | H-KW 112,0 s (Jäger, 71 % H); 306,6 s (Warlock, 75 % H); H-YS n 4020 (Warlock, 72 % H) | Jäger: Langwaffe **schräg aufrecht ≈ 54°** vor der rechten Schulter, Hand auf Brusthöhe, linke Hand hängt (Koordinator am Bild bestätigt). Warlock: Waffe **gesenkt ≈ 44–48° unter der Waagrechten** einhändig an der Hüfte, linke Hand erhoben mit Handfläche oben (Fähigkeits-Pose). Vgl. D-EH (0.32) |
@@ -353,7 +353,7 @@ Form ihn sichern; sonst „Langwaffe, Typ offen“. **Zustand je Zeile:** Kampf 
 **Hände und Finger** <a id="a-h-finger"></a>
 
 Außen sind Finger **in keiner Kampfaufnahme auflösbar** (Hände 15–60 px, von hinten durch Körper, Robe oder Mündungsfeuer verdeckt; [O] in allen
-15 Glitch-/Bug-Videos). Auflösbar sind sie nur in Menü-Posen und in der Ego-Ansicht. Ego-Lagen in % B/H, Ruhebild vor bzw. nach dem Nachladen.
+19 Außenquellen von 1.3). Auflösbar sind sie nur in Menü-Posen und in der Ego-Ansicht. Ego-Lagen in % B/H, Ruhebild vor bzw. nach dem Nachladen.
 
 | Waffentyp | Quelle, Bild | Rechte Hand | Linke Hand | Status |
 |---|---|---|---|---|
@@ -362,7 +362,7 @@ Außen sind Finger **in keiner Kampfaufnahme auflösbar** (Hände 15–60 px, vo
 | Emote, Langwaffe (außen) | H-GF n 3536, n 60 | Hand **von unten** am Griff, Kolben läuft über den Unterarm; Faust unter dem Waffenkörper | frei; bei n 5574 Faust mit Daumen nach unten vor dem Bauch | [M] Lage, [O] Finger |
 | Handkanone (Ego, 3 Beispiele) | H-HK n 10, 300, 475 | **einhändig**: Faust von hinten oben, Handrücken zur Kamera, Handgelenk gebeugt; Zeigefinger und Daumen unter der Waffe verdeckt; Hand bei 67 / 88 | nicht im Bild | [M] Lage, [O] Finger |
 | Seitenwaffe (Ego) | H-HK n 1578 | einhändig, Faust, Magazin im Griff sichtbar, Daumenwurzel an der Griffrückseite | nicht im Bild | [M]/[O] |
-| Gewehr, Typ offen (Ego, 11 Beispiele) | H-HK n 1818–9693 | meist außerhalb des Bildes, sonst Panzerhandschuh unten rechts (66–69 / 93–96) | zwei Formen: **Faust unter dem Handschutz**, Waffe auf Handrücken und gekrümmten Fingern, Daumen oben (n 1818, 2316, 8058, 9693); **offene Hand flach links am Gehäuse, vier Finger gestreckt nach oben, Daumen angelegt** (n 2625, 3066, 4217, 5666, 5936, 6179); gekrümmte Finger links am Gehäuse (n 9465); Lage 50–60 / 65–89 | [M] Lage, [O] Finger |
+| Gewehr, Typ offen (Ego, 11 Beispiele) | H-HK n 1818–9693 | meist außerhalb des Bildes, sonst Panzerhandschuh unten rechts (66–69 / 93–96) | zwei Formen: **Faust unter dem Handschutz**, Waffe auf Handrücken und gekrümmten Fingern, Daumen oben (n 1818, 2316, 9693; n 8058 Faust am Magazin/an der Unterkante); **offene Hand flach links am Gehäuse, vier Finger gestreckt nach oben, Daumen angelegt** (n 2625, 3066, 4217, 5666, 5936; n 6179 Finger leicht gekrümmt); gekrümmte Finger links am Gehäuse (n 9465); Lage 50–60 / 65–89 | [M] Lage, [O] Finger |
 | Scharfschütze (Ego) | H-HK n 3701, 5412 | Finger um den Griff gekrümmt (68 / 94) | Faust unter dem Vorderschaft, Daumen oben am Schaft (n 3701); offene Hand am Vorderschaft, Finger nach vorn-oben (n 5412) | [M]/[O] |
 | Schrotflinte (Ego) | H-HK n 4484 | außerhalb | offene Hand flach links unter dem Gehäuse, Finger nach oben (55 / 76); lädt einzelne Patronen mit der linken Hand nach | [M]/[O] |
 | MP, wahrscheinlich (Ego) | H-HK n 1728 | – | beim Nachladen **Zeigefinger gestreckt** am Magazinschacht, übrige Finger gekrümmt | [O] |
@@ -380,17 +380,17 @@ Koordinator: drei Ego-Bilder (n 3701, 4484, 5412) und das Menübild H-KW 112 s a
 |---|---|---|
 | **Wechsel Handfeuerwaffe → Langwaffe** [M, HUD] | H-CT, HUD-Symbol ab n 8080, erster Schuss n 8101 | **21 Bilder (0,35 s ±2)** vom HUD-Wechsel bis zum ersten Schuss – obere Grenze fürs Ziehen; am Körper nicht verfolgbar (Explosion n 8048–8090) |
 | **Nachladen Langwaffe (Primär, Typ offen)** [M] Zeiten, [O] Ablauf | H-CT, letzter Schuss n 8341 → Zähler voll n 8413; Körper n ≈ 8350 → 8428 | **72 Bilder (1,20 s)** letzter Schuss → Zähler voll; am Körper ≈ **78 Bilder (1,3 s, ±3)** von der ersten Bewegung bis die Waffe wieder schräg vorn liegt. Ablauf: Waffe dreht, **steht senkrecht neben dem Kopf** (n 8356–8389), wird zur rechten Hüfte gesenkt (n 8392–8407), wieder senkrecht (n 8410–8425; Zähler voll bei n 8413), dann schräg nach vorn-oben. Koordinator: Folge n 8300/8340/8370/8400 angesehen |
-| Nachladen Scout (Night Watch, laut Inventar) [M, HUD] | H-KW, letzter Schuss n 20886 → Zähler voll n 20955 | **69 Bilder (1,15 s)** inkl. Reaktionszeit; am Körper verdeckt, die Waffe ragt beim Nachladen senkrecht am Bildrand hoch [O] |
-| Schussabstand Scout [M, HUD] | H-KW n 20846 / 20868 / 20886 | 22 und 18 Bilder (0,37 / 0,30 s); Nennwert 200 RPM = 0,30 s – Prüfgröße für Normaltempo |
+| Nachladen Scout (Night Watch, laut Inventar) [M, HUD] | H-KW, letzter Schuss n 20887 → Zähler voll n 20955 | **68 Bilder (1,13 s, ±1)** inkl. Reaktionszeit; am Körper verdeckt, die Waffe ragt beim Nachladen senkrecht am Bildrand hoch [O] |
+| Schussabstand Scout [M, HUD] | H-KW n 20847 / 20869 / 20887 (Richter nachgezählt) | 22 und 18 Bilder (0,37 / 0,30 s); Nennwert 200 RPM = 0,30 s – Prüfgröße für Normaltempo |
 | Nachladen Handkanone (Ego) [O] | H-HK ab n 96 | hebt die Waffe in ≈ 30 Bildern fast senkrecht (n 125), linke Hand kommt mit Schnelllader an die Trommel (n 155) |
 
-**Muster 3.5 (Beobachtung):** (1) **Zwei Waffen am Körper im Kampf:** die aktive in der Hand, eine weitere Langwaffe schräg über dem Rücken
-(48–59°, oberes Ende über der rechten Schulter) – in vier Videos 2024/25, Warlock und Titan; welche der zwei nicht aktiven Waffen hinten hängt, ist
-nur in H-CT belegt (die schwere). (2) **Nachladen von außen kippt die Langwaffe senkrecht neben den Kopf** – dieselbe Geste, die das Ego-Nachladen
-der Handkanone zeigt; Rumpf und Beine bleiben stehen wie in 0.33. (3) **Finger:** Destiny zeigt die Finger nur dort, wo die Kamera nah ist
+**Muster 3.5 (Beobachtung):** (1) **Aktive Waffe in der Hand, eine verstaute Langwaffe schräg über dem Rücken** (58–59°, oberes Ende über der
+rechten Schulter) – mit belegter aktiver Waffe in H-CT und H-NC (2024), gleiche Lage ohne diesen Beleg in H-CC und H-LP; welche Waffe hinten hängt,
+ist nur in H-CT belegt (die schwere). (2) **Nachladen von außen kippt die Langwaffe senkrecht neben den Kopf** (Deutung [O]: ähnlich dem Ego-Nachladen
+der Handkanone); Rumpf und Beine bleiben stehen wie in 0.33. (3) **Finger:** Destiny zeigt die Finger nur dort, wo die Kamera nah ist
 (Ego, Menü). Im Ego greift die linke Hand Gewehre auf zwei Arten (Faust unter dem Handschutz oder flache Hand am Gehäuse). Handkanone und
-Seitenwaffe sind im Ego einhändig, von außen im Anschlag beidhändig (ein Beispiel, H-CF2). (4) **Glitch ≠ Kampf:** die Schulterdiagonale der alten
-Glitches bleibt beim Schießen bestehen; Haltungen nur aus den Bug-Videos 2024/25 und Sichten anderer Spieler übernehmen.
+Seitenwaffe sind im Ego einhändig, von außen im Anschlag beidhändig (ein Beispiel, H-CF2). (4) **Glitch-Diagonale ≠ Anschlag:** Beta-/30/s-Glitches
+tragen die Waffe außerhalb des Feuerns diagonal über der Schulter; Anschlaghaltungen nur aus Schussbildern übernehmen (H-CT, H-KW, D-JV).
 
 ## 4. Muster je Spiel
 
@@ -406,8 +406,8 @@ Glitches bleibt beim Schießen bestehen; Haltungen nur aus den Bug-Videos 2024/2
 - **Gears 5:** Zielkamera sehr nah (Kopf/Schulter füllen ein Drittel der Breite), Ducken in Deckung; Roadie Run nicht messbar.
 
 **Ergänzt in 0.41 ([3.5](#35-waffentypen-hände-und-aktionen-von-außen--ref-041)):**
-- **Destiny 2:** Im Kampf in dritter Person (Fehler-Videos 2024/25) hängt neben der aktiven Waffe eine zweite Langwaffe schräg über dem Rücken
-  (48–59°); Feuern an der rechten Schulter mit abgespreiztem Ellbogen; Nachladen kippt die Langwaffe senkrecht neben den Kopf (≈ 78 Bilder am Körper);
+- **Destiny 2:** Im Kampf in dritter Person (Fehler-Videos 2024) hängt neben der aktiven Waffe eine verstaute Langwaffe schräg über dem Rücken
+  (58–59°, zwei Videos mit belegter aktiver Waffe); Feuern an der rechten Schulter mit abgespreiztem Ellbogen; Nachladen kippt die Langwaffe senkrecht neben den Kopf (≈ 78 Bilder am Körper);
   Wechsel ≤ 21 Bilder bis zum ersten Schuss. Finger nur im Menü und im Ego lesbar (Faust am Pistolengriff; linke Hand als Faust unter dem Handschutz
   oder flach am Gehäuse). Titan und Jäger sind jetzt von außen belegt, nicht mehr nur der Warlock.
 
@@ -434,7 +434,7 @@ in [5.1](#51-quellen-der-bewertung); die Spalte „Belege“ aus Standard › 6 
 |---|---|---|---|---|---|---|
 | **Destiny 2** <a id="a-e-d2-koerper"></a> | Körper von außen (Turm, Emote, Schwert) | Dritte Person in Sozialräumen gefällt, Wunsch nach mehr (P7, 446 P.) | Emotes und Ganzkörper steifer als in Destiny 1 (P5, P6); starres Stehen im Turm (P11, Suchauszug); Gehtempo (P8) | PvE-Sozialräume, Mode-Spieler (P10) | wiederkehrend „steif“ (2 Fäden); Gegenstimme: Mocap ist nicht steif (P5-Kommentare) | Bungie-Animationssystem (B5 GDC, B6 SIGGRAPH); Kotaku zu Ego (B15) |
 | Destiny 2 <a id="a-e-d2-waffe"></a> | Waffe am Körper | Schwert-Rahmen mit eigener Halte-/Laufanimation geschätzt (Q9); Rückenwinkel laut Spielerbeobachtung still korrigiert (Q2, [C], nicht von Bungie bestätigt) | Rückenholster: Waffe fast waagrecht, Arme durchdringen, nur eine Waffe sichtbar (Q1, Q2, Q4); dritte Person im PvP verschafft Sichtvorteil („3-Peeking“, Q6, 1276 P.) | PvP (Fairness), Kosmetikspieler | wiederkehrend Holster (3 Fäden); Gegenstimme: Clipping-Grenze akzeptiert (Q4) | Hand folgt Waffe / Waffe folgt Hand (W3, GDC 2015); Bungie zu 3-Peeking (W4) |
-| Destiny 2 <a id="a-e-d2-holster"></a> | Waffen und Hände von außen (0.41) | Third-Person-Kampf in Fehler-Videos wird als „sieht gut aus“ geteilt (Q21) | Waffen ohne Holster/Gurt auf dem Rücken, große Waffen klobig, Schwerter wie „Blitzableiter“ über dem Kopf, Clipping mit Roben (Q15–Q18); Nachladeanimation übernimmt nach Wechsel die der vorigen Waffe (Q25, 2025); Third Person nur bei Schwert/Super/Emote (Q20–Q23) | Kosmetikspieler (Rüstung sieht man kaum), PvE; PvP dagegen (3-Peeking) | wiederkehrend Rückenwaffen (4 Fäden 2017–2022), Wunsch nach 3P (6 Fäden 2015–2024); Gegenstimmen „Destiny ist ein FPS“, 3-Peeking, „Handkanone an der Hüfte fällt kaum auf“ | W10 (Bungie: „mögliche künftige Third-Person-Waffen“, 2021), W11 (7.1.0: Tangle-Trageposition im Locomotion-Set, Schrot-Fadenkreuz in 3P ausgeblendet), W12 (2.1.0: Sprintanimation Tractor Cannon), W13 (Lico: Ego-„Performances“ und additive Overlays) |
+| Destiny 2 <a id="a-e-d2-holster"></a> | Waffen und Hände von außen (0.41) | Third-Person-Kampf in Fehler-Videos wird als „sieht gut aus“ geteilt (Q21) | Waffen ohne Holster/Gurt auf dem Rücken, große Waffen klobig, Schwerter wie „Blitzableiter“ über dem Kopf, Clipping mit Roben (Q15–Q18); Nachladeanimation übernimmt nach Wechsel die der vorigen Waffe (Q25, 2025); Third Person nur bei Schwert/Super/Emote (Q20–Q23) | Kosmetikspieler (Rüstung sieht man kaum), PvE; PvP dagegen (3-Peeking) | wiederkehrend Rückenwaffen (4 Fäden 2017–2022), Wunsch nach 3P (5 Fäden 2015–2024, Q20–Q24); Gegenstimmen „Destiny ist ein FPS“, 3-Peeking, „Handkanone an der Hüfte fällt kaum auf“ | W10 (Bungie: „mögliche künftige Third-Person-Waffen“, 2021), W11 (7.1.0: Tangle-Trageposition im Locomotion-Set, Schrot-Fadenkreuz in 3P ausgeblendet), W12 (2.1.0: Sprintanimation Tractor Cannon), W13 (Lico: Ego-„Performances“ und additive Overlays) |
 | **Titanfall 2** <a id="a-e-tf"></a> | leicht gegen schwer | Kontrast schneller Pilot / träger Titan als Absicht wahrgenommen (P4); Titankampf über Entscheidungen statt „mushy“ (B3) | Titanen wirken leichter als in Titanfall 1, weniger Masse (P1 2855 P., P2); im Tech-Test zu langsam – Respawn beschleunigte Dash und Ion/Scorch (B8–B10) | Mech-Fans (Gewicht), PvP-Profis (Tempo) | wiederkehrend „TF1 schwerer“ (4 Quellen); Gegenstimme: TF1 „clunky“ (P3) | B3 (GDC 2017), B8–B10 (geändert nach Kritik) |
 | **Warframe** <a id="a-e-wf"></a> | Körper von außen | Laufanimation transportiert Tempo (P16 4141 P., P17); Set-Idles beliebt (P12, 448 P.) | Animationssets wirken nur im Stand, in Bewegung „schnappt“ die Figur in den Standardlauf (P12–P15, B14); Necramech mit Zwangspausen und langsamem Dash (P19, P20, B13) | Fashion-Spieler; Mech-Spieler | wiederkehrend (5 Quellen); Gegenstimme: Aufwand je Rahmen | B13, B14 (Wiki mit Update-Historie) |
 | Warframe | Waffe am Körper | Holster-Stile als Kosmetik (W5), kreative Lagen gewünscht (Q11) | zu wenige Lagen für sperrige Primärwaffen (Q11, Q12) | Fashion-Spieler | wiederkehrend (3) | W5 (Update 32) |
@@ -559,7 +559,7 @@ Vollständige Liste mit Datum, Sprecher, Zustimmung und Gegenstimmen in `data/au
   Munitionszähler bildgenau; Griff der Hände je Waffentyp im Ego und in Menü-Posen ([3.5](#35-waffentypen-hände-und-aktionen-von-außen--ref-041)).
   Titan und Jäger sind von außen belegt; der Punkt „Klasse in allen Glitch-Quellen Warlock“ aus 0.33 ist damit überholt.
 - **Weiter offen, mit Grund:**
-  - **Finger außen im Kampf:** in 15 Glitch-/Bug-Videos nicht auflösbar (Hände 15–60 px, Kamera hinten). Ein Zeigefinger am Abzug ist auch im
+  - **Finger außen im Kampf:** in 19 Außenquellen nicht auflösbar (Hände 15–60 px, Kamera hinten). Ein Zeigefinger am Abzug ist auch im
     Ego in keinem Ruhebild zu sehen (rechte Hand meist außerhalb des Bildes). Weg: eigener Mitschnitt mit seitlicher Kamera, oder Sicht eines zweiten
     Spielers aus nächster Nähe (wie H-CF2, aber 60/s und nah).
   - **Sprint, Rutschen, Springen/Gleiten, Ziehen am Körper, Gangtakt mit Waffe in der Hand:** nicht ausgewertet. Material liegt in H-KW
@@ -676,10 +676,12 @@ Vollständige Liste mit Datum, Sprecher, Zustimmung und Gegenstimmen in `data/au
   (aktive Waffe senkrecht in der Hand, schwere zugleich hinten), Rückenwaffe H-CC n 2460 (Lage, keine Hand an der Waffe), Gun-Flip H-GF n 3536
   (einhändig, ≈ 25°), Menü-Pose H-KW 112 s (Faust am Pistolengriff, ≈ 54°), Ego H-HK n 3701/4484/5412 (Lage der linken Hand; Fingerform nur [O]),
   Handkanone beidhändig H-CF2 n 120. Zeiten aus dem Munitionszähler nicht selbst nachgezählt (Agenten bildgenau, je zwei Marker).
-- **Quellen:** 24 Videos per yt-dlp geprüft (Kanal, Datum, Titel, Format), 20 geladen, 17 ausgewertet, 4 verworfen ([1.3](#13-quellen-ref-041-youtube-mac)).
-  Spieler- und Fachquellen: 11 bzw. 4 vom Agenten per curl (HTTP 200); **4 davon selbst nachgeladen** (Q16, Q17, P10/Q22, W10 – Titel und Stichwort passen).
+- **Quellen:** 38 Videos per yt-dlp geprüft (Kanal, Datum, Titel, Format), 26 geladen, 20 ausgewertet, 1 nur gesichtet (H-UN), 4 verworfen, 1 nicht ausgewertet (`gABu34ErU88`) ([1.3](#13-quellen-ref-041-youtube-mac)).
+  Spieler- und Fachquellen: 11 bzw. 4 vom Agenten per curl (HTTP 200; Q22 = P10, im JSON 10 neue Stimmen); **4 davon selbst nachgeladen** (Q16, Q17, P10/Q22, W10 – Titel und Stichwort passen).
 - **Übernommen / nicht übernommen:** übernommen 75 Tabellenzeilen der Zuarbeiten (A 13, B 13, C 35, D 14), im JSON als 69 Einträge in `weapon_body` (A 13, B 13, C 35,
   D 8; Feld `view`: outside/ego/inspect); **korrigiert 2** (Gewehrzahl im Ego 13 → 11, Q16 → Q21 als Beleg für „sieht gut aus“); nicht übernommen: die Deutung
   „Hüftholster“ in H-GF n 5574 (Gürtel- oder Umhangteil möglich, nur [O]) und alle Zeitangaben aus Quellen unter ≈ 50 echten Bildern/s.
-- **Zählung:** 1 Spiel, 24 Videos geprüft, 17 ausgewertet; 75 Zeilen (Haltung, Hände, Aktionen), davon Ego 24; 11 Spieler- und 4 Fachquellen;
+- **`clips.json`:** ein Eintrag je Kernbefund (6), nicht je Messzeile; alle übrigen [M]-Zeilen (H-LP, H-NC, H-YS, H-CP, H-CF2, Beta-Diagonalen, D-JV n 22200) sind über `weapon_body` mit URL, Zeit und Bildindex nachvollziehbar.
+- **Richter, Runde 1 (ce-judge, Opus):** Zahlen bestätigt (H-CT-Zähler 72 Bilder, Rückenwinkel 59°/54°); korrigiert danach: Rückenwaffe nur in H-CT/H-NC mit belegter aktiver Waffe (H-CC Nav-Modus, H-LP ohne Beleg), Glitch-Diagonale nur außerhalb des Feuerns (D-JV und H-KW feuern im Schulteranschlag), Scout-Nachladen 68 statt 69 Bilder (eine Zählregel), Bildnummer-Regel, Zählung der Quellen, Feldnamen im JSON, Q22 nur als Verweis auf P10.
+- **Zählung:** 1 Spiel, 38 Videos geprüft, 26 geladen, 20 ausgewertet; 75 Zeilen (Haltung, Hände, Aktionen), davon Ego 24; 11 Spieler- und 4 Fachquellen;
   632 Bilddateien der Agenten (Einzelbilder, Ausschnitte, Bögen) und 13 eigene Prüfbilder.

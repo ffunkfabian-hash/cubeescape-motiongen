@@ -2321,7 +2321,7 @@
       "trigger_finger": null,
       "hands_dist_kh": null,
       "weapon_angle_deg": 54,
-      "notes": "Waffe 0,65 KH, oberes Ende rechts über der Schulter, Arme hängen; Titan",
+      "notes": "Waffe 0,65 KH, oberes Ende rechts über der Schulter, Arme hängen; Titan | nach Richter: Nav-Modus (Geist-Menü offen), Hände leer – Rückenwaffe kann die aktive sein",
       "view": "outside",
       "contributor": "Unteragent bug (Opus)",
       "version": "0.41.0",
@@ -2505,7 +2505,7 @@
       "trigger_finger": null,
       "hands_dist_kh": null,
       "weapon_angle_deg": null,
-      "notes": "Hände ≈ 15 px",
+      "notes": "Hände ≈ 15 px | nach Richter: Nav-Modus (Geist-Menü offen), Hände leer – Rückenwaffe kann die aktive sein",
       "view": "outside",
       "contributor": "Unteragent bug (Opus)",
       "version": "0.41.0",
@@ -3019,13 +3019,13 @@
       "weapon_angle_deg": null,
       "figure_h_pct": null,
       "notes": "Waffenoberkante 63/65 %; Finger unter der Waffe verdeckt",
-      "hands_dist_kh_or_note": null,
       "contributor": "Unteragent finger (Opus)",
       "version": "0.41.0",
       "status_detail": "M_pos_O_fingers",
       "frame_index": 10,
       "subject": "ego: hand_cannon (idle_hip)",
-      "capture": "retail"
+      "capture": "retail",
+      "hands_dist_kh": null
     },
     {
       "game": "Destiny 2",
@@ -3046,13 +3046,13 @@
       "weapon_angle_deg": null,
       "figure_h_pct": null,
       "notes": "2. Beispiel",
-      "hands_dist_kh_or_note": null,
       "contributor": "Unteragent finger (Opus)",
       "version": "0.41.0",
       "status_detail": "M_pos_O_fingers",
       "frame_index": 300,
       "subject": "ego: hand_cannon (idle_hip)",
-      "capture": "retail"
+      "capture": "retail",
+      "hands_dist_kh": null
     },
     {
       "game": "Destiny 2",
@@ -3073,13 +3073,13 @@
       "weapon_angle_deg": null,
       "figure_h_pct": null,
       "notes": "3. Beispiel, Revolverform eindeutig",
-      "hands_dist_kh_or_note": null,
       "contributor": "Unteragent finger (Opus)",
       "version": "0.41.0",
       "status_detail": "M_pos_O_fingers",
       "frame_index": 475,
       "subject": "ego: hand_cannon (idle_hip)",
-      "capture": "retail"
+      "capture": "retail",
+      "hands_dist_kh": null
     },
     {
       "game": "Destiny 2",
@@ -3100,13 +3100,13 @@
       "weapon_angle_deg": null,
       "figure_h_pct": null,
       "notes": "Seitenwaffe; Lage gleich wie Handkanone",
-      "hands_dist_kh_or_note": null,
       "contributor": "Unteragent finger (Opus)",
       "version": "0.41.0",
       "status_detail": "M_pos_O_fingers",
       "frame_index": 1578,
       "subject": "ego: sidearm (idle_hip)",
-      "capture": "retail"
+      "capture": "retail",
+      "hands_dist_kh": null
     },
     {
       "game": "Destiny 2",
@@ -3127,13 +3127,13 @@
       "weapon_angle_deg": null,
       "figure_h_pct": null,
       "notes": "weiss/rot, Rotpunkt; Automatik/Impuls/Scout aus Form nicht trennbar",
-      "hands_dist_kh_or_note": null,
       "contributor": "Unteragent finger (Opus)",
       "version": "0.41.0",
       "status_detail": "M_pos_O_fingers",
       "frame_index": 1818,
       "subject": "ego: rifle_type_unsure (idle_hip)",
-      "capture": "retail"
+      "capture": "retail",
+      "hands_dist_kh": null
     },
     {
       "game": "Destiny 2",
@@ -3154,13 +3154,13 @@
       "weapon_angle_deg": null,
       "figure_h_pct": null,
       "notes": "gold/rot, Holo-Visier",
-      "hands_dist_kh_or_note": null,
       "contributor": "Unteragent finger (Opus)",
       "version": "0.41.0",
       "status_detail": "M_pos_O_fingers",
       "frame_index": 2316,
       "subject": "ego: rifle_type_unsure (idle_hip)",
-      "capture": "retail"
+      "capture": "retail",
+      "hands_dist_kh": null
     },
     {
       "game": "Destiny 2",
@@ -3181,13 +3181,13 @@
       "weapon_angle_deg": null,
       "figure_h_pct": null,
       "notes": "schwarz, grosses Kastenvisier; Nachladen mit Zylinder-Batterie (f2967) -> evtl. Fusion [O]",
-      "hands_dist_kh_or_note": null,
       "contributor": "Unteragent finger (Opus)",
       "version": "0.41.0",
       "status_detail": "M_pos_O_fingers",
       "frame_index": 2625,
       "subject": "ego: rifle_type_unsure (idle_hip)",
-      "capture": "retail"
+      "capture": "retail",
+      "hands_dist_kh": null
     },
     {
       "game": "Destiny 2",
@@ -3208,13 +3208,13 @@
       "weapon_angle_deg": null,
       "figure_h_pct": null,
       "notes": "schwarz, Sechseck-Visier, rot/silberner Hebel",
-      "hands_dist_kh_or_note": null,
       "contributor": "Unteragent finger (Opus)",
       "version": "0.41.0",
       "status_detail": "M_pos_O_fingers",
       "frame_index": 3066,
       "subject": "ego: rifle_type_unsure (idle_hip)",
-      "capture": "retail"
+      "capture": "retail",
+      "hands_dist_kh": null
     },
     {
       "game": "Destiny 2",
@@ -3235,13 +3235,13 @@
       "weapon_angle_deg": null,
       "figure_h_pct": null,
       "notes": "weiss/rot, Mehrfachlauf mit Rippen; Typ offen",
-      "hands_dist_kh_or_note": null,
       "contributor": "Unteragent finger (Opus)",
       "version": "0.41.0",
       "status_detail": "M_pos_O_fingers",
       "frame_index": 3427,
       "subject": "ego: rifle_multibarrel_unsure (idle_hip)",
-      "capture": "retail"
+      "capture": "retail",
+      "hands_dist_kh": null
     },
     {
       "game": "Destiny 2",
@@ -3261,14 +3261,14 @@
       "grip_left": "Faust unter dem Vorderschaft, Daumen links oben am Schaft; 59/74 %",
       "weapon_angle_deg": null,
       "figure_h_pct": null,
-      "notes": "Zielfernrohr; Nachladen: Kastenmagazin faellt (f4087)",
-      "hands_dist_kh_or_note": "≈ 0,22 Bildbreite",
+      "notes": "Zielfernrohr; Nachladen: Kastenmagazin faellt (f4087) | Abstand: ≈ 0,22 Bildbreite",
       "contributor": "Unteragent finger (Opus)",
       "version": "0.41.0",
       "status_detail": "M_pos_O_fingers",
       "frame_index": 3701,
       "subject": "ego: sniper_rifle (idle_hip)",
-      "capture": "retail"
+      "capture": "retail",
+      "hands_dist_kh": null
     },
     {
       "game": "Destiny 2",
@@ -3288,14 +3288,14 @@
       "grip_left": "offene Hand flach links am Gehaeuse, Finger nach oben; 58/65 %",
       "weapon_angle_deg": null,
       "figure_h_pct": null,
-      "notes": "violett/gruen",
-      "hands_dist_kh_or_note": "≈ 0,28 Bildhoehe",
+      "notes": "violett/gruen | Abstand: ≈ 0,28 Bildhoehe",
       "contributor": "Unteragent finger (Opus)",
       "version": "0.41.0",
       "status_detail": "M_pos_O_fingers",
       "frame_index": 4217,
       "subject": "ego: rifle_type_unsure (idle_hip)",
-      "capture": "retail"
+      "capture": "retail",
+      "hands_dist_kh": null
     },
     {
       "game": "Destiny 2",
@@ -3316,13 +3316,13 @@
       "weapon_angle_deg": null,
       "figure_h_pct": null,
       "notes": "gold/gruen; Nachladen einzeln mit orangen Patronen (≈ 76 s, Bogen-Kachel) [O]",
-      "hands_dist_kh_or_note": null,
       "contributor": "Unteragent finger (Opus)",
       "version": "0.41.0",
       "status_detail": "M_pos_O_fingers",
       "frame_index": 4484,
       "subject": "ego: shotgun (idle_hip)",
-      "capture": "retail"
+      "capture": "retail",
+      "hands_dist_kh": null
     },
     {
       "game": "Destiny 2",
@@ -3343,13 +3343,13 @@
       "weapon_angle_deg": null,
       "figure_h_pct": null,
       "notes": "orange, Zielfernrohr",
-      "hands_dist_kh_or_note": null,
       "contributor": "Unteragent finger (Opus)",
       "version": "0.41.0",
       "status_detail": "M_pos_O_fingers",
       "frame_index": 5412,
       "subject": "ego: sniper_rifle (idle_hip)",
-      "capture": "retail"
+      "capture": "retail",
+      "hands_dist_kh": null
     },
     {
       "game": "Destiny 2",
@@ -3370,13 +3370,13 @@
       "weapon_angle_deg": null,
       "figure_h_pct": null,
       "notes": "schwarz/gruen, Kastenvisier",
-      "hands_dist_kh_or_note": null,
       "contributor": "Unteragent finger (Opus)",
       "version": "0.41.0",
       "status_detail": "M_pos_O_fingers",
       "frame_index": 5666,
       "subject": "ego: rifle_type_unsure (idle_hip)",
-      "capture": "retail"
+      "capture": "retail",
+      "hands_dist_kh": null
     },
     {
       "game": "Destiny 2",
@@ -3397,13 +3397,13 @@
       "weapon_angle_deg": null,
       "figure_h_pct": null,
       "notes": "weiss/blau",
-      "hands_dist_kh_or_note": null,
       "contributor": "Unteragent finger (Opus)",
       "version": "0.41.0",
       "status_detail": "M_pos_O_fingers",
       "frame_index": 5936,
       "subject": "ego: rifle_type_unsure (idle_hip)",
-      "capture": "retail"
+      "capture": "retail",
+      "hands_dist_kh": null
     },
     {
       "game": "Destiny 2",
@@ -3424,13 +3424,13 @@
       "weapon_angle_deg": null,
       "figure_h_pct": null,
       "notes": "schwarz, Sechseck-Visier",
-      "hands_dist_kh_or_note": null,
       "contributor": "Unteragent finger (Opus)",
       "version": "0.41.0",
       "status_detail": "M_pos_O_fingers",
       "frame_index": 6179,
       "subject": "ego: rifle_type_unsure (idle_hip)",
-      "capture": "retail"
+      "capture": "retail",
+      "hands_dist_kh": null
     },
     {
       "game": "Destiny 2",
@@ -3451,13 +3451,13 @@
       "weapon_angle_deg": null,
       "figure_h_pct": null,
       "notes": "weiss/rotes Rohr mit Visier; Nachladen: linke Faust wandert ans Rohrende (f7435-7465)",
-      "hands_dist_kh_or_note": null,
       "contributor": "Unteragent finger (Opus)",
       "version": "0.41.0",
       "status_detail": "M_pos_O_fingers",
       "frame_index": 7317,
       "subject": "ego: rocket_launcher_likely (idle_hip)",
-      "capture": "retail"
+      "capture": "retail",
+      "hands_dist_kh": null
     },
     {
       "game": "Destiny 2",
@@ -3478,13 +3478,13 @@
       "weapon_angle_deg": null,
       "figure_h_pct": null,
       "notes": "braun/rote Trommel",
-      "hands_dist_kh_or_note": null,
       "contributor": "Unteragent finger (Opus)",
       "version": "0.41.0",
       "status_detail": "M_pos_O_fingers",
       "frame_index": 7602,
       "subject": "ego: grenade_launcher_heavy_drum_likely (idle_hip)",
-      "capture": "retail"
+      "capture": "retail",
+      "hands_dist_kh": null
     },
     {
       "game": "Destiny 2",
@@ -3505,13 +3505,13 @@
       "weapon_angle_deg": null,
       "figure_h_pct": null,
       "notes": "gruen/gelb",
-      "hands_dist_kh_or_note": null,
       "contributor": "Unteragent finger (Opus)",
       "version": "0.41.0",
       "status_detail": "M_pos_O_fingers",
       "frame_index": 8058,
       "subject": "ego: rifle_type_unsure (idle_hip)",
-      "capture": "retail"
+      "capture": "retail",
+      "hands_dist_kh": null
     },
     {
       "game": "Destiny 2",
@@ -3532,12 +3532,12 @@
       "weapon_angle_deg": null,
       "figure_h_pct": null,
       "notes": "Patronengurt sichtbar; Nachladen: linke Hand haelt Trommelkasten (f8258), zieht Gurt (f8581)",
-      "hands_dist_kh_or_note": null,
       "contributor": "Unteragent finger (Opus)",
       "version": "0.41.0",
       "frame_index": 8371,
       "subject": "ego: machine_gun (idle_hip)",
-      "capture": "retail"
+      "capture": "retail",
+      "hands_dist_kh": null
     },
     {
       "game": "Destiny 2",
@@ -3558,13 +3558,13 @@
       "weapon_angle_deg": null,
       "figure_h_pct": null,
       "notes": "schwarz lang, Sechseck-Visier",
-      "hands_dist_kh_or_note": null,
       "contributor": "Unteragent finger (Opus)",
       "version": "0.41.0",
       "status_detail": "M_pos_O_fingers",
       "frame_index": 9465,
       "subject": "ego: rifle_type_unsure (idle_hip)",
-      "capture": "retail"
+      "capture": "retail",
+      "hands_dist_kh": null
     },
     {
       "game": "Destiny 2",
@@ -3585,13 +3585,13 @@
       "weapon_angle_deg": null,
       "figure_h_pct": null,
       "notes": "schwarz/weiss mit Kuehlschlaeuchen",
-      "hands_dist_kh_or_note": null,
       "contributor": "Unteragent finger (Opus)",
       "version": "0.41.0",
       "status_detail": "M_pos_O_fingers",
       "frame_index": 9693,
       "subject": "ego: rifle_type_unsure (idle_hip)",
-      "capture": "retail"
+      "capture": "retail",
+      "hands_dist_kh": null
     },
     {
       "game": "Destiny 2",
@@ -3612,12 +3612,12 @@
       "weapon_angle_deg": null,
       "figure_h_pct": null,
       "notes": "grau, Skelettschaft, kompakt",
-      "hands_dist_kh_or_note": null,
       "contributor": "Unteragent finger (Opus)",
       "version": "0.41.0",
       "frame_index": 1728,
       "subject": "ego: smg_likely (reload)",
-      "capture": "retail"
+      "capture": "retail",
+      "hands_dist_kh": null
     },
     {
       "game": "Destiny 2",
@@ -3638,12 +3638,12 @@
       "weapon_angle_deg": null,
       "figure_h_pct": null,
       "notes": "Nachladen HC, erste Bewegung ab f96 (±2)",
-      "hands_dist_kh_or_note": null,
       "contributor": "Unteragent finger (Opus)",
       "version": "0.41.0",
       "frame_index": 125,
       "subject": "ego: hand_cannon (reload)",
-      "capture": "retail"
+      "capture": "retail",
+      "hands_dist_kh": null
     },
     {
       "game": "Destiny 2",
@@ -3664,13 +3664,13 @@
       "weapon_angle_deg": 44,
       "figure_h_pct": 72,
       "notes": "Warlock (Exo) frontal; Waffe einhaendig, Muendung schraeg nach unten aussen; Hand 0,41 KH unter dem Scheitel; Spielername nicht uebernommen",
-      "hands_dist_kh_or_note": null,
       "contributor": "Unteragent finger (Opus)",
       "version": "0.41.0",
       "status_detail": "M_pos_angle_O_fingers",
       "frame_index": 4020,
       "subject": "inspect: rifle_type_unsure (character_screen_pose)",
-      "capture": "retail"
+      "capture": "retail",
+      "hands_dist_kh": null
     },
     {
       "game": "Destiny 2",
@@ -3691,13 +3691,13 @@
       "weapon_angle_deg": 35,
       "figure_h_pct": null,
       "notes": "Titan von hinten-links; Gehaeuse/Kolben auf rechter Schulter neben Helm (54/43 %), Laufende links unten (41/59 %), Muendung nach vorn-unten-links; Haende nicht aufloesbar",
-      "hands_dist_kh_or_note": null,
       "contributor": "Unteragent finger (Opus)",
       "version": "0.41.0",
       "status_detail": "M_angle_O_hands",
       "frame_index": 1678,
       "subject": "outside: primary_rifle_unknown (stand_turn)",
-      "capture": "glitch"
+      "capture": "glitch",
+      "hands_dist_kh": null
     },
     {
       "game": "Destiny 2",
@@ -3718,13 +3718,13 @@
       "weapon_angle_deg": 31,
       "figure_h_pct": 50,
       "notes": "Titan Seitenansicht nach links; Gehaeuse auf rechter Schulter auf Kopfhoehe (48/33 %), Muendung vorn-unten (42/40 %); Figurhoehe grob [O]",
-      "hands_dist_kh_or_note": null,
       "contributor": "Unteragent finger (Opus)",
       "version": "0.41.0",
       "status_detail": "M_angle_O_hands",
       "frame_index": 1738,
       "subject": "outside: primary_rifle_unknown (walk)",
-      "capture": "glitch"
+      "capture": "glitch",
+      "hands_dist_kh": null
     },
     {
       "game": "Destiny 2",
@@ -3745,13 +3745,13 @@
       "weapon_angle_deg": 46,
       "figure_h_pct": 60,
       "notes": "Titan von hinten; Waffe diagonal von rechter Schulter (53/22 %) zur linken Huefte (41/44 %), Muendung links unten; Figurhoehe grob [O]",
-      "hands_dist_kh_or_note": null,
       "contributor": "Unteragent finger (Opus)",
       "version": "0.41.0",
       "status_detail": "M_angle_O_hands",
       "frame_index": 180,
       "subject": "outside: primary_rifle_unknown (walk_stairs)",
-      "capture": "glitch"
+      "capture": "glitch",
+      "hands_dist_kh": null
     },
     {
       "game": "Destiny 2",
@@ -3772,13 +3772,13 @@
       "weapon_angle_deg": 32,
       "figure_h_pct": null,
       "notes": "Titan PvP von hinten; gleiche Schulter-Diagonale 53/43 % -> 41/55 %",
-      "hands_dist_kh_or_note": null,
       "contributor": "Unteragent finger (Opus)",
       "version": "0.41.0",
       "status_detail": "M_angle_O_hands",
       "frame_index": 360,
       "subject": "outside: primary_rifle_unknown (walk)",
-      "capture": "glitch"
+      "capture": "glitch",
+      "hands_dist_kh": null
     },
     {
       "game": "Destiny 2",
@@ -3799,13 +3799,13 @@
       "weapon_angle_deg": 48,
       "figure_h_pct": 52,
       "notes": "1280x720; Figur mit langem Umhang/Mantel (Jaeger oder Warlock unsicher), von hinten; Waffe rechte Schulter (43/55 %) -> links unten (33/75 %)",
-      "hands_dist_kh_or_note": null,
       "contributor": "Unteragent finger (Opus)",
       "version": "0.41.0",
       "status_detail": "M_angle_O_hands",
       "frame_index": 2997,
       "subject": "outside: primary_rifle_unknown (run)",
-      "capture": "glitch"
+      "capture": "glitch",
+      "hands_dist_kh": null
     },
     {
       "game": "Destiny 2",
@@ -3826,12 +3826,12 @@
       "weapon_angle_deg": null,
       "figure_h_pct": null,
       "notes": "Muendungsfeuer rechts neben dem Helm (ca. 45/74 %), Waffenmodell bleibt sichtbar in Schulter-Diagonale: Kampfzustand mit Glitch-Haltung",
-      "hands_dist_kh_or_note": null,
       "contributor": "Unteragent finger (Opus)",
       "version": "0.41.0",
       "frame_index": 3117,
       "subject": "outside: primary_rifle_unknown (fire)",
-      "capture": "glitch"
+      "capture": "glitch",
+      "hands_dist_kh": null
     },
     {
       "game": "Destiny 2",
@@ -3852,12 +3852,12 @@
       "weapon_angle_deg": null,
       "figure_h_pct": null,
       "notes": "Titan von hinten, HUD-Symbol Handkanone (7 Schuss); Waffe vor dem Koerper verdeckt, Haende nicht aufloesbar",
-      "hands_dist_kh_or_note": null,
       "contributor": "Unteragent finger (Opus)",
       "version": "0.41.0",
       "frame_index": 779,
       "subject": "outside: hand_cannon (walk)",
-      "capture": "glitch"
+      "capture": "glitch",
+      "hands_dist_kh": null
     },
     {
       "game": "Destiny 2",
@@ -3878,12 +3878,12 @@
       "weapon_angle_deg": null,
       "figure_h_pct": null,
       "notes": "Titan geduckt laufend, Waffe quer ueber den Schultern; Bewegungsunschaerfe",
-      "hands_dist_kh_or_note": null,
       "contributor": "Unteragent finger (Opus)",
       "version": "0.41.0",
       "frame_index": 1079,
       "subject": "outside: primary_rifle_unknown (sprint_crouch)",
-      "capture": "glitch"
+      "capture": "glitch",
+      "hands_dist_kh": null
     },
     {
       "game": "Destiny 2",
@@ -3904,12 +3904,12 @@
       "weapon_angle_deg": 54,
       "figure_h_pct": 67,
       "notes": "Charakterbildschirm (kein Glitch): Warlock frontal, rechter Arm haengt gestreckt, Hand auf Hueftfoehe 0,51 KH unter Scheitel (39/48 %), Muendung nach unten-aussen (31/75 %); Hand ca. 30x33 px = 0,06-0,07 KH (KH = 480 px, 1280x720)",
-      "hands_dist_kh_or_note": null,
       "contributor": "Unteragent finger (Opus)",
       "version": "0.41.0",
       "frame_index": 240,
       "subject": "outside: primary_rifle_unknown (menu_idle)",
-      "capture": "glitch"
+      "capture": "glitch",
+      "hands_dist_kh": null
     },
     {
       "game": "Destiny 2",
@@ -3930,13 +3930,13 @@
       "weapon_angle_deg": -11,
       "figure_h_pct": null,
       "notes": "Jaeger (Kapuze/Umhang) hockend, zielt beidhaendig, Arme fast gestreckt; Muendung 16/59 %, Griff ca. 28/56 %; Winkel perspektivisch (Kamera von oben); kein Glitch, normale Aussenansicht eines Mitspielers",
-      "hands_dist_kh_or_note": null,
       "contributor": "Unteragent finger (Opus)",
       "version": "0.41.0",
       "status_detail": "M_position_O_hands",
       "frame_index": 120,
       "subject": "outside: hand_cannon (aim_crouch)",
-      "capture": "retail"
+      "capture": "retail",
+      "hands_dist_kh": null
     },
     {
       "game": "Destiny 2",
@@ -4089,7 +4089,7 @@
       "trigger_finger": null,
       "hands_dist_kh": null,
       "weapon_angle_deg": null,
-      "notes": "69 Bilder = 1,15 s inkl. Reaktionszeit; Körper verdeckt, Waffe senkrecht hochgekippt sichtbar n 20916–20949 (O)",
+      "notes": "69 Bilder = 1,15 s inkl. Reaktionszeit; Körper verdeckt, Waffe senkrecht hochgekippt sichtbar n 20916–20949 (O) | nach Richter: Zählerwechsel als erstes Bild mit neuem Wert n 20887 → 20955 = 68 Bilder (±1)",
       "view": "outside",
       "contributor": "Unteragent kawffee (Opus)",
       "version": "0.41.0",
@@ -4824,23 +4824,6 @@
     {
       "game": "Destiny 2",
       "goal": 2,
-      "id": "Q22",
-      "title": "„3rd person view“ (Steam, General)",
-      "summary": "Spieler fragt, ob man 3P umschalten kann; Antworten: nein, nur Schwert/Supers/Turm; man sieht sich im Inventar, Sozialräumen, Emotes, Transmat, Sparrow, Deathcam. Einer: Kosmetik verkaufe sich schlecht, wenn man den Charakter kaum sieht; Gegenantwort: Kosmetik sei für andere Spieler.",
-      "recurrence": "wiederkehrend",
-      "sources": [
-        "https://steamcommunity.com/app/1085660/discussions/0/4299320215882183471"
-      ],
-      "counter": "„würde das Spiel zu stark ändern“, „Schwert reicht mir als Third Person“",
-      "date": "2024-03-04",
-      "score": "22 Kommentare",
-      "patch": "Lightfall/Final Shape 2024",
-      "status": "C",
-      "version": "0.41.0"
-    },
-    {
-      "game": "Destiny 2",
-      "goal": 2,
       "id": "Q23",
       "title": "„Destiny rising has third person so now give us“ (gesperrt)",
       "summary": "Verweis auf das Mobile-Spiel Destiny: Rising mit 3P; Wunsch nach 3P im PvE, auch wegen AoE-Ausweichens gegen Bosse. Ein Nutzer erklärt: Pitch-Begrenzung und Schwert-Autotracking sprächen technisch dagegen.",
@@ -5291,11 +5274,12 @@
     },
     "aim_offset_yaw_seen": false,
     "class_readability_threshold_pct_h": null,
-    "second_weapon_on_back_combat_deg": [
-      48,
+    "fingers_note": "0.41: Finger außen im Kampf nicht auflösbar; Ego linke Hand an Gewehren Faust unter dem Handschutz oder flach am Gehäuse, Handkanone/Seitenwaffe einhändig (Ego), beidhändig im Anschlag außen (ein Beispiel)",
+    "stowed_weapon_on_back_deg_from_horizontal": [
+      58,
       59
     ],
-    "fingers_note": "0.41: Finger außen im Kampf nicht auflösbar; Ego linke Hand an Gewehren Faust unter dem Handschutz oder flach am Gehäuse, Handkanone/Seitenwaffe einhändig (Ego), beidhändig im Anschlag außen (ein Beispiel)"
+    "stowed_weapon_on_back_note": "0.41: nur H-CT und H-NC mit belegter aktiver Waffe; H-CC (54°, Nav-Modus) und H-LP (48°) zeigen die Lage ohne diesen Beleg; reguläres Holster oder Bug-Bild nicht entscheidbar"
   },
   "open": [
     "Fußaufsatz ±1 Bild, Schrittlänge und Hub/Pendeln in KH (keine Seitenansicht mit ganzer Figur bei echten 60/s in 20 Videos)",
