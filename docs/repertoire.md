@@ -91,7 +91,7 @@ Reload-Wert sind unbekannt. Höhen in **Körperhöhen (KH)** der stehenden Figur
 | MD-FI, MD-EM, MD-SK, MD-FL, MD-LA | `kr9Urtv9H9M`, `jwPRB86SfGY`, `3JghPtGYdUI`, `EmNirZEBzuk`, `79Bn2_BdXQA` | Ultraclocked (Angeln), GameSpot (Emotes 2017), Aoterra, FLTR, glitchtutorial (Schwert-Skaten/-Fliegen) | 24–59 | showcase/retail | nur Form [O] |
 | MD-AJ, MD-AG, MD-FN, MD-FS | `2V_jR5JdK8I`, `q8WndXSY6f8`, `zWxsBjXG_g8`, `CP_YvP_TTM8` | AJ (Bug 2024), Mr. Dweebs (Bug 2023), CantWant und AditRaidaa (Finisher) | 30–60 | bug/showcase | nur Form [O] |
 | H-KW (Bestand) | [`3fClbInDPHo`](https://www.youtube.com/watch?v=3fClbInDPHo) 880–1440 s | Kawffee \| 10.01.2021 \| Destiny 2: Third-Person | 60 | glitch | erstmals durchgesehen: kein Rutschen, Ducken, keine Kante |
-| <a id="q-nis"></a>**WD-NIS** | [`nis07-5BXuo`](https://www.youtube.com/watch?v=nis07-5BXuo) | Ultraclocked \| 13.09.2026 \| Destiny 2 - All Weapon Reload Animations in 3 minutes 33 seconds (FINAL) | 60 (≈ 0,1 % Doppelbilder) | showcase / Ego, ohne HUD | 64 Nachlade-Abschnitte |
+| <a id="q-nis"></a>**WD-NIS** | [`nis07-5BXuo`](https://www.youtube.com/watch?v=nis07-5BXuo) | Ultraclocked \| 13.09.2026 \| Destiny 2 - All Weapon Reload Animations in 3 minutes 33 seconds (FINAL) | 60 (≈ 0,1 % Doppelbilder) | showcase / Ego, ohne HUD | 63 Nachlade-Abschnitte (64 Schnitte) |
 | **WD-XBI** | [`xBiUSxDcd2g`](https://www.youtube.com/watch?v=xBiUSxDcd2g) | Ultraclocked \| 22.10.2026 \| Destiny 2 vs Warframe - Weapon Reload Animations | 60 | Destiny Ego (dieselben Aufnahmen, Kapitel je Typ), Warframe außen | Typzuordnung, Warframe-Vergleich |
 | WD-K12, WD-8UW | [`kal12oig1oU`](https://www.youtube.com/watch?v=kal12oig1oU), [`8uW8m_W8akk`](https://www.youtube.com/watch?v=8uW8m_W8akk) | Ultraclocked \| 16.07.2026 \| All Exotic Weapon Reloads in 37 seconds \| Year 8/9; Ultraclocked \| 12.07.2025 \| … in 41 seconds \| Year 7 | 60 (0–2 Doppelbilder je Vorgang) | Ego, Normaltempo im Bestand belegt | Tempoprüfung WD-NIS |
 | WD-EV | [`F7WYbe19p-U`](https://www.youtube.com/watch?v=F7WYbe19p-U) | Evelyn-8 \| 09.02.2025 \| All Destiny 2 reload animations (Revenant) | ≈ 59 | Ego | Zweitaufnahme (Tempo) |
@@ -133,7 +133,7 @@ Reload-Wert sind unbekannt. Höhen in **Körperhöhen (KH)** der stehenden Figur
 | Gehen | außen [O] (Turm, Oberkörper; Bestand) | außen [M Lage] Gewehr −45° |
 | Laufen | außen [M vorl.] Titan 3,41 / Warlock 3,2–3,3 Schritte/s (Bestand) | außen [M vorl.] ≈ 3,3 Schritte/s; Joggen im Prolog ≈ 42 Bilder je Zyklus |
 | Sprint | nicht trennbar vom Lauf (keine Eingabeanzeige) | Bestand: Gewehr tief vor dem Bauch −30 bis −45°; von Lauf nicht trennbar |
-| **Ducken (Stand)** | **von außen nicht gefunden** – nur Ducken-Spam im Super ([Hub 0,07 KH](#r-teabag)) und Ausholhocke ([0,68 KH](#r-sentinel)) | **kein freies Ducken** [O]; Hocke nur in Deckung ([0,64 KH](#r-dv-deckung)) |
+| **Ducken (Stand)** | **von außen nicht gefunden** – nur Ducken-Spam im Super ([Hub 0,07 KH](#r-teabag)) und Ausholhocke ([≤ 0,68 KH](#r-sentinel)) | **kein freies Ducken** [O]; Hocke nur in Deckung ([0,64 KH](#r-dv-deckung)) |
 | **Geduckt gehen** | **von außen nicht gefunden** | nur als geduckter Lauf zwischen Deckungen ([Rumpf ≈ 45° vor](#r-dv-geduckt), 0,83 KH beim Losgehen) |
 | **Rutschen** | außen [M] Bestand H-NC ≈ 33 Bilder; [von vorn mit Schwert](#r-rutschen-vorn) [O] | – (gibt es nicht als freie Bewegung; „Rutschen über die Motorhaube“ als Vault in Stimmen) |
 | **Sprung** | außen [M] nur [Jäger mit Schwert und Luftangriff](#r-schwertsprung); Klassen-Sprünge (Lift, Gleiten, Dreifach) nur Bestand/Glitch [O] | kein freier Sprung; Sprung nur an Kanten ([Mauer](#r-dv-mauer), Geländer) |
@@ -448,7 +448,7 @@ Mit Grund – nicht mit denselben Quellen wiederholen:
   - Fach- und Spielerquellen selbst nachgeladen: K5 mit Fix-Text, K6 mit M60-Text; **alle 37 Reddit-IDs** über Arctic Shift (Sub, Titel, Datum,
     Punkte) – drei Daten um einen Tag auf UTC korrigiert.
 - **Übernommen und nicht übernommen:**
-  - **Übernommen:** die Mess- und Sichtzeilen der vier Messagenten (MD 33, MV 26, WD 64 Katalogabschnitte, 17 Phasen- und 7 Außenzeilen, WV 22) und
+  - **Übernommen:** die Mess- und Sichtzeilen der vier Messagenten (MD 33, MV 26, WD 63 Katalogabschnitte, 17 Phasen- und 7 Außenzeilen, WV 22) und
     37 Spieler- sowie 9 Fachquellen.
   - **Korrigiert:**
     - Die Kürzel R1–R39 des Rechercheagenten waren zwischen Tabelle und Liste verschoben; hier stehen die Reddit-IDs.
