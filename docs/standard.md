@@ -33,7 +33,7 @@ Sightline, Sperren, Belege) – die werden hier nicht wiederholt. Entstanden aus
 - **Status je Aussage:** **[M]** gemessen am Einzelbild oder per Bildvergleich · **[S]** Sekundärquelle (Wiki, Datenbank, API, Einblendung
   im Spiel, Fachanalyse) · **[B]** Entwickler (Patchnotes, Blog, Interview, GDC-Vortrag, ViDoc) · **[C]** Community oder Zuarbeit einer
   anderen Sitzung, nicht vollständig nachgeprüft · **[O]** Sichtung ohne belastbare Zahl. Mischangaben nennen alle zutreffenden Stufen.
-- **Jede Videoquelle** wird mit `yt-dlp --print "%(channel)s|%(upload_date)s|%(title)s" <id>` geprüft; eingetragen wird genau diese Ausgabe
+- **Jede Videoquelle** wird mit `yt-dlp --print "%(channel)s|%(upload_date)s|%(title)s" <id>` geprüft (am Mac als `info: <id>` über den einen Lader, [Vorlage](vorlagen/auftrag-analyse.md)); eingetragen wird genau diese Ausgabe
   (Kanal, ID, Hochladedatum) plus Bildrate und Zeitstempel. Kanal und Clip-Ersteller getrennt nennen. Spielstand prüfen (Destiny 1 oder 2,
   Patch, Season, Mod-Client).
 - Wiki- und Datenbankwerte mit URL und Abrufdatum; Entwickleraussagen mit URL, Datum und Sprecher.
@@ -42,7 +42,7 @@ Sightline, Sperren, Belege) – die werden hier nicht wiederholt. Entstanden aus
   Okt. 2017 mit einer Waffe je Klasse; Spielszenen mit HUD in PvE und PvP, ab 2018 nur 21–30 echte Bilder/s – ergiebig für Spielerurteile [C] aus den
   deutschen Auto-Untertiteln, Haltungen beim Laufen und im Sprint, Weltzoom vor Wänden, Einschlagbilder; nicht für Zeiten unter ± 33 ms, Sprinttakt
   und Raketenwerfer-Urteile, [destiny2 › 1](destiny2.md#1-quellen)); Twitch-Clips der Kanäle in [destiny2 › 2](destiny2.md#2-messungen-an-60-fps-aufnahmen-ab-16-oktober-2026--m).
-  Auto-Untertitel mit `yt-dlp --write-auto-subs --sub-langs de-orig` laden; Zitate wörtlich mit Zeitstempel, Hörfehler nicht „verbessern“, Lesart getrennt.
+  Auto-Untertitel mit `yt-dlp --write-auto-subs --sub-langs de-orig` laden (Lader: `subs: <id>`; nur Originalspuren, Übersetzungen drosselt YouTube mit 429); Zitate wörtlich mit Zeitstempel, Hörfehler nicht „verbessern“, Lesart getrennt.
 - **Urheberrecht:** keine fremden Bilder, Videos, Tonschnipsel, Texturen, Logos oder Filmstills im Repo – nur Beobachtungen, Zahlen,
   Zeitstempel, Links. Bei Filmen nur offizielle Trailer und Clips; Zitate höchstens eines unter 15 Wörtern je Quelle.
 

@@ -595,6 +595,9 @@ Vollständige Liste mit Datum, Sprecher, Zustimmung und Gegenstimmen in `data/au
 
 ## 7. Offen und nicht messbar
 
+**Stand nach REF 0.43 „Repertoire“:** Ducken, Rutschen, Sprünge, Deckung, Rolle und Nachladen je Waffentyp stehen als eigenes Thema in
+[repertoire.md](repertoire.md) (Katalog Destiny 2 und The Division 2); die offenen Punkte dort in [› 5](repertoire.md#5-offen-und-nicht-messbar).
+
 **Stand nach REF 0.42 „Momentum“:**
 - **Erledigt:** Lauf mit sichtbarer geführter Waffe (eine Szene), Rutschen (eine Szene), Fall- und Gleitlandung, Titan-Lauftakt an fester Vorlage über vier Zyklen (vorläufig) ([3.6](#36-bewegung-mit-waffe-von-außen--ref-042)).
 - **Weiter offen, mit Grund:** Sprintbeginn und -ende sowie Lauf gegen Sprint (kein Lagewechsel der Waffe im Lauf, keine Eingabe- oder HUD-Anzeige);

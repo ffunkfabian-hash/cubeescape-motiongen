@@ -29,8 +29,10 @@ abschließen, bevor das nächste beginnt“.>
 - Ergebnisdateien: Notizordner `<pfad>` als `<präfix>-<thema>.md`; falls nicht beschreibbar `…/<bereich>/ergebnisse/`.
 - Kein Repo-Auftrag: kein Branch, kein Commit, kein Push, in keinem Git-Repo etwas ändern; Repos nur lesen.
 - Werkzeuge: `export PATH=~/Library/Caches/CubeEscapeBallon/venv-media/bin:$PATH; export SSL_CERT_FILE=~/Library/Caches/CubeEscapeBallon/venv-media/lib/python3.12/site-packages/certifi/cacert.pem`;
-  Suche `yt-dlp --flat-playlist --print "%(id)s|%(title)s|%(duration)s|%(channel)s" "ytsearch10:<suche>"`; Laden
-  `python3 /Users/ffunk/Claude/cubeescape-reference/tools/reference_frames.py fetch "<url>" --out <ordner>`; Rasterbild `…/tools/grid.sh`;
+  **YouTube nur über den einen Lader** `~/Library/Caches/CubeEscape/reference/loader.sh <arbeitsordner>` (Koordinator startet ihn, Kopf
+  der Datei beschreibt alles): Zeilen an `queue.txt` anhängen – `such: <suche>`, `info: <id>`, `subs: <id>`, `<id>` oder `<id> <start>-<ende>` –
+  und die Ergebnisse in `such/`, `info/`, `subs/`, `clips/` abwarten; **nie yt-dlp selbst aufrufen** (fünf parallele Sucher lösten in 0.43 die
+  Bot-Sperre aus). Twitch-Clips weiter mit `python3 /Users/ffunk/Claude/cubeescape-reference/tools/reference_frames.py fetch "<url>" --out <ordner>`; Rasterbild `…/tools/grid.sh`;
   Bildmaßstab `…/tools/tmatch.py` mit `~/Library/Caches/CubeEscape/reference/visiere/venv/bin/python`.
 - Quellenpflicht, Bewertung (gut / nicht so gut / für wen / Spielerstimmen / Entwickler), Mindestmaß 5 Spieler- und 2 Fachquellen,
   Aufbau A–F mit Tabelle E und E2: wie `docs/standard.md` › 3, 4, 6.
