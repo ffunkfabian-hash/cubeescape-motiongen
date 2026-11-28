@@ -10,7 +10,7 @@
   (Division: Mündung in Ruhe −20 bis −50°, in Bereitschaft +70°, ein Beispiel; Destiny-Schwert bleibt beim Rutschen senkrecht).
 - **Daten:** `data/repertoire.json` (128 Beispiele, davon 8 Phasenzeilen zu Katalogabschnitten; 37 Spielerstimmen, 9 Fachquellen), Test `tests/test_repertoire_data.py`, `data/clips.json` + 9.
 - **Nachtrag 28.11.:** Division Magazin- und Röhrenschrot, SR-1, Seitenwaffen [O]; Destiny Nachladen von außen am HUD (Langwaffe 60–61, Handkanone 92 Bilder);
-  `repertoire.json` 148 Beispiele, `clips.json` + 4. Regel: YouTube nur über den einen Lader (Vorlage, Standard).
+  `repertoire.json` 149 Beispiele, `clips.json` + 4. Regel: YouTube nur über den einen Lader (Vorlage, Standard).
 - Bericht: [versions/0.md › 0.43.0](docs/versions/0.md#0430-repertoire--2026-11-27).
 
 ## 0.42.0 „Momentum“ – Destiny-Hüter in Bewegung mit Waffe von außen

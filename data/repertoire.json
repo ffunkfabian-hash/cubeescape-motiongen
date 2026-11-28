@@ -1628,9 +1628,9 @@
     30
    ],
    "duration_s": 0.52,
-   "pose": "Flinte steil (60–70°) vor der rechten Schulter, linke Hand lädt von unten",
+   "pose": "Flinte steil vor der rechten Schulter, projiziert ≈ 45° (n 1200, Blick von links hinten; 0.43 las 60–70° ohne weiteres Bild), linke Hand lädt von unten",
    "kh": null,
-   "notes": "Mittel der drei Abstände ≈ 31 B",
+   "notes": "Mittel der drei Abstände ≈ 31 B. Nachtrag 28.11.2026: Koordinator und Richter lesen am Bild n 1200 ≈ 40–45°.",
    "agent": "WV"
   },
   {
@@ -3566,14 +3566,20 @@
    "frames": {
     "file": "mk3V564-iHs_376-649",
     "last_shot": 7988,
-    "start": 7990,
+    "start": "7990–7999",
     "reserve": 8112,
     "mag_full": 8117,
     "ads_again": 8130,
     "hud_bright": 8137
    },
-   "duration_frames": 122,
-   "duration_s": 2.03,
+   "duration_frames": [
+    113,
+    122
+   ],
+   "duration_s": [
+    1.88,
+    2.03
+   ],
    "pose": "Lauf fast senkrecht (≈85°) vor der rechten Schulter, Mündung oben",
    "kh": null,
    "notes": "bis HUD-Reserve; bereit +147 B (2,45 s) Koordinator: Reserve 74 → 67 zwischen n 8111 und 8114 bestätigt; der Kopf senkt sich deutlich erst ab ≈ n 7999 – Start n 7990–7999, Dauer 113–122 Bilder.",
@@ -3648,7 +3654,7 @@
    "duration_s": 0.48,
    "pose": "Flinte tief in Hüfthöhe, Mündung vorn-oben ≈ +29° (Seitenansicht), rechte Hand am Griff",
    "kh": null,
-   "notes": "Start → 8/8 (7 Patronen) 180 B (3,00 s); letzte 2 Abstände im 47/s-Teil",
+   "notes": "Start → 8/8 (7 Patronen) 180 B (3,00 s); letzte 2 Abstände im 47/s-Teil Abstände 1–4 im 57/s-Fenster [M], die letzten zwei (n 10712–10770) im 47/s-Teil nur [O].",
    "agent": "wv2 (Nachtrag 28.11.2026)"
   },
   {
@@ -3907,6 +3913,35 @@
    "body_pose": "Anschlag mit Ballistikschild"
   },
   {
+   "game": "The Division 2",
+   "subject": "Gehen mit gezogenem Revolver",
+   "category": "hold_pose",
+   "class_or_weapon": "Revolver (Regulus)",
+   "view": "outside",
+   "capture": "retail",
+   "status": "O",
+   "source_id": "hiIqzpBSMvk",
+   "source_url": "https://www.youtube.com/watch?v=hiIqzpBSMvk",
+   "channel": "TuxedoBandido",
+   "upload_date": "2026-08-01",
+   "fps_real": 28,
+   "timestamp": 185.0,
+   "frames": {
+    "file": "hiIqzpBSMvk_161-240",
+    "n": [
+     1200,
+     1320
+    ]
+   },
+   "duration_frames": null,
+   "duration_s": null,
+   "pose": "Revolver in der hängenden rechten Hand an der Hüfte (≈ −90°), unscharf; Langwaffen am Rucksack",
+   "kh": null,
+   "notes": "28/s, nur Form",
+   "agent": "wv2 (Nachtrag 28.11.2026)",
+   "body_pose": "Gehen"
+  },
+  {
    "game": "Destiny 2",
    "subject": "Kadenz am Zähler",
    "category": "fire_pose",
@@ -3948,7 +3983,7 @@
    "fps_real": 59.94,
    "timestamp": 3.62,
    "frames": [
-    217,
+    218,
     279
    ],
    "duration_frames": 61,
@@ -3973,7 +4008,7 @@
    "fps_real": 59.94,
    "timestamp": 84.95,
    "frames": [
-    5092,
+    5093,
     5106,
     5126,
     5134,
@@ -3981,7 +4016,7 @@
    ],
    "duration_frames": 60,
    "duration_s": 1.0,
-   "pose": "[O] Waffe steil 65–70° links neben dem Kopf n 5106–5126, zurück in Trageschräge ab ≈ 5134",
+   "pose": "[O] Waffe steil 65–70° links neben dem Kopf n 5106–5126, danach wieder in Rückenlage ab ≈ 5134 (Bestand aussenansicht › Rücken)",
    "kh": null,
    "notes": "Körperende nicht sicher; Figur läuft weiter Koordinator am Zähler: 1 → 0 bei n 5093/5094, 0 → 33 bei n 5153 → 60 Bilder (Agent 61).",
    "agent": "md2 (Nachtrag 28.11.2026)"
@@ -4010,7 +4045,7 @@
    ],
    "duration_frames": null,
    "duration_s": null,
-   "pose": "zweimal steil (≈ 66° / 64°), dazwischen ≈ 38°; Zähler 10 → 33 bei n 878",
+   "pose": "zweimal steil (≈ 66° / 64°), dazwischen Rückenlage ≈ 38° (Bestand aussenansicht › Rücken); Zähler 10 → 33 bei n 878",
    "kh": null,
    "notes": "Beginn unklar, Kamera rückt nah",
    "agent": "md2 (Nachtrag 28.11.2026)"
@@ -4019,7 +4054,7 @@
    "game": "Destiny 2",
    "subject": "Aufsteigen auf Stufe",
    "category": "climb",
-   "class_or_weapon": "Titan (Bestand H-CC), Automatik",
+   "class_or_weapon": "Titan (Bestand H-CC)",
    "view": "outside",
    "capture": "bug",
    "status": "O",
@@ -4036,7 +4071,7 @@
    ],
    "duration_frames": 14,
    "duration_s": 0.23,
-   "pose": "Knie hoch, keine Hände, Waffe bleibt in Trageschräge",
+   "pose": "Knie hoch, keine Hände, Waffe bleibt in Rückenlage (Bestand aussenansicht › Rücken)",
    "kh": null,
    "notes": "±3; kein Hochziehen",
    "agent": "md2 (Nachtrag 28.11.2026)"
