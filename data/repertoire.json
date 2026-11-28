@@ -3654,7 +3654,7 @@
    "duration_s": 0.48,
    "pose": "Flinte tief in Hüfthöhe, Mündung vorn-oben ≈ +29° (Seitenansicht), rechte Hand am Griff",
    "kh": null,
-   "notes": "Start → 8/8 (7 Patronen) 180 B (3,00 s); letzte 2 Abstände im 47/s-Teil Abstände 1–4 im 57/s-Fenster [M], die letzten zwei (n 10712–10770) im 47/s-Teil nur [O].",
+   "notes": "Start → 8/8 (7 Patronen) 180 B (3,00 s); Abstände 1–4 im 57/s-Fenster [M], die letzten zwei (n 10712–10770) im 47/s-Teil nur [O].",
    "agent": "wv2 (Nachtrag 28.11.2026)"
   },
   {
@@ -3879,7 +3879,7 @@
    "duration_s": null,
    "pose": "tief in Hüfthöhe, Mündung vorn-oben, projiziert +27 bis +29°; rechte Hand Griff 45/80 %",
    "kh": null,
-   "notes": "Seitenansicht; widerspricht M870 steil 60–70° (0.43) – prüfen Koordinator: Lesung n 10700 ≈ 21°; am selben Blickwinkel M870 n 1200 ≈ 45° (0.43: 60–70°).",
+   "notes": "Blick von links hinten; M870 am selben Blickwinkel ≈ 45° (Koordinator, Richter); Koordinator: Lesung n 10700 ≈ 21°.",
    "agent": "wv2 (Nachtrag 28.11.2026)",
    "body_pose": "Stand, Nachladen Einzelpatronen"
   },
@@ -3925,7 +3925,7 @@
    "channel": "TuxedoBandido",
    "upload_date": "2026-08-01",
    "fps_real": 28,
-   "timestamp": 185.0,
+   "timestamp": 181.0,
    "frames": {
     "file": "hiIqzpBSMvk_161-240",
     "n": [
