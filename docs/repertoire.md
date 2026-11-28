@@ -65,6 +65,14 @@ Reload-Wert sind unbekannt. Höhen in **Körperhöhen (KH)** der stehenden Figur
     −11° beim Absprung, +7° bei der Landung.
   - **Sprint, Rutschen und Sprung mit Feuerwaffe:** sind von außen in keinem der beiden Spiele gemessen.
 
+- **Nachtrag 28.11.2026** (nach Ende der YouTube-Sperre, zwei weitere Messagenten, 8 neue Clips):
+  - **Division, Schrot und Präzision:** Magazin-Schrot [ACS-12 93, SASG-12 113–128 Bilder bis HUD](#r-dv-sasg), steil 75–85°.
+    [Röhrenflinte Super 90](#r-dv-super90): 29 Bilder je Patrone, lädt **tief vor der Hüfte (+20 bis +30°)**, flacher als die Pumpflinte.
+    Das Präzisionsgewehr SR-1 braucht 136 Bilder bis HUD.
+  - **Division, Seitenwaffen:** nur 24–28 echte Bilder/s, daher [O]. Ziehen der Pistole [≈ 18–20 Bilder](#r-dv-ziehen), Revolver steil neben dem Kopf.
+  - **Destiny 2, Nachladen von außen am HUD:** Langwaffe [60–61 Bilder vom letzten Schuss bis voll](#r-d2-nachladen-aussen), Waffe steil links neben dem
+    Kopf; Handkanone 92 Bilder. Ducken von außen gibt es weiter nur [ohne Maß](#r-d2-gegner-hocke).
+
 ## 1. Quellen und Methode
 
 - **Arbeitsweise:** Fünf Unteragenten mit je eigenem Ordner unter `~/Library/Caches/CubeEscape/reference/aussenansicht/repertoire/`:
@@ -76,6 +84,11 @@ Reload-Wert sind unbekannt. Höhen in **Körperhöhen (KH)** der stehenden Figur
 - **Bildrate:** Die echte Rate ist je Messfenster über den Anteil wiederholter Bilder geprüft. Zeiten stammen nur aus Fenstern mit ≈ 60 echten Bildern/s,
   30/s-Quellen nur für Form. Bildindex n = Containerbild (Zeit × Containerrate). Bei Abschnitts-Clips (`<id>_<a>-<b>`) zählt n ab dem Abschnittsbeginn,
   Videozeit = a + n/60. Marker ±1–3 Bilder je nach Zeile.
+- **Nachtrag (28.11.2026):** Alle YouTube-Abrufe liefen über einen Lader mit Pausen (Suche, Metadaten, Download). Zwei Messagenten (Opus, high):
+  Division Schrot/Präzision/Seitenwaffen `wv2/`, Destiny außen `md2/`. Der Koordinator prüfte 8 Stellen am Einzelbild: 6 bestätigt, 2 verworfen.
+  - **Verworfen 1:** Der Destiny-Agent las die Rückenwaffe in H-CC als neue „Tragehaltung −42°“. Der Bestand ([aussenansicht › Rücken](aussenansicht.md#a-h-ruecken))
+    hat genau diese Lage schon als verstaute Waffe gemessen (54° / 47°), die Hände sind leer.
+  - **Verworfen 2:** Seine Falldauer von ≈ 50 Bildern widerspricht dem Bestand (Aufsatz n 3487). Am Bild ist die Figur bei n 3468–3482 noch in der Luft.
 - **YouTube-Sperre:** Ab ≈ 23:25 verlangte YouTube für jeden yt-dlp-Abruf eine Bot-Prüfung, auch für Metadaten. Kanal, Datum und Titel prüften die
   Agenten vorher mit yt-dlp. Die Koordinator-Gegenprobe von Kanal und Titel lief danach über die oEmbed-Schnittstelle (ohne Datum).
 
@@ -89,6 +102,8 @@ Reload-Wert sind unbekannt. Höhen in **Körperhöhen (KH)** der stehenden Figur
 | **MD-TB** | [`MX6PRar-Iyw`](https://www.youtube.com/watch?v=MX6PRar-Iyw) | elitebeat DURNT \| 28.12.2021 \| how to D2 teabag faster | 59,94 | retail (Gambit) / außen (Arc Staff) | Ducken-Spam, Stabhaltung |
 | **MD-SF** | [`r29lliwIu_s`](https://www.youtube.com/watch?v=r29lliwIu_s) | JB3 \| 13.02.2022 \| Third Person Selfie Glitch | 60 | glitch (Titan, Schwert) / außen von vorn | Rutschen von vorn |
 | MD-FI, MD-EM, MD-SK, MD-FL, MD-LA | `kr9Urtv9H9M`, `jwPRB86SfGY`, `3JghPtGYdUI`, `EmNirZEBzuk`, `79Bn2_BdXQA` | Ultraclocked (Angeln), GameSpot (Emotes 2017), Aoterra, FLTR, glitchtutorial (Schwert-Skaten/-Fliegen) | 24–59 | showcase/retail | nur Form [O] |
+| MD2-AN, MD2-MT (Nachtrag) | [`eFXF-P8dtPQ`](https://www.youtube.com/watch?v=eFXF-P8dtPQ), [`noqzBxvSqy4`](https://www.youtube.com/watch?v=noqzBxvSqy4) | ANDI \| 12.02.2025 \| Destiny 2 3rd person all weapons glitch??; Mtashed \| 19.09.2019 \| Making Some Destiny 2 T-Baggers Cry | 60 | bug / außen (Titan, klein); retail PvP, Todeskamera | Handkanone am HUD; Gegnerhocke |
+| H-CC (Bestand, Nachtrag erneut) | [`vzcGQI-O_qc`](https://www.youtube.com/watch?v=vzcGQI-O_qc) | Canoecarver \| 06.02.2025 \| Destiny 2 in 3rd person. (bug) | 59,94 (0–1 Doppelbilder je Fenster) | bug / außen (Titan, Schulterkamera) | Nachladen am HUD und Körper; ganz durchgesehen: kein Ducken, Rutschen, Ausweichen, Gleiten, Hochziehen |
 | MD-AJ, MD-AG, MD-FN, MD-FS | `2V_jR5JdK8I`, `q8WndXSY6f8`, `zWxsBjXG_g8`, `CP_YvP_TTM8` | AJ (Bug 2024), Mr. Dweebs (Bug 2023), CantWant und AditRaidaa (Finisher) | 30–60 | bug/showcase | nur Form [O] |
 | H-KW (Bestand) | [`3fClbInDPHo`](https://www.youtube.com/watch?v=3fClbInDPHo) 880–1440 s | Kawffee \| 10.01.2021 \| Destiny 2: Third-Person | 60 | glitch | erstmals durchgesehen: kein Rutschen, Ducken, keine Kante |
 | <a id="q-nis"></a>**WD-NIS** | [`nis07-5BXuo`](https://www.youtube.com/watch?v=nis07-5BXuo) | Ultraclocked \| 13.09.2026 \| Destiny 2 - All Weapon Reload Animations in 3 minutes 33 seconds (FINAL) | 60 (≈ 0,1 % Doppelbilder) | showcase / Ego, ohne HUD | 63 Nachlade-Abschnitte (64 Schnitte) |
@@ -102,6 +117,8 @@ Reload-Wert sind unbekannt. Höhen in **Körperhöhen (KH)** der stehenden Figur
 | MV-SB, MV-AC, MV-RH, MV-NB | `JR8nS448aq8`, `FDYTVF-xP1M`, `mpTVp8KgQk8`, `bft3kqhKh-c` | ScereBro PSNU (Emotes), Acez (Schulterwechsel), Rachel H (Wiederbeleben, Bug), NothingButSkillz (Menü) | ≤ 35 bzw. Menü | retail/bug | nur Form [O] |
 | <a id="q-oc"></a>**V-OC1–3** | [`-CqNxaKFcD8`](https://www.youtube.com/watch?v=-CqNxaKFcD8), [`mk3V564-iHs`](https://www.youtube.com/watch?v=mk3V564-iHs), [`rb3hM7o6gxA`](https://www.youtube.com/watch?v=rb3hM7o6gxA) | OrcCorp \| 05.05.2019 (übrige Reihe ≈ Mai 2019) \| The Division 2 All Basic Assault Rifles & SMGs / LMGs & Shotguns / Marksman Rifles & Rifles (Showcase) | 60 (0–6 Wiederholungen je Fenster) | showcase (Schießstand) / außen | Nachladen je Klasse |
 | V-SW | `GjYMr8s8wjQ` | Sweitz \| 18.04.2020 \| That Reload Speed. | 50 | retail, Nachladetalente | nur Form: Nachladen kniend in Deckung |
+| V-TB (Nachtrag) | [`hiIqzpBSMvk`](https://www.youtube.com/watch?v=hiIqzpBSMvk) 161–240, 513–589 s | TuxedoBandido \| 01.08.2026 \| I Ranked All 13 Must-Have Sidearms in Division 2 | Container 60, **echt 24–28** | retail + Schießstand / außen | Seitenwaffen, Ziehen – nur [O] |
+| V-OC2/3 (Nachtrag) | `mk3V564-iHs` 376–649 s (Schrot-Kapitel), `rb3hM7o6gxA` 74–99 s (neu) | OrcCorp (wie oben) | 55–60 in den Messfenstern, Marine Super 90 46 | showcase / außen | Magazin- und Röhrenschrot, SR-1 |
 
 **Verworfen:**
 - `y1qCBaVKiQc`: Rainbow Six Siege, kein Destiny.
@@ -110,14 +127,16 @@ Reload-Wert sind unbekannt. Höhen in **Körperhöhen (KH)** der stehenden Figur
 - `6z9BfWiVIEQ`: fast nur Ego.
 - `0iClaH6VxhE`: 20–39/s.
 - `VZZtKZjewzY`: andere, ältere Aufnahmen; nur zur Typzuordnung versucht.
+- Nachtrag: `zOuaFLYJlCQ` (echt ≈ 30/s), `0wUsEQk5J2M` (nur Ego, ≈ 27/s), `d1gWKPQFZ18` (48/s, zu dunkel), `l7CkRni4ga8` (31.05.2017, Destiny 1, 30/s), `BaLjswEh_jA` (JB3, Kameramodus blendet die Figur aus), Division-Leiterclips
+  `OBp-9D77Ips`, `KcJdUXUDXEE`, `pRWOUUYrO4A` (30/s, nichts Neues gegenüber 0.43).
 
 **Nicht ladbar:**
 - `cdTDQpC6bh4`, `w4pH16hxehM`: Zeitlupe und Rückwärtsfassung von WD-NIS, nur für Kanalmitglieder.
-- `hiIqzpBSMvk`: Seitenwaffen Division, YouTube-Sperre.
+- `hiIqzpBSMvk`: Seitenwaffen Division – am 28.11. nachgeladen (Nachtrag), aber nur 24–28 echte Bilder/s.
 
 **Kandidaten für eine Folgesitzung** (Metadaten geprüft, nicht geladen):
 - **Division 60/s:** `bq3zuO7ZN1A`, `npHOc_HehsI`, `wKi980DRHe8`, `oLfOl6bNMfc`, `Ve_d57J6ZbY`, `EoBZ9IcAO2A`, `jH5yrWsAYZg`.
-- **Division-Kapitel:** halbautomatische Präzisionsgewehre in `rb3hM7o6gxA` 47–99 s, Magazin-Schrot in `mk3V564-iHs` 449–580 s.
+- **Division-Kapitel:** im Nachtrag erledigt – das Schrot-Kapitel lag schon im Abschnitt 376–649 s (in 0.43 fälschlich „nicht geladen“), 74–99 s nachgeladen.
 - **Destiny, Metadaten gesperrt:** `JjU2L3fBKNQ`, `1ITfE8_Ux6I`, `dnw6p9nT8dQ` (Ultraclocked-Schwertornamente), `l7CkRni4ga8`.
 
 ## 2. Ziel 1 – Bewegung und Posen
@@ -133,7 +152,7 @@ Reload-Wert sind unbekannt. Höhen in **Körperhöhen (KH)** der stehenden Figur
 | Gehen | außen [O] (Turm, Oberkörper; Bestand) | außen [M Lage] Gewehr −45° |
 | Laufen | außen [M vorl.] Titan 3,41 / Warlock 3,2–3,3 Schritte/s (Bestand) | außen [M vorl.] ≈ 3,3 Schritte/s; Joggen im Prolog ≈ 42 Bilder je Zyklus |
 | Sprint | nicht trennbar vom Lauf (keine Eingabeanzeige) | Bestand: Gewehr tief vor dem Bauch −30 bis −45°; von Lauf nicht trennbar |
-| **Ducken (Stand)** | **von außen nicht gefunden** – nur Ducken-Spam im Super ([Hub 0,07 KH](#r-teabag)) und Ausholhocke ([≤ 0,68 KH](#r-sentinel)) | **kein freies Ducken** [O]; Hocke nur in Deckung ([0,64 KH](#r-dv-deckung)) |
+| **Ducken (Stand)** | **von außen nicht gemessen** – nur Ducken-Spam im Super ([Hub 0,07 KH](#r-teabag)), Ausholhocke ([≤ 0,68 KH](#r-sentinel)) und eine Gegnerhocke in der Todeskamera ohne Maß ([O, Nachtrag](#r-d2-gegner-hocke)) | **kein freies Ducken** [O]; Hocke nur in Deckung ([0,64 KH](#r-dv-deckung)) |
 | **Geduckt gehen** | **von außen nicht gefunden** | nur als geduckter Lauf zwischen Deckungen ([Rumpf ≈ 45° vor](#r-dv-geduckt), 0,83 KH beim Losgehen) |
 | **Rutschen** | außen [M] Bestand H-NC ≈ 33 Bilder; [von vorn mit Schwert](#r-rutschen-vorn) [O] | – (gibt es nicht als freie Bewegung; „Rutschen über die Motorhaube“ als Vault in Stimmen) |
 | **Sprung** | außen [M] nur [Jäger mit Schwert und Luftangriff](#r-schwertsprung); Klassen-Sprünge (Lift, Gleiten, Dreifach) nur Bestand/Glitch [O] | kein freier Sprung; Sprung nur an Kanten ([Mauer](#r-dv-mauer), Geländer) |
@@ -166,6 +185,7 @@ Reload-Wert sind unbekannt. Höhen in **Körperhöhen (KH)** der stehenden Figur
 | Schwert-Slam, Schwert-Skaten, Sword-Fly [O] | MD-SW n 11040–11127; MD-SK; MD-FL | Fall mit Klinge nach unten, Staub, Aufrichten; Gleiten in hockeähnlicher Lage mit Rückenwaffe neben dem Schwert; Fliegen über Sprung-Angriff-Folgen (Figur 10–20 % H) |
 | Angeln, Emote-Vorschau, Finisher [O] | MD-FI n 1250–1320; MD-EM; MD-FN, MD-FS | Angeln: Rute beidhändig über die rechte Schulter zurück, Wurf, Rute ≈ 80° steil. Emotes (2017): keines mit Waffe; Taunt Dance in breiter Hocke ≈ 0,7–0,8 der Standhöhe (30/s, Kamera je Emote evtl. verschieden). Finisher mit Kamerafahrt, nur Form |
 | Lauf mit Langwaffe an der Schulter (Warlock, Bug 2024) [O] | MD-AJ n 120–2040 | weiße Langwaffe diagonal vorn an der rechten Schulter – bestätigt Bestand H-KW n 29060 |
+| **Hocke eines Gegners aus Sicht eines zweiten Spielers (Jäger, Nachtrag)** [O] <a id="r-d2-gegner-hocke"></a> | MD2-MT (`noqzBxvSqy4`) n 23366–23412, echte 60/s | Todeskamera folgt dem Gegner: n 23380–23396 **geduckt, breitbeinig, Rumpf vorgebeugt** (Umriss 24–27 pp H), ab n 23400 aufrecht, n 23406 laufend (44 pp H). Die Kamera rückt nach – **keine KH, keine Übergangsdauer**. Erste Hocke ohne Super von außen |
 
 ### 2.3 The Division 2 – Messzeilen
 
@@ -253,7 +273,9 @@ Zeiten nicht als Typ lesen.
 
 | Vorgang | Quelle, Zeit | Messung |
 |---|---|---|
-| Nachladen von außen je Typ | WD-JB, WD-MA, WD-AJ, Bestand H-CT/H-KW | **weiter nicht lesbar**. Im Bug-Video WD-MA springt der Zähler 0 → 59 in 96 Bildern, die Figur ist dabei von Fähigkeitseffekten verdeckt; bei WD-JB fällt der Zähler ohne Nachladen. Einziger Ablauf bleibt der Bestand: Langwaffe senkrecht neben dem Kopf, ≈ 78 Bilder ([aussenansicht › 3.5](aussenansicht.md#a-h-nachladen)) |
+| **Nachladen Langwaffe von außen, Titan (Nachtrag)** [M HUD]/[O Körper] <a id="r-d2-nachladen-aussen"></a> | Bestand H-CC (`vzcGQI-O_qc`): n 218 → 279 und n 5093 → 5153 | Automatik o. ä. (Magazin 33, Kadenz am Zähler 10 Bilder je Schuss [O]): **letzter Schuss → Zähler voll 60–61 Bilder (1,0 s), zweimal** (±1; Koordinator am Zähler bestätigt). Körper [O]: Waffe **steil ≈ 65–70° links neben dem Kopf** bei n 5106–5126, also vor dem Zählersprung; die Figur läuft dabei weiter. Bestand H-CT: 72 Bilder bis voll, ≈ 78 am Körper. Perks unbekannt |
+| **Nachladen Handkanone von außen, Titan (Nachtrag)** [M HUD] | MD2-AN (`eFXF-P8dtPQ`) n 587 → 679 | HUD-Symbol Trommelrevolver, Magazin 24: **letzter Schuss → voll 92 Bilder (1,53 s)**, Pause vor der Eingabe möglich; Körper klein bzw. verdeckt, nicht lesbar |
+| Nachladen von außen je Typ, sonst | WD-JB, WD-MA, WD-AJ, Bestand H-CT/H-KW | **weiter nicht lesbar**. Im Bug-Video WD-MA springt der Zähler 0 → 59 in 96 Bildern, die Figur ist dabei von Fähigkeitseffekten verdeckt; bei WD-JB fällt der Zähler ohne Nachladen. Einziger Ablauf bleibt der Bestand: Langwaffe senkrecht neben dem Kopf, ≈ 78 Bilder ([aussenansicht › 3.5](aussenansicht.md#a-h-nachladen)) |
 | **Schwert von außen (Titan, Lament)** [M Winkel] <a id="r-schwert-titan"></a> | WD-JB n 2220 (gleiche Form n 1620, 1920, 2520); n 2820 | Klinge **schräg vor dem Körper ≈ 58°**, Griff rechts unten auf Bauchhöhe, Klinge über die linke Schulter; beim Laufen quer auf Hüfthöhe nach rechts |
 | Primärwaffe feuern (Titan, Bug) [O] | WD-JB n 3720 | an der rechten Schulter, Oberkörper verdreht – bestätigt Bestand |
 | **Vergleich Warframe: Nachladen von außen** [M] | WD-XBI n 18322 → 18442 / 18491 | Schulterkamera hinten links; Gewehr aus der Vorhalte **≈ 52–55° nach rechts oben** gekippt, Rumpf und Schultern stehen, der Kopf neigt sich zur Waffe; 2,00 / 2,82 s (Warframe-Tempo nicht unabhängig belegt) |
@@ -274,7 +296,16 @@ Quelle: [OrcCorp-Showcases](#q-oc), Schießstand, Basiswaffen Stufe 30, Talente 
 | Gewehr, SOCOM M1A [M] | V-OC3 `_404-542` n 2728 → 2841 | fast senkrecht ≈ 80°, linke Hand unten am Schacht | **113 Bilder (1,88 s)** |
 | **LMG mit Magazin, Classic RPK-74** [M] <a id="r-dv-rpk"></a> | V-OC2 `_0-80` n 1890 → 2007 | **senkrecht ≈ 85° rechts neben dem Kopf**, linke Hand am Schacht, zurück in den Anschlag +137. Koordinator: senkrechte Waffe n 1997 am Bild bestätigt | **117 Bilder (1,95 s)** |
 | **LMG mit Gurt, Classic M60** [M] | V-OC2 `_237-305` n 1749 → 1935 | Figur dreht seitlich, **Waffe waagrecht in Hüfthöhe**, beide Hände oben am Gehäuse | **186 Bilder (3,10 s)** |
-| Pumpflinte M870, Einzelpatronen [M] | V-OC2 `_376-649` n 1134–1228 | Flinte steil 60–70°, linke Hand lädt von unten | **28 / 36 / 29–30 Bilder je Patrone (≈ 0,5 s)** |
+| Pumpflinte M870, Einzelpatronen [M] | V-OC2 `_376-649` n 1134–1228 | Flinte steil 60–70°, linke Hand lädt von unten (Nachtrag: Koordinator liest bei n 1200 projiziert ≈ 45°, Blick von links hinten) | **28 / 36 / 29–30 Bilder je Patrone (≈ 0,5 s)** |
+| **Magazin-Schrotflinte, ACS-12** (20 Schuss) [M] <a id="r-dv-acs"></a> | V-OC2 `_376-649` n 5508 → 5605 | Start ohne Pause nach dem letzten Schuss (n 5512 ±3), Waffe **steil ≈ 75°** rechts neben dem Kopf, Hände verdeckt; Fenster 55/s, Marker ±2 | **93 Bilder (1,55 s)** |
+| **Magazin-Schrotflinte, Tactical SASG-12 K** (7 Schuss) [M] <a id="r-dv-sasg"></a> | V-OC2 `_376-649` n 7990 → 8112, bereit n 8137 | Lauf **fast senkrecht ≈ 85°** vor der rechten Schulter, Mündung oben; Kamera zurück im Anschlag ≈ +140. Koordinator: Reserve 74 → 67 zwischen n 8111 und 8114 bestätigt; der Kopf senkt sich deutlich erst ab ≈ n 7999 – Start daher n 7990–7999 | **113–122 Bilder (1,9–2,0 s)**, bereit 147 |
+| Magazin-Schrotflinte, Black Market SASG-12 S [M] | V-OC2 `_376-649` n 9108 → 9236, bereit n 9261 | gleiche Form ≈ 85° (n 9170); Fenster 59/s | **128 Bilder (2,13 s)**, bereit 153 |
+| **Röhrenflinte Super 90, Einzelpatronen** [M] <a id="r-dv-super90"></a> | V-OC2 `_376-649` n 10590–10770 | **Flinte tief vor der Hüfte, ≈ +20 bis +30°** (n 10700; Koordinator ≈ 21°, Agent 27–29°), rechte Hand am Griff. Am selben Blickwinkel steht die M870 steiler (≈ 45°) – die Röhrenflinte lädt also flacher als die Pumpflinte. Koordinator: Reserve 98 → 97 bei n 10626 bestätigt. Marine Super 90 (leer, 46/s) [O]: 8 Patronen in 215 Bildern, Mittel 28,7 | **29 / 29 / 29 / 28 / 29 / 29 Bilder je Patrone (0,48 s)**; 7 Patronen ab Start 180 |
+| **Präzisionsgewehr mit Magazin, SR-1** [M] | V-OC3 `_74-99` n 1310 → 1446 | Fernrohr verlassen = Start (n 1310 ±1), Gewehr **fast senkrecht ≈ 84°** vor der rechten Schulter; die SR-1 verlässt auch zwischen den Schüssen das Fernrohr – ein Repetierer mit Magazin, kein Halbautomat [O] | **136 Bilder (2,27 s)** |
+| Halbautomat Paratrooper SVD [O] | V-OC3 `_13-74` n 1990–3640 | alle Schüsse im Fernrohr, nach dem letzten Schuss geht die Figur ohne Nachladen weg – **kein Nachladen von außen** in dieser Quelle | – |
+| Revolver Regulus [O] | V-TB `_161-240` n 1975 → 2067; Teilnachladen n ≈ 2596–2630 | rechte Hand hebt den Revolver **steil neben den Kopf (≈ 80–90°)** – dieselbe Kippform wie die Langwaffen; 28/s | ≤ 92 Bilder ab letztem Schuss |
+| Pistole Rapid 50 [O] | V-TB `_513-589` n 696 → 763 | Figur im Gegenlicht hinter Deckung, Hände nicht sichtbar; 28/s | 67 Bilder ab letztem Schuss bis voll |
+| **Ziehen: Langwaffe → Pistole (TDI Kard)** [O] <a id="r-dv-ziehen"></a> | V-TB `_513-589` n 4104–4140 | Gewehr über die rechte Schulter zum Rucksack (n 4112–4114) → rechte Hand an die rechte Hüfte → **Pistole in der Hand n 4130–4132**, dann einhändig tief vor der Hüfte. Bestand V-DS ≥ 18 Bilder passt; 24–28/s | ≈ 18–20 Bilder ab Gewehr weg |
 | Repetierer Model 700, Einzelpatronen [M] | V-OC3 `_13-74` n 1745–1916 | steil ≈ 70° | **43 / 43 / 37 Bilder je Patrone (0,62–0,72 s)** |
 | **Repetieren mit Ausstieg aus dem Zielfernrohr** [M] <a id="r-dv-bolt"></a> | V-OC3: Model 700 n 1183–1268; M44 n 744–828, 863–946 | Schuss → Fernrohr verlassen +11 → Hand am Kammerstängel, Waffe bleibt an der Schulter → Rückkehr ins Fernrohr beginnt **+66–67 Bilder** nach dem Verlassen; drei Zyklen, zwei Waffen gleich | 66–67 Bilder (1,1 s) |
 | Nachladen in niedriger Deckung [O] | V-SW n 1316–1416 (50/s, Talente) | Figur kniet hinter Sandsäcken, Waffe **tief, ≈ 30° unter der Waagrechten** – andere Form als im Stand; nur ein Beispiel | – |
@@ -286,7 +317,7 @@ Quelle: [OrcCorp-Showcases](#q-oc), Schießstand, Basiswaffen Stufe 30, Talente 
 
 | Typ | Sprint (Ego, Bestand) | Rutschen / Sprung | Nachladen (Ego, neu) | Außen (Halten, Feuern, Nachladen) |
 |---|---|---|---|---|
-| Handkanone | Waffe senkrecht, Lauf am oberen Rand | Rutschen: ≈ 10 % nach unten rechts, geneigt (Bestand) | einhändig, Trommel links, 2,1–2,9 s | – (Bestand H-CF2, 30/s: beidhändig) |
+| Handkanone | Waffe senkrecht, Lauf am oberen Rand | Rutschen: ≈ 10 % nach unten rechts, geneigt (Bestand) | einhändig, Trommel links, 2,1–2,9 s | – (Bestand H-CF2, 30/s: beidhändig); Nachladen nur am HUD 92 Bilder (Nachtrag) |
 | Seitenwaffe | senkrecht, ≈ 13° | – | senkrecht, Magazin unten links, 3,1 s | – |
 | Automatik/Impuls/Scout/MP | Gewehr quer unten Mitte, Lauf nach links unten; Impuls fast aus dem Bild | – | Mündung steil hoch rechts, linke Hand unten, 1,8–3,4 s | Feuern und Lauf vorn an der rechten Schulter (Bestand H-CT, H-KW ≈ 32°), Nachladen senkrecht neben dem Kopf (Bestand), Tragen diagonal am Rücken |
 | Schrotflinte | fast aus dem Bild | – | ≈ 60° hoch, Hülsen von unten, Pumpen am Ende | – |
@@ -310,6 +341,11 @@ Quelle: [OrcCorp-Showcases](#q-oc), Schießstand, Basiswaffen Stufe 30, Talente 
 | Vault | senkrecht in der rechten Hand | +90° [O] | rechte Hand | MV-SH n 8876 |
 | Nachladen (Magazinwaffen) | steil bis senkrecht vor der rechten Schulter | **+60 bis +85°** | rechte am Griff, linke am Schacht | 3.3 |
 | Nachladen Gurt-MG | waagrecht in Hüfthöhe | ≈ 0° | beide oben am Gehäuse | 3.3 |
+| Nachladen Magazin-Schrot, Präzisionsgewehr mit Magazin | steil vor der rechten Schulter | **+75 bis +85°** | verdeckt | [3.3](#r-dv-sasg) |
+| Nachladen Röhrenflinte (Super 90) | tief vor der Hüfte | **≈ +20 bis +30°** | rechte am Griff | [3.3](#r-dv-super90) |
+| Nachladen Revolver | steil neben dem Kopf, einhändig | ≈ +80 bis +90° [O] | rechte Hand | 3.3 |
+| Pistole mit Ballistikschild | gestreckter rechter Arm auf Augenhöhe | ≈ 0° [O] | einhändig (Schild links) | V-TB n 1440 |
+| Gehen mit gezogenem Revolver | hängend an der rechten Hüfte | ≈ −90° [O] | rechte Hand | V-TB n 1200 |
 | Nachladen in niedriger Deckung | tief, kniend | ≈ −30° [O] | – | V-SW |
 | Zielen im Laufen | angelegt | −15 bis −20° | beidhändig | Bestand V-DZ |
 | Rolle, Sprung, Fall, Hochziehen | **keine Waffe in der Hand**, Waffen am Rucksack | – | Hände stützen, Arme seitlich | MV-AB |
@@ -325,8 +361,8 @@ Bewegungsquellen meist ein Gewehr.
    vor der rechten Schulter – bei MP, Sturmgewehr, Gewehr und Magazin-LMG dieselbe Form. Bei Destiny (Bestand) steht die Langwaffe senkrecht neben dem
    Kopf; Warframe kippt ≈ 52–55° nach außen-oben, der Rumpf bleibt stehen.
 2. **Division unterscheidet die Klasse über die Dauer, Destiny über die Bauform.** In Division: MP 72–83 < Sturmgewehr 90 < Gewehr 113 < Magazin-LMG 117 <
-   Gurt-LMG 186 Bilder bis HUD. Destiny zeigt im Ego je Bauform einen eigenen Ablauf (Revolver, Trommel, Deckel, von oben), die Dauern überlappen stark.
-   Ausnahmen in beiden Spielen: Gurt-MG flach statt steil und am längsten.
+   Gurt-LMG 186 Bilder bis HUD; Magazin-Schrot 93–128, SR-1 136 (Nachtrag). Destiny zeigt im Ego je Bauform einen eigenen Ablauf (Revolver, Trommel, Deckel, von oben), die Dauern überlappen stark.
+   Ausnahmen in beiden Spielen: Gurt-MG flach statt steil und am längsten; in Division lädt auch die Röhrenflinte Super 90 tief (+20 bis +30°).
 3. **Ruhe unten, Bereitschaft oben (Division).** Die Mündung zeigt in Ruhe, Deckung und geduckt nach unten (Tragen −20 bis −45°, Deckung −35 bis −45°,
    geduckter Lauf −50°, seitlich am Pfeiler senkrecht), in Bereitschaft nach oben (+70°, ein Beispiel; Vault +90° [O]). Akrobatik geschieht mit freien Händen; die Waffen bleiben am Rucksack sichtbar.
 4. **Destiny-Schwert bleibt in der Hand.** Beim Rutschen steht es unverändert senkrecht, beim Sprung tief rechts-hinten, bei der Landung waagrecht. Mit
@@ -405,17 +441,19 @@ Mit Grund – nicht mit denselben Quellen wiederholen:
 - **Destiny 2, Grundbewegungen von außen:**
   - **Was fehlt:** echtes Ducken, geduckt Gehen, Übergang Stand ↔ Hocke, Sprungarten je Klasse ohne Schwert (Lift, Gleiten, Dreifachsprung),
     Hochziehen an Kanten, Jäger-Ausweichen und Sprinthaltung.
-  - **Warum:** In 21 geprüften Quellen und in H-KW 880–1440 s findet sich keine Aufnahme bei echten 60/s mit stehender Vergleichsfigur.
+  - **Warum:** In 21 geprüften Quellen und in H-KW 880–1440 s findet sich keine Aufnahme bei echten 60/s mit stehender Vergleichsfigur. Nachtrag: H-CC ganz durchgesehen
+    (keiner dieser Zustände), MD2-AN grob; die einzige Hocke von außen ist ein Gegner in der Todeskamera ohne festen Maßstab.
   - **Weg:** Sicht eines zweiten Spielers (Crucible-Clips mit Ducken von vorn, Twitch), Beta-Vergleiche nur für Form (`wXqpcJXcK_k`, `5JTOhdfcC_c`, 30/s)
     oder eigener Mitschnitt.
-- **Destiny 2, Nachladen von außen je Typ:** Handkanone, Schrot, Scharfschütze und Raketenwerfer sind von außen nicht gefunden. Die Bug-Videos zeigen den Vorgang
+- **Destiny 2, Nachladen von außen je Typ:** Schrot, Scharfschütze und Raketenwerfer sind von außen nicht gefunden; die Handkanone nur am HUD (92 Bilder, Nachtrag), der Körper nicht lesbar. Die Bug-Videos zeigen den Vorgang
   verdeckt oder zu klein, Suchen nach „both viewpoints“ treffen Destiny 1 oder 30/s. Dass es eigene Außenanimationen gibt, belegt K5.
 - **Destiny 2, Untertypen im Nachladekatalog** (Automatik/Impuls/Scout/MP, Handkanone/Seitenwaffe): Das Video blendet keine Namen ein. Weg: Ultraclocked-Einzelshowcases
   mit Menübild.
 - **Destiny 2, Waffenhaltung im Rutschen und Sprung je Typ (Ego):** Showcases bewegen sich nicht.
-- **The Division 2, Pistole/Revolver, Ziehen und Wechsel, Holster-Dauer:** Die Quelle `hiIqzpBSMvk` scheiterte an der YouTube-Sperre; der Bestand V-DS (≥ 18 Bilder)
-  bleibt der einzige Wert.
-- **The Division 2, Ende der Körperanimation beim Nachladen:** in allen Showcases verdeckt. Halbautomatische Präzisionsgewehre und Magazin-Schrot: Kapitel nicht geladen.
+- **The Division 2, Pistole/Revolver:** Der Nachtrag lud `hiIqzpBSMvk`, doch die Quelle hat nur 24–28 echte Bilder/s – Nachladen, Ziehen (≈ 18–20 Bilder) und
+  Revolverhaltung sind nur [O]; Wegstecken der Pistole nicht sichtbar. Weg: Seitenwaffen-Showcase mit echten 60/s.
+- **The Division 2, Ende der Körperanimation beim Nachladen:** in allen Showcases verdeckt. Halbautomatisches Präzisionsgewehr: die SVD wird im Showcase
+  nicht nachgeladen, die SR-1 ist ein Repetierer – ein Halbautomat von außen fehlt weiter.
 - **The Division 2, Nachladen in hoher Deckung, links/rechts, im Laufen, Sprint, Vault oder Rolle je Klasse:** nicht gefunden (Schießstand). Ob sich der Ablauf in Deckung
   ändert, zeigt nur ein Beispiel mit Talenten (V-SW, 50/s).
 - **The Division 2, weitere Bewegungen:**
@@ -463,7 +501,22 @@ Mit Grund – nicht mit denselben Quellen wiederholen:
   - 2 Spiele, Warframe als Vergleich.
   - 43 Video-IDs eingereiht (42 geladen, 1 gescheitert), dazu weitere nur per Metadaten geprüft. Gemessen bzw. ausgewertet je Agent:
     MD 9, MV 6, WD 8, WV 4 (einzelne Videos bei zwei Agenten).
-  - `data/repertoire.json` › `examples`: 128 Einträge = 63 Katalogabschnitte des Nachladevideos, 8 Phasenzeilen zu Katalogabschnitten derselben Aufnahme
-    (Feld `same_segment`) und 57 weitere Mess- und Sichtzeilen.
+  - `data/repertoire.json` › `examples`: 148 Einträge = 63 Katalogabschnitte des Nachladevideos, 8 Phasenzeilen zu Katalogabschnitten derselben Aufnahme
+    (Feld `same_segment`), 57 weitere Mess- und Sichtzeilen und 20 aus dem Nachtrag (Feld `agent` „wv2/md2 (Nachtrag 28.11.2026)“).
   - 37 Spieler- und 9 Fachquellen.
   - ≈ 20 eigene Prüfbilder des Koordinators.
+- **Nachtrag 28.11.2026:**
+  - **Nachmessung des Koordinators: 8 Stellen, 6 bestätigt, 2 verworfen.**
+  - **Bestätigt:**
+    - Tactical SASG-12 K: Reserve 74 → 67 zwischen n 8111 und 8114. Der Start ist unscharf (n 7990–7999), daher steht 113–122.
+    - Super 90: Reserve 98 → 97 bei n 10626.
+    - Haltung M870 gegen Super 90 am selben Blickwinkel: ≈ 45° gegen ≈ 21°.
+    - Destiny-Zähler 1 → 0 → 33 bei n 218/279 und 5093/5153: 60–61 statt 61–62 Bilder.
+    - Steile Waffe neben dem Kopf bei n 5116.
+    - Kapitel-Übersicht des Schrot-Abschnitts: 8 Bilder.
+  - **Verworfen:**
+    - „Tragehaltung −42°“: Das ist die Rückenwaffe des Bestands.
+    - Fall ≈ 50 Bilder: Bei n 3468–3482 ist die Figur noch in der Luft.
+  - **Klasse:** In H-CC laut Bestand Titan, nicht Warlock.
+  - **Nicht übernommen:** Lauf-Takt (2 Zyklen, Bestand hat 4) und Lanzensprung (unklar).
+  - **Quellen:** 8 neue Clips geladen bzw. Abschnitte nachgeladen, 26 IDs per Metadaten geprüft. Die Kanäle stammen aus `info:` des Laders, also yt-dlp nach der Sperre.
